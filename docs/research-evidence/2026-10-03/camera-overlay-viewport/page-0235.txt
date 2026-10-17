@@ -1,0 +1,42 @@
+addOverlay 235
+Example
+This statement adds the toon modifier to the model named Box.
+-- Lingo syntax
+member("shapes").model("Box").addModifier(#toon)
+// JavaScript syntax
+member("shapes").model("Box").addModifier(symbol("toon"));
+See also
+bonesPlayer (modifier), collision (modifier), inker (modifier), keyframePlayer 
+(modifier), lod (modifier), meshDeform (modifier), sds (modifier), toon 
+(modifier), getRendererServices(), removeModifier, modifier, modifier[], 
+modifiers
+addOverlay
+Usage
+-- Lingo syntax
+sprite(whichSprite).camera{(index)}.addOverlay(texture, \ 
+locWithinSprite, rotation)
+member(whichCastmember).camera(whichCamera).addOverlay(texture, \ 
+locWithinSprite, rotation)
+// JavaScript syntax
+sprite(whichSprite).camera{(index)}.addOverlay(texture, \ 
+locWithinSprite, rotation)
+member(whichCastmember).camera(whichCamera).addOverlay(texture, \ 
+locWithinSprite, rotation)
+Description
+3D camera command; adds an overlay to the end of a camera’s list of overlays.
+Parameters
+texture Required. The texture to apply to the overlay.
+locWithinSprite Required. A 2D loc at which the overlay is displayed in the 3D sprite. This 
+location is measured from the upper left corner of the sprite.
+rotation Required. An integer that specifies the number of degrees to rotate the texture.
+Example
+The first line of this statement creates a texture named Rough from the cast member named 
+Cedar and stores it in the variable t1. The second line applies the texture as an overlay at the point 
+(220, 220) within sprite 5. The texture has a rotation of 0 degrees. The last line of the statement 
+applies the same texture as an overlay for camera 1 of the cast member named Scene at the point 
+(20, 20). The texture has a rotation of 45 degrees.
+-- Lingo syntax
+t1 = member("Scene").newTexture("Rough", #fromCastMember,\ 
+member("Cedar"))
+sprite(5).camera.addOverlay(t1, point(220, 220), 0)
+member("Scene").camera[1].addOverlay(t1, point(20, 20), 45)

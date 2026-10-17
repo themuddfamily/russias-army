@@ -1,0 +1,71 @@
+{
+  "scope": "Passive 12-second frame extraction and visual boundary assessment; no matching, fitting, renderer or original runtime",
+  "originalRuntimeExecuted": false,
+  "cameraFitAttempted": false,
+  "rendererExecuted": false,
+  "sources": [
+    {
+      "path": "docs/research-evidence/2026-09-30/woodland-video-first45s.mp4",
+      "sha256": "069ea82b66ef3d2c0656ea81ea2e8fa939179245b5364077e59f213fcd7e5fc1"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-02/interior-approach-textures/woodland-video-12s.jpg",
+      "sha256": "e385da52953bf19abd812522d566346bebf84f6cdc40b004db862b75d3967701"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-02/interior-approach-textures/woodland-video-12s-provenance.json",
+      "sha256": "62d5c5bf51fa95d3725d47488dfef9f58dbab0fa590b8b981c69505f6ef8022f"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-02/interior-approach-textures/woodland-13s-source-boundary-inventory.json",
+      "sha256": "03c954d97c9da91b7bd6380b506540b02f8f358db7838f7c1ef5c4e97136dfc1"
+    }
+  ],
+  "imageSize": [
+    1280,
+    574
+  ],
+  "retainedJambCandidateIds": [
+    "A-jamb-0",
+    "A-jamb-1",
+    "A-jamb-2",
+    "A-jamb-3",
+    "B-jamb-4",
+    "B-jamb-5",
+    "B-jamb-6",
+    "B-jamb-7"
+  ],
+  "observations": [
+    {
+      "id": "12s-doorway-endpoint-check",
+      "role": "independent visibility diagnostic only; neither fit nor heldout correspondence",
+      "result": "No doorway silhouette or identified jamb endpoint visible; no finite source endpoint accepted."
+    },
+    {
+      "id": "12s-back-side-wall-junctions",
+      "role": "exploratory candidate family; excluded from fit and heldout measurements",
+      "result": "Apparent room corners and roof/wall junctions may be inspected against actual triangle-plane intersections and UV seams, but no 2D line has been assigned to a unique source edge or component."
+    },
+    {
+      "id": "12s-bright-roof-feature",
+      "role": "appearance observation only; excluded from geometric constraints",
+      "result": "Bright mark resembles the prior opaque photographic atlas feature; no geometric aperture or illumination claim."
+    },
+    {
+      "id": "12s-lower-wall-termination",
+      "role": "visibility diagnostic only; excluded from fit and heldout measurements",
+      "result": "Crop, rifle and rail texture prevent accepting a finite wall/floor source corner."
+    }
+  ],
+  "acceptedFiniteEndpoints": [],
+  "acceptedAdditionalLineFamilies": [],
+  "fitCorrespondences": [],
+  "heldoutCorrespondences": [],
+  "nextEvidenceRoute": "Passively compare actual source roof/wall plane intersection edges and their UV seam boundaries with the 12-second visible room junctions, retaining both components and wall alternatives; establish identity and fixed independent roles before any camera fit.",
+  "limits": [
+    "Timestamp is relative to the preserved 10 fps clip, not a native callback clock.",
+    "The 12-second image has not been geometrically registered to the 11- or 13-second image.",
+    "No source component, camera, native lighting or V12/V14 acceptance established.",
+    "Photographed timber rails and stains are not mesh boundary evidence by appearance alone."
+  ]
+}

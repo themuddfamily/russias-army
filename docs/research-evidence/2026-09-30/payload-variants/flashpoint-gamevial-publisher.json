@@ -1,0 +1,312 @@
+{
+  "url": "https://db-api.unstable.life/search?publisher=Gamevial&fields=id%2Ctitle%2Cdeveloper%2Cpublisher%2Cplatform%2Csource%2ClaunchCommand&limit=200",
+  "status": 200,
+  "results": [
+    {
+      "id": "076df810-d56a-4877-8f90-d9f6422b292a",
+      "title": "Cross-Pic",
+      "developer": "Gamevial",
+      "publisher": "Gamevial",
+      "platform": "Shockwave",
+      "source": "gamevial.com/playgames.php?game=crosspic (via Wayback Machine)",
+      "launchCommand": "http://www.gamevial.com/applets/crosspic.dcr"
+    },
+    {
+      "id": "09ebf6e2-2545-4bb7-b987-c3cda1306da4",
+      "title": "Tonrix",
+      "developer": "",
+      "publisher": "GameVial",
+      "platform": "Flash",
+      "source": "http://gamevial.com/applets/tonrix.swf (Via Wayback Machine)",
+      "launchCommand": "http://gamevial.com/applets/tonrix.swf"
+    },
+    {
+      "id": "0bd21206-e00f-4600-b6b0-ddacac9eaaaf",
+      "title": "Boris T. Rabbit's Egg Scramble",
+      "developer": "RedOvado",
+      "publisher": "Gamevial",
+      "platform": "Shockwave",
+      "source": "http://web.archive.org/web/20170910133557/http://gamevial.com/playgames.php?game=eggscramble",
+      "launchCommand": "http://cdn.discordapp.com/attachments/460981184898269194/755570067181404220/eggscramble.dxr --disableGoToNetPage"
+    },
+    {
+      "id": "14bdda03-eb40-45ef-b7ba-351ec65f55b5",
+      "title": "Pirates Cortez's Gold",
+      "developer": "Gamevial",
+      "publisher": "gamevial.com",
+      "platform": "Shockwave",
+      "source": "http://www.gamevial.com/pirates.htm (via Wayback Machine)",
+      "launchCommand": "http://www.gamevial.com/pirates.htm"
+    },
+    {
+      "id": "18cd672a-b025-40f6-8fcf-0b9371f5fb90",
+      "title": "The Runes",
+      "developer": "Gamevial",
+      "publisher": "Gamevial",
+      "platform": "Shockwave",
+      "source": "gamevial.com/playgames.php?game=therunes (via Wayback Machine)",
+      "launchCommand": "http://www.gamevial.com/applets/therunes.dcr"
+    },
+    {
+      "id": "35ee28b2-0054-4682-9bb2-afca1d000b9d",
+      "title": "Fast-Trak 3D",
+      "developer": "Gamevial",
+      "publisher": "Gamevial",
+      "platform": "Shockwave",
+      "source": "gamevial.com (via Wayback Machine)",
+      "launchCommand": "http://gamevial.com/applets/fasttrak.dcr"
+    },
+    {
+      "id": "362a0139-1667-4e0b-a53f-7931fde59c2c",
+      "title": "Race John Clark",
+      "developer": "Gamevial",
+      "publisher": "Gamevial",
+      "platform": "Shockwave",
+      "source": "sites.google.com/view/legacyshockwave/shockwave-games/gamevial",
+      "launchCommand": "http://gamevial.com/applets/racejohn/racejohn.dir --disableGoToNetPage"
+    },
+    {
+      "id": "3cb00220-401d-43a0-ae43-8f527344805d",
+      "title": "Cooperville",
+      "developer": "Gamevial",
+      "publisher": "Gamevial",
+      "platform": "Shockwave",
+      "source": "gamevial.com (via Wayback Machine)",
+      "launchCommand": "http://gamevial.com/applets/cooperville/cooperville.dcr --disableGoToNetPage"
+    },
+    {
+      "id": "3d772116-517c-4c5c-b1bc-aefe3c537fa4",
+      "title": "Yggdrasil",
+      "developer": "Gamevial",
+      "publisher": "Gamevial",
+      "platform": "Flash",
+      "source": "gamevial.com/playgames.php?game=yggdrasil (via Wayback Machine)",
+      "launchCommand": "http://gamevial.com/applets/yggdrasil.swf"
+    },
+    {
+      "id": "3d931b6a-dda6-4d35-9579-569ed05b0311",
+      "title": "Dial Zero",
+      "developer": "Gamevial",
+      "publisher": "Gamevial",
+      "platform": "Flash",
+      "source": "gamevial.com/playgames.php?game=dialzero (via Wayback Machine)",
+      "launchCommand": "http://www.gamevial.com/applets/dialzero.swf"
+    },
+    {
+      "id": "43ba721f-e4de-46bb-952a-c913a5c185bc",
+      "title": "Tomato Country",
+      "developer": "",
+      "publisher": "GameVial",
+      "platform": "Flash",
+      "source": "http://gamevial.com/tomato.HTM (Via Wayback Machine)",
+      "launchCommand": "http://www.gamevial.com/applets/tomato.swf"
+    },
+    {
+      "id": "4c46f61b-87c5-4edf-8008-eaf03e7767c2",
+      "title": "Prisoner B12",
+      "developer": "Gamevial",
+      "publisher": "Gamevial",
+      "platform": "Shockwave",
+      "source": "gamevial.com (via Wayback Machine)",
+      "launchCommand": "http://gamevial.com/applets/prisonerb12.dcr --disableGoToNetPage"
+    },
+    {
+      "id": "54cebd83-f621-45ea-b1ae-cebd38c6bc06",
+      "title": "Road Rage 2",
+      "developer": "GameVial",
+      "publisher": "GameVial",
+      "platform": "Unity",
+      "source": "www.gamevial.com",
+      "launchCommand": "http://www.gamevial.com/applets/index.html"
+    },
+    {
+      "id": "59a7e159-43c4-41bb-8320-af215cc8b94f",
+      "title": "Sled City Racers",
+      "developer": "James Flowerdew",
+      "publisher": "Gamevial",
+      "platform": "Shockwave",
+      "source": "gamevial.com (via Wayback Machine)",
+      "launchCommand": "http://gamevial.com/applets/scr.dcr --disableGoToNetPage"
+    },
+    {
+      "id": "66089dbb-eb58-4cb5-9832-2f8684c25269",
+      "title": "The White Magic Programme",
+      "developer": "",
+      "publisher": "Gamevial",
+      "platform": "Shockwave",
+      "source": "gamevial.com/playgames.php?game=whitemagic (via Wayback Machine)",
+      "launchCommand": "http://www.gamevial.com/applets/WHITEMAGIC.dcr"
+    },
+    {
+      "id": "706940ec-1bf1-4274-a956-700edb23de1d",
+      "title": "Hull Creepers",
+      "developer": "Gamevial.com",
+      "publisher": "Gamevial.com",
+      "platform": "Shockwave",
+      "source": "Gamevial.com",
+      "launchCommand": "http://www.gamevial.com/applets/creepers.dcr --setTheRunMode \"Plugin\" --forceTheExitLock 0"
+    },
+    {
+      "id": "8a8b2f05-82f0-4b67-bda6-f1f98ac65c89",
+      "title": "Gamevial Site Logo",
+      "developer": "Gamevial",
+      "publisher": "Gamevial",
+      "platform": "Flash",
+      "source": "http://www.gamevial.com/ (via Wayback Machine)",
+      "launchCommand": "http://www.gamevial.com/applets/logo.swf"
+    },
+    {
+      "id": "8fb0cba0-8441-4a0e-afaf-b79260697099",
+      "title": "Chicken Thru Time",
+      "developer": "Gamevial.com",
+      "publisher": "Gamevial.com",
+      "platform": "Shockwave",
+      "source": "Gamevial.com",
+      "launchCommand": "http://www.gamevial.com/applets/chicken.dcr --setTheRunMode \"Plugin\" --forceTheExitLock 0"
+    },
+    {
+      "id": "9bb5c868-7621-4736-abb6-1ffe671508f7",
+      "title": "Murder Most Vintage",
+      "developer": "Gamevial.com; James Flowerdew",
+      "publisher": "Gamevial.com",
+      "platform": "Shockwave",
+      "source": "Gamevial.com",
+      "launchCommand": "http://www.gamevial.com/applets/murder.dcr --setTheRunMode \"Plugin\" --forceTheExitLock 0"
+    },
+    {
+      "id": "9f2fd322-e474-4e4c-b614-cef28e2e6413",
+      "title": "Space Gunner",
+      "developer": "Gamevial.com",
+      "publisher": "Gamevial.com",
+      "platform": "Shockwave",
+      "source": "Gamevial.com",
+      "launchCommand": "http://www.gamevial.com/applets/spacegunner.dcr --setTheRunMode \"Plugin\" --forceTheExitLock 0"
+    },
+    {
+      "id": "a55675c2-c870-4bbc-828c-0d6f1fe51708",
+      "title": "Cooperville Elite",
+      "developer": "Gamevial",
+      "publisher": "Gamevial",
+      "platform": "Unity",
+      "source": "gamevial.com (via Wayback Machine)",
+      "launchCommand": "http://gamevial.com/applets/coopervilleelite/coopervilleelite.html"
+    },
+    {
+      "id": "a9ef87fc-65ce-4fc7-959b-5b02b6f59c2d",
+      "title": "Small Car",
+      "developer": "",
+      "publisher": "Gamevial",
+      "platform": "Shockwave",
+      "source": "www.gamevial.com/playgames.php?game=smallcar (via Wayback Machine)",
+      "launchCommand": "http://www.gamevial.com/applets/smallcar.dcr"
+    },
+    {
+      "id": "b0399548-663d-42b9-b1c2-32dac2889bd0",
+      "title": "Sky Dogs",
+      "developer": "Gamevial",
+      "publisher": "Gamevial",
+      "platform": "Shockwave",
+      "source": "gamevial.com (via Wayback Machine)",
+      "launchCommand": "http://gamevial.com/applets/skydogs.dcr --disableGoToNetPage"
+    },
+    {
+      "id": "b3e1e058-8329-48b0-817c-791f1076b0be",
+      "title": "Baby Foot",
+      "developer": "Gamevial",
+      "publisher": "Gamevial",
+      "platform": "Shockwave",
+      "source": "gamevial.com/playgames.php?game=babyfoot (via Wayback Machine)",
+      "launchCommand": "http://www.gamevial.com/applets/babyfoot.dcr"
+    },
+    {
+      "id": "c1f1ade1-0610-48d7-8653-3d027c7102d3",
+      "title": "It's a Small Intestine",
+      "developer": "Gamevial",
+      "publisher": "Gamevial",
+      "platform": "Flash",
+      "source": "gamevial.com/playgames.php?game=intestine (via Wayback Machine)",
+      "launchCommand": "http://www.gamevial.com/applets/intestine.swf"
+    },
+    {
+      "id": "c58392d6-6bea-4a55-8aa2-e400753f4d35",
+      "title": "Saturn Rescue",
+      "developer": "Gamevial",
+      "publisher": "Gamevial",
+      "platform": "Shockwave",
+      "source": "gamevial.com/playgames.php?game=rescue (via Wayback Machine)",
+      "launchCommand": "http://www.gamevial.com/applets/rescue.dcr"
+    },
+    {
+      "id": "ca941ee9-db61-438d-8843-bc20c41a02b5",
+      "title": "LoTePaMeRa",
+      "developer": "Gamevial",
+      "publisher": "Gamevial",
+      "platform": "Shockwave",
+      "source": "https://web.archive.org/web/20080629020211/http://www.gamevial.com/lotepamera.htm",
+      "launchCommand": "http://www.gamevial.com/selif/lotepamera.dcr"
+    },
+    {
+      "id": "d0d135bf-b6c3-4c04-95d3-a58078484267",
+      "title": "Rocket Madness",
+      "developer": "",
+      "publisher": "Gamevial",
+      "platform": "Shockwave",
+      "source": "gamevial.com/playgames.php?game=rocket (via Wayback Machine)",
+      "launchCommand": "http://www.gamevial.com/applets/rocket.dcr"
+    },
+    {
+      "id": "d5eb740f-bb63-5d33-00a0-8d62451c1542",
+      "title": "Fly Like A Bird",
+      "developer": "Gamevial",
+      "publisher": "Gamevial.com",
+      "platform": "Shockwave",
+      "source": "Gamevial.com",
+      "launchCommand": "http://www.gamevial.com/applets/flylikeabird.dcr --forceTheExitLock 0"
+    },
+    {
+      "id": "d613b645-749a-45ae-97cb-647824db7a27",
+      "title": "Captain Carnage",
+      "developer": "",
+      "publisher": "Gamevial",
+      "platform": "Flash",
+      "source": "www.gamevial.com/playgames.php?game=carnage (via Wayback Machine)",
+      "launchCommand": "http://www.gamevial.com/applets/carnage.swf"
+    },
+    {
+      "id": "d799b8f3-e27b-4d55-a38e-ba946c86d214",
+      "title": "Lucid",
+      "developer": "Gamevial.com; IMIEGEA",
+      "publisher": "Gamevial.com",
+      "platform": "Shockwave",
+      "source": "Gamevial.com",
+      "launchCommand": "http://www.gamevial.com/applets/lucid.dcr --setTheRunMode \"Plugin\" --forceTheExitLock 0"
+    },
+    {
+      "id": "edfd0a19-80eb-4b4f-a558-3a2cdf6c2f44",
+      "title": "Santa Boarding",
+      "developer": "Gamevial",
+      "publisher": "Gamevial",
+      "platform": "Shockwave",
+      "source": "http://www.gamevial.com/playgames.php?game=santaboarding (via Wayback Machine)",
+      "launchCommand": "http://gamevial.com/applets/santaboarding.dcr"
+    },
+    {
+      "id": "f05faa94-8960-43fa-8f59-3ff1b4be8be7",
+      "title": "Ghost Hulk",
+      "developer": "Gamevial",
+      "publisher": "Gamevial",
+      "platform": "Flash",
+      "source": "gamevial.com/playgames.php?game=ghosthulk (via Wayback Machine)",
+      "launchCommand": "http://www.gamevial.com/applets/ghosthulk.swf"
+    },
+    {
+      "id": "fe20b944-a89c-4906-a3b1-9690bceda7a9",
+      "title": "Trigocity",
+      "developer": "Gamevial",
+      "publisher": "Gamevial",
+      "platform": "Shockwave",
+      "source": "gamevial.com (via Wayback Machine)",
+      "launchCommand": "http://gamevial.com/applets/trigocity.dcr --disableGoToNetPage"
+    }
+  ]
+}

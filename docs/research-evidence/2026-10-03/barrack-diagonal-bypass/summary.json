@@ -1,0 +1,10 @@
+{
+  "observations": 157,
+  "intersections": 0,
+  "contacts": 1598,
+  "contactModels": [
+    ""
+  ],
+  "doorTriggers": [],
+  "firstHorizontalContact": null
+}

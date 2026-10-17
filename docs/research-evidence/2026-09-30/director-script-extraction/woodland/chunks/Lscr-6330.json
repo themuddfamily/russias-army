@@ -1,0 +1,117 @@
+{
+  "totalLength": 854,
+  "totalLength2": 854,
+  "headerLength": 92,
+  "scriptNumber": 16,
+  "unk20": 5,
+  "parentNumber": -1,
+  "scriptFlags": 0,
+  "unk42": 0,
+  "castID": 196625,
+  "factoryNameID": -1,
+  "handlerVectorsCount": 0,
+  "handlerVectorsOffset": 854,
+  "handlerVectorsSize": 0,
+  "propertiesCount": 4,
+  "propertiesOffset": 92,
+  "globalsCount": 4,
+  "globalsOffset": 100,
+  "handlersCount": 3,
+  "handlersOffset": 108,
+  "literalsCount": 5,
+  "literalsOffset": 746,
+  "literalsDataCount": 68,
+  "literalsDataOffset": 786,
+  "propertyNameIDs": [
+    67,
+    37,
+    514,
+    496
+  ],
+  "globalNameIDs": [
+    68,
+    408,
+    28,
+    56
+  ],
+  "handlers": [
+    {
+      "nameID": 0,
+      "vectorPos": 65535,
+      "compiledLen": 218,
+      "compiledOffset": 246,
+      "argumentCount": 4,
+      "argumentOffset": 464,
+      "localsCount": 0,
+      "localsOffset": 472,
+      "globalsCount": 0,
+      "globalsOffset": 100,
+      "unknown1": 106,
+      "unknown2": 8,
+      "lineCount": 30,
+      "lineOffset": 472,
+      "stackHeight": 5
+    },
+    {
+      "nameID": 4,
+      "vectorPos": 65535,
+      "compiledLen": 212,
+      "compiledOffset": 502,
+      "argumentCount": 1,
+      "argumentOffset": 714,
+      "localsCount": 1,
+      "localsOffset": 716,
+      "globalsCount": 0,
+      "globalsOffset": 100,
+      "unknown1": 865,
+      "unknown2": 41,
+      "lineCount": 22,
+      "lineOffset": 718,
+      "stackHeight": 6
+    },
+    {
+      "nameID": 10,
+      "vectorPos": 65535,
+      "compiledLen": 1,
+      "compiledOffset": 740,
+      "argumentCount": 1,
+      "argumentOffset": 742,
+      "localsCount": 0,
+      "localsOffset": 744,
+      "globalsCount": 0,
+      "globalsOffset": 100,
+      "unknown1": 1575,
+      "unknown2": 66,
+      "lineCount": 1,
+      "lineOffset": 744,
+      "stackHeight": 0
+    }
+  ],
+  "literals": [
+    {
+      "type": 1,
+      "offset": 0,
+      "value": "boomnew"
+    },
+    {
+      "type": 1,
+      "offset": 12,
+      "value": "rocket"
+    },
+    {
+      "type": 1,
+      "offset": 24,
+      "value": "bangrocket"
+    },
+    {
+      "type": 1,
+      "offset": 40,
+      "value": "grenade"
+    },
+    {
+      "type": 1,
+      "offset": 52,
+      "value": "banggrenade"
+    }
+  ]
+}

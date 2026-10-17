@@ -1,0 +1,94 @@
+property it, pnetid
+global gscore, goldscore, game, nom, gosubmit
+
+on beginSprite me
+  [  0] pushzero ................................ <0>
+  [  1] setglobal 4 ............................. gosubmit = 0
+  [  3] pusharglist 0 ........................... <>
+  [  5] extcall 6 ............................... <VOID>
+  [  7] setprop 5 ............................... pnetid = VOID
+  [  9] pushcons 0 .............................. <"russiasarmy">
+  [ 11] setglobal 7 ............................. game = "russiasarmy"
+  [ 13] pushint8 1 .............................. <1>
+  [ 15] setprop 8 ............................... it = 1
+  [ 17] ret
+end
+
+on mouseEnter me
+  [  0] pushint16 280 ........................... <280>
+  [  3] pusharglistnoret 1 ...................... <280>
+  [  5] extcall 10 .............................. cursor(280)
+  [  7] ret
+end
+
+on mouseLeave me
+  [  0] pushint8 1 .............................. <1>
+  [  2] inv ..................................... <-1>
+  [  3] pusharglistnoret 1 ...................... <-1>
+  [  5] extcall 10 .............................. cursor(-1)
+  [  7] ret
+end
+
+on exitFrame me
+  [  0] getprop 8 ............................... <it>
+  [  2] pushint8 2 .............................. <2>
+  [  4] eq ...................................... <it = 2>
+  [  5] jmpifz [ 50] ............................ if it = 2 then / else
+  [  8] getprop 5 ............................... <pnetid>
+  [ 10] pusharglist 1 ........................... <pnetid>
+  [ 12] extcall 11 .............................. <netDone(pnetid)>
+  [ 14] jmpifz [ 41] ............................ if netDone(pnetid) then / else
+  [ 17] getprop 5 ............................... <pnetid>
+  [ 19] pusharglist 1 ........................... <pnetid>
+  [ 21] extcall 12 .............................. <netTextResult(pnetid)>
+  [ 23] setlocal 0 .............................. inittext = netTextResult(pnetid)
+  [ 25] pushcons 1 .............................. <"http://www.gamevial.com/gameheroes.php?game=">
+  [ 27] getglobal 7 ............................. <game>
+  [ 29] joinstr ................................. <"http://www.gamevial.com/gameheroes.php?game=" & game>
+  [ 30] pusharglistnoret 1 ...................... <"http://www.gamevial.com/gameheroes.php?game=" & game>
+  [ 32] extcall 13 .............................. gotoNetPage("http://www.gamevial.com/gameheroes.php?game=" & game)
+  [ 34] pushint8 3 .............................. <3>
+  [ 36] setprop 8 ............................... it = 3
+  [ 38] jmp [ 47]
+  [ 41] pushint8 4 .............................. <4>
+  [ 43] pusharglistnoret 1 ...................... <4>
+  [ 45] extcall 10 .............................. cursor(4)
+  [ 47] jmp [118]
+  [ 50] getprop 8 ............................... <it>
+  [ 52] pushint8 1 .............................. <1>
+  [ 54] eq ...................................... <it = 1>
+  [ 55] jmpifz [118] ............................ if it = 1 then
+  [ 58] getglobal 4 ............................. <gosubmit>
+  [ 60] pushint8 1 .............................. <1>
+  [ 62] eq ...................................... <gosubmit = 1>
+  [ 63] jmpifz [118] ............................ if gosubmit = 1 then
+  [ 66] pushzero ................................ <0>
+  [ 67] setglobal 4 ............................. gosubmit = 0
+  [ 69] pushint8 2 .............................. <2>
+  [ 71] setprop 8 ............................... it = 2
+  [ 73] getglobal 20 ............................ <gscore>
+  [ 75] getglobal 19 ............................ <goldscore>
+  [ 77] pushcons 2 .............................. <7.29564379999999968>
+  [ 79] mul ..................................... <goldscore * 7.29564379999999968>
+  [ 80] nteq .................................... <gscore <> (goldscore * 7.29564379999999968)>
+  [ 81] jmpifz [ 87] ............................ if gscore <> (goldscore * 7.29564379999999968) then
+  [ 84] pushzero ................................ <0>
+  [ 85] setglobal 20 ............................ gscore = 0
+  [ 87] pushcons 3 .............................. <"http://www.gamevial.com/scoreboard_30days.php">
+  [ 89] setlocal 1 .............................. txturl = "http://www.gamevial.com/scoreboard_30days.php"
+  [ 91] pushcons 4 .............................. <"game">
+  [ 93] getglobal 7 ............................. <game>
+  [ 95] pushcons 5 .............................. <"score">
+  [ 97] getglobal 20 ............................ <gscore>
+  [ 99] pushcons 6 .............................. <"nickname">
+  [101] getglobal 18 ............................ <nom>
+  [103] pusharglist 6 ........................... <["game": game, "score": gscore, "nickname": nom]>
+  [105] pushproplist ............................ <["game": game, "score": gscore, "nickname": nom]>
+  [106] setlocal 2 .............................. yourdata = ["game": game, "score": gscore, "nickname": nom]
+  [108] getlocal 1 .............................. <txturl>
+  [110] getlocal 2 .............................. <yourdata>
+  [112] pusharglist 2 ........................... <txturl, yourdata>
+  [114] extcall 14 .............................. <postNetText(txturl, yourdata)>
+  [116] setprop 5 ............................... pnetid = postNetText(txturl, yourdata)
+  [118] ret
+end

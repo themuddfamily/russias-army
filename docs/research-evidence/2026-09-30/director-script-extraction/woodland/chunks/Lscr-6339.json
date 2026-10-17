@@ -1,0 +1,143 @@
+{
+  "totalLength": 746,
+  "totalLength2": 746,
+  "headerLength": 92,
+  "scriptNumber": 25,
+  "unk20": 5,
+  "parentNumber": -1,
+  "scriptFlags": 0,
+  "unk42": 0,
+  "castID": 196643,
+  "factoryNameID": -1,
+  "handlerVectorsCount": 16,
+  "handlerVectorsOffset": 714,
+  "handlerVectorsSize": 33152,
+  "propertiesCount": 2,
+  "propertiesOffset": 92,
+  "globalsCount": 5,
+  "globalsOffset": 96,
+  "handlersCount": 4,
+  "handlersOffset": 106,
+  "literalsCount": 7,
+  "literalsOffset": 504,
+  "literalsDataCount": 154,
+  "literalsDataOffset": 560,
+  "propertyNameIDs": [
+    606,
+    604
+  ],
+  "globalNameIDs": [
+    148,
+    152,
+    605,
+    17,
+    602
+  ],
+  "handlers": [
+    {
+      "nameID": 270,
+      "vectorPos": 65535,
+      "compiledLen": 22,
+      "compiledOffset": 290,
+      "argumentCount": 1,
+      "argumentOffset": 312,
+      "localsCount": 0,
+      "localsOffset": 314,
+      "globalsCount": 0,
+      "globalsOffset": 96,
+      "unknown1": 78,
+      "unknown2": 4,
+      "lineCount": 4,
+      "lineOffset": 314,
+      "stackHeight": 1
+    },
+    {
+      "nameID": 272,
+      "vectorPos": 7,
+      "compiledLen": 9,
+      "compiledOffset": 318,
+      "argumentCount": 1,
+      "argumentOffset": 328,
+      "localsCount": 0,
+      "localsOffset": 330,
+      "globalsCount": 0,
+      "globalsOffset": 96,
+      "unknown1": 163,
+      "unknown2": 11,
+      "lineCount": 1,
+      "lineOffset": 330,
+      "stackHeight": 2
+    },
+    {
+      "nameID": 273,
+      "vectorPos": 8,
+      "compiledLen": 9,
+      "compiledOffset": 332,
+      "argumentCount": 1,
+      "argumentOffset": 342,
+      "localsCount": 0,
+      "localsOffset": 344,
+      "globalsCount": 0,
+      "globalsOffset": 96,
+      "unknown1": 197,
+      "unknown2": 14,
+      "lineCount": 1,
+      "lineOffset": 344,
+      "stackHeight": 2
+    },
+    {
+      "nameID": 254,
+      "vectorPos": 15,
+      "compiledLen": 130,
+      "compiledOffset": 346,
+      "argumentCount": 1,
+      "argumentOffset": 476,
+      "localsCount": 3,
+      "localsOffset": 478,
+      "globalsCount": 0,
+      "globalsOffset": 96,
+      "unknown1": 230,
+      "unknown2": 18,
+      "lineCount": 20,
+      "lineOffset": 484,
+      "stackHeight": 7
+    }
+  ],
+  "literals": [
+    {
+      "type": 1,
+      "offset": 0,
+      "value": "russiasarmywood"
+    },
+    {
+      "type": 1,
+      "offset": 20,
+      "value": "http://www.gamevial.com/halloffame.htm"
+    },
+    {
+      "type": 9,
+      "offset": 64,
+      "value": 7.29564379999999968
+    },
+    {
+      "type": 1,
+      "offset": 76,
+      "value": "http://www.gamevial.com/scoreboard.php"
+    },
+    {
+      "type": 1,
+      "offset": 120,
+      "value": "game"
+    },
+    {
+      "type": 1,
+      "offset": 130,
+      "value": "score"
+    },
+    {
+      "type": 1,
+      "offset": 140,
+      "value": "nickname"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#a91d22" />
+    <meta name="description" content="Russia's Army — an independent browser FPS tribute to Barrack and Woodlands." />
+    <title>Russia's Army — Barrack &amp; Woodlands</title>
+  </head>
+  <body class="fidelity">
+    <div id="game"></div><div id="vignette"></div><div id="damage-flash"></div>
+    <svg class="svg-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><symbol id="army-emblem" viewBox="0 0 160 100"><path fill="currentColor" d="M20 34 51 15 77 21 55 38 50 31 109 85 98 95 41 40 29 48Z"/><path fill="currentColor" d="M119 7C148 23 160 48 148 71 129 108 63 106 9 90L13 82C59 94 107 96 128 70 141 53 136 27 119 7Z"/><path fill="currentColor" d="M20 73 64 33 72 41 31 82 15 87 10 81Z"/></symbol></defs></svg>
+
+    <section id="menu" class="panel menu-panel" aria-label="Main menu">
+      <div class="menu-angle" aria-hidden="true"></div>
+      <div class="menu-stripes" aria-hidden="true"></div>
+      <div class="menu-disk">
+        <div class="eyebrow">BARRACK / WOODLANDS</div>
+        <div id="menu-entry" class="menu-stage" aria-labelledby="entry-heading">
+        <h2 id="entry-heading">Enter your name</h2>
+        <label class="name-field" for="callsign">PLAYER NAME<input id="callsign" maxlength="20" value="COMRADE" autocomplete="nickname" /></label>
+        <div id="entry-note" role="status" aria-live="polite"></div>
+        <div class="map-field"><label for="map-select">CHOOSE A MAP</label><select id="map-select"><option value="barrack">Barrack</option><option value="woodlands">Woodlands</option></select></div>
+        <div class="mode-switch" aria-label="Play mode"><button id="mode-solo" class="active" type="button">OFFLINE BOTS</button><button id="mode-online" type="button">ONLINE ROOMS</button></div>
+        <button id="deploy" class="primary" type="button">PLAY</button>
+        <p id="entry-controls-hint" class="hint">M lists current members. Esc gives up. Tab cancels chat.</p>
+        </div>
+        <div id="menu-rooms" class="menu-stage hidden" aria-labelledby="rooms-heading">
+        <h2 id="rooms-heading">Choose a room</h2>
+        <p class="room-identity">Playing as <strong id="room-callsign">COMRADE</strong></p>
+        <div id="online-fields" class="online-fields hidden">
+          <div class="rooms-heading"><span>AVAILABLE ROOMS</span><button id="refresh-rooms" type="button">REFRESH</button></div>
+          <div id="room-list" role="group" aria-label="Available rooms"><p class="room-empty">Refresh to find available rooms.</p></div>
+          <label for="room-code">OR ENTER A ROOM NAME<input id="room-code" maxlength="32" value="BARRACK" autocomplete="off" /></label>
+          <div id="connection-note" role="status">Choose a room or enter a name to join.</div>
+        </div>
+        <button id="join-room" class="primary" type="button">JOIN ROOM</button>
+        <button id="back-entry" class="menu-back" type="button">BACK</button>
+        </div>
+      </div>
+      <div class="menu-wordmark" aria-label="Russia's Army, independent fan remake"><svg class="wordmark-emblem" viewBox="0 0 160 100" aria-hidden="true"><use href="#army-emblem" /></svg><h1>RUSSIA'S<br /><span>ARMY</span></h1><div class="edition">BARRACK &amp; WOODLANDS</div><p>INDEPENDENT FAN REMAKE</p></div>
+      <div class="menu-footer"><span>Inspired by Gamevial · Unaffiliated fan project</span><span>WASD MOVE · MOUSE LOOK · 1–6 WEAPONS</span></div>
+    </section>
+
+    <section id="pause" class="panel small-panel hidden" aria-label="Pause menu">
+      <div class="eyebrow">Russia's Army</div><h2>PAUSED</h2>
+      <button id="resume" class="primary" type="button">RESUME</button>
+      <div class="setting"><label for="controls-preset">CONTROLS</label><select id="controls-preset"><option value="legacy">Legacy · Shift sniper scope</option><option value="modern">Modern · right mouse to aim</option></select><p class="setting-note">Modern controls add Shift sprint. G throws hand grenades in offline bot matches.</p></div>
+      <div class="setting"><label for="sensitivity">LOOK SENSITIVITY</label><input id="sensitivity" type="range" min="0.3" max="1.8" step="0.1" value="1" /></div>
+      <div class="setting"><label for="arrow-movement"><input id="arrow-movement" type="checkbox" /> ARROW KEYS MOVE</label></div>
+      <div class="setting"><label for="volume">MASTER VOLUME</label><input id="volume" type="range" min="0" max="1" step="0.05" value="0.55" /></div>
+      <button id="restart-pause" class="ghost" type="button">REPLAY</button>
+    </section>
+
+    <section id="result" class="panel menu-panel result-panel hidden" aria-label="Match result">
+      <div class="menu-angle" aria-hidden="true"></div>
+      <div class="menu-stripes" aria-hidden="true"></div>
+      <div class="menu-disk result-disk">
+      <div class="eyebrow">GAME OVER</div><h2 id="result-title">GAME OVER</h2><div class="result-message"><div id="result-kicker" class="result-caption">Match complete</div>
+      <div id="result-stats" class="result-stats"></div></div>
+      <svg class="result-star" viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="m50 5 11 32 34 1-27 21 10 33-28-20-28 20 10-33L5 38l34-1z"/></svg>
+      <button id="restart" class="primary" type="button">REPLAY</button>
+      </div>
+      <div class="menu-wordmark" aria-label="Russia's Army, independent fan remake"><svg class="wordmark-emblem" viewBox="0 0 160 100" aria-hidden="true"><use href="#army-emblem" /></svg><h1>RUSSIA'S<br /><span>ARMY</span></h1><div class="edition">BARRACK &amp; WOODLANDS</div><p>INDEPENDENT FAN REMAKE</p></div>
+      <div class="menu-footer"><span>Inspired by Gamevial · Unaffiliated fan project</span><span>REPLAY TO CHOOSE A MAP OR ROOM</span></div>
+    </section>
+
+    <div id="hud" class="hidden">
+      <div class="topbar"><div class="mission"><span class="label">ОПЕРАЦИЯ</span><strong>RUSSIA'S ARMY</strong></div><div id="objective" class="objective"><i></i><span>FIRST TO LIMIT</span><b id="enemy-count">0 / 12</b></div><div id="leader-line">1ST YOU 0</div><div class="score"><span class="label">SCORE</span><strong id="score">0000</strong></div><div id="network-status">OFFLINE</div></div>
+      <div class="weapon-table-panel" aria-label="Weapons and ammunition"><table class="weapon-table"><caption>WEAPONS <span>AMMO</span></caption><tbody>
+        <tr data-weapon="pistol"><th scope="row"><span>1:</span> pistol</th><td id="ammo-pistol">8 / 64</td></tr>
+        <tr data-weapon="shotgun"><th scope="row"><span>2:</span> spas12</th><td id="ammo-shotgun">8 / 40</td></tr>
+        <tr data-weapon="rifle" class="active"><th scope="row"><span>3:</span> ak47</th><td id="ammo-rifle">30 / 150</td></tr>
+        <tr data-weapon="launcher"><th scope="row"><span>4:</span> rg6</th><td id="ammo-launcher">6 / 18</td></tr>
+        <tr data-weapon="rpg"><th scope="row"><span>5:</span> rpg</th><td id="ammo-rpg">1 / 5</td></tr>
+        <tr data-weapon="sniper"><th scope="row"><span>6:</span> dragunov</th><td id="ammo-sniper">10 / 40</td></tr>
+      </tbody></table><div class="current-ammo"><span id="weapon-name">AK-47</span> <b id="ammo">30</b><span>/</span><em id="reserve">150</em></div><div class="equipment"><span id="fire-mode">AUTO</span><span>GRENADE <b id="grenades">3</b></span></div></div>
+      <div class="health-panel"><div id="status-text">COMBAT READY</div><div class="health-row"><span aria-hidden="true">✚</span><img id="barrack-health" src="/assets/original-barrack-health/frame-001.svg" data-source-frame="1" width="64" height="64" alt="" aria-hidden="true" /><div class="woodland-health-cross" aria-hidden="true"><img src="/assets/legacy-woodland/healthempty.png" width="64" height="64" alt="" /><img id="woodland-health-full" src="/assets/legacy-woodland/healthfull.png" width="64" height="64" alt="" /></div><b id="health" aria-label="Health">100</b><div class="bar"><i id="health-bar"></i></div></div><div class="armor-row"><span>◇</span><b id="armor">50</b><div class="bar"><i id="armor-bar"></i></div></div></div>
+      <div class="legacy-score"><span>score</span>  <b id="legacy-score">0</b></div>
+      <div id="crosshair"><i></i><i></i><i></i><i></i><b></b></div>
+      <div id="scope-overlay"><div class="scope-glass"><i></i><b></b><em>4×24</em></div></div><div id="hitmarker">×</div><div id="kill-feed"></div><div id="prompt" role="status" aria-live="polite" aria-atomic="true"></div>
+      <div id="respawn-overlay"><span>KILLED IN ACTION</span><b id="respawn-time">1.3</b><em>RESPAWNING</em></div>
+      <div class="chat-panel"><div id="chat-log" role="log" aria-label="Match chat" aria-live="polite"></div><form id="chat-form" class="hidden" autocomplete="off"><label id="chat-label" for="chat-input">SAY</label><input id="chat-input" name="message" maxlength="180" aria-label="Chat message" placeholder="Type a message…" /><button type="submit">SEND</button></form></div>
+      <div class="hud-emblem" aria-hidden="true"><svg viewBox="0 0 160 100"><use href="#army-emblem" /></svg><span>RUSSIA'S<br /><b>ARMY</b><small>Comrades in arms</small></span></div>
+      <svg id="original-hurt-overlay" viewBox="0 0 128 128" aria-hidden="true"><image id="original-hurt-image" /></svg><div id="damage-direction"></div><div class="minimap"><div class="radar-sweep"></div><i class="player-dot"></i><div id="radar-dots"></div><span>N</span></div>
+    </div>
+    <div id="loading"><div class="loading-title">RUSSIA'S <b>ARMY</b></div><div class="loader-line"><i></i></div><span>LOADING BARRACK &amp; WOODLANDS</span></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

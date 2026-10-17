@@ -1,0 +1,21 @@
+# Remaining Woodlands / Barrack acceptance
+
+The authority for these nine gates is [the original checklist](FIDELITY_CHECKLIST.md). This document preserves its requirements and separates them from extra investigations introduced during implementation. The checklist remains 31/40; this review closes no gate.
+
+| Gate | Required result | Evidence still needed |
+| --- | --- | --- |
+| V10 | Trace Barrack ramps, stairs, roofs, doors, passages and jumpable gaps from continuous reference footage; validate traversal after blockout. | A continuous reference route and corresponding current traversal. Recovered geometry and isolated views are supporting evidence, not a complete route recording. |
+| V14 | Repeatable spawn, courtyard, roof, ramp, treeline and interior views for each map, with side-by-side images at comparable position, height, heading and approximate FOV. | Finish the actual reference/copy comparison set and record remaining camera uncertainty. Exact pixel registration, a held-out statistical fit and native raster equivalence are not requirements. |
+| V22 | Direct reference scope, hit, death and results states compared with the current presentation. | Current corresponding screens and direct historical state evidence. Recovered scripts/art support the implementation but do not replace every missing screen comparison. |
+| V23 | Compare each weapon slot's silhouette and screen footprint at idle, firing and aimed states. | All-slot comparison coverage beyond the present sharp AK/RG6 ordinary views. Do not invent aiming states absent from the target build. |
+| V25 | Compare all six weapon models, slot order, gun size, hand visibility, muzzle flash, reload and scope behavior. | Missing identified pistol/RPG views and insufficiently clear animation/state evidence for the other slots. Preserve uncertainty about exact real-world variant names. |
+| V28 | Inventory and compare recoil cadence, explosive timing, sounds, music and movement animation using continuous footage. | Audible reference footage and a corresponding current effects/audio review; the saved sharp Woodland clip is silent. |
+| G05 | Establish target-build round and Replay rules, including the historical lifecycle unresolved by brief guides. | Direct lifecycle evidence beyond the installed recovered death/GAME OVER/Replay handlers, including room-wide behavior and timing where material. |
+| G06 | Measure target-build speed, jump, health, armor, damage, headshots, cadence, spread, reload, projectile travel and blast behavior, then compare the copy. | A usable target runtime or equivalent measured reference records. The confirmed current frame-time loss needs repair. Exact runtime-Math certification and detached interval-query benchmark success are engineering investigations, not independently sufficient checklist acceptance. |
+| G07 | Verify the target spawn loadout and complete scavenging/drop/pickup rules. | End-to-end target behavior and corresponding current gameplay, including meaningful timing/contact coverage. Current source-derived constructors and CPU tests establish portions only. The original checklist specifies no 17/33-drop numerical acceptance threshold. Those tests remain useful regressions. |
+
+Browser previews remain stopped while the reported host memory problem is unresolved. Missing historical footage/runtime evidence is a research dependency; missing current captures also depend on resolving that browser issue. Do not change plausible visuals merely to manufacture a patch when no discrepancy is established.
+
+The rotating collision investigation has established a real current gameplay defect: some callbacks leave movement time unprocessed while later phases continue. Keep that issue visible and repair it without replaying gravity/contact side effects or advancing unchecked movement. The existing conditional interval approach is one possible investigation, not an additional promise of complete native Havok reconstruction.
+
+Older investigation plans remain historical records. Requirements they introduced beyond the checklist must not replace this acceptance scope or prevent a broadly verified visual match from being accepted under the checklist's stated criteria.

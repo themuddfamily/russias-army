@@ -1,0 +1,42 @@
+rotation 961
+rotation
+Usage
+-- Lingo syntax
+spriteObjRef.rotation
+// JavaScript syntax
+spriteObjRef.rotation;
+Description
+Sprite property; controls the rotation of a QuickTime movie, animated GIF , Flash movie, or 
+bitmap sprite within a sprite’s bounding rectangle, without rotating that rectangle or the sprite’s 
+controller (in the case of QuickTime). Read/write.
+In effect, the sprite’s bounding rectangle acts as a window through which you can see the Flash or 
+QuickTime movie. The bounding rectangles of bitmaps and animated GIFs change to 
+accommodate the rotating image. 
+Score rotation works for a Flash movie only if obeyScoreRotation is set to TRUE.
+A Flash movie rotates around its origin point as specified by its originMode property. A 
+QuickTime movie rotates around the center of the bounding rectangle of the sprite. A bitmap 
+rotates around the registration point of the image.
+For QuickTime media, if the sprite’s crop property is set to TRUE, rotating the sprite frequently 
+moves part of the image out of the viewable area; when the sprite’s crop property is set to FALSE, 
+the image is scaled to fit within the bounding rectangle (which may cause image distortion).
+You specify the rotation in degrees as a floating-point number. 
+The Score can retain information for rotating an image from +21,474,836.47° to 
+-21,474,836.48°, allowing 59,652 full rotations in either direction. 
+When the rotation limit is reached (slightly past the 59,652th rotation), the rotation resets to 
++116.47° or -116.48°—not 0.00°. This is because +21,474,836.47° is equal to +116.47°, and 
+-21,474,836.48° is equal to -116.48° (or +243.12°). T o avoid this reset condition, when you use 
+script to perform continuous rotation, constrain the angles to ±360°. 
+The default value of this property is 0.
+Example
+This behavior causes a sprite to rotate continuously by 2° every time the playhead advances, 
+limiting the angle to 360°:
+-- Lingo syntax
+property spriteNum
+on prepareFrame me
+sprite(spriteNum).rotation = integer(sprite(spriteNum).rotation + 2) mod 360
+end
+// JavaScript syntax
+function prepareFrame() {
+sprite(this.spriteNum).rotation = parseInt(sprite(this.spriteNum).rotation  
++ 2) % 360;
+}

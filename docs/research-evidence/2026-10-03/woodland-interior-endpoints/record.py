@@ -1,0 +1,12 @@
+from pathlib import Path
+import hashlib,json
+p=Path(__file__).resolve().parent
+root=p.parents[3]
+def digest(f):
+ with f.open('rb') as stream:return hashlib.file_digest(stream,'sha256').hexdigest()
+inputs=['docs/research-evidence/2026-09-30/woodland-video-first45s.mp4','docs/research-evidence/2026-10-03/woodland-interior-identity/identity.json','docs/research-evidence/2026-10-03/woodland-interior-identity/REPORT.md','public/assets/original-scenes/woodland/scene.json']
+data={'inputs':{s:digest(root/s) for s in inputs},'dimensions':[1280,574],'frames':[{'file':f'frame-{i:02d}.png','decodedZeroBasedFrame':n,'ptsSeconds':n/10,'sha256':digest(p/f'frame-{i:02d}.png')} for i,n in enumerate([215,217,219,221,223,225],1)],'nativeEndpointCandidates':[{'frame':'frame-05.png','description':'image-left opening top','pixelBox':[926,194,936,204],'conditionalSourceVertex':198},{'frame':'frame-05.png','description':'image-right opening top','pixelBox':[1136,145,1144,153],'conditionalSourceVertex':183},{'frame':'frame-06.png','description':'image-left opening top','pixelBox':[851,133,859,141],'conditionalSourceVertex':198}],'pixelBoxConvention':'inclusive xMin,yMin,xMax,yMax; conservative manual inspection boxes, not calibrated uncertainty','admittedSourceAnchors':[],'trainingHeldoutRolesAssigned':False,'cameraFitAttempted':False,'originalRuntimeExecuted':False,'floorCornerAlternatives':[178,193,186,224],'conditionalLeftRightOrder':['B','A'],'nativeProjectionHandednessIndependentlyEstablished':False,'limits':['Source gap identity remains conditional.','Native pitch and roll remain unproved.','Bottom endpoints are occluded or outside frame.','Far floor seam is not independently proven to be a mesh vertex.','Exterior cafe/tank source vertex identities were not established.'],'derivatives':[{'file':'top-endpoint-inspection.png','inputs':['frame-05.png','frame-06.png'],'cropBoxes':[[870,130,1030,270],[795,65,955,205]],'scale':4,'resampling':'nearest-neighbor','contrastAdjustment':False},{'file':'right-top-inspection.png','inputs':['frame-05.png'],'cropBoxes':[[1080,90,1200,260]],'scale':4,'resampling':'nearest-neighbor','contrastAdjustment':False}]}
+(p/'provenance.json').write_text(json.dumps(data,indent=2)+'\n')
+files=sorted(f for f in p.iterdir() if f.is_file() and f.name not in ['hashes.json','record.log'])
+(p/'hashes.json').write_text(json.dumps({str(f.relative_to(root)):digest(f) for f in files},indent=2)+'\n')
+print(json.dumps({'frames':len(data['frames']),'admittedSourceAnchors':0,'boundFiles':len(files)}))

@@ -1,0 +1,46 @@
+{
+  "status": "candidate-registration-not-established",
+  "candidateFit": "artifacts/fidelity-review/2026-10-01/current/woodland-15s-stonebarn-camera-fit.json",
+  "candidateFitSha256": "fe51eb57c2864061e7292120675e116fa76a91b98f0a1e02e1525df13fafeea9",
+  "scene": "public/assets/original-scenes/woodland/scene.json",
+  "sceneSha256": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107",
+  "camera": {
+    "x": 11.78469241646333,
+    "y": -4.174312729144826,
+    "z": 39.01874104349856
+  },
+  "query": {
+    "method": "runtime.geometry.playerSupportHeightAt",
+    "arguments": {
+      "x": 11.78469241646333,
+      "z": 39.01874104349856,
+      "maxY": -4.174312729144826,
+      "radius": 0.5058823529411764,
+      "bodyHeight": 1.011764705882353
+    },
+    "groundOnly": false
+  },
+  "supportHeight": -9.299587110643857,
+  "eyeAboveSupport": 5.125274381499032,
+  "sourceStandingEyeHeight": 1.72,
+  "standingHeightExcess": 3.405274381499032,
+  "originalScale": 0.02023529411764706,
+  "sourceStandingEyeUnits": 85,
+  "fitRmsPixels": 14.463854290658121,
+  "heldoutRmsPixels": 18.31801102083045,
+  "heldoutMaxPixels": 30.426388846475994,
+  "method": "Read candidate fit JSON and packaged geometry; load same server registered runtime; call actual radius-aware support query. No original runtime, rendering, GPU or gameplay simulation executed.",
+  "reproduction": "npx tsx -e 'import \"./server/original-scenes\"; import {getOriginalMapRuntime} from \"./shared/originalMapRuntime\"; const r=getOriginalMapRuntime(\"woodlands\"),p={x:11.78469241646333,y:-4.174312729144826,z:39.01874104349856}; const support=r.geometry.playerSupportHeightAt(p.x,p.z,p.y,r.profile.radius,r.profile.bodyHeight); console.log({camera:p,support,eyeAboveSupport:support===undefined?null:p.y-support,sourceStandingEyeHeight:r.profile.eyeHeight});'",
+  "interpretation": "The fitted eye is 5.12527 world units above recovered support rather than the source standing height of 1.72. This is inconsistent with a standing camera under the retained geometry; without evidence of an airborne original frame or a changed support surface, physical registration remains unproved.",
+  "versionEvidence": {
+    "referenceUploadDate": "2014-09-02",
+    "packagedPayload": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-woodland-20150618.dcr",
+    "limits": "The retrieval/archive date labels differ. They do not identify a changed game revision or prove any mesh difference. Asymmetric roof, open bay, broad/narrow doors and textures visibly agree at broad shape level. A geometry mismatch requires an independently identified older payload or repeatable feature discrepancy across frames."
+  },
+  "limits": [
+    "Manual pixel uncertainty understated semantic vertex identification risk; occluded eaves, jamb depth edges and soil/shadow transitions can be assigned to the wrong vertex.",
+    "The 15s fit residuals exceed most declared pixel uncertainties; those labels and fitted pose must remain failed candidates, not accepted by inflating uncertainties.",
+    "The solver fixes vertical focal length from full 574px frameheight, principalpoint at image center and FOV 50; unknown sprite rectangle/crop could invalidate that mapping even though source FOV 50 itself is supported.",
+    "The 16s frame gives larger clearer bay depth edges; independent fresh annotation may test identities without revising 15s heldout labels from fitted predictions."
+  ]
+}

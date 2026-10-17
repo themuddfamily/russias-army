@@ -1,0 +1,192 @@
+{
+  "edition": "woodland",
+  "cast_name": "baddy",
+  "cast_id": 2085,
+  "resource_id": 6373,
+  "source_sha256": "c6dfe68c0bd1929c69e2fc8877cadf2f798c104899191a0795bb28821e7e8cc0",
+  "wrapper_offset": 16,
+  "ifx_header_size": 8,
+  "ifx_version": 17,
+  "declared_length_matches": true,
+  "blocks": [
+    {
+      "offset": 16,
+      "type": "ffffff01",
+      "bytes": 4
+    },
+    {
+      "offset": 28,
+      "type": "ffffff02",
+      "bytes": 3
+    },
+    {
+      "offset": 40,
+      "type": "ffffff72",
+      "bytes": 104
+    },
+    {
+      "offset": 152,
+      "type": "ffffff96",
+      "bytes": 38
+    },
+    {
+      "offset": 200,
+      "type": "ffffff74",
+      "bytes": 202
+    },
+    {
+      "offset": 412,
+      "type": "ffffff71",
+      "bytes": 111
+    },
+    {
+      "offset": 532,
+      "type": "ffffff10",
+      "bytes": 90
+    },
+    {
+      "offset": 632,
+      "type": "ffffff10",
+      "bytes": 100
+    },
+    {
+      "offset": 740,
+      "type": "ffffff36",
+      "bytes": 184
+    },
+    {
+      "offset": 932,
+      "type": "ffffff45",
+      "bytes": 126
+    },
+    {
+      "offset": 1068,
+      "type": "ffffff67",
+      "bytes": 3863
+    },
+    {
+      "offset": 4940,
+      "type": "ffffff47",
+      "bytes": 32
+    },
+    {
+      "offset": 4980,
+      "type": "ffffff48",
+      "bytes": 299
+    },
+    {
+      "offset": 5288,
+      "type": "ffffff4b",
+      "bytes": 1383
+    },
+    {
+      "offset": 6680,
+      "type": "ffffff01",
+      "bytes": 4
+    },
+    {
+      "offset": 6692,
+      "type": "ffffff49",
+      "bytes": 18156
+    },
+    {
+      "offset": 24856,
+      "type": "ffffff01",
+      "bytes": 4
+    },
+    {
+      "offset": 24868,
+      "type": "ffffff49",
+      "bytes": 10265
+    }
+  ],
+  "block_counts": {
+    "ffffff01": 3,
+    "ffffff02": 1,
+    "ffffff72": 1,
+    "ffffff96": 1,
+    "ffffff74": 1,
+    "ffffff71": 1,
+    "ffffff10": 2,
+    "ffffff36": 1,
+    "ffffff45": 1,
+    "ffffff67": 1,
+    "ffffff47": 1,
+    "ffffff48": 1,
+    "ffffff4b": 1,
+    "ffffff49": 2
+  },
+  "nodes": [
+    {
+      "name": "GI",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        185.67984008789062,
+        -72.12818908691406,
+        76.5809326171875,
+        1.0
+      ],
+      "model_resource": "GI",
+      "style": "GI",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        185.67984008789062,
+        -72.12818908691406,
+        76.5809326171875
+      ]
+    }
+  ],
+  "model_resources": [
+    {
+      "name": "GI",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 742,
+          "faces": 832,
+          "update_data_count": 1352,
+          "updates": 419,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "GI",
+          "mesh_bindings": [
+            "20 - Default"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        0.0,
+        0.0,
+        0.0,
+        1726.8026123046875
+      ]
+    }
+  ],
+  "errors": [],
+  "parser_reference": "https://github.com/igorlira/dirplayer-rs/tree/68376fbb4494a6bbad4c70081ecdcb99814a74c9/vm-rust/src/director/chunks/w3d"
+}

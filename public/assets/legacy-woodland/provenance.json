@@ -1,0 +1,38 @@
+{
+  "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-woodland-20150618.dcr",
+  "source_movie_sha256": "d42aaf3cd5c5bdb1decee1f8b48271c7590e49dee9e6d06a0f2954f8c486245c",
+  "source_publisher_url": "https://www.gamevial.com/applets/russiasarmywood.dcr",
+  "archival_version_date": "2015-06-18",
+  "extraction_script": "scripts/research/extract-director.py",
+  "preview_script": "scripts/research/preview-director-media.py",
+  "game_executed": false,
+  "presentation_source": "Recovered goody.writestats: vphealth=100-(plives+1-pcheatflick). plives-pcheatflick normalizes stored health; preserve +1 display offset and bottom red reveal, without original anti-cheat health mutation. Empty PNG central pixel RGBA(0,0,0,50); full PNG RGBA(204,0,0,255).",
+  "assets": [
+    {
+      "file": "healthempty.png",
+      "sha256": "a3da650a5a95f0c63984d0da21f333e2b6e08647da0ee04ebb773a98c0339e5e",
+      "decoded_source": "docs/research-evidence/2026-09-30/director-extraction/woodland/media/04528-healthempty-rgba.png",
+      "cast_id": 4528,
+      "color_resource_id": 6545,
+      "alpha_resource_id": 6546,
+      "dimensions": [
+        64,
+        64
+      ],
+      "copy_transformation": "none; byte-exact copy of statically decoded original PNG"
+    },
+    {
+      "file": "healthfull.png",
+      "sha256": "f45b9e682bde84a761bb4af4efe7b02f0a72ee7050e1afee37d1d8a638541878",
+      "decoded_source": "docs/research-evidence/2026-09-30/director-extraction/woodland/media/04529-healthfull-rgba.png",
+      "cast_id": 4529,
+      "color_resource_id": 6549,
+      "alpha_resource_id": 6550,
+      "dimensions": [
+        64,
+        64
+      ],
+      "copy_transformation": "none; byte-exact copy of statically decoded original PNG"
+    }
+  ]
+}

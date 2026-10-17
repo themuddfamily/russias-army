@@ -1,0 +1,25 @@
+{
+  "actualFloatCameraRecheckedWithExactFractions": true,
+  "feetWithinConditionalSeamInterval": true,
+  "allEndpointRayHeightsStrictlyInsideGap": true,
+  "checks": [
+    {
+      "vertex": 143,
+      "t": 0.06975773096965435,
+      "u": 0.6507119476707416,
+      "gapHeight": -361.263466387504,
+      "clearanceAboveBottom": 90.89771601606046,
+      "clearanceBelowTop": 21.945485817374205
+    },
+    {
+      "vertex": 178,
+      "t": 0.04972247962124602,
+      "u": 0.400951133754928,
+      "gapHeight": -362.95736043910983,
+      "clearanceAboveBottom": 89.20382196445462,
+      "clearanceBelowTop": 23.63937796345625
+    }
+  ],
+  "nativeRuntimeClaim": false,
+  "admittedSourceAnchors": []
+}

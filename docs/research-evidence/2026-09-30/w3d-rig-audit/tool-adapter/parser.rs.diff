@@ -1,0 +1,17 @@
+--- /tmp/ra-w3d-static/src/director/chunks/w3d/parser.rs	2026-09-30 18:37:45.168231746 +0100
++++ /tmp/ra-w3d-rig-audit/src/director/chunks/w3d/parser.rs	2026-09-30 19:01:55.717724679 +0100
+@@ -896,6 +896,14 @@
+             let qy = r.read_f32()?;
+             let qz = r.read_f32()?;
+             let bone_attrs = r.read_u32()?;
++            // Bounded v17 experiment: three constraint-pair fields.
++            // Masks inferred against every record boundary in the preserved GI block.
++            for pair_mask in [0x09u32, 0x12u32, 0x24u32] {
++                if bone_attrs & pair_mask == pair_mask {
++                    if r.remaining() < 8 { return Err("v17 truncated optional pair".into()); }
++                    r.skip(8);
++                }
++            }
+ 
+             skeleton.bones.push(W3dBone {
+                 name: bone_name,

@@ -1,0 +1,158 @@
+[
+  {
+    "artifact": "barrack-2012-sheet-2.jpg",
+    "source_video": "KPsjHQLUY2E",
+    "source_url": "https://www.youtube.com/watch?v=KPsjHQLUY2E",
+    "retrieved": "2026-09-30",
+    "native_tile_dimensions": [
+      120,
+      90
+    ],
+    "sheet_index": 2,
+    "sample_interval_seconds": 4.918367346938776,
+    "first_sample_seconds": 245.91836734693882,
+    "sha256": "efbaa406d581d1838fa7e7e37b130a1de5580215183f5edd1c0f15bf9e183e8d",
+    "retrieval": "Original YouTube sb0 storyboard fragment; no upscaling or model reconstruction."
+  },
+  {
+    "artifact": "barrack-2012-sheet-3.jpg",
+    "source_video": "KPsjHQLUY2E",
+    "source_url": "https://www.youtube.com/watch?v=KPsjHQLUY2E",
+    "retrieved": "2026-09-30",
+    "native_tile_dimensions": [
+      120,
+      90
+    ],
+    "sheet_index": 3,
+    "sample_interval_seconds": 4.918367346938776,
+    "first_sample_seconds": 368.87755102040825,
+    "sha256": "3784ed2fb762dd38b437c78af945b8a83e49d1482287982c5b30fa147805197e",
+    "retrieval": "Original YouTube sb0 storyboard fragment; no upscaling or model reconstruction."
+  },
+  {
+    "artifact": "barrack-2012-gray-gun-sample-50.png",
+    "derived_from": "barrack-2012-sheet-2.jpg",
+    "native_dimensions": [
+      120,
+      90
+    ],
+    "sample_index": 50,
+    "approx_timestamp_seconds": 245.91836734693882,
+    "extraction": "Native pixel crop, no interpolation. Timestamp inferred from storyboard sample interval, not decoded video frame.",
+    "sha256": "63f08bee129dd977de4c0ee026111c939ca1521342e413acae064bcc0cbd239a"
+  },
+  {
+    "artifact": "barrack-2012-scope-sample-52.png",
+    "derived_from": "barrack-2012-sheet-2.jpg",
+    "native_dimensions": [
+      120,
+      90
+    ],
+    "sample_index": 52,
+    "approx_timestamp_seconds": 255.75510204081638,
+    "extraction": "Native pixel crop, no interpolation. Timestamp inferred from storyboard sample interval, not decoded video frame.",
+    "sha256": "e29d9c9b8fa5ed45d1f936df6dd8fa0b1f8fd49f0247e4e69d75a289347da5a8"
+  },
+  {
+    "artifact": "woodland-2014-sheet-3.jpg",
+    "source_video": "fkB8Yg9S1HM",
+    "source_url": "https://www.youtube.com/watch?v=fkB8Yg9S1HM",
+    "retrieved": "2026-09-30",
+    "native_tile_dimensions": [
+      200,
+      90
+    ],
+    "sheet_index": 3,
+    "sample_interval_seconds": 4.926229508196721,
+    "first_sample_seconds": 369.4672131147541,
+    "sha256": "60aff1bc629ffaf27a37a5fbf991c557bb30d74136e2f04ec29cd04981fa7c96",
+    "retrieval": "Original YouTube sb0 storyboard fragment; no upscaling or model reconstruction."
+  },
+  {
+    "artifact": "woodland-2014-sheet-4.jpg",
+    "source_video": "fkB8Yg9S1HM",
+    "source_url": "https://www.youtube.com/watch?v=fkB8Yg9S1HM",
+    "retrieved": "2026-09-30",
+    "native_tile_dimensions": [
+      200,
+      90
+    ],
+    "sheet_index": 4,
+    "sample_interval_seconds": 4.926229508196721,
+    "first_sample_seconds": 492.62295081967216,
+    "sha256": "fc374e62da55ea9b752821193c66ef0378ff781b1379f9abe95c15e2638e8173",
+    "retrieval": "Original YouTube sb0 storyboard fragment; no upscaling or model reconstruction."
+  },
+  {
+    "artifact": "woodland-2014-gray-gun-sample-75.png",
+    "derived_from": "woodland-2014-sheet-3.jpg",
+    "native_dimensions": [
+      200,
+      90
+    ],
+    "sample_index": 75,
+    "approx_timestamp_seconds": 369.4672131147541,
+    "extraction": "Native pixel crop, no interpolation. Timestamp inferred from storyboard sample interval, not decoded video frame.",
+    "sha256": "2c0b29277559b92ecc3813d92a53e02256f4d2d2774f35d5ce80421c2decaacb"
+  },
+  {
+    "artifact": "woodland-2014-dark-scoped-gun-sample-95.png",
+    "derived_from": "woodland-2014-sheet-3.jpg",
+    "native_dimensions": [
+      200,
+      90
+    ],
+    "sample_index": 95,
+    "approx_timestamp_seconds": 467.9918032786885,
+    "extraction": "Native pixel crop, no interpolation. Timestamp inferred from storyboard sample interval, not decoded video frame.",
+    "sha256": "375b10a6e0caae7c3af938c569c31c2da4a3c5419c378f2ed05b985b4ff69d0b"
+  },
+  {
+    "artifact": "woodland-2014-scope-sample-115.png",
+    "derived_from": "woodland-2014-sheet-4.jpg",
+    "native_dimensions": [
+      200,
+      90
+    ],
+    "sample_index": 115,
+    "approx_timestamp_seconds": 566.516393442623,
+    "extraction": "Native pixel crop, no interpolation. Timestamp inferred from storyboard sample interval, not decoded video frame.",
+    "sha256": "204cd3051e64e3099f0b03edbf30b881e6f1acfa1f703542ff267b572ae4aaac"
+  },
+  {
+    "artifact": "woodland-2014-spas12-sample-79.png",
+    "derived_from": "woodland-2014-sheet-3.jpg",
+    "native_dimensions": [
+      200,
+      90
+    ],
+    "sample_index": 79,
+    "approx_timestamp_seconds": 389.172131147541,
+    "extraction": "Native pixel crop, no interpolation. Identity inferred from yellow HUD row2, not readable text.",
+    "sha256": "795ac0d702e791444951bcc884850706c16f6344bc7cb32b5a541dd979d1c98c"
+  },
+  {
+    "artifact": "woodland-2014-spas12-sample-81.png",
+    "derived_from": "woodland-2014-sheet-3.jpg",
+    "native_dimensions": [
+      200,
+      90
+    ],
+    "sample_index": 81,
+    "approx_timestamp_seconds": 399.0245901639345,
+    "extraction": "Native pixel crop, no interpolation. Identity inferred from yellow HUD row2, not readable text.",
+    "sha256": "76f8e5be2d1af57decb94330e2876048e3bbf2a41a38303c7207e3d5c734fe35"
+  },
+  {
+    "artifact": "woodland-2014-spas12-sample-85.png",
+    "derived_from": "woodland-2014-sheet-3.jpg",
+    "native_dimensions": [
+      200,
+      90
+    ],
+    "sample_index": 85,
+    "approx_timestamp_seconds": 418.7295081967214,
+    "extraction": "Native pixel crop, no interpolation. Identity inferred from yellow HUD row2, not readable text.",
+    "sha256": "ad0ded5f0151cbdd442cfea48ea17af48e27a1a32f0946072f40152392e93a8c"
+  }
+]

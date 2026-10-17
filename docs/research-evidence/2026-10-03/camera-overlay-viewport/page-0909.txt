@@ -1,0 +1,39 @@
+paletteMapping 909
+Example
+This statement returns the height of the visible portion of the field cast member T oday’s News:
+--Lingo syntax
+trace(member("Today's News").pageHeight)
+// JavaScript syntax
+trace(member("Today's News").pageHeight);
+palette
+Usage
+-- Lingo syntax
+memberObjRef.palette
+// JavaScript syntax
+memberObjRef.palette;
+Description
+Cast member property; for bitmap cast members only, determines which palette is associated with 
+the cast member specified by whichCastMember. 
+This property can be tested and set.
+Example
+This statement displays the palette assigned to the cast member Leaves in the Message window:
+-- Lingo syntax
+put(member("Leaves").palette)
+// JavaScript syntax
+put(member("Leaves").palette);
+paletteMapping
+Usage
+-- Lingo syntax
+_movie.paletteMapping
+// JavaScript syntax
+_movie.paletteMapping;
+Description
+Movie property; determines whether the movie remaps (TRUE) or does not remap (FALSE, 
+default) palettes for cast members whose palettes are different from the current movie palette. 
+Read/write.
+The effect of this property is similar to that of the Remap Palettes When Needed check box in the 
+Movie Properties dialog box.
+T o display different bitmaps with different palettes simultaneously, set paletteMapping to TRUE. 
+Director looks at each onscreen cast member’s reference palette (the palette assigned in its Cast 
+Member Properties dialog box) and, if it is different from the current palette, finds the closest 
+match for each pixel in the new palette. 

@@ -1,0 +1,2527 @@
+{
+  "source_format_reference": "https://github.com/ProjectorRays/ProjectorRays/blob/master/src/director/chunk.cpp",
+  "cast_members": [
+    {
+      "id": 31,
+      "name": "explore",
+      "member_type": 11,
+      "info_length": 42,
+      "specific_data_length": 2
+    },
+    {
+      "id": 142,
+      "name": "gunfire",
+      "member_type": 6,
+      "info_length": 118,
+      "specific_data_length": 0
+    },
+    {
+      "id": 342,
+      "name": "hurt",
+      "member_type": 6,
+      "info_length": 115,
+      "specific_data_length": 0
+    },
+    {
+      "id": 482,
+      "name": "hotspots",
+      "member_type": 11,
+      "info_length": 43,
+      "specific_data_length": 2
+    },
+    {
+      "id": 512,
+      "name": "doors",
+      "member_type": 11,
+      "info_length": 40,
+      "specific_data_length": 2
+    },
+    {
+      "id": 513,
+      "name": "bangs",
+      "member_type": 11,
+      "info_length": 40,
+      "specific_data_length": 2
+    },
+    {
+      "id": 515,
+      "name": "offrock",
+      "member_type": 6,
+      "info_length": 118,
+      "specific_data_length": 0
+    },
+    {
+      "id": 516,
+      "name": "spas12wav",
+      "member_type": 6,
+      "info_length": 120,
+      "specific_data_length": 0
+    },
+    {
+      "id": 532,
+      "name": "barrels",
+      "member_type": 11,
+      "info_length": 42,
+      "specific_data_length": 2
+    },
+    {
+      "id": 554,
+      "name": "pickups",
+      "member_type": 11,
+      "info_length": 42,
+      "specific_data_length": 2
+    },
+    {
+      "id": 583,
+      "name": "baddies",
+      "member_type": 11,
+      "info_length": 42,
+      "specific_data_length": 2
+    },
+    {
+      "id": 584,
+      "name": "rockets",
+      "member_type": 11,
+      "info_length": 42,
+      "specific_data_length": 2
+    },
+    {
+      "id": 585,
+      "name": "grenades",
+      "member_type": 11,
+      "info_length": 43,
+      "specific_data_length": 2
+    },
+    {
+      "id": 587,
+      "name": "goody",
+      "member_type": 11,
+      "info_length": 40,
+      "specific_data_length": 2
+    },
+    {
+      "id": 948,
+      "name": "spatter",
+      "member_type": 1,
+      "info_length": 142,
+      "specific_data_length": 28
+    },
+    {
+      "id": 959,
+      "name": "miss",
+      "member_type": 11,
+      "info_length": 39,
+      "specific_data_length": 2
+    },
+    {
+      "id": 1003,
+      "name": "bangrocket",
+      "member_type": 1,
+      "info_length": 145,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1163,
+      "name": "blood",
+      "member_type": 11,
+      "info_length": 40,
+      "specific_data_length": 2
+    },
+    {
+      "id": 1175,
+      "name": "endgame",
+      "member_type": 11,
+      "info_length": 42,
+      "specific_data_length": 2
+    },
+    {
+      "id": 1459,
+      "name": "running game",
+      "member_type": 11,
+      "info_length": 47,
+      "specific_data_length": 2
+    },
+    {
+      "id": 1636,
+      "name": "worldphysics",
+      "member_type": 11,
+      "info_length": 47,
+      "specific_data_length": 2
+    },
+    {
+      "id": 1668,
+      "name": "sky",
+      "member_type": 1,
+      "info_length": 122,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1669,
+      "name": "scotspine",
+      "member_type": 1,
+      "info_length": 144,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1670,
+      "name": "huts",
+      "member_type": 1,
+      "info_length": 140,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1671,
+      "name": "workshop",
+      "member_type": 1,
+      "info_length": 144,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1672,
+      "name": "wirefence",
+      "member_type": 1,
+      "info_length": 144,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1673,
+      "name": "weeseperatehut",
+      "member_type": 1,
+      "info_length": 150,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1674,
+      "name": "hut",
+      "member_type": 1,
+      "info_length": 139,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1678,
+      "name": "bunker",
+      "member_type": 1,
+      "info_length": 142,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1679,
+      "name": "bigredfella",
+      "member_type": 1,
+      "info_length": 147,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1680,
+      "name": "biggreenfella",
+      "member_type": 1,
+      "info_length": 149,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1681,
+      "name": "havok",
+      "member_type": 15,
+      "info_length": 112,
+      "specific_data_length": 21
+    },
+    {
+      "id": 1835,
+      "name": "bigbarn",
+      "member_type": 1,
+      "info_length": 143,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1838,
+      "name": "garage",
+      "member_type": 1,
+      "info_length": 142,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1856,
+      "name": "rpg",
+      "member_type": 1,
+      "info_length": 139,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1862,
+      "name": "barn",
+      "member_type": 1,
+      "info_length": 140,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1873,
+      "name": "concrete",
+      "member_type": 1,
+      "info_length": 144,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1905,
+      "name": "weaponry",
+      "member_type": 11,
+      "info_length": 43,
+      "specific_data_length": 2
+    },
+    {
+      "id": 1911,
+      "name": "ak47",
+      "member_type": 1,
+      "info_length": 140,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1932,
+      "name": "stepwall",
+      "member_type": 1,
+      "info_length": 144,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2050,
+      "name": "cliffview",
+      "member_type": 1,
+      "info_length": 145,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2052,
+      "name": "rooms",
+      "member_type": 15,
+      "info_length": 121,
+      "specific_data_length": 448
+    },
+    {
+      "id": 2057,
+      "name": "joinroom",
+      "member_type": 11,
+      "info_length": 43,
+      "specific_data_length": 2
+    },
+    {
+      "id": 2064,
+      "name": "puff",
+      "member_type": 11,
+      "info_length": 39,
+      "specific_data_length": 2
+    },
+    {
+      "id": 2085,
+      "name": "baddy",
+      "member_type": 15,
+      "info_length": 105,
+      "specific_data_length": 355
+    },
+    {
+      "id": 2127,
+      "name": "spas12",
+      "member_type": 1,
+      "info_length": 142,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2161,
+      "name": "mfmachinegun",
+      "member_type": 1,
+      "info_length": 147,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2173,
+      "name": "decalspas",
+      "member_type": 1,
+      "info_length": 144,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2176,
+      "name": "noise",
+      "member_type": 1,
+      "info_length": 124,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2180,
+      "name": "pufft",
+      "member_type": 1,
+      "info_length": 140,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2185,
+      "name": "weapons",
+      "member_type": 15,
+      "info_length": 123,
+      "specific_data_length": 448
+    },
+    {
+      "id": 2186,
+      "name": "stats",
+      "member_type": 15,
+      "info_length": 121,
+      "specific_data_length": 448
+    },
+    {
+      "id": 2188,
+      "name": "fadeaway",
+      "member_type": 11,
+      "info_length": 43,
+      "specific_data_length": 2
+    },
+    {
+      "id": 2235,
+      "name": "decal",
+      "member_type": 1,
+      "info_length": 140,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2325,
+      "name": "muzzle",
+      "member_type": 11,
+      "info_length": 41,
+      "specific_data_length": 2
+    },
+    {
+      "id": 2326,
+      "name": "rg6",
+      "member_type": 1,
+      "info_length": 139,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2327,
+      "name": "M U S",
+      "member_type": 11,
+      "info_length": 40,
+      "specific_data_length": 2
+    },
+    {
+      "id": 2328,
+      "name": "GI",
+      "member_type": 1,
+      "info_length": 138,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2575,
+      "name": "hints",
+      "member_type": 15,
+      "info_length": 121,
+      "specific_data_length": 448
+    },
+    {
+      "id": 2879,
+      "name": "banggrenade",
+      "member_type": 1,
+      "info_length": 146,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2943,
+      "name": "repistol",
+      "member_type": 6,
+      "info_length": 43,
+      "specific_data_length": 0
+    },
+    {
+      "id": 3006,
+      "name": "submit",
+      "member_type": 11,
+      "info_length": 41,
+      "specific_data_length": 2
+    },
+    {
+      "id": 3030,
+      "name": "boomnew",
+      "member_type": 6,
+      "info_length": 42,
+      "specific_data_length": 0
+    },
+    {
+      "id": 3031,
+      "name": "grenade1",
+      "member_type": 6,
+      "info_length": 119,
+      "specific_data_length": 0
+    },
+    {
+      "id": 3032,
+      "name": "reak47",
+      "member_type": 6,
+      "info_length": 117,
+      "specific_data_length": 0
+    },
+    {
+      "id": 3034,
+      "name": "rerg6",
+      "member_type": 6,
+      "info_length": 116,
+      "specific_data_length": 0
+    },
+    {
+      "id": 3154,
+      "name": "floortop",
+      "member_type": 1,
+      "info_length": 144,
+      "specific_data_length": 28
+    },
+    {
+      "id": 3384,
+      "name": "flashlobby",
+      "member_type": 11,
+      "info_length": 45,
+      "specific_data_length": 2
+    },
+    {
+      "id": 3680,
+      "name": "door",
+      "member_type": 6,
+      "info_length": 115,
+      "specific_data_length": 0
+    },
+    {
+      "id": 3765,
+      "name": "health",
+      "member_type": 15,
+      "info_length": 221,
+      "specific_data_length": 229
+    },
+    {
+      "id": 3767,
+      "name": "pistol",
+      "member_type": 1,
+      "info_length": 142,
+      "specific_data_length": 28
+    },
+    {
+      "id": 3858,
+      "name": "talk",
+      "member_type": 15,
+      "info_length": 120,
+      "specific_data_length": 448
+    },
+    {
+      "id": 3895,
+      "name": "level1",
+      "member_type": 15,
+      "info_length": 130,
+      "specific_data_length": 355
+    },
+    {
+      "id": 3909,
+      "name": "hurtme",
+      "member_type": 6,
+      "info_length": 117,
+      "specific_data_length": 0
+    },
+    {
+      "id": 4056,
+      "name": "hurtrot",
+      "member_type": 15,
+      "info_length": 109,
+      "specific_data_length": 229
+    },
+    {
+      "id": 4127,
+      "name": "dragunov",
+      "member_type": 1,
+      "info_length": 144,
+      "specific_data_length": 28
+    },
+    {
+      "id": 4278,
+      "name": "sniper",
+      "member_type": 11,
+      "info_length": 41,
+      "specific_data_length": 2
+    },
+    {
+      "id": 4371,
+      "name": "giname",
+      "member_type": 15,
+      "info_length": 122,
+      "specific_data_length": 448
+    },
+    {
+      "id": 4515,
+      "name": "gunz",
+      "member_type": 15,
+      "info_length": 104,
+      "specific_data_length": 355
+    },
+    {
+      "id": 4516,
+      "name": "recycle and reuse",
+      "member_type": 11,
+      "info_length": 52,
+      "specific_data_length": 2
+    },
+    {
+      "id": 4527,
+      "name": "UI",
+      "member_type": 15,
+      "info_length": 128,
+      "specific_data_length": 229
+    },
+    {
+      "id": 4683,
+      "name": "resniper",
+      "member_type": 6,
+      "info_length": 119,
+      "specific_data_length": 0
+    },
+    {
+      "id": 4837,
+      "name": "generics",
+      "member_type": 11,
+      "info_length": 43,
+      "specific_data_length": 2
+    }
+  ],
+  "key_links": [
+    {
+      "child": 4888,
+      "parent": 142,
+      "tag": "ediM",
+      "name": "gunfire"
+    },
+    {
+      "child": 4890,
+      "parent": 142,
+      "tag": "snd ",
+      "name": "gunfire"
+    },
+    {
+      "child": 4882,
+      "parent": 342,
+      "tag": "ediM",
+      "name": "hurt"
+    },
+    {
+      "child": 4884,
+      "parent": 342,
+      "tag": "snd ",
+      "name": "hurt"
+    },
+    {
+      "child": 4852,
+      "parent": 515,
+      "tag": "ediM",
+      "name": "offrock"
+    },
+    {
+      "child": 4854,
+      "parent": 515,
+      "tag": "snd ",
+      "name": "offrock"
+    },
+    {
+      "child": 4858,
+      "parent": 516,
+      "tag": "ediM",
+      "name": "spas12wav"
+    },
+    {
+      "child": 4860,
+      "parent": 516,
+      "tag": "snd ",
+      "name": "spas12wav"
+    },
+    {
+      "child": 5116,
+      "parent": 948,
+      "tag": "ALFA",
+      "name": "spatter"
+    },
+    {
+      "child": 5117,
+      "parent": 948,
+      "tag": "Thum",
+      "name": "spatter"
+    },
+    {
+      "child": 5115,
+      "parent": 948,
+      "tag": "ediM",
+      "name": "spatter"
+    },
+    {
+      "child": 5108,
+      "parent": 1003,
+      "tag": "ALFA",
+      "name": "bangrocket"
+    },
+    {
+      "child": 5109,
+      "parent": 1003,
+      "tag": "Thum",
+      "name": "bangrocket"
+    },
+    {
+      "child": 5107,
+      "parent": 1003,
+      "tag": "ediM",
+      "name": "bangrocket"
+    },
+    {
+      "child": 5143,
+      "parent": 1024,
+      "tag": "Chan",
+      "name": ""
+    },
+    {
+      "child": 5134,
+      "parent": 1024,
+      "tag": "DRCF",
+      "name": ""
+    },
+    {
+      "child": 5148,
+      "parent": 1024,
+      "tag": "FCOL",
+      "name": ""
+    },
+    {
+      "child": 5135,
+      "parent": 1024,
+      "tag": "FXmp",
+      "name": ""
+    },
+    {
+      "child": 5150,
+      "parent": 1024,
+      "tag": "GRID",
+      "name": ""
+    },
+    {
+      "child": 5136,
+      "parent": 1024,
+      "tag": "MCsL",
+      "name": ""
+    },
+    {
+      "child": 5151,
+      "parent": 1024,
+      "tag": "MDFL",
+      "name": ""
+    },
+    {
+      "child": 5149,
+      "parent": 1024,
+      "tag": "PUBL",
+      "name": ""
+    },
+    {
+      "child": 5152,
+      "parent": 1024,
+      "tag": "SCRF",
+      "name": ""
+    },
+    {
+      "child": 5137,
+      "parent": 1024,
+      "tag": "Sord",
+      "name": ""
+    },
+    {
+      "child": 5147,
+      "parent": 1024,
+      "tag": "VERS",
+      "name": ""
+    },
+    {
+      "child": 5138,
+      "parent": 1024,
+      "tag": "VWFI",
+      "name": ""
+    },
+    {
+      "child": 5141,
+      "parent": 1024,
+      "tag": "VWLB",
+      "name": ""
+    },
+    {
+      "child": 5139,
+      "parent": 1024,
+      "tag": "VWSC",
+      "name": ""
+    },
+    {
+      "child": 5144,
+      "parent": 1024,
+      "tag": "XTRl",
+      "name": ""
+    },
+    {
+      "child": 5153,
+      "parent": 1025,
+      "tag": "SCRF",
+      "name": ""
+    },
+    {
+      "child": 5154,
+      "parent": 1026,
+      "tag": "SCRF",
+      "name": ""
+    },
+    {
+      "child": 5155,
+      "parent": 1027,
+      "tag": "SCRF",
+      "name": ""
+    },
+    {
+      "child": 5156,
+      "parent": 1028,
+      "tag": "SCRF",
+      "name": ""
+    },
+    {
+      "child": 5058,
+      "parent": 1668,
+      "tag": "ALFA",
+      "name": "sky"
+    },
+    {
+      "child": 5059,
+      "parent": 1668,
+      "tag": "Thum",
+      "name": "sky"
+    },
+    {
+      "child": 5057,
+      "parent": 1668,
+      "tag": "ediM",
+      "name": "sky"
+    },
+    {
+      "child": 5055,
+      "parent": 1669,
+      "tag": "ALFA",
+      "name": "scotspine"
+    },
+    {
+      "child": 5056,
+      "parent": 1669,
+      "tag": "Thum",
+      "name": "scotspine"
+    },
+    {
+      "child": 5054,
+      "parent": 1669,
+      "tag": "ediM",
+      "name": "scotspine"
+    },
+    {
+      "child": 5040,
+      "parent": 1670,
+      "tag": "ALFA",
+      "name": "huts"
+    },
+    {
+      "child": 5039,
+      "parent": 1670,
+      "tag": "BITD",
+      "name": "huts"
+    },
+    {
+      "child": 5041,
+      "parent": 1670,
+      "tag": "Thum",
+      "name": "huts"
+    },
+    {
+      "child": 5038,
+      "parent": 1670,
+      "tag": "ediM",
+      "name": "huts"
+    },
+    {
+      "child": 5036,
+      "parent": 1671,
+      "tag": "ALFA",
+      "name": "workshop"
+    },
+    {
+      "child": 5035,
+      "parent": 1671,
+      "tag": "BITD",
+      "name": "workshop"
+    },
+    {
+      "child": 5037,
+      "parent": 1671,
+      "tag": "Thum",
+      "name": "workshop"
+    },
+    {
+      "child": 5034,
+      "parent": 1671,
+      "tag": "ediM",
+      "name": "workshop"
+    },
+    {
+      "child": 5032,
+      "parent": 1672,
+      "tag": "ALFA",
+      "name": "wirefence"
+    },
+    {
+      "child": 5033,
+      "parent": 1672,
+      "tag": "Thum",
+      "name": "wirefence"
+    },
+    {
+      "child": 5031,
+      "parent": 1672,
+      "tag": "ediM",
+      "name": "wirefence"
+    },
+    {
+      "child": 5028,
+      "parent": 1673,
+      "tag": "ALFA",
+      "name": "weeseperatehut"
+    },
+    {
+      "child": 5027,
+      "parent": 1673,
+      "tag": "BITD",
+      "name": "weeseperatehut"
+    },
+    {
+      "child": 5029,
+      "parent": 1673,
+      "tag": "Thum",
+      "name": "weeseperatehut"
+    },
+    {
+      "child": 5026,
+      "parent": 1673,
+      "tag": "ediM",
+      "name": "weeseperatehut"
+    },
+    {
+      "child": 5024,
+      "parent": 1674,
+      "tag": "ALFA",
+      "name": "hut"
+    },
+    {
+      "child": 5023,
+      "parent": 1674,
+      "tag": "BITD",
+      "name": "hut"
+    },
+    {
+      "child": 5025,
+      "parent": 1674,
+      "tag": "Thum",
+      "name": "hut"
+    },
+    {
+      "child": 5022,
+      "parent": 1674,
+      "tag": "ediM",
+      "name": "hut"
+    },
+    {
+      "child": 5012,
+      "parent": 1678,
+      "tag": "ALFA",
+      "name": "bunker"
+    },
+    {
+      "child": 5011,
+      "parent": 1678,
+      "tag": "BITD",
+      "name": "bunker"
+    },
+    {
+      "child": 5013,
+      "parent": 1678,
+      "tag": "Thum",
+      "name": "bunker"
+    },
+    {
+      "child": 5010,
+      "parent": 1678,
+      "tag": "ediM",
+      "name": "bunker"
+    },
+    {
+      "child": 5008,
+      "parent": 1679,
+      "tag": "ALFA",
+      "name": "bigredfella"
+    },
+    {
+      "child": 5007,
+      "parent": 1679,
+      "tag": "BITD",
+      "name": "bigredfella"
+    },
+    {
+      "child": 5009,
+      "parent": 1679,
+      "tag": "Thum",
+      "name": "bigredfella"
+    },
+    {
+      "child": 5006,
+      "parent": 1679,
+      "tag": "ediM",
+      "name": "bigredfella"
+    },
+    {
+      "child": 5004,
+      "parent": 1680,
+      "tag": "ALFA",
+      "name": "biggreenfella"
+    },
+    {
+      "child": 5003,
+      "parent": 1680,
+      "tag": "BITD",
+      "name": "biggreenfella"
+    },
+    {
+      "child": 5005,
+      "parent": 1680,
+      "tag": "Thum",
+      "name": "biggreenfella"
+    },
+    {
+      "child": 5002,
+      "parent": 1680,
+      "tag": "ediM",
+      "name": "biggreenfella"
+    },
+    {
+      "child": 5000,
+      "parent": 1835,
+      "tag": "ALFA",
+      "name": "bigbarn"
+    },
+    {
+      "child": 4999,
+      "parent": 1835,
+      "tag": "BITD",
+      "name": "bigbarn"
+    },
+    {
+      "child": 5001,
+      "parent": 1835,
+      "tag": "Thum",
+      "name": "bigbarn"
+    },
+    {
+      "child": 4998,
+      "parent": 1835,
+      "tag": "ediM",
+      "name": "bigbarn"
+    },
+    {
+      "child": 5044,
+      "parent": 1838,
+      "tag": "ALFA",
+      "name": "garage"
+    },
+    {
+      "child": 5043,
+      "parent": 1838,
+      "tag": "BITD",
+      "name": "garage"
+    },
+    {
+      "child": 5045,
+      "parent": 1838,
+      "tag": "Thum",
+      "name": "garage"
+    },
+    {
+      "child": 5042,
+      "parent": 1838,
+      "tag": "ediM",
+      "name": "garage"
+    },
+    {
+      "child": 5076,
+      "parent": 1856,
+      "tag": "ALFA",
+      "name": "rpg"
+    },
+    {
+      "child": 5075,
+      "parent": 1856,
+      "tag": "BITD",
+      "name": "rpg"
+    },
+    {
+      "child": 5077,
+      "parent": 1856,
+      "tag": "Thum",
+      "name": "rpg"
+    },
+    {
+      "child": 5074,
+      "parent": 1856,
+      "tag": "ediM",
+      "name": "rpg"
+    },
+    {
+      "child": 4996,
+      "parent": 1862,
+      "tag": "ALFA",
+      "name": "barn"
+    },
+    {
+      "child": 4995,
+      "parent": 1862,
+      "tag": "BITD",
+      "name": "barn"
+    },
+    {
+      "child": 4997,
+      "parent": 1862,
+      "tag": "Thum",
+      "name": "barn"
+    },
+    {
+      "child": 4994,
+      "parent": 1862,
+      "tag": "ediM",
+      "name": "barn"
+    },
+    {
+      "child": 5020,
+      "parent": 1873,
+      "tag": "ALFA",
+      "name": "concrete"
+    },
+    {
+      "child": 5019,
+      "parent": 1873,
+      "tag": "BITD",
+      "name": "concrete"
+    },
+    {
+      "child": 5021,
+      "parent": 1873,
+      "tag": "Thum",
+      "name": "concrete"
+    },
+    {
+      "child": 5018,
+      "parent": 1873,
+      "tag": "ediM",
+      "name": "concrete"
+    },
+    {
+      "child": 5080,
+      "parent": 1911,
+      "tag": "ALFA",
+      "name": "ak47"
+    },
+    {
+      "child": 5079,
+      "parent": 1911,
+      "tag": "BITD",
+      "name": "ak47"
+    },
+    {
+      "child": 5081,
+      "parent": 1911,
+      "tag": "Thum",
+      "name": "ak47"
+    },
+    {
+      "child": 5078,
+      "parent": 1911,
+      "tag": "ediM",
+      "name": "ak47"
+    },
+    {
+      "child": 5048,
+      "parent": 1932,
+      "tag": "ALFA",
+      "name": "stepwall"
+    },
+    {
+      "child": 5047,
+      "parent": 1932,
+      "tag": "BITD",
+      "name": "stepwall"
+    },
+    {
+      "child": 5049,
+      "parent": 1932,
+      "tag": "Thum",
+      "name": "stepwall"
+    },
+    {
+      "child": 5046,
+      "parent": 1932,
+      "tag": "ediM",
+      "name": "stepwall"
+    },
+    {
+      "child": 5016,
+      "parent": 2050,
+      "tag": "ALFA",
+      "name": "cliffview"
+    },
+    {
+      "child": 5015,
+      "parent": 2050,
+      "tag": "BITD",
+      "name": "cliffview"
+    },
+    {
+      "child": 5017,
+      "parent": 2050,
+      "tag": "Thum",
+      "name": "cliffview"
+    },
+    {
+      "child": 5014,
+      "parent": 2050,
+      "tag": "ediM",
+      "name": "cliffview"
+    },
+    {
+      "child": 4919,
+      "parent": 2052,
+      "tag": "Thum",
+      "name": "rooms"
+    },
+    {
+      "child": 4918,
+      "parent": 2052,
+      "tag": "XMED",
+      "name": "rooms"
+    },
+    {
+      "child": 4984,
+      "parent": 2085,
+      "tag": "Thum",
+      "name": "baddy"
+    },
+    {
+      "child": 4983,
+      "parent": 2085,
+      "tag": "XMED",
+      "name": "baddy"
+    },
+    {
+      "child": 5069,
+      "parent": 2127,
+      "tag": "ALFA",
+      "name": "spas12"
+    },
+    {
+      "child": 5068,
+      "parent": 2127,
+      "tag": "BITD",
+      "name": "spas12"
+    },
+    {
+      "child": 5070,
+      "parent": 2127,
+      "tag": "Thum",
+      "name": "spas12"
+    },
+    {
+      "child": 5067,
+      "parent": 2127,
+      "tag": "ediM",
+      "name": "spas12"
+    },
+    {
+      "child": 5096,
+      "parent": 2161,
+      "tag": "ALFA",
+      "name": "mfmachinegun"
+    },
+    {
+      "child": 5097,
+      "parent": 2161,
+      "tag": "Thum",
+      "name": "mfmachinegun"
+    },
+    {
+      "child": 5095,
+      "parent": 2161,
+      "tag": "ediM",
+      "name": "mfmachinegun"
+    },
+    {
+      "child": 5092,
+      "parent": 2173,
+      "tag": "ALFA",
+      "name": "decalspas"
+    },
+    {
+      "child": 5093,
+      "parent": 2173,
+      "tag": "Thum",
+      "name": "decalspas"
+    },
+    {
+      "child": 5091,
+      "parent": 2173,
+      "tag": "ediM",
+      "name": "decalspas"
+    },
+    {
+      "child": 5065,
+      "parent": 2176,
+      "tag": "ALFA",
+      "name": "noise"
+    },
+    {
+      "child": 5066,
+      "parent": 2176,
+      "tag": "Thum",
+      "name": "noise"
+    },
+    {
+      "child": 5064,
+      "parent": 2176,
+      "tag": "ediM",
+      "name": "noise"
+    },
+    {
+      "child": 5100,
+      "parent": 2180,
+      "tag": "ALFA",
+      "name": "pufft"
+    },
+    {
+      "child": 5101,
+      "parent": 2180,
+      "tag": "Thum",
+      "name": "pufft"
+    },
+    {
+      "child": 5099,
+      "parent": 2180,
+      "tag": "ediM",
+      "name": "pufft"
+    },
+    {
+      "child": 5125,
+      "parent": 2185,
+      "tag": "Thum",
+      "name": "weapons"
+    },
+    {
+      "child": 5124,
+      "parent": 2185,
+      "tag": "XMED",
+      "name": "weapons"
+    },
+    {
+      "child": 5127,
+      "parent": 2186,
+      "tag": "Thum",
+      "name": "stats"
+    },
+    {
+      "child": 5126,
+      "parent": 2186,
+      "tag": "XMED",
+      "name": "stats"
+    },
+    {
+      "child": 5104,
+      "parent": 2235,
+      "tag": "ALFA",
+      "name": "decal"
+    },
+    {
+      "child": 5105,
+      "parent": 2235,
+      "tag": "Thum",
+      "name": "decal"
+    },
+    {
+      "child": 5103,
+      "parent": 2235,
+      "tag": "ediM",
+      "name": "decal"
+    },
+    {
+      "child": 5072,
+      "parent": 2326,
+      "tag": "ALFA",
+      "name": "rg6"
+    },
+    {
+      "child": 5073,
+      "parent": 2326,
+      "tag": "Thum",
+      "name": "rg6"
+    },
+    {
+      "child": 5071,
+      "parent": 2326,
+      "tag": "ediM",
+      "name": "rg6"
+    },
+    {
+      "child": 5051,
+      "parent": 2328,
+      "tag": "ALFA",
+      "name": "GI"
+    },
+    {
+      "child": 5052,
+      "parent": 2328,
+      "tag": "Thum",
+      "name": "GI"
+    },
+    {
+      "child": 5050,
+      "parent": 2328,
+      "tag": "ediM",
+      "name": "GI"
+    },
+    {
+      "child": 5129,
+      "parent": 2575,
+      "tag": "Thum",
+      "name": "hints"
+    },
+    {
+      "child": 5128,
+      "parent": 2575,
+      "tag": "XMED",
+      "name": "hints"
+    },
+    {
+      "child": 5112,
+      "parent": 2879,
+      "tag": "ALFA",
+      "name": "banggrenade"
+    },
+    {
+      "child": 5113,
+      "parent": 2879,
+      "tag": "Thum",
+      "name": "banggrenade"
+    },
+    {
+      "child": 5111,
+      "parent": 2879,
+      "tag": "ediM",
+      "name": "banggrenade"
+    },
+    {
+      "child": 4866,
+      "parent": 2943,
+      "tag": "snd ",
+      "name": "repistol"
+    },
+    {
+      "child": 4867,
+      "parent": 2943,
+      "tag": "sndH",
+      "name": "repistol"
+    },
+    {
+      "child": 4868,
+      "parent": 2943,
+      "tag": "sndS",
+      "name": "repistol"
+    },
+    {
+      "child": 4872,
+      "parent": 3030,
+      "tag": "snd ",
+      "name": "boomnew"
+    },
+    {
+      "child": 4873,
+      "parent": 3030,
+      "tag": "sndH",
+      "name": "boomnew"
+    },
+    {
+      "child": 4874,
+      "parent": 3030,
+      "tag": "sndS",
+      "name": "boomnew"
+    },
+    {
+      "child": 4876,
+      "parent": 3031,
+      "tag": "ediM",
+      "name": "grenade1"
+    },
+    {
+      "child": 4878,
+      "parent": 3031,
+      "tag": "snd ",
+      "name": "grenade1"
+    },
+    {
+      "child": 4894,
+      "parent": 3032,
+      "tag": "ediM",
+      "name": "reak47"
+    },
+    {
+      "child": 4896,
+      "parent": 3032,
+      "tag": "snd ",
+      "name": "reak47"
+    },
+    {
+      "child": 4900,
+      "parent": 3034,
+      "tag": "ediM",
+      "name": "rerg6"
+    },
+    {
+      "child": 4902,
+      "parent": 3034,
+      "tag": "snd ",
+      "name": "rerg6"
+    },
+    {
+      "child": 5062,
+      "parent": 3154,
+      "tag": "ALFA",
+      "name": "floortop"
+    },
+    {
+      "child": 5061,
+      "parent": 3154,
+      "tag": "BITD",
+      "name": "floortop"
+    },
+    {
+      "child": 5063,
+      "parent": 3154,
+      "tag": "Thum",
+      "name": "floortop"
+    },
+    {
+      "child": 5060,
+      "parent": 3154,
+      "tag": "ediM",
+      "name": "floortop"
+    },
+    {
+      "child": 4846,
+      "parent": 3680,
+      "tag": "ediM",
+      "name": "door"
+    },
+    {
+      "child": 4848,
+      "parent": 3680,
+      "tag": "snd ",
+      "name": "door"
+    },
+    {
+      "child": 5121,
+      "parent": 3765,
+      "tag": "Thum",
+      "name": "health"
+    },
+    {
+      "child": 5120,
+      "parent": 3765,
+      "tag": "XMED",
+      "name": "health"
+    },
+    {
+      "child": 5084,
+      "parent": 3767,
+      "tag": "ALFA",
+      "name": "pistol"
+    },
+    {
+      "child": 5083,
+      "parent": 3767,
+      "tag": "BITD",
+      "name": "pistol"
+    },
+    {
+      "child": 5085,
+      "parent": 3767,
+      "tag": "Thum",
+      "name": "pistol"
+    },
+    {
+      "child": 5082,
+      "parent": 3767,
+      "tag": "ediM",
+      "name": "pistol"
+    },
+    {
+      "child": 5131,
+      "parent": 3858,
+      "tag": "Thum",
+      "name": "talk"
+    },
+    {
+      "child": 5130,
+      "parent": 3858,
+      "tag": "XMED",
+      "name": "talk"
+    },
+    {
+      "child": 4988,
+      "parent": 3895,
+      "tag": "Thum",
+      "name": "level1"
+    },
+    {
+      "child": 4987,
+      "parent": 3895,
+      "tag": "XMED",
+      "name": "level1"
+    },
+    {
+      "child": 4906,
+      "parent": 3909,
+      "tag": "ediM",
+      "name": "hurtme"
+    },
+    {
+      "child": 4908,
+      "parent": 3909,
+      "tag": "snd ",
+      "name": "hurtme"
+    },
+    {
+      "child": 5123,
+      "parent": 4056,
+      "tag": "Thum",
+      "name": "hurtrot"
+    },
+    {
+      "child": 5122,
+      "parent": 4056,
+      "tag": "XMED",
+      "name": "hurtrot"
+    },
+    {
+      "child": 5088,
+      "parent": 4127,
+      "tag": "ALFA",
+      "name": "dragunov"
+    },
+    {
+      "child": 5087,
+      "parent": 4127,
+      "tag": "BITD",
+      "name": "dragunov"
+    },
+    {
+      "child": 5089,
+      "parent": 4127,
+      "tag": "Thum",
+      "name": "dragunov"
+    },
+    {
+      "child": 5086,
+      "parent": 4127,
+      "tag": "ediM",
+      "name": "dragunov"
+    },
+    {
+      "child": 5133,
+      "parent": 4371,
+      "tag": "Thum",
+      "name": "giname"
+    },
+    {
+      "child": 5132,
+      "parent": 4371,
+      "tag": "XMED",
+      "name": "giname"
+    },
+    {
+      "child": 4986,
+      "parent": 4515,
+      "tag": "Thum",
+      "name": "gunz"
+    },
+    {
+      "child": 4985,
+      "parent": 4515,
+      "tag": "XMED",
+      "name": "gunz"
+    },
+    {
+      "child": 5119,
+      "parent": 4527,
+      "tag": "Thum",
+      "name": "UI"
+    },
+    {
+      "child": 5118,
+      "parent": 4527,
+      "tag": "XMED",
+      "name": "UI"
+    },
+    {
+      "child": 4912,
+      "parent": 4683,
+      "tag": "ediM",
+      "name": "resniper"
+    },
+    {
+      "child": 4914,
+      "parent": 4683,
+      "tag": "snd ",
+      "name": "resniper"
+    },
+    {
+      "child": 4808,
+      "parent": 66560,
+      "tag": "CAS*",
+      "name": ""
+    },
+    {
+      "child": 4842,
+      "parent": 66560,
+      "tag": "Cinf",
+      "name": ""
+    },
+    {
+      "child": 4840,
+      "parent": 66560,
+      "tag": "Fmap",
+      "name": ""
+    },
+    {
+      "child": 4839,
+      "parent": 66560,
+      "tag": "LctX",
+      "name": ""
+    },
+    {
+      "child": 4792,
+      "parent": 132096,
+      "tag": "CAS*",
+      "name": ""
+    },
+    {
+      "child": 4924,
+      "parent": 132096,
+      "tag": "Cinf",
+      "name": ""
+    },
+    {
+      "child": 4922,
+      "parent": 132096,
+      "tag": "Fmap",
+      "name": ""
+    },
+    {
+      "child": 4921,
+      "parent": 132096,
+      "tag": "LctX",
+      "name": ""
+    },
+    {
+      "child": 4762,
+      "parent": 197632,
+      "tag": "CAS*",
+      "name": ""
+    },
+    {
+      "child": 4982,
+      "parent": 197632,
+      "tag": "Cinf",
+      "name": ""
+    },
+    {
+      "child": 4758,
+      "parent": 328704,
+      "tag": "CAS*",
+      "name": ""
+    },
+    {
+      "child": 4993,
+      "parent": 328704,
+      "tag": "Cinf",
+      "name": ""
+    }
+  ],
+  "jpeg_media": [
+    {
+      "resource_id": 4994,
+      "name": "barn",
+      "cast_id": 1862,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/04994-barn.jpg"
+    },
+    {
+      "resource_id": 4998,
+      "name": "bigbarn",
+      "cast_id": 1835,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/04998-bigbarn.jpg"
+    },
+    {
+      "resource_id": 5002,
+      "name": "biggreenfella",
+      "cast_id": 1680,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/05002-biggreenfella.jpg"
+    },
+    {
+      "resource_id": 5006,
+      "name": "bigredfella",
+      "cast_id": 1679,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/05006-bigredfella.jpg"
+    },
+    {
+      "resource_id": 5010,
+      "name": "bunker",
+      "cast_id": 1678,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/05010-bunker.jpg"
+    },
+    {
+      "resource_id": 5014,
+      "name": "cliffview",
+      "cast_id": 2050,
+      "size": [
+        1024,
+        1024
+      ],
+      "file": "media/05014-cliffview.jpg"
+    },
+    {
+      "resource_id": 5018,
+      "name": "concrete",
+      "cast_id": 1873,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/05018-concrete.jpg"
+    },
+    {
+      "resource_id": 5022,
+      "name": "hut",
+      "cast_id": 1674,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/05022-hut.jpg"
+    },
+    {
+      "resource_id": 5026,
+      "name": "weeseperatehut",
+      "cast_id": 1673,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/05026-weeseperatehut.jpg"
+    },
+    {
+      "resource_id": 5031,
+      "name": "wirefence",
+      "cast_id": 1672,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/05031-wirefence.jpg"
+    },
+    {
+      "resource_id": 5034,
+      "name": "workshop",
+      "cast_id": 1671,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/05034-workshop.jpg"
+    },
+    {
+      "resource_id": 5038,
+      "name": "huts",
+      "cast_id": 1670,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/05038-huts.jpg"
+    },
+    {
+      "resource_id": 5042,
+      "name": "garage",
+      "cast_id": 1838,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/05042-garage.jpg"
+    },
+    {
+      "resource_id": 5046,
+      "name": "stepwall",
+      "cast_id": 1932,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/05046-stepwall.jpg"
+    },
+    {
+      "resource_id": 5050,
+      "name": "GI",
+      "cast_id": 2328,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/05050-GI.jpg"
+    },
+    {
+      "resource_id": 5054,
+      "name": "scotspine",
+      "cast_id": 1669,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/05054-scotspine.jpg"
+    },
+    {
+      "resource_id": 5057,
+      "name": "sky",
+      "cast_id": 1668,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/05057-sky.jpg"
+    },
+    {
+      "resource_id": 5060,
+      "name": "floortop",
+      "cast_id": 3154,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/05060-floortop.jpg"
+    },
+    {
+      "resource_id": 5064,
+      "name": "noise",
+      "cast_id": 2176,
+      "size": [
+        64,
+        64
+      ],
+      "file": "media/05064-noise.jpg"
+    },
+    {
+      "resource_id": 5067,
+      "name": "spas12",
+      "cast_id": 2127,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/05067-spas12.jpg"
+    },
+    {
+      "resource_id": 5071,
+      "name": "rg6",
+      "cast_id": 2326,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/05071-rg6.jpg"
+    },
+    {
+      "resource_id": 5074,
+      "name": "rpg",
+      "cast_id": 1856,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/05074-rpg.jpg"
+    },
+    {
+      "resource_id": 5078,
+      "name": "ak47",
+      "cast_id": 1911,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/05078-ak47.jpg"
+    },
+    {
+      "resource_id": 5082,
+      "name": "pistol",
+      "cast_id": 3767,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/05082-pistol.jpg"
+    },
+    {
+      "resource_id": 5086,
+      "name": "dragunov",
+      "cast_id": 4127,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/05086-dragunov.jpg"
+    },
+    {
+      "resource_id": 5091,
+      "name": "decalspas",
+      "cast_id": 2173,
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/05091-decalspas.jpg"
+    },
+    {
+      "resource_id": 5095,
+      "name": "mfmachinegun",
+      "cast_id": 2161,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/05095-mfmachinegun.jpg"
+    },
+    {
+      "resource_id": 5099,
+      "name": "pufft",
+      "cast_id": 2180,
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/05099-pufft.jpg"
+    },
+    {
+      "resource_id": 5103,
+      "name": "decal",
+      "cast_id": 2235,
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/05103-decal.jpg"
+    },
+    {
+      "resource_id": 5107,
+      "name": "bangrocket",
+      "cast_id": 1003,
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/05107-bangrocket.jpg"
+    },
+    {
+      "resource_id": 5111,
+      "name": "banggrenade",
+      "cast_id": 2879,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/05111-banggrenade.jpg"
+    },
+    {
+      "resource_id": 5115,
+      "name": "spatter",
+      "cast_id": 948,
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/05115-spatter.jpg"
+    }
+  ],
+  "rgba_media": [
+    {
+      "cast_id": 948,
+      "name": "spatter",
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/00948-spatter-rgba.png",
+      "color_resource": 5115,
+      "alpha_resource": 5116
+    },
+    {
+      "cast_id": 1003,
+      "name": "bangrocket",
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/01003-bangrocket-rgba.png",
+      "color_resource": 5107,
+      "alpha_resource": 5108
+    },
+    {
+      "cast_id": 1668,
+      "name": "sky",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/01668-sky-rgba.png",
+      "color_resource": 5057,
+      "alpha_resource": 5058
+    },
+    {
+      "cast_id": 1669,
+      "name": "scotspine",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/01669-scotspine-rgba.png",
+      "color_resource": 5054,
+      "alpha_resource": 5055
+    },
+    {
+      "cast_id": 1670,
+      "name": "huts",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/01670-huts-rgba.png",
+      "color_resource": 5038,
+      "alpha_resource": 5040
+    },
+    {
+      "cast_id": 1671,
+      "name": "workshop",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/01671-workshop-rgba.png",
+      "color_resource": 5034,
+      "alpha_resource": 5036
+    },
+    {
+      "cast_id": 1672,
+      "name": "wirefence",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/01672-wirefence-rgba.png",
+      "color_resource": 5031,
+      "alpha_resource": 5032
+    },
+    {
+      "cast_id": 1673,
+      "name": "weeseperatehut",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/01673-weeseperatehut-rgba.png",
+      "color_resource": 5026,
+      "alpha_resource": 5028
+    },
+    {
+      "cast_id": 1674,
+      "name": "hut",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/01674-hut-rgba.png",
+      "color_resource": 5022,
+      "alpha_resource": 5024
+    },
+    {
+      "cast_id": 1678,
+      "name": "bunker",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/01678-bunker-rgba.png",
+      "color_resource": 5010,
+      "alpha_resource": 5012
+    },
+    {
+      "cast_id": 1679,
+      "name": "bigredfella",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/01679-bigredfella-rgba.png",
+      "color_resource": 5006,
+      "alpha_resource": 5008
+    },
+    {
+      "cast_id": 1680,
+      "name": "biggreenfella",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/01680-biggreenfella-rgba.png",
+      "color_resource": 5002,
+      "alpha_resource": 5004
+    },
+    {
+      "cast_id": 1835,
+      "name": "bigbarn",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/01835-bigbarn-rgba.png",
+      "color_resource": 4998,
+      "alpha_resource": 5000
+    },
+    {
+      "cast_id": 1838,
+      "name": "garage",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/01838-garage-rgba.png",
+      "color_resource": 5042,
+      "alpha_resource": 5044
+    },
+    {
+      "cast_id": 1856,
+      "name": "rpg",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/01856-rpg-rgba.png",
+      "color_resource": 5074,
+      "alpha_resource": 5076
+    },
+    {
+      "cast_id": 1862,
+      "name": "barn",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/01862-barn-rgba.png",
+      "color_resource": 4994,
+      "alpha_resource": 4996
+    },
+    {
+      "cast_id": 1873,
+      "name": "concrete",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/01873-concrete-rgba.png",
+      "color_resource": 5018,
+      "alpha_resource": 5020
+    },
+    {
+      "cast_id": 1911,
+      "name": "ak47",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/01911-ak47-rgba.png",
+      "color_resource": 5078,
+      "alpha_resource": 5080
+    },
+    {
+      "cast_id": 1932,
+      "name": "stepwall",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/01932-stepwall-rgba.png",
+      "color_resource": 5046,
+      "alpha_resource": 5048
+    },
+    {
+      "cast_id": 2050,
+      "name": "cliffview",
+      "size": [
+        1024,
+        1024
+      ],
+      "file": "media/02050-cliffview-rgba.png",
+      "color_resource": 5014,
+      "alpha_resource": 5016
+    },
+    {
+      "cast_id": 2127,
+      "name": "spas12",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/02127-spas12-rgba.png",
+      "color_resource": 5067,
+      "alpha_resource": 5069
+    },
+    {
+      "cast_id": 2161,
+      "name": "mfmachinegun",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/02161-mfmachinegun-rgba.png",
+      "color_resource": 5095,
+      "alpha_resource": 5096
+    },
+    {
+      "cast_id": 2173,
+      "name": "decalspas",
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/02173-decalspas-rgba.png",
+      "color_resource": 5091,
+      "alpha_resource": 5092
+    },
+    {
+      "cast_id": 2176,
+      "name": "noise",
+      "size": [
+        64,
+        64
+      ],
+      "file": "media/02176-noise-rgba.png",
+      "color_resource": 5064,
+      "alpha_resource": 5065
+    },
+    {
+      "cast_id": 2180,
+      "name": "pufft",
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/02180-pufft-rgba.png",
+      "color_resource": 5099,
+      "alpha_resource": 5100
+    },
+    {
+      "cast_id": 2235,
+      "name": "decal",
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/02235-decal-rgba.png",
+      "color_resource": 5103,
+      "alpha_resource": 5104
+    },
+    {
+      "cast_id": 2326,
+      "name": "rg6",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/02326-rg6-rgba.png",
+      "color_resource": 5071,
+      "alpha_resource": 5072
+    },
+    {
+      "cast_id": 2328,
+      "name": "GI",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/02328-GI-rgba.png",
+      "color_resource": 5050,
+      "alpha_resource": 5051
+    },
+    {
+      "cast_id": 2879,
+      "name": "banggrenade",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/02879-banggrenade-rgba.png",
+      "color_resource": 5111,
+      "alpha_resource": 5112
+    },
+    {
+      "cast_id": 3154,
+      "name": "floortop",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/03154-floortop-rgba.png",
+      "color_resource": 5060,
+      "alpha_resource": 5062
+    },
+    {
+      "cast_id": 3767,
+      "name": "pistol",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/03767-pistol-rgba.png",
+      "color_resource": 5082,
+      "alpha_resource": 5084
+    },
+    {
+      "cast_id": 4127,
+      "name": "dragunov",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/04127-dragunov-rgba.png",
+      "color_resource": 5086,
+      "alpha_resource": 5088
+    }
+  ],
+  "preview_errors": [],
+  "embedded_swf": [
+    {
+      "cast_id": 3765,
+      "cast_name": "health",
+      "resource_id": 5120,
+      "swf_file": "media/original-health.swf",
+      "version": 5,
+      "length": 1269,
+      "tag_counts": {
+        "9": 1,
+        "2": 4,
+        "26": 103,
+        "46": 1,
+        "1": 100,
+        "28": 1,
+        "0": 1
+      },
+      "bitmaps": [],
+      "executed": false
+    },
+    {
+      "cast_id": 4056,
+      "cast_name": "hurtrot",
+      "resource_id": 5122,
+      "swf_file": "media/original-hurtrot.swf",
+      "version": 5,
+      "length": 8798,
+      "tag_counts": {
+        "9": 1,
+        "35": 1,
+        "2": 1,
+        "39": 1,
+        "26": 361,
+        "1": 361,
+        "0": 1
+      },
+      "bitmaps": [],
+      "executed": false
+    },
+    {
+      "cast_id": 4527,
+      "cast_name": "UI",
+      "resource_id": 5118,
+      "swf_file": "media/original-ui.swf",
+      "version": 5,
+      "length": 578644,
+      "tag_counts": {
+        "9": 1,
+        "2": 15,
+        "39": 31,
+        "56": 2,
+        "45": 1,
+        "32": 10,
+        "26": 67,
+        "1": 61,
+        "28": 26,
+        "12": 6,
+        "48": 2,
+        "88": 2,
+        "11": 19,
+        "14": 1,
+        "15": 1,
+        "8": 1,
+        "6": 1,
+        "22": 1,
+        "34": 8,
+        "43": 5,
+        "46": 8,
+        "37": 1,
+        "0": 1
+      },
+      "bitmaps": [
+        {
+          "character_id": 15,
+          "tag": 6,
+          "size": [
+            514,
+            536
+          ],
+          "jpeg": "media/original-ui-character-15.jpg",
+          "png": "media/original-ui-bitmap-raw.png"
+        }
+      ],
+      "executed": false
+    }
+  ]
+}

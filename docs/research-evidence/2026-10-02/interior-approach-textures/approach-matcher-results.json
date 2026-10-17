@@ -1,0 +1,31 @@
+{
+  "generatorSha256": "dd27ed8c085bf4e4fa5d81d8f7debcf2d574d25198b5bb4d6888006eb7100aad",
+  "originalRuntimeExecuted": false,
+  "cameraFitAttempted": false,
+  "results": [
+    {
+      "path": "docs/research-evidence/2026-10-02/interior-approach-textures/woodland-10s-woodenshed-matches.json",
+      "sha256": "6ba8c9c5a942322e8c282d7fc210b057cbfed050037a3c714550e2cb8a5abe08",
+      "counts": {
+        "atlasDescriptors": 4311,
+        "referenceDescriptors": 4319,
+        "reciprocalRatioMatches": 90,
+        "strictUniqueSourceTriangleLandmarks": 0,
+        "uniqueInsideExploratoryRegion": 0,
+        "outsideExploratoryRegion": 2
+      }
+    },
+    {
+      "path": "docs/research-evidence/2026-10-02/interior-approach-textures/woodland-10s-solidfence-matches.json",
+      "sha256": "16bbac1880784897b2a12d25b6a3a8291d9c57c03dadd0cfcf6b12ced191a071",
+      "counts": {
+        "atlasDescriptors": 902,
+        "referenceDescriptors": 4319,
+        "reciprocalRatioMatches": 0,
+        "strictUniqueSourceTriangleLandmarks": 0,
+        "uniqueInsideExploratoryRegion": 0,
+        "outsideExploratoryRegion": 0
+      }
+    }
+  ]
+}

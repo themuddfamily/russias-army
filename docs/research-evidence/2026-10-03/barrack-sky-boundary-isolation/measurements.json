@@ -1,0 +1,71 @@
+{
+  "scope": "RGBA readPixels causal current-copy isolation, not native material correctness",
+  "edgeBandDefinition": "pixel center within 3 pixels of piecewise projected cylinder upper edge",
+  "distantControlDefinition": "x=100..1179 inclusive; y=235..254 inclusive (inside distant sky below top edge, above treeline)",
+  "edgeBand": {
+    "pixels": 7680,
+    "changedPixels": 686,
+    "maxChannelDelta": 73,
+    "meanAbsoluteRgbDelta": 1.985546875,
+    "changedBoundsInclusive": [
+      0,
+      93,
+      1275,
+      206
+    ],
+    "strongestPixel": {
+      "x": 1235,
+      "y": 188,
+      "baseline": [
+        93,
+        111,
+        101,
+        255
+      ],
+      "clampT": [
+        141,
+        160,
+        174,
+        255
+      ],
+      "projectedEdgeY": 188.66655870655404
+    }
+  },
+  "distantControl": {
+    "pixels": 21600,
+    "changedPixels": 0,
+    "maxChannelDelta": 0,
+    "meanAbsoluteRgbDelta": 0.0,
+    "changedBoundsInclusive": null,
+    "strongestPixel": null
+  },
+  "entireCanvas": {
+    "pixels": 737280,
+    "changedPixels": 686,
+    "maxChannelDelta": 73,
+    "meanAbsoluteRgbDelta": 0.020682779947916667,
+    "changedBoundsInclusive": [
+      0,
+      93,
+      1275,
+      206
+    ],
+    "strongestPixel": {
+      "x": 1235,
+      "y": 188,
+      "baseline": [
+        93,
+        111,
+        101,
+        255
+      ],
+      "clampT": [
+        141,
+        160,
+        174,
+        255
+      ],
+      "projectedEdgeY": 188.66655870655404
+    }
+  }
+}

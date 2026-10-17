@@ -1,0 +1,44 @@
+{
+  "scope": "Continuous local floor/panel/jamb aperture bounds, not global map reachability. Sphere sweeps enforce R+T for lateral approach; floor bound allows zero skin and is more permissive than actual resting physics.",
+  "results": [
+    {
+      "name": "door open 08",
+      "eyeVerticalMinimumNoFloorSkin": 1.8618160196541425,
+      "clearanceRadius": 0.5261176470588235,
+      "horizontalTriggerRadius": 0.7926615855685337,
+      "finiteWallEndZ": 19.89909231387868,
+      "maximumFeasibleCandidateOvershootPastWallEnd": 0.02733791254463469,
+      "finiteWallClearanceAtWorstOvershoot": 0.525406906201674,
+      "jambTangentMinimum": 0.5304978414038786,
+      "closedPanelNormalMinimum": 0.6189442300538559,
+      "constraint": "local aperture, jamb plane and closed panel plane; outward08side-1",
+      "eyeHingeDistanceLowerBound": 2.0324563490249745,
+      "conservativeLowerBound": 2.0323563490249743,
+      "triggerDistance": 2.023529411764706,
+      "strictProximityFeasibleInLocalAperture": false
+    },
+    {
+      "name": "door open 09",
+      "eyeVerticalMinimumNoFloorSkin": 1.8618160196541425,
+      "clearanceRadius": 0.5261176470588235,
+      "edgeNormal": 0.491175401091933,
+      "edgeTangent": 0.05379939963209039,
+      "closedPanelNormalMinimum": 0.6188254733237384,
+      "edgeCircleTangentMinimumAtPanel": 0.5641965367772036,
+      "edgeCircleNormalInterval": [
+        0.6188254733237384,
+        1.0172930481507565
+      ],
+      "endpointHorizontalSquared": [
+        0.7012626985457393,
+        1.0377795212166308
+      ],
+      "interiorStationaryPoint": "radial maximum",
+      "constraint": "local aperture on positive-tangent side of vertical jamb edge; outward09side+1",
+      "eyeHingeDistanceLowerBound": 2.041475346308775,
+      "conservativeLowerBound": 2.041375346308775,
+      "triggerDistance": 2.023529411764706,
+      "strictProximityFeasibleInLocalAperture": false
+    }
+  ]
+}

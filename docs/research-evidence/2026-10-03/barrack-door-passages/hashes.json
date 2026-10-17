@@ -1,0 +1,142 @@
+[
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-door-passages/REPORT.md",
+    "sha256": "8e2ca9dd3f6445e41d14dbf383bbf33836ea82e6bd1776ce796924924943a7f0"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-door-passages/derive-feasibility.py",
+    "sha256": "3412a06e52eb4d5e72377f9b7f7b46850a0d7114da336873d8845a0f117e3e59"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-door-passages/feasibility-bounds.json",
+    "sha256": "0c7999772a0ff397e82a1e6c95dcdbe100fb512a8c3ce5772b939e8340548248"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-door-passages/feasibility.json",
+    "sha256": "b7bb926e63df00e4f504f2899a331d90886d4f175cd898553d49f1dfef9563ee"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-door-passages/feasibility.log",
+    "sha256": "e82b7f96ca207ca60fc41dfa80d7b7efec77e3a8c9689bef44fde2eb8cb8024e"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-door-passages/feasibility.ts",
+    "sha256": "2ab5ce18ade9ed25d12769eee7126db9e306fb5a5536f904c9fa14415f1351bb"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-door-passages/initial-proximity.json",
+    "sha256": "a2e9e43071fa3f2bcde934c0ae26915a67bfbf1f570bbe4e15619997617eafbf"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-door-passages/initial-proximity.log",
+    "sha256": "108c015841de683ce6f0c5c77e5c390cdce2d5c99d0d71c9edf6502ebf2a021c"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-door-passages/initial-proximity.ts.txt",
+    "sha256": "d9ffe8f201c00647dfd6adbe84ea67ffc2f1d2901477313991ee7698c1f07d69"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-door-passages/midline.json",
+    "sha256": "e1972811be355239c53f64f58a0e0493c0c528069e1f35b0308e15773afaf82e"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-door-passages/midline.log",
+    "sha256": "db953c5aa11b25e681f73a44593a5c2a1dfe0c748598ea6ad0d8ca9751f7b301"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-door-passages/midline.ts",
+    "sha256": "15c677938737cb5e8418902b0253fd7a6731c35f597286ff4d1734a8f668c4d5"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-door-passages/replay.json",
+    "sha256": "58ff2b1babff7e5e81fa8fd53c1360ff6455e24672d2dcda2ac35a994a750810"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-door-passages/replay.log",
+    "sha256": "c579887c1fcdeb5607d3b48667d8575290d2e74bfbb2ee6829768d89e990ea15"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-door-passages/replay.ts",
+    "sha256": "9338dd044df9e798d57499e2a3af775cc44400fbe1f7c49b3249cfd7898c2217"
+  },
+  {
+    "path": "public/assets/original-scenes/barrack/doors.json",
+    "sha256": "31fd470230a100fa7f7b6d83c0ad89a78ad77b5555de7739af33ec9bbd7ccd8e"
+  },
+  {
+    "path": "public/assets/original-scenes/barrack/scene.json",
+    "sha256": "7b252e098959f98a872850551fdf8f52e5b7e1b5ea79dfa6af21b841f0d31ad3"
+  },
+  {
+    "path": "shared/arenaCollision.ts",
+    "sha256": "171665cefd731b47eee481cf95ca6cdc272c0fb8bc5999c0fef795be15b49f50"
+  },
+  {
+    "path": "shared/legacyMaps.ts",
+    "sha256": "8469127f934843a2da8eb79638cb0f34a8bcbc0c149b0c41521094bccc041cea"
+  },
+  {
+    "path": "shared/originalAngularBody.ts",
+    "sha256": "5bd72e436edd653d345f5432782a5dd8f83b42e190a30ac639fd95874ac56c37"
+  },
+  {
+    "path": "shared/originalContactDistance.ts",
+    "sha256": "1a1a99fe27729e281d737e5a9a8ab6363cdd93a91d495d063dc248105f973b98"
+  },
+  {
+    "path": "shared/originalContactIsland.ts",
+    "sha256": "d61ecf18dbe6961c121d522c559fda5d9efe00a8ed7490a197f3b242d40b4606"
+  },
+  {
+    "path": "shared/originalContactPatch.ts",
+    "sha256": "3c9bd23b3db8e79ba7d71d73632e08e114d4ab1e0941be56e2797a03bbb0a873"
+  },
+  {
+    "path": "shared/originalConvexContact.ts",
+    "sha256": "2159d1c43e3092b42409dcb96b11ff7e6fa6bcf6466ebc1582ea656007790663"
+  },
+  {
+    "path": "shared/originalConvexSweep.ts",
+    "sha256": "a2a6adc85b38294a40f1c482524151de1fc45a2be54212c32aec0470b01abc7f"
+  },
+  {
+    "path": "shared/originalDoorWorld.ts",
+    "sha256": "547f14d06a68b4c3d5e71bac60c3f48794e8ea45cb112b1ba863dc87a17acc29"
+  },
+  {
+    "path": "shared/originalExplosives.ts",
+    "sha256": "b2983fe87ee91fbe0b66270049078e1053ce394523956974b37615485dd51cb2"
+  },
+  {
+    "path": "shared/originalGrenadeOrientation.ts",
+    "sha256": "8d150431454c106dd1702eed14aade27adc6dd23936b2b5a5879d8e62d677055"
+  },
+  {
+    "path": "shared/originalGrenadeShape.ts",
+    "sha256": "90e0ef96b36ac1c5cafebb87439659b68658d2a170e581797ba3057e1b7e68b7"
+  },
+  {
+    "path": "shared/originalMapProfile.ts",
+    "sha256": "0ba668f15dda6d1f5314f58310a2ea174a70d18c2df51267163d521303da0da3"
+  },
+  {
+    "path": "shared/originalPlayerPhysics.ts",
+    "sha256": "27679579fc5cd250fe588b231ac6e88e6cd30b96ba673f583d3cae0f980fdcbf"
+  },
+  {
+    "path": "shared/originalProjectileOrientation.ts",
+    "sha256": "31bdf6b40a5625f37007ef112564004faae45ce60f670c0058badee23b00392f"
+  },
+  {
+    "path": "shared/originalRpgShape.ts",
+    "sha256": "451f9b4da57d2f6d6823e178fd4004bcc0a16b778e66292300ff4a159e2fa96b"
+  },
+  {
+    "path": "shared/originalSceneGeometry.ts",
+    "sha256": "56397c99ae1b8ebd935369ae3b1a519474802107943426292513dd1e86428e1d"
+  },
+  {
+    "path": "shared/protocol.ts",
+    "sha256": "a1d7723f13658cd06820b6cacb1099193faa51b250bc53e320bde328088e3e21"
+  }
+]

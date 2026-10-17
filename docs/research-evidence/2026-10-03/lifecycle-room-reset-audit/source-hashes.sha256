@@ -1,0 +1,25 @@
+5a8fb889e19dfcf7b415b31839ea90fd2f337864919e005e9f023d0e68b70ff3  docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/MovieScript 1 - generics.ls
+59a99a5f2533ac4b03db54f89c87475f7eacca8f1f007a08ee051d88aeb6b70d  docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/MovieScript 4 - M U S.ls
+e5e67dcd378dfce9c33f0d598a85857dfe026c16eaa8f509c3f153007dc7c9f8  docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 5 - goody.ls
+7f6a5de789f340d1adf7904a9b15e702b96f4359c41b43805db9b6fc840c9a61  docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 8 - baddies.ls
+3f351df99fc63409d6b6f43addd56e2c71d55ed33938ff437485dadad4d5ed63  docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/BehaviorScript 32 - explore.ls
+72e2bb4a9e62f800fb064fb7e3925fe3e0e77494a72b5f8f352f38a3734ecd38  docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/BehaviorScript 34 - endgame.ls
+294d86b894b0471cedcff8a486706fa7551ba5cb921cb394236822eaf9bdbc44  docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/MovieScript 1 - generics.ls
+8b34c07fc4d94f6b40d25aff6d29e3cd4fb0e6f564c81dc5ba0575d20e00b18f  docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/MovieScript 4 - M U S.ls
+6d1b8229158c635eaa6a418d762866a91f27abf78757e812b6e5c7f0670b1297  docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 5 - goody.ls
+7f6a5de789f340d1adf7904a9b15e702b96f4359c41b43805db9b6fc840c9a61  docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 8 - baddies.ls
+af3c03894bd87347219cf1c2d049b53d66e6e7c6ebc4c4f8b7859201a128bff0  docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/BehaviorScript 32 - explore.ls
+72e2bb4a9e62f800fb064fb7e3925fe3e0e77494a72b5f8f352f38a3734ecd38  docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/BehaviorScript 34 - endgame.ls
+52a525c272a234d6723c426cfd21d795b84c2dc6293e15a73714c214d85760a3  shared/originalRemoteMovement.ts
+791f8ec7d8564f63bd1921860887e9e0df60da1a90258c0dd04a925b44e91996  shared/originalRemoteView.ts
+2f5f96d530511d2ff90e731cbf518e841cc22ae94dc501ccf0aabbdeff7a6314  src/remotePlayer.ts
+b326bdd22da81ea59f0daf8f234d6ea5f89a5948f3b57aaa1e369211b7821abf  src/game.ts
+c01e40129794044926863a3a4221cd37e19d8d86f8b5f7a8b0ba7cf1eb5dc120  src/network.ts
+3541c74e304116aaa7ebe1585b8193926c6f51dc11f18974eaa965d258d01ee1  server/match-room.ts
+803c12ed3904de905b790f9a11699d8d49286edfcb8d1b786ce50cadcc47104c  server/index.ts
+2a6055d17092193dcc1838d52d0e050091ab843a29e521a6827daa98bea24692  server/index.test.ts
+f91a7476d9f4291a9e953e6d03cc331ee3ecd18bf506e5bc97d0bf05603bcabf  server/original-door.test.ts
+802e2aa7f757eb810e8cc8eb0039bfd0709b848593708c77f5fe559576d5759e  shared/originalRemoteMovement.test.ts
+f7fc81c7d3663ab47109a877672533ae2d071da5d1524f0e62cc60a4ed80c0dc  docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 9 - fadeaway.ls
+f7fc81c7d3663ab47109a877672533ae2d071da5d1524f0e62cc60a4ed80c0dc  docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 9 - fadeaway.ls
+17adbdd872355be77fa4ffa2a624d97d3ec4d16851751501a0f4965df77544e8  docs/research-evidence/2026-10-03/lifecycle-room-reset-audit/REPORT.md

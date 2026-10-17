@@ -1,0 +1,169 @@
+{
+  "retrieved_utc": "2026-10-02T19:59:56.550965+00:00",
+  "tool": {
+    "yt_dlp_version": "2026.07.04",
+    "node_version": "v26.7.0"
+  },
+  "source_movies": [
+    {
+      "id": "fkB8Yg9S1HM",
+      "title": "Russias Army Woodland",
+      "uploader": "Saurogon",
+      "upload_date": "20140902",
+      "duration": 601,
+      "webpage_url": "https://www.youtube.com/watch?v=fkB8Yg9S1HM"
+    },
+    {
+      "id": "CC8VIJ2_HNc",
+      "title": "Playing Russia's Army At Gamevial",
+      "uploader": "gamedemon214",
+      "upload_date": "20100313",
+      "duration": 390,
+      "webpage_url": "https://www.youtube.com/watch?v=CC8VIJ2_HNc"
+    }
+  ],
+  "metadata_commands": [
+    "timeout 45 yt-dlp --no-playlist --skip-download --dump-single-json --socket-timeout 10 --retries 0 --extractor-retries 0 'https://www.youtube.com/watch?v=fkB8Yg9S1HM' > docs/research-evidence/2026-10-02/reference-audio-retrieval/woodland-current-info.json 2> docs/research-evidence/2026-10-02/reference-audio-retrieval/woodland-metadata.log",
+    "timeout 45 yt-dlp --no-playlist --skip-download --dump-single-json --socket-timeout 10 --retries 0 --extractor-retries 0 'https://www.youtube.com/watch?v=CC8VIJ2_HNc' > docs/research-evidence/2026-10-02/reference-audio-retrieval/barrack-current-info.json 2> docs/research-evidence/2026-10-02/reference-audio-retrieval/barrack-metadata.log",
+    "timeout 45 yt-dlp --js-runtimes node --no-playlist --skip-download --dump-single-json --socket-timeout 10 --retries 0 --extractor-retries 0 'https://www.youtube.com/watch?v=fkB8Yg9S1HM' > docs/research-evidence/2026-10-02/reference-audio-retrieval/woodland-node-info.json 2> docs/research-evidence/2026-10-02/reference-audio-retrieval/woodland-node-metadata.log"
+  ],
+  "attempts": [
+    {
+      "video_id": "fkB8Yg9S1HM",
+      "runtime": "default",
+      "format_id": "251",
+      "command": "timeout 40 yt-dlp --no-playlist -f 251 --socket-timeout 10 --retries 0 --fragment-retries 0 --extractor-retries 0 --load-info-json docs/research-evidence/2026-10-02/reference-audio-retrieval/woodland-current-info.json -o docs/research-evidence/2026-10-02/reference-audio-retrieval/woodland-source-audio.webm > docs/research-evidence/2026-10-02/reference-audio-retrieval/woodland-format251.log 2>&1",
+      "exit_code": 1,
+      "result": "HTTP403 Forbidden at initial media GET; no audio file recovered",
+      "log": "woodland-format251.log",
+      "requested_clip_range_seconds": [
+        0,
+        45
+      ],
+      "actual_clip_range_seconds": null,
+      "stream_sha256": null
+    },
+    {
+      "video_id": "CC8VIJ2_HNc",
+      "runtime": "default",
+      "format_id": "251",
+      "command": "timeout 40 yt-dlp --no-playlist -f 251 --socket-timeout 10 --retries 0 --fragment-retries 0 --extractor-retries 0 --load-info-json docs/research-evidence/2026-10-02/reference-audio-retrieval/barrack-current-info.json -o docs/research-evidence/2026-10-02/reference-audio-retrieval/barrack-source-audio.webm > docs/research-evidence/2026-10-02/reference-audio-retrieval/barrack-format251.log 2>&1",
+      "exit_code": 1,
+      "result": "HTTP403 Forbidden at initial media GET; no audio file recovered",
+      "log": "barrack-format251.log",
+      "requested_clip_range_seconds": [
+        0,
+        45
+      ],
+      "actual_clip_range_seconds": null,
+      "stream_sha256": null
+    },
+    {
+      "video_id": "CC8VIJ2_HNc",
+      "runtime": "default",
+      "format_id": "140",
+      "command": "timeout 40 yt-dlp --no-playlist -f 140 --socket-timeout 10 --retries 0 --fragment-retries 0 --extractor-retries 0 --load-info-json docs/research-evidence/2026-10-02/reference-audio-retrieval/barrack-current-info.json -o docs/research-evidence/2026-10-02/reference-audio-retrieval/barrack-source-audio.m4a > docs/research-evidence/2026-10-02/reference-audio-retrieval/barrack-format140.log 2>&1",
+      "exit_code": 1,
+      "result": "HTTP403 Forbidden at initial media GET; no audio file recovered",
+      "log": "barrack-format140.log",
+      "requested_clip_range_seconds": [
+        0,
+        45
+      ],
+      "actual_clip_range_seconds": null,
+      "stream_sha256": null
+    },
+    {
+      "video_id": "fkB8Yg9S1HM",
+      "runtime": "node",
+      "format_id": "251",
+      "command": "timeout 40 yt-dlp --js-runtimes node --no-playlist -f 251 --socket-timeout 10 --retries 0 --fragment-retries 0 --extractor-retries 0 --load-info-json docs/research-evidence/2026-10-02/reference-audio-retrieval/woodland-node-info.json -o docs/research-evidence/2026-10-02/reference-audio-retrieval/woodland-node-source-audio.webm > docs/research-evidence/2026-10-02/reference-audio-retrieval/woodland-node-format251.log 2>&1",
+      "exit_code": 1,
+      "result": "HTTP403 Forbidden at initial media GET; no audio file recovered",
+      "log": "woodland-node-format251.log",
+      "requested_clip_range_seconds": [
+        0,
+        45
+      ],
+      "actual_clip_range_seconds": null,
+      "stream_sha256": null
+    },
+    {
+      "video_id": "fkB8Yg9S1HM",
+      "runtime": "node",
+      "format_id": "140",
+      "command": "timeout 40 yt-dlp --js-runtimes node --no-playlist -f 140 --socket-timeout 10 --retries 0 --fragment-retries 0 --extractor-retries 0 --load-info-json docs/research-evidence/2026-10-02/reference-audio-retrieval/woodland-node-info.json -o docs/research-evidence/2026-10-02/reference-audio-retrieval/woodland-node-source-audio.m4a > docs/research-evidence/2026-10-02/reference-audio-retrieval/woodland-node-format140.log 2>&1",
+      "exit_code": 1,
+      "result": "HTTP403 Forbidden at initial media GET; no audio file recovered",
+      "log": "woodland-node-format140.log",
+      "requested_clip_range_seconds": [
+        0,
+        45
+      ],
+      "actual_clip_range_seconds": null,
+      "stream_sha256": null
+    }
+  ],
+  "existing_clip": {
+    "path": "../2026-09-30/woodland-video-first45s.mp4",
+    "range_seconds": [
+      0,
+      45.1
+    ],
+    "format_id": "136",
+    "audio_stream": false,
+    "sha256": "069ea82b66ef3d2c0656ea81ea2e8fa939179245b5364077e59f213fcd7e5fc1"
+  },
+  "limits": [
+    "No new source audio or clip exists; null stream hashes and clip ranges are intentional.",
+    "Metadata and storyboards do not establish audible content.",
+    "No original executable/VM, game browser or FFmpeg audio processing was used.",
+    "Source-video recording could contain added music; future successful retrieval still requires comparison to the recovered SWF track."
+  ],
+  "files": {
+    "barrack-current-info.json": {
+      "bytes": 37028,
+      "sha256": "da3ac14b9c2786eac59a39465075a3580f81ff91ddc3269ecfe77d1f8fd78c9f"
+    },
+    "barrack-format140.log": {
+      "bytes": 113,
+      "sha256": "2a41c193c35c141641ef2c33519af72c36e8827ce75daff508b410855f0691f2"
+    },
+    "barrack-format251.log": {
+      "bytes": 113,
+      "sha256": "0a50b7bcc1aaa4ef5b7fa78392dc5f6defaa8d7ad7d8873303ca084cf5636065"
+    },
+    "barrack-metadata.log": {
+      "bytes": 354,
+      "sha256": "fb7d131a5abfc45d225c710b558243492b0cc1c170ec46c93741bb5c71a530e8"
+    },
+    "woodland-current-info.json": {
+      "bytes": 38926,
+      "sha256": "1d648f53edb056702bd46ddab76a8ba45916ac8ca8ca7ec10376040b1c54ae97"
+    },
+    "woodland-format251.log": {
+      "bytes": 113,
+      "sha256": "7905674fac9eb40ee510d7bd7a35ecdd75ae51da00f8e2e806a72530361a1475"
+    },
+    "woodland-metadata.log": {
+      "bytes": 354,
+      "sha256": "fb7d131a5abfc45d225c710b558243492b0cc1c170ec46c93741bb5c71a530e8"
+    },
+    "woodland-node-format140.log": {
+      "bytes": 113,
+      "sha256": "9f765a4ff0a90d953ce486ed45103e5dbaffac302ddcc65424bae7e72223a09b"
+    },
+    "woodland-node-format251.log": {
+      "bytes": 113,
+      "sha256": "7905674fac9eb40ee510d7bd7a35ecdd75ae51da00f8e2e806a72530361a1475"
+    },
+    "woodland-node-info.json": {
+      "bytes": 38954,
+      "sha256": "d5c58d1df5520607c1b02086706c5c9a73f40d3f5668db1f2513cdc4025ef146"
+    },
+    "woodland-node-metadata.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-connected-route/REPORT.md",
+    "sha256": "95317a74ac087ce25820404402dbdb253db2751af31d86cefb7f03997052350b"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-connected-route/corner-blocked.json",
+    "sha256": "01856cd1af807bb1fc85408249be44496c2bcc36dcae31657407ab84f25e6b62"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-connected-route/corner-blocked.log",
+    "sha256": "5f0bc1fdd4114adecad6d0f8964889d37f1ccd9b3495a3e2649eb940a27c8902"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-connected-route/corner-blocked.ts.txt",
+    "sha256": "f32ad34ade846fa4cdcc4160d3e9c6692dc8d4b3c60a53648eb06ff6870597ec"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-connected-route/grid.json",
+    "sha256": "549a9138ccc08c79fef726c34bcf34d6654544d0455822e80daf770299c922d0"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-connected-route/grid.log",
+    "sha256": "b8071e5252305ff848f4235c5f19368da58c25b7130139f234bfe27578dbfe92"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-connected-route/grid.ts",
+    "sha256": "78fda1ca1ba26cb35e5f983277b476af8b3f10cce459d79bc8c9f2007429ccdd"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-connected-route/initial-blocked.json",
+    "sha256": "8cb9a8e4ad396737d08458db921fa581eaf86ddcef959297557379bd8c1c6c24"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-connected-route/initial-blocked.log",
+    "sha256": "6eeae4f5e8357b8858ab5e291d62c52e430748ce596cf5a153087e76b5520a84"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-connected-route/initial-blocked.ts.txt",
+    "sha256": "9bdc5c5d7d780caaa8e3a43971a608e3dc481749d90ac711059da2a412df622a"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-connected-route/replay.json",
+    "sha256": "162ae3216ea7e0438a874ef0bf9e16d82dc636e16b20ffe5f6a851698dff226d"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-connected-route/replay.log",
+    "sha256": "2f2a9243c2008ddb4d838c6fac58e77eac576c049badb7deb3d9959c737326e3"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-connected-route/replay.ts",
+    "sha256": "e2e1f629bde8bf5dda50a8aa932766f4523607ebb69fc11c511eac6abc20dcb6"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-connected-route/uninstrumented-pass.json",
+    "sha256": "01ecbfb137e25138ae1dd7d3a77e5fe2299c7149f9ee39aa7f6789bb71590641"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-connected-route/uninstrumented-pass.ts.txt",
+    "sha256": "83b629eabcfc8919fa10e590a9b8f483cb43630fd292d559c0dfd424c3a8d60c"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-connected-route/verification.json",
+    "sha256": "0da1fd64a587c3328cfa3753e28348f1c53728e921bbc7f4567fba31bbc5ad50"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-door-passages/replay.json",
+    "sha256": "58ff2b1babff7e5e81fa8fd53c1360ff6455e24672d2dcda2ac35a994a750810"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/barrack-route-geometry/replay.json",
+    "sha256": "b9a05c3b9e64e69fd29ffb3b3ce46644522b2117a0fe1615afb24ca923c2d859"
+  },
+  {
+    "path": "public/assets/original-scenes/barrack/doors.json",
+    "sha256": "31fd470230a100fa7f7b6d83c0ad89a78ad77b5555de7739af33ec9bbd7ccd8e"
+  },
+  {
+    "path": "public/assets/original-scenes/barrack/scene.json",
+    "sha256": "7b252e098959f98a872850551fdf8f52e5b7e1b5ea79dfa6af21b841f0d31ad3"
+  },
+  {
+    "path": "scripts/run-bounded.sh",
+    "sha256": "a36da7a4c986d714c2b2c834b0f2b1deb242e9e62c883be75abf09d33559314a"
+  },
+  {
+    "path": "shared/originalDoorWorld.ts",
+    "sha256": "547f14d06a68b4c3d5e71bac60c3f48794e8ea45cb112b1ba863dc87a17acc29"
+  },
+  {
+    "path": "shared/originalExplosives.ts",
+    "sha256": "b2983fe87ee91fbe0b66270049078e1053ce394523956974b37615485dd51cb2"
+  },
+  {
+    "path": "shared/originalMapProfile.ts",
+    "sha256": "0ba668f15dda6d1f5314f58310a2ea174a70d18c2df51267163d521303da0da3"
+  },
+  {
+    "path": "shared/originalPlayerPhysics.ts",
+    "sha256": "27679579fc5cd250fe588b231ac6e88e6cd30b96ba673f583d3cae0f980fdcbf"
+  },
+  {
+    "path": "shared/originalSceneGeometry.ts",
+    "sha256": "56397c99ae1b8ebd935369ae3b1a519474802107943426292513dd1e86428e1d"
+  }
+]

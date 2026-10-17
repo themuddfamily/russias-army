@@ -1,0 +1,19 @@
+{
+  "outputs": {
+    "docs/research-evidence/2026-10-03/woodland-interior-identity/REPORT.md": "e7704209eb84923fba6724119de415f33a08e9134e52645156fc6e5c932dbe4e",
+    "docs/research-evidence/2026-10-03/woodland-interior-identity/identity.json": "47812a5c7f86f6893d770a8e81b5e088693cc41035614aa6abce409c182a065b",
+    "docs/research-evidence/2026-10-03/woodland-interior-identity/inspect.py": "7d45dd2d93baf0877779e041c2f17e72c3a361ecac6da95cb22a9d933faaea71",
+    "docs/research-evidence/2026-10-03/woodland-interior-identity/inspection.log": "a6a156cf335a50a26d2de3cc3319875317e7658f35c4a61081f0b371a8782b04",
+    "docs/research-evidence/2026-10-03/woodland-interior-identity/source-plan.svg": "4dbcb8774fa27297417f0646bd770ef87af1856b24438ae408e985a8ac6e267e"
+  },
+  "inputs": {
+    "public/assets/original-scenes/woodland/scene.json": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107",
+    "public/assets/original-scenes/woodland/textures/stonebarn.png": "7ff83e28de923ebf82ec17cf57ac3ededf53136b9543960f362f3878551b3b86",
+    "docs/research-evidence/2026-10-03/woodland-interior-reference/frame-01.png": "0ce2e772ed51e069758ae482a204fde35f0f0d1f7f8089f71ad94d308344ce43",
+    "docs/research-evidence/2026-10-03/woodland-interior-reference/frame-02.png": "355a9cf0e4ee29fd4d972c88be596f11f8e02d6d5363add179d9ee1c0d08800f",
+    "docs/research-evidence/2026-10-03/woodland-interior-reference/frame-03.png": "a567ddd54bfd93678ab4721516feb0b3dafb22b3f6ac54942341becda231a0b5",
+    "docs/research-evidence/2026-10-03/woodland-interior-reference/frame-04.png": "ba88099167ebeb90c583251083cb979101d7bc7b5a9e93422a87dcefc1028c0a",
+    "docs/research-evidence/2026-10-03/woodland-interior-reference/frame-05.png": "770f3dc460e4f9a9f8336bdae277fb050951b617d3230c71c9d8fa4ba4d8b923",
+    "docs/research-evidence/2026-10-03/woodland-interior-reference/frame-06.png": "e5b960585b34990cbb4599f25f3112c141fb16fb2e4811dbc4fa5b224e45f973"
+  }
+}

@@ -1,0 +1,31 @@
+# Original camera projection evidence
+
+Reviewed 2026-09-30 without running Director, the original movie, a VM, or GPU rendering.
+
+## Vertical field of view is resolved
+
+Adobe's [Using Director 11.5 manual](https://help.adobe.com/en_US/Director/11.5/UsingDirector/director_11.5_help.pdf), printed page **374**, physical PDF page **385**, camera-properties table, defines `fieldOfView` as:
+
+> “A floating-point value specifying the vertical projection angle in degrees.”
+
+The inspected local Adobe-authored PDF is `/tmp/ra-libreshockwave-src/docs/adobe_director_11.5.pdf`, from preserved LibreShockwave commit `fca530f9ef388d7ff38fa6c7117feae5bb5411c6`. Its SHA-256 is `47d91d091d73a8b01bb2c6cae992355a6ba79abe626ad200228e0aa70b933774`. Its title is *Using Adobe Director 11.5*; copyright 2009 Adobe Systems Incorporated, last updated 2011-09-28. The extracted local text confirms the same entry at lines 15281–15283. Printed page 373 / PDF384 separately describes camera `rect` as its screen rectangle relative to the sprite's upper-left corner.
+
+The [earlier normalization audit](ORIGINAL_PLAYER_NORMALIZATION.md) records HTTP200/application-PDF verification of the official URL. This follow-up could not download it again: shell DNS resolution failed, and the web tool could not access the URL. Therefore **byte equality between the current official download and local PDF has not been verified**; the hash above identifies the inspected preserved copy.
+
+Both recovered [Barrack goody script](<director-script-extraction/barrack/casts/parents/ParentScript 5 - goody.ls>) and [Woodland goody script](<director-script-extraction/woodland/casts/parents/ParentScript 5 - goody.ls>) set the camera to perspective projection and `fieldOfView=50`. Woodland lines 49–69 read `sprite(1).rect`, assign `gmem.camera[1]` to that sprite, and set this FOV. Consequently **50 is a vertical angle**; converting it from a supposed horizontal angle would contradict the Adobe property definition. The [copy's source-weapon constant](../../../src/originalWeaponPresentation.ts) is likewise vertical50.
+
+## Aspect, scaling and crop remain distinct questions
+
+Recovered [Barrack DRCF](director-script-extraction/barrack/chunks/DRCF-5134.json) and [Woodland DRCF](director-script-extraction/woodland/chunks/DRCF-6552.json) both specify stage rectangle `(0,0,800,600)`. These are movie-stage dimensions, **not proof that sprite1 or its camera occupied the complete stage**. At the original September30 audit, gameplay score geometry had not been connected to this camera review. The later [passive score audit](../2026-10-01/ORIGINAL_RESULT_SCORE_LAYOUT.md) and [stored sprite constraint](../2026-10-01/native-gameplay-sprite-constraint.json) recover gameplay frames3–5/channel1 location(400,300) and size800×600 in both editions. The level cast's centered320×240 Xtra rectangle supports a conditional authored full-stage extent; native registration/scaling and runtime member replacement remain unexecuted. The [October3 exact cast-slot crosscheck](../../../artifacts/fidelity-review/2026-10-03/current/authored-camera-rectangle-audit/REPORT.md) adds a qualification: Woodland's stored library3/member3 resolves to its level cast, but Barrack's stored member4 is outside its three-slot cast list. Explore subsequently selects and assigns the named level. Thus authored sprite dimensions are available, while the resulting runtime camera rectangle remains unproved.
+
+Adobe's same manual, printed pages **452–453** / PDF **463–464**, describes publishing options that preserve movie proportions, stretch the movie to the browser rectangle, or expand the stage without resizing sprites. Stretching can distort sprite proportions. The original embedding HTML, selected scaling option and recording crop have not been recovered here.
+
+Accordingly the [1280×574 decoded video](woodland-video-20s.jpg) and [1776×1000 still](woodland-mark-wiering.jpg), which also includes content below the gameplay viewport, do not by themselves establish native camera aspect or pixel aspect. The browser copy uses vertical50 with its current viewport aspect as an explicit adaptation. Exact original framing still requires the source sprite/camera rectangle and publishing/capture geometry, followed by registered comparisons. This resolves the FOV-axis question without accepting V23/V25 or claiming exact source-to-browser projection.
+
+## Near-plane evidence
+
+Adobe's camera-properties table, printed page **373** / PDF **384**, lists `hither` as the near z-axis clipping distance and gives its default as **5.0 source units**. That default does not establish an imported camera's actual value.
+
+The preserved static-decoder logs identify one `defaultview` View Node in each level resource: [Barrack log](w3d-decoded/barrack-level1/parse.log), lines 200–201, and [Woodland log](w3d-decoded/woodland-level2/parse.log), lines 47–48. Both decode `near=1` and `far≈3.4028235e38`; their stored FOVs differ, 30 and 34.515877 respectively, before the Lingo override to 50. These are decoded resource fields, not observed runtime values. The static decoder's `parse_view_node` reads three stored floats for near, far and FOV when present; its geometry JSON exports the camera transform but omits these projection fields.
+
+Both [Barrack level initializer](<director-script-extraction/barrack/casts/parents/BehaviorScript 32 - explore.ls>) and [Woodland level initializer](<director-script-extraction/woodland/casts/parents/BehaviorScript 32 - explore.ls>) select the level cast member and call `resetWorld()`. The goody scripts then reuse `gmem.camera[1]`, rather than creating a camera. No `hither`, `yon`, camera creation or camera-deletion assignment was found in the inspected recovered `.ls` scripts. This connects the imported camera resource to gameplay, but the Director import/cast-property translation of the stored near field into runtime `hither` has not been independently established. **Do not substitute either the documented default5 or decoded resource1 as an exact gameplay near plane without resolving that translation.** The copy's near plane remains an explicit adaptation; its effect on very close gun surfaces belongs to the remaining V23/V25 projection review.

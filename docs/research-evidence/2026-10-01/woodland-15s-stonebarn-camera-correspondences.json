@@ -1,0 +1,504 @@
+{
+  "status": "manual-candidate-correspondences-not-registered-camera-proof",
+  "scene": "public/assets/original-scenes/woodland/scene.json",
+  "reference": "docs/research-evidence/2026-09-30/woodland-video-15s.jpg",
+  "imageSize": [
+    1280,
+    574
+  ],
+  "scale": 0.02023529411764706,
+  "verticalFovDegrees": 50,
+  "principalPoint": [
+    640,
+    287
+  ],
+  "sceneSha256": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107",
+  "referenceSha256": "eeae8794813fac85c57c32a9f6af9be859c668699c3f1ab42a731a988f717f3a",
+  "landmarks": [
+    {
+      "id": "bay_outer_top_left",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 202,
+      "pixel": [
+        685,
+        226
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 5,
+      "sourceLocal": [
+        -798.4547119140625,
+        -99.77714538574219,
+        117.35691833496094
+      ],
+      "sourceWorld": [
+        607.3480224609375,
+        -557.2187347412109,
+        -334.5666961669922
+      ],
+      "world": [
+        12.289865866268382,
+        -6.770055498908548,
+        11.275484985351563
+      ],
+      "justification": "Outer left jamb meets front lintel; dark frame makes exact edge ambiguous.",
+      "status": "manual-candidate-not-yet-geometrically-validated"
+    },
+    {
+      "id": "bay_outer_top_right",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 48,
+      "pixel": [
+        800,
+        226
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 6,
+      "sourceLocal": [
+        -652.3524780273438,
+        -114.74371337890625,
+        117.35692596435547
+      ],
+      "sourceWorld": [
+        753.4502563476562,
+        -572.185302734375,
+        -334.56668853759766
+      ],
+      "world": [
+        15.246287540211398,
+        -6.770055344525506,
+        11.578337890625
+      ],
+      "justification": "Outer right jamb/lintel corner, distinguished from recessed inner edge.",
+      "status": "manual-candidate-not-yet-geometrically-validated"
+    },
+    {
+      "id": "bay_outer_bottom_left",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 29,
+      "pixel": [
+        685,
+        300
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 7,
+      "sourceLocal": [
+        -798.4547119140625,
+        -99.77714538574219,
+        -5.2264251708984375
+      ],
+      "sourceWorld": [
+        607.3480224609375,
+        -557.2187347412109,
+        -457.15003967285156
+      ],
+      "world": [
+        12.289865866268382,
+        -9.250565508674173,
+        11.275484985351563
+      ],
+      "justification": "Front opening foot; soil/contact shading obscures precise silhouette.",
+      "status": "manual-candidate-not-yet-geometrically-validated"
+    },
+    {
+      "id": "bay_outer_bottom_right",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 195,
+      "pixel": [
+        800,
+        300
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 7,
+      "sourceLocal": [
+        -652.3524780273438,
+        -114.74371337890625,
+        -5.2264251708984375
+      ],
+      "sourceWorld": [
+        753.4502563476562,
+        -572.185302734375,
+        -457.15003967285156
+      ],
+      "world": [
+        15.246287540211398,
+        -9.250565508674173,
+        11.578337890625
+      ],
+      "justification": "Front opening foot; soil/contact shading obscures precise silhouette.",
+      "status": "manual-candidate-not-yet-geometrically-validated"
+    },
+    {
+      "id": "closed_door_outer_top_left",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 86,
+      "pixel": [
+        1071,
+        226
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 3,
+      "sourceLocal": [
+        -224.7361297607422,
+        -181.02423095703125,
+        121.87065124511719
+      ],
+      "sourceWorld": [
+        1181.0666046142578,
+        -638.4658203125,
+        -330.05296325683594
+      ],
+      "world": [
+        23.899230116900277,
+        -6.678718785903033,
+        12.919543658088235
+      ],
+      "justification": "Dark outer frame left/top intersection, strong visible vertical edge.",
+      "status": "manual-candidate-not-yet-geometrically-validated"
+    },
+    {
+      "id": "closed_door_outer_top_right",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 157,
+      "pixel": [
+        1207,
+        226
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 3,
+      "sourceLocal": [
+        -49.65100860595703,
+        -199.0791473388672,
+        121.87065124511719
+      ],
+      "sourceWorld": [
+        1356.151725769043,
+        -656.5207366943359,
+        -330.05296325683594
+      ],
+      "world": [
+        27.442129039091224,
+        -6.678718785903033,
+        13.28489020134421
+      ],
+      "justification": "Dark outer frame right/top intersection, compressed roof/eave above.",
+      "status": "manual-candidate-not-yet-geometrically-validated"
+    },
+    {
+      "id": "high_roof_left_ridge",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 211,
+      "pixel": [
+        946,
+        168
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 3,
+      "sourceLocal": [
+        -370.12567138671875,
+        38.24790954589844,
+        246.59207153320312
+      ],
+      "sourceWorld": [
+        1035.6770629882812,
+        -419.1936798095703,
+        -205.33154296875
+      ],
+      "world": [
+        20.95722998046875,
+        -4.154944163602941,
+        8.482507403205423
+      ],
+      "justification": "Distinct step into higher right roof at left ridge endpoint.",
+      "status": "manual-candidate-not-yet-geometrically-validated"
+    },
+    {
+      "id": "high_roof_front_left_eave",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 123,
+      "pixel": [
+        986,
+        214
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 6,
+      "sourceLocal": [
+        -391.0313720703125,
+        -163.91958618164062,
+        147.29006958007812
+      ],
+      "sourceWorld": [
+        1014.7713623046875,
+        -621.3611755371094,
+        -304.633544921875
+      ],
+      "world": [
+        20.534196978400736,
+        -6.164349379595588,
+        12.573426140280331
+      ],
+      "justification": "Diagonal roof edge meets front eave, near dark wall junction.",
+      "status": "manual-candidate-not-yet-geometrically-validated"
+    },
+    {
+      "id": "closed_door_outer_bottom_left",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 160,
+      "pixel": [
+        1071,
+        307
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 5,
+      "sourceLocal": [
+        -224.7361297607422,
+        -181.0242462158203,
+        -5.939115524291992
+      ],
+      "sourceWorld": [
+        1181.0666046142578,
+        -638.4658355712891,
+        -457.8627300262451
+      ],
+      "world": [
+        23.899230116900277,
+        -9.264987007589902,
+        12.91954396685432
+      ],
+      "justification": "Door foot at ground; independent vertical extent check.",
+      "status": "manual-candidate-not-yet-geometrically-validated"
+    },
+    {
+      "id": "closed_door_outer_bottom_right",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 155,
+      "pixel": [
+        1207,
+        309
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 5,
+      "sourceLocal": [
+        -49.65100860595703,
+        -199.0791473388672,
+        -5.939115524291992
+      ],
+      "sourceWorld": [
+        1356.151725769043,
+        -656.5207366943359,
+        -457.8627300262451
+      ],
+      "world": [
+        27.442129039091224,
+        -9.264987007589902,
+        13.28489020134421
+      ],
+      "justification": "Door foot at ground; independent vertical extent check.",
+      "status": "manual-candidate-not-yet-geometrically-validated"
+    },
+    {
+      "id": "low_roof_right_ridge",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 122,
+      "pixel": [
+        949,
+        182
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 9,
+      "sourceLocal": [
+        -370.6007995605469,
+        33.021484375,
+        219.03457641601562
+      ],
+      "sourceWorld": [
+        1035.2019348144531,
+        -424.42010498046875,
+        -232.8890380859375
+      ],
+      "world": [
+        20.94761562212776,
+        -4.712578182444853,
+        8.588265653722427
+      ],
+      "justification": "Short left section ridge ending behind taller section; endpoint partially occluded.",
+      "status": "manual-candidate-not-yet-geometrically-validated"
+    },
+    {
+      "id": "low_roof_left_ridge",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 128,
+      "pixel": [
+        587,
+        187
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 10,
+      "sourceLocal": [
+        -1006.561279296875,
+        98.58930969238281,
+        219.03457641601562
+      ],
+      "sourceWorld": [
+        399.241455078125,
+        -358.85227966308594,
+        -232.8890380859375
+      ],
+      "world": [
+        8.078768267463236,
+        -4.712578182444853,
+        7.261481423770681
+      ],
+      "justification": "Left roof ridge endpoint partly merges with soil slope and low contrast.",
+      "status": "manual-candidate-not-yet-geometrically-validated"
+    },
+    {
+      "id": "bay_inner_top_left",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 1,
+      "pixel": [
+        702,
+        232
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 3,
+      "sourceLocal": [
+        -796.0790405273438,
+        -77.20850372314453,
+        112.60562896728516
+      ],
+      "sourceWorld": [
+        609.7236938476562,
+        -534.6500930786133,
+        -339.31798553466797
+      ],
+      "world": [
+        12.337938275505515,
+        -6.866199236701517,
+        10.818801883473116
+      ],
+      "justification": "Recessed inner opening left/top corner; visible high-contrast left jamb.",
+      "status": "manual-candidate-not-yet-geometrically-validated"
+    },
+    {
+      "id": "bay_inner_top_right",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 189,
+      "pixel": [
+        815,
+        232
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 8,
+      "sourceLocal": [
+        -649.976806640625,
+        -92.41264343261719,
+        112.60563659667969
+      ],
+      "sourceWorld": [
+        755.825927734375,
+        -549.8542327880859,
+        -339.31797790527344
+      ],
+      "world": [
+        15.29435994944853,
+        -6.866199082318475,
+        11.126462122300092
+      ],
+      "justification": "Recessed inner right jamb; interior shadows make correspondence uncertain.",
+      "status": "manual-candidate-not-yet-geometrically-validated"
+    },
+    {
+      "id": "bay_inner_bottom_left",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 182,
+      "pixel": [
+        702,
+        292
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 5,
+      "sourceLocal": [
+        -796.0790405273438,
+        -77.20850372314453,
+        -0.23756790161132812
+      ],
+      "sourceWorld": [
+        609.7236938476562,
+        -534.6500930786133,
+        -452.16118240356445
+      ],
+      "world": [
+        12.337938275505515,
+        -9.149614514519188,
+        10.818801883473116
+      ],
+      "justification": "Recessed left jamb foot/inner floor transition.",
+      "status": "manual-candidate-not-yet-geometrically-validated"
+    },
+    {
+      "id": "bay_inner_bottom_right",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 138,
+      "pixel": [
+        815,
+        294
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 8,
+      "sourceLocal": [
+        -649.976806640625,
+        -92.41264343261719,
+        -0.23756790161132812
+      ],
+      "sourceWorld": [
+        755.825927734375,
+        -549.8542327880859,
+        -452.16118240356445
+      ],
+      "world": [
+        15.29435994944853,
+        -9.149614514519188,
+        11.126462122300092
+      ],
+      "justification": "Recessed right jamb foot, low contrast and internal wall occlusion.",
+      "status": "manual-candidate-not-yet-geometrically-validated"
+    }
+  ],
+  "neighborFrames": [
+    {
+      "timestampSeconds": 14,
+      "path": "docs/research-evidence/2026-10-01/woodland-video-14s-camera-reference.png",
+      "sha256": "c4ce2a92d359fd535a75bc866a76bb3dbdaba93607f793d0e27bf0c11a2d8413",
+      "extraction": "ffmpeg single decoded frame; video decoding only, no original runtime"
+    },
+    {
+      "timestampSeconds": 16,
+      "path": "docs/research-evidence/2026-10-01/woodland-video-16s-camera-reference.png",
+      "sha256": "71da5c673445b2bb45639a051b0f72cca44d2df6e7a6d7a0d1f586915b46d257",
+      "extraction": "ffmpeg single decoded frame; video decoding only, no original runtime"
+    }
+  ],
+  "method": "Visual pixel measurements on a coordinate-grid inspection of the preserved 15s JPEG plus passive source triangle topology. First occurrence mesh vertex indices identify exact source coordinates. No fit results informed these pixels or fit/heldout assignment.",
+  "limits": [
+    "Pixel labels are manual candidates, not certified vertex identifications; high-residual points must be rejected transparently rather than silently relabeled from predictions.",
+    "Recessed bay corners and partially occluded roof endpoints carry larger uncertainty.",
+    "Source footage compression, unknown camera sprite rectangle, crop/stretch and rasterization remain unverified.",
+    "Heldout points must not be moved or swapped to improve fit after viewing optimization."
+  ]
+}

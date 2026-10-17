@@ -1,0 +1,36 @@
+ref 947
+Example
+This statement displays the coordinates of bitmap sprite 20:
+-- Lingo syntax
+put(sprite(20).rect)
+// JavaScript syntax
+put(sprite(20).rect);
+See also
+rect(), Sprite 
+rect (Window)
+Usage
+-- Lingo syntax
+windowObjRef.rect
+// JavaScript syntax
+windowObjRef.rect;
+Description
+Window property; specifies the left, top, right, and bottom coordinates, as a rectangle, of a 
+window. Read/write.
+If the size of the rectangle specified is less than that of the Stage where the movie was created, the 
+movie is cropped in the window, not resized.
+T o pan or scale the movie playing in the window, set the drawRect or sourceRect property of 
+the window.
+Example
+This statement displays the coordinates of the window named Control_panel:
+-- Lingo syntax
+put(window("Control_panel").rect)
+// JavaScript syntax
+put(window("Control_panel").rect);
+See also
+drawRect, sourceRect, Window 
+ref
+Usage
+chunkExpression.ref
+Description
+T ext chunk expression property; this provides a convenient way to refer to a chunk expression 
+within a text cast member.

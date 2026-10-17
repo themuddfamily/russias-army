@@ -1,0 +1,281 @@
+{
+  "scope": "Snapshot continuation of source body at end of premature airborne stall; exact position/velocity restored, no route reset; no door triggers in prior run",
+  "parent": "replay.json",
+  "initialSnapshot": {
+    "callback": 165,
+    "target": "one original jump over observed barrier toward z72",
+    "position": {
+      "x": 75.91204648910168,
+      "y": 8.552100512638704,
+      "z": 70.18673259540414
+    },
+    "velocity": {
+      "x": -0.19290884428423172,
+      "y": -0.35611537751135647,
+      "z": -0.03563073285970075
+    },
+    "supported": false,
+    "intersects": false,
+    "triggered": [],
+    "distance": 2.1787818534817553
+  },
+  "status": "landed; further traversal untested",
+  "queries": 3580,
+  "callbacks": 178,
+  "trace": [
+    {
+      "callback": 166,
+      "position": {
+        "x": 75.9024010468875,
+        "y": 8.52316533199843,
+        "z": 70.1849510587612
+      },
+      "velocity": {
+        "x": -0.19290884428423172,
+        "y": -0.7608212598642979,
+        "z": -0.03563073285970075
+      },
+      "supported": false,
+      "intersects": false
+    },
+    {
+      "callback": 167,
+      "position": {
+        "x": 75.89275560467333,
+        "y": 8.473994857240507,
+        "z": 70.18316952211826
+      },
+      "velocity": {
+        "x": -0.19290884428423172,
+        "y": -1.1655271422172389,
+        "z": -0.03563073285970075
+      },
+      "supported": false,
+      "intersects": false
+    },
+    {
+      "callback": 168,
+      "position": {
+        "x": 75.88311016245915,
+        "y": 8.404589088364942,
+        "z": 70.18138798547533
+      },
+      "velocity": {
+        "x": -0.19290884428423172,
+        "y": -1.5702330245701792,
+        "z": -0.03563073285970075
+      },
+      "supported": false,
+      "intersects": false
+    },
+    {
+      "callback": 169,
+      "position": {
+        "x": 75.87346472024497,
+        "y": 8.314948025371722,
+        "z": 70.17960644883239
+      },
+      "velocity": {
+        "x": -0.19290884428423172,
+        "y": -1.9749389069231196,
+        "z": -0.03563073285970075
+      },
+      "supported": false,
+      "intersects": false
+    },
+    {
+      "callback": 170,
+      "position": {
+        "x": 75.86381927803079,
+        "y": 8.205071668260866,
+        "z": 70.17782491218945
+      },
+      "velocity": {
+        "x": -0.19290884428423172,
+        "y": -2.379644789276062,
+        "z": -0.03563073285970075
+      },
+      "supported": false,
+      "intersects": false
+    },
+    {
+      "callback": 171,
+      "position": {
+        "x": 75.85417383581661,
+        "y": 8.074960017032355,
+        "z": 70.17604337554651
+      },
+      "velocity": {
+        "x": -0.19290884428423172,
+        "y": -2.7843506716290047,
+        "z": -0.03563073285970075
+      },
+      "supported": false,
+      "intersects": false
+    },
+    {
+      "callback": 172,
+      "position": {
+        "x": 75.84452839360243,
+        "y": 7.924613071686195,
+        "z": 70.17426183890358
+      },
+      "velocity": {
+        "x": -0.19290884428423172,
+        "y": -3.1890565539819473,
+        "z": -0.03563073285970075
+      },
+      "supported": false,
+      "intersects": false
+    },
+    {
+      "callback": 173,
+      "position": {
+        "x": 75.83488295138825,
+        "y": 7.754030832222392,
+        "z": 70.17248030226064
+      },
+      "velocity": {
+        "x": -0.19290884428423172,
+        "y": -3.59376243633489,
+        "z": -0.03563073285970075
+      },
+      "supported": false,
+      "intersects": false
+    },
+    {
+      "callback": 174,
+      "position": {
+        "x": 75.82523750917407,
+        "y": 7.5632132986409415,
+        "z": 70.1706987656177
+      },
+      "velocity": {
+        "x": -0.19290884428423172,
+        "y": -3.9984683186878325,
+        "z": -0.03563073285970075
+      },
+      "supported": false,
+      "intersects": false
+    },
+    {
+      "callback": 175,
+      "position": {
+        "x": 75.8155920669599,
+        "y": 7.352160470941843,
+        "z": 70.16891722897476
+      },
+      "velocity": {
+        "x": -0.19290884428423172,
+        "y": -4.403174201040775,
+        "z": -0.03563073285970075
+      },
+      "supported": false,
+      "intersects": false
+    },
+    {
+      "callback": 176,
+      "position": {
+        "x": 75.80594662474572,
+        "y": 7.120872349125098,
+        "z": 70.16713569233183
+      },
+      "velocity": {
+        "x": -0.19290884428423172,
+        "y": -4.807880083393718,
+        "z": -0.03563073285970075
+      },
+      "supported": false,
+      "intersects": false
+    },
+    {
+      "callback": 177,
+      "position": {
+        "x": 75.80457076189889,
+        "y": 7.099879391342765,
+        "z": 70.16688156711675
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0.16511742010407823,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false
+    }
+  ],
+  "contactEvents": [
+    {
+      "callback": 177,
+      "substepIndex": 1,
+      "iteration": 0,
+      "time": 0.007132191641769148,
+      "substepTime": 0.0021321916417691477,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.0028678083582308524,
+      "fraction": 0.4264383283538296,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "spawn3-south-route",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 75.80457076189889,
+          "y": 6.580324338997391,
+          "z": 70.16688156711675
+        },
+        "b": {
+          "x": 75.80457076189889,
+          "y": 6.560089044879744,
+          "z": 70.16688156711675
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.19290884428423172,
+          "y": -4.888821259864306,
+          "z": -0.03563073285970075
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": 0,
+          "y": 0.4888821259864313,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": 0,
+          "y": 0.4888821259864313,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    }
+  ]
+}

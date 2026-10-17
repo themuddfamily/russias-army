@@ -1,0 +1,86 @@
+property pmod, hit, pos
+global gmem, ghvk
+
+on new me, modo
+  [  0] getparam 1 .............................. <modo>
+  [  2] setprop 67 .............................. pmod = modo
+  [  4] getparam 1 .............................. <modo>
+  [  6] getchainedprop 74 ....................... <modo.transform>
+  [  8] getparam 1 .............................. <modo>
+  [ 10] getchainedprop 74 ....................... <modo.transform>
+  [ 12] getobjprop 42 ........................... <modo.transform.position>
+  [ 14] pushzero ................................ <0>
+  [ 15] pushzero ................................ <0>
+  [ 16] pushint8 10 ............................. <10>
+  [ 18] pusharglist 3 ........................... <0, 0, 10>
+  [ 20] extcall 41 .............................. <vector(0, 0, 10)>
+  [ 22] add ..................................... <modo.transform.position + vector(0, 0, 10)>
+  [ 23] setobjprop 42 ........................... modo.transform.position = modo.transform.position + vector(0, 0, 10)
+  [ 25] getparam 1 .............................. <modo>
+  [ 27] getchainedprop 74 ....................... <modo.transform>
+  [ 29] getobjprop 42 ........................... <modo.transform.position>
+  [ 31] setprop 37 .............................. pos = modo.transform.position
+  [ 33] getglobal 39 ............................ <ghvk>
+  [ 35] getprop 67 .............................. <pmod>
+  [ 37] pushint8 1 .............................. <1>
+  [ 39] pushint8 1 .............................. <1>
+  [ 41] pushcons 0 .............................. <0.20000000000000001>
+  [ 43] pushint8 1 .............................. <1>
+  [ 45] pusharglist 6 ........................... <ghvk, pmod, 1, 1, 0.20000000000000001, 1>
+  [ 47] objcall 471 ............................. <ghvk.makemoveable(pmod, 1, 1, 0.20000000000000001, 1)>
+  [ 50] setlocal 0 .............................. pdummy = ghvk.makemoveable(pmod, 1, 1, 0.20000000000000001, 1)
+  [ 52] getlocal 0 .............................. <pdummy>
+  [ 54] pushzero ................................ <0>
+  [ 55] setobjprop 472 .......................... pdummy.pinned = 0
+  [ 58] pushzero ................................ <0>
+  [ 59] setprop 439 ............................. hit = 0
+  [ 62] pushint8 1 .............................. <1>
+  [ 64] setlocal 1 .............................. lives = 1
+  [ 66] getmovieprop 53 ......................... <the actorList>
+  [ 68] getparam 0 .............................. <me>
+  [ 70] pusharglistnoret 2 ...................... <the actorList, me>
+  [ 72] objcall 55 .............................. (the actorList).add(me)
+  [ 74] getparam 0 .............................. <me>
+  [ 76] pusharglistnoret 1 ...................... <me>
+  [ 78] extcall 173 ............................. return me
+  [ 80] ret
+end
+
+on stepFrame me
+  [  0] getprop 439 ............................. <hit>
+  [  3] pushint8 1 .............................. <1>
+  [  5] eq ...................................... <hit = 1>
+  [  6] jmpifz [ 61] ............................ if hit = 1 then
+  [  9] getglobal 39 ............................ <ghvk>
+  [ 11] getprop 67 .............................. <pmod>
+  [ 13] pusharglistnoret 2 ...................... <ghvk, pmod>
+  [ 15] objcall 473 ............................. ghvk.removethefella(pmod)
+  [ 18] getprop 67 .............................. <pmod>
+  [ 20] getchainedprop 74 ....................... <pmod.transform>
+  [ 22] getobjprop 42 ........................... <pmod.transform.position>
+  [ 24] setprop 37 .............................. pos = pmod.transform.position
+  [ 26] pushcons 1 .............................. <"bangs">
+  [ 28] pusharglist 1 ........................... <"bangs">
+  [ 30] extcall 58 .............................. <script("bangs")>
+  [ 32] getprop 37 .............................. <pos>
+  [ 34] pushcons 2 .............................. <"barrel">
+  [ 36] pusharglist 3 ........................... <script("bangs"), pos, "barrel">
+  [ 38] objcall 0 ............................... <script("bangs").new(pos, "barrel")>
+  [ 40] setlocal 0 .............................. bang = script("bangs").new(pos, "barrel")
+  [ 42] getglobal 68 ............................ <gmem>
+  [ 44] getprop 67 .............................. <pmod>
+  [ 46] getobjprop 16 ........................... <pmod.name>
+  [ 48] pusharglistnoret 2 ...................... <gmem, pmod.name>
+  [ 50] objcall 474 ............................. gmem.deleteModel(pmod.name)
+  [ 53] getmovieprop 53 ......................... <the actorList>
+  [ 55] getparam 0 .............................. <me>
+  [ 57] pusharglistnoret 2 ...................... <the actorList, me>
+  [ 59] objcall 155 ............................. (the actorList).deleteOne(me)
+  [ 61] ret
+end
+
+on hurt me, howbad
+  [  0] pushint8 1 .............................. <1>
+  [  2] setprop 439 ............................. hit = 1
+  [  5] ret
+end

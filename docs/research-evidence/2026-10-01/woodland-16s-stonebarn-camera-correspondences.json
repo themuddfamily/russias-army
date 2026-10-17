@@ -1,0 +1,349 @@
+{
+  "status": "independent-16s-candidate-correspondences-not-registered-camera-proof",
+  "scene": "public/assets/original-scenes/woodland/scene.json",
+  "reference": "docs/research-evidence/2026-10-01/woodland-video-16s-camera-reference.png",
+  "sceneSha256": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107",
+  "referenceSha256": "71da5c673445b2bb45639a051b0f72cca44d2df6e7a6d7a0d1f586915b46d257",
+  "imageSize": [
+    1280,
+    574
+  ],
+  "scale": 0.02023529411764706,
+  "verticalFovDegrees": 50,
+  "principalPoint": [
+    640,
+    287
+  ],
+  "landmarks": [
+    {
+      "id": "bay_outer_top_left",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 202,
+      "pixel": [
+        598,
+        192
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 6,
+      "sourceLocal": [
+        -798.4547119140625,
+        -99.77714538574219,
+        117.35691833496094
+      ],
+      "sourceWorld": [
+        607.3480224609375,
+        -557.2187347412109,
+        -334.5666961669922
+      ],
+      "world": [
+        12.289865866268382,
+        -6.770055498908548,
+        11.275484985351563
+      ],
+      "justification": "Visible outer left lintel/jamb corner. Compression and nearby layered trim make semantic boundary uncertain.",
+      "status": "independent-manual-candidate-not-geometrically-validated"
+    },
+    {
+      "id": "bay_outer_top_right",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 48,
+      "pixel": [
+        797,
+        194
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 8,
+      "sourceLocal": [
+        -652.3524780273438,
+        -114.74371337890625,
+        117.35692596435547
+      ],
+      "sourceWorld": [
+        753.4502563476562,
+        -572.185302734375,
+        -334.56668853759766
+      ],
+      "world": [
+        15.246287540211398,
+        -6.770055344525506,
+        11.578337890625
+      ],
+      "justification": "Front right jamb/lintel corner; dark stone wall and trim merge.",
+      "status": "independent-manual-candidate-not-geometrically-validated"
+    },
+    {
+      "id": "bay_outer_bottom_left",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 29,
+      "pixel": [
+        600,
+        316
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 9,
+      "sourceLocal": [
+        -798.4547119140625,
+        -99.77714538574219,
+        -5.2264251708984375
+      ],
+      "sourceWorld": [
+        607.3480224609375,
+        -557.2187347412109,
+        -457.15003967285156
+      ],
+      "world": [
+        12.289865866268382,
+        -9.250565508674173,
+        11.275484985351563
+      ],
+      "justification": "Front opening foot; ground shadow makes actual source vertex difficult to isolate.",
+      "status": "independent-manual-candidate-not-geometrically-validated"
+    },
+    {
+      "id": "bay_outer_bottom_right",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 195,
+      "pixel": [
+        796,
+        320
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 9,
+      "sourceLocal": [
+        -652.3524780273438,
+        -114.74371337890625,
+        -5.2264251708984375
+      ],
+      "sourceWorld": [
+        753.4502563476562,
+        -572.185302734375,
+        -457.15003967285156
+      ],
+      "world": [
+        15.246287540211398,
+        -9.250565508674173,
+        11.578337890625
+      ],
+      "justification": "Front opening foot at right jamb; shadowed ground and trim merge.",
+      "status": "independent-manual-candidate-not-geometrically-validated"
+    },
+    {
+      "id": "high_roof_left_ridge",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 211,
+      "pixel": [
+        984,
+        105
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 4,
+      "sourceLocal": [
+        -370.12567138671875,
+        38.24790954589844,
+        246.59207153320312
+      ],
+      "sourceWorld": [
+        1035.6770629882812,
+        -419.1936798095703,
+        -205.33154296875
+      ],
+      "world": [
+        20.95722998046875,
+        -4.154944163602941,
+        8.482507403205423
+      ],
+      "justification": "Distinct highest left endpoint of taller right roof; strong local corner at983/104 detected independently.",
+      "status": "independent-manual-candidate-not-geometrically-validated"
+    },
+    {
+      "id": "high_roof_front_left_eave",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 123,
+      "pixel": [
+        1067,
+        166
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 9,
+      "sourceLocal": [
+        -391.0313720703125,
+        -163.91958618164062,
+        147.29006958007812
+      ],
+      "sourceWorld": [
+        1014.7713623046875,
+        -621.3611755371094,
+        -304.633544921875
+      ],
+      "world": [
+        20.534196978400736,
+        -6.164349379595588,
+        12.573426140280331
+      ],
+      "justification": "Taller roof left diagonal meets front eave. Semantic identity is uncertain because neighboring trim silhouette is dark.",
+      "status": "independent-manual-candidate-not-geometrically-validated"
+    },
+    {
+      "id": "bay_inner_top_left",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 1,
+      "pixel": [
+        625,
+        198
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 4,
+      "sourceLocal": [
+        -796.0790405273438,
+        -77.20850372314453,
+        112.60562896728516
+      ],
+      "sourceWorld": [
+        609.7236938476562,
+        -534.6500930786133,
+        -339.31798553466797
+      ],
+      "world": [
+        12.337938275505515,
+        -6.866199236701517,
+        10.818801883473116
+      ],
+      "justification": "Clear recessed left/top jamb corner; independent feature detector finds624/198.",
+      "status": "independent-manual-candidate-not-geometrically-validated"
+    },
+    {
+      "id": "bay_inner_top_right",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 189,
+      "pixel": [
+        775,
+        199
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 8,
+      "sourceLocal": [
+        -649.976806640625,
+        -92.41264343261719,
+        112.60563659667969
+      ],
+      "sourceWorld": [
+        755.825927734375,
+        -549.8542327880859,
+        -339.31797790527344
+      ],
+      "world": [
+        15.29435994944853,
+        -6.866199082318475,
+        11.126462122300092
+      ],
+      "justification": "Recessed top/right opening corner; black interior sidewall can masquerade as frame edge.",
+      "status": "independent-manual-candidate-not-geometrically-validated"
+    },
+    {
+      "id": "bay_inner_bottom_left",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 182,
+      "pixel": [
+        626,
+        283
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 5,
+      "sourceLocal": [
+        -796.0790405273438,
+        -77.20850372314453,
+        -0.23756790161132812
+      ],
+      "sourceWorld": [
+        609.7236938476562,
+        -534.6500930786133,
+        -452.16118240356445
+      ],
+      "world": [
+        12.337938275505515,
+        -9.149614514519188,
+        10.818801883473116
+      ],
+      "justification": "Recessed left jamb foot at visible inner floor horizontal edge. Strong vertical edge ends near626/287.",
+      "status": "independent-manual-candidate-not-geometrically-validated"
+    },
+    {
+      "id": "bay_inner_bottom_right",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 138,
+      "pixel": [
+        774,
+        285
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 8,
+      "sourceLocal": [
+        -649.976806640625,
+        -92.41264343261719,
+        -0.23756790161132812
+      ],
+      "sourceWorld": [
+        755.825927734375,
+        -549.8542327880859,
+        -452.16118240356445
+      ],
+      "world": [
+        15.29435994944853,
+        -9.149614514519188,
+        11.126462122300092
+      ],
+      "justification": "Recessed right jamb foot/floor edge; dark internal sidewall occludes exact edge.",
+      "status": "independent-manual-candidate-not-geometrically-validated"
+    },
+    {
+      "id": "low_roof_right_ridge",
+      "node": "stonebarn",
+      "part": 0,
+      "vertex": 122,
+      "pixel": [
+        988,
+        130
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 12,
+      "sourceLocal": [
+        -370.6007995605469,
+        33.021484375,
+        219.03457641601562
+      ],
+      "sourceWorld": [
+        1035.2019348144531,
+        -424.42010498046875,
+        -232.8890380859375
+      ],
+      "world": [
+        20.94761562212776,
+        -4.712578182444853,
+        8.588265653722427
+      ],
+      "justification": "Lower left-section ridge adjacent to higher roof step; partial occlusion and uncertain exact endpoint, not a reliable standalone constraint.",
+      "status": "independent-manual-candidate-not-geometrically-validated"
+    }
+  ],
+  "referenceTimestampSeconds": 16,
+  "parentVideo": "docs/research-evidence/2026-09-30/woodland-video-first45s.mp4",
+  "parentVideoSha256": "069ea82b66ef3d2c0656ea81ea2e8fa939179245b5364077e59f213fcd7e5fc1",
+  "method": "Fresh coordinate-grid visual inspection of preserved16s frame and passive source triangle topology. OpenCV Canny/Hough/goodFeatures diagnostics examined pixel edges independently; no16s optimization or15s projected pixels were used. Roles and coordinates fixed before16s fitting. Exact vertex/source/world coordinates are known; image vertex identification remains candidate evidence.",
+  "limits": [
+    "Only one facade opening is fully visible; broad closed door is clipped and cannot provide reliable independent correspondences.",
+    "Six training points include two roof/depth points; remaining eight source bay vertices occupy two closely spaced planes. Baseline is weak and PnP ambiguity may remain.",
+    "Outer opening foot points, right recessed corners and eave endpoint can confuse material/shadow boundaries with geometry; 4\u201312px pixel uncertainties do not exhaust semantic misidentification risk.",
+    "A contradicting fit must remain failed evidence; heldout coordinates must not be revised from optimized projection.",
+    "Unknown original sprite/camera rectangle, capture crop, principal point and anisotropic recording projection remain assumptions."
+  ]
+}

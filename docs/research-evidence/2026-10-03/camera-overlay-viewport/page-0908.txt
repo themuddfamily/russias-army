@@ -1,0 +1,40 @@
+908 Chapter 14:  Properties
+overlay
+Usage
+member(whichCastmember).camera(whichCamera).\ 
+overlay[overlayIndex].propertyName
+member(whichCastmember).camera(whichCamera).overlay.count
+Description
+3D camera property; allows both get and set access to the properties of overlays contained in the 
+camera’s list of overlays to be displayed. When used as overlay.count this property returns the 
+total number of overlays contained in the camera’s list of overlays to be displayed.
+Overlays are textures displayed in front of all models appearing in a given camera’s view frustum. 
+The overlays are drawn in the order that they appear in the camera’s overlay list, the first item in 
+the list appears behind all other overlays and the last item in the list in front of all other overlays.
+Each overlay in the camera’s list of overlays list has the following properties:
+• loc allows you to get or set the specific position of the overlay’s regPoint, relative to the 
+camera rect’s upper left corner.
+• source allows you to get or set the texture to use as the source image for the overlay.
+• scale allows you to get or set the scale value used by the overlay. The scale determines the 
+magnification of the overlay; this property defaults to a value of 1.0.
+• rotation allows you to get or set the rotation, in degrees, of the overlay.
+• regPoint allows you to get or set the registration point of the overlay relative to the texture’s 
+upper left corner. 
+• blend allows you to get or set the blending of the overlay to an integer between 0 and 100, 
+indicating how transparent (0) or opaque (100) the overlay is.
+Example
+This statement displays the scale property of the third overlay in the sprite camera’s overlay list:
+put sprite(5).camera.overlay[3].scale
+-- 0.5000
+See also
+addOverlay, removeOverlay, bevelDepth
+pageHeight
+Usage
+-- Lingo syntax
+memberObjRef.pageHeight
+// JavaScript syntax
+memberObjRef.pageHeight;
+Description
+Field cast member property; returns the height, in pixels, of the area of the field cast member that 
+is visible on the Stage.
+This property can be tested but not set.

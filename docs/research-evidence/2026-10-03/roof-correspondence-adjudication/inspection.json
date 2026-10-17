@@ -1,0 +1,323 @@
+{
+  "scope": "Read-only retained correspondence adjudication; no SIFT/camera/browser rerun",
+  "inputs": [
+    {
+      "path": "public/assets/original-scenes/woodland/scene.json",
+      "sha256": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107"
+    },
+    {
+      "path": "public/assets/original-scenes/woodland/textures/stonebarn.png",
+      "sha256": "7ff83e28de923ebf82ec17cf57ac3ededf53136b9543960f362f3878551b3b86"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-01/woodland-video-16s-camera-reference.png",
+      "sha256": "71da5c673445b2bb45639a051b0f72cca44d2df6e7a6d7a0d1f586915b46d257"
+    },
+    {
+      "path": "docs/research-evidence/2026-09-30/woodland-video-15s.jpg",
+      "sha256": "eeae8794813fac85c57c32a9f6af9be859c668699c3f1ab42a731a988f717f3a"
+    },
+    {
+      "path": "scripts/research/match-reference-roof-landmarks.py",
+      "sha256": "0c3f6386c5efbbbbe8d0714ce1cc697df5ed6835c9c242547c18440374fef5ee"
+    },
+    {
+      "path": "scripts/research/measure-reference-roof-window.py",
+      "sha256": "89a5a3d4f1067a9d5bbac169beb61d3dc64799f2455ef6116f823f635d8f6957"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-01/ORIGINAL_WOODLAND_TEXTURE_CAMERA_REGISTRATION.md",
+      "sha256": "4f4b7e240ac4c70ad9a5bedb9447633cd6c5a7af7957b5cadb8646e2f09d1822"
+    },
+    {
+      "path": "artifacts/fidelity-review/2026-10-01/current/woodland-texture-camera-roof-heldout-checks.json",
+      "sha256": "9a28c5b05540ccb7c6237660fb2c68cf385e1ece90968fbfdea86d073285ecca"
+    },
+    {
+      "path": "artifacts/fidelity-review/2026-10-01/current/woodland-texture-camera-roof-window-heldout-checks.json",
+      "sha256": "7824b12fa7a050773a12d20898e96fc6c035e702278e6239608d3f54c2c693fc"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-01/woodland-15s-stonebarn-roof-texture-heldout.json",
+      "sha256": "13ae0d4bdcc064cbb92f468b6c93183be22bba8bb161c4775751a0638a7e1ed6"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-01/woodland-16s-stonebarn-roof-texture-heldout.json",
+      "sha256": "a43463147cb7067d88f51a3c7f837633bd051f67174cf04a3dd5dbe4ae64481e"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-01/woodland-16s-stonebarn-roof-window-heldout.json",
+      "sha256": "f506d4212cf992362304a17ce3b3b84f53a856399678a9c08ef38e4d5bcdeff0"
+    }
+  ],
+  "uniqueUvAndBarycentricVerification": [
+    {
+      "input": "docs/research-evidence/2026-10-01/woodland-15s-stonebarn-roof-texture-heldout.json",
+      "landmark": {
+        "id": "roof-sift-87.529-390.473",
+        "node": "stonebarn",
+        "part": 0,
+        "face": 94,
+        "barycentric": [
+          0.11465050454410486,
+          0.2283498729500798,
+          0.6569996225058153
+        ],
+        "atlasPixel": [
+          87.52855682373047,
+          390.47296142578125
+        ],
+        "pixel": [
+          697.2108154296875,
+          190.02023315429688
+        ],
+        "role": "heldout",
+        "uncertaintyPixels": 2,
+        "descriptorDistance": 211.96697998046875,
+        "descriptorRatio": 0.6834764759366919,
+        "reciprocalNearestDescriptor": true,
+        "sourceLocalPoint": [
+          -790.4966016980386,
+          56.025922503771966,
+          208.7935009211808
+        ]
+      },
+      "uvContainingFaces": [
+        {
+          "face": 94,
+          "barycentric": [
+            0.11465050454410497,
+            0.22834987295007975,
+            0.6569996225058153
+          ]
+        }
+      ],
+      "triangleVertexIds": [
+        200,
+        122,
+        132
+      ],
+      "exactPositions": [
+        [
+          -388.6557312011719,
+          -142.0636444091797,
+          129.7102813720703
+        ],
+        [
+          -370.6007995605469,
+          33.021484375,
+          219.03457641601562
+        ],
+        [
+          -1006.561279296875,
+          98.58930969238281,
+          219.03457641601562
+        ]
+      ],
+      "atlasTriangle": [
+        [
+          255.5,
+          435.7434387207031
+        ],
+        [
+          255.5,
+          384.6105499267578
+        ],
+        [
+          -0.1644439697265625,
+          384.6105499267578
+        ]
+      ],
+      "faceNormal": [
+        -0.04641163885248409,
+        -0.45015932688177707,
+        0.8917412966776699
+      ],
+      "distanceAtlasPixelsAboveTopUvBoundary": 5.8624114990234375
+    },
+    {
+      "input": "docs/research-evidence/2026-10-01/woodland-16s-stonebarn-roof-texture-heldout.json",
+      "landmark": {
+        "id": "roof-sift-87.529-390.473",
+        "node": "stonebarn",
+        "part": 0,
+        "face": 94,
+        "barycentric": [
+          0.11465050454410486,
+          0.2283498729500798,
+          0.6569996225058153
+        ],
+        "atlasPixel": [
+          87.52855682373047,
+          390.47296142578125
+        ],
+        "pixel": [
+          619.4713745117188,
+          130.78497314453125
+        ],
+        "role": "heldout",
+        "uncertaintyPixels": 2,
+        "descriptorDistance": 234.6848907470703,
+        "descriptorRatio": 0.7699430003325005,
+        "reciprocalNearestDescriptor": true,
+        "sourceLocalPoint": [
+          -790.4966016980386,
+          56.025922503771966,
+          208.7935009211808
+        ]
+      },
+      "uvContainingFaces": [
+        {
+          "face": 94,
+          "barycentric": [
+            0.11465050454410497,
+            0.22834987295007975,
+            0.6569996225058153
+          ]
+        }
+      ],
+      "triangleVertexIds": [
+        200,
+        122,
+        132
+      ],
+      "exactPositions": [
+        [
+          -388.6557312011719,
+          -142.0636444091797,
+          129.7102813720703
+        ],
+        [
+          -370.6007995605469,
+          33.021484375,
+          219.03457641601562
+        ],
+        [
+          -1006.561279296875,
+          98.58930969238281,
+          219.03457641601562
+        ]
+      ],
+      "atlasTriangle": [
+        [
+          255.5,
+          435.7434387207031
+        ],
+        [
+          255.5,
+          384.6105499267578
+        ],
+        [
+          -0.1644439697265625,
+          384.6105499267578
+        ]
+      ],
+      "faceNormal": [
+        -0.04641163885248409,
+        -0.45015932688177707,
+        0.8917412966776699
+      ],
+      "distanceAtlasPixelsAboveTopUvBoundary": 5.8624114990234375
+    },
+    {
+      "input": "docs/research-evidence/2026-10-01/woodland-16s-stonebarn-roof-window-heldout.json",
+      "landmark": {
+        "id": "roof-window-bright-component-centroid-threshold160",
+        "node": "stonebarn",
+        "part": 0,
+        "face": 19,
+        "barycentric": [
+          0.5083506786688928,
+          0.167898448735501,
+          0.32375087259560614
+        ],
+        "atlasPixel": [
+          82.60714285714286,
+          409.75
+        ],
+        "pixel": [
+          613.4745762711865,
+          150.135593220339
+        ],
+        "role": "heldout",
+        "uncertaintyPixels": 2,
+        "sourceLocalPoint": [
+          -809.5452139337112,
+          -8.678927787595946,
+          175.11834737928032
+        ]
+      },
+      "uvContainingFaces": [
+        {
+          "face": 19,
+          "barycentric": [
+            0.5083506786688929,
+            0.167898448735501,
+            0.32375087259560614
+          ]
+        }
+      ],
+      "triangleVertexIds": [
+        132,
+        12,
+        200
+      ],
+      "exactPositions": [
+        [
+          -1006.561279296875,
+          98.58930969238281,
+          219.03457641601562
+        ],
+        [
+          -1024.6162109375,
+          -76.25824737548828,
+          129.7102813720703
+        ],
+        [
+          -388.6557312011719,
+          -142.0636444091797,
+          129.7102813720703
+        ]
+      ],
+      "atlasTriangle": [
+        [
+          -0.1644439697265625,
+          384.6105499267578
+        ],
+        [
+          -0.1644439697265625,
+          435.7434387207031
+        ],
+        [
+          255.5,
+          435.7434387207031
+        ]
+      ],
+      "faceNormal": [
+        -0.046627799596429625,
+        -0.4506231880222928,
+        0.8914957042641432
+      ],
+      "distanceAtlasPixelsAboveTopUvBoundary": 25.139450073242188
+    }
+  ],
+  "roofFaceNormalDotProduct": 0.9999998388958709,
+  "descriptorMetadataAvailability": {
+    "retained": [
+      "atlas/reference coordinates",
+      "best distance",
+      "best/second ratio",
+      "reciprocalNearest boolean"
+    ],
+    "missing": [
+      "best/second train indices and second coordinates",
+      "keypoint size/angle/octave/response",
+      "descriptor vectors",
+      "reverse alternatives and distances",
+      "all rejected source-patch descriptor matches"
+    ]
+  },
+  "rolesOrUncertaintyChanged": false,
+  "fitAttempted": false,
+  "siftExecuted": false
+}

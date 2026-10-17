@@ -1,0 +1,8884 @@
+{
+  "edition": "barrack",
+  "cast_name": "level1",
+  "cast_id": 3895,
+  "resource_id": 4987,
+  "source_sha256": "aca35459b308b63678f7a70f06d13ab1a724edd21aaff2a62150ded7df403657",
+  "wrapper_offset": 16,
+  "ifx_header_size": 8,
+  "ifx_version": 17,
+  "declared_length_matches": true,
+  "blocks": [
+    {
+      "offset": 16,
+      "type": "ffffff01",
+      "bytes": 4
+    },
+    {
+      "offset": 28,
+      "type": "ffffff02",
+      "bytes": 3
+    },
+    {
+      "offset": 40,
+      "type": "ffffff72",
+      "bytes": 116
+    },
+    {
+      "offset": 164,
+      "type": "ffffff72",
+      "bytes": 113
+    },
+    {
+      "offset": 288,
+      "type": "ffffff72",
+      "bytes": 116
+    },
+    {
+      "offset": 412,
+      "type": "ffffff72",
+      "bytes": 119
+    },
+    {
+      "offset": 540,
+      "type": "ffffff72",
+      "bytes": 134
+    },
+    {
+      "offset": 684,
+      "type": "ffffff96",
+      "bytes": 62
+    },
+    {
+      "offset": 756,
+      "type": "ffffff72",
+      "bytes": 134
+    },
+    {
+      "offset": 900,
+      "type": "ffffff96",
+      "bytes": 62
+    },
+    {
+      "offset": 972,
+      "type": "ffffff72",
+      "bytes": 134
+    },
+    {
+      "offset": 1116,
+      "type": "ffffff96",
+      "bytes": 62
+    },
+    {
+      "offset": 1188,
+      "type": "ffffff72",
+      "bytes": 137
+    },
+    {
+      "offset": 1336,
+      "type": "ffffff96",
+      "bytes": 64
+    },
+    {
+      "offset": 1408,
+      "type": "ffffff72",
+      "bytes": 134
+    },
+    {
+      "offset": 1552,
+      "type": "ffffff72",
+      "bytes": 134
+    },
+    {
+      "offset": 1696,
+      "type": "ffffff72",
+      "bytes": 119
+    },
+    {
+      "offset": 1824,
+      "type": "ffffff72",
+      "bytes": 143
+    },
+    {
+      "offset": 1976,
+      "type": "ffffff72",
+      "bytes": 134
+    },
+    {
+      "offset": 2120,
+      "type": "ffffff96",
+      "bytes": 62
+    },
+    {
+      "offset": 2192,
+      "type": "ffffff72",
+      "bytes": 122
+    },
+    {
+      "offset": 2324,
+      "type": "ffffff72",
+      "bytes": 134
+    },
+    {
+      "offset": 2468,
+      "type": "ffffff96",
+      "bytes": 62
+    },
+    {
+      "offset": 2540,
+      "type": "ffffff72",
+      "bytes": 134
+    },
+    {
+      "offset": 2684,
+      "type": "ffffff96",
+      "bytes": 62
+    },
+    {
+      "offset": 2756,
+      "type": "ffffff72",
+      "bytes": 134
+    },
+    {
+      "offset": 2900,
+      "type": "ffffff96",
+      "bytes": 62
+    },
+    {
+      "offset": 2972,
+      "type": "ffffff72",
+      "bytes": 134
+    },
+    {
+      "offset": 3116,
+      "type": "ffffff96",
+      "bytes": 62
+    },
+    {
+      "offset": 3188,
+      "type": "ffffff72",
+      "bytes": 125
+    },
+    {
+      "offset": 3324,
+      "type": "ffffff72",
+      "bytes": 119
+    },
+    {
+      "offset": 3452,
+      "type": "ffffff72",
+      "bytes": 125
+    },
+    {
+      "offset": 3588,
+      "type": "ffffff72",
+      "bytes": 116
+    },
+    {
+      "offset": 3712,
+      "type": "ffffff72",
+      "bytes": 134
+    },
+    {
+      "offset": 3856,
+      "type": "ffffff96",
+      "bytes": 62
+    },
+    {
+      "offset": 3928,
+      "type": "ffffff72",
+      "bytes": 134
+    },
+    {
+      "offset": 4072,
+      "type": "ffffff96",
+      "bytes": 62
+    },
+    {
+      "offset": 4144,
+      "type": "ffffff72",
+      "bytes": 134
+    },
+    {
+      "offset": 4288,
+      "type": "ffffff96",
+      "bytes": 62
+    },
+    {
+      "offset": 4360,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 4500,
+      "type": "ffffff96",
+      "bytes": 60
+    },
+    {
+      "offset": 4568,
+      "type": "ffffff72",
+      "bytes": 113
+    },
+    {
+      "offset": 4692,
+      "type": "ffffff72",
+      "bytes": 125
+    },
+    {
+      "offset": 4828,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 4968,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 5108,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 5248,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 5388,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 5528,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 5668,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 5808,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 5948,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 6088,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 6228,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 6368,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 6508,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 6648,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 6788,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 6928,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 7068,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 7208,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 7348,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 7488,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 7628,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 7768,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 7908,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 8048,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 8188,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 8328,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 8468,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 8608,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 8748,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 8888,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 9028,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 9168,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 9308,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 9448,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 9588,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 9728,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 9868,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 10008,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 10148,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 10288,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 10428,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 10568,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 10708,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 10848,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 10988,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 11128,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 11268,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 11408,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 11548,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 11688,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 11828,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 11968,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 12108,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 12248,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 12388,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 12528,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 12668,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 12808,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 12948,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 13088,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 13228,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 13368,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 13508,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 13648,
+      "type": "ffffff72",
+      "bytes": 113
+    },
+    {
+      "offset": 13772,
+      "type": "ffffff74",
+      "bytes": 202
+    },
+    {
+      "offset": 13984,
+      "type": "ffffff71",
+      "bytes": 111
+    },
+    {
+      "offset": 14104,
+      "type": "ffffff50",
+      "bytes": 53
+    },
+    {
+      "offset": 14168,
+      "type": "ffffff10",
+      "bytes": 84
+    },
+    {
+      "offset": 14260,
+      "type": "ffffff10",
+      "bytes": 82
+    },
+    {
+      "offset": 14352,
+      "type": "ffffff10",
+      "bytes": 86
+    },
+    {
+      "offset": 14448,
+      "type": "ffffff10",
+      "bytes": 85
+    },
+    {
+      "offset": 14544,
+      "type": "ffffff10",
+      "bytes": 87
+    },
+    {
+      "offset": 14640,
+      "type": "ffffff10",
+      "bytes": 92
+    },
+    {
+      "offset": 14740,
+      "type": "ffffff10",
+      "bytes": 91
+    },
+    {
+      "offset": 14840,
+      "type": "ffffff10",
+      "bytes": 89
+    },
+    {
+      "offset": 14940,
+      "type": "ffffff10",
+      "bytes": 87
+    },
+    {
+      "offset": 15036,
+      "type": "ffffff10",
+      "bytes": 86
+    },
+    {
+      "offset": 15132,
+      "type": "ffffff10",
+      "bytes": 86
+    },
+    {
+      "offset": 15228,
+      "type": "ffffff10",
+      "bytes": 84
+    },
+    {
+      "offset": 15320,
+      "type": "ffffff10",
+      "bytes": 81
+    },
+    {
+      "offset": 15412,
+      "type": "ffffff10",
+      "bytes": 87
+    },
+    {
+      "offset": 15508,
+      "type": "ffffff10",
+      "bytes": 83
+    },
+    {
+      "offset": 15600,
+      "type": "ffffff10",
+      "bytes": 100
+    },
+    {
+      "offset": 15708,
+      "type": "ffffff36",
+      "bytes": 172
+    },
+    {
+      "offset": 15888,
+      "type": "ffffff36",
+      "bytes": 166
+    },
+    {
+      "offset": 16064,
+      "type": "ffffff36",
+      "bytes": 178
+    },
+    {
+      "offset": 16252,
+      "type": "ffffff36",
+      "bytes": 175
+    },
+    {
+      "offset": 16436,
+      "type": "ffffff36",
+      "bytes": 181
+    },
+    {
+      "offset": 16628,
+      "type": "ffffff36",
+      "bytes": 196
+    },
+    {
+      "offset": 16832,
+      "type": "ffffff36",
+      "bytes": 193
+    },
+    {
+      "offset": 17036,
+      "type": "ffffff36",
+      "bytes": 182
+    },
+    {
+      "offset": 17228,
+      "type": "ffffff36",
+      "bytes": 181
+    },
+    {
+      "offset": 17420,
+      "type": "ffffff36",
+      "bytes": 178
+    },
+    {
+      "offset": 17608,
+      "type": "ffffff36",
+      "bytes": 178
+    },
+    {
+      "offset": 17796,
+      "type": "ffffff36",
+      "bytes": 172
+    },
+    {
+      "offset": 17976,
+      "type": "ffffff36",
+      "bytes": 163
+    },
+    {
+      "offset": 18148,
+      "type": "ffffff36",
+      "bytes": 181
+    },
+    {
+      "offset": 18340,
+      "type": "ffffff36",
+      "bytes": 169
+    },
+    {
+      "offset": 18520,
+      "type": "ffffff45",
+      "bytes": 128
+    },
+    {
+      "offset": 18656,
+      "type": "ffffff67",
+      "bytes": 141
+    },
+    {
+      "offset": 18808,
+      "type": "ffffff45",
+      "bytes": 124
+    },
+    {
+      "offset": 18940,
+      "type": "ffffff67",
+      "bytes": 141
+    },
+    {
+      "offset": 19092,
+      "type": "ffffff45",
+      "bytes": 130
+    },
+    {
+      "offset": 19232,
+      "type": "ffffff67",
+      "bytes": 141
+    },
+    {
+      "offset": 19384,
+      "type": "ffffff45",
+      "bytes": 131
+    },
+    {
+      "offset": 19524,
+      "type": "ffffff67",
+      "bytes": 143
+    },
+    {
+      "offset": 19676,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 19828,
+      "type": "ffffff67",
+      "bytes": 285
+    },
+    {
+      "offset": 20124,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 20276,
+      "type": "ffffff67",
+      "bytes": 280
+    },
+    {
+      "offset": 20564,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 20716,
+      "type": "ffffff67",
+      "bytes": 290
+    },
+    {
+      "offset": 21016,
+      "type": "ffffff45",
+      "bytes": 143
+    },
+    {
+      "offset": 21168,
+      "type": "ffffff67",
+      "bytes": 279
+    },
+    {
+      "offset": 21456,
+      "type": "ffffff45",
+      "bytes": 143
+    },
+    {
+      "offset": 21608,
+      "type": "ffffff67",
+      "bytes": 286
+    },
+    {
+      "offset": 21904,
+      "type": "ffffff45",
+      "bytes": 148
+    },
+    {
+      "offset": 22060,
+      "type": "ffffff67",
+      "bytes": 362
+    },
+    {
+      "offset": 22432,
+      "type": "ffffff45",
+      "bytes": 137
+    },
+    {
+      "offset": 22580,
+      "type": "ffffff67",
+      "bytes": 141
+    },
+    {
+      "offset": 22732,
+      "type": "ffffff45",
+      "bytes": 151
+    },
+    {
+      "offset": 22892,
+      "type": "ffffff67",
+      "bytes": 141
+    },
+    {
+      "offset": 23044,
+      "type": "ffffff45",
+      "bytes": 145
+    },
+    {
+      "offset": 23200,
+      "type": "ffffff67",
+      "bytes": 156
+    },
+    {
+      "offset": 23364,
+      "type": "ffffff45",
+      "bytes": 140
+    },
+    {
+      "offset": 23512,
+      "type": "ffffff45",
+      "bytes": 148
+    },
+    {
+      "offset": 23668,
+      "type": "ffffff45",
+      "bytes": 148
+    },
+    {
+      "offset": 23824,
+      "type": "ffffff45",
+      "bytes": 148
+    },
+    {
+      "offset": 23980,
+      "type": "ffffff45",
+      "bytes": 143
+    },
+    {
+      "offset": 24132,
+      "type": "ffffff45",
+      "bytes": 137
+    },
+    {
+      "offset": 24280,
+      "type": "ffffff45",
+      "bytes": 181
+    },
+    {
+      "offset": 24472,
+      "type": "ffffff45",
+      "bytes": 136
+    },
+    {
+      "offset": 24616,
+      "type": "ffffff45",
+      "bytes": 128
+    },
+    {
+      "offset": 24752,
+      "type": "ffffff45",
+      "bytes": 140
+    },
+    {
+      "offset": 24900,
+      "type": "ffffff45",
+      "bytes": 137
+    },
+    {
+      "offset": 25048,
+      "type": "ffffff45",
+      "bytes": 137
+    },
+    {
+      "offset": 25196,
+      "type": "ffffff45",
+      "bytes": 135
+    },
+    {
+      "offset": 25340,
+      "type": "ffffff45",
+      "bytes": 123
+    },
+    {
+      "offset": 25472,
+      "type": "ffffff45",
+      "bytes": 137
+    },
+    {
+      "offset": 25620,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 25772,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 25924,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 26076,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 26228,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 26380,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 26532,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 26684,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 26836,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 26988,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 27140,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 27292,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 27444,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 27596,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 27748,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 27900,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 28052,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 28204,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 28356,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 28508,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 28660,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 28812,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 28964,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 29116,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 29268,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 29420,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 29572,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 29724,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 29876,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 30028,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 30180,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 30332,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 30484,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 30636,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 30788,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 30940,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 31092,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 31244,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 31396,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 31548,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 31700,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 31852,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 32004,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 32156,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 32308,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 32460,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 32612,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 32764,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 32916,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 33068,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 33220,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 33372,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 33524,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 33676,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 33828,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 33980,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 34132,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 34284,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 34436,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 34588,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 34740,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 34892,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 35044,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 35196,
+      "type": "ffffff45",
+      "bytes": 125
+    },
+    {
+      "offset": 35332,
+      "type": "ffffff47",
+      "bytes": 29
+    },
+    {
+      "offset": 35372,
+      "type": "ffffff47",
+      "bytes": 27
+    },
+    {
+      "offset": 35408,
+      "type": "ffffff47",
+      "bytes": 21
+    },
+    {
+      "offset": 35440,
+      "type": "ffffff47",
+      "bytes": 31
+    },
+    {
+      "offset": 35480,
+      "type": "ffffff47",
+      "bytes": 27
+    },
+    {
+      "offset": 35516,
+      "type": "ffffff47",
+      "bytes": 27
+    },
+    {
+      "offset": 35552,
+      "type": "ffffff47",
+      "bytes": 27
+    },
+    {
+      "offset": 35588,
+      "type": "ffffff47",
+      "bytes": 28
+    },
+    {
+      "offset": 35624,
+      "type": "ffffff47",
+      "bytes": 30
+    },
+    {
+      "offset": 35664,
+      "type": "ffffff47",
+      "bytes": 47
+    },
+    {
+      "offset": 35720,
+      "type": "ffffff47",
+      "bytes": 24
+    },
+    {
+      "offset": 35752,
+      "type": "ffffff47",
+      "bytes": 66
+    },
+    {
+      "offset": 35828,
+      "type": "ffffff47",
+      "bytes": 27
+    },
+    {
+      "offset": 35864,
+      "type": "ffffff47",
+      "bytes": 29
+    },
+    {
+      "offset": 35904,
+      "type": "ffffff47",
+      "bytes": 27
+    },
+    {
+      "offset": 35940,
+      "type": "ffffff47",
+      "bytes": 27
+    },
+    {
+      "offset": 35976,
+      "type": "ffffff47",
+      "bytes": 27
+    },
+    {
+      "offset": 36012,
+      "type": "ffffff47",
+      "bytes": 27
+    },
+    {
+      "offset": 36048,
+      "type": "ffffff47",
+      "bytes": 36
+    },
+    {
+      "offset": 36092,
+      "type": "ffffff47",
+      "bytes": 144
+    },
+    {
+      "offset": 36244,
+      "type": "ffffff47",
+      "bytes": 25
+    },
+    {
+      "offset": 36280,
+      "type": "ffffff47",
+      "bytes": 30
+    },
+    {
+      "offset": 36320,
+      "type": "ffffff47",
+      "bytes": 27
+    },
+    {
+      "offset": 36356,
+      "type": "ffffff47",
+      "bytes": 27
+    },
+    {
+      "offset": 36392,
+      "type": "ffffff47",
+      "bytes": 27
+    },
+    {
+      "offset": 36428,
+      "type": "ffffff47",
+      "bytes": 26
+    },
+    {
+      "offset": 36464,
+      "type": "ffffff47",
+      "bytes": 53
+    },
+    {
+      "offset": 36528,
+      "type": "ffffff47",
+      "bytes": 31
+    },
+    {
+      "offset": 36568,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 36612,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 36656,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 36700,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 36744,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 36788,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 36832,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 36876,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 36920,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 36964,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37008,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37052,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37096,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37140,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37184,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37228,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37272,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37316,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37360,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37404,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37448,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37492,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37536,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37580,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37624,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37668,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37712,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37756,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37800,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37844,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37888,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37932,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 37976,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38020,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38064,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38108,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38152,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38196,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38240,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38284,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38328,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38372,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38416,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38460,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38504,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38548,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38592,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38636,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38680,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38724,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38768,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38812,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38856,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38900,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38944,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 38988,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 39032,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 39076,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 39120,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 39164,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 39208,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 39252,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 39296,
+      "type": "ffffff47",
+      "bytes": 33
+    },
+    {
+      "offset": 39340,
+      "type": "ffffff47",
+      "bytes": 22
+    },
+    {
+      "offset": 39372,
+      "type": "ffffff48",
+      "bytes": 124
+    },
+    {
+      "offset": 39504,
+      "type": "ffffff48",
+      "bytes": 67
+    },
+    {
+      "offset": 39580,
+      "type": "ffffff48",
+      "bytes": 21
+    },
+    {
+      "offset": 39612,
+      "type": "ffffff48",
+      "bytes": 128
+    },
+    {
+      "offset": 39748,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 39812,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 39876,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 39940,
+      "type": "ffffff48",
+      "bytes": 56
+    },
+    {
+      "offset": 40004,
+      "type": "ffffff48",
+      "bytes": 27
+    },
+    {
+      "offset": 40040,
+      "type": "ffffff48",
+      "bytes": 199
+    },
+    {
+      "offset": 40248,
+      "type": "ffffff48",
+      "bytes": 75
+    },
+    {
+      "offset": 40332,
+      "type": "ffffff48",
+      "bytes": 498
+    },
+    {
+      "offset": 40840,
+      "type": "ffffff48",
+      "bytes": 27
+    },
+    {
+      "offset": 40876,
+      "type": "ffffff48",
+      "bytes": 88
+    },
+    {
+      "offset": 40972,
+      "type": "ffffff48",
+      "bytes": 71
+    },
+    {
+      "offset": 41052,
+      "type": "ffffff48",
+      "bytes": 27
+    },
+    {
+      "offset": 41088,
+      "type": "ffffff48",
+      "bytes": 71
+    },
+    {
+      "offset": 41168,
+      "type": "ffffff48",
+      "bytes": 27
+    },
+    {
+      "offset": 41204,
+      "type": "ffffff48",
+      "bytes": 764
+    },
+    {
+      "offset": 41976,
+      "type": "ffffff48",
+      "bytes": 93
+    },
+    {
+      "offset": 42080,
+      "type": "ffffff48",
+      "bytes": 24
+    },
+    {
+      "offset": 42112,
+      "type": "ffffff48",
+      "bytes": 410
+    },
+    {
+      "offset": 42532,
+      "type": "ffffff48",
+      "bytes": 27
+    },
+    {
+      "offset": 42568,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 42632,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 42696,
+      "type": "ffffff48",
+      "bytes": 54
+    },
+    {
+      "offset": 42760,
+      "type": "ffffff48",
+      "bytes": 331
+    },
+    {
+      "offset": 43100,
+      "type": "ffffff48",
+      "bytes": 53
+    },
+    {
+      "offset": 43164,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 43228,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 43292,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 43356,
+      "type": "ffffff48",
+      "bytes": 27
+    },
+    {
+      "offset": 43392,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 43456,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 43520,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 43584,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 43648,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 43712,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 43776,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 43840,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 43904,
+      "type": "ffffff48",
+      "bytes": 27
+    },
+    {
+      "offset": 43940,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 44004,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 44068,
+      "type": "ffffff48",
+      "bytes": 27
+    },
+    {
+      "offset": 44104,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 44168,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 44232,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 44296,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 44360,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 44424,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 44488,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 44552,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 44616,
+      "type": "ffffff48",
+      "bytes": 27
+    },
+    {
+      "offset": 44652,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 44716,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 44780,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 44844,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 44908,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 44972,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 45036,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 45100,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 45164,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 45228,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 45292,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 45356,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 45420,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 45484,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 45548,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 45612,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 45676,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 45740,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 45804,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 45868,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 45932,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 45996,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 46060,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 46124,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 46188,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 46252,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 46316,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 46380,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 46444,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 46508,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 46572,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 46636,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 46700,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 46764,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 46828,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 46892,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 46956,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 47020,
+      "type": "ffffff48",
+      "bytes": 55
+    },
+    {
+      "offset": 47084,
+      "type": "ffffff48",
+      "bytes": 21
+    },
+    {
+      "offset": 47116,
+      "type": "ffffff01",
+      "bytes": 4
+    },
+    {
+      "offset": 47128,
+      "type": "ffffff49",
+      "bytes": 9607
+    },
+    {
+      "offset": 56744,
+      "type": "ffffff49",
+      "bytes": 2919
+    },
+    {
+      "offset": 59672,
+      "type": "ffffff49",
+      "bytes": 1095
+    },
+    {
+      "offset": 60776,
+      "type": "ffffff49",
+      "bytes": 6076
+    },
+    {
+      "offset": 66860,
+      "type": "ffffff49",
+      "bytes": 549
+    },
+    {
+      "offset": 67420,
+      "type": "ffffff49",
+      "bytes": 521
+    },
+    {
+      "offset": 67952,
+      "type": "ffffff49",
+      "bytes": 514
+    },
+    {
+      "offset": 68476,
+      "type": "ffffff49",
+      "bytes": 535
+    },
+    {
+      "offset": 69020,
+      "type": "ffffff49",
+      "bytes": 395
+    },
+    {
+      "offset": 69424,
+      "type": "ffffff49",
+      "bytes": 12314
+    },
+    {
+      "offset": 81748,
+      "type": "ffffff49",
+      "bytes": 8395
+    },
+    {
+      "offset": 90152,
+      "type": "ffffff49",
+      "bytes": 12669
+    },
+    {
+      "offset": 102832,
+      "type": "ffffff49",
+      "bytes": 602
+    },
+    {
+      "offset": 103444,
+      "type": "ffffff49",
+      "bytes": 2386
+    },
+    {
+      "offset": 105840,
+      "type": "ffffff49",
+      "bytes": 501
+    },
+    {
+      "offset": 106352,
+      "type": "ffffff49",
+      "bytes": 483
+    },
+    {
+      "offset": 106844,
+      "type": "ffffff49",
+      "bytes": 454
+    },
+    {
+      "offset": 107308,
+      "type": "ffffff49",
+      "bytes": 641
+    },
+    {
+      "offset": 107960,
+      "type": "ffffff49",
+      "bytes": 15720
+    },
+    {
+      "offset": 123688,
+      "type": "ffffff49",
+      "bytes": 10029
+    },
+    {
+      "offset": 133728,
+      "type": "ffffff49",
+      "bytes": 2963
+    },
+    {
+      "offset": 136700,
+      "type": "ffffff49",
+      "bytes": 17655
+    },
+    {
+      "offset": 154364,
+      "type": "ffffff49",
+      "bytes": 610
+    },
+    {
+      "offset": 154984,
+      "type": "ffffff49",
+      "bytes": 594
+    },
+    {
+      "offset": 155588,
+      "type": "ffffff49",
+      "bytes": 564
+    },
+    {
+      "offset": 156160,
+      "type": "ffffff49",
+      "bytes": 556
+    },
+    {
+      "offset": 156724,
+      "type": "ffffff49",
+      "bytes": 12220
+    },
+    {
+      "offset": 168952,
+      "type": "ffffff49",
+      "bytes": 9024
+    },
+    {
+      "offset": 177984,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 187020,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 196056,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 205092,
+      "type": "ffffff49",
+      "bytes": 9036
+    },
+    {
+      "offset": 214136,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 223172,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 232208,
+      "type": "ffffff49",
+      "bytes": 9033
+    },
+    {
+      "offset": 241252,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 250288,
+      "type": "ffffff49",
+      "bytes": 9033
+    },
+    {
+      "offset": 259332,
+      "type": "ffffff49",
+      "bytes": 9031
+    },
+    {
+      "offset": 268372,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 277408,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 286444,
+      "type": "ffffff49",
+      "bytes": 9010
+    },
+    {
+      "offset": 295464,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 304500,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 313536,
+      "type": "ffffff49",
+      "bytes": 9020
+    },
+    {
+      "offset": 322564,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 331600,
+      "type": "ffffff49",
+      "bytes": 9064
+    },
+    {
+      "offset": 340672,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 349708,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 358744,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 367780,
+      "type": "ffffff49",
+      "bytes": 9028
+    },
+    {
+      "offset": 376816,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 385852,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 394888,
+      "type": "ffffff49",
+      "bytes": 9033
+    },
+    {
+      "offset": 403932,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 412968,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 422004,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 431040,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 440076,
+      "type": "ffffff49",
+      "bytes": 9022
+    },
+    {
+      "offset": 449108,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 458144,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 467180,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 476216,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 485252,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 494288,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 503324,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 512360,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 521396,
+      "type": "ffffff49",
+      "bytes": 9043
+    },
+    {
+      "offset": 530448,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 539484,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 548520,
+      "type": "ffffff49",
+      "bytes": 9031
+    },
+    {
+      "offset": 557560,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 566596,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 575632,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 584668,
+      "type": "ffffff49",
+      "bytes": 9052
+    },
+    {
+      "offset": 593728,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 602764,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 611800,
+      "type": "ffffff49",
+      "bytes": 9025
+    },
+    {
+      "offset": 620836,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 629872,
+      "type": "ffffff49",
+      "bytes": 9035
+    },
+    {
+      "offset": 638916,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 647952,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 656988,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 666024,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 675060,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 684096,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 693132,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 702168,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 711204,
+      "type": "ffffff49",
+      "bytes": 9043
+    },
+    {
+      "offset": 720256,
+      "type": "ffffff49",
+      "bytes": 9038
+    },
+    {
+      "offset": 729304,
+      "type": "ffffff49",
+      "bytes": 9044
+    },
+    {
+      "offset": 738356,
+      "type": "ffffff49",
+      "bytes": 9026
+    },
+    {
+      "offset": 747392,
+      "type": "ffffff49",
+      "bytes": 9230
+    },
+    {
+      "offset": 756632,
+      "type": "ffffff01",
+      "bytes": 4
+    },
+    {
+      "offset": 756644,
+      "type": "ffffff49",
+      "bytes": 5308
+    },
+    {
+      "offset": 761960,
+      "type": "ffffff49",
+      "bytes": 12280
+    },
+    {
+      "offset": 774248,
+      "type": "ffffff49",
+      "bytes": 14308
+    },
+    {
+      "offset": 788564,
+      "type": "ffffff49",
+      "bytes": 6247
+    },
+    {
+      "offset": 794820,
+      "type": "ffffff49",
+      "bytes": 11729
+    },
+    {
+      "offset": 806560,
+      "type": "ffffff49",
+      "bytes": 13386
+    },
+    {
+      "offset": 819956,
+      "type": "ffffff49",
+      "bytes": 2002
+    },
+    {
+      "offset": 821968,
+      "type": "ffffff01",
+      "bytes": 4
+    },
+    {
+      "offset": 821980,
+      "type": "ffffff49",
+      "bytes": 9017
+    },
+    {
+      "offset": 831008,
+      "type": "ffffff49",
+      "bytes": 2771
+    },
+    {
+      "offset": 833788,
+      "type": "ffffff49",
+      "bytes": 16764
+    }
+  ],
+  "block_counts": {
+    "ffffff01": 4,
+    "ffffff02": 1,
+    "ffffff72": 92,
+    "ffffff96": 13,
+    "ffffff74": 1,
+    "ffffff71": 1,
+    "ffffff50": 1,
+    "ffffff10": 16,
+    "ffffff36": 15,
+    "ffffff45": 92,
+    "ffffff67": 13,
+    "ffffff47": 92,
+    "ffffff48": 92,
+    "ffffff49": 102
+  },
+  "nodes": [
+    {
+      "name": "hangar",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        -1.7484555314695172e-07,
+        0.0,
+        0.0,
+        1.7484555314695172e-07,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -336.7340393066406,
+        358.7455139160156,
+        -7.6562957763671875,
+        1.0
+      ],
+      "model_resource": "hangar",
+      "style": "hangar",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -336.7340393066406,
+        358.7455139160156,
+        -7.6562957763671875
+      ]
+    },
+    {
+      "name": "sheds",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.1924880638503055e-08,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.1924880638503055e-08,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        3424.447265625,
+        -1956.3123779296875,
+        508.4446105957031,
+        1.0
+      ],
+      "model_resource": "sheds",
+      "style": "sheds",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        3424.447265625,
+        -1956.3123779296875,
+        508.4446105957031
+      ]
+    },
+    {
+      "name": "barrel",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1257.6904296875,
+        807.2950439453125,
+        0.0,
+        1.0
+      ],
+      "model_resource": "barrel",
+      "style": "barrel",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        1257.6904296875,
+        807.2950439453125,
+        0.0
+      ]
+    },
+    {
+      "name": "hangars",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        -4.371138828673793e-08,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        -4.371138828673793e-08,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -123.38546752929688,
+        1010.968505859375,
+        0.0,
+        1.0
+      ],
+      "model_resource": "hangars",
+      "style": "hangars",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -123.38546752929688,
+        1010.968505859375,
+        0.0
+      ]
+    },
+    {
+      "name": "door open 28",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        -0.9063077569007874,
+        0.4226183295249939,
+        0.0,
+        0.0,
+        -0.4226183295249939,
+        -0.9063077569007874,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        253.6448974609375,
+        1713.2801513671875,
+        1.52587890625e-05,
+        1.0
+      ],
+      "model_resource": "door open 28",
+      "style": "door open 28",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        253.6448974609375,
+        1713.2801513671875,
+        1.52587890625e-05
+      ]
+    },
+    {
+      "name": "door open 29",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        0.8191519379615784,
+        0.5735766291618347,
+        0.0,
+        0.0,
+        -0.5735766291618347,
+        0.8191519379615784,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        253.4251708984375,
+        1514.7056884765625,
+        1.52587890625e-05,
+        1.0
+      ],
+      "model_resource": "door open 29",
+      "style": "door open 29",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        253.4251708984375,
+        1514.7056884765625,
+        1.52587890625e-05
+      ]
+    },
+    {
+      "name": "door open 24",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        0.9063076972961426,
+        0.4226185083389282,
+        0.0,
+        0.0,
+        -0.4226185083389282,
+        0.9063076972961426,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -499.58514404296875,
+        1715.0020751953125,
+        1.52587890625e-05,
+        1.0
+      ],
+      "model_resource": "door open 24",
+      "style": "door open 24",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -499.58514404296875,
+        1715.0020751953125,
+        1.52587890625e-05
+      ]
+    },
+    {
+      "name": "door open 30\t",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        -0.5735765099525452,
+        0.8191520571708679,
+        0.0,
+        0.0,
+        -0.8191520571708679,
+        -0.5735765099525452,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -499.58514404296875,
+        1514.7056884765625,
+        1.52587890625e-05,
+        1.0
+      ],
+      "model_resource": "door open 30\t",
+      "style": "door open 30\t",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -499.58514404296875,
+        1514.7056884765625,
+        1.52587890625e-05
+      ]
+    },
+    {
+      "name": "outerfencing",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.2271673679351807,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.2271673679351807,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.2958800196647644,
+        0.0,
+        212.8897705078125,
+        -275.27880859375,
+        0.0,
+        1.0
+      ],
+      "model_resource": "outerfencing",
+      "style": "outerfencing",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        212.8897705078125,
+        -275.27880859375,
+        0.0
+      ]
+    },
+    {
+      "name": "weehuthollow",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        -4.371138828673793e-08,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -288.5771484375,
+        -2736.61474609375,
+        307.11566162109375,
+        1.0
+      ],
+      "model_resource": "weehuthollow",
+      "style": "weehuthollow",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -288.5771484375,
+        -2736.61474609375,
+        307.11566162109375
+      ]
+    },
+    {
+      "name": "2story2",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.9470718370939721e-07,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.9470718370939721e-07,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        3574.16650390625,
+        2724.2412109375,
+        400.91497802734375,
+        1.0
+      ],
+      "model_resource": "2story2",
+      "style": "2story2",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        3574.16650390625,
+        2724.2412109375,
+        400.91497802734375
+      ]
+    },
+    {
+      "name": "bigredfellaopen",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        -1.0,
+        8.742277657347586e-08,
+        0.0,
+        0.0,
+        -8.742277657347586e-08,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        42.0357666015625,
+        -234.03536987304688,
+        -7.634521484375,
+        1.0
+      ],
+      "model_resource": "bigredfellaopen",
+      "style": "bigredfellaopen",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        42.0357666015625,
+        -234.03536987304688,
+        -7.634521484375
+      ]
+    },
+    {
+      "name": "door open 20",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        -2.384185791015625e-07,
+        0.0,
+        0.0,
+        2.384185791015625e-07,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        250.9942626953125,
+        -459.0929870605469,
+        181.28125,
+        1.0
+      ],
+      "model_resource": "door open 20",
+      "style": "door open 20",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        250.9942626953125,
+        -459.0929870605469,
+        181.28125
+      ]
+    },
+    {
+      "name": "Object01",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.1924880638503055e-08,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.1924880638503055e-08,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -2255.63037109375,
+        -2888.91845703125,
+        533.4664306640625,
+        1.0
+      ],
+      "model_resource": "Object01",
+      "style": "Object01",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -2255.63037109375,
+        -2888.91845703125,
+        533.4664306640625
+      ]
+    },
+    {
+      "name": "door open 17",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        489.4696044921875,
+        -2930.504150390625,
+        307.1156005859375,
+        1.0
+      ],
+      "model_resource": "door open 17",
+      "style": "door open 17",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        489.4696044921875,
+        -2930.504150390625,
+        307.1156005859375
+      ]
+    },
+    {
+      "name": "door open 19",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        565.2191162109375,
+        -2403.257080078125,
+        307.11566162109375,
+        1.0
+      ],
+      "model_resource": "door open 19",
+      "style": "door open 19",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        565.2191162109375,
+        -2403.257080078125,
+        307.11566162109375
+      ]
+    },
+    {
+      "name": "door open 18",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        494.9696044921875,
+        -2810.054931640625,
+        307.1156005859375,
+        1.0
+      ],
+      "model_resource": "door open 18",
+      "style": "door open 18",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        494.9696044921875,
+        -2810.054931640625,
+        307.1156005859375
+      ]
+    },
+    {
+      "name": "door open 22",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        -1.0,
+        -8.742277657347586e-08,
+        0.0,
+        0.0,
+        8.742277657347586e-08,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -1456.31787109375,
+        -3097.3935546875,
+        608.513916015625,
+        1.0
+      ],
+      "model_resource": "door open 22",
+      "style": "door open 22",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -1456.31787109375,
+        -3097.3935546875,
+        608.513916015625
+      ]
+    },
+    {
+      "name": "cliffview",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        -1.0,
+        -8.742277657347586e-08,
+        0.0,
+        0.0,
+        8.742277657347586e-08,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -1774.44287109375,
+        -2856.33984375,
+        627.7750244140625,
+        1.0
+      ],
+      "model_resource": "cliffview",
+      "style": "cliffview",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -1774.44287109375,
+        -2856.33984375,
+        627.7750244140625
+      ]
+    },
+    {
+      "name": "plinths",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5999999642372131,
+        0.0,
+        2915.31396484375,
+        2992.16015625,
+        0.0,
+        1.0
+      ],
+      "model_resource": "plinths",
+      "style": "plinths",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2915.31396484375,
+        2992.16015625,
+        0.0
+      ]
+    },
+    {
+      "name": "workshops",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        -4.371138828673793e-08,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -4431.7236328125,
+        3412.561767578125,
+        0.0,
+        1.0
+      ],
+      "model_resource": "workshops",
+      "style": "workshops",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -4431.7236328125,
+        3412.561767578125,
+        0.0
+      ]
+    },
+    {
+      "name": "garage",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        -0.048173923045396805,
+        -7.2740600209897366e-09,
+        0.0,
+        0.0,
+        -2.734966948637077e-16,
+        1.8112866762010071e-09,
+        0.041437409818172455,
+        0.0,
+        -8.354504643648397e-09,
+        0.05532938241958618,
+        -2.4185240476981562e-09,
+        0.0,
+        2989.2021484375,
+        2515.18994140625,
+        580.5643920898438,
+        1.0
+      ],
+      "model_resource": "garage",
+      "style": "garage",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2989.2021484375,
+        2515.18994140625,
+        580.5643920898438
+      ]
+    },
+    {
+      "name": "door open 21",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        -0.048173923045396805,
+        -7.2740600209897366e-09,
+        0.0,
+        0.0,
+        -2.734966948637077e-16,
+        1.8112866762010071e-09,
+        0.041437409818172455,
+        0.0,
+        -8.354504643648397e-09,
+        0.05532938241958618,
+        -2.4185240476981562e-09,
+        0.0,
+        2585.26220703125,
+        2745.226318359375,
+        464.7142639160156,
+        1.0
+      ],
+      "model_resource": "door open 21",
+      "style": "door open 21",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2585.26220703125,
+        2745.226318359375,
+        464.7142639160156
+      ]
+    },
+    {
+      "name": "door open 08",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.2099997997283936,
+        -7.274545623658923e-07,
+        -5.3025072261616776e-14,
+        0.0,
+        -7.274545623658923e-07,
+        -1.2099997997283936,
+        -6.206859097801498e-07,
+        0.0,
+        -2.9102973286496137e-13,
+        -5.642599489874556e-07,
+        1.0999999046325684,
+        0.0,
+        2395.443359375,
+        -945.5641479492188,
+        501.6510314941406,
+        1.0
+      ],
+      "model_resource": "door open 08",
+      "style": "door open 08",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2395.443359375,
+        -945.5641479492188,
+        501.6510314941406
+      ]
+    },
+    {
+      "name": "door open 09",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.2099997997283936,
+        -7.274545623658923e-07,
+        -5.3025072261616776e-14,
+        0.0,
+        -7.274545623658923e-07,
+        -1.2099997997283936,
+        -6.206859097801498e-07,
+        0.0,
+        -2.9102973286496137e-13,
+        -5.642599489874556e-07,
+        1.0999999046325684,
+        0.0,
+        2134.457763671875,
+        -717.3929443359375,
+        501.6510314941406,
+        1.0
+      ],
+      "model_resource": "door open 09",
+      "style": "door open 09",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2134.457763671875,
+        -717.3929443359375,
+        501.6510314941406
+      ]
+    },
+    {
+      "name": "door open 5",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.2099997997283936,
+        2.1156309060188505e-07,
+        0.0,
+        0.0,
+        -2.1156309060188505e-07,
+        1.2099997997283936,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0999999046325684,
+        0.0,
+        -92.07816314697266,
+        -3630.382080078125,
+        647.9635620117188,
+        1.0
+      ],
+      "model_resource": "door open 5",
+      "style": "door open 5",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -92.07816314697266,
+        -3630.382080078125,
+        647.9635620117188
+      ]
+    },
+    {
+      "name": "hut09",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -1582.1954345703125,
+        -2115.96484375,
+        524.4664916992188,
+        1.0
+      ],
+      "model_resource": "hut09",
+      "style": "hut09",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -1582.1954345703125,
+        -2115.96484375,
+        524.4664916992188
+      ]
+    },
+    {
+      "name": "scotspine",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -4072.38525390625,
+        -1457.797119140625,
+        -9.371578216552734,
+        1.0
+      ],
+      "model_resource": "scotspine",
+      "style": "scotspine",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -4072.38525390625,
+        -1457.797119140625,
+        -9.371578216552734
+      ]
+    },
+    {
+      "name": "scotspine01",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1107.658203125,
+        1553.9029541015625,
+        -24.079498291015625,
+        1.0
+      ],
+      "model_resource": "scotspine01",
+      "style": "scotspine01",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        1107.658203125,
+        1553.9029541015625,
+        -24.079498291015625
+      ]
+    },
+    {
+      "name": "scotspine02",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        2417.809814453125,
+        6169.818359375,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine02",
+      "style": "scotspine02",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2417.809814453125,
+        6169.818359375,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine03",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        6699.39892578125,
+        -4927.9169921875,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine03",
+      "style": "scotspine03",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        6699.39892578125,
+        -4927.9169921875,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine04",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.1399999856948853,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1399999856948853,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1399999856948853,
+        0.0,
+        1413.201416015625,
+        -2117.412109375,
+        120.23246765136719,
+        1.0
+      ],
+      "model_resource": "scotspine04",
+      "style": "scotspine04",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        1413.201416015625,
+        -2117.412109375,
+        120.23246765136719
+      ]
+    },
+    {
+      "name": "scotspine05",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1707.585693359375,
+        -5625.22900390625,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine05",
+      "style": "scotspine05",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        1707.585693359375,
+        -5625.22900390625,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine06",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.1899999380111694,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1899999380111694,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1899999380111694,
+        0.0,
+        1901.251708984375,
+        5953.759765625,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine06",
+      "style": "scotspine06",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        1901.251708984375,
+        5953.759765625,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine07",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.2400000095367432,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.2400000095367432,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.2400000095367432,
+        0.0,
+        -3916.24365234375,
+        -4559.09912109375,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine07",
+      "style": "scotspine07",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -3916.24365234375,
+        -4559.09912109375,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine08",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -6242.0927734375,
+        60.7750244140625,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine08",
+      "style": "scotspine08",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -6242.0927734375,
+        60.7750244140625,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine09",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.090000033378601,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.090000033378601,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.090000033378601,
+        0.0,
+        2344.084228515625,
+        1735.103515625,
+        -21.16143798828125,
+        1.0
+      ],
+      "model_resource": "scotspine09",
+      "style": "scotspine09",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2344.084228515625,
+        1735.103515625,
+        -21.16143798828125
+      ]
+    },
+    {
+      "name": "scotspine10",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        0.9399999976158142,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9399999976158142,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9399999976158142,
+        0.0,
+        2179.375,
+        2397.706787109375,
+        -3.346160888671875,
+        1.0
+      ],
+      "model_resource": "scotspine10",
+      "style": "scotspine10",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2179.375,
+        2397.706787109375,
+        -3.346160888671875
+      ]
+    },
+    {
+      "name": "scotspine11",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        2179.375,
+        -114.949951171875,
+        12.209426879882812,
+        1.0
+      ],
+      "model_resource": "scotspine11",
+      "style": "scotspine11",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2179.375,
+        -114.949951171875,
+        12.209426879882812
+      ]
+    },
+    {
+      "name": "scotspine12",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -4938.83251953125,
+        4786.40771484375,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine12",
+      "style": "scotspine12",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -4938.83251953125,
+        4786.40771484375,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine13",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.1999999284744263,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1999999284744263,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1999999284744263,
+        0.0,
+        805.7603759765625,
+        3439.2626953125,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine13",
+      "style": "scotspine13",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        805.7603759765625,
+        3439.2626953125,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine14",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        667.4912719726562,
+        -657.4840698242188,
+        -2.201751708984375,
+        1.0
+      ],
+      "model_resource": "scotspine14",
+      "style": "scotspine14",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        667.4912719726562,
+        -657.4840698242188,
+        -2.201751708984375
+      ]
+    },
+    {
+      "name": "scotspine15",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -3326.712646484375,
+        3764.93212890625,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine15",
+      "style": "scotspine15",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -3326.712646484375,
+        3764.93212890625,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine16",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        0.9099999070167542,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        3616.43896484375,
+        -4980.96875,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine16",
+      "style": "scotspine16",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        3616.43896484375,
+        -4980.96875,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine17",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -1974.05810546875,
+        -1761.6708984375,
+        113.96035766601562,
+        1.0
+      ],
+      "model_resource": "scotspine17",
+      "style": "scotspine17",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -1974.05810546875,
+        -1761.6708984375,
+        113.96035766601562
+      ]
+    },
+    {
+      "name": "scotspine18",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        0.8799998760223389,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.8799998760223389,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.8799998760223389,
+        0.0,
+        1676.493408203125,
+        -1919.36328125,
+        178.01834106445312,
+        1.0
+      ],
+      "model_resource": "scotspine18",
+      "style": "scotspine18",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        1676.493408203125,
+        -1919.36328125,
+        178.01834106445312
+      ]
+    },
+    {
+      "name": "scotspine19",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -3747.498291015625,
+        -3717.19921875,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine19",
+      "style": "scotspine19",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -3747.498291015625,
+        -3717.19921875,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine20",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        5089.05615234375,
+        3552.04638671875,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine20",
+      "style": "scotspine20",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        5089.05615234375,
+        3552.04638671875,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine21",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -4289.8994140625,
+        -2081.86572265625,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine21",
+      "style": "scotspine21",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -4289.8994140625,
+        -2081.86572265625,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine22",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        0.7999999523162842,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.7999999523162842,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.7999999523162842,
+        0.0,
+        2156.099609375,
+        2010.6234130859375,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine22",
+      "style": "scotspine22",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2156.099609375,
+        2010.6234130859375,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine23",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -6109.4755859375,
+        -4422.5673828125,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine23",
+      "style": "scotspine23",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -6109.4755859375,
+        -4422.5673828125,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine24",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        3782.51708984375,
+        -966.2073974609375,
+        34.0606689453125,
+        1.0
+      ],
+      "model_resource": "scotspine24",
+      "style": "scotspine24",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        3782.51708984375,
+        -966.2073974609375,
+        34.0606689453125
+      ]
+    },
+    {
+      "name": "scotspine25",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.059999942779541,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.059999942779541,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.059999942779541,
+        0.0,
+        483.10650634765625,
+        1324.23486328125,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine25",
+      "style": "scotspine25",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        483.10650634765625,
+        1324.23486328125,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine26",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -1001.4736328125,
+        6176.76611328125,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine26",
+      "style": "scotspine26",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -1001.4736328125,
+        6176.76611328125,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine27",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        2513.018310546875,
+        1581.837890625,
+        3.277655839920044,
+        1.0
+      ],
+      "model_resource": "scotspine27",
+      "style": "scotspine27",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2513.018310546875,
+        1581.837890625,
+        3.277655839920044
+      ]
+    },
+    {
+      "name": "scotspine28",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -5673.013671875,
+        1325.950439453125,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine28",
+      "style": "scotspine28",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -5673.013671875,
+        1325.950439453125,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine29",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        2579.375244140625,
+        -5375.234375,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine29",
+      "style": "scotspine29",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2579.375244140625,
+        -5375.234375,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine30",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0699999332427979,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        4482.11865234375,
+        -5328.7978515625,
+        45.32756042480469,
+        1.0
+      ],
+      "model_resource": "scotspine30",
+      "style": "scotspine30",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        4482.11865234375,
+        -5328.7978515625,
+        45.32756042480469
+      ]
+    },
+    {
+      "name": "scotspine31",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        2799.7138671875,
+        -7141.3056640625,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine31",
+      "style": "scotspine31",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2799.7138671875,
+        -7141.3056640625,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine32",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        413.33544921875,
+        -2035.996337890625,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine32",
+      "style": "scotspine32",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        413.33544921875,
+        -2035.996337890625,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine33",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -6777.806640625,
+        -889.7532958984375,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine33",
+      "style": "scotspine33",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -6777.806640625,
+        -889.7532958984375,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine34",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -2520.747314453125,
+        -2378.4990234375,
+        -7.701395034790039,
+        1.0
+      ],
+      "model_resource": "scotspine34",
+      "style": "scotspine34",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -2520.747314453125,
+        -2378.4990234375,
+        -7.701395034790039
+      ]
+    },
+    {
+      "name": "scotspine35",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        2779.375244140625,
+        -4053.56298828125,
+        29.244293212890625,
+        1.0
+      ],
+      "model_resource": "scotspine35",
+      "style": "scotspine35",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2779.375244140625,
+        -4053.56298828125,
+        29.244293212890625
+      ]
+    },
+    {
+      "name": "scotspine36",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        4687.361328125,
+        -4672.45751953125,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine36",
+      "style": "scotspine36",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        4687.361328125,
+        -4672.45751953125,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine37",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1611.3460693359375,
+        -1531.1611328125,
+        101.8062744140625,
+        1.0
+      ],
+      "model_resource": "scotspine37",
+      "style": "scotspine37",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        1611.3460693359375,
+        -1531.1611328125,
+        101.8062744140625
+      ]
+    },
+    {
+      "name": "scotspine38",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -1268.6077880859375,
+        3695.505859375,
+        152.0124053955078,
+        1.0
+      ],
+      "model_resource": "scotspine38",
+      "style": "scotspine38",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -1268.6077880859375,
+        3695.505859375,
+        152.0124053955078
+      ]
+    },
+    {
+      "name": "scotspine39",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.1399999856948853,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1399999856948853,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1399999856948853,
+        0.0,
+        -3702.9189453125,
+        -6217.52880859375,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine39",
+      "style": "scotspine39",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -3702.9189453125,
+        -6217.52880859375,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine40",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        2979.375244140625,
+        981.837890625,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine40",
+      "style": "scotspine40",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2979.375244140625,
+        981.837890625,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine41",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        2956.54052734375,
+        -302.0584716796875,
+        46.46913146972656,
+        1.0
+      ],
+      "model_resource": "scotspine41",
+      "style": "scotspine41",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2956.54052734375,
+        -302.0584716796875,
+        46.46913146972656
+      ]
+    },
+    {
+      "name": "scotspine42",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.1699999570846558,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1699999570846558,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1699999570846558,
+        0.0,
+        3940.68701171875,
+        -5353.650390625,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine42",
+      "style": "scotspine42",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        3940.68701171875,
+        -5353.650390625,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine43",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        2734.53759765625,
+        -168.40838623046875,
+        41.59687805175781,
+        1.0
+      ],
+      "model_resource": "scotspine43",
+      "style": "scotspine43",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2734.53759765625,
+        -168.40838623046875,
+        41.59687805175781
+      ]
+    },
+    {
+      "name": "scotspine44",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -6750.07421875,
+        -138.8140869140625,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine44",
+      "style": "scotspine44",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -6750.07421875,
+        -138.8140869140625,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine45",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        4090.527099609375,
+        -3172.22021484375,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine45",
+      "style": "scotspine45",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        4090.527099609375,
+        -3172.22021484375,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine46",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        0.8999999165534973,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.8999999165534973,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.8999999165534973,
+        0.0,
+        -1716.781494140625,
+        3744.322998046875,
+        161.16448974609375,
+        1.0
+      ],
+      "model_resource": "scotspine46",
+      "style": "scotspine46",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -1716.781494140625,
+        3744.322998046875,
+        161.16448974609375
+      ]
+    },
+    {
+      "name": "scotspine47",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -4401.3876953125,
+        4277.65625,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine47",
+      "style": "scotspine47",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -4401.3876953125,
+        4277.65625,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine48",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        7556.9384765625,
+        466.420654296875,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine48",
+      "style": "scotspine48",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        7556.9384765625,
+        466.420654296875,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine49",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.1299999952316284,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1299999952316284,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1299999952316284,
+        0.0,
+        -2540.981689453125,
+        -3008.71875,
+        -35.28645324707031,
+        1.0
+      ],
+      "model_resource": "scotspine49",
+      "style": "scotspine49",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -2540.981689453125,
+        -3008.71875,
+        -35.28645324707031
+      ]
+    },
+    {
+      "name": "scotspine50",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -5692.43359375,
+        4401.734375,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine50",
+      "style": "scotspine50",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -5692.43359375,
+        4401.734375,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine51",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.2400000095367432,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.2400000095367432,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.2400000095367432,
+        0.0,
+        2591.080322265625,
+        -332.14947509765625,
+        55.6055908203125,
+        1.0
+      ],
+      "model_resource": "scotspine51",
+      "style": "scotspine51",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2591.080322265625,
+        -332.14947509765625,
+        55.6055908203125
+      ]
+    },
+    {
+      "name": "scotspine52",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        4465.0498046875,
+        -4862.796875,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine52",
+      "style": "scotspine52",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        4465.0498046875,
+        -4862.796875,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine53",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        3084.746337890625,
+        -3823.77099609375,
+        77.37812805175781,
+        1.0
+      ],
+      "model_resource": "scotspine53",
+      "style": "scotspine53",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        3084.746337890625,
+        -3823.77099609375,
+        77.37812805175781
+      ]
+    },
+    {
+      "name": "scotspine54",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -6894.6787109375,
+        424.83843994140625,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine54",
+      "style": "scotspine54",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -6894.6787109375,
+        424.83843994140625,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine55",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        7256.83837890625,
+        1482.17919921875,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine55",
+      "style": "scotspine55",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        7256.83837890625,
+        1482.17919921875,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine56",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        7258.310546875,
+        -3955.67529296875,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine56",
+      "style": "scotspine56",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        7258.310546875,
+        -3955.67529296875,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine57",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        3831.264404296875,
+        935.59375,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine57",
+      "style": "scotspine57",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        3831.264404296875,
+        935.59375,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine58",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -3479.1064453125,
+        -5529.65185546875,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine58",
+      "style": "scotspine58",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -3479.1064453125,
+        -5529.65185546875,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine59",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        6809.7421875,
+        -3497.5810546875,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine59",
+      "style": "scotspine59",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        6809.7421875,
+        -3497.5810546875,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine60",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        0.8799999952316284,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        421.263427734375,
+        6822.76611328125,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine60",
+      "style": "scotspine60",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        421.263427734375,
+        6822.76611328125,
+        0.0
+      ]
+    },
+    {
+      "name": "scotspine61",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.1399999856948853,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1399999856948853,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1399999856948853,
+        0.0,
+        4725.4638671875,
+        259.19482421875,
+        -77.09596252441406,
+        1.0
+      ],
+      "model_resource": "scotspine61",
+      "style": "scotspine61",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        4725.4638671875,
+        259.19482421875,
+        -77.09596252441406
+      ]
+    },
+    {
+      "name": "scotspine62",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        0.8700000047683716,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.8700000047683716,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.8700000047683716,
+        0.0,
+        1041.257568359375,
+        1219.549560546875,
+        -26.0186767578125,
+        1.0
+      ],
+      "model_resource": "scotspine62",
+      "style": "scotspine62",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        1041.257568359375,
+        1219.549560546875,
+        -26.0186767578125
+      ]
+    },
+    {
+      "name": "scotspine63",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        531.0411987304688,
+        3310.328125,
+        0.0,
+        1.0
+      ],
+      "model_resource": "scotspine63",
+      "style": "scotspine63",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        531.0411987304688,
+        3310.328125,
+        0.0
+      ]
+    },
+    {
+      "name": "floor",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        250.0,
+        -280.0,
+        0.0,
+        1.0
+      ],
+      "model_resource": "floor",
+      "style": "floor",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        250.0,
+        -280.0,
+        0.0
+      ]
+    }
+  ],
+  "model_resources": [
+    {
+      "name": "hangar",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 585,
+          "faces": 376,
+          "update_data_count": 616,
+          "updates": 203,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "hangar",
+          "mesh_bindings": [
+            "bunker"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        586.9706420898438,
+        -10.87286376953125,
+        114.12712860107422,
+        805.1663208007812
+      ]
+    },
+    {
+      "name": "sheds",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 210,
+          "faces": 84,
+          "update_data_count": 95,
+          "updates": 42,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "sheds",
+          "mesh_bindings": [
+            "barn"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -2648.111328125,
+        -565.5520629882812,
+        79.45445251464844,
+        2843.18798828125
+      ]
+    },
+    {
+      "name": "barrel",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 47,
+          "faces": 36,
+          "update_data_count": 35,
+          "updates": 18,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "barrel",
+          "mesh_bindings": [
+            "workshop"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        0.0,
+        -9.5367431640625e-07,
+        30.0,
+        36.055511474609375
+      ]
+    },
+    {
+      "name": "hangars",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 424,
+          "faces": 222,
+          "update_data_count": 350,
+          "updates": 136,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "hangars",
+          "mesh_bindings": [
+            "bigbarn"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -2556.456787109375,
+        -1223.578857421875,
+        183.39784240722656,
+        3777.23974609375
+      ]
+    },
+    {
+      "name": "door open 28",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 19,
+          "faces": 10,
+          "update_data_count": 9,
+          "updates": 6,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "door open 28",
+          "mesh_bindings": [
+            "bigbarn"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -19.330276489257812,
+        46.236724853515625,
+        99.8200912475586,
+        111.69402313232422
+      ]
+    },
+    {
+      "name": "door open 29",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 18,
+          "faces": 10,
+          "update_data_count": 6,
+          "updates": 6,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "door open 29",
+          "mesh_bindings": [
+            "bigbarn"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        27.065507888793945,
+        42.17765808105469,
+        99.8200912475586,
+        111.69401550292969
+      ]
+    },
+    {
+      "name": "door open 24",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 18,
+          "faces": 10,
+          "update_data_count": 8,
+          "updates": 6,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "door open 24",
+          "mesh_bindings": [
+            "bigbarn"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -19.33033561706543,
+        -46.23686218261719,
+        99.82008361816406,
+        111.69402313232422
+      ]
+    },
+    {
+      "name": "door open 30\t",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 20,
+          "faces": 10,
+          "update_data_count": 6,
+          "updates": 6,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "door open 30\t",
+          "mesh_bindings": [
+            "bigbarn"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        39.858924865722656,
+        -30.377050399780273,
+        99.82008361816406,
+        111.69400787353516
+      ]
+    },
+    {
+      "name": "outerfencing",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 24,
+          "faces": 8,
+          "update_data_count": 2,
+          "updates": 4,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "outerfencing",
+          "mesh_bindings": [
+            "wirefence"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        0.0,
+        0.0,
+        408.6856994628906,
+        6376.01171875
+      ]
+    },
+    {
+      "name": "weehuthollow",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 1208,
+          "faces": 567,
+          "update_data_count": 945,
+          "updates": 330,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "weehuthollow",
+          "mesh_bindings": [
+            "weeseperatehut"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        366.4830322265625,
+        347.91839599609375,
+        234.17535400390625,
+        1920.4747314453125
+      ]
+    },
+    {
+      "name": "2story2",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 507,
+          "faces": 259,
+          "update_data_count": 423,
+          "updates": 135,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "2story2",
+          "mesh_bindings": [
+            "biggreenfella"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -140.53482055664062,
+        43.68382263183594,
+        134.2115936279297,
+        689.7550659179688
+      ]
+    },
+    {
+      "name": "bigredfellaopen",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 2384,
+          "faces": 1213,
+          "update_data_count": 1709,
+          "updates": 653,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "bigredfellaopen",
+          "mesh_bindings": [
+            "bigredfella"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        692.1571044921875,
+        891.8028564453125,
+        441.9420166015625,
+        5878.78955078125
+      ]
+    },
+    {
+      "name": "door open 20",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 24,
+          "faces": 12,
+          "update_data_count": 16,
+          "updates": 6,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "door open 20",
+          "mesh_bindings": [
+            "bigredfella"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -1.6536865234375,
+        31.14588165283203,
+        63.97309112548828,
+        71.17133331298828
+      ]
+    },
+    {
+      "name": "Object01",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 170,
+          "faces": 84,
+          "update_data_count": 97,
+          "updates": 44,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "Object01",
+          "mesh_bindings": [
+            "weeseperatehut"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -170.74359130859375,
+        -1.33514404296875e-05,
+        39.41709899902344,
+        238.4434356689453
+      ]
+    },
+    {
+      "name": "door open 17",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 14,
+          "faces": 10,
+          "update_data_count": 13,
+          "updates": 6,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "door open 17",
+          "mesh_bindings": [
+            "weeseperatehut"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        8.740966796875,
+        37.061222076416016,
+        58.63263702392578,
+        64.9685287475586
+      ]
+    },
+    {
+      "name": "door open 19",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 13,
+          "faces": 12,
+          "update_data_count": 10,
+          "updates": 6,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "door open 19",
+          "mesh_bindings": [
+            "weeseperatehut"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        28.153635025024414,
+        -1.7595797777175903,
+        51.50747299194336,
+        58.72600555419922
+      ]
+    },
+    {
+      "name": "door open 18",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 14,
+          "faces": 10,
+          "update_data_count": 7,
+          "updates": 6,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "door open 18",
+          "mesh_bindings": [
+            "weeseperatehut"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        3.2409636974334717,
+        -27.79594612121582,
+        58.63263702392578,
+        64.96849060058594
+      ]
+    },
+    {
+      "name": "door open 22",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 24,
+          "faces": 12,
+          "update_data_count": 13,
+          "updates": 6,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "door open 22",
+          "mesh_bindings": [
+            "cliffview"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        27.723604202270508,
+        0.000110626220703125,
+        1.1444091796875e-05,
+        71.38639831542969
+      ]
+    },
+    {
+      "name": "cliffview",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 2226,
+          "faces": 1094,
+          "update_data_count": 1908,
+          "updates": 553,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "cliffview",
+          "mesh_bindings": [
+            "cliffview"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -2057.719970703125,
+        -203.76510620117188,
+        80.86183166503906,
+        2491.80517578125
+      ]
+    },
+    {
+      "name": "plinths",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 99,
+          "faces": 89,
+          "update_data_count": 90,
+          "updates": 79,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        },
+        {
+          "vertices": 1007,
+          "faces": 416,
+          "update_data_count": 697,
+          "updates": 264,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader",
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "plinths",
+          "mesh_bindings": [
+            "concrete",
+            "stepwall"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -2045.8233642578125,
+        -3294.8388671875,
+        39.090606689453125,
+        5082.76904296875
+      ]
+    },
+    {
+      "name": "workshops",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 190,
+          "faces": 108,
+          "update_data_count": 150,
+          "updates": 60,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "workshops",
+          "mesh_bindings": [
+            "workshop"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        569.6157836914062,
+        -0.000213623046875,
+        98.56488037109375,
+        1097.92041015625
+      ]
+    },
+    {
+      "name": "garage",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 2069,
+          "faces": 872,
+          "update_data_count": 1495,
+          "updates": 462,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "garage",
+          "mesh_bindings": [
+            "garage"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        2137.17626953125,
+        -0.00927734375,
+        333.572998046875,
+        9518.162109375
+      ]
+    },
+    {
+      "name": "door open 21",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 24,
+          "faces": 12,
+          "update_data_count": 11,
+          "updates": 6,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "door open 21",
+          "mesh_bindings": [
+            "garage"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        0.0004673004150390625,
+        -0.00018310546875,
+        -473.7696533203125,
+        1417.0482177734375
+      ]
+    },
+    {
+      "name": "door open 08",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 24,
+          "faces": 12,
+          "update_data_count": 11,
+          "updates": 6,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "door open 08",
+          "mesh_bindings": [
+            "hut"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -23.314783096313477,
+        1.8965892791748047,
+        53.744869232177734,
+        58.61473083496094
+      ]
+    },
+    {
+      "name": "door open 09",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 24,
+          "faces": 12,
+          "update_data_count": 12,
+          "updates": 6,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "door open 09",
+          "mesh_bindings": [
+            "hut"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        24.060012817382812,
+        -4.008823871612549,
+        52.967979431152344,
+        58.314369201660156
+      ]
+    },
+    {
+      "name": "door open 5",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 24,
+          "faces": 12,
+          "update_data_count": 12,
+          "updates": 6,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "door open 5",
+          "mesh_bindings": [
+            "hut"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        60.649051666259766,
+        1.59307861328125,
+        -55.34743118286133,
+        82.12295532226562
+      ]
+    },
+    {
+      "name": "hut09",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 2837,
+          "faces": 1359,
+          "update_data_count": 1873,
+          "updates": 812,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "hut09",
+          "mesh_bindings": [
+            "hut"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        2666.627685546875,
+        1124.09375,
+        -14.645393371582031,
+        3879.21484375
+      ]
+    },
+    {
+      "name": "scotspine",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine01",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine01",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine02",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine02",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine03",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine03",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine04",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 393,
+          "faces": 258,
+          "update_data_count": 260,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine04",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715103149414062,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine05",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine05",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine06",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 262,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine06",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715103149414062,
+        -3.614349365234375,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine07",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine07",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715087890625,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine08",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine08",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine09",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine09",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715194702148438,
+        -3.6145172119140625,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine10",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine10",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.71502685546875,
+        -3.6146392822265625,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine11",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine11",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine12",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine12",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine13",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 393,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine13",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715103149414062,
+        -3.6146697998046875,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine14",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine14",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine15",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine15",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine16",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 393,
+          "faces": 258,
+          "update_data_count": 260,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine16",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715194702148438,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine17",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine17",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine18",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 260,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine18",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715141296386719,
+        -3.61468505859375,
+        207.75149536132812,
+        227.99627685546875
+      ]
+    },
+    {
+      "name": "scotspine19",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine19",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine20",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine20",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine21",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine21",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine22",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine22",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.71514892578125,
+        -3.614593505859375,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine23",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine23",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine24",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine24",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine25",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 393,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine25",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.71514892578125,
+        -3.614532470703125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine26",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine26",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine27",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine27",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine28",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine28",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine29",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine29",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine30",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine30",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715301513671875,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine31",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine31",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine32",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine32",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine33",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine33",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine34",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine34",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine35",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine35",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine36",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine36",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine37",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine37",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine38",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine38",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine39",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 260,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine39",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.7152099609375,
+        -3.6144866943359375,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine40",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine40",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine41",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine41",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine42",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine42",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715087890625,
+        -3.6146392822265625,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine43",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine43",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine44",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine44",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine45",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine45",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine46",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine46",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715080261230469,
+        -3.6143646240234375,
+        207.75149536132812,
+        227.99627685546875
+      ]
+    },
+    {
+      "name": "scotspine47",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine47",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine48",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine48",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine49",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 262,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine49",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715240478515625,
+        -3.6145477294921875,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine50",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine50",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine51",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine51",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715240478515625,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine52",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine52",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine53",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine53",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine54",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine54",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine55",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine55",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine56",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine56",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine57",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine57",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine58",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine58",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine59",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine59",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine60",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 260,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine60",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine61",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 260,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine61",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715286254882812,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine62",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine62",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715118408203125,
+        -3.6146087646484375,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "scotspine63",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 392,
+          "faces": 258,
+          "update_data_count": 261,
+          "updates": 131,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "scotspine63",
+          "mesh_bindings": [
+            "scotspine"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        11.715133666992188,
+        -3.61456298828125,
+        207.7515106201172,
+        227.9962921142578
+      ]
+    },
+    {
+      "name": "floor",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 298,
+          "faces": 574,
+          "update_data_count": 913,
+          "updates": 295,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "floor",
+          "mesh_bindings": [
+            "grass"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -64.5810546875,
+        0.77734375,
+        207.40025329589844,
+        8456.5380859375
+      ]
+    }
+  ],
+  "errors": [],
+  "parser_reference": "https://github.com/igorlira/dirplayer-rs/tree/68376fbb4494a6bbad4c70081ecdcb99814a74c9/vm-rust/src/director/chunks/w3d"
+}

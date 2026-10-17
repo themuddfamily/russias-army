@@ -1,0 +1,158 @@
+property pmod, pos, bangtime
+global gmem, goody, baddies, gsmokes
+
+on new me, npos
+  [  0] pushsymb 129 ............................ <#plane>
+  [  2] pusharglist 1 ........................... <#plane>
+  [  4] extcall 451 ............................. <recyclemodel(#plane)>
+  [  7] setprop 218 ............................. pmod = recyclemodel(#plane)
+  [  9] getprop 218 ............................. <pmod>
+  [ 11] pushzero ................................ <0>
+  [ 12] eq ...................................... <pmod = 0>
+  [ 13] jmpifz [ 22] ............................ if pmod = 0 then
+  [ 16] pusharglist 0 ........................... <>
+  [ 18] extcall 31 .............................. <planemakeme()>
+  [ 20] setprop 218 ............................. pmod = planemakeme()
+  [ 22] getprop 218 ............................. <pmod>
+  [ 24] getchainedprop 96 ....................... <pmod.transform>
+  [ 26] pushint8 2 .............................. <2>
+  [ 28] pushint8 2 .............................. <2>
+  [ 30] pushint8 2 .............................. <2>
+  [ 32] pusharglist 3 ........................... <2, 2, 2>
+  [ 34] extcall 34 .............................. <vector(2, 2, 2)>
+  [ 36] setobjprop 35 ........................... pmod.transform.scale = vector(2, 2, 2)
+  [ 38] getprop 218 ............................. <pmod>
+  [ 40] pushcons 0 .............................. <"spatter">
+  [ 42] pusharglist 1 ........................... <"spatter">
+  [ 44] extcall 28 .............................. <shady("spatter")>
+  [ 46] setobjprop 66 ........................... pmod.shaderList = shady("spatter")
+  [ 48] getprop 218 ............................. <pmod>
+  [ 50] getchainedprop 67 ....................... <pmod.shader>
+  [ 52] getchainedprop 68 ....................... <pmod.shader.texture>
+  [ 54] pushint8 1 .............................. <1>
+  [ 56] setobjprop 324 .......................... pmod.shader.texture.nearFiltering = 1
+  [ 59] getprop 218 ............................. <pmod>
+  [ 61] getchainedprop 67 ....................... <pmod.shader>
+  [ 63] getchainedprop 68 ....................... <pmod.shader.texture>
+  [ 65] pushsymb 120 ............................ <#rgba8888>
+  [ 67] setobjprop 121 .......................... pmod.shader.texture.renderFormat = #rgba8888
+  [ 69] getprop 218 ............................. <pmod>
+  [ 71] getchainedprop 67 ....................... <pmod.shader>
+  [ 73] pushint8 50 ............................. <50>
+  [ 75] setobjprop 330 .......................... pmod.shader.blend = 50
+  [ 78] getprop 218 ............................. <pmod>
+  [ 80] getchainedprop 67 ....................... <pmod.shader>
+  [ 82] getchainedprop 518 ...................... <pmod.shader.textureTransform>
+  [ 85] pushint8 3 .............................. <3>
+  [ 87] pushint8 3 .............................. <3>
+  [ 89] pushint8 3 .............................. <3>
+  [ 91] pusharglist 3 ........................... <3, 3, 3>
+  [ 93] extcall 34 .............................. <vector(3, 3, 3)>
+  [ 95] setobjprop 35 ........................... pmod.shader.textureTransform.scale = vector(3, 3, 3)
+  [ 97] getprop 218 ............................. <pmod>
+  [ 99] getchainedprop 67 ....................... <pmod.shader>
+  [101] getchainedprop 518 ...................... <pmod.shader.textureTransform>
+  [104] pushint8 1 .............................. <1>
+  [106] pushint8 1 .............................. <1>
+  [108] pushzero ................................ <0>
+  [109] pusharglist 3 ........................... <1, 1, 0>
+  [111] extcall 34 .............................. <vector(1, 1, 0)>
+  [113] setobjprop 36 ........................... pmod.shader.textureTransform.position = vector(1, 1, 0)
+  [115] getparam 1 .............................. <npos>
+  [117] setprop 108 ............................. pos = npos
+  [119] getprop 218 ............................. <pmod>
+  [121] getchainedprop 96 ....................... <pmod.transform>
+  [123] getprop 108 ............................. <pos>
+  [125] setobjprop 36 ........................... pmod.transform.position = pos
+  [127] pushint8 8 .............................. <8>
+  [129] setprop 519 ............................. bangtime = 8
+  [132] getprop 218 ............................. <pmod>
+  [134] getglobal 413 ........................... <gsmokes>
+  [137] setobjprop 390 .......................... pmod.parent = gsmokes
+  [140] getmovieprop 52 ......................... <the actorList>
+  [142] getparam 0 .............................. <me>
+  [144] pusharglistnoret 2 ...................... <the actorList, me>
+  [146] objcall 223 ............................. (the actorList).add(me)
+  [148] getparam 0 .............................. <me>
+  [150] pusharglistnoret 1 ...................... <me>
+  [152] extcall 37 .............................. return me
+  [154] ret
+end
+
+on stepFrame me
+  [  0] getglobal 125 ........................... <goody>
+  [  2] pusharglist 1 ........................... <goody>
+  [  4] extcall 100 ............................. <voidp(goody)>
+  [  6] not ..................................... <not voidp(goody)>
+  [  7] jmpifz [145] ............................ if not voidp(goody) then
+  [ 10] getprop 218 ............................. <pmod>
+  [ 12] getchainedprop 67 ....................... <pmod.shader>
+  [ 14] getchainedprop 518 ...................... <pmod.shader.textureTransform>
+  [ 17] getchainedprop 36 ....................... <pmod.shader.textureTransform.position>
+  [ 19] getprop 218 ............................. <pmod>
+  [ 21] getchainedprop 67 ....................... <pmod.shader>
+  [ 23] getchainedprop 518 ...................... <pmod.shader.textureTransform>
+  [ 26] getchainedprop 36 ....................... <pmod.shader.textureTransform.position>
+  [ 28] getobjprop 79 ........................... <pmod.shader.textureTransform.position.x>
+  [ 30] pushint8 1 .............................. <1>
+  [ 32] sub ..................................... <pmod.shader.textureTransform.position.x - 1>
+  [ 33] setobjprop 79 ........................... pmod.shader.textureTransform.position.x = pmod.shader.textureTransform.position.x - 1
+  [ 35] getprop 218 ............................. <pmod>
+  [ 37] getchainedprop 67 ....................... <pmod.shader>
+  [ 39] getchainedprop 518 ...................... <pmod.shader.textureTransform>
+  [ 42] getchainedprop 36 ....................... <pmod.shader.textureTransform.position>
+  [ 44] getobjprop 79 ........................... <pmod.shader.textureTransform.position.x>
+  [ 46] pushint8 3 .............................. <3>
+  [ 48] inv ..................................... <-3>
+  [ 49] eq ...................................... <pmod.shader.textureTransform.position.x = -3>
+  [ 50] jmpifz [ 90] ............................ if pmod.shader.textureTransform.position.x = -3 then
+  [ 53] getprop 218 ............................. <pmod>
+  [ 55] getchainedprop 67 ....................... <pmod.shader>
+  [ 57] getchainedprop 518 ...................... <pmod.shader.textureTransform>
+  [ 60] getchainedprop 36 ....................... <pmod.shader.textureTransform.position>
+  [ 62] pushzero ................................ <0>
+  [ 63] setobjprop 79 ........................... pmod.shader.textureTransform.position.x = 0
+  [ 65] getprop 218 ............................. <pmod>
+  [ 67] getchainedprop 67 ....................... <pmod.shader>
+  [ 69] getchainedprop 518 ...................... <pmod.shader.textureTransform>
+  [ 72] getchainedprop 36 ....................... <pmod.shader.textureTransform.position>
+  [ 74] getprop 218 ............................. <pmod>
+  [ 76] getchainedprop 67 ....................... <pmod.shader>
+  [ 78] getchainedprop 518 ...................... <pmod.shader.textureTransform>
+  [ 81] getchainedprop 36 ....................... <pmod.shader.textureTransform.position>
+  [ 83] getobjprop 81 ........................... <pmod.shader.textureTransform.position.y>
+  [ 85] pushint8 1 .............................. <1>
+  [ 87] add ..................................... <pmod.shader.textureTransform.position.y + 1>
+  [ 88] setobjprop 81 ........................... pmod.shader.textureTransform.position.y = pmod.shader.textureTransform.position.y + 1
+  [ 90] getprop 218 ............................. <pmod>
+  [ 92] getglobal 125 ........................... <goody>
+  [ 94] getobjprop 108 .......................... <goody.pos>
+  [ 96] pushzero ................................ <0>
+  [ 97] pushzero ................................ <0>
+  [ 98] pushint8 1 .............................. <1>
+  [100] pusharglist 3 ........................... <0, 0, 1>
+  [102] extcall 34 .............................. <vector(0, 0, 1)>
+  [104] pusharglistnoret 3 ...................... <pmod, goody.pos, vector(0, 0, 1)>
+  [106] objcall 504 ............................. pmod.pointAt(goody.pos, vector(0, 0, 1))
+  [109] getprop 519 ............................. <bangtime>
+  [112] pushint8 1 .............................. <1>
+  [114] lt ...................................... <bangtime < 1>
+  [115] jmpifz [136] ............................ if bangtime < 1 then
+  [118] pushsymb 129 ............................ <#plane>
+  [120] getprop 218 ............................. <pmod>
+  [122] pusharglistnoret 2 ...................... <#plane, pmod>
+  [124] extcall 474 ............................. storemodel(#plane, pmod)
+  [127] getmovieprop 52 ......................... <the actorList>
+  [129] getparam 0 .............................. <me>
+  [131] pusharglistnoret 2 ...................... <the actorList, me>
+  [133] objcall 366 ............................. (the actorList).deleteOne(me)
+  [136] getprop 519 ............................. <bangtime>
+  [139] pushint8 4 .............................. <4>
+  [141] sub ..................................... <bangtime - 4>
+  [142] setprop 519 ............................. bangtime = bangtime - 4
+  [145] ret
+end
+
+on hurt me
+  [  0] ret
+end

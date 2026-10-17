@@ -1,0 +1,156 @@
+{
+  "totalLength": 1092,
+  "totalLength2": 1092,
+  "headerLength": 92,
+  "scriptNumber": 13,
+  "unk20": 3,
+  "parentNumber": -1,
+  "scriptFlags": 0,
+  "unk42": 0,
+  "castID": 196621,
+  "factoryNameID": -1,
+  "handlerVectorsCount": 0,
+  "handlerVectorsOffset": 1092,
+  "handlerVectorsSize": 0,
+  "propertiesCount": 4,
+  "propertiesOffset": 92,
+  "globalsCount": 4,
+  "globalsOffset": 100,
+  "handlersCount": 5,
+  "handlersOffset": 108,
+  "literalsCount": 6,
+  "literalsOffset": 962,
+  "literalsDataCount": 82,
+  "literalsDataOffset": 1010,
+  "propertyNameIDs": [
+    108,
+    494,
+    482,
+    218
+  ],
+  "globalNameIDs": [
+    94,
+    125,
+    55,
+    56
+  ],
+  "handlers": [
+    {
+      "nameID": 187,
+      "vectorPos": 65535,
+      "compiledLen": 49,
+      "compiledOffset": 338,
+      "argumentCount": 5,
+      "argumentOffset": 388,
+      "localsCount": 0,
+      "localsOffset": 398,
+      "globalsCount": 0,
+      "globalsOffset": 100,
+      "unknown1": 86,
+      "unknown2": 6,
+      "lineCount": 10,
+      "lineOffset": 398,
+      "stackHeight": 3
+    },
+    {
+      "nameID": 287,
+      "vectorPos": 65535,
+      "compiledLen": 285,
+      "compiledOffset": 408,
+      "argumentCount": 1,
+      "argumentOffset": 694,
+      "localsCount": 4,
+      "localsOffset": 696,
+      "globalsCount": 0,
+      "globalsOffset": 100,
+      "unknown1": 267,
+      "unknown2": 19,
+      "lineCount": 33,
+      "lineOffset": 704,
+      "stackHeight": 14
+    },
+    {
+      "nameID": 492,
+      "vectorPos": 65535,
+      "compiledLen": 157,
+      "compiledOffset": 738,
+      "argumentCount": 2,
+      "argumentOffset": 896,
+      "localsCount": 1,
+      "localsOffset": 900,
+      "globalsCount": 0,
+      "globalsOffset": 100,
+      "unknown1": 1164,
+      "unknown2": 55,
+      "lineCount": 14,
+      "lineOffset": 902,
+      "stackHeight": 5
+    },
+    {
+      "nameID": 493,
+      "vectorPos": 65535,
+      "compiledLen": 32,
+      "compiledOffset": 916,
+      "argumentCount": 1,
+      "argumentOffset": 948,
+      "localsCount": 0,
+      "localsOffset": 950,
+      "globalsCount": 0,
+      "globalsOffset": 100,
+      "unknown1": 1622,
+      "unknown2": 72,
+      "lineCount": 5,
+      "lineOffset": 950,
+      "stackHeight": 3
+    },
+    {
+      "nameID": 226,
+      "vectorPos": 65535,
+      "compiledLen": 1,
+      "compiledOffset": 956,
+      "argumentCount": 1,
+      "argumentOffset": 958,
+      "localsCount": 0,
+      "localsOffset": 960,
+      "globalsCount": 0,
+      "globalsOffset": 100,
+      "unknown1": 1744,
+      "unknown2": 80,
+      "lineCount": 1,
+      "lineOffset": 960,
+      "stackHeight": 0
+    }
+  ],
+  "literals": [
+    {
+      "type": 1,
+      "offset": 0,
+      "value": "You have the "
+    },
+    {
+      "type": 1,
+      "offset": 18,
+      "value": " key."
+    },
+    {
+      "type": 1,
+      "offset": 28,
+      "value": "Health up 20 points"
+    },
+    {
+      "type": 1,
+      "offset": 52,
+      "value": "!"
+    },
+    {
+      "type": 1,
+      "offset": 58,
+      "value": "Ammo for the "
+    },
+    {
+      "type": 1,
+      "offset": 76,
+      "value": "."
+    }
+  ]
+}

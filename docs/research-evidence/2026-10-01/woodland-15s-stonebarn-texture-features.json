@@ -1,0 +1,375 @@
+{
+  "scene": "public/assets/original-scenes/woodland/scene.json",
+  "sceneSha256": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107",
+  "reference": "docs/research-evidence/2026-09-30/woodland-video-15s.jpg",
+  "referenceSha256": "eeae8794813fac85c57c32a9f6af9be859c668699c3f1ab42a731a988f717f3a",
+  "atlas": "public/assets/original-scenes/woodland/textures/stonebarn.png",
+  "atlasSha256": "7ff83e28de923ebf82ec17cf57ac3ededf53136b9543960f362f3878551b3b86",
+  "generator": "scripts/research/match-reference-texture-landmarks.py",
+  "generatorSha256": "9ad0092171d488c5dff9914eec18f8ce683f1c86950ff497f7b5b85db14a7f55",
+  "imageSize": [
+    1280,
+    574
+  ],
+  "scale": 0.02023529411764706,
+  "verticalFovDegrees": 50,
+  "landmarks": [
+    {
+      "id": "sift-atlas-53.595-451.665",
+      "node": "stonebarn",
+      "part": 0,
+      "face": 96,
+      "barycentric": [
+        0.5923160556708491,
+        0.24677418604507115,
+        0.1609097582840798
+      ],
+      "atlasPixel": [
+        53.59467315673828,
+        451.665283203125
+      ],
+      "pixel": [
+        649.9552001953125,
+        241.93862915039062
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorDistance": 181.38632202148438,
+      "descriptorRatio": 0.6058576383112668,
+      "reciprocalNearestDescriptor": true,
+      "sourceLocalPoint": [
+        -890.657123891331,
+        -90.18886827864686,
+        100.68055327018072
+      ]
+    },
+    {
+      "id": "sift-atlas-79.176-438.465",
+      "node": "stonebarn",
+      "part": 0,
+      "face": 48,
+      "barycentric": [
+        0.4257257448433919,
+        0.061281100491142354,
+        0.5129931546654658
+      ],
+      "atlasPixel": [
+        79.17607116699219,
+        438.4645080566406
+      ],
+      "pixel": [
+        685.7354125976562,
+        228.51438903808594
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorDistance": 179.9722137451172,
+      "descriptorRatio": 0.5944632725990524,
+      "reciprocalNearestDescriptor": true,
+      "sourceLocalPoint": [
+        -827.1615978990252,
+        -96.6751282039196,
+        124.45113993980576
+      ]
+    },
+    {
+      "id": "sift-atlas-79.271-485.033",
+      "node": "stonebarn",
+      "part": 0,
+      "face": 112,
+      "barycentric": [
+        0.12478488887459427,
+        0.4966545296814778,
+        0.37856058144392796
+      ],
+      "atlasPixel": [
+        79.27084350585938,
+        485.03265380859375
+      ],
+      "pixel": [
+        685.9138793945312,
+        275.2417297363281
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorDistance": 207.33065795898438,
+      "descriptorRatio": 0.6381307939642457,
+      "reciprocalNearestDescriptor": true,
+      "sourceLocalPoint": [
+        -826.6762494374138,
+        -96.84234231107973,
+        41.178796622020435
+      ]
+    },
+    {
+      "id": "sift-atlas-82.198-441.732",
+      "node": "stonebarn",
+      "part": 0,
+      "face": 96,
+      "barycentric": [
+        0.9074677409809916,
+        0.09003931622020152,
+        0.0024929427988068845
+      ],
+      "atlasPixel": [
+        82.19811248779297,
+        441.7316589355469
+      ],
+      "pixel": [
+        689.6976928710938,
+        231.77627563476562
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorDistance": 223.14344787597656,
+      "descriptorRatio": 0.6407091033358745,
+      "reciprocalNearestDescriptor": true,
+      "sourceLocalPoint": [
+        -819.3819463218264,
+        -97.60088862321572,
+        118.16361343239556
+      ]
+    },
+    {
+      "id": "sift-atlas-83.517-494.414",
+      "node": "stonebarn",
+      "part": 0,
+      "face": 112,
+      "barycentric": [
+        0.0779961445450007,
+        0.6793526974965076,
+        0.24265115795849165
+      ],
+      "atlasPixel": [
+        83.5174331665039,
+        494.4143981933594
+      ],
+      "pixel": [
+        692.1431884765625,
+        285.0353088378906
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorDistance": 209.51849365234375,
+      "descriptorRatio": 0.6597772316714505,
+      "reciprocalNearestDescriptor": true,
+      "sourceLocalPoint": [
+        -816.0944368824086,
+        -97.94276201699529,
+        24.51856507722189
+      ]
+    },
+    {
+      "id": "sift-atlas-86.978-448.397",
+      "node": "stonebarn",
+      "part": 0,
+      "face": 112,
+      "barycentric": [
+        0.03986456034663777,
+        0.0508560773318306,
+        0.9092793623215316
+      ],
+      "atlasPixel": [
+        86.97827911376953,
+        448.3974609375
+      ],
+      "pixel": [
+        697.8450317382812,
+        239.23898315429688
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorDistance": 143.53396606445312,
+      "descriptorRatio": 0.4938332282666261,
+      "reciprocalNearestDescriptor": true,
+      "sourceLocalPoint": [
+        -807.4705406399684,
+        -98.839574856726,
+        106.23607924335064
+      ]
+    },
+    {
+      "id": "sift-atlas-168.294-449.623",
+      "node": "stonebarn",
+      "part": 0,
+      "face": 49,
+      "barycentric": [
+        0.11437342618233282,
+        0.0637108499186958,
+        0.8219157238989714
+      ],
+      "atlasPixel": [
+        168.29412841796875,
+        449.6229553222656
+      ],
+      "pixel": [
+        815.1370239257812,
+        240.05343627929688
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorDistance": 186.35450744628906,
+      "descriptorRatio": 0.6126106635706065,
+      "reciprocalNearestDescriptor": true,
+      "sourceLocalPoint": [
+        -605.3922337586088,
+        -119.60896351956252,
+        104.12369125624025
+      ]
+    },
+    {
+      "id": "sift-atlas-182.488-486.984",
+      "node": "stonebarn",
+      "part": 0,
+      "face": 93,
+      "barycentric": [
+        0.3502851846554895,
+        0.33785780126271764,
+        0.3118570140817929
+      ],
+      "atlasPixel": [
+        182.48751831054688,
+        486.9844665527344
+      ],
+      "pixel": [
+        837.7232666015625,
+        278.3387145996094
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorDistance": 208.09132385253906,
+      "descriptorRatio": 0.6747859013282188,
+      "reciprocalNearestDescriptor": true,
+      "sourceLocalPoint": [
+        -570.1167979390514,
+        -123.26362549492785,
+        37.712707658137774
+      ]
+    },
+    {
+      "id": "sift-atlas-221.521-447.570",
+      "node": "stonebarn",
+      "part": 0,
+      "face": 49,
+      "barycentric": [
+        0.12967031924043204,
+        0.5500739676883641,
+        0.32025571307120376
+      ],
+      "atlasPixel": [
+        221.5206298828125,
+        447.57025146484375
+      ],
+      "pixel": [
+        899.881103515625,
+        237.2267608642578
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorDistance": 169.5169677734375,
+      "descriptorRatio": 0.5283107374090011,
+      "reciprocalNearestDescriptor": true,
+      "sourceLocalPoint": [
+        -473.10612089054416,
+        -133.31428041602337,
+        108.25676334529271
+      ]
+    },
+    {
+      "id": "sift-atlas-228.253-437.615",
+      "node": "stonebarn",
+      "part": 0,
+      "face": 49,
+      "barycentric": [
+        0.003046601941085636,
+        0.7401464763987267,
+        0.2568069216601877
+      ],
+      "atlasPixel": [
+        228.25259399414062,
+        437.6146240234375
+      ],
+      "pixel": [
+        910.4481201171875,
+        227.0677947998047
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorDistance": 213.51580810546875,
+      "descriptorRatio": 0.6368727532701863,
+      "reciprocalNearestDescriptor": true,
+      "sourceLocalPoint": [
+        -456.37488100540696,
+        -135.0476970213265,
+        126.12675577573245
+      ]
+    },
+    {
+      "id": "sift-atlas-233.858-458.871",
+      "node": "stonebarn",
+      "part": 0,
+      "face": 49,
+      "barycentric": [
+        0.2893562496105848,
+        0.5066699783519634,
+        0.2039737720374518
+      ],
+      "atlasPixel": [
+        233.8582305908203,
+        458.8706970214844
+      ],
+      "pixel": [
+        919.3743286132812,
+        248.4969024658203
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorDistance": 221.4520263671875,
+      "descriptorRatio": 0.6760451951399545,
+      "reciprocalNearestDescriptor": true,
+      "sourceLocalPoint": [
+        -442.4429513253111,
+        -136.49109502513178,
+        88.14574249799264
+      ]
+    }
+  ],
+  "method": {
+    "detector": "OpenCV SIFT",
+    "opencvVersion": "4.13.0",
+    "nfeatures": 4000,
+    "contrastThreshold": 0.01,
+    "ratioThreshold": 0.7,
+    "reciprocalNearest": true,
+    "atlasPatchPixels": [
+      0,
+      435,
+      250,
+      511
+    ],
+    "roleRule": "SHA256 of rounded atlas x,y: first eight hex digits modulo three zero means heldout",
+    "uvPixelConvention": "(u+.5, .5-v) * (width,height) - .5",
+    "faceSelection": "Exactly one containing UV triangle across the entire source mesh",
+    "geometricOutlierSelection": "None; all eligible descriptor matches retained",
+    "uncertaintyPixels": "Fixed two pixel measurement allowance; not increased after pose fitting"
+  },
+  "counts": {
+    "fit": 7,
+    "heldout": 4,
+    "outsideSelectedAtlasPatch": 7,
+    "ambiguousUvMatches": 0
+  },
+  "ambiguousUvMatches": [],
+  "localPointCenteredSingularValues": [
+    558.5198092678777,
+    115.29698323108919,
+    0.12550603619746878
+  ],
+  "limitations": [
+    "Descriptor correspondence is evidence, not proof of raster or camera equivalence.",
+    "These features occupy one nearly planar facade. Camera depth and capture intrinsics can remain ambiguous.",
+    "No camera, manual corner annotation, or camera residual influences feature or face selection.",
+    "The current renderer UV adapter is assumed; native Director UV convention is not newly proved.",
+    "No heldout feature is used to choose a homography, camera solution, or inlier set."
+  ]
+}

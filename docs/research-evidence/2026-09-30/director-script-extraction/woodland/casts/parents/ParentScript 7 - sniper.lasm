@@ -1,0 +1,154 @@
+property inc, ptog
+global gmem, goody
+
+on new me, npos
+  [  0] pushcons 0 .............................. <"open">
+  [  2] setprop 440 ............................. ptog = "open"
+  [  5] getglobal 68 ............................ <gmem>
+  [  7] pushsymb 69 ............................. <#camera>
+  [  9] pushint8 1 .............................. <1>
+  [ 11] pusharglist 3 ........................... <gmem, #camera, 1>
+  [ 13] objcall 77 .............................. <gmem.camera[1]>
+  [ 15] pushsymb 76 ............................. <#overlay>
+  [ 17] pushint8 1 .............................. <1>
+  [ 19] pusharglist 3 ........................... <gmem.camera[1], #overlay, 1>
+  [ 21] objcall 77 .............................. <gmem.camera[1].overlay[1]>
+  [ 23] getglobal 68 ............................ <gmem>
+  [ 25] pushcons 1 .............................. <"UIZoom">
+  [ 27] pusharglist 2 ........................... <gmem, "UIZoom">
+  [ 29] objcall 93 .............................. <gmem.texture("UIZoom")>
+  [ 31] setobjprop 633 .......................... gmem.camera[1].overlay[1].source = gmem.texture("UIZoom")
+  [ 34] pushint8 35 ............................. <35>
+  [ 36] setprop 441 ............................. inc = 35
+  [ 39] getglobal 28 ............................ <goody>
+  [ 41] getchainedprop 67 ....................... <goody.pmod>
+  [ 43] getprop 441 ............................. <inc>
+  [ 46] setobjprop 71 ........................... goody.pmod.fieldOfView = inc
+  [ 48] getmovieprop 53 ......................... <the actorList>
+  [ 50] getparam 0 .............................. <me>
+  [ 52] pusharglistnoret 2 ...................... <the actorList, me>
+  [ 54] objcall 55 .............................. (the actorList).add(me)
+  [ 56] getparam 0 .............................. <me>
+  [ 58] pusharglistnoret 1 ...................... <me>
+  [ 60] extcall 173 ............................. return me
+  [ 62] ret
+end
+
+on stepFrame me
+  [  0] getglobal 28 ............................ <goody>
+  [  2] pusharglist 1 ........................... <goody>
+  [  4] extcall 92 .............................. <voidp(goody)>
+  [  6] not ..................................... <not voidp(goody)>
+  [  7] jmpifz [160] ............................ if not voidp(goody) then
+  [ 10] getprop 441 ............................. <inc>
+  [ 13] pushint8 8 .............................. <8>
+  [ 15] gt ...................................... <inc > 8>
+  [ 16] jmpifz [ 51] ............................ if inc > 8 then
+  [ 19] getprop 441 ............................. <inc>
+  [ 22] pushfloat32 0.75 ........................ <0.75>
+  [ 27] sub ..................................... <inc - 0.75>
+  [ 28] setprop 441 ............................. inc = inc - 0.75
+  [ 31] getglobal 28 ............................ <goody>
+  [ 33] getglobal 28 ............................ <goody>
+  [ 35] getobjprop 31 ........................... <goody.pmousedelta>
+  [ 37] pushcons 2 .............................. <0.93000000000000005>
+  [ 39] mul ..................................... <goody.pmousedelta * 0.93000000000000005>
+  [ 40] setobjprop 31 ........................... goody.pmousedelta = goody.pmousedelta * 0.93000000000000005
+  [ 42] getglobal 28 ............................ <goody>
+  [ 44] getchainedprop 67 ....................... <goody.pmod>
+  [ 46] getprop 441 ............................. <inc>
+  [ 49] setobjprop 71 ........................... goody.pmod.fieldOfView = inc
+  [ 51] getprop 441 ............................. <inc>
+  [ 54] pushint8 30 ............................. <30>
+  [ 56] lt ...................................... <inc < 30>
+  [ 57] jmpifz [135] ............................ if inc < 30 then
+  [ 60] gettoplevelprop 400 ..................... <_key>
+  [ 63] getobjprop 401 .......................... <_key.shiftDown>
+  [ 66] jmpifz [103] ............................ if _key.shiftDown then / else
+  [ 69] getprop 440 ............................. <ptog>
+  [ 72] pushcons 0 .............................. <"open">
+  [ 74] eq ...................................... <ptog = "open">
+  [ 75] jmpifz [ 86] ............................ if ptog = "open" then / else
+  [ 78] pushcons 3 .............................. <"zoomed">
+  [ 80] setprop 440 ............................. ptog = "zoomed"
+  [ 83] jmp [100]
+  [ 86] getprop 440 ............................. <ptog>
+  [ 89] pushcons 4 .............................. <"zoomdone">
+  [ 91] eq ...................................... <ptog = "zoomdone">
+  [ 92] jmpifz [100] ............................ if ptog = "zoomdone" then
+  [ 95] pushcons 3 .............................. <"zoomed">
+  [ 97] setprop 440 ............................. ptog = "zoomed"
+  [100] jmp [135]
+  [103] getprop 440 ............................. <ptog>
+  [106] pushcons 5 .............................. <"zoom">
+  [108] eq ...................................... <ptog = "zoom">
+  [109] jmpifz [120] ............................ if ptog = "zoom" then / else
+  [112] pushcons 4 .............................. <"zoomdone">
+  [114] setprop 440 ............................. ptog = "zoomdone"
+  [117] jmp [135]
+  [120] getprop 440 ............................. <ptog>
+  [123] pushcons 3 .............................. <"zoomed">
+  [125] eq ...................................... <ptog = "zoomed">
+  [126] jmpifz [135] ............................ if ptog = "zoomed" then
+  [129] getparam 0 .............................. <me>
+  [131] pusharglistnoret 1 ...................... <me>
+  [133] localcall 3 ............................. hurt(me)
+  [135] getglobal 28 ............................ <goody>
+  [137] getobjprop 26 ........................... <goody.weapon>
+  [139] pushsymb 24 ............................. <#dragunov>
+  [141] eq ...................................... <goody.weapon = #dragunov>
+  [142] not ..................................... <not (goody.weapon = #dragunov)>
+  [143] getglobal 28 ............................ <goody>
+  [145] getobjprop 30 ........................... <goody.ptyping>
+  [147] pushint8 1 .............................. <1>
+  [149] eq ...................................... <goody.ptyping = 1>
+  [150] or ...................................... <not (goody.weapon = #dragunov) or (goody.ptyping = 1)>
+  [151] jmpifz [160] ............................ if not (goody.weapon = #dragunov) or (goody.ptyping = 1) then
+  [154] getparam 0 .............................. <me>
+  [156] pusharglistnoret 1 ...................... <me>
+  [158] localcall 3 ............................. hurt(me)
+  [160] ret
+end
+
+on hit me
+  [  0] ret
+end
+
+on hurt me
+  [  0] getglobal 28 ............................ <goody>
+  [  2] getchainedprop 57 ....................... <goody.weaponry>
+  [  4] pushint8 1 .............................. <1>
+  [  6] setobjprop 382 .......................... goody.weaponry.zoomonce = 1
+  [  9] getglobal 68 ............................ <gmem>
+  [ 11] pushsymb 69 ............................. <#camera>
+  [ 13] pushint8 1 .............................. <1>
+  [ 15] pusharglist 3 ........................... <gmem, #camera, 1>
+  [ 17] objcall 77 .............................. <gmem.camera[1]>
+  [ 19] pushsymb 76 ............................. <#overlay>
+  [ 21] pushint8 1 .............................. <1>
+  [ 23] pusharglist 3 ........................... <gmem.camera[1], #overlay, 1>
+  [ 25] objcall 77 .............................. <gmem.camera[1].overlay[1]>
+  [ 27] getglobal 68 ............................ <gmem>
+  [ 29] pushcons 6 .............................. <"UI">
+  [ 31] pusharglist 2 ........................... <gmem, "UI">
+  [ 33] objcall 93 .............................. <gmem.texture("UI")>
+  [ 35] setobjprop 633 .......................... gmem.camera[1].overlay[1].source = gmem.texture("UI")
+  [ 38] pushcons 6 .............................. <"UI">
+  [ 40] pusharglistnoret 1 ...................... <"UI">
+  [ 42] extcall 65 .............................. texy("UI")
+  [ 44] getglobal 28 ............................ <goody>
+  [ 46] getchainedprop 67 ....................... <goody.pmod>
+  [ 48] pushint8 50 ............................. <50>
+  [ 50] setobjprop 71 ........................... goody.pmod.fieldOfView = 50
+  [ 52] getglobal 28 ............................ <goody>
+  [ 54] pushfloat32 0.5 ......................... <0.5>
+  [ 59] setobjprop 31 ........................... goody.pmousedelta = 0.5
+  [ 61] getmovieprop 53 ......................... <the actorList>
+  [ 63] getparam 0 .............................. <me>
+  [ 65] pusharglistnoret 2 ...................... <the actorList, me>
+  [ 67] objcall 155 ............................. (the actorList).deleteOne(me)
+  [ 69] pusharglist 0 ........................... <>
+  [ 71] extcall 179 ............................. <VOID>
+  [ 73] setparam 0 .............................. me = VOID
+  [ 75] ret
+end

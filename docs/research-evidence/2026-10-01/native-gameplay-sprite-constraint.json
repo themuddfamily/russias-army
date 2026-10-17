@@ -1,0 +1,561 @@
+{
+  "schemaVersion": 1,
+  "status": "decoded-authored-sprite-geometry-not-native-camera-proof",
+  "passive": true,
+  "originalRuntimeExecuted": false,
+  "decoder": {
+    "path": "scripts/research/decode-original-result-score.py",
+    "bytes": 6978,
+    "sha256": "5258104a8993072dc17e82bd4135bdde1a5eb975b2ea4704073e903814dc4941"
+  },
+  "decoderCommand": "python scripts/research/decode-original-result-score.py > /tmp/original-score-decoded.json",
+  "formatReferences": [
+    "https://github.com/scummvm/scummvm/blob/master/engines/director/score.cpp",
+    "https://github.com/scummvm/scummvm/blob/master/engines/director/frame.cpp",
+    "https://github.com/scummvm/scummvm/blob/master/engines/director/cast.cpp"
+  ],
+  "editions": {
+    "woodland": {
+      "stageConfig": {
+        "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/chunks/DRCF-6552.json",
+        "bytes": 633,
+        "sha256": "680210b32e50cfbe0d7adc199752c8ddd29ee967de56f0b10ed96ffeff8386a1"
+      },
+      "storedStageRect": [
+        0,
+        0,
+        800,
+        600
+      ],
+      "scoreSource": {
+        "path": "docs/research-evidence/2026-09-30/director-extraction/woodland/06557-VWSC.bin",
+        "bytes": 1036,
+        "sha256": "0153fb10114c9f79485156adf78af2bf66179c483291aac4f1cc231d3851ad78"
+      },
+      "scoreHeaderOffset": 200,
+      "spriteChannelVirtualOffset": 288,
+      "spriteRecordFieldOffsets": {
+        "locY": 12,
+        "locX": 14,
+        "height": 16,
+        "width": 18
+      },
+      "gameplayFrames": [
+        {
+          "frame": 3,
+          "frameRangeExclusive": [
+            398,
+            484
+          ],
+          "patches": [
+            {
+              "sourceRangeExclusive": [
+                404,
+                460
+              ],
+              "channelOffset": 288
+            },
+            {
+              "sourceRangeExclusive": [
+                464,
+                476
+              ],
+              "channelOffset": 346
+            },
+            {
+              "sourceRangeExclusive": [
+                480,
+                484
+              ],
+              "channelOffset": 360
+            }
+          ],
+          "sprites": [
+            {
+              "channel": 1,
+              "rawHex": "1080ff00000300030000000f012c01900258032000000100000000000000000000000000000000000000000000000000",
+              "spriteType": 16,
+              "inkData": 128,
+              "castLib": 3,
+              "castMember": 3,
+              "detailsIndex": 15,
+              "loc": [
+                400,
+                300
+              ],
+              "size": [
+                800,
+                600
+              ]
+            },
+            {
+              "channel": 2,
+              "rawHex": "000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000",
+              "spriteType": 0,
+              "inkData": 0,
+              "castLib": 0,
+              "castMember": 0,
+              "detailsIndex": 0,
+              "loc": [
+                0,
+                0
+              ],
+              "size": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "frame": 4,
+          "frameRangeExclusive": [
+            484,
+            492
+          ],
+          "patches": [
+            {
+              "sourceRangeExclusive": [
+                490,
+                492
+              ],
+              "channelOffset": 310
+            }
+          ],
+          "sprites": [
+            {
+              "channel": 1,
+              "rawHex": "1080ff00000300030000000f012c01900258032000008100000000000000000000000000000000000000000000000000",
+              "spriteType": 16,
+              "inkData": 128,
+              "castLib": 3,
+              "castMember": 3,
+              "detailsIndex": 15,
+              "loc": [
+                400,
+                300
+              ],
+              "size": [
+                800,
+                600
+              ]
+            },
+            {
+              "channel": 2,
+              "rawHex": "000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000",
+              "spriteType": 0,
+              "inkData": 0,
+              "castLib": 0,
+              "castMember": 0,
+              "detailsIndex": 0,
+              "loc": [
+                0,
+                0
+              ],
+              "size": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "frame": 5,
+          "frameRangeExclusive": [
+            492,
+            508
+          ],
+          "patches": [
+            {
+              "sourceRangeExclusive": [
+                498,
+                502
+              ],
+              "channelOffset": 0
+            },
+            {
+              "sourceRangeExclusive": [
+                506,
+                508
+              ],
+              "channelOffset": 6
+            }
+          ],
+          "sprites": [
+            {
+              "channel": 1,
+              "rawHex": "1080ff00000300030000000f012c01900258032000008100000000000000000000000000000000000000000000000000",
+              "spriteType": 16,
+              "inkData": 128,
+              "castLib": 3,
+              "castMember": 3,
+              "detailsIndex": 15,
+              "loc": [
+                400,
+                300
+              ],
+              "size": [
+                800,
+                600
+              ]
+            },
+            {
+              "channel": 2,
+              "rawHex": "000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000",
+              "spriteType": 0,
+              "inkData": 0,
+              "castLib": 0,
+              "castMember": 0,
+              "detailsIndex": 0,
+              "loc": [
+                0,
+                0
+              ],
+              "size": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "levelCastSource": {
+        "path": "docs/research-evidence/2026-09-30/director-extraction/woodland/06225-CASt.bin",
+        "bytes": 497,
+        "sha256": "611cfa0831cd8a7cca2fa2ad71c8b37034bdb18d3d971ad74fbc342ac304b160"
+      },
+      "levelCastInfo": {
+        "xtraSymbol": "shockwave3d",
+        "xtraRect": [
+          -160,
+          -120,
+          160,
+          120
+        ],
+        "rectSourceRangeExclusive": [
+          126,
+          142
+        ],
+        "opaquePayloadBytes": 336
+      },
+      "levelCastRectRawHex": "ffffff88ffffff6000000078000000a0",
+      "levelCastBoundsDimensions": [
+        320,
+        240
+      ],
+      "expectedStageRectFromCenteredCastScaling": [
+        0,
+        0,
+        800,
+        600
+      ],
+      "sourceScripts": [
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/BehaviorScript 32 - explore.ls",
+          "bytes": 3277,
+          "sha256": "af3c03894bd87347219cf1c2d049b53d66e6e7c6ebc4c4f8b7859201a128bff0"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 5 - goody.ls",
+          "bytes": 9021,
+          "sha256": "6d1b8229158c635eaa6a418d762866a91f27abf78757e812b6e5c7f0670b1297"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 6 - weaponry.ls",
+          "bytes": 10541,
+          "sha256": "082d419d7e9a973651e5144a6c780437906a62e8dcc35ef3663fd5e206b9b216"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 7 - sniper.ls",
+          "bytes": 1157,
+          "sha256": "711256e34a960b958303efe44d1549134c308bf8d441d24c03b37e9e84fe3e7a"
+        }
+      ]
+    },
+    "barrack": {
+      "stageConfig": {
+        "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/chunks/DRCF-5134.json",
+        "bytes": 631,
+        "sha256": "a9965f4edb03945c8873d7bbbbb7a6391bee1d04b6b7d9d89fe4179c070e55e8"
+      },
+      "storedStageRect": [
+        0,
+        0,
+        800,
+        600
+      ],
+      "scoreSource": {
+        "path": "docs/research-evidence/2026-09-30/director-extraction/barrack/05139-VWSC.bin",
+        "bytes": 1052,
+        "sha256": "5cddfa210796c491ecbe4da1818052f6defdd190cf09da036ae602edfba5e4c4"
+      },
+      "scoreHeaderOffset": 216,
+      "spriteChannelVirtualOffset": 288,
+      "spriteRecordFieldOffsets": {
+        "locY": 12,
+        "locX": 14,
+        "height": 16,
+        "width": 18
+      },
+      "gameplayFrames": [
+        {
+          "frame": 3,
+          "frameRangeExclusive": [
+            414,
+            500
+          ],
+          "patches": [
+            {
+              "sourceRangeExclusive": [
+                420,
+                476
+              ],
+              "channelOffset": 288
+            },
+            {
+              "sourceRangeExclusive": [
+                480,
+                492
+              ],
+              "channelOffset": 346
+            },
+            {
+              "sourceRangeExclusive": [
+                496,
+                500
+              ],
+              "channelOffset": 360
+            }
+          ],
+          "sprites": [
+            {
+              "channel": 1,
+              "rawHex": "1080ff00000300040000000f012c01900258032000000100000000000000000000000000000000000000000000000000",
+              "spriteType": 16,
+              "inkData": 128,
+              "castLib": 3,
+              "castMember": 4,
+              "detailsIndex": 15,
+              "loc": [
+                400,
+                300
+              ],
+              "size": [
+                800,
+                600
+              ]
+            },
+            {
+              "channel": 2,
+              "rawHex": "000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000",
+              "spriteType": 0,
+              "inkData": 0,
+              "castLib": 0,
+              "castMember": 0,
+              "detailsIndex": 0,
+              "loc": [
+                0,
+                0
+              ],
+              "size": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "frame": 4,
+          "frameRangeExclusive": [
+            500,
+            508
+          ],
+          "patches": [
+            {
+              "sourceRangeExclusive": [
+                506,
+                508
+              ],
+              "channelOffset": 310
+            }
+          ],
+          "sprites": [
+            {
+              "channel": 1,
+              "rawHex": "1080ff00000300040000000f012c01900258032000008100000000000000000000000000000000000000000000000000",
+              "spriteType": 16,
+              "inkData": 128,
+              "castLib": 3,
+              "castMember": 4,
+              "detailsIndex": 15,
+              "loc": [
+                400,
+                300
+              ],
+              "size": [
+                800,
+                600
+              ]
+            },
+            {
+              "channel": 2,
+              "rawHex": "000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000",
+              "spriteType": 0,
+              "inkData": 0,
+              "castLib": 0,
+              "castMember": 0,
+              "detailsIndex": 0,
+              "loc": [
+                0,
+                0
+              ],
+              "size": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "frame": 5,
+          "frameRangeExclusive": [
+            508,
+            524
+          ],
+          "patches": [
+            {
+              "sourceRangeExclusive": [
+                514,
+                518
+              ],
+              "channelOffset": 0
+            },
+            {
+              "sourceRangeExclusive": [
+                522,
+                524
+              ],
+              "channelOffset": 6
+            }
+          ],
+          "sprites": [
+            {
+              "channel": 1,
+              "rawHex": "1080ff00000300040000000f012c01900258032000008100000000000000000000000000000000000000000000000000",
+              "spriteType": 16,
+              "inkData": 128,
+              "castLib": 3,
+              "castMember": 4,
+              "detailsIndex": 15,
+              "loc": [
+                400,
+                300
+              ],
+              "size": [
+                800,
+                600
+              ]
+            },
+            {
+              "channel": 2,
+              "rawHex": "000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000",
+              "spriteType": 0,
+              "inkData": 0,
+              "castLib": 0,
+              "castMember": 0,
+              "detailsIndex": 0,
+              "loc": [
+                0,
+                0
+              ],
+              "size": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "levelCastSource": {
+        "path": "docs/research-evidence/2026-09-30/director-extraction/barrack/03895-CASt.bin",
+        "bytes": 497,
+        "sha256": "549be3cfcecf6fe9ab5fbe7e5f7fd3407c3c3292284f6526357f6d9abe89448f"
+      },
+      "levelCastInfo": {
+        "xtraSymbol": "shockwave3d",
+        "xtraRect": [
+          -160,
+          -120,
+          160,
+          120
+        ],
+        "rectSourceRangeExclusive": [
+          126,
+          142
+        ],
+        "opaquePayloadBytes": 336
+      },
+      "levelCastRectRawHex": "ffffff88ffffff6000000078000000a0",
+      "levelCastBoundsDimensions": [
+        320,
+        240
+      ],
+      "expectedStageRectFromCenteredCastScaling": [
+        0,
+        0,
+        800,
+        600
+      ],
+      "sourceScripts": [
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/BehaviorScript 32 - explore.ls",
+          "bytes": 3171,
+          "sha256": "3f351df99fc63409d6b6f43addd56e2c71d55ed33938ff437485dadad4d5ed63"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 5 - goody.ls",
+          "bytes": 8677,
+          "sha256": "e5e67dcd378dfce9c33f0d598a85857dfe026c16eaa8f509c3f153007dc7c9f8"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 6 - weaponry.ls",
+          "bytes": 10864,
+          "sha256": "f585b9f0bf0fce613229f631af4697871218165b28098780e8f86064418373ef"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 7 - sniper.ls",
+          "bytes": 1116,
+          "sha256": "19b8d36635595a5049f0935e87eb0c4e2627236217a7246cb3113cda91a20a8b"
+        }
+      ]
+    }
+  },
+  "confirmedScriptConstraints": {
+    "normalVerticalFovDegrees": 50,
+    "perspective": true,
+    "scopeOnlyWeapon": "dragunov",
+    "scopeInitialFovDegrees": 35,
+    "scopeDecrementPerActorCallback": 0.75,
+    "scopeStopCondition": "decrement while inc > 8",
+    "scopeExitFovDegrees": 50,
+    "sourceEyeOffsetAboveSphereCenterUnits": 60,
+    "allRecoveredSpawnRotationYDegrees": 0,
+    "cameraRotationAssignment": "rot + vector(90,0,0)",
+    "rollQualification": "goody modifies pitch X and heading Z; no assignment to rot.y was found in recovered local camera control. Director Euler interpretation and video post-processing remain separate."
+  },
+  "captureQualification": {
+    "nativeStoredSpriteAspect": 1.3333333333333333,
+    "knownJpegFrameSize": [
+      1280,
+      574
+    ],
+    "conditionalStretchIfFullSpriteAndFullCameraHeight": 1.6724738675958188,
+    "limits": [
+      "Stored score and centered cast bounds do not establish historical camera.rect or native import interpretation.",
+      "No recovered embedding HTML, publishing stretch setting, video pixel aspect or recording crop establishes the actual capture transform.",
+      "Conditional stretch assumes the full camera fills the full sprite and the complete sprite fills the reference; it is not a fitted or accepted historical value.",
+      "No primary evidence independently fixes the recording principal point.",
+      "AK-selected non-scope footage supports normal FOV50; image crop can still change the apparent vertical field."
+    ]
+  }
+}

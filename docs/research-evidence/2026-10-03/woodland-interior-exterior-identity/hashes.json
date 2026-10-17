@@ -1,0 +1,16 @@
+{
+  "public/assets/original-scenes/woodland/scene.json": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107",
+  "public/assets/original-scenes/woodland/textures/haddingtoncafe.png": "4320bad3fe132f09c21f072c4ea5df2c794202cd14236dc4a3ff610acab48eac",
+  "docs/research-evidence/2026-10-03/woodland-interior-endpoints/frame-05.png": "ca8962ab6ddf8f3e49edc9a804f4849eb11c15514101f0f8a201c0eab2ccbea9",
+  "docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/REPORT.md": "c34f7540fa5f4051d5cac71064b9a7786b902dbfd9ac6cecbcc6f5b388573bde",
+  "docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/analysis.log": "0983542e7473ced40d486171a7c0b4d61ebcea01434b7d32b9c6baca85294be4",
+  "docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/analyze.py": "f314d3a1bce147193f467bb17e792fb626ad6facf73eac14814ed9b294d08069",
+  "docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/atlas-panel-inspection.png": "2b9b2cd56e233ca1f6a31d73c10d28af9a419b9f45b3e41fbbfc707623151110",
+  "docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/cafe-inspection.png": "8d584fcdd45e3cbba51fc86ebaa5d1368aa749b708cbe41e37b49606e75c2083",
+  "docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/derivatives.log": "b8777d0ceb0b3c53b4f7daf821ee86f70de43931b40e59c6e0db881c1cd1d544",
+  "docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/derivatives.py": "7facadf093de2463d5f81ca8ae1655ace8b75cd08d1b02a855d850fd549cb94f",
+  "docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/geometry.json": "108265ab67bc5e89ed362cd577d8329d8d1ac365c17b90167ef325e4250aa084",
+  "docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/panel-uv.svg": "927b1f8e6cdf3ba3be0865d804cfbdf08ee71b2530098544ab812727a68e99dd",
+  "docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/provenance.json": "b09b6096f52d6d2824637ae5e1e9b9cc9bce4e1c56f063a8e6a663f54ac23a39",
+  "docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/source-plan.svg": "48c447361538f2fab332389053bb2b3ee157e17b05ea374f7b2d09229ef0680a"
+}

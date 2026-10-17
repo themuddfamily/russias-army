@@ -1,0 +1,44 @@
+{
+  "parts": [
+    {
+      "resource": "GI",
+      "part": 0,
+      "vertices": 742,
+      "faces": 832,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    }
+  ],
+  "validation_failures": [],
+  "world_bounds": [
+    {
+      "model": "GI",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -462.5562438964844,
+        -431.7382049560547,
+        -1118.869384765625
+      ],
+      "original_z_up_max": [
+        728.2566833496094,
+        287.4818572998047,
+        1089.677001953125
+      ]
+    }
+  ],
+  "declared_original_vertices": 742,
+  "declared_original_faces": 832,
+  "parse_errors": [
+    "[W3D-PARSER] Block 13 parse error: W3dBlockReader: read_ifx_string len=58112 at 107, data_len=1383"
+  ],
+  "skeletons_decoded": 0,
+  "motions_decoded": 1,
+  "synthetic_defaultmodel_excluded": true
+}

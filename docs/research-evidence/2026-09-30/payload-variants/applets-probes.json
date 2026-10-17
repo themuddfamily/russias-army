@@ -1,0 +1,46 @@
+[
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=www.gamevial.com%2Fapplets%2Frussiasarmy.dcr&output=json&collapse=digest",
+    "status": 200,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=www.gamevial.com%2Fapplets%2Frussiasarmy.dcr&output=json&collapse=digest",
+    "type": "application/json",
+    "bytes": 617,
+    "magic": "5b5b2275726c6b6579222c22",
+    "sha256": "16c41d0b3cfebd1296c0908d589b4573cfb4b51d9270ac3d83db3a9da63c8293",
+    "file": "applets-probe-0.bin",
+    "body": "[[\"urlkey\",\"timestamp\",\"original\",\"mimetype\",\"statuscode\",\"digest\",\"length\"],\n[\"com,gamevial)/applets/russiasarmy.dcr\",\"20110415002646\",\"http://gamevial.com//applets/russiasarmy.dcr\",\"application/x-director\",\"200\",\"FHCLS4YY57Y2I326RWJGPDA3I4UVQ2IV\",\"2624671\"],\n[\"com,gamevial)/applets/russiasarmy.dcr\",\"20150819182509\",\"http://www.gamevial.com//applets/russiasarmy.dcr\",\"application/x-director\",\"200\",\"ZZ7FIPNUZMEYUJVM6NRZ7WMWQ2IH5TM3\",\"2621746\"],\n[\"com,gamevial)/applets/russiasarmy.dcr\",\"20210102102614\",\"http://www.gamevial.com/applets/russiasarmy.dcr\",\"text/html\",\"404\",\"UD5RPW7BPDB6M7I7AF25ACZE6MQVBORE\",\"626\"]]\n"
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=www.gamevial.com%2Fapplets%2Frussiasarmywood.dcr&output=json&collapse=digest",
+    "status": 200,
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=www.gamevial.com%2Fapplets%2Frussiasarmywood.dcr&output=json&collapse=digest",
+    "type": "application/json",
+    "bytes": 273,
+    "magic": "5b5b2275726c6b6579222c22",
+    "sha256": "8c249b46757f42a74fc101133bd625066f9d6e44c476cdc93298324889dcbde2",
+    "file": "applets-probe-1.bin",
+    "body": "[[\"urlkey\",\"timestamp\",\"original\",\"mimetype\",\"statuscode\",\"digest\",\"length\"],\n[\"com,gamevial)/applets/russiasarmywood.dcr\",\"20150618115654\",\"http://www.gamevial.com//applets/russiasarmywood.dcr\",\"application/x-director\",\"200\",\"HWPBI4EXTB2AOAZ6LHISTCJDI4KXLBIJ\",\"3215484\"]]\n"
+  },
+  {
+    "url": "https://web.archive.org/web/20090419131948id_/http://www.gamevial.com/applets/russiasarmy.dcr",
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20110415002646id_/http://gamevial.com//applets/russiasarmy.dcr",
+    "type": "application/x-director",
+    "bytes": 2647169,
+    "magic": "58464952796428004d444746",
+    "sha256": "779c2420e2b41848749731762f4b64bb70e05c889bb23f8906563a661991b72a",
+    "file": "applets-probe-2.bin",
+    "body": null
+  },
+  {
+    "url": "https://web.archive.org/web/20090419131948id_/http://www.gamevial.com/applets/russiasarmywood.dcr",
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20150618115654id_/http://www.gamevial.com//applets/russiasarmywood.dcr",
+    "type": "application/x-director",
+    "bytes": 3235058,
+    "magic": "58464952ea5c31004d444746",
+    "sha256": "d42aaf3cd5c5bdb1decee1f8b48271c7590e49dee9e6d06a0f2954f8c486245c",
+    "file": "applets-probe-3.bin",
+    "body": null
+  }
+]

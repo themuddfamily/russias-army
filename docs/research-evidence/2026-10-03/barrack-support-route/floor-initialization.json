@@ -1,0 +1,11 @@
+{
+  "x": 48.6,
+  "z": 64.24,
+  "floorOnly": 6.834363963142922,
+  "localSupport": 10.292872186359105,
+  "matches": false,
+  "additionalQueries": 2,
+  "totalQueries": 2371,
+  "budget": 3000,
+  "decision": "No reverse replay: actual Game floor-only initialization does not agree with elevated outside support; use an actually connected approach rather than inventing a debug hook."
+}

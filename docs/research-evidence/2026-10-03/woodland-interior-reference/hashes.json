@@ -1,0 +1,21 @@
+{
+  "REPORT.md": "95974b592cc7ac904b710818320af4824eda5b4d6e8cadeee185b16739950162",
+  "approach-matcher-results.json": "42122bbda9dbf3f6a92bb439cdf8073b2f671b035d77348491c848b2566917ba",
+  "extraction-corrected.log": "6d58459133ba3f7216c87228f577830b59bca218e02694bcab32ac4a9a79305f",
+  "extraction.log": "7a5e0404de9cdca1e6fdb125aa3f9813c82fa4272d4e9feb473468ed0d37090b",
+  "frame-01.png": "0ce2e772ed51e069758ae482a204fde35f0f0d1f7f8089f71ad94d308344ce43",
+  "frame-02.png": "355a9cf0e4ee29fd4d972c88be596f11f8e02d6d5363add179d9ee1c0d08800f",
+  "frame-03.png": "a567ddd54bfd93678ab4721516feb0b3dafb22b3f6ac54942341becda231a0b5",
+  "frame-04.png": "ba88099167ebeb90c583251083cb979101d7bc7b5a9e93422a87dcefc1028c0a",
+  "frame-05.png": "770f3dc460e4f9a9f8336bdae277fb050951b617d3230c71c9d8fa4ba4d8b923",
+  "frame-06.png": "e5b960585b34990cbb4599f25f3112c141fb16fb2e4811dbc4fa5b224e45f973",
+  "interior-candidates.svg": "db55be4640359a612f79c4f964065448221e0cd407ba7078b0bd0453cba0d2ee",
+  "matcher.log": "e6606722f2ba4a2b73afe1cf777a9454a6ea1bf9c9fa5fe5f2b907eb449ecd5a",
+  "matcher.py": "e351d0567c95c6c050cbbcae954dbaaf7a2334ad56e2531b29fd4116885a99ac",
+  "prepare.log": "445cc18cff523a96e3710681c5ec94e3f7f76106919cc79cc40ceb7ea61fcc94",
+  "prepare.py": "e89fc01e605fda7182fcd11388214b4acfe186a9988ac48d6c372afecb1bd537",
+  "provenance.json": "eb20045a4dc36916c8c42b69d9a147f7bf07fe8c9cfa8f144c686a882441eeb0",
+  "six-frame-context.png": "23ca983524d1479b4c48c5734d0abb0a01beece52799cc203fda0771328b900f",
+  "source-node-inventory.json": "ebf25cc8c0848c91ab907aa78dbace00c4a9222b77b55b63c3fd7d07555588b7",
+  "woodland-22s-stonebarn-matches.json": "b92e84ac92dbc23079234c72c59355202bab137910d6eed29a5d96c136ad51f7"
+}

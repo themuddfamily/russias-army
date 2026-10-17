@@ -1,0 +1,55 @@
+[
+  {
+    "url": "http://www.gamevial.com/russiasarmy.dcr",
+    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  {
+    "url": "https://www.gamevial.com/russiasarmy.dcr",
+    "error": "HTTPSConnectionPool(host='www.gamevial.com', port=443): Max retries exceeded with url: /russiasarmy.dcr (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+  },
+  {
+    "url": "http://gamevial.com/russiasarmy.dcr",
+    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  {
+    "url": "https://gamevial.com/russiasarmy.dcr",
+    "error": "HTTPSConnectionPool(host='gamevial.com', port=443): Max retries exceeded with url: /russiasarmy.dcr (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=http%3A%2F%2Fgamevial.com%2Frussiasarmy.dcr&output=json",
+    "error": "HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=18)"
+  },
+  {
+    "url": "https://web.archive.org/web/20090419131948id_/http://www.gamevial.com:80/russiasarmy.dcr",
+    "status": 404,
+    "final_url": "https://web.archive.org/web/20100102011937id_/http://gamevial.com/russiasarmy.dcr",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 6336,
+    "magic": "3c21444f4354595045206874",
+    "sha256": "e33e4f8758b183c8c415febed829b63dd83acafb44942d86565dde5dfd347520",
+    "file": "probe-5.bin",
+    "preview": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.o"
+  },
+  {
+    "url": "https://web.archive.org/web/20100102004837id_/http://gamevial.com/russiasarmy.dcr",
+    "status": 404,
+    "final_url": "https://web.archive.org/web/20100102011937id_/http://gamevial.com/russiasarmy.dcr",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 6336,
+    "magic": "3c21444f4354595045206874",
+    "sha256": "e33e4f8758b183c8c415febed829b63dd83acafb44942d86565dde5dfd347520",
+    "file": "probe-6.bin",
+    "preview": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.o"
+  },
+  {
+    "url": "https://web.archive.org/web/20111103125603id_/https://www.gamevial.com/russiasarmy.dcr",
+    "status": 404,
+    "final_url": "https://web.archive.org/web/20100924125942id_/http://gamevial.com/russiasarmy.dcr",
+    "content_type": "text/html; charset=iso-8859-1",
+    "bytes": 409,
+    "magic": "3c21444f4354595045204854",
+    "sha256": "4908abe7beff954561b8ee02e58caced4519b2eb26f976e9d2b82eebbc26a62a",
+    "file": "probe-7.bin",
+    "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL /ru"
+  }
+]

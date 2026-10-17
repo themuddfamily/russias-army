@@ -1,0 +1,18 @@
+89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107  public/assets/original-scenes/woodland/scene.json
+56397c99ae1b8ebd935369ae3b1a519474802107943426292513dd1e86428e1d  shared/originalSceneGeometry.ts
+36429e7fc7d7b76408c6732c9a14fdafcdaef6741a19f6056bc0c12da203d923  docs/research-evidence/2026-09-30/ORIGINAL_PLAYER_NORMALIZATION.md
+6d1b8229158c635eaa6a418d762866a91f27abf78757e812b6e5c7f0670b1297  docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 5 - goody.ls
+9893637c8c044e1395d59bcf30f92bf73b1716c5aabeb2607e6292a32b21f860  docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/finite-visibility-region/hashes.sha256
+172e906e418525bb38f5a20c515e060625e2235ba4f2e1fb11a4fc0e91ba872c  docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/finite-visibility-region/region.json
+0e30ea55c0802c5c291c297bcd0e3d33972159170734059bdebdba6f687e750b  docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/finite-aperture-height/REPORT.md
+1982a8615994f1a49f0edeef2a3e61535459d93ece98d39a29c315447f9c1c21  docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/finite-aperture-height/analysis.log
+abb1372c8af8f93a6e50cc996eb43f07eaf4c6a160a94b5cc20ea845dff81133  docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/finite-aperture-height/analyze.py
+c45d083462b2ad6feed6f6783a14b2b2863d07580f339ebf402154da9c134ead  docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/finite-aperture-height/check-rays.ts
+789376f3f8baf27647706f74dc83b8cc8ab0d50942c82cfba865ae77f867fd74  docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/finite-aperture-height/ray-results.json
+aae083ca7f833bff29994f401ee213c76d515c98724f42311288cd18e9f71459  docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/finite-aperture-height/rays-command-missing.log
+066255e84c5bfdc660d78c6a36bb029ab125eba2957fa15c56b608b4cf37e161  docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/finite-aperture-height/rays.log
+19294ff2eebae47e39a76a32f3959e89da4138fe2d73cb32e9adc206d95c16c9  docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/finite-aperture-height/region.json
+b9ca43e5e92417607f37db883dff898fe77823d4a86bc9a047ad61b252726809  docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/finite-aperture-height/supported-witness-checks.json
+7bc97c6c3f622007b8b321b23660af9bd22381d0c14b02ee88b96722423f0be2  docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/finite-aperture-height/verification.log
+b91c8dae16e44b84e715bd6a0f14d3f87e1ff2f67ed1c3b3328582d6907ed5f5  docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/finite-aperture-height/verify-supported-witness.py
+229c56f5f5849e40d6c80dc384645505acd1f162e9fc040e425afe691c8ae039  docs/research-evidence/2026-10-03/woodland-interior-exterior-identity/finite-aperture-height/witness-float.json

@@ -1,0 +1,70 @@
+[
+  {
+    "output": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/temporal-candidate-inspection/atlas-support.png",
+    "outputSha256": "ab386387bcc9a677f106173bea44fbd14a40862b29eac1e2b38b3bf19bfd3ba7",
+    "source": "public/assets/original-scenes/woodland/textures/stonebarn.png",
+    "sourceSha256": "7ff83e28de923ebf82ec17cf57ac3ededf53136b9543960f362f3878551b3b86",
+    "pixelEdgeCropBox": [
+      50,
+      350,
+      130,
+      430
+    ],
+    "nativeSize": [
+      80,
+      80
+    ],
+    "interpolation": "none"
+  },
+  {
+    "output": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/temporal-candidate-inspection/reference15-roof.png",
+    "outputSha256": "dd7061c0463529c841aed9303b9e7d49bf2c7f1a7e04cef3a71733a61dba2ce7",
+    "source": "docs/research-evidence/2026-09-30/woodland-video-15s.jpg",
+    "sourceSha256": "eeae8794813fac85c57c32a9f6af9be859c668699c3f1ab42a731a988f717f3a",
+    "pixelEdgeCropBox": [
+      660,
+      155,
+      735,
+      225
+    ],
+    "nativeSize": [
+      75,
+      70
+    ],
+    "interpolation": "none"
+  },
+  {
+    "output": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/temporal-candidate-inspection/reference16-roof.png",
+    "outputSha256": "6dc8fb0d9363969e1bbbaf2ca91b00c0a14627d8aef5f914869b80a679ca43d6",
+    "source": "docs/research-evidence/2026-10-01/woodland-video-16s-camera-reference.png",
+    "sourceSha256": "71da5c673445b2bb45639a051b0f72cca44d2df6e7a6d7a0d1f586915b46d257",
+    "pixelEdgeCropBox": [
+      580,
+      90,
+      680,
+      180
+    ],
+    "nativeSize": [
+      100,
+      90
+    ],
+    "interpolation": "none"
+  },
+  {
+    "output": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/temporal-candidate-inspection/reference15-runnerup.png",
+    "outputSha256": "adc9024146583237a41b11610d830f7db466d404890a6efe604801686de9f705",
+    "source": "docs/research-evidence/2026-09-30/woodland-video-15s.jpg",
+    "sourceSha256": "eeae8794813fac85c57c32a9f6af9be859c668699c3f1ab42a731a988f717f3a",
+    "pixelEdgeCropBox": [
+      1220,
+      515,
+      1280,
+      574
+    ],
+    "nativeSize": [
+      60,
+      59
+    ],
+    "interpolation": "none"
+  }
+]

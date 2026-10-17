@@ -1,0 +1,16 @@
+{
+  "edition": "woodland",
+  "source_xmed_sha256": "884d37a314b1ae150be05c1f2a30fb7ef6e20b4c25e047022e5e51e0911f6e6e",
+  "source_ifx_version": 17,
+  "doors": [],
+  "raw_blocks": [],
+  "validation": {
+    "door_nodes": 0,
+    "motion_count": 0,
+    "binding_count": 0,
+    "key_count": 0,
+    "all_raw_modifiers_consumed_exactly": true,
+    "node_motion_track_names_match": true
+  },
+  "matrix_composition": "source base * sampled local TRS; supported by Intel IFX animation modifier input.Multiply(rootClearance); not VM-tested"
+}

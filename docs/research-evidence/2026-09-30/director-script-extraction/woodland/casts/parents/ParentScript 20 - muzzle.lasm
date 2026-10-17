@@ -1,0 +1,145 @@
+property pmod, pos, weap, bangtime
+global gmem, goody, baddies, gsmokes, gmpismods, gmspasmods, gmakmods, gmodinc
+
+on new me, who
+  [  0] getparam 1 .............................. <who>
+  [  2] getglobal 28 ............................ <goody>
+  [  4] getobjprop 57 ........................... <goody.weaponry>
+  [  6] eq ...................................... <who = goody.weaponry>
+  [  7] jmpifz [ 31] ............................ if who = goody.weaponry then / else
+  [ 10] getglobal 28 ............................ <goody>
+  [ 12] getobjprop 26 ........................... <goody.weapon>
+  [ 14] setprop 518 ............................. weap = goody.weapon
+  [ 17] pushsymb 429 ............................ <#both>
+  [ 20] setlocal 0 .............................. muzviz = #both
+  [ 22] getparam 1 .............................. <who>
+  [ 24] getobjprop 67 ........................... <who.pmod>
+  [ 26] setlocal 1 .............................. modo = who.pmod
+  [ 28] jmp [ 50]
+  [ 31] getparam 1 .............................. <who>
+  [ 33] getobjprop 26 ........................... <who.weapon>
+  [ 35] setprop 518 ............................. weap = who.weapon
+  [ 38] pushsymb 429 ............................ <#both>
+  [ 41] setlocal 0 .............................. muzviz = #both
+  [ 43] getparam 1 .............................. <who>
+  [ 45] getobjprop 454 .......................... <who.gunmod>
+  [ 48] setlocal 1 .............................. modo = who.gunmod
+  [ 50] pushcons 0 .............................. <"#">
+  [ 52] getprop 518 ............................. <weap>
+  [ 55] joinstr ................................. <"#" & weap>
+  [ 56] pushcons 1 .............................. <"muzzles">
+  [ 58] joinstr ................................. <"#" & weap & "muzzles">
+  [ 59] pusharglist 1 ........................... <"#" & weap & "muzzles">
+  [ 61] extcall 364 ............................. <value("#" & weap & "muzzles")>
+  [ 64] setlocal 2 .............................. vtype = value("#" & weap & "muzzles")
+  [ 66] getlocal 2 .............................. <vtype>
+  [ 68] pusharglist 1 ........................... <vtype>
+  [ 70] extcall 446 ............................. <recyclemodel(vtype)>
+  [ 73] setprop 67 .............................. pmod = recyclemodel(vtype)
+  [ 75] getprop 67 .............................. <pmod>
+  [ 77] pushzero ................................ <0>
+  [ 78] eq ...................................... <pmod = 0>
+  [ 79] jmpifz [117] ............................ if pmod = 0 then
+  [ 82] getglobal 184 ........................... <gmodinc>
+  [ 84] pushint8 1 .............................. <1>
+  [ 86] add ..................................... <gmodinc + 1>
+  [ 87] setglobal 184 ........................... gmodinc = gmodinc + 1
+  [ 89] getglobal 68 ............................ <gmem>
+  [ 91] pushcons 2 .............................. <"mf">
+  [ 93] getprop 518 ............................. <weap>
+  [ 96] joinstr ................................. <"mf" & weap>
+  [ 97] pusharglist 2 ........................... <gmem, "mf" & weap>
+  [ 99] objcall 188 ............................. <gmem.model("mf" & weap)>
+  [101] pushcons 2 .............................. <"mf">
+  [103] getprop 518 ............................. <weap>
+  [106] joinstr ................................. <"mf" & weap>
+  [107] getglobal 184 ........................... <gmodinc>
+  [109] joinstr ................................. <"mf" & weap & gmodinc>
+  [110] pusharglist 2 ........................... <gmem.model("mf" & weap), "mf" & weap & gmodinc>
+  [112] objcall 498 ............................. <gmem.model("mf" & weap).clone("mf" & weap & gmodinc)>
+  [115] setprop 67 .............................. pmod = gmem.model("mf" & weap).clone("mf" & weap & gmodinc)
+  [117] getprop 67 .............................. <pmod>
+  [119] pushcons 3 .............................. <"mfmachinegun">
+  [121] pusharglist 1 ........................... <"mfmachinegun">
+  [123] extcall 169 ............................. <shady("mfmachinegun")>
+  [125] setobjprop 193 .......................... pmod.shaderList = shady("mfmachinegun")
+  [127] getprop 67 .............................. <pmod>
+  [129] getchainedprop 194 ...................... <pmod.shader>
+  [131] getchainedprop 93 ....................... <pmod.shader.texture>
+  [133] pushint8 1 .............................. <1>
+  [135] setobjprop 66 ........................... pmod.shader.texture.nearFiltering = 1
+  [137] getprop 67 .............................. <pmod>
+  [139] getchainedprop 194 ...................... <pmod.shader>
+  [141] getchainedprop 93 ....................... <pmod.shader.texture>
+  [143] pushsymb 236 ............................ <#rgba8888>
+  [145] setobjprop 237 .......................... pmod.shader.texture.renderFormat = #rgba8888
+  [147] getprop 67 .............................. <pmod>
+  [149] getchainedprop 194 ...................... <pmod.shader>
+  [151] pushint8 100 ............................ <100>
+  [153] setobjprop 78 ........................... pmod.shader.blend = 100
+  [155] getprop 67 .............................. <pmod>
+  [157] getlocal 0 .............................. <muzviz>
+  [159] setobjprop 430 .......................... pmod.visibility = muzviz
+  [162] getprop 67 .............................. <pmod>
+  [164] getchainedprop 74 ....................... <pmod.transform>
+  [166] getlocal 1 .............................. <modo>
+  [168] pusharglist 1 ........................... <modo>
+  [170] objcall 116 ............................. <modo.getWorldTransform()>
+  [172] getobjprop 42 ........................... <modo.getWorldTransform().position>
+  [174] setobjprop 42 ........................... pmod.transform.position = modo.getWorldTransform().position
+  [176] getprop 67 .............................. <pmod>
+  [178] getchainedprop 74 ....................... <pmod.transform>
+  [180] getlocal 1 .............................. <modo>
+  [182] pusharglist 1 ........................... <modo>
+  [184] objcall 116 ............................. <modo.getWorldTransform()>
+  [186] getobjprop 119 .......................... <modo.getWorldTransform().rotation>
+  [188] setobjprop 119 .......................... pmod.transform.rotation = modo.getWorldTransform().rotation
+  [190] pushint8 1 .............................. <1>
+  [192] setprop 514 ............................. bangtime = 1
+  [195] getprop 67 .............................. <pmod>
+  [197] getglobal 408 ........................... <gsmokes>
+  [200] setobjprop 387 .......................... pmod.parent = gsmokes
+  [203] getmovieprop 53 ......................... <the actorList>
+  [205] getparam 0 .............................. <me>
+  [207] pusharglistnoret 2 ...................... <the actorList, me>
+  [209] objcall 55 .............................. (the actorList).add(me)
+  [211] getparam 0 .............................. <me>
+  [213] pusharglistnoret 1 ...................... <me>
+  [215] extcall 173 ............................. return me
+  [217] ret
+end
+
+on stepFrame me
+  [  0] getprop 67 .............................. <pmod>
+  [  2] pusharglistnoret 1 ...................... <pmod>
+  [  4] objcall 413 ............................. pmod.addToWorld()
+  [  7] getprop 514 ............................. <bangtime>
+  [ 10] pushzero ................................ <0>
+  [ 11] eq ...................................... <bangtime = 0>
+  [ 12] jmpifz [ 48] ............................ if bangtime = 0 then
+  [ 15] pushcons 0 .............................. <"#">
+  [ 17] getprop 518 ............................. <weap>
+  [ 20] joinstr ................................. <"#" & weap>
+  [ 21] pushcons 1 .............................. <"muzzles">
+  [ 23] joinstr ................................. <"#" & weap & "muzzles">
+  [ 24] pusharglist 1 ........................... <"#" & weap & "muzzles">
+  [ 26] extcall 364 ............................. <value("#" & weap & "muzzles")>
+  [ 29] setlocal 0 .............................. vtype = value("#" & weap & "muzzles")
+  [ 31] getlocal 0 .............................. <vtype>
+  [ 33] getprop 67 .............................. <pmod>
+  [ 35] pusharglistnoret 2 ...................... <vtype, pmod>
+  [ 37] extcall 469 ............................. storemodel(vtype, pmod)
+  [ 40] getmovieprop 53 ......................... <the actorList>
+  [ 42] getparam 0 .............................. <me>
+  [ 44] pusharglistnoret 2 ...................... <the actorList, me>
+  [ 46] objcall 155 ............................. (the actorList).deleteOne(me)
+  [ 48] getprop 514 ............................. <bangtime>
+  [ 51] pushint8 1 .............................. <1>
+  [ 53] sub ..................................... <bangtime - 1>
+  [ 54] setprop 514 ............................. bangtime = bangtime - 1
+  [ 57] ret
+end
+
+on hurt me
+  [  0] ret
+end

@@ -1,0 +1,1029 @@
+{
+  "schema": "barrack-stair-gap-inventory/v1",
+  "requirement": "V10",
+  "acceptance": "open",
+  "productionChanged": false,
+  "scope": "Recovered fixed-scene transformed triangles, horizontal components, restricted axis-aligned step necessary conditions, one strip counterexample, two explicit shared-physics candidate replays. No historical/native equivalence or arbitrary stair/gap completeness.",
+  "sceneNodes": 95,
+  "sceneMeshes": 93,
+  "transformedFaces": 23833,
+  "horizontalFaces": 1269,
+  "horizontalComponents": 383,
+  "analyticalPairs": 73153,
+  "candidatePairs": [
+    {
+      "a": 33,
+      "b": 35,
+      "rise": 0.15127994312959459,
+      "axis": "z",
+      "overlap": 2.2459274522373853,
+      "separation": 1.0936322780707997e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 33,
+      "b": 36,
+      "rise": 0.4771139993106619,
+      "axis": "z",
+      "overlap": 2.688129887899148,
+      "separation": 1.1750189798931387e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 51,
+      "b": 59,
+      "rise": 0.15128009751263782,
+      "axis": "x",
+      "overlap": 2.2459271490666666,
+      "separation": 1.0936325089971888e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 52,
+      "b": 60,
+      "rise": 0.15128009751263782,
+      "axis": "z",
+      "overlap": 2.2459270718751183,
+      "separation": 1.0936324201793468e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 80,
+      "b": 118,
+      "rise": 0.07124345128676346,
+      "axis": "x",
+      "overlap": 1.2467678297036855,
+      "separation": 3.1764547259172105e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "allFacesUpward": true,
+      "allFacesStrictlyHorizontalUpward": true
+    },
+    {
+      "a": 81,
+      "b": 99,
+      "rise": 0.3562197265625002,
+      "axis": "x",
+      "overlap": 5.058319707244472,
+      "separation": 4.466903511968212e-06,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 81,
+      "b": 102,
+      "rise": 0.3562197265625002,
+      "axis": "x",
+      "overlap": 5.058314766987117,
+      "separation": 4.7335341690768473e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 82,
+      "b": 97,
+      "rise": 0.4274634866153493,
+      "axis": "x",
+      "overlap": 5.806377714269303,
+      "separation": 5.076096618594761e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "allFacesUpward": true,
+      "allFacesStrictlyHorizontalUpward": true
+    },
+    {
+      "a": 85,
+      "b": 99,
+      "rise": 0.3562197265625002,
+      "axis": "x",
+      "overlap": 5.058319707244472,
+      "separation": 4.7335385033875355e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 85,
+      "b": 119,
+      "rise": 0.4630849034926463,
+      "axis": "x",
+      "overlap": 1.2467678297036855,
+      "separation": 3.176450462660796e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 87,
+      "b": 171,
+      "rise": 0.21373158892463273,
+      "axis": "x",
+      "overlap": 2.1373183344617956,
+      "separation": 1.6505103417330247e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 88,
+      "b": 101,
+      "rise": 0.42746317784926546,
+      "axis": "x",
+      "overlap": 5.093938589258106,
+      "separation": 6.308510069885642e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 88,
+      "b": 111,
+      "rise": 0.39184145220588285,
+      "axis": "x",
+      "overlap": 1.2823902040208406,
+      "separation": 3.176453002851076e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 91,
+      "b": 135,
+      "rise": 0.1424878288717828,
+      "axis": "x",
+      "overlap": 1.4961174359647487,
+      "separation": 2.896174748912017e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 94,
+      "b": 134,
+      "rise": 0.21373158892463273,
+      "axis": "x",
+      "overlap": 7.302501667187435,
+      "separation": 2.896174748912017e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "allFacesUpward": true,
+      "allFacesStrictlyHorizontalUpward": true
+    },
+    {
+      "a": 107,
+      "b": 167,
+      "rise": 0.2137315889246323,
+      "axis": "z",
+      "overlap": 1.4605006568067331,
+      "separation": 2.266717005205976e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 109,
+      "b": 135,
+      "rise": 0.4274634866153493,
+      "axis": "x",
+      "overlap": 1.4961174359647487,
+      "separation": 3.5501528827808215e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 110,
+      "b": 168,
+      "rise": 0.3562194177964155,
+      "axis": "z",
+      "overlap": 1.9948289866728217,
+      "separation": 3.0876608470009614e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 115,
+      "b": 167,
+      "rise": 0.3562194177964155,
+      "axis": "z",
+      "overlap": 1.9948289866727809,
+      "separation": 2.51585009714006e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 116,
+      "b": 166,
+      "rise": 0.21373158892463273,
+      "axis": "x",
+      "overlap": 1.6386092881378573,
+      "separation": 1.6505104127872983e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 117,
+      "b": 168,
+      "rise": 0.2137315889246323,
+      "axis": "z",
+      "overlap": 1.4605006568067456,
+      "separation": 1.4948017756921672e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 121,
+      "b": 171,
+      "rise": 0.3562197265625002,
+      "axis": "x",
+      "overlap": 2.1373183593750014,
+      "separation": 1.8685030056531104e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 123,
+      "b": 166,
+      "rise": 0.3562197265625002,
+      "axis": "x",
+      "overlap": 2.1373183593750014,
+      "separation": 1.868503076707384e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 135,
+      "b": 169,
+      "rise": 0.10686579446231637,
+      "axis": "x",
+      "overlap": 1.4961174359647487,
+      "separation": 3.30101215695322e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 196,
+      "b": 210,
+      "rise": 0.317075906192553,
+      "axis": "x",
+      "overlap": 4.031392995656688,
+      "separation": 3.827951786661288e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 196,
+      "b": 211,
+      "rise": 0.317075906192553,
+      "axis": "x",
+      "overlap": 4.031392994336699,
+      "separation": 3.8279518577155613e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 198,
+      "b": 209,
+      "rise": 0.31707575180951153,
+      "axis": "z",
+      "overlap": 4.016290937694691,
+      "separation": 1.616538988002958e-06,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -0.9999999999999996
+        ],
+        [
+          -0.9999999999999998,
+          -0.9999999999999998
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 198,
+      "b": 212,
+      "rise": 0.31707582900103404,
+      "axis": "z",
+      "overlap": 4.016300816889526,
+      "separation": 3.827953776180948e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -0.9999999999999996
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 201,
+      "b": 210,
+      "rise": 0.317075906192553,
+      "axis": "x",
+      "overlap": 4.031392995656688,
+      "separation": 3.827951786661288e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 202,
+      "b": 211,
+      "rise": 0.317075906192553,
+      "axis": "x",
+      "overlap": 4.031392994336699,
+      "separation": 3.827951786661288e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 203,
+      "b": 209,
+      "rise": 0.31707582900103404,
+      "axis": "z",
+      "overlap": 4.016290937694691,
+      "separation": 1.0003266837088631e-06,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -0.9999999999999998,
+          -0.9999999999999998
+        ],
+        [
+          -0.9999999999999998,
+          -0.9999999999999998
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 272,
+      "b": 285,
+      "rise": 0.23420784059226918,
+      "axis": "z",
+      "overlap": 3.1201438879901957,
+      "separation": 5.020046955905855e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -0.9999999999999992,
+          -0.9999999999999992
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 274,
+      "b": 283,
+      "rise": 0.16490137683096862,
+      "axis": "x",
+      "overlap": 3.376170288351531,
+      "separation": 1.0392550322535499e-06,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -0.9999999999999991
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 277,
+      "b": 301,
+      "rise": 0.24615722551813235,
+      "axis": "x",
+      "overlap": 1.250905839886407,
+      "separation": 5.738345976169512e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0.9999999999999991,
+          0.9999999999999991
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    },
+    {
+      "a": 291,
+      "b": 301,
+      "rise": 0.09081522962742916,
+      "axis": "x",
+      "overlap": 1.250905839886407,
+      "separation": 8.78802019599334e-07,
+      "scope": "bounding box necessary condition only; not established stair",
+      "normalYRanges": [
+        [
+          -0.9999999999999992,
+          0.9517140867060174
+        ],
+        [
+          0.9999999999999991,
+          0.9999999999999991
+        ]
+      ],
+      "allFacesUpward": false,
+      "allFacesStrictlyHorizontalUpward": false
+    }
+  ],
+  "undersideReplay": [
+    {
+      "status": "crossed",
+      "jumps": 0,
+      "intersections": 0,
+      "initialSupport": -9.557838301317394e-08,
+      "jumpControlEnabled": false,
+      "callbacks": 12,
+      "finalPosition": {
+        "x": -10.500172996328411,
+        "y": 0.5261343598690179,
+        "z": 2.7088526062874982
+      }
+    },
+    {
+      "status": "crossed",
+      "jumps": 1,
+      "intersections": 0,
+      "initialSupport": -9.557838301317394e-08,
+      "jumpControlEnabled": true,
+      "callbacks": 12,
+      "finalPosition": {
+        "x": -10.500190349316048,
+        "y": 2.088659512442573,
+        "z": 2.755685560717352
+      }
+    }
+  ],
+  "sillReplay": [
+    {
+      "status": "blocked",
+      "jumps": 0,
+      "intersections": 0,
+      "initialSupport": 3.2295981445312503,
+      "jumpControlEnabled": false,
+      "callbacks": 110,
+      "finalPosition": {
+        "x": 3.6771066976979054,
+        "y": 3.7557339293240912,
+        "z": 7.4936674151792735
+      }
+    },
+    {
+      "status": "blocked",
+      "jumps": 5,
+      "intersections": 0,
+      "initialSupport": 3.2295981445312503,
+      "jumpControlEnabled": true,
+      "callbacks": 110,
+      "finalPosition": {
+        "x": 4.1770293415602335,
+        "y": 5.771355721353964,
+        "z": 7.41717177582853
+      }
+    }
+  ],
+  "sillInteriorClearance": [
+    {
+      "x": 4.5,
+      "z": 7.5,
+      "support": 3.6570616311465995,
+      "contacts": [
+        {
+          "position": {
+            "x": 4.5,
+            "y": 4.162943984087776,
+            "z": 7.5
+          },
+          "fraction": 0,
+          "normal": {
+            "x": -0.999999999999996,
+            "y": 0,
+            "z": -8.742277420955975e-08
+          },
+          "penetrationDepth": 0.23686197189520614,
+          "gap": -0.23686197189520614,
+          "model": "bigredfellaopen",
+          "witnessA": {
+            "x": 5.005882352941175,
+            "y": 4.162943984087776,
+            "z": 7.500000044225639
+          },
+          "witnessB": {
+            "x": 4.769020381045969,
+            "y": 4.162943984087776,
+            "z": 7.500000023518508
+          },
+          "witnessPairs": [
+            {
+              "witnessA": {
+                "x": 5.005882352941175,
+                "y": 4.162943984087776,
+                "z": 7.500000044225639
+              },
+              "witnessB": {
+                "x": 4.769020381045969,
+                "y": 4.162943984087776,
+                "z": 7.500000023518508
+              }
+            }
+          ]
+        },
+        {
+          "position": {
+            "x": 4.5,
+            "y": 4.162943984087776,
+            "z": 7.5
+          },
+          "fraction": 0,
+          "normal": {
+            "x": 0.024317989569054503,
+            "y": 0.9996969962557822,
+            "z": -0.0038145852312095785
+          },
+          "penetrationDepth": 0,
+          "gap": 0.00015333070685319417,
+          "model": "bigredfellaopen",
+          "witnessA": {
+            "x": 4.487697958218008,
+            "y": 3.6572149153936744,
+            "z": 7.501929731352259
+          },
+          "witnessB": {
+            "x": 4.487694229523478,
+            "y": 3.6570616311465995,
+            "z": 7.501930316245309
+          },
+          "witnessPairs": [
+            {
+              "witnessA": {
+                "x": 4.487697958218008,
+                "y": 3.6572149153936744,
+                "z": 7.501929731352259
+              },
+              "witnessB": {
+                "x": 4.487694229523478,
+                "y": 3.6570616311465995,
+                "z": 7.501930316245309
+              }
+            }
+          ]
+        },
+        {
+          "position": {
+            "x": 4.5,
+            "y": 4.162943984087776,
+            "z": 7.5
+          },
+          "fraction": 0,
+          "normal": {
+            "x": -0.9474526195175466,
+            "y": -0.1976387013840929,
+            "z": -0.2515402104724977
+          },
+          "penetrationDepth": 0.22194163732100602,
+          "gap": -0.22194163732100602,
+          "model": "bigredfellaopen",
+          "witnessA": {
+            "x": 4.9792995604618175,
+            "y": 4.2629259153762,
+            "z": 7.627249753533146
+          },
+          "witnessB": {
+            "x": 4.769020374802017,
+            "y": 4.2190616583930165,
+            "z": 7.571422507368809
+          },
+          "witnessPairs": [
+            {
+              "witnessA": {
+                "x": 4.9792995604618175,
+                "y": 4.2629259153762,
+                "z": 7.627249753533146
+              },
+              "witnessB": {
+                "x": 4.769020374802017,
+                "y": 4.2190616583930165,
+                "z": 7.571422507368809
+              }
+            }
+          ]
+        },
+        {
+          "position": {
+            "x": 4.5,
+            "y": 4.162943984087776,
+            "z": 7.5
+          },
+          "fraction": 0,
+          "normal": {
+            "x": 1.7557015273142012e-15,
+            "y": 1,
+            "z": -1.7557015273142012e-15
+          },
+          "penetrationDepth": 0,
+          "gap": 0,
+          "model": "bigredfellaopen",
+          "witnessA": {
+            "x": 4.499999999999999,
+            "y": 3.6570616311465995,
+            "z": 7.500000000000001
+          },
+          "witnessB": {
+            "x": 4.499999999999999,
+            "y": 3.6570616311465995,
+            "z": 7.500000000000001
+          },
+          "witnessPairs": [
+            {
+              "witnessA": {
+                "x": 4.499999999999999,
+                "y": 3.6570616311465995,
+                "z": 7.500000000000001
+              },
+              "witnessB": {
+                "x": 4.499999999999999,
+                "y": 3.6570616311465995,
+                "z": 7.500000000000001
+              }
+            }
+          ]
+        },
+        {
+          "position": {
+            "x": 4.5,
+            "y": 4.162943984087776,
+            "z": 7.5
+          },
+          "fraction": 0,
+          "normal": {
+            "x": -0.26021829308514943,
+            "y": 0.963486869887427,
+            "z": 0.06308321090733818
+          },
+          "penetrationDepth": 0,
+          "gap": 0.01917135432966921,
+          "model": "bigredfellaopen",
+          "witnessA": {
+            "x": 4.631639842384252,
+            "y": 3.6755329793211953,
+            "z": 7.468087316835112
+          },
+          "witnessB": {
+            "x": 4.636628579484049,
+            "y": 3.6570616311465995,
+            "z": 7.466877926246553
+          },
+          "witnessPairs": [
+            {
+              "witnessA": {
+                "x": 4.631639842384252,
+                "y": 3.6755329793211953,
+                "z": 7.468087316835112
+              },
+              "witnessB": {
+                "x": 4.636628579484049,
+                "y": 3.6570616311465995,
+                "z": 7.466877926246553
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "strip": {
+    "commonX": [
+      47.53517848115809,
+      47.53517848115809
+    ],
+    "separation": 0.40037821691176134,
+    "finiteSharedWidth": 0.0,
+    "distinctLanes": 1,
+    "sweepCount": 25,
+    "blockedCount": 20
+  },
+  "totalCountedSourceQueries": 3452,
+  "queryCeiling": 5000,
+  "conclusion": "No traversable stair or clear supported jump gap established. The low-level apparent stair is a downward underside; the upward single sill is clearance-limited and both control replays remain blocked."
+}

@@ -1,0 +1,99 @@
+{
+  "totalLength": 536,
+  "totalLength2": 536,
+  "headerLength": 92,
+  "scriptNumber": 9,
+  "unk20": 3,
+  "parentNumber": -1,
+  "scriptFlags": 0,
+  "unk42": 0,
+  "castID": 196617,
+  "factoryNameID": -1,
+  "handlerVectorsCount": 0,
+  "handlerVectorsOffset": 536,
+  "handlerVectorsSize": 0,
+  "propertiesCount": 6,
+  "propertiesOffset": 92,
+  "globalsCount": 4,
+  "globalsOffset": 104,
+  "handlersCount": 3,
+  "handlersOffset": 112,
+  "literalsCount": 1,
+  "literalsOffset": 518,
+  "literalsDataCount": 10,
+  "literalsDataOffset": 526,
+  "propertyNameIDs": [
+    108,
+    449,
+    132,
+    453,
+    458,
+    218
+  ],
+  "globalNameIDs": [
+    311,
+    94,
+    368,
+    475
+  ],
+  "handlers": [
+    {
+      "nameID": 187,
+      "vectorPos": 65535,
+      "compiledLen": 154,
+      "compiledOffset": 250,
+      "argumentCount": 3,
+      "argumentOffset": 404,
+      "localsCount": 1,
+      "localsOffset": 410,
+      "globalsCount": 0,
+      "globalsOffset": 104,
+      "unknown1": 109,
+      "unknown2": 7,
+      "lineCount": 16,
+      "lineOffset": 412,
+      "stackHeight": 6
+    },
+    {
+      "nameID": 287,
+      "vectorPos": 65535,
+      "compiledLen": 73,
+      "compiledOffset": 428,
+      "argumentCount": 1,
+      "argumentOffset": 502,
+      "localsCount": 0,
+      "localsOffset": 504,
+      "globalsCount": 0,
+      "globalsOffset": 104,
+      "unknown1": 528,
+      "unknown2": 27,
+      "lineCount": 7,
+      "lineOffset": 504,
+      "stackHeight": 4
+    },
+    {
+      "nameID": 226,
+      "vectorPos": 65535,
+      "compiledLen": 1,
+      "compiledOffset": 512,
+      "argumentCount": 2,
+      "argumentOffset": 514,
+      "localsCount": 0,
+      "localsOffset": 518,
+      "globalsCount": 0,
+      "globalsOffset": 104,
+      "unknown1": 743,
+      "unknown2": 37,
+      "lineCount": 0,
+      "lineOffset": 518,
+      "stackHeight": 0
+    }
+  ],
+  "literals": [
+    {
+      "type": 1,
+      "offset": 0,
+      "value": "hurt"
+    }
+  ]
+}

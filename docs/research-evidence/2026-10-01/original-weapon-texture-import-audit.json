@@ -1,0 +1,86 @@
+{
+  "status": "weapon-sampling-change-not-established",
+  "primaryManual": {
+    "cloneModelFromCastmember": "printed265: imports referenced resources, shaders and textures with children",
+    "textureQuality": "printed942: default low=no mipmapping; does not alone prove imported texture settings"
+  },
+  "rows": [
+    {
+      "edition": "barrack",
+      "importedGunTextureNames": [
+        "ak47",
+        "dragunov",
+        "mfmachingun",
+        "pistol",
+        "rg6",
+        "rpg",
+        "spas12"
+      ],
+      "textureInfoBlockType": "ffffff22",
+      "textureInfoBlocks": 0,
+      "ordinaryShaderBlockCount": 7,
+      "sourceHashVerified": true
+    },
+    {
+      "edition": "woodland",
+      "importedGunTextureNames": [
+        "ak47",
+        "dragunov",
+        "mfmachingun",
+        "pistol",
+        "rg6",
+        "rpg",
+        "spas12"
+      ],
+      "textureInfoBlockType": "ffffff22",
+      "textureInfoBlocks": 0,
+      "ordinaryShaderBlockCount": 7,
+      "sourceHashVerified": true
+    }
+  ],
+  "currentAdapter": {
+    "file": "src/originalWeapons.ts",
+    "generateMipmaps": true,
+    "minFilter": "LinearMipmapLinearFilter",
+    "magFilter": "LinearFilter"
+  },
+  "conclusion": "Weapon clones import textures before shady/texy lookup; scene texture recreation reasoning does not automatically apply. No texture-info blocks encode quality, but their absence does not independently establish native import defaults. Keep current weapon sampling qualified pending stronger import semantics/measurement.",
+  "files": [
+    {
+      "path": "docs/research-evidence/2026-09-30/w3d-metadata/barrack-gunz.json",
+      "sha256": "31875f103d1f08ed166238bc9679641ff3f9c248696cae6a0e985394a5a27378"
+    },
+    {
+      "path": "docs/research-evidence/2026-09-30/director-extraction/barrack/04985-XMED.bin",
+      "sha256": "c1cae7dcc06db22c605f10754e156ddf7bb186efad70caf10f008e4bca616336"
+    },
+    {
+      "path": "/tmp/ra-w3d-decoded/barrack-gunz/geometry.json",
+      "sha256": "b16119d48f0e13e1876185899f02430f9144fb148ba04a911d6d76217c74195a"
+    },
+    {
+      "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 6 - weaponry.ls",
+      "sha256": "f585b9f0bf0fce613229f631af4697871218165b28098780e8f86064418373ef"
+    },
+    {
+      "path": "docs/research-evidence/2026-09-30/w3d-metadata/woodland-gunz.json",
+      "sha256": "d929ec0a44f1db1a7d910abe601d61189a8d6f37ef1d688702a068cd22caf886"
+    },
+    {
+      "path": "docs/research-evidence/2026-09-30/director-extraction/woodland/06375-XMED.bin",
+      "sha256": "c1cae7dcc06db22c605f10754e156ddf7bb186efad70caf10f008e4bca616336"
+    },
+    {
+      "path": "/tmp/ra-w3d-decoded/woodland-gunz/geometry.json",
+      "sha256": "5e4d1a08041f5cc13fa2e26558b409085fc81257accf6e74be6c47a4ef86d461"
+    },
+    {
+      "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 6 - weaponry.ls",
+      "sha256": "082d419d7e9a973651e5144a6c780437906a62e8dcc35ef3663fd5e206b9b216"
+    },
+    {
+      "path": "/tmp/ra-libreshockwave-src/docs/_pdf_text/drmx2004_scripting_ref.txt",
+      "sha256": "a53ee6c97174dbbaafa6ab5c12e76e2a6f37b4b5a91a467bd6ecb2097ba3b151"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "russiasarmy-barrack-20110415.dcr",
+    "bytes": 2647169,
+    "sha256": "779c2420e2b41848749731762f4b64bb70e05c889bb23f8906563a661991b72a",
+    "riff_declared_total": 2647169,
+    "riff_declared_total_matches": true,
+    "signature": "XFIR",
+    "form": "MDGF",
+    "printable_asset_leads": []
+  },
+  {
+    "file": "russiasarmy-woodland-20150618.dcr",
+    "bytes": 3235058,
+    "sha256": "d42aaf3cd5c5bdb1decee1f8b48271c7590e49dee9e6d06a0f2954f8c486245c",
+    "riff_declared_total": 3235058,
+    "riff_declared_total_matches": true,
+    "signature": "XFIR",
+    "form": "MDGF",
+    "printable_asset_leads": []
+  }
+]

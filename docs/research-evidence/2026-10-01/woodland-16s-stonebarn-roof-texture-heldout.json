@@ -1,0 +1,74 @@
+{
+  "scene": "public/assets/original-scenes/woodland/scene.json",
+  "sceneSha256": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107",
+  "reference": "docs/research-evidence/2026-10-01/woodland-video-16s-camera-reference.png",
+  "referenceSha256": "71da5c673445b2bb45639a051b0f72cca44d2df6e7a6d7a0d1f586915b46d257",
+  "atlas": "public/assets/original-scenes/woodland/textures/stonebarn.png",
+  "atlasSha256": "7ff83e28de923ebf82ec17cf57ac3ededf53136b9543960f362f3878551b3b86",
+  "generator": "scripts/research/match-reference-roof-landmarks.py",
+  "generatorSha256": "0c3f6386c5efbbbbe8d0714ce1cc697df5ed6835c9c242547c18440374fef5ee",
+  "imageSize": [
+    1280,
+    574
+  ],
+  "scale": 0.02023529411764706,
+  "verticalFovDegrees": 50,
+  "landmarks": [
+    {
+      "id": "roof-sift-87.529-390.473",
+      "node": "stonebarn",
+      "part": 0,
+      "face": 94,
+      "barycentric": [
+        0.11465050454410486,
+        0.2283498729500798,
+        0.6569996225058153
+      ],
+      "atlasPixel": [
+        87.52855682373047,
+        390.47296142578125
+      ],
+      "pixel": [
+        619.4713745117188,
+        130.78497314453125
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorDistance": 234.6848907470703,
+      "descriptorRatio": 0.7699430003325005,
+      "reciprocalNearestDescriptor": true,
+      "sourceLocalPoint": [
+        -790.4966016980386,
+        56.025922503771966,
+        208.7935009211808
+      ]
+    }
+  ],
+  "method": {
+    "detector": "OpenCV SIFT",
+    "opencvVersion": "4.13.0",
+    "nfeatures": 12000,
+    "contrastThreshold": 0.002,
+    "edgeThreshold": 20,
+    "ratioThreshold": 0.8,
+    "reciprocalNearest": true,
+    "atlasPatchPixels": [
+      70,
+      385,
+      100,
+      420
+    ],
+    "uvPixelConvention": "(u+.5,.5-v)*512-.5",
+    "faceSelection": "Exactly one containing UV triangle over the entire mesh",
+    "roleRule": "Every new roof feature is heldout; none may enter pose fitting",
+    "geometricOutlierSelection": "None"
+  },
+  "ambiguousUvMatches": [],
+  "limitations": [
+    "The .8 ratio is weaker than the facade matcher .7 threshold.",
+    "One independently matched roof feature cannot establish camera equivalence alone.",
+    "Source UV adapter is assumed, not newly established as native Director convention.",
+    "No camera, projection, manual pixel labels, or camera residual is read by this script.",
+    "Do not refit the facade pose or select a camera hypothesis using these heldout checks."
+  ]
+}

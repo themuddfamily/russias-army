@@ -1,0 +1,41 @@
+scaleMode 971
+• #showAll (default for Director movies prior to version 7)—Maintains the aspect ratio of the 
+original Flash movie cast member. If necessary, fill in any gap in the horizontal or vertical 
+dimension using the background color.
+• #noBorder—Maintains the aspect ratio of the original Flash movie cast member. If necessary, 
+crop the horizontal or vertical dimension.
+• #exactFit—Does not maintain the aspect ratio of the original Flash movie cast member. 
+Stretch the Flash movie to fit the exact dimensions of the sprite.
+• #noScale—preserves the original size of the Flash media, regardless of how the sprite is sized 
+on the Stage. If the sprite is made smaller than the original Flash movie, the movie displayed in 
+the sprite is cropped to fit the bounds of the sprite.
+• #autoSize (default)—This specifies that the sprite rectangle is automatically sized and 
+positioned to account for rotation, skew, flipH, and flipV. This means that when a Flash 
+sprite is rotated, it will not crop as in earlier versions of Director. The #autoSize setting only 
+functions properly when scale, viewScale, originPoint, and viewPoint are at their 
+default values.
+This property can be tested and set.
+Example
+The following sprite script checks the Stage color of the Director movie and, if the Stage color is 
+indexed to position 0 in the current palette, the script sets the scaleMode property of a Flash 
+movie sprite to #showAll. Otherwise, it sets the scaleMode property to #noBorder.
+-- Lingo syntax
+property spriteNum
+on beginsprite me
+if _movie.stage.bgColor = 0 then
+sprite(spriteNum).scaleMode = #showAll
+else
+sprite(spriteNum).scaleMode = #noBorder
+end if
+end
+// JavaScript syntax
+function beginsprite() {
+var stgClr = _movie.stage.bgColor;
+if (stgClr = 0) {
+sprite(this.spriteNum).scaleMode = symbol("showAll");
+} else {
+sprite(this.spriteNum).scaleMode = symbol("noBorder");
+}
+}
+See also
+scale (Member)

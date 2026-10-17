@@ -1,0 +1,726 @@
+{
+  "parts": [
+    {
+      "resource": "irishyew",
+      "part": 0,
+      "vertices": 86,
+      "faces": 96,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "othertrees",
+      "part": 0,
+      "vertices": 284,
+      "faces": 142,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "othertrees",
+      "part": 1,
+      "vertices": 324,
+      "faces": 216,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "othertrees",
+      "part": 2,
+      "vertices": 304,
+      "faces": 228,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "othertrees",
+      "part": 3,
+      "vertices": 62,
+      "faces": 56,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "woodenshed",
+      "part": 0,
+      "vertices": 415,
+      "faces": 196,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "sheds",
+      "part": 0,
+      "vertices": 136,
+      "faces": 52,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "birch",
+      "part": 0,
+      "vertices": 1492,
+      "faces": 1352,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "woodenlodge",
+      "part": 0,
+      "vertices": 720,
+      "faces": 402,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "syccamore",
+      "part": 0,
+      "vertices": 6132,
+      "faces": 4088,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "floor",
+      "part": 0,
+      "vertices": 552,
+      "faces": 827,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "floor",
+      "part": 1,
+      "vertices": 182,
+      "faces": 146,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "trunks",
+      "part": 0,
+      "vertices": 10765,
+      "faces": 7540,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "irishyew3",
+      "part": 0,
+      "vertices": 86,
+      "faces": 96,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "bigredfellaopen01",
+      "part": 0,
+      "vertices": 545,
+      "faces": 314,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "cliffview",
+      "part": 0,
+      "vertices": 1669,
+      "faces": 825,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "solidfence",
+      "part": 0,
+      "vertices": 1269,
+      "faces": 680,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "plinths",
+      "part": 0,
+      "vertices": 29,
+      "faces": 10,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "plinths",
+      "part": 1,
+      "vertices": 121,
+      "faces": 56,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "outerfencing",
+      "part": 0,
+      "vertices": 176,
+      "faces": 88,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "haddingtoncafe",
+      "part": 0,
+      "vertices": 332,
+      "faces": 302,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "stonebarn",
+      "part": 0,
+      "vertices": 230,
+      "faces": 113,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "spindlybirchleaves",
+      "part": 0,
+      "vertices": 3152,
+      "faces": 1576,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "irishyew2",
+      "part": 0,
+      "vertices": 86,
+      "faces": 96,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "lorryback",
+      "part": 0,
+      "vertices": 1506,
+      "faces": 1372,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "brownloo",
+      "part": 0,
+      "vertices": 298,
+      "faces": 160,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "rowanbranch",
+      "part": 0,
+      "vertices": 4304,
+      "faces": 3228,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    }
+  ],
+  "validation_failures": [],
+  "world_bounds": [
+    {
+      "model": "woodenshed",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -846.2361450195312,
+        -2465.711410522461,
+        -452.873409986496
+      ],
+      "original_z_up_max": [
+        675.1276397705078,
+        6698.828125,
+        664.378173828125
+      ]
+    },
+    {
+      "model": "haddingtoncafe",
+      "original_parent": "World",
+      "original_z_up_min": [
+        1933.0916095332686,
+        -2786.7614545752076,
+        -457.81198131860947
+      ],
+      "original_z_up_max": [
+        2768.045187225325,
+        -1614.4498470400513,
+        -140.98960512471422
+      ]
+    },
+    {
+      "model": "stonebarn",
+      "original_parent": "World",
+      "original_z_up_min": [
+        381.1865234375,
+        -710.6854858398438,
+        -457.86273193359375
+      ],
+      "original_z_up_max": [
+        1922.0306396484375,
+        -183.76715087890625,
+        -205.33154296875
+      ]
+    },
+    {
+      "model": "woodenlodge",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -6211.1186839863285,
+        3677.5270432733687,
+        504.95000795424494
+      ],
+      "original_z_up_max": [
+        -5563.550427498601,
+        3992.4788289624203,
+        825.6531208923989
+      ]
+    },
+    {
+      "model": "syccamore",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -7800.50927734375,
+        -6691.73681640625,
+        -368.65997314453125
+      ],
+      "original_z_up_max": [
+        6554.8857421875,
+        7297.791015625,
+        1240.0379638671875
+      ]
+    },
+    {
+      "model": "lorryback",
+      "original_parent": "World",
+      "original_z_up_min": [
+        2470.92578125,
+        -3411.8904457092285,
+        -471.75549507141113
+      ],
+      "original_z_up_max": [
+        3312.0613403320312,
+        -1432.436767578125,
+        -295.9354553222656
+      ]
+    },
+    {
+      "model": "brownloo",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -3628.0575588850224,
+        -4087.189335268551,
+        -327.4414254273074
+      ],
+      "original_z_up_max": [
+        -3251.42055241832,
+        -3617.410220523463,
+        -113.87223389539577
+      ]
+    },
+    {
+      "model": "solidfence",
+      "original_parent": "World",
+      "original_z_up_min": [
+        120.68592005141477,
+        -2875.6299377836003,
+        -457.7915344238281
+      ],
+      "original_z_up_max": [
+        2205.4440523030407,
+        -533.8126259707183,
+        -371.9887939920536
+      ]
+    },
+    {
+      "model": "irishyew2",
+      "original_parent": "World",
+      "original_z_up_min": [
+        1129.3625793457031,
+        -2633.2927799224854,
+        -458.22620916366577
+      ],
+      "original_z_up_max": [
+        1314.584716796875,
+        -2455.0169525146484,
+        -219.7617645263672
+      ]
+    },
+    {
+      "model": "sheds",
+      "original_parent": "World",
+      "original_z_up_min": [
+        5976.5149870681435,
+        6231.325335952653,
+        376.86163330078125
+      ],
+      "original_z_up_max": [
+        6405.814953399293,
+        6452.41007555428,
+        642.1629638671875
+      ]
+    },
+    {
+      "model": "floor",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -8286.33984375,
+        -8482.7978515625,
+        -505.1790771484375
+      ],
+      "original_z_up_max": [
+        8482.7978515625,
+        7788.1767578125,
+        1631.307373046875
+      ]
+    },
+    {
+      "model": "plinths",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -7574.02392578125,
+        -9171.90038358896,
+        -89.19970548986223
+      ],
+      "original_z_up_max": [
+        8254.276062011719,
+        6663.1075115844715,
+        990.6125765688355
+      ]
+    },
+    {
+      "model": "bigredfellaopen01",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -6207.679572708163,
+        -8627.757204945614,
+        649.8978881835938
+      ],
+      "original_z_up_max": [
+        -2732.172288407201,
+        -7720.406660368304,
+        1354.1904296875
+      ]
+    },
+    {
+      "model": "outerfencing",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -4891.61376953125,
+        -7861.9990234375,
+        -10262.037109375
+      ],
+      "original_z_up_max": [
+        7357.46826171875,
+        7380.85693359375,
+        774.1650390625
+      ]
+    },
+    {
+      "model": "cliffview",
+      "original_parent": "World",
+      "original_z_up_min": [
+        6548.405242919922,
+        4557.58251953125,
+        418.46178436279297
+      ],
+      "original_z_up_max": [
+        7361.256866455078,
+        6391.098388671875,
+        607.272590637207
+      ]
+    },
+    {
+      "model": "trunks",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -7729.453857421875,
+        -8478.426025390625,
+        -539.492561340332
+      ],
+      "original_z_up_max": [
+        8323.931884765625,
+        7666.621337890625,
+        1230.5203857421875
+      ]
+    },
+    {
+      "model": "spindlybirchleaves",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -7842.22119140625,
+        -7338.162109375,
+        -345.8079528808594
+      ],
+      "original_z_up_max": [
+        7270.7587890625,
+        7308.85595703125,
+        1564.927490234375
+      ]
+    },
+    {
+      "model": "rowanbranch",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -7676.02587890625,
+        -7432.970703125,
+        -474.80572509765625
+      ],
+      "original_z_up_max": [
+        6587.92919921875,
+        6850.76806640625,
+        1348.109130859375
+      ]
+    },
+    {
+      "model": "birch",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -7287.574951171875,
+        -6771.909912109375,
+        -87.43637084960938
+      ],
+      "original_z_up_max": [
+        6937.261474609375,
+        6062.448486328125,
+        1284.2154541015625
+      ]
+    },
+    {
+      "model": "irishyew",
+      "original_parent": "World",
+      "original_z_up_min": [
+        1534.4274291992188,
+        -2704.434440612793,
+        -458.15462493896484
+      ],
+      "original_z_up_max": [
+        1692.8457641601562,
+        -2536.197883605957,
+        -252.70169830322266
+      ]
+    },
+    {
+      "model": "irishyew3",
+      "original_parent": "World",
+      "original_z_up_min": [
+        738.927978515625,
+        -2609.382926940918,
+        -458.15462493896484
+      ],
+      "original_z_up_max": [
+        897.3463134765625,
+        -2441.146369934082,
+        -252.70169830322266
+      ]
+    },
+    {
+      "model": "othertrees",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -6147.2431640625,
+        -8594.5654296875,
+        -17525.4423828125
+      ],
+      "original_z_up_max": [
+        8445.7421875,
+        7829.77783203125,
+        1102.318359375
+      ]
+    }
+  ],
+  "declared_original_vertices": 35257,
+  "declared_original_faces": 24257,
+  "parse_errors": [],
+  "skeletons_decoded": 0,
+  "motions_decoded": 0,
+  "synthetic_defaultmodel_excluded": true
+}

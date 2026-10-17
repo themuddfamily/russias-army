@@ -1,0 +1,357 @@
+{
+  "scope": "Conditional four-point compatibility only; all points training, no heldouts, no native camera recovery.",
+  "assumptions": {
+    "verticalFovDegrees": 50,
+    "width": 1280,
+    "height": 574,
+    "principalPoint": [
+      640,
+      287
+    ],
+    "squarePixels": true,
+    "unreflectedPerspective": true,
+    "sourceEyeZ": -367.16118240356445,
+    "standingHeightIsSeamBasedAtCandidateAndNotPhysicallyVerified": true
+  },
+  "method": "31x31 finite XY grid; exact two-ray frame initialization; bounded five-variable damped Gauss-Newton. Not exhaustive.",
+  "evaluations": 1039,
+  "gridInteriorCandidates": 190,
+  "gridBestSquaredResidual": 1213.377516572132,
+  "candidateSourceCamera": [
+    449.64846150698173,
+    -381.09017827357303,
+    -367.16118240356445
+  ],
+  "worldToCameraRightDownForward": [
+    [
+      -0.07913749370368353,
+      -0.9968486762153761,
+      -0.005474834970317293
+    ],
+    [
+      -0.036575011284537995,
+      0.00839187915762884,
+      -0.999295674419608
+    ],
+    [
+      0.9961925143464162,
+      -0.07888151299167975,
+      -0.03712386386555299
+    ]
+  ],
+  "sumSquaredPixelResidual": 651.3811222720532,
+  "rootMeanSquaredCoordinateResidual": 9.02344946702793,
+  "conditionalEndpointResiduals": [
+    {
+      "conditionalEndpoint": "gap198",
+      "nativeBox": [
+        926,
+        194,
+        936,
+        204
+      ],
+      "nativeCenter": [
+        931.0,
+        199.0
+      ],
+      "predicted": [
+        919.0366595236701,
+        208.55863730055876
+      ],
+      "residualPixels": [
+        -11.963340476329904,
+        9.558637300558757
+      ],
+      "euclideanResidualPixels": 15.313035701526546,
+      "insideBox": false,
+      "role": "conditional training; not an admitted anchor"
+    },
+    {
+      "conditionalEndpoint": "gap183",
+      "nativeBox": [
+        1136,
+        145,
+        1144,
+        153
+      ],
+      "nativeCenter": [
+        1140.0,
+        149.0
+      ],
+      "predicted": [
+        1146.1628162352754,
+        160.8090167430754
+      ],
+      "residualPixels": [
+        6.162816235275386,
+        11.809016743075404
+      ],
+      "euclideanResidualPixels": 13.320404663072706,
+      "insideBox": false,
+      "role": "conditional training; not an admitted anchor"
+    },
+    {
+      "conditionalEndpoint": "cafe143",
+      "nativeBox": [
+        975,
+        241,
+        985,
+        251
+      ],
+      "nativeCenter": [
+        980.0,
+        246.0
+      ],
+      "predicted": [
+        983.386988900098,
+        235.69400198452618
+      ],
+      "residualPixels": [
+        3.386988900098004,
+        -10.305998015473818
+      ],
+      "euclideanResidualPixels": 10.848285067435192,
+      "insideBox": false,
+      "role": "conditional training; not an admitted anchor"
+    },
+    {
+      "conditionalEndpoint": "cafe178",
+      "nativeBox": [
+        1102,
+        241,
+        1112,
+        251
+      ],
+      "nativeCenter": [
+        1107.0,
+        246.0
+      ],
+      "predicted": [
+        1107.6383408328986,
+        234.98337113430182
+      ],
+      "residualPixels": [
+        0.6383408328986206,
+        -11.01662886569818
+      ],
+      "euclideanResidualPixels": 11.03510718495657,
+      "insideBox": false,
+      "role": "conditional training; not an admitted anchor"
+    }
+  ],
+  "allPredictionsInsidePredeclaredBoxes": false,
+  "rotationInvariantPairs": [
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "sourceDegrees": 15.092609727418067,
+      "nativeCenterDegrees": 13.855834441729714,
+      "centerDifferenceDegrees": 1.2367752856883527,
+      "cornerSampleDegreesRange": [
+        13.161027134915415,
+        14.571593740696455
+      ],
+      "cornerRangeIsNotCertifiedContinuousBoxBound": true
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "sourceDegrees": 5.346806006190703,
+      "nativeCenterDegrees": 5.399378373825493,
+      "centerDifferenceDegrees": -0.052572367634789785,
+      "cornerSampleDegreesRange": [
+        4.273449927921718,
+        6.524582464369881
+      ],
+      "cornerRangeIsNotCertifiedContinuousBoxBound": true
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "sourceDegrees": 13.081424621814714,
+      "nativeCenterDegrees": 12.599353497655535,
+      "centerDifferenceDegrees": 0.4820711241591784,
+      "cornerSampleDegreesRange": [
+        11.6999381288212,
+        13.521151243806006
+      ],
+      "cornerRangeIsNotCertifiedContinuousBoxBound": true
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "sourceDegrees": 11.29197293259819,
+      "nativeCenterDegrees": 12.029245688330459,
+      "centerDifferenceDegrees": -0.7372727557322687,
+      "cornerSampleDegreesRange": [
+        11.197694206995648,
+        12.866509043973084
+      ],
+      "cornerRangeIsNotCertifiedContinuousBoxBound": true
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "sourceDegrees": 5.5956204260561195,
+      "nativeCenterDegrees": 7.090107886437272,
+      "centerDifferenceDegrees": -1.4944874603811522,
+      "cornerSampleDegreesRange": [
+        6.376477049654143,
+        7.820992766509627
+      ],
+      "cornerRangeIsNotCertifiedContinuousBoxBound": true
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "sourceDegrees": 8.05584405215463,
+      "nativeCenterDegrees": 8.265415442981451,
+      "centerDifferenceDegrees": -0.20957139082682197,
+      "cornerSampleDegreesRange": [
+        7.612295049876257,
+        8.97821630341748
+      ],
+      "cornerRangeIsNotCertifiedContinuousBoxBound": true
+    }
+  ],
+  "refinementTrace": [
+    {
+      "iteration": 0,
+      "squaredPixelResidual": 652.206639603328,
+      "parameters": [
+        449.5354020186346,
+        -380.60292668145996,
+        -0.0014930585459623485,
+        -0.004848942406249147,
+        0.02156862580620942
+      ]
+    },
+    {
+      "iteration": 1,
+      "squaredPixelResidual": 651.4188634483221,
+      "parameters": [
+        449.5570287594268,
+        -380.92707957604443,
+        0.000681122407017511,
+        -0.004723712963152312,
+        0.02520390688557274
+      ]
+    },
+    {
+      "iteration": 2,
+      "squaredPixelResidual": 651.383191444473,
+      "parameters": [
+        449.6248004215374,
+        -381.0496967192452,
+        0.0012024531394491773,
+        -0.004724487411580392,
+        0.02605067359693854
+      ]
+    },
+    {
+      "iteration": 3,
+      "squaredPixelResidual": 651.3812365407742,
+      "parameters": [
+        449.64277691727597,
+        -381.08059059130375,
+        0.0013196371092105096,
+        -0.00472320937981131,
+        0.026242385178782624
+      ]
+    },
+    {
+      "iteration": 4,
+      "squaredPixelResidual": 651.3811286406092,
+      "parameters": [
+        449.64712407767695,
+        -381.0879236468043,
+        0.001347199936746595,
+        -0.004722976456653801,
+        0.0262875279117103
+      ]
+    },
+    {
+      "iteration": 5,
+      "squaredPixelResidual": 651.3811226399624,
+      "parameters": [
+        449.64814741607995,
+        -381.08964915047056,
+        0.001353653868323806,
+        -0.004722916159679633,
+        0.026298100300511395
+      ]
+    },
+    {
+      "iteration": 6,
+      "squaredPixelResidual": 651.3811222962978,
+      "parameters": [
+        449.6483879460852,
+        -381.0900543468948,
+        0.001355169502610849,
+        -0.0047229023518327706,
+        0.02630058316736057
+      ]
+    },
+    {
+      "iteration": 7,
+      "squaredPixelResidual": 651.3811222743122,
+      "parameters": [
+        449.64844441443313,
+        -381.0901494783868,
+        0.0013555252438754726,
+        -0.004722899087465526,
+        0.026301165936537203
+      ]
+    },
+    {
+      "iteration": 8,
+      "squaredPixelResidual": 651.381122272381,
+      "parameters": [
+        449.6484576734961,
+        -381.0901718144443,
+        0.0013556087850636008,
+        -0.004722898325508677,
+        0.02630130278929874
+      ]
+    },
+    {
+      "iteration": 9,
+      "squaredPixelResidual": 651.3811222721068,
+      "parameters": [
+        449.648460778813,
+        -381.09017704758816,
+        0.0013556283268899732,
+        -0.004722898139231045,
+        0.026301334806062796
+      ]
+    },
+    {
+      "iteration": 10,
+      "squaredPixelResidual": 651.3811222720532,
+      "parameters": [
+        449.64846150698173,
+        -381.09017827357303,
+        0.0013556328986627025,
+        -0.004722898095301146,
+        0.026301342296727606
+      ]
+    }
+  ],
+  "admittedSourceAnchors": [],
+  "heldoutEndpoints": [],
+  "productionChanged": false,
+  "nativeCameraFitPromoted": false,
+  "inputSha256": "19294ff2eebae47e39a76a32f3959e89da4138fe2d73cb32e9adc206d95c16c9"
+}

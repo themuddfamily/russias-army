@@ -1,0 +1,733 @@
+{
+  "inputScene": "public/assets/original-scenes/woodland/scene.json",
+  "sceneSha256": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107",
+  "arithmetic": "Exact Fraction operations on decoded source binary64 values, including column-major node matrix products. No epsilon used in clipping or classification.",
+  "nativeAccuracyClaim": false,
+  "gap": {
+    "A184": [
+      {
+        "numerator": "9989713",
+        "denominator": "16384",
+        "float": 609.7236938476562
+      },
+      {
+        "numerator": "-70077657",
+        "denominator": "131072",
+        "float": -534.6500930786133
+      }
+    ],
+    "B140": [
+      {
+        "numerator": "3095863",
+        "denominator": "4096",
+        "float": 755.825927734375
+      },
+      {
+        "numerator": "-36035247",
+        "denominator": "65536",
+        "float": -549.8542327880859
+      }
+    ]
+  },
+  "sourceFootprintVertices": [
+    178,
+    193,
+    224,
+    186
+  ],
+  "footprint": [
+    [
+      {
+        "numerator": "1653781",
+        "denominator": "4096",
+        "float": 403.755126953125
+      },
+      {
+        "numerator": "-67306369",
+        "denominator": "131072",
+        "float": -513.5068435668945
+      }
+    ],
+    [
+      {
+        "numerator": "3562505",
+        "denominator": "8192",
+        "float": 434.8760986328125
+      },
+      {
+        "numerator": "-13896079",
+        "denominator": "65536",
+        "float": -212.03733825683594
+      }
+    ],
+    [
+      {
+        "numerator": "33501133",
+        "denominator": "32768",
+        "float": 1022.3734436035156
+      },
+      {
+        "numerator": "-2235219",
+        "denominator": "8192",
+        "float": -272.8538818359375
+      }
+    ],
+    [
+      {
+        "numerator": "32481361",
+        "denominator": "32768",
+        "float": 991.2524719238281
+      },
+      {
+        "numerator": "-75246577",
+        "denominator": "131072",
+        "float": -574.085823059082
+      }
+    ]
+  ],
+  "cafeTopEndpoints": {
+    "143": [
+      {
+        "numerator": "638311398477263",
+        "denominator": "274877906944",
+        "float": 2322.1633399853563
+      },
+      {
+        "numerator": "-223683638970373",
+        "denominator": "137438953472",
+        "float": -1627.512676134742
+      }
+    ],
+    "178": [
+      {
+        "numerator": "5033242038728671",
+        "denominator": "2199023255552",
+        "float": 2288.853483482249
+      },
+      {
+        "numerator": "-2221274189446335",
+        "denominator": "1099511627776",
+        "float": -2020.2371064863974
+      }
+    ]
+  },
+  "constraints": [
+    {
+      "label": "interior side of gap A to B",
+      "coefficients": [
+        {
+          "numerator": "1992837",
+          "denominator": "131072",
+          "float": 15.204139709472656
+        },
+        {
+          "numerator": "2393739",
+          "denominator": "16384",
+          "float": 146.10223388671875
+        },
+        {
+          "numerator": "73919875451871",
+          "denominator": "1073741824",
+          "float": 68843.24872109201
+        }
+      ]
+    },
+    {
+      "label": "cafe 143: ray P-A side containing B",
+      "coefficients": [
+        {
+          "numerator": "150201889703941",
+          "denominator": "137438953472",
+          "float": 1092.8625830561286
+        },
+        {
+          "numerator": "470711825698255",
+          "denominator": "274877906944",
+          "float": 1712.4396461377
+        },
+        {
+          "numerator": "8978801543925690445607",
+          "denominator": "36028797018963968",
+          "float": 249211.80519015514
+        }
+      ]
+    },
+    {
+      "label": "cafe 143: ray P-B side containing A",
+      "coefficients": [
+        {
+          "numerator": "-148112248653829",
+          "denominator": "137438953472",
+          "float": -1077.658443346656
+        },
+        {
+          "numerator": "-430551549447631",
+          "denominator": "274877906944",
+          "float": -1566.3374122509813
+        },
+        {
+          "numerator": "-841904056044048348193",
+          "denominator": "18014398509481984",
+          "float": -46735.06337727053
+        }
+      ]
+    },
+    {
+      "label": "cafe 178: ray P-A side containing B",
+      "coefficients": [
+        {
+          "numerator": "1633420195314879",
+          "denominator": "1099511627776",
+          "float": 1485.587013407784
+        },
+        {
+          "numerator": "3692445456496607",
+          "denominator": "2199023255552",
+          "float": 1679.1297896345927
+        },
+        {
+          "numerator": "-2320457162015726425833",
+          "denominator": "288230376151711744",
+          "float": -8050.703027894396
+        }
+      ]
+    },
+    {
+      "label": "cafe 178: ray P-B side containing A",
+      "coefficients": [
+        {
+          "numerator": "-1616703066913983",
+          "denominator": "1099511627776",
+          "float": -1470.3828736983114
+        },
+        {
+          "numerator": "-3371163246491615",
+          "denominator": "2199023255552",
+          "float": -1533.027555747874
+        },
+        {
+          "numerator": "38682218354409542920623",
+          "denominator": "144115188075855872",
+          "float": 268411.80912902066
+        }
+      ]
+    }
+  ],
+  "clippingStages": [
+    {
+      "constraint": "interior side of gap A to B",
+      "remainingVertices": [
+        [
+          {
+            "numerator": "1359093584608626887",
+            "denominator": "1915612704260096",
+            "float": 709.4824447479199
+          },
+          {
+            "numerator": "-8352554045659424303",
+            "denominator": "15324901634080768",
+            "float": -545.031494824367
+          }
+        ],
+        [
+          {
+            "numerator": "11712427675548087815",
+            "denominator": "29006606066425856",
+            "float": 403.7848360723876
+          },
+          {
+            "numerator": "-16240083086837604653",
+            "denominator": "31643570254282752",
+            "float": -513.2190507055573
+          }
+        ],
+        [
+          {
+            "numerator": "3562505",
+            "denominator": "8192",
+            "float": 434.8760986328125
+          },
+          {
+            "numerator": "-13896079",
+            "denominator": "65536",
+            "float": -212.03733825683594
+          }
+        ],
+        [
+          {
+            "numerator": "33501133",
+            "denominator": "32768",
+            "float": 1022.3734436035156
+          },
+          {
+            "numerator": "-2235219",
+            "denominator": "8192",
+            "float": -272.8538818359375
+          }
+        ],
+        [
+          {
+            "numerator": "32481361",
+            "denominator": "32768",
+            "float": 991.2524719238281
+          },
+          {
+            "numerator": "-75246577",
+            "denominator": "131072",
+            "float": -574.085823059082
+          }
+        ]
+      ]
+    },
+    {
+      "constraint": "cafe 143: ray P-A side containing B",
+      "remainingVertices": [
+        [
+          {
+            "numerator": "1359093584608626887",
+            "denominator": "1915612704260096",
+            "float": 709.4824447479199
+          },
+          {
+            "numerator": "-8352554045659424303",
+            "denominator": "15324901634080768",
+            "float": -545.031494824367
+          }
+        ],
+        [
+          {
+            "numerator": "9989713",
+            "denominator": "16384",
+            "float": 609.7236938476562
+          },
+          {
+            "numerator": "-70077657",
+            "denominator": "131072",
+            "float": -534.6500930786133
+          }
+        ],
+        [
+          {
+            "numerator": "33654004932836890343147340797",
+            "denominator": "81203936676140683155132416",
+            "float": 414.4380963580193
+          },
+          {
+            "numerator": "-1065449425440029717743412096565",
+            "denominator": "2598525973636501860964237312",
+            "float": -410.02069490534615
+          }
+        ],
+        [
+          {
+            "numerator": "3562505",
+            "denominator": "8192",
+            "float": 434.8760986328125
+          },
+          {
+            "numerator": "-13896079",
+            "denominator": "65536",
+            "float": -212.03733825683594
+          }
+        ],
+        [
+          {
+            "numerator": "33501133",
+            "denominator": "32768",
+            "float": 1022.3734436035156
+          },
+          {
+            "numerator": "-2235219",
+            "denominator": "8192",
+            "float": -272.8538818359375
+          }
+        ],
+        [
+          {
+            "numerator": "32481361",
+            "denominator": "32768",
+            "float": 991.2524719238281
+          },
+          {
+            "numerator": "-75246577",
+            "denominator": "131072",
+            "float": -574.085823059082
+          }
+        ]
+      ]
+    },
+    {
+      "constraint": "cafe 143: ray P-B side containing A",
+      "remainingVertices": [
+        [
+          {
+            "numerator": "480230319541639860886460241685",
+            "denominator": "635434966280280619292033024",
+            "float": 755.7505410078702
+          },
+          {
+            "numerator": "-174681823898958796500265854641",
+            "denominator": "317717483140140309646016512",
+            "float": -549.8023658393055
+          }
+        ],
+        [
+          {
+            "numerator": "1359093584608626887",
+            "denominator": "1915612704260096",
+            "float": 709.4824447479199
+          },
+          {
+            "numerator": "-8352554045659424303",
+            "denominator": "15324901634080768",
+            "float": -545.031494824367
+          }
+        ],
+        [
+          {
+            "numerator": "9989713",
+            "denominator": "16384",
+            "float": 609.7236938476562
+          },
+          {
+            "numerator": "-70077657",
+            "denominator": "131072",
+            "float": -534.6500930786133
+          }
+        ],
+        [
+          {
+            "numerator": "33654004932836890343147340797",
+            "denominator": "81203936676140683155132416",
+            "float": 414.4380963580193
+          },
+          {
+            "numerator": "-1065449425440029717743412096565",
+            "denominator": "2598525973636501860964237312",
+            "float": -410.02069490534615
+          }
+        ],
+        [
+          {
+            "numerator": "63229920116848146225084258421",
+            "denominator": "149268320776391269089648640",
+            "float": 423.59905831304013
+          },
+          {
+            "numerator": "-383653336147081185316434184659",
+            "denominator": "1194146566211130152717189120",
+            "float": -321.2782643292797
+          }
+        ]
+      ]
+    },
+    {
+      "constraint": "cafe 178: ray P-A side containing B",
+      "remainingVertices": [
+        [
+          {
+            "numerator": "480230319541639860886460241685",
+            "denominator": "635434966280280619292033024",
+            "float": 755.7505410078702
+          },
+          {
+            "numerator": "-174681823898958796500265854641",
+            "denominator": "317717483140140309646016512",
+            "float": -549.8023658393055
+          }
+        ],
+        [
+          {
+            "numerator": "1359093584608626887",
+            "denominator": "1915612704260096",
+            "float": 709.4824447479199
+          },
+          {
+            "numerator": "-8352554045659424303",
+            "denominator": "15324901634080768",
+            "float": -545.031494824367
+          }
+        ],
+        [
+          {
+            "numerator": "9989713",
+            "denominator": "16384",
+            "float": 609.7236938476562
+          },
+          {
+            "numerator": "-70077657",
+            "denominator": "131072",
+            "float": -534.6500930786133
+          }
+        ],
+        [
+          {
+            "numerator": "2054654405325752429446945657",
+            "denominator": "4903798901315950733135872",
+            "float": 418.9923866523929
+          },
+          {
+            "numerator": "-57418101047889624061213844673",
+            "denominator": "156921564842110423460347904",
+            "float": -365.9031893141132
+          }
+        ],
+        [
+          {
+            "numerator": "63229920116848146225084258421",
+            "denominator": "149268320776391269089648640",
+            "float": 423.59905831304013
+          },
+          {
+            "numerator": "-383653336147081185316434184659",
+            "denominator": "1194146566211130152717189120",
+            "float": -321.2782643292797
+          }
+        ]
+      ]
+    },
+    {
+      "constraint": "cafe 178: ray P-B side containing A",
+      "remainingVertices": [
+        [
+          {
+            "numerator": "480230319541639860886460241685",
+            "denominator": "635434966280280619292033024",
+            "float": 755.7505410078702
+          },
+          {
+            "numerator": "-174681823898958796500265854641",
+            "denominator": "317717483140140309646016512",
+            "float": -549.8023658393055
+          }
+        ],
+        [
+          {
+            "numerator": "1359093584608626887",
+            "denominator": "1915612704260096",
+            "float": 709.4824447479199
+          },
+          {
+            "numerator": "-8352554045659424303",
+            "denominator": "15324901634080768",
+            "float": -545.031494824367
+          }
+        ],
+        [
+          {
+            "numerator": "9989713",
+            "denominator": "16384",
+            "float": 609.7236938476562
+          },
+          {
+            "numerator": "-70077657",
+            "denominator": "131072",
+            "float": -534.6500930786133
+          }
+        ],
+        [
+          {
+            "numerator": "2054654405325752429446945657",
+            "denominator": "4903798901315950733135872",
+            "float": 418.9923866523929
+          },
+          {
+            "numerator": "-57418101047889624061213844673",
+            "denominator": "156921564842110423460347904",
+            "float": -365.9031893141132
+          }
+        ],
+        [
+          {
+            "numerator": "63229920116848146225084258421",
+            "denominator": "149268320776391269089648640",
+            "float": 423.59905831304013
+          },
+          {
+            "numerator": "-383653336147081185316434184659",
+            "denominator": "1194146566211130152717189120",
+            "float": -321.2782643292797
+          }
+        ]
+      ]
+    }
+  ],
+  "region": [
+    [
+      {
+        "numerator": "480230319541639860886460241685",
+        "denominator": "635434966280280619292033024",
+        "float": 755.7505410078702
+      },
+      {
+        "numerator": "-174681823898958796500265854641",
+        "denominator": "317717483140140309646016512",
+        "float": -549.8023658393055
+      }
+    ],
+    [
+      {
+        "numerator": "1359093584608626887",
+        "denominator": "1915612704260096",
+        "float": 709.4824447479199
+      },
+      {
+        "numerator": "-8352554045659424303",
+        "denominator": "15324901634080768",
+        "float": -545.031494824367
+      }
+    ],
+    [
+      {
+        "numerator": "9989713",
+        "denominator": "16384",
+        "float": 609.7236938476562
+      },
+      {
+        "numerator": "-70077657",
+        "denominator": "131072",
+        "float": -534.6500930786133
+      }
+    ],
+    [
+      {
+        "numerator": "2054654405325752429446945657",
+        "denominator": "4903798901315950733135872",
+        "float": 418.9923866523929
+      },
+      {
+        "numerator": "-57418101047889624061213844673",
+        "denominator": "156921564842110423460347904",
+        "float": -365.9031893141132
+      }
+    ],
+    [
+      {
+        "numerator": "63229920116848146225084258421",
+        "denominator": "149268320776391269089648640",
+        "float": 423.59905831304013
+      },
+      {
+        "numerator": "-383653336147081185316434184659",
+        "denominator": "1194146566211130152717189120",
+        "float": -321.2782643292797
+      }
+    ]
+  ],
+  "positiveArea": true,
+  "areaSourceUnitsSquared": {
+    "numerator": "7993999856329555314541254808579898464120354542208171308646301232096495525436082875931553653",
+    "denominator": "424863290209968557315147515808442701259980055534772900599462044601104034073617272668160",
+    "float": 18815.463798670156
+  },
+  "footprintAreaSourceUnitsSquared": {
+    "numerator": "384252949555695",
+    "denominator": "2147483648",
+    "float": 178931.72314190073
+  },
+  "areaFractionOfFootprint": {
+    "numerator": "7993999856329555314541254808579898464120354542208171308646301232096495525436082875931553653",
+    "denominator": "76021520617007116507203054044702614589522554956881737364932329137884925409776357158374194400",
+    "float": 0.10515443247449567
+  },
+  "interiorWitness": [
+    {
+      "numerator": "4728542692376164642708158158916391179004824516051803998843820602351298659476880780071",
+      "denominator": "8103624157142039438536596599739889168929673300452669155110588924429016763183923200",
+      "float": 583.5096249137758
+    },
+    {
+      "numerator": "-469334643982647234505884754874979312377232047925603975750119082059318397650453926441",
+      "denominator": "1012953019642754929817074574967486146116209162556583644388823615553627095397990400",
+      "float": -463.33308147713575
+    }
+  ],
+  "witnessConstraintMargins": [
+    {
+      "constraint": "interior side of gap A to B",
+      "exactPositive": true,
+      "normalizedMarginSourceUnits": 68.22063826803827
+    },
+    {
+      "constraint": "cafe 143: ray P-A side containing B",
+      "exactPositive": true,
+      "normalizedMarginSourceUnits": 46.01521098718051
+    },
+    {
+      "constraint": "cafe 143: ray P-B side containing A",
+      "exactPositive": true,
+      "normalizedMarginSourceUnits": 26.391447531973803
+    },
+    {
+      "constraint": "cafe 178: ray P-A side containing B",
+      "exactPositive": true,
+      "normalizedMarginSourceUnits": 36.04290358145308
+    },
+    {
+      "constraint": "cafe 178: ray P-B side containing A",
+      "exactPositive": true,
+      "normalizedMarginSourceUnits": 56.83644856352485
+    },
+    {
+      "constraint": "footprint edge 0",
+      "exactPositive": true,
+      "normalizedMarginSourceUnits": 173.6521940052034
+    },
+    {
+      "constraint": "footprint edge 1",
+      "exactPositive": true,
+      "normalizedMarginSourceUnits": 234.65556834731066
+    },
+    {
+      "constraint": "footprint edge 2",
+      "exactPositive": true,
+      "normalizedMarginSourceUnits": 416.965648169318
+    },
+    {
+      "constraint": "footprint edge 3",
+      "exactPositive": true,
+      "normalizedMarginSourceUnits": 68.34651585293034
+    }
+  ],
+  "witnessRayChecks": [
+    {
+      "cafeVertex": 143,
+      "rayFractionAtGapLine": {
+        "numerator": "31819379254527980280699725615017816337016970636409518043352787160205354525124316889088",
+        "denominator": "456141259359050385975443515790912167625360418070659198626726441304042393186338310611813",
+        "float": 0.06975773096965437
+      },
+      "gapFractionAtoB": {
+        "numerator": "1144078356671836085328118088194313364259208048552936991848555115344573631278909543865328109593126",
+        "denominator": "1758194790747465365053780557970315946275254511072699592692259467466419212431309795702751098316051",
+        "float": 0.6507119476707421
+      },
+      "strictlyInsideFiniteGap": true
+    },
+    {
+      "cafeVertex": 178,
+      "rayFractionAtGapLine": {
+        "numerator": "254555034036223842245597804920142530696135765091276144346822297281642836200994535112704",
+        "denominator": "5119516081564331199931227711524044537089854292924084753250173237946770686454275160080629",
+        "float": 0.04972247962124604
+      },
+      "gapFractionAtoB": {
+        "numerator": "719994835783558225290483166337301418397178144719977663326235012165042531911606315383820849474408136",
+        "denominator": "1795717171418792485583931888114554355389590202811261621656088847557313084944509304240618480605556753",
+        "float": 0.4009511337549285
+      },
+      "strictlyInsideFiniteGap": true
+    }
+  ],
+  "floatExportValidationToleranceSourceUnits": 1e-07,
+  "boundaries": "Closed necessary XY region. Boundary positions may graze a jamb; strict witness avoids all boundaries.",
+  "cameraFitAttempted": false,
+  "admittedSourceAnchors": [],
+  "excludedClaims": [
+    "Native camera location or pose",
+    "Ray heights / native eye height",
+    "Other source scene occlusion",
+    "Unique native panel identity",
+    "Camera pixel residual or heldout gate"
+  ]
+}

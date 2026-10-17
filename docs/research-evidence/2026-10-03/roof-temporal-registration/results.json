@@ -1,0 +1,626 @@
+{
+  "inputs": [
+    {
+      "path": "docs/research-evidence/2026-09-30/woodland-video-15s.jpg",
+      "sha256": "eeae8794813fac85c57c32a9f6af9be859c668699c3f1ab42a731a988f717f3a"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/frame-15.25.png",
+      "sha256": "f604a7faa232502320a41547c8402935ffa463f96e5138459c330241dbdabb2a"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/frame-15.50.png",
+      "sha256": "78836f7f519835a069dba40d0943db28ac62f45a983eb4385e8857d25987db10"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/frame-15.75.png",
+      "sha256": "1ce6f65318928276367734b882c30d99dde25a0359eb1280043d3fd1a2468274"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-01/woodland-video-16s-camera-reference.png",
+      "sha256": "71da5c673445b2bb45639a051b0f72cca44d2df6e7a6d7a0d1f586915b46d257"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/PROTOCOL.md",
+      "sha256": "5aae7ebc070e87119755f9a5d7fec1909d60141d45f10ebe086b45efec8d469d"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/masks.json",
+      "sha256": "10d73ff25c5fc7aa175f75c6edf8c9a4e3ec3b7a0e76191320b7b8f1aebdfcd8"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/track.py",
+      "sha256": "1dbf0c2fd50f21690d479657eb628dc3a4927bedc4d9b1e96b7aa2284970f5d9"
+    }
+  ],
+  "opencvVersion": "4.13.0",
+  "cameraFilesRead": false,
+  "sourceModelRead": false,
+  "originalRuntimeExecuted": false,
+  "settings": {
+    "patchSize": 11,
+    "roofErosionRadius": 6,
+    "nccMinimum": 0.85,
+    "peakMarginMinimum": 0.05,
+    "forwardBackwardMaximumPixels": 1,
+    "heldoutRmsAndMaxAllowancePixels": 2,
+    "threads": 1
+  },
+  "seedCount": 3,
+  "adjacentSummary": [
+    {
+      "from": 15,
+      "to": 15.3,
+      "completeIndependentTracks": 3
+    },
+    {
+      "from": 15.3,
+      "to": 15.5,
+      "completeIndependentTracks": 3
+    },
+    {
+      "from": 15.5,
+      "to": 15.8,
+      "completeIndependentTracks": 3
+    },
+    {
+      "from": 15.8,
+      "to": 16,
+      "completeIndependentTracks": 3
+    }
+  ],
+  "tracks": [
+    {
+      "id": 0,
+      "role": "heldout",
+      "initialPixel": [
+        689.0,
+        204.0
+      ],
+      "transitions": [
+        {
+          "fromSeconds": 15,
+          "toSeconds": 15.3,
+          "sourcePixel": [
+            689.0,
+            204.0
+          ],
+          "pixel": [
+            656,
+            192
+          ],
+          "ncc": 0.9810125231742859,
+          "secondPixel": [
+            576,
+            201
+          ],
+          "secondNcc": 0.8164772391319275,
+          "peakMargin": 0.1645352840423584,
+          "reverse": {
+            "pixel": [
+              689,
+              204
+            ],
+            "ncc": 0.9810130000114441,
+            "secondPixel": [
+              656,
+              199
+            ],
+            "secondNcc": 0.7861988544464111,
+            "peakMargin": 0.19481414556503296
+          },
+          "forwardBackwardPixels": 0.0,
+          "admitted": true,
+          "failureReasons": []
+        },
+        {
+          "fromSeconds": 15.3,
+          "toSeconds": 15.5,
+          "sourcePixel": [
+            656.0,
+            192.0
+          ],
+          "pixel": [
+            620,
+            170
+          ],
+          "ncc": 0.9934863448143005,
+          "secondPixel": [
+            528,
+            174
+          ],
+          "secondNcc": 0.9061793684959412,
+          "peakMargin": 0.08730697631835938,
+          "reverse": {
+            "pixel": [
+              656,
+              192
+            ],
+            "ncc": 0.993486762046814,
+            "secondPixel": [
+              576,
+              201
+            ],
+            "secondNcc": 0.8261759281158447,
+            "peakMargin": 0.16731083393096924
+          },
+          "forwardBackwardPixels": 0.0,
+          "admitted": true,
+          "failureReasons": []
+        },
+        {
+          "fromSeconds": 15.5,
+          "toSeconds": 15.8,
+          "sourcePixel": [
+            620.0,
+            170.0
+          ],
+          "pixel": [
+            608,
+            160
+          ],
+          "ncc": 0.9831263422966003,
+          "secondPixel": [
+            512,
+            174
+          ],
+          "secondNcc": 0.9085608124732971,
+          "peakMargin": 0.07456552982330322,
+          "reverse": {
+            "pixel": [
+              620,
+              170
+            ],
+            "ncc": 0.9831263422966003,
+            "secondPixel": [
+              528,
+              174
+            ],
+            "secondNcc": 0.9326610565185547,
+            "peakMargin": 0.050465285778045654
+          },
+          "forwardBackwardPixels": 0.0,
+          "admitted": true,
+          "failureReasons": []
+        },
+        {
+          "fromSeconds": 15.8,
+          "toSeconds": 16,
+          "sourcePixel": [
+            608.0,
+            160.0
+          ],
+          "pixel": [
+            604,
+            151
+          ],
+          "ncc": 0.9875169396400452,
+          "secondPixel": [
+            504,
+            154
+          ],
+          "secondNcc": 0.9326636791229248,
+          "peakMargin": 0.05485326051712036,
+          "reverse": {
+            "pixel": [
+              608,
+              160
+            ],
+            "ncc": 0.9875169396400452,
+            "secondPixel": [
+              512,
+              174
+            ],
+            "secondNcc": 0.9284669160842896,
+            "peakMargin": 0.059050023555755615
+          },
+          "forwardBackwardPixels": 0.0,
+          "admitted": true,
+          "failureReasons": []
+        }
+      ],
+      "complete": true,
+      "lastPixel": [
+        604,
+        151
+      ]
+    },
+    {
+      "id": 1,
+      "role": "training",
+      "initialPixel": [
+        695.0,
+        203.0
+      ],
+      "transitions": [
+        {
+          "fromSeconds": 15,
+          "toSeconds": 15.3,
+          "sourcePixel": [
+            695.0,
+            203.0
+          ],
+          "pixel": [
+            662,
+            191
+          ],
+          "ncc": 0.972850501537323,
+          "secondPixel": [
+            668,
+            192
+          ],
+          "secondNcc": 0.7868362665176392,
+          "peakMargin": 0.18601423501968384,
+          "reverse": {
+            "pixel": [
+              695,
+              203
+            ],
+            "ncc": 0.9728508591651917,
+            "secondPixel": [
+              701,
+              203
+            ],
+            "secondNcc": 0.7331467270851135,
+            "peakMargin": 0.23970413208007812
+          },
+          "forwardBackwardPixels": 0.0,
+          "admitted": true,
+          "failureReasons": []
+        },
+        {
+          "fromSeconds": 15.3,
+          "toSeconds": 15.5,
+          "sourcePixel": [
+            662.0,
+            191.0
+          ],
+          "pixel": [
+            627,
+            169
+          ],
+          "ncc": 0.984043300151825,
+          "secondPixel": [
+            633,
+            169
+          ],
+          "secondNcc": 0.8073186874389648,
+          "peakMargin": 0.1767246127128601,
+          "reverse": {
+            "pixel": [
+              662,
+              191
+            ],
+            "ncc": 0.984043300151825,
+            "secondPixel": [
+              668,
+              191
+            ],
+            "secondNcc": 0.7536657452583313,
+            "peakMargin": 0.23037755489349365
+          },
+          "forwardBackwardPixels": 0.0,
+          "admitted": true,
+          "failureReasons": []
+        },
+        {
+          "fromSeconds": 15.5,
+          "toSeconds": 15.8,
+          "sourcePixel": [
+            627.0,
+            169.0
+          ],
+          "pixel": [
+            619,
+            159
+          ],
+          "ncc": 0.9465540647506714,
+          "secondPixel": [
+            613,
+            158
+          ],
+          "secondNcc": 0.8783003687858582,
+          "peakMargin": 0.06825369596481323,
+          "reverse": {
+            "pixel": [
+              626,
+              169
+            ],
+            "ncc": 0.950371503829956,
+            "secondPixel": [
+              632,
+              170
+            ],
+            "secondNcc": 0.8871652483940125,
+            "peakMargin": 0.0632062554359436
+          },
+          "forwardBackwardPixels": 1.0,
+          "admitted": true,
+          "failureReasons": []
+        },
+        {
+          "fromSeconds": 15.8,
+          "toSeconds": 16,
+          "sourcePixel": [
+            619.0,
+            159.0
+          ],
+          "pixel": [
+            618,
+            150
+          ],
+          "ncc": 0.9765259623527527,
+          "secondPixel": [
+            612,
+            150
+          ],
+          "secondNcc": 0.9181690216064453,
+          "peakMargin": 0.05835694074630737,
+          "reverse": {
+            "pixel": [
+              619,
+              159
+            ],
+            "ncc": 0.9765259623527527,
+            "secondPixel": [
+              613,
+              159
+            ],
+            "secondNcc": 0.942237377166748,
+            "peakMargin": 0.03428858518600464
+          },
+          "forwardBackwardPixels": 0.0,
+          "admitted": true,
+          "failureReasons": []
+        }
+      ],
+      "complete": true,
+      "lastPixel": [
+        618,
+        150
+      ]
+    },
+    {
+      "id": 2,
+      "role": "training",
+      "initialPixel": [
+        702.0,
+        205.0
+      ],
+      "transitions": [
+        {
+          "fromSeconds": 15,
+          "toSeconds": 15.3,
+          "sourcePixel": [
+            702.0,
+            205.0
+          ],
+          "pixel": [
+            670,
+            193
+          ],
+          "ncc": 0.9681369662284851,
+          "secondPixel": [
+            766,
+            191
+          ],
+          "secondNcc": 0.8824038505554199,
+          "peakMargin": 0.08573311567306519,
+          "reverse": {
+            "pixel": [
+              702,
+              205
+            ],
+            "ncc": 0.9681375026702881,
+            "secondPixel": [
+              870,
+              198
+            ],
+            "secondNcc": 0.8984128832817078,
+            "peakMargin": 0.06972461938858032
+          },
+          "forwardBackwardPixels": 0.0,
+          "admitted": true,
+          "failureReasons": []
+        },
+        {
+          "fromSeconds": 15.3,
+          "toSeconds": 15.5,
+          "sourcePixel": [
+            670.0,
+            193.0
+          ],
+          "pixel": [
+            635,
+            171
+          ],
+          "ncc": 0.9776281118392944,
+          "secondPixel": [
+            758,
+            167
+          ],
+          "secondNcc": 0.8781365156173706,
+          "peakMargin": 0.09949159622192383,
+          "reverse": {
+            "pixel": [
+              670,
+              193
+            ],
+            "ncc": 0.9776272773742676,
+            "secondPixel": [
+              765,
+              190
+            ],
+            "secondNcc": 0.8802402019500732,
+            "peakMargin": 0.09738707542419434
+          },
+          "forwardBackwardPixels": 0.0,
+          "admitted": true,
+          "failureReasons": []
+        },
+        {
+          "fromSeconds": 15.5,
+          "toSeconds": 15.8,
+          "sourcePixel": [
+            635.0,
+            171.0
+          ],
+          "pixel": [
+            626,
+            161
+          ],
+          "ncc": 0.9860541224479675,
+          "secondPixel": [
+            526,
+            174
+          ],
+          "secondNcc": 0.9097683429718018,
+          "peakMargin": 0.07628577947616577,
+          "reverse": {
+            "pixel": [
+              635,
+              171
+            ],
+            "ncc": 0.9860535264015198,
+            "secondPixel": [
+              758,
+              167
+            ],
+            "secondNcc": 0.8852185606956482,
+            "peakMargin": 0.10083496570587158
+          },
+          "forwardBackwardPixels": 0.0,
+          "admitted": true,
+          "failureReasons": []
+        },
+        {
+          "fromSeconds": 15.8,
+          "toSeconds": 16,
+          "sourcePixel": [
+            626.0,
+            161.0
+          ],
+          "pixel": [
+            625,
+            152
+          ],
+          "ncc": 0.9912418723106384,
+          "secondPixel": [
+            649,
+            168
+          ],
+          "secondNcc": 0.9021196961402893,
+          "peakMargin": 0.08912217617034912,
+          "reverse": {
+            "pixel": [
+              626,
+              161
+            ],
+            "ncc": 0.9912424087524414,
+            "secondPixel": [
+              526,
+              174
+            ],
+            "secondNcc": 0.9088047742843628,
+            "peakMargin": 0.08243763446807861
+          },
+          "forwardBackwardPixels": 0.0,
+          "admitted": true,
+          "failureReasons": []
+        }
+      ],
+      "complete": true,
+      "lastPixel": [
+        625,
+        152
+      ]
+    }
+  ],
+  "disputedTrack": {
+    "role": "disputed diagnostic heldout, never training",
+    "initialPixel": [
+      697.2108154296875,
+      190.02023315429688
+    ],
+    "lastPixel": [
+      697.2108154296875,
+      190.02023315429688
+    ],
+    "transitions": [
+      {
+        "fromSeconds": 15,
+        "toSeconds": 15.3,
+        "sourcePixel": [
+          697.2108154296875,
+          190.02023315429688
+        ],
+        "pixel": [
+          585,
+          197
+        ],
+        "ncc": 0.7868515849113464,
+        "secondPixel": [
+          591,
+          197
+        ],
+        "secondNcc": 0.7868515849113464,
+        "peakMargin": 0.0,
+        "reverse": {
+          "pixel": [
+            709,
+            203
+          ],
+          "ncc": 0.9144513010978699,
+          "secondPixel": [
+            645,
+            203
+          ],
+          "secondNcc": 0.8563488125801086,
+          "peakMargin": 0.05810248851776123
+        },
+        "forwardBackwardPixels": 17.534515111679262,
+        "admitted": false,
+        "failureReasons": [
+          "source support crosses observed roof mask",
+          "NCC below0.85",
+          "distinct peak margin below0.05",
+          "forward/backward localization exceeds1px"
+        ]
+      }
+    ],
+    "complete": false
+  },
+  "homography": {
+    "attempted": false,
+    "admitted": false,
+    "trainingCount": 2,
+    "heldoutCount": 1,
+    "failureReasons": [
+      "fewer than4 complete training tracks",
+      "fewer than3 independent complete heldouts"
+    ]
+  },
+  "retained16sAlternatives": [
+    {
+      "name": "best",
+      "pixel": [
+        619.4713745117188,
+        130.78497314453125
+      ]
+    },
+    {
+      "name": "second",
+      "pixel": [
+        630.6611938476562,
+        130.32887268066406
+      ]
+    }
+  ],
+  "acceptedSourceTexelIdentity": false,
+  "candidateSelection": null,
+  "limitations": [
+    "Approximate observed image masks are not source-face or physical-texel proof.",
+    "Small roof patches may have weak/repetitive texture; retained failures cannot justify changed thresholds.",
+    "Temporal image tracks do not independently establish exact atlas texel identity or native raster/camera equality."
+  ]
+}

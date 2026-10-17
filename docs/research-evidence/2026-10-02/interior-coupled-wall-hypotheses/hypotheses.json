@@ -1,0 +1,83 @@
+{
+  "generator": "scripts/research/prepare-interior-coupled-wall-hypotheses.py",
+  "generatorSha256": "72567fcb5c5d13e504c97f9ce88f731da2fc74ee4329b5fcb2928c5efb18e876",
+  "originalRuntimeExecuted": false,
+  "cameraFitAttempted": false,
+  "candidates": [
+    {
+      "id": "component-A-back-8-left-25",
+      "path": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-8-left-25.json",
+      "sha256": "f3a21dc32807f52efd253fdab485dfcf3f5d228eead49bf75eee1eeee830f816",
+      "training": 83,
+      "heldout": 53,
+      "unresolvedAssignments": 0,
+      "normalDotProduct": 0.0
+    },
+    {
+      "id": "component-A-back-12-left-25",
+      "path": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-12-left-25.json",
+      "sha256": "e8718d6f1de6244e42540275db33959f7aa12853d95d870686020eba21ef5cd1",
+      "training": 83,
+      "heldout": 53,
+      "unresolvedAssignments": 0,
+      "normalDotProduct": 3.4403289986417827e-06
+    },
+    {
+      "id": "component-A-back-25-left-8",
+      "path": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-25-left-8.json",
+      "sha256": "8fe0f5a211e0a779c669b4f67afdb50b4b83f6ba50564dfd7a458de2c18f20fc",
+      "training": 83,
+      "heldout": 53,
+      "unresolvedAssignments": 0,
+      "normalDotProduct": 0.0
+    },
+    {
+      "id": "component-A-back-25-left-12",
+      "path": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-25-left-12.json",
+      "sha256": "f5c16d4036b9842f05d6c2f88157e8497214a54c31c6fe5be28b01dfa5896410",
+      "training": 83,
+      "heldout": 53,
+      "unresolvedAssignments": 0,
+      "normalDotProduct": 3.4403289986417827e-06
+    },
+    {
+      "id": "component-B-back-10-left-26",
+      "path": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-B-back-10-left-26.json",
+      "sha256": "a0df0babedaa0ee6d731d9a3741d338979bd14376d4f01fbff902db3a952211d",
+      "training": 83,
+      "heldout": 53,
+      "unresolvedAssignments": 0,
+      "normalDotProduct": 0.004680450050923032
+    },
+    {
+      "id": "component-B-back-14-left-26",
+      "path": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-B-back-14-left-26.json",
+      "sha256": "a6a4077647feffdc0e62c3d18b7f4765fc390b2cee8af41015bcb4b1a0f563f4",
+      "training": 83,
+      "heldout": 53,
+      "unresolvedAssignments": 0,
+      "normalDotProduct": 0.00407991374852032
+    },
+    {
+      "id": "component-B-back-26-left-10",
+      "path": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-B-back-26-left-10.json",
+      "sha256": "cf2b0562efc97157dd71e0bd5100dfbd3e3dc4c659bf7d213515bc6221846935",
+      "training": 83,
+      "heldout": 53,
+      "unresolvedAssignments": 0,
+      "normalDotProduct": 0.004680450050923032
+    },
+    {
+      "id": "component-B-back-26-left-14",
+      "path": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-B-back-26-left-14.json",
+      "sha256": "5ffb86ab92c81e3ffbaf19f324b608e3dce274a0b7e9b6f332b48b5857918670",
+      "training": 83,
+      "heldout": 53,
+      "unresolvedAssignments": 0,
+      "normalDotProduct": 0.00407991374852032
+    }
+  ],
+  "sourceComponentGrouping": "Separated local position clusters: A around(-1200,8850,900), B around(0,0,100); all three candidate inner walls retained per component.",
+  "normalPerpendicularityLimit": 0.02,
+  "hypothesisSelection": "All ordered pairs satisfying source normal dot bound; never rank or discard with camera residual."
+}

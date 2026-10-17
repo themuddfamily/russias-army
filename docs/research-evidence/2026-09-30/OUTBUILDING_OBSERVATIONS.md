@@ -1,0 +1,11 @@
+# Woodland stone outbuilding: asymmetric facade
+
+The [sharp player-guide still](woodland-mark-wiering.jpg) and [decoded 15-second frame](woodland-video-15s.jpg) both show an open bay in a shorter left section, a break before the longer right roof, one broad closed plank door and a narrow door near the far-right end. The left roof has a tiny pale blue light. The bay has a thin dark near-flush lintel, rather than the copy’s projecting pale canopy. The visible right end does not show the copy’s added window.
+
+The copy now fits those visible relationships into its existing authored 18×7m footprint: a 7m left section and 11m right section, the front bay 5m left of centre, and closed doors at offsets +1.5m and +7.5m. The left/right eaves are 3.15/3.4m above the same existing floor. The roof pitches, bay width and these coordinates are authoring choices, not recovered original dimensions.
+
+The previous copy had a bright opposed rear opening framing the bank through the bay. Neither inspected source establishes that rear route. The revised copy closes its rear while retaining front-bay interior access, to fit the observed dark front view. **Rear closure is an explicit authored fit; historical rear topology remains unknown.** Actual client movement must enter, stop at the rear wall and return through the front, and both closed door faces must remain solid.
+
+Shared wall/lintel/roof-slab colliders and visible geometry use the same section metadata. As before, pitched upper roof planes are visual geometry above solid slab support; their exact historical collision shape is not established. Terrain, overall building placement, bank and yard remain authored. This correction does not prove the complete Woodland building inventory, spacing, interiors or routes.
+
+The latest surface pass replaces fine stucco-like mottling with an authored weathered masonry map: broad irregular gray/green stone patches, broken partial joints and multi-scale stains. Stone wall faces use projected world coordinates so a long front panel does not stretch stones relative to the short bay piers. Geometry, shared solids, door/bay dimensions and lighting are unchanged. Exact stone pattern and original metric scale remain unknown.

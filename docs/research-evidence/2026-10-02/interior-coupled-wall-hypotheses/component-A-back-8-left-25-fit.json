@@ -1,0 +1,4698 @@
+{
+  "status": "diagnostic-fit-not-native-camera-proof",
+  "landmarks": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-8-left-25.json",
+  "landmarksSha256": "f3a21dc32807f52efd253fdab485dfcf3f5d228eead49bf75eee1eeee830f816",
+  "scene": "public/assets/original-scenes/woodland/scene.json",
+  "sceneSha256": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107",
+  "reference": "docs/research-evidence/2026-09-30/woodland-video-11s.jpg",
+  "referenceSha256": "6d234e9b3407d7dc3d57fe70e1cfcc5e82795f15ccd95a3d1260213041f4f3ce",
+  "imageSize": [
+    1280,
+    574
+  ],
+  "verticalFovDegrees": 50,
+  "principalPoint": [
+    640.0,
+    287.0
+  ],
+  "horizontalRecordingStretch": 2.139104900828799,
+  "verticalRecordingScale": 1.0,
+  "rollConstrained": true,
+  "fitVerticalCrop": false,
+  "fixedHorizontalStretch": null,
+  "browserHookCompatible": true,
+  "effectiveCameraAspect": 1.0424758299279397,
+  "position": [
+    -21.586910849368437,
+    10.459136555256094,
+    -135.96924257340763
+  ],
+  "target": [
+    -20.871015820842384,
+    10.349204206344085,
+    -135.2797433444056
+  ],
+  "up": [
+    0.07917992589759959,
+    0.9939390719066679,
+    0.0762604790973832
+  ],
+  "worldCameraBasisColumnMajor": [
+    -0.6937037173509553,
+    -6.938893903907228e-18,
+    0.7202604754763835,
+    0.07917992589759959,
+    0.9939390719066679,
+    0.0762604790973832,
+    -0.7158950285260519,
+    0.10993234891200945,
+    -0.6894992290020141
+  ],
+  "cvRotationVector": [
+    -1.2110149915716266,
+    0.15700410255998962,
+    -2.847720599462289
+  ],
+  "cvTranslation": [
+    82.95835100375574,
+    -1.6825851018911127,
+    110.35444752976106
+  ],
+  "fitRmsPixels": 57.56026507279234,
+  "heldoutRmsPixels": 71.56606703758476,
+  "heldoutMaxPixels": 268.7433085879292,
+  "heldoutBehindCameraCount": 0,
+  "points": [
+    {
+      "id": "component-A-back-8-left-25-match-2",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.6283924437211117,
+        0.2986016730394809,
+        0.0730058832394074
+      ],
+      "pixel": [
+        257.14117431640625,
+        179.4601593017578
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 2,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        274.1650085449219,
+        412.3600158691406
+      ],
+      "world": [
+        -11.54458453979086,
+        10.706748518046076,
+        -130.2615367742992
+      ],
+      "projectedPixel": [
+        301.2508670004725,
+        205.1105185508037
+      ],
+      "errorPixels": 51.025541822580216
+    },
+    {
+      "id": "component-A-back-8-left-25-match-4",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.43968121193306176,
+        0.47078050970899316,
+        0.08953827835794506
+      ],
+      "pixel": [
+        269.50311279296875,
+        248.40721130371094
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 4,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        278.3917541503906,
+        442.0317687988281
+      ],
+      "world": [
+        -11.63954555843512,
+        10.09269069043208,
+        -130.261533045171
+      ],
+      "projectedPixel": [
+        309.05215581811524,
+        239.37508140918004
+      ],
+      "errorPixels": 40.56730425646455
+    },
+    {
+      "id": "component-A-back-8-left-25-match-5",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.5983008237158587,
+        0.31065891869285267,
+        0.09104025759128868
+      ],
+      "pixel": [
+        265.8447570800781,
+        189.6110076904297
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 5,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        278.7757568359375,
+        417.0914306640625
+      ],
+      "world": [
+        -11.648172830948159,
+        10.608831745235406,
+        -130.26153617965784
+      ],
+      "projectedPixel": [
+        307.87883365369254,
+        210.52616764365658
+      ],
+      "errorPixels": 46.95005334678062
+    },
+    {
+      "id": "component-A-back-8-left-25-match-6",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.6266625137737641,
+        0.2631947695512882,
+        0.11014271667494767
+      ],
+      "pixel": [
+        276.8028259277344,
+        177.85264587402344
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 6,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        283.6595764160156,
+        412.63201904296875
+      ],
+      "world": [
+        -11.757896132392876,
+        10.701119404106604,
+        -130.261536740114
+      ],
+      "projectedPixel": [
+        314.3429512021755,
+        205.23699679935805
+      ],
+      "errorPixels": 46.46680192591922
+    },
+    {
+      "id": "component-A-back-8-left-25-match-7",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.13259622880900102,
+        0.7410343550834863,
+        0.12636941610751273
+      ],
+      "pixel": [
+        299.4396667480469,
+        355.2329406738281
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 7,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        287.80816650390625,
+        490.31585693359375
+      ],
+      "world": [
+        -11.851101254597028,
+        9.093450020741418,
+        -130.2615269768556
+      ],
+      "projectedPixel": [
+        325.2843340584236,
+        295.420640587399
+      ],
+      "errorPixels": 65.15717972728027
+    },
+    {
+      "id": "component-A-back-8-left-25-match-8",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.36381855299890176,
+        0.5001296780752855,
+        0.1360517689258127
+      ],
+      "pixel": [
+        298.98046875,
+        273.7000427246094
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 8,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        290.2835998535156,
+        453.9599304199219
+      ],
+      "world": [
+        -11.906716069020852,
+        9.845837023584881,
+        -130.26153154604677
+      ],
+      "projectedPixel": [
+        326.40270789563215,
+        253.6635719454298
+      ],
+      "errorPixels": 33.9623226685861
+    },
+    {
+      "id": "component-A-back-8-left-25-match-9",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.7233049056848035,
+        0.13932505004542395,
+        0.13737004426977256
+      ],
+      "pixel": [
+        291.288330078125,
+        145.98989868164062
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 9,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        290.6206359863281,
+        397.43658447265625
+      ],
+      "world": [
+        -11.914288158159692,
+        11.015589383821245,
+        -130.26153864986716
+      ],
+      "projectedPixel": [
+        323.15058744257976,
+        187.01895847058648
+      ],
+      "errorPixels": 51.94792769229246
+    },
+    {
+      "id": "component-A-back-8-left-25-match-10",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.7233049056848035,
+        0.13932505004542395,
+        0.13737004426977256
+      ],
+      "pixel": [
+        291.288330078125,
+        145.98989868164062
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 10,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        290.6206359863281,
+        397.43658447265625
+      ],
+      "world": [
+        -11.914288158159692,
+        11.015589383821245,
+        -130.26153864986716
+      ],
+      "projectedPixel": [
+        323.15058744257976,
+        187.01895847058648
+      ],
+      "errorPixels": 51.94792769229246
+    },
+    {
+      "id": "component-A-back-8-left-25-match-11",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.2986877482752983,
+        0.5632533477111775,
+        0.13805890401352414
+      ],
+      "pixel": [
+        302.770263671875,
+        296.0832824707031
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 11,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        290.7967529296875,
+        464.20068359375
+      ],
+      "world": [
+        -11.918244924405636,
+        9.633904325777864,
+        -130.261530258995
+      ],
+      "projectedPixel": [
+        327.7955609924825,
+        265.6029694601345
+      ],
+      "errorPixels": 39.43748200896
+    },
+    {
+      "id": "component-A-back-8-left-25-match-12",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.6637631352665765,
+        0.1787435454852487,
+        0.15749331924817483
+      ],
+      "pixel": [
+        304.7971496582031,
+        167.61734008789062
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 12,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        295.76544189453125,
+        406.7985534667969
+      ],
+      "world": [
+        -12.029874960719528,
+        10.821843151289778,
+        -130.2615374732605
+      ],
+      "projectedPixel": [
+        331.1690123834682,
+        198.0096927432136
+      ],
+      "errorPixels": 40.238914542091514
+    },
+    {
+      "id": "component-A-back-8-left-25-match-13",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.25150275897430274,
+        0.5845095894125437,
+        0.1639876516131535
+      ],
+      "pixel": [
+        317.716796875,
+        307.56109619140625
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 13,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        297.4258117675781,
+        471.6197509765625
+      ],
+      "world": [
+        -12.067177989855411,
+        9.480366501072753,
+        -130.26152932657104
+      ],
+      "projectedPixel": [
+        337.7423858102189,
+        274.74477273172283
+      ],
+      "errorPixels": 38.443924066267336
+    },
+    {
+      "id": "component-A-back-8-left-25-match-14",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.14636501939183932,
+        0.6842916265201076,
+        0.16934335408805312
+      ],
+      "pixel": [
+        322.6956787109375,
+        349.0713806152344
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 14,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        298.7950744628906,
+        488.15093994140625
+      ],
+      "world": [
+        -12.097940801833072,
+        9.1382530436143,
+        -130.2615272489411
+      ],
+      "projectedPixel": [
+        340.7596728215291,
+        294.1470112623382
+      ],
+      "errorPixels": 57.81863222215524
+    },
+    {
+      "id": "component-A-back-8-left-25-match-15",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.14636501939183932,
+        0.6842916265201076,
+        0.16934335408805312
+      ],
+      "pixel": [
+        322.6956787109375,
+        349.0713806152344
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 15,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        298.7950744628906,
+        488.15093994140625
+      ],
+      "world": [
+        -12.097940801833072,
+        9.1382530436143,
+        -130.2615272489411
+      ],
+      "projectedPixel": [
+        340.7596728215291,
+        294.1470112623382
+      ],
+      "errorPixels": 57.81863222215524
+    },
+    {
+      "id": "component-A-back-8-left-25-match-16",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.4700820183408869,
+        0.36033255382988366,
+        0.1695854278292294
+      ],
+      "pixel": [
+        315.38665771484375,
+        235.32891845703125
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 16,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        298.8569641113281,
+        437.2517395019531
+      ],
+      "world": [
+        -12.099331257897328,
+        10.191613541836439,
+        -130.26153364592224
+      ],
+      "projectedPixel": [
+        337.62804188002497,
+        234.3269538551029
+      ],
+      "errorPixels": 22.263941758967373
+    },
+    {
+      "id": "component-A-back-8-left-25-match-17",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.4453535111265132,
+        0.37309082489404155,
+        0.18155566397944523
+      ],
+      "pixel": [
+        322.775634765625,
+        245.26492309570312
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 17,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        301.9173278808594,
+        441.139892578125
+      ],
+      "world": [
+        -12.168087527638436,
+        10.111148095893874,
+        -130.26153315726148
+      ],
+      "projectedPixel": [
+        342.34849464055566,
+        239.0344273460316
+      ],
+      "errorPixels": 20.54059203066809
+    },
+    {
+      "id": "component-A-back-8-left-25-match-18",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.6621492715268485,
+        0.15424818061121584,
+        0.1836025478619356
+      ],
+      "pixel": [
+        319.6156005859375,
+        165.7039031982422
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 18,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        302.4406433105469,
+        407.05230712890625
+      ],
+      "world": [
+        -12.17984469755448,
+        10.81659171154932,
+        -130.26153744136886
+      ],
+      "projectedPixel": [
+        340.9510647878283,
+        198.10547011904447
+      ],
+      "errorPixels": 38.79514881571395
+    },
+    {
+      "id": "component-A-back-8-left-25-match-19",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.1291307402855083,
+        0.6762289609420192,
+        0.19464029877247246
+      ],
+      "pixel": [
+        336.7968444824219,
+        352.6628112792969
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 19,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        305.2626037597656,
+        490.8607482910156
+      ],
+      "world": [
+        -12.243244831805496,
+        9.082173477558515,
+        -130.261526908374
+      ],
+      "projectedPixel": [
+        350.357391446107,
+        298.05264289280217
+      ],
+      "errorPixels": 56.268631804546445
+    },
+    {
+      "id": "component-A-back-8-left-25-match-20",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.36865995012743746,
+        0.43467829212236814,
+        0.19666175775019434
+      ],
+      "pixel": [
+        333.75726318359375,
+        271.76507568359375
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 20,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        305.7794189453125,
+        453.1986999511719
+      ],
+      "world": [
+        -12.254855962697043,
+        9.861590711244046,
+        -130.26153164171774
+      ],
+      "projectedPixel": [
+        348.8009258803214,
+        253.56644697450804
+      ],
+      "errorPixels": 23.61147759510349
+    },
+    {
+      "id": "component-A-back-8-left-25-match-22",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.6266071979390291,
+        0.15982980902447042,
+        0.21356299303650056
+      ],
+      "pixel": [
+        338.7794494628906,
+        180.17617797851562
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 22,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        310.1004638671875,
+        412.6407165527344
+      ],
+      "world": [
+        -12.351935575640375,
+        10.70093940887798,
+        -130.26153673902093
+      ],
+      "projectedPixel": [
+        352.75048699566344,
+        204.69420948220485
+      ],
+      "errorPixels": 28.219209034947173
+    },
+    {
+      "id": "component-A-back-8-left-25-match-23",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.6266071979390291,
+        0.15982980902447042,
+        0.21356299303650056
+      ],
+      "pixel": [
+        338.7794494628906,
+        180.17617797851562
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 23,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        310.1004638671875,
+        412.6407165527344
+      ],
+      "world": [
+        -12.351935575640375,
+        10.70093940887798,
+        -130.26153673902093
+      ],
+      "projectedPixel": [
+        352.75048699566344,
+        204.69420948220485
+      ],
+      "errorPixels": 28.219209034947173
+    },
+    {
+      "id": "component-A-back-8-left-25-match-24",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.7554160388845086,
+        0.009806332047543897,
+        0.23477762906794747
+      ],
+      "pixel": [
+        439.8966064453125,
+        143.00230407714844
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 24,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        315.5242919921875,
+        392.38763427734375
+      ],
+      "world": [
+        -12.473791086186116,
+        11.120077561382294,
+        -130.2615392844162
+      ],
+      "projectedPixel": [
+        359.7780609025202,
+        179.52399119224157
+      ],
+      "errorPixels": 88.05007080988203
+    },
+    {
+      "id": "component-A-back-8-left-25-match-25",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.6536267511646774,
+        0.10955601719564013,
+        0.23681723163968255
+      ],
+      "pixel": [
+        350.9018249511719,
+        172.0635986328125
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 25,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        316.0457458496094,
+        408.392333984375
+      ],
+      "world": [
+        -12.485506432719557,
+        10.788859815096709,
+        -130.2615372729551
+      ],
+      "projectedPixel": [
+        361.55965689238144,
+        199.32292375465883
+      ],
+      "errorPixels": 29.268757879103603
+    },
+    {
+      "id": "component-A-back-8-left-25-match-27",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.37078912453811885,
+        0.3845877205952649,
+        0.24462315486661623
+      ],
+      "pixel": [
+        360.0665283203125,
+        270.3341979980469
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 27,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        318.04144287109375,
+        452.8639221191406
+      ],
+      "world": [
+        -12.53034315575779,
+        9.86851894864066,
+        -130.26153168379244
+      ],
+      "projectedPixel": [
+        367.30079137819126,
+        253.81137678855185
+      ],
+      "errorPixels": 18.037133439422348
+    },
+    {
+      "id": "component-A-back-8-left-25-match-29",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.1274279830289078,
+        0.6113335077896279,
+        0.2612385091814643
+      ],
+      "pixel": [
+        374.918701171875,
+        351.8533630371094
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 29,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        322.2893981933594,
+        491.12847900390625
+      ],
+      "world": [
+        -12.625780686712035,
+        9.076632782327842,
+        -130.2615268747258
+      ],
+      "projectedPixel": [
+        376.08681850075897,
+        300.43791602236666
+      ],
+      "errorPixels": 51.42871464289045
+    },
+    {
+      "id": "component-A-back-8-left-25-match-30",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.23625130992991528,
+        0.5020771219473051,
+        0.2616715681227796
+      ],
+      "pixel": [
+        371.4322509765625,
+        315.6773681640625
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 30,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        322.4001159667969,
+        474.0177917480469
+      ],
+      "world": [
+        -12.628268149533088,
+        9.430738974510476,
+        -130.26152902518672
+      ],
+      "projectedPixel": [
+        375.2768247779825,
+        279.7961307763635
+      ],
+      "errorPixels": 36.08661724499782
+    },
+    {
+      "id": "component-A-back-8-left-25-match-31",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.5619208607997883,
+        0.17260959164116663,
+        0.265469547559045
+      ],
+      "pixel": [
+        367.8994140625,
+        203.0700225830078
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 31,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        323.3711242675781,
+        422.81158447265625
+      ],
+      "world": [
+        -12.650083500150576,
+        10.490452988522025,
+        -130.2615354607523
+      ],
+      "projectedPixel": [
+        373.81920818563435,
+        217.04969286046915
+      ],
+      "errorPixels": 15.181407824270844
+    },
+    {
+      "id": "component-A-back-8-left-25-match-32",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.6742127816746597,
+        0.060280428652268174,
+        0.2655067896730721
+      ],
+      "pixel": [
+        365.8968200683594,
+        163.5016326904297
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 32,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        323.3806457519531,
+        405.155517578125
+      ],
+      "world": [
+        -12.65029741646815,
+        10.855845828882856,
+        -130.26153767975623
+      ],
+      "projectedPixel": [
+        372.7948667860445,
+        195.0528878748341
+      ],
+      "errorPixels": 32.29651300420486
+    },
+    {
+      "id": "component-A-back-8-left-25-match-33",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.4947389061060772,
+        0.23752908790773042,
+        0.26773200598619235
+      ],
+      "pixel": [
+        369.29949951171875,
+        227.994873046875
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 33,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        323.9495544433594,
+        433.3748474121094
+      ],
+      "world": [
+        -12.663078916443359,
+        10.271845941325092,
+        -130.26153413316774
+      ],
+      "projectedPixel": [
+        375.3456843412368,
+        230.13818813086726
+      ],
+      "errorPixels": 6.414838309884581
+    },
+    {
+      "id": "component-A-back-8-left-25-match-34",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.6474872757810244,
+        0.0821148035703421,
+        0.2703979206486335
+      ],
+      "pixel": [
+        368.68438720703125,
+        173.270751953125
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 34,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        324.6311340332031,
+        409.357666015625
+      ],
+      "world": [
+        -12.678391759509893,
+        10.76888223940577,
+        -130.26153715163275
+      ],
+      "projectedPixel": [
+        375.0168399989879,
+        200.2672462349472
+      ],
+      "errorPixels": 27.729238393270357
+    },
+    {
+      "id": "component-A-back-8-left-25-match-35",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.6479136929351053,
+        0.07411248098974506,
+        0.2779738260751497
+      ],
+      "pixel": [
+        374.0484313964844,
+        173.6812286376953
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 35,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        326.5680236816406,
+        409.2906188964844
+      ],
+      "world": [
+        -12.7219072750354,
+        10.77026978157171,
+        -130.26153716005922
+      ],
+      "projectedPixel": [
+        378.08559463545714,
+        200.12639982152393
+      ],
+      "errorPixels": 26.75155632781227
+    },
+    {
+      "id": "component-A-back-8-left-25-match-36",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.590675196238989,
+        0.12926720978659403,
+        0.28005759397441693
+      ],
+      "pixel": [
+        374.76092529296875,
+        194.79705810546875
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 36,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        327.10076904296875,
+        418.2904357910156
+      ],
+      "world": [
+        -12.733876304381345,
+        10.584018297735371,
+        -130.26153602896756
+      ],
+      "projectedPixel": [
+        379.4551567453862,
+        211.38960921133958
+      ],
+      "errorPixels": 17.2437977583188
+    },
+    {
+      "id": "component-A-back-8-left-25-match-38",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.12405488165395506,
+        0.5942048253926528,
+        0.28174029295339215
+      ],
+      "pixel": [
+        383.4143371582031,
+        353.7415466308594
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 38,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        327.5309753417969,
+        491.6588439941406
+      ],
+      "world": [
+        -12.743541619538012,
+        9.065656862754857,
+        -130.26152680806985
+      ],
+      "projectedPixel": [
+        384.3041386253508,
+        301.7402684049943
+      ],
+      "errorPixels": 52.008890430144405
+    },
+    {
+      "id": "component-A-back-8-left-25-match-39",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.35448182236755943,
+        0.36170796320679127,
+        0.2838102144256493
+      ],
+      "pixel": [
+        380.6056213378906,
+        276.2315673828125
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 39,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        328.0601806640625,
+        455.427978515625
+      ],
+      "world": [
+        -12.755431115894094,
+        9.815455723679328,
+        -130.26153136154335
+      ],
+      "projectedPixel": [
+        383.1036835517393,
+        257.51718148211995
+      ],
+      "errorPixels": 18.880374849676546
+    },
+    {
+      "id": "component-A-back-8-left-25-match-40",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.6020463850446944,
+        0.10899491699690744,
+        0.28895869795839807
+      ],
+      "pixel": [
+        380.7052001953125,
+        190.27780151367188
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 40,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        329.37646484375,
+        416.50250244140625
+      ],
+      "world": [
+        -12.78500367554063,
+        10.621019632681145,
+        -130.261536253674
+      ],
+      "projectedPixel": [
+        382.9876652756221,
+        209.117472168608
+      ],
+      "errorPixels": 18.97742967920825
+    },
+    {
+      "id": "component-A-back-8-left-25-match-41",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.3087903606044118,
+        0.4002609950174912,
+        0.290948644378097
+      ],
+      "pixel": [
+        385.95953369140625,
+        291.30108642578125
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 41,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        329.8852233886719,
+        462.6122131347656
+      ],
+      "world": [
+        -12.796433800317299,
+        9.666777770147137,
+        -130.26153045863302
+      ],
+      "projectedPixel": [
+        386.41002131582286,
+        266.49068670171886
+      ],
+      "errorPixels": 24.814489186108744
+    },
+    {
+      "id": "component-A-back-8-left-25-match-42",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.3087903606044118,
+        0.4002609950174912,
+        0.290948644378097
+      ],
+      "pixel": [
+        385.95953369140625,
+        291.30108642578125
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 42,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        329.8852233886719,
+        462.6122131347656
+      ],
+      "world": [
+        -12.796433800317299,
+        9.666777770147137,
+        -130.26153045863302
+      ],
+      "projectedPixel": [
+        386.41002131582286,
+        266.49068670171886
+      ],
+      "errorPixels": 24.814489186108744
+    },
+    {
+      "id": "component-A-back-8-left-25-match-43",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.2579415221374698,
+        0.4472082445770924,
+        0.2948502332854378
+      ],
+      "pixel": [
+        389.4231872558594,
+        307.9905090332031
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 43,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        330.8827209472656,
+        470.60736083984375
+      ],
+      "world": [
+        -12.81884427710035,
+        9.501317945684889,
+        -130.26152945380764
+      ],
+      "projectedPixel": [
+        388.4465917493873,
+        276.4109485829943
+      ],
+      "errorPixels": 31.594657412474888
+    },
+    {
+      "id": "component-A-back-8-left-25-match-44",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.09476019785018408,
+        0.606310483086658,
+        0.2989293190631579
+      ],
+      "pixel": [
+        394.43646240234375,
+        362.55517578125
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 44,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        331.92559814453125,
+        496.26495361328125
+      ],
+      "world": [
+        -12.842274284538005,
+        8.970333284360827,
+        -130.26152622917672
+      ],
+      "projectedPixel": [
+        391.52271373253143,
+        307.9194512581799
+      ],
+      "errorPixels": 54.71336514483127
+    },
+    {
+      "id": "component-A-back-8-left-25-match-45",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.3704686808779516,
+        0.3264538015118701,
+        0.3030775176101783
+      ],
+      "pixel": [
+        391.9560852050781,
+        270.3201599121094
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 45,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        332.98614501953125,
+        452.914306640625
+      ],
+      "world": [
+        -12.86610127129578,
+        9.867476239439034,
+        -130.26153167746017
+      ],
+      "projectedPixel": [
+        390.84040829941546,
+        254.692578343004
+      ],
+      "errorPixels": 15.667355892328208
+    },
+    {
+      "id": "component-A-back-8-left-25-match-46",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.28584336206168726,
+        0.01783611702617938,
+        0.6963205209121334
+      ],
+      "pixel": [
+        386.4463195800781,
+        151.87998962402344
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 46,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        333.1400451660156,
+        398.875
+      ],
+      "world": [
+        -12.869558899467382,
+        10.985821333633588,
+        -130.261538469088
+      ],
+      "projectedPixel": [
+        388.06337743502314,
+        186.69445082689452
+      ],
+      "errorPixels": 34.85199542282271
+    },
+    {
+      "id": "component-A-back-8-left-25-match-47",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.12785886426789717,
+        0.5632990879529772,
+        0.3088420477791256
+      ],
+      "pixel": [
+        398.4389343261719,
+        351.45501708984375
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 47,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        334.4599304199219,
+        491.06072998046875
+      ],
+      "world": [
+        -12.89921236336223,
+        9.078034850424514,
+        -130.26152688324044
+      ],
+      "projectedPixel": [
+        395.29991499319914,
+        301.90297218206376
+      ],
+      "errorPixels": 49.65137054417956
+    },
+    {
+      "id": "component-A-back-8-left-25-match-48",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.12785886426789717,
+        0.5632990879529772,
+        0.3088420477791256
+      ],
+      "pixel": [
+        398.4389343261719,
+        351.45501708984375
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 48,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        334.4599304199219,
+        491.06072998046875
+      ],
+      "world": [
+        -12.89921236336223,
+        9.078034850424514,
+        -130.26152688324044
+      ],
+      "projectedPixel": [
+        395.29991499319914,
+        301.90297218206376
+      ],
+      "errorPixels": 49.65137054417956
+    },
+    {
+      "id": "component-A-back-8-left-25-match-49",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.4326495018396639,
+        0.25838705541337204,
+        0.308963442746964
+      ],
+      "pixel": [
+        393.9299621582031,
+        248.29258728027344
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 49,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        334.490966796875,
+        443.13739013671875
+      ],
+      "world": [
+        -12.89990964828202,
+        10.069809823281505,
+        -130.26153290621716
+      ],
+      "projectedPixel": [
+        392.7334129328061,
+        242.56879790483745
+      ],
+      "errorPixels": 5.8475204029701375
+    },
+    {
+      "id": "component-A-back-8-left-25-match-50",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.22967202513745621,
+        0.46136453211557976,
+        0.308963442746964
+      ],
+      "pixel": [
+        397.666015625,
+        316.8804626464844
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 50,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        334.490966796875,
+        475.0522766113281
+      ],
+      "world": [
+        -12.89990964828202,
+        9.409330278861406,
+        -130.2615288951733
+      ],
+      "projectedPixel": [
+        394.48202966538076,
+        282.225630334794
+      ],
+      "errorPixels": 34.800792651065166
+    },
+    {
+      "id": "component-A-back-8-left-25-match-51",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.2881241706567256,
+        0.4019253512088417,
+        0.3099504781344327
+      ],
+      "pixel": [
+        396.7425842285156,
+        297.5919494628906
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 51,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        334.7433166503906,
+        465.86163330078125
+      ],
+      "world": [
+        -12.905579116327027,
+        9.599530921170034,
+        -130.26153005024784
+      ],
+      "projectedPixel": [
+        394.38896646920443,
+        270.8836958512101
+      ],
+      "errorPixels": 26.81175726323789
+    },
+    {
+      "id": "component-A-back-8-left-25-match-52",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.17068399533852485,
+        0.5187282327873285,
+        0.3105877718741467
+      ],
+      "pixel": [
+        399.244384765625,
+        336.4961242675781
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 52,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        334.90625,
+        484.3271789550781
+      ],
+      "world": [
+        -12.909239690748638,
+        9.217385893302819,
+        -130.26152772950908
+      ],
+      "projectedPixel": [
+        395.655007153305,
+        293.69402702038934
+      ],
+      "errorPixels": 42.952335913214654
+    },
+    {
+      "id": "component-A-back-8-left-25-match-53",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.5967465458051261,
+        0.07830669877977203,
+        0.3249467554151019
+      ],
+      "pixel": [
+        399.9196472167969,
+        191.31076049804688
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 53,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        338.57733154296875,
+        417.3358154296875
+      ],
+      "world": [
+        -12.991716772500467,
+        10.603774195092104,
+        -130.2615361489437
+      ],
+      "projectedPixel": [
+        398.0028682564172,
+        210.03536587798996
+      ],
+      "errorPixels": 18.822457018613374
+    },
+    {
+      "id": "component-A-back-8-left-25-match-54",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.3691337253996776,
+        0.3031465334449515,
+        0.32771974115537095
+      ],
+      "pixel": [
+        404.8763122558594,
+        271.2741394042969
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 54,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        339.2862854003906,
+        453.12420654296875
+      ],
+      "world": [
+        -13.007644624980037,
+        9.863132354588183,
+        -130.26153165108008
+      ],
+      "projectedPixel": [
+        401.1081242248572,
+        255.3134012123122
+      ],
+      "errorPixels": 16.399524525731433
+    },
+    {
+      "id": "component-A-back-8-left-25-match-55",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.08640168408573623,
+        0.5669890641733889,
+        0.34660925174087487
+      ],
+      "pixel": [
+        419.28240966796875,
+        364.1585693359375
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 55,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        344.11566162109375,
+        497.5791931152344
+      ],
+      "world": [
+        -13.116144763890919,
+        8.943135057972036,
+        -130.26152606400387
+      ],
+      "projectedPixel": [
+        411.4073363488252,
+        311.266180132141
+      ],
+      "errorPixels": 53.475430016670025
+    },
+    {
+      "id": "component-A-back-8-left-25-match-56",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.3375597860022608,
+        0.012143784078117071,
+        0.6502964299196221
+      ],
+      "pixel": [
+        412.61309814453125,
+        165.7391357421875
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 56,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        344.9067687988281,
+        407.0065612792969
+      ],
+      "world": [
+        -13.133918330238805,
+        10.817538425213062,
+        -130.2615374471182
+      ],
+      "projectedPixel": [
+        408.0103288826945,
+        196.61667341259192
+      ],
+      "errorPixels": 31.21870941382672
+    },
+    {
+      "id": "component-A-back-8-left-25-match-57",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.33181494601829575,
+        0.31645465346485047,
+        0.3517304005168537
+      ],
+      "pixel": [
+        418.9062194824219,
+        282.5391540527344
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 57,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        345.4249572753906,
+        458.9919738769531
+      ],
+      "world": [
+        -13.145560314445383,
+        9.74169873148579,
+        -130.26153091362258
+      ],
+      "projectedPixel": [
+        411.60405493922497,
+        263.09884280315447
+      ],
+      "errorPixels": 20.76649485340425
+    },
+    {
+      "id": "component-A-back-8-left-25-match-58",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.3503224097712738,
+        0.03055973296330599,
+        0.6191178572654202
+      ],
+      "pixel": [
+        429.55755615234375,
+        172.6019744873047
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 58,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        352.8780212402344,
+        409.0132751464844
+      ],
+      "world": [
+        -13.313006054545438,
+        10.776009423722272,
+        -130.26153719491563
+      ],
+      "projectedPixel": [
+        421.73995072422815,
+        198.95356904233893
+      ],
+      "errorPixels": 27.4867511762051
+    },
+    {
+      "id": "component-A-back-8-left-25-match-59",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.28470429343555825,
+        0.3178469107410493,
+        0.39744879582339243
+      ],
+      "pixel": [
+        443.466064453125,
+        300.1772155761719
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 59,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        357.113525390625,
+        466.39935302734375
+      ],
+      "world": [
+        -13.4081638487767,
+        9.58840279510547,
+        -130.26152998266758
+      ],
+      "projectedPixel": [
+        431.90983793295044,
+        273.46516369817607
+      ],
+      "errorPixels": 29.10464029872771
+    },
+    {
+      "id": "component-A-back-8-left-25-match-60",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.356869137340338,
+        0.2426668879890742,
+        0.4004639746705878
+      ],
+      "pixel": [
+        444.29302978515625,
+        273.9743957519531
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 60,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        357.8843994140625,
+        455.0526123046875
+      ],
+      "world": [
+        -13.425482842949737,
+        9.823223938809532,
+        -130.26153140871915
+      ],
+      "projectedPixel": [
+        432.708388195887,
+        258.91175398647323
+      ],
+      "errorPixels": 19.00229190668869
+    },
+    {
+      "id": "component-A-back-8-left-25-match-61",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.13269424458633872,
+        0.4652404892056575,
+        0.40206526620800376
+      ],
+      "pixel": [
+        447.5828552246094,
+        347.1325378417969
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 61,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        358.2937927246094,
+        490.3004455566406
+      ],
+      "world": [
+        -13.434680558976313,
+        9.093768959655302,
+        -130.26152697879252
+      ],
+      "projectedPixel": [
+        435.0933688414171,
+        304.14134654534456
+      ],
+      "errorPixels": 44.76862516544486
+    },
+    {
+      "id": "component-A-back-8-left-25-match-62",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.3175401083396413,
+        0.08765624085889237,
+        0.5948036508014664
+      ],
+      "pixel": [
+        442.3999938964844,
+        161.39791870117188
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 62,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        359.09429931640625,
+        403.8587951660156
+      ],
+      "world": [
+        -13.452665299124888,
+        10.88268155240566,
+        -130.26153784272762
+      ],
+      "projectedPixel": [
+        432.3626364913145,
+        191.9226514126674
+      ],
+      "errorPixels": 32.13266018846499
+    },
+    {
+      "id": "component-A-back-8-left-25-match-63",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.5740259063463129,
+        0.012470365712104695,
+        0.4135037279415824
+      ],
+      "pixel": [
+        448.2547302246094,
+        199.501708984375
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 63,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        361.21820068359375,
+        420.90826416015625
+      ],
+      "world": [
+        -13.50038235052895,
+        10.529842260167587,
+        -130.2615356999605
+      ],
+      "projectedPixel": [
+        436.9468117704607,
+        214.42107259786323
+      ],
+      "errorPixels": 18.72048157492622
+    },
+    {
+      "id": "component-A-back-8-left-25-match-64",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.38601864133926045,
+        0.1978092093759642,
+        0.41617214928477536
+      ],
+      "pixel": [
+        452.2868957519531,
+        264.7697448730469
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 64,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        361.9004211425781,
+        450.4693298339844
+      ],
+      "world": [
+        -13.515709591809166,
+        9.918075108673692,
+        -130.26153198474339
+      ],
+      "projectedPixel": [
+        439.5488967830021,
+        253.20887271509946
+      ],
+      "errorPixels": 17.20204588952726
+    },
+    {
+      "id": "component-A-back-8-left-25-match-65",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.35211464095640366,
+        0.06889826695739636,
+        0.5789870920862
+      ],
+      "pixel": [
+        361.54693603515625,
+        173.44137573242188
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 65,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        363.1380310058594,
+        409.2950744628906
+      ],
+      "world": [
+        -13.543514599318797,
+        10.770177584368062,
+        -130.2615371594993
+      ],
+      "projectedPixel": [
+        439.8203140710283,
+        198.98752804557358
+      ],
+      "errorPixels": 82.33667231041878
+    },
+    {
+      "id": "component-A-back-8-left-25-match-66",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.30896018992158103,
+        0.26383886231436326,
+        0.4272009477640557
+      ],
+      "pixel": [
+        459.7576599121094,
+        290.9674072265625
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 66,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        364.7200927734375,
+        462.58551025390625
+      ],
+      "world": [
+        -13.579058303868461,
+        9.667330387077133,
+        -130.26153046198905
+      ],
+      "projectedPixel": [
+        445.1143962292495,
+        269.1876389729561
+      ],
+      "errorPixels": 26.24468472789421
+    },
+    {
+      "id": "component-A-back-8-left-25-match-67",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.32545628861718046,
+        0.10619759845386759,
+        0.568346112928952
+      ],
+      "pixel": [
+        457.0942077636719,
+        164.62355041503906
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 67,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        365.8585510253906,
+        405.1034851074219
+      ],
+      "world": [
+        -13.604635702032555,
+        10.856922659211182,
+        -130.26153768629578
+      ],
+      "projectedPixel": [
+        444.52077173639424,
+        193.2852227620859
+      ],
+      "errorPixels": 31.298286778376752
+    },
+    {
+      "id": "component-A-back-8-left-25-match-68",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.41608129232458657,
+        0.020416934347988754,
+        0.5635017733274247
+      ],
+      "pixel": [
+        460.6549377441406,
+        195.97894287109375
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 68,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        367.0970764160156,
+        419.352783203125
+      ],
+      "world": [
+        -13.632461278418878,
+        10.562032989016132,
+        -130.2615358954524
+      ],
+      "projectedPixel": [
+        447.41702636586547,
+        212.30276584771016
+      ],
+      "errorPixels": 21.016885930864657
+    },
+    {
+      "id": "component-A-back-8-left-25-match-69",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.41608129232458657,
+        0.020416934347988754,
+        0.5635017733274247
+      ],
+      "pixel": [
+        460.6549377441406,
+        195.97894287109375
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 69,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        367.0970764160156,
+        419.352783203125
+      ],
+      "world": [
+        -13.632461278418878,
+        10.562032989016132,
+        -130.2615358954524
+      ],
+      "projectedPixel": [
+        447.41702636586547,
+        212.30276584771016
+      ],
+      "errorPixels": 21.016885930864657
+    },
+    {
+      "id": "component-A-back-8-left-25-match-70",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.37627917261291666,
+        0.1811435417940817,
+        0.4425772855930016
+      ],
+      "pixel": [
+        466.07366943359375,
+        267.6205749511719
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 70,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        368.6512756347656,
+        452.0007019042969
+      ],
+      "world": [
+        -13.66737900348794,
+        9.886383317191294,
+        -130.26153179228143
+      ],
+      "projectedPixel": [
+        451.6976629467665,
+        255.6113670087678
+      ],
+      "errorPixels": 18.732075109640157
+    },
+    {
+      "id": "component-A-back-8-left-25-match-71",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.42425643993983775,
+        0.12881718336274403,
+        0.44692637669741825
+      ],
+      "pixel": [
+        468.16387939453125,
+        250.98838806152344
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 71,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        369.76318359375,
+        444.4570617675781
+      ],
+      "world": [
+        -13.692359904228027,
+        10.042499178820103,
+        -130.26153274036164
+      ],
+      "projectedPixel": [
+        453.3809422481801,
+        245.70935412990704
+      ],
+      "errorPixels": 15.697242749098539
+    },
+    {
+      "id": "component-A-back-8-left-25-match-72",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.5448655332710917,
+        0.005110906913984871,
+        0.4500235598149234
+      ],
+      "pixel": [
+        467.9296569824219,
+        209.93719482421875
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 72,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        370.5550231933594,
+        425.4932556152344
+      ],
+      "world": [
+        -13.71014992567726,
+        10.434955722819902,
+        -130.2615351237215
+      ],
+      "projectedPixel": [
+        453.9883277672923,
+        220.49043616630263
+      ],
+      "errorPixels": 17.485181243238355
+    },
+    {
+      "id": "component-A-back-8-left-25-match-73",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.4909483157468606,
+        0.058751315263764405,
+        0.450300368989375
+      ],
+      "pixel": [
+        468.6238708496094,
+        226.7315216064453
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 73,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        370.62579345703125,
+        433.9708557128906
+      ],
+      "world": [
+        -13.711739899845407,
+        10.259511531447627,
+        -130.26153405826176
+      ],
+      "projectedPixel": [
+        454.491616210516,
+        231.80977409681506
+      ],
+      "errorPixels": 15.016966056435074
+    },
+    {
+      "id": "component-A-back-8-left-25-match-74",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.19976919421694794,
+        0.25953409774123226,
+        0.5406967080418198
+      ],
+      "pixel": [
+        470.6361083984375,
+        120.98873138427734
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 74,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        372.9275207519531,
+        385.34124755859375
+      ],
+      "world": [
+        -13.763452112731905,
+        11.265902789409289,
+        -130.26154017000212
+      ],
+      "projectedPixel": [
+        456.5906887667783,
+        166.04854802994956
+      ],
+      "errorPixels": 47.198102597148925
+    },
+    {
+      "id": "component-A-back-8-left-25-match-75",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.2833063946281651,
+        0.1944749541749694,
+        0.5222186511968655
+      ],
+      "pixel": [
+        479.57879638671875,
+        151.74346923828125
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 75,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        377.6517028808594,
+        398.4761047363281
+      ],
+      "world": [
+        -13.869588887711101,
+        10.994076511113992,
+        -130.2615385192211
+      ],
+      "projectedPixel": [
+        466.0021925383385,
+        183.69311694714327
+      ],
+      "errorPixels": 34.71461019190977
+    },
+    {
+      "id": "component-A-back-8-left-25-match-78",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.3394480874537138,
+        0.14537679553054925,
+        0.5151751170157369
+      ],
+      "pixel": [
+        484.9369812011719,
+        170.2246551513672
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 78,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        379.4524841308594,
+        407.303466796875
+      ],
+      "world": [
+        -13.910046496902021,
+        10.811393977549969,
+        -130.26153740980342
+      ],
+      "projectedPixel": [
+        469.77177820846873,
+        195.70357751516326
+      ],
+      "errorPixels": 29.650613258923332
+    },
+    {
+      "id": "component-A-back-8-left-25-match-79",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.35458216723267544,
+        0.15723220708936442,
+        0.48818562567796014
+      ],
+      "pixel": [
+        489.94610595703125,
+        273.4330749511719
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 79,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        380.31170654296875,
+        455.4122009277344
+      ],
+      "world": [
+        -13.92935038767565,
+        9.815782241339681,
+        -130.2615313635263
+      ],
+      "projectedPixel": [
+        473.34629877162706,
+        260.914088750198
+      ],
+      "errorPixels": 20.79131102390541
+    },
+    {
+      "id": "component-A-back-8-left-25-match-82",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.12640279622515038,
+        0.3735837452865272,
+        0.5000134584883223
+      ],
+      "pixel": [
+        498.5474548339844,
+        348.3038330078125
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 82,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        383.3356628417969,
+        491.2896728515625
+      ],
+      "world": [
+        -13.997288701753718,
+        9.073296870757297,
+        -130.261526854467
+      ],
+      "projectedPixel": [
+        480.44105041559897,
+        309.0574071198449
+      ],
+      "errorPixels": 43.22179804151903
+    },
+    {
+      "id": "component-A-back-8-left-25-match-83",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.2727813049170391,
+        0.22720428166863796,
+        0.500014413414323
+      ],
+      "pixel": [
+        497.0423278808594,
+        301.0537414550781
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 83,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        383.3359069824219,
+        468.2740478515625
+      ],
+      "world": [
+        -13.9972941867875,
+        9.549605928808864,
+        -130.26152974705704
+      ],
+      "projectedPixel": [
+        479.55884244770033,
+        278.40698549813453
+      ],
+      "errorPixels": 28.61027469747267
+    },
+    {
+      "id": "component-A-back-8-left-25-match-84",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.18403465063580193,
+        0.3195762528286397,
+        0.4963890965355583
+      ],
+      "pixel": [
+        493.749267578125,
+        114.8277587890625
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 84,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        384.2554016113281,
+        382.86724853515625
+      ],
+      "world": [
+        -14.017952195276562,
+        11.317102283781661,
+        -130.26154048093292
+      ],
+      "projectedPixel": [
+        477.97222799505084,
+        161.55209074079562
+      ],
+      "errorPixels": 49.31610461443237
+    },
+    {
+      "id": "component-A-back-8-left-25-match-85",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.43760827206011366,
+        0.06651697842145256,
+        0.4958747495184338
+      ],
+      "pixel": [
+        496.4421081542969,
+        204.402099609375
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 85,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        384.38690185546875,
+        422.737548828125
+      ],
+      "world": [
+        -14.020906571598479,
+        10.491985168935477,
+        -130.26153547005714
+      ],
+      "projectedPixel": [
+        479.79693431492683,
+        216.75109609166424
+      ],
+      "errorPixels": 20.72581786715402
+    },
+    {
+      "id": "component-A-back-8-left-25-match-86",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.43760827206011366,
+        0.06651697842145256,
+        0.4958747495184338
+      ],
+      "pixel": [
+        496.4421081542969,
+        204.402099609375
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 86,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        384.38690185546875,
+        422.737548828125
+      ],
+      "world": [
+        -14.020906571598479,
+        10.491985168935477,
+        -130.26153547005714
+      ],
+      "projectedPixel": [
+        479.79693431492683,
+        216.75109609166424
+      ],
+      "errorPixels": 20.72581786715402
+    },
+    {
+      "id": "component-A-back-8-left-25-match-87",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.46267804238425414,
+        0.03259367136474057,
+        0.5047282862510053
+      ],
+      "pixel": [
+        497.7638244628906,
+        237.68589782714844
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 87,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        384.54107666015625,
+        438.4158935546875
+      ],
+      "world": [
+        -14.02437037043308,
+        10.167521338375318,
+        -130.26153349961203
+      ],
+      "projectedPixel": [
+        480.7011203033593,
+        238.1750429471947
+      ],
+      "errorPixels": 17.06971400416987
+    },
+    {
+      "id": "component-A-back-8-left-25-match-88",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.46267804238425414,
+        0.03259367136474057,
+        0.5047282862510053
+      ],
+      "pixel": [
+        497.7638244628906,
+        237.68589782714844
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 88,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        384.54107666015625,
+        438.4158935546875
+      ],
+      "world": [
+        -14.02437037043308,
+        10.167521338375318,
+        -130.26153349961203
+      ],
+      "projectedPixel": [
+        480.7011203033593,
+        238.1750429471947
+      ],
+      "errorPixels": 17.06971400416987
+    },
+    {
+      "id": "component-A-back-8-left-25-match-89",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.27549075067049533,
+        0.23025656098900196,
+        0.49425268834050273
+      ],
+      "pixel": [
+        495.56671142578125,
+        147.88673400878906
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 89,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        384.8016052246094,
+        397.2472229003906
+      ],
+      "world": [
+        -14.030223587109855,
+        11.019508263662996,
+        -130.26153867366622
+      ],
+      "projectedPixel": [
+        479.59731989553893,
+        181.54974275743052
+      ],
+      "errorPixels": 37.25881941040653
+    },
+    {
+      "id": "component-A-back-8-left-25-match-90",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.27549075067049533,
+        0.23025656098900196,
+        0.49425268834050273
+      ],
+      "pixel": [
+        495.56671142578125,
+        147.88673400878906
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 90,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        384.8016052246094,
+        397.2472229003906
+      ],
+      "world": [
+        -14.030223587109855,
+        11.019508263662996,
+        -130.26153867366622
+      ],
+      "projectedPixel": [
+        479.59731989553893,
+        181.54974275743052
+      ],
+      "errorPixels": 37.25881941040653
+    },
+    {
+      "id": "component-A-back-8-left-25-match-91",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.32476279909477257,
+        0.18114016550283799,
+        0.4940970354023894
+      ],
+      "pixel": [
+        495.7853088378906,
+        165.94557189941406
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 91,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        384.8414001464844,
+        404.99444580078125
+      ],
+      "world": [
+        -14.03111764761665,
+        10.859179242804899,
+        -130.26153769999985
+      ],
+      "projectedPixel": [
+        479.97816125901204,
+        192.2925442558815
+      ],
+      "errorPixels": 30.725052757202974
+    },
+    {
+      "id": "component-A-back-8-left-25-match-92",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.2588830558718559,
+        0.22481674523496295,
+        0.5163001988931811
+      ],
+      "pixel": [
+        505.2899169921875,
+        304.22552490234375
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 92,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        387.4996032714844,
+        470.4593200683594
+      ],
+      "world": [
+        -14.090838695457037,
+        9.504381653944778,
+        -130.26152947241332
+      ],
+      "projectedPixel": [
+        487.5836668483327,
+        281.7759880457045
+      ],
+      "errorPixels": 28.591834485292523
+    },
+    {
+      "id": "component-A-back-8-left-25-match-95",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.35192273717112976,
+        0.1267497366392787,
+        0.5213275261895916
+      ],
+      "pixel": [
+        508.403564453125,
+        273.7464904785156
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 95,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        388.784912109375,
+        455.8303527832031
+      ],
+      "world": [
+        -14.119715341442223,
+        9.80712857599708,
+        -130.26153131097323
+      ],
+      "projectedPixel": [
+        489.5240027596385,
+        262.09454975783046
+      ],
+      "errorPixels": 22.18570648630608
+    },
+    {
+      "id": "component-A-back-8-left-25-match-96",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.25270994112279754,
+        0.27122596543769323,
+        0.4760640934395092
+      ],
+      "pixel": [
+        506.45550537109375,
+        143.37208557128906
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 96,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        389.4517822265625,
+        393.6653137207031
+      ],
+      "world": [
+        -14.13469771122327,
+        11.09363598933996,
+        -130.2615391238385
+      ],
+      "projectedPixel": [
+        488.5218655660536,
+        176.22384861910027
+      ],
+      "errorPixels": 37.427981137198074
+    },
+    {
+      "id": "component-A-back-8-left-25-match-97",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.29108360451275395,
+        0.2436997839526352,
+        0.46521661153461086
+      ],
+      "pixel": [
+        511.1935119628906,
+        153.22296142578125
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 97,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        392.22509765625,
+        399.6989440917969
+      ],
+      "world": [
+        -14.197004952492819,
+        10.968769821303434,
+        -130.26153836553542
+      ],
+      "projectedPixel": [
+        494.21759080225166,
+        184.51210084869604
+      ],
+      "errorPixels": 35.59764240899712
+    },
+    {
+      "id": "component-A-back-8-left-25-match-98",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.32283256602777366,
+        0.2135109327912514,
+        0.4636565011809749
+      ],
+      "pixel": [
+        511.8167419433594,
+        163.64871215820312
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 98,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        392.62396240234375,
+        404.6909484863281
+      ],
+      "world": [
+        -14.20596612643746,
+        10.865460134051693,
+        -130.26153773814323
+      ],
+      "projectedPixel": [
+        495.1882270310431,
+        191.50324932245348
+      ],
+      "errorPixels": 32.440449269757806
+    },
+    {
+      "id": "component-A-back-8-left-25-match-99",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.27230475068401594,
+        0.27139991457711904,
+        0.456295334738865
+      ],
+      "pixel": [
+        515.8914794921875,
+        149.10333251953125
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 99,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        394.5059509277344,
+        396.74627685546875
+      ],
+      "world": [
+        -14.24824819499079,
+        11.029875363765825,
+        -130.26153873662486
+      ],
+      "projectedPixel": [
+        498.6522939039289,
+        180.20243309639054
+      ],
+      "errorPixels": 35.55760926209792
+    },
+    {
+      "id": "component-A-back-8-left-25-match-100",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.3527278251798359,
+        0.09383251644494085,
+        0.5534396583752232
+      ],
+      "pixel": [
+        523.7901611328125,
+        273.6920166015625
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 100,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        396.9948425292969,
+        455.7037658691406
+      ],
+      "world": [
+        -14.304165371901961,
+        9.809748296026353,
+        -130.26153132688256
+      ],
+      "projectedPixel": [
+        505.63432506300825,
+        262.5381657521181
+      ],
+      "errorPixels": 21.30827942761349
+    },
+    {
+      "id": "component-A-back-8-left-25-match-101",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.3068429884606436,
+        0.2503527519725645,
+        0.44280425956679187
+      ],
+      "pixel": [
+        523.2446899414062,
+        160.11727905273438
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 101,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        397.95513916015625,
+        402.1768493652344
+      ],
+      "world": [
+        -14.325740066662169,
+        10.917489497499258,
+        -130.26153805411374
+      ],
+      "projectedPixel": [
+        505.77297015661156,
+        187.680160229759
+      ],
+      "errorPixels": 32.633930364226195
+    },
+    {
+      "id": "component-A-back-8-left-25-match-102",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.2396709930604345,
+        0.19925555074903392,
+        0.5610734561905316
+      ],
+      "pixel": [
+        529.1861572265625,
+        310.07611083984375
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 102,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        398.946533203125,
+        473.4801025390625
+      ],
+      "world": [
+        -14.348013417600622,
+        9.441866469012831,
+        -130.2615290927632
+      ],
+      "projectedPixel": [
+        510.10528880613157,
+        287.17712552361456
+      ],
+      "errorPixels": 29.80676212188567
+    },
+    {
+      "id": "component-A-back-8-left-25-match-103",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.2812725142015431,
+        0.28771393629375025,
+        0.4310135495047067
+      ],
+      "pixel": [
+        529.290283203125,
+        151.37974548339844
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 103,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        400.9696044921875,
+        398.15631103515625
+      ],
+      "world": [
+        -14.39346515005189,
+        11.000694666189155,
+        -130.26153855941266
+      ],
+      "projectedPixel": [
+        511.7689141355058,
+        181.77216462453737
+      ],
+      "errorPixels": 35.081298654046314
+    },
+    {
+      "id": "component-A-back-8-left-25-match-104",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.48672873245208303,
+        0.0840924889877961,
+        0.4291787785601208
+      ],
+      "pixel": [
+        531.4059448242188,
+        218.92355346679688
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 104,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        401.4386901855469,
+        430.4609375
+      ],
+      "world": [
+        -14.404003956838656,
+        10.332149408690059,
+        -130.26153449938627
+      ],
+      "projectedPixel": [
+        513.7582383098297,
+        227.57600431742623
+      ],
+      "errorPixels": 19.65468012816707
+    },
+    {
+      "id": "component-A-back-8-left-25-match-105",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.42561585083978415,
+        0.0017578788475222967,
+        0.5726262703126935
+      ],
+      "pixel": [
+        532.7632446289062,
+        249.0625
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 105,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        401.9001770019531,
+        444.2433166503906
+      ],
+      "world": [
+        -14.414372041948893,
+        10.046922640508878,
+        -130.261532767225
+      ],
+      "projectedPixel": [
+        515.1286833518435,
+        246.9289509112458
+      ],
+      "errorPixels": 17.763158028588403
+    },
+    {
+      "id": "component-A-back-8-left-25-match-106",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.19670844581088576,
+        0.22391622500075659,
+        0.5793753291883577
+      ],
+      "pixel": [
+        538.13916015625,
+        324.16229248046875
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 106,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        403.62567138671875,
+        480.2352600097656
+      ],
+      "world": [
+        -14.453138203846663,
+        9.302068280092886,
+        -130.26152824377905
+      ],
+      "projectedPixel": [
+        519.7274613553408,
+        297.06340867527666
+      ],
+      "errorPixels": 32.761870462821626
+    },
+    {
+      "id": "component-A-back-8-left-25-match-109",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.35999865495180805,
+        0.04777104076997433,
+        0.5922303042782177
+      ],
+      "pixel": [
+        543.3834838867188,
+        271.1556701660156
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 109,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        406.9122314453125,
+        454.560546875
+      ],
+      "world": [
+        -14.52697635738867,
+        9.833407247814355,
+        -130.26153147056166
+      ],
+      "projectedPixel": [
+        525.6943323496226,
+        261.70132807399403
+      ],
+      "errorPixels": 20.057184909536055
+    },
+    {
+      "id": "component-A-back-8-left-25-match-110",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.15839624080249348,
+        0.4362269886677165,
+        0.40537677052979
+      ],
+      "pixel": [
+        542.3411865234375,
+        109.6153335571289
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 110,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        407.5240173339844,
+        378.8360290527344
+      ],
+      "world": [
+        -14.540721166422198,
+        11.400528511762625,
+        -130.2615409875743
+      ],
+      "projectedPixel": [
+        524.7622313508112,
+        153.25377000154927
+      ],
+      "errorPixels": 47.04607103972572
+    },
+    {
+      "id": "component-A-back-8-left-25-match-111",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.29893767411550165,
+        0.29660383607012697,
+        0.4044584898143713
+      ],
+      "pixel": [
+        543.4946899414062,
+        157.2560577392578
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 111,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        407.7587890625,
+        400.9338684082031
+      ],
+      "world": [
+        -14.545995712034754,
+        10.943213033440326,
+        -130.26153821033088
+      ],
+      "projectedPixel": [
+        525.9029514310655,
+        185.3329082446092
+      ],
+      "errorPixels": 33.13274510384034
+    },
+    {
+      "id": "component-A-back-8-left-25-match-112",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.5184460560313959,
+        0.07781105182600379,
+        0.4037428921426003
+      ],
+      "pixel": [
+        544.4888305664062,
+        235.4403839111328
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 112,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        407.9417419433594,
+        435.4479675292969
+      ],
+      "world": [
+        -14.550106059226652,
+        10.22894266985261,
+        -130.2615338726193
+      ],
+      "projectedPixel": [
+        527.2789518420125,
+        234.7678384544931
+      ],
+      "errorPixels": 17.223014924791425
+    },
+    {
+      "id": "component-A-back-8-left-25-match-113",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.4045455061365537,
+        0.19585371261461199,
+        0.3996007812488343
+      ],
+      "pixel": [
+        546.0213012695312,
+        192.6735382080078
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 113,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        409.000732421875,
+        417.5389709472656
+      ],
+      "world": [
+        -14.57389807889405,
+        10.599569916412161,
+        -130.26153612341142
+      ],
+      "projectedPixel": [
+        528.9806731669262,
+        209.20054610109227
+      ],
+      "errorPixels": 23.738681429880845
+    },
+    {
+      "id": "component-A-back-8-left-25-match-114",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.392625487003763,
+        0.0009794332524556226,
+        0.6063950797437814
+      ],
+      "pixel": [
+        551.7335205078125,
+        260.1959533691406
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 114,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        410.5336608886719,
+        449.4305114746094
+      ],
+      "world": [
+        -14.608337920394675,
+        9.939573486155972,
+        -130.26153211530143
+      ],
+      "projectedPixel": [
+        533.0721153210819,
+        254.72015965256185
+      ],
+      "errorPixels": 19.44819684109194
+    },
+    {
+      "id": "component-A-back-8-left-25-match-116",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.1760162477163415,
+        0.21010730478742964,
+        0.6138764474962288
+      ],
+      "pixel": [
+        555.3771362304688,
+        332.09521484375
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 116,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        412.4463806152344,
+        483.48876953125
+      ],
+      "world": [
+        -14.651310417575566,
+        9.234736801780215,
+        -130.26152783487993
+      ],
+      "projectedPixel": [
+        537.9692874912665,
+        302.8408297238866
+      ],
+      "errorPixels": 34.04191895983876
+    },
+    {
+      "id": "component-A-back-8-left-25-match-117",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.2722019443321818,
+        0.11131489892119135,
+        0.6164831567466268
+      ],
+      "pixel": [
+        555.7395629882812,
+        299.6932373046875
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 117,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        413.1128234863281,
+        468.3651428222656
+      ],
+      "world": [
+        -14.666283188547492,
+        9.547720715624827,
+        -130.26152973560826
+      ],
+      "projectedPixel": [
+        538.9780105310278,
+        281.7041196154034
+      ],
+      "errorPixels": 24.587761102145354
+    },
+    {
+      "id": "component-A-back-8-left-25-match-118",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.3284658490905563,
+        0.29409970881749925,
+        0.37743444209194443
+      ],
+      "pixel": [
+        560.1650390625,
+        164.31959533691406
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 118,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        414.6678771972656,
+        405.5766906738281
+      ],
+      "world": [
+        -14.701220111234795,
+        10.847129685317451,
+        -130.26153762682375
+      ],
+      "projectedPixel": [
+        540.6717568303161,
+        191.6940046862265
+      ],
+      "errorPixels": 33.605748606559864
+    },
+    {
+      "id": "component-A-back-8-left-25-match-120",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.2856784343988409,
+        0.082482124471601,
+        0.6318394411295581
+      ],
+      "pixel": [
+        563.903076171875,
+        294.3233337402344
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 120,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        417.03887939453125,
+        466.2461853027344
+      ],
+      "world": [
+        -14.754488702457508,
+        9.591572605815918,
+        -130.2615300019176
+      ],
+      "projectedPixel": [
+        547.2374776423426,
+        279.13887084696586
+      ],
+      "errorPixels": 22.545733248324428
+    },
+    {
+      "id": "component-A-back-8-left-25-match-121",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.10832053507686257,
+        0.2575123916668845,
+        0.6341670732562529
+      ],
+      "pixel": [
+        565.3797607421875,
+        352.6926574707031
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 121,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        417.63397216796875,
+        494.1328125
+      ],
+      "world": [
+        -14.76785847230605,
+        9.014458009424773,
+        -130.2615264971429
+      ],
+      "projectedPixel": [
+        549.1549821633748,
+        318.59079460144187
+      ],
+      "errorPixels": 37.76480492582211
+    },
+    {
+      "id": "component-A-back-8-left-25-match-123",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.6307593299928471,
+        0.013608501534333116,
+        0.3556321684728197
+      ],
+      "pixel": [
+        569.4479370117188,
+        267.2872619628906
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 123,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        420.241943359375,
+        453.1073913574219
+      ],
+      "world": [
+        -14.826450974445375,
+        9.863480347512176,
+        -130.26153165319337
+      ],
+      "projectedPixel": [
+        553.8172646670926,
+        260.64823018201196
+      ],
+      "errorPixels": 16.98218657689813
+    },
+    {
+      "id": "component-A-back-8-left-25-match-125",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.2059659874577653,
+        0.13407331371545084,
+        0.6599606988267839
+      ],
+      "pixel": [
+        576.6087646484375,
+        320.7539978027344
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 125,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        424.2284851074219,
+        478.7796630859375
+      ],
+      "world": [
+        -14.916015405475385,
+        9.332191902618511,
+        -130.2615284267176
+      ],
+      "projectedPixel": [
+        563.0204728927376,
+        297.9120326998226
+      ],
+      "errorPixels": 26.578130908712534
+    },
+    {
+      "id": "component-A-back-8-left-25-match-126",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.4056776338942326,
+        0.2575410337154235,
+        0.3367813323903439
+      ],
+      "pixel": [
+        577.7772216796875,
+        193.34295654296875
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 126,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        425.0614318847656,
+        417.71697998046875
+      ],
+      "world": [
+        -14.934728969488008,
+        10.595886023806115,
+        -130.26153610103938
+      ],
+      "projectedPixel": [
+        563.6375787560316,
+        209.1743563792479
+      ],
+      "errorPixels": 21.226462794931965
+    },
+    {
+      "id": "component-A-back-8-left-25-match-128",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.110446139548535,
+        0.572612428748817,
+        0.316941431702648
+      ],
+      "pixel": [
+        669.9653930664062,
+        94.06390380859375
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 128,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        430.1337890625,
+        371.2966613769531
+      ],
+      "world": [
+        -15.048688088272435,
+        11.556555976216611,
+        -130.26154193511763
+      ],
+      "projectedPixel": [
+        574.2054283863675,
+        138.93736066827879
+      ],
+      "errorPixels": 105.75253172411654
+    },
+    {
+      "id": "component-A-back-8-left-25-match-129",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.300049488263023,
+        0.005765026313773133,
+        0.6941854854232038
+      ],
+      "pixel": [
+        594.3604125976562,
+        288.8703918457031
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 129,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        432.9785461425781,
+        463.986572265625
+      ],
+      "world": [
+        -15.112600387553037,
+        9.638335366213106,
+        -130.2615302859044
+      ],
+      "projectedPixel": [
+        582.2010367730423,
+        277.6135012417663
+      ],
+      "errorPixels": 16.57009373881772
+    },
+    {
+      "id": "component-A-back-8-left-25-match-130",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.18911057329670777,
+        0.10598883599203643,
+        0.7049005907112558
+      ],
+      "pixel": [
+        599.9479370117188,
+        326.2527770996094
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 130,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        435.718017578125,
+        481.4299011230469
+      ],
+      "world": [
+        -15.174147266014286,
+        9.277345145988265,
+        -130.26152809363725
+      ],
+      "projectedPixel": [
+        588.6657579114196,
+        303.4666782158015
+      ],
+      "errorPixels": 25.426243678410245
+    },
+    {
+      "id": "component-A-back-8-left-25-match-131",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.47784383780541506,
+        0.2292683615234511,
+        0.2928878006711339
+      ],
+      "pixel": [
+        599.705078125,
+        218.0057373046875
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 131,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        436.283447265625,
+        429.0639343261719
+      ],
+      "world": [
+        -15.186850604258067,
+        10.361060454702624,
+        -130.26153467496093
+      ],
+      "projectedPixel": [
+        589.2535815362379,
+        226.04836050630496
+      ],
+      "errorPixels": 13.187781045653633
+    },
+    {
+      "id": "component-A-back-8-left-25-match-133",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.270640607989572,
+        0.4667072939335595,
+        0.26265209807686857
+      ],
+      "pixel": [
+        614.89453125,
+        148.28663635253906
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 133,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        444.0136413574219,
+        396.484619140625
+      ],
+      "world": [
+        -15.360522543332207,
+        11.035290408954754,
+        -130.26153876951005
+      ],
+      "projectedPixel": [
+        607.086532153334,
+        176.09520004828363
+      ],
+      "errorPixels": 28.883923984005698
+    },
+    {
+      "id": "component-A-back-8-left-25-match-135",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.2979709003314148,
+        0.46694559586604,
+        0.23508350380254517
+      ],
+      "pixel": [
+        627.9723510742188,
+        159.04940795898438
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 135,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        451.06195068359375,
+        400.7818603515625
+      ],
+      "world": [
+        -15.518874783047583,
+        10.94635887168231,
+        -130.26153822943533
+      ],
+      "projectedPixel": [
+        624.2534832351172,
+        182.25033410748
+      ],
+      "errorPixels": 23.497083907426724
+    },
+    {
+      "id": "component-A-back-8-left-25-match-136",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.5613936511419843,
+        0.22535137913961445,
+        0.21325496971840127
+      ],
+      "pixel": [
+        638.7291870117188,
+        244.0562744140625
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 136,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        456.6427307128906,
+        442.2007751464844
+      ],
+      "world": [
+        -15.644256484687228,
+        10.089193134517725,
+        -130.26153302393058
+      ],
+      "projectedPixel": [
+        638.1758155742573,
+        246.76006192269065
+      ],
+      "errorPixels": 2.7598345674354836
+    },
+    {
+      "id": "component-A-back-8-left-25-match-137",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 8,
+      "barycentric": [
+        0.09504745200951015,
+        0.09985825650828056,
+        0.8050942914822092
+      ],
+      "pixel": [
+        648.1512451171875,
+        350.29266357421875
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 137,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        461.333984375,
+        496.21978759765625
+      ],
+      "world": [
+        -15.749653465734806,
+        8.97126799642527,
+        -130.26152623485314
+      ],
+      "projectedPixel": [
+        649.815550401942,
+        330.22673854715566
+      ],
+      "errorPixels": 20.13482702365676
+    },
+    {
+      "id": "component-A-back-8-left-25-match-139",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.8086571889833424,
+        0.024217093516594238,
+        0.16712571750006341
+      ],
+      "pixel": [
+        661.0986938476562,
+        321.54058837890625
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 139,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        468.43634033203125,
+        481.07891845703125
+      ],
+      "world": [
+        -15.909219954804119,
+        9.284608746739757,
+        -130.2615281377486
+      ],
+      "projectedPixel": [
+        667.9218913547052,
+        308.3942687327822
+      ],
+      "errorPixels": 14.811540921128534
+    },
+    {
+      "id": "component-A-back-8-left-25-match-140",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.4280756872535013,
+        0.41091776105889083,
+        0.16100655168760789
+      ],
+      "pixel": [
+        664.36181640625,
+        199.686767578125
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 140,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        470.00079345703125,
+        421.23870849609375
+      ],
+      "world": [
+        -15.944368051292109,
+        10.52300376948422,
+        -130.26153565843083
+      ],
+      "projectedPixel": [
+        672.515039306134,
+        213.96352206812276
+      ],
+      "errorPixels": 16.440826086996474
+    },
+    {
+      "id": "component-A-back-8-left-25-match-141",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.338886177685891,
+        0.5027624423714344,
+        0.1583513799426746
+      ],
+      "pixel": [
+        665.4425659179688,
+        173.50482177734375
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 141,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        470.67962646484375,
+        407.2151184082031
+      ],
+      "world": [
+        -15.959619187728567,
+        10.81322240656331,
+        -130.26153742090736
+      ],
+      "projectedPixel": [
+        674.4481010443828,
+        191.26046046021077
+      ],
+      "errorPixels": 19.90885149750235
+    },
+    {
+      "id": "component-A-back-8-left-25-match-142",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.338886177685891,
+        0.5027624423714344,
+        0.1583513799426746
+      ],
+      "pixel": [
+        665.4425659179688,
+        173.50482177734375
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 142,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        470.67962646484375,
+        407.2151184082031
+      ],
+      "world": [
+        -15.959619187728567,
+        10.81322240656331,
+        -130.26153742090736
+      ],
+      "projectedPixel": [
+        674.4481010443828,
+        191.26046046021077
+      ],
+      "errorPixels": 19.90885149750235
+    },
+    {
+      "id": "component-A-back-8-left-25-match-143",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.1932698558681516,
+        0.6491127441864583,
+        0.15761739994539017
+      ],
+      "pixel": [
+        667.3683471679688,
+        122.04136657714844
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 143,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        470.8672790527344,
+        384.3193359375
+      ],
+      "world": [
+        -15.963835121820813,
+        11.28705134294039,
+        -130.26154029843576
+      ],
+      "projectedPixel": [
+        675.1782320292335,
+        153.78483945412566
+      ],
+      "errorPixels": 32.69009592885284
+    },
+    {
+      "id": "component-A-back-8-left-25-match-144",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.1932698558681516,
+        0.6491127441864583,
+        0.15761739994539017
+      ],
+      "pixel": [
+        667.3683471679688,
+        122.04136657714844
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 144,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        470.8672790527344,
+        384.3193359375
+      ],
+      "world": [
+        -15.963835121820813,
+        11.28705134294039,
+        -130.26154029843576
+      ],
+      "projectedPixel": [
+        675.1782320292335,
+        153.78483945412566
+      ],
+      "errorPixels": 32.69009592885284
+    },
+    {
+      "id": "component-A-back-8-left-25-match-145",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.7138452595930829,
+        0.15575010543484125,
+        0.13040463497207588
+      ],
+      "pixel": [
+        678.9175415039062,
+        291.771240234375
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 145,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        477.8246154785156,
+        466.1712951660156
+      ],
+      "world": [
+        -16.12014350082242,
+        9.593122484060189,
+        -130.2615300113299
+      ],
+      "projectedPixel": [
+        692.8201001688705,
+        286.4293366357162
+      ],
+      "errorPixels": 14.893524481805343
+    },
+    {
+      "id": "component-A-back-8-left-25-match-147",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.378142370005091,
+        0.500958089702254,
+        0.12089954029265498
+      ],
+      "pixel": [
+        685.0431518554688,
+        184.64984130859375
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 147,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        480.2547302246094,
+        413.38751220703125
+      ],
+      "world": [
+        -16.174740155850085,
+        10.68548452923866,
+        -130.26153664516457
+      ],
+      "projectedPixel": [
+        700.3042159775573,
+        200.92330930913613
+      ],
+      "errorPixels": 22.309770032503142
+    },
+    {
+      "id": "component-A-back-8-left-25-match-149",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.40837839458542713,
+        0.4776117368511844,
+        0.11400986856338843
+      ],
+      "pixel": [
+        687.155029296875,
+        194.58175659179688
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 149,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        482.01617431640625,
+        418.1416320800781
+      ],
+      "world": [
+        -16.21431398897255,
+        10.58709787046078,
+        -130.2615360476696
+      ],
+      "projectedPixel": [
+        705.0932977805846,
+        208.72600912588786
+      ],
+      "errorPixels": 22.843847222869215
+    },
+    {
+      "id": "component-A-back-8-left-25-match-150",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 33,
+      "barycentric": [
+        0.5337539717170968,
+        0.3609222859875893,
+        0.10532374229531385
+      ],
+      "pixel": [
+        690.9092407226562,
+        234.92782592773438
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 150,
+      "semanticRegion": "visible-back-wall",
+      "hypothesisPlaneId": 8,
+      "atlasPixel": [
+        484.2369079589844,
+        437.8548889160156
+      ],
+      "world": [
+        -16.264206541901206,
+        10.179131403389057,
+        -130.26153357011913
+      ],
+      "projectedPixel": [
+        710.8765638032096,
+        241.22250952648716
+      ],
+      "errorPixels": 20.936022368434877
+    },
+    {
+      "id": "component-A-back-8-left-25-match-115",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.22132127499893617,
+        0.17073427782115425,
+        0.6079444471799096
+      ],
+      "pixel": [
+        22.407983779907227,
+        397.31329345703125
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 115,
+      "semanticRegion": "visible-left-wall",
+      "hypothesisPlaneId": 25,
+      "atlasPixel": [
+        410.9297790527344,
+        476.36529541015625
+      ],
+      "world": [
+        -16.869179371553308,
+        9.382157314960848,
+        -133.25467113419552
+      ],
+      "projectedPixel": [
+        316.83533404079833,
+        343.1738936923299
+      ],
+      "errorPixels": 299.3635568811468
+    },
+    {
+      "id": "component-A-back-8-left-25-match-119",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.19417129285770196,
+        0.18197376040180374,
+        0.6238549467404944
+      ],
+      "pixel": [
+        37.133155822753906,
+        409.4671630859375
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 119,
+      "semanticRegion": "visible-left-wall",
+      "hypothesisPlaneId": 25,
+      "atlasPixel": [
+        414.9975280761719,
+        480.6341857910156
+      ],
+      "world": [
+        -16.869179371553308,
+        9.29381249893988,
+        -133.3330040558234
+      ],
+      "projectedPixel": [
+        300.1918774515482,
+        354.48466690932236
+      ],
+      "errorPixels": 268.7433085879292
+    },
+    {
+      "id": "component-A-back-8-left-25-match-124",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.5986493595691278,
+        0.050043093083701355,
+        0.3513075473471708
+      ],
+      "pixel": [
+        44.14379119873047,
+        286.7303771972656
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 124,
+      "semanticRegion": "visible-left-wall",
+      "hypothesisPlaneId": 25,
+      "atlasPixel": [
+        421.34759521484375,
+        448.0586242675781
+      ],
+      "world": [
+        -16.869179371553308,
+        9.967964741452672,
+        -133.45529266537184
+      ],
+      "projectedPixel": [
+        267.31566636400987,
+        277.81576075796556
+      ],
+      "errorPixels": 223.34985169246676
+    },
+    {
+      "id": "component-A-back-8-left-25-match-127",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.6054836787730744,
+        0.06447425972073872,
+        0.33004206150618687
+      ],
+      "pixel": [
+        59.798500061035156,
+        291.3732604980469
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 127,
+      "semanticRegion": "visible-left-wall",
+      "hypothesisPlaneId": 25,
+      "atlasPixel": [
+        426.784423828125,
+        449.1332092285156
+      ],
+      "world": [
+        -16.869179371553308,
+        9.945726175343848,
+        -133.5599906284894
+      ],
+      "projectedPixel": [
+        242.72804798809773,
+        281.3246541943112
+      ],
+      "errorPixels": 183.2053328739285
+    },
+    {
+      "id": "component-A-back-8-left-25-match-132",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.50507048624597,
+        0.21910230164556838,
+        0.2758272121084617
+      ],
+      "pixel": [
+        91.14305877685547,
+        235.95150756835938
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 132,
+      "semanticRegion": "visible-left-wall",
+      "hypothesisPlaneId": 25,
+      "atlasPixel": [
+        440.6452331542969,
+        433.3448791503906
+      ],
+      "world": [
+        -16.869179371553308,
+        10.27246617000528,
+        -133.82691299571974
+      ],
+      "projectedPixel": [
+        172.88297648117157,
+        242.6377231258093
+      ],
+      "errorPixels": 82.01292352299761
+    },
+    {
+      "id": "component-A-back-8-left-25-match-134",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.5534380705773219,
+        0.20445112518101619,
+        0.24211080424166193
+      ],
+      "pixel": [
+        114.66680145263672,
+        258.3714599609375
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 134,
+      "semanticRegion": "visible-left-wall",
+      "hypothesisPlaneId": 25,
+      "atlasPixel": [
+        449.26531982421875,
+        440.94989013671875
+      ],
+      "world": [
+        -16.869179371553308,
+        10.115080234467511,
+        -133.99291077643312
+      ],
+      "projectedPixel": [
+        130.43915988596865,
+        263.51741532565296
+      ],
+      "errorPixels": 16.590604183246032
+    },
+    {
+      "id": "component-A-back-8-left-25-match-138",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.13388829025402438,
+        0.05710448961016719,
+        0.8090072201358084
+      ],
+      "pixel": [
+        154.20565795898438,
+        390.888427734375
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 138,
+      "semanticRegion": "visible-left-wall",
+      "hypothesisPlaneId": 25,
+      "atlasPixel": [
+        462.3343811035156,
+        490.1127014160156
+      ],
+      "world": [
+        -16.869179371553308,
+        9.097654330344813,
+        -134.24457812983388
+      ],
+      "projectedPixel": [
+        73.17389503630557,
+        397.68556210072074
+      ],
+      "errorPixels": 81.31634299420617
+    },
+    {
+      "id": "component-A-back-8-left-25-match-146",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.7915863312931433,
+        0.08418179476902539,
+        0.12423187393783133
+      ],
+      "pixel": [
+        180.57164001464844,
+        348.451904296875
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 146,
+      "semanticRegion": "visible-left-wall",
+      "hypothesisPlaneId": 25,
+      "atlasPixel": [
+        479.40277099609375,
+        478.3948059082031
+      ],
+      "world": [
+        -16.869179371553308,
+        9.340156546886197,
+        -134.57326900727517
+      ],
+      "projectedPixel": [
+        -28.834955976846913,
+        374.18401517988605
+      ],
+      "errorPixels": 210.98166739136585
+    },
+    {
+      "id": "component-A-back-8-left-25-match-151",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.03792308061453187,
+        0.0645911500209863,
+        0.8974857693644819
+      ],
+      "pixel": [
+        194.888671875,
+        407.58917236328125
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 151,
+      "semanticRegion": "visible-left-wall",
+      "hypothesisPlaneId": 25,
+      "atlasPixel": [
+        484.9552001953125,
+        505.20166015625
+      ],
+      "world": [
+        -16.869179371553315,
+        8.785387871165886,
+        -134.6801898800267
+      ],
+      "projectedPixel": [
+        -53.53207408342587,
+        451.82201855361905
+      ],
+      "errorPixels": 252.32798438666853
+    },
+    {
+      "id": "component-A-back-8-left-25-match-152",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.05499082994471283,
+        0.02127308176044183,
+        0.9237360882948453
+      ],
+      "pixel": [
+        69.39163208007812,
+        432.10443115234375
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 152,
+      "semanticRegion": "visible-left-wall",
+      "hypothesisPlaneId": 25,
+      "atlasPixel": [
+        491.6664733886719,
+        502.5180358886719
+      ],
+      "world": [
+        -16.869179371553304,
+        8.840925556849175,
+        -134.80943055015666
+      ],
+      "projectedPixel": [
+        -96.83662743089053,
+        449.0172077269317
+      ],
+      "errorPixels": 167.08643353518522
+    }
+  ],
+  "limits": [
+    "Manually identified correspondences may be wrong.",
+    "Vertical FOV is source-backed; principal point and recording stretch are explicit assumptions.",
+    "Optional vertical recording scale is a crop hypothesis, not a native FOV/zoom change; the existing browser hook only reproduces full-height fits.",
+    "Heldout points do not participate in optimization or candidate selection.",
+    "A single frame cannot establish native camera rectangle, recording crop or rasterization."
+  ]
+}

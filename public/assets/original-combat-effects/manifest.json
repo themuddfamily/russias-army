@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "preparedOn": "2026-10-01",
+  "pathSemantics": "All source and script paths are relative to the repository root. Public URLs are site-root relative.",
+  "preparation": "Byte-for-byte copies of statically decoded source color+alpha PNGs; no resizing, recoloring, alpha changes, or image generation. Original Director, Lingo, and Flash code was not executed.",
+  "scope": "Source image provenance only. Native texture projection, filtering/wrapping behavior, and actor birth timing require separate runtime evidence.",
+  "assets": [
+    {
+      "id": "spatter",
+      "castId": 948,
+      "publicUrl": "/assets/original-combat-effects/spatter.png",
+      "file": "public/assets/original-combat-effects/spatter.png",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 35882,
+      "pngSha256": "7778676b251e5356b187c24cdf86bcf11c33c7df42d313c91afd6426d7740a66",
+      "rgbaPixelSha256": "12c17bdcd78fb538acc6125580c905da6fa819ec484e669d0dfc05fdc26b643b",
+      "editionsHaveIdenticalPngBytes": true,
+      "editionsHaveIdenticalRgbaPixels": true,
+      "sources": [
+        {
+          "edition": "barrack",
+          "castId": 948,
+          "castName": "spatter",
+          "decodedPng": "docs/research-evidence/2026-09-30/director-extraction/barrack/media/00948-spatter-rgba.png",
+          "mediaIndex": "docs/research-evidence/2026-09-30/director-extraction/barrack/cast-media-index.json",
+          "colorResourceId": 5115,
+          "alphaResourceId": 5116,
+          "pngSha256": "7778676b251e5356b187c24cdf86bcf11c33c7df42d313c91afd6426d7740a66",
+          "rgbaPixelSha256": "12c17bdcd78fb538acc6125580c905da6fa819ec484e669d0dfc05fdc26b643b",
+          "consumerScript": {
+            "number": 19,
+            "name": "blood",
+            "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 19 - blood.ls",
+            "sha256": "0416e7fad29dd87f47d94f2757102301f235b391e92369e9fc31994caef10dca"
+          }
+        },
+        {
+          "edition": "woodland",
+          "castId": 948,
+          "castName": "spatter",
+          "decodedPng": "docs/research-evidence/2026-09-30/director-extraction/woodland/media/00948-spatter-rgba.png",
+          "mediaIndex": "docs/research-evidence/2026-09-30/director-extraction/woodland/cast-media-index.json",
+          "colorResourceId": 6522,
+          "alphaResourceId": 6523,
+          "pngSha256": "7778676b251e5356b187c24cdf86bcf11c33c7df42d313c91afd6426d7740a66",
+          "rgbaPixelSha256": "12c17bdcd78fb538acc6125580c905da6fa819ec484e669d0dfc05fdc26b643b",
+          "consumerScript": {
+            "number": 19,
+            "name": "blood",
+            "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 19 - blood.ls",
+            "sha256": "0416e7fad29dd87f47d94f2757102301f235b391e92369e9fc31994caef10dca"
+          }
+        }
+      ]
+    },
+    {
+      "id": "decalspas",
+      "castId": 2173,
+      "publicUrl": "/assets/original-combat-effects/decalspas.png",
+      "file": "public/assets/original-combat-effects/decalspas.png",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 25472,
+      "pngSha256": "c19c2ffb7ab1f07d2dce5e9b96da158de154dc5e598b98b66a8ce25184343d64",
+      "rgbaPixelSha256": "9ffdc1b36db6da7d10eee59e1143698be11e296a93240c68b551cfec4e940d0f",
+      "editionsHaveIdenticalPngBytes": true,
+      "editionsHaveIdenticalRgbaPixels": true,
+      "sources": [
+        {
+          "edition": "barrack",
+          "castId": 2173,
+          "castName": "decalspas",
+          "decodedPng": "docs/research-evidence/2026-09-30/director-extraction/barrack/media/02173-decalspas-rgba.png",
+          "mediaIndex": "docs/research-evidence/2026-09-30/director-extraction/barrack/cast-media-index.json",
+          "colorResourceId": 5091,
+          "alphaResourceId": 5092,
+          "pngSha256": "c19c2ffb7ab1f07d2dce5e9b96da158de154dc5e598b98b66a8ce25184343d64",
+          "rgbaPixelSha256": "9ffdc1b36db6da7d10eee59e1143698be11e296a93240c68b551cfec4e940d0f",
+          "consumerScript": {
+            "number": 18,
+            "name": "miss",
+            "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 18 - miss.ls",
+            "sha256": "3f34ca67b5789271343ca742f4320d0e80958d60155b57e4fc844a6463223ff1"
+          }
+        },
+        {
+          "edition": "woodland",
+          "castId": 2173,
+          "castName": "decalspas",
+          "decodedPng": "docs/research-evidence/2026-09-30/director-extraction/woodland/media/02173-decalspas-rgba.png",
+          "mediaIndex": "docs/research-evidence/2026-09-30/director-extraction/woodland/cast-media-index.json",
+          "colorResourceId": 6498,
+          "alphaResourceId": 6499,
+          "pngSha256": "c19c2ffb7ab1f07d2dce5e9b96da158de154dc5e598b98b66a8ce25184343d64",
+          "rgbaPixelSha256": "9ffdc1b36db6da7d10eee59e1143698be11e296a93240c68b551cfec4e940d0f",
+          "consumerScript": {
+            "number": 18,
+            "name": "miss",
+            "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 18 - miss.ls",
+            "sha256": "3f34ca67b5789271343ca742f4320d0e80958d60155b57e4fc844a6463223ff1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pufft",
+      "castId": 2180,
+      "publicUrl": "/assets/original-combat-effects/pufft.png",
+      "file": "public/assets/original-combat-effects/pufft.png",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 14482,
+      "pngSha256": "db397ddf74c15ed6bc332856306e129749261ebbcf0f2957c8be593e9a49e8ba",
+      "rgbaPixelSha256": "a0baa8eff2471043611828b67a5220ab7047dc0cb656652b84089ff25e0b45f4",
+      "editionsHaveIdenticalPngBytes": true,
+      "editionsHaveIdenticalRgbaPixels": true,
+      "sources": [
+        {
+          "edition": "barrack",
+          "castId": 2180,
+          "castName": "pufft",
+          "decodedPng": "docs/research-evidence/2026-09-30/director-extraction/barrack/media/02180-pufft-rgba.png",
+          "mediaIndex": "docs/research-evidence/2026-09-30/director-extraction/barrack/cast-media-index.json",
+          "colorResourceId": 5099,
+          "alphaResourceId": 5100,
+          "pngSha256": "db397ddf74c15ed6bc332856306e129749261ebbcf0f2957c8be593e9a49e8ba",
+          "rgbaPixelSha256": "a0baa8eff2471043611828b67a5220ab7047dc0cb656652b84089ff25e0b45f4",
+          "consumerScript": {
+            "number": 16,
+            "name": "puff",
+            "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 16 - puff.ls",
+            "sha256": "a5411b6f4092ed61fb540e013e034fbda5a3d78dad5d2ac211045128426ab5d4"
+          }
+        },
+        {
+          "edition": "woodland",
+          "castId": 2180,
+          "castName": "pufft",
+          "decodedPng": "docs/research-evidence/2026-09-30/director-extraction/woodland/media/02180-pufft-rgba.png",
+          "mediaIndex": "docs/research-evidence/2026-09-30/director-extraction/woodland/cast-media-index.json",
+          "colorResourceId": 6506,
+          "alphaResourceId": 6507,
+          "pngSha256": "db397ddf74c15ed6bc332856306e129749261ebbcf0f2957c8be593e9a49e8ba",
+          "rgbaPixelSha256": "a0baa8eff2471043611828b67a5220ab7047dc0cb656652b84089ff25e0b45f4",
+          "consumerScript": {
+            "number": 16,
+            "name": "puff",
+            "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 16 - puff.ls",
+            "sha256": "a5411b6f4092ed61fb540e013e034fbda5a3d78dad5d2ac211045128426ab5d4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "decal",
+      "castId": 2235,
+      "publicUrl": "/assets/original-combat-effects/decal.png",
+      "file": "public/assets/original-combat-effects/decal.png",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 15505,
+      "pngSha256": "20899cd364db66f195e34cdd74baaca3eb97f4005ebdf388812a44053229837e",
+      "rgbaPixelSha256": "13191ac5411dd51c7b4daefc2e7747b35584cb34ff55c53b6ea2bdafd32730e2",
+      "editionsHaveIdenticalPngBytes": true,
+      "editionsHaveIdenticalRgbaPixels": true,
+      "sources": [
+        {
+          "edition": "barrack",
+          "castId": 2235,
+          "castName": "decal",
+          "decodedPng": "docs/research-evidence/2026-09-30/director-extraction/barrack/media/02235-decal-rgba.png",
+          "mediaIndex": "docs/research-evidence/2026-09-30/director-extraction/barrack/cast-media-index.json",
+          "colorResourceId": 5103,
+          "alphaResourceId": 5104,
+          "pngSha256": "20899cd364db66f195e34cdd74baaca3eb97f4005ebdf388812a44053229837e",
+          "rgbaPixelSha256": "13191ac5411dd51c7b4daefc2e7747b35584cb34ff55c53b6ea2bdafd32730e2",
+          "consumerScript": {
+            "number": 18,
+            "name": "miss",
+            "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 18 - miss.ls",
+            "sha256": "3f34ca67b5789271343ca742f4320d0e80958d60155b57e4fc844a6463223ff1"
+          }
+        },
+        {
+          "edition": "woodland",
+          "castId": 2235,
+          "castName": "decal",
+          "decodedPng": "docs/research-evidence/2026-09-30/director-extraction/woodland/media/02235-decal-rgba.png",
+          "mediaIndex": "docs/research-evidence/2026-09-30/director-extraction/woodland/cast-media-index.json",
+          "colorResourceId": 6510,
+          "alphaResourceId": 6511,
+          "pngSha256": "20899cd364db66f195e34cdd74baaca3eb97f4005ebdf388812a44053229837e",
+          "rgbaPixelSha256": "13191ac5411dd51c7b4daefc2e7747b35584cb34ff55c53b6ea2bdafd32730e2",
+          "consumerScript": {
+            "number": 18,
+            "name": "miss",
+            "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 18 - miss.ls",
+            "sha256": "3f34ca67b5789271343ca742f4320d0e80958d60155b57e4fc844a6463223ff1"
+          }
+        }
+      ]
+    }
+  ]
+}

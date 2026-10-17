@@ -1,0 +1,40 @@
+sampleSize 967
+When multiple sounds are queued in a sound channel, Director plays them all with the 
+channelCount, sampleRate, and sampleSize of the first sound queued, resampling the rest for 
+smooth playback. Director resets these properties only after the channel’s sound queue is 
+exhausted or a stop() method is issued. The next sound to be queued or played then 
+determines the new settings.
+Example
+This statement assigns the original sample rate of the file used in SWA streaming cast member 
+Paul Robeson to the field cast member Sound Quality:
+-- Lingo syntax
+member("Sound Quality").text = string(member("Paul Robeson").sampleRate)
+// JavaScript syntax
+member("Sound Quality").text = member("Paul Robeson").sampleRate.toString();
+This statement displays the sample rate of the sound playing in sound channel 1 in the 
+Message window:
+-- Lingo syntax
+trace(sound(1).sampleRate)
+// JavaScript syntax
+trace(sound(1).sampleRate);
+See also
+channelCount, sampleSize, preLoadBuffer(), Sound Channel, stop() (Sound 
+Channel) 
+sampleSize
+Usage
+-- Lingo syntax
+memberObjRef.sampleSize
+// JavaScript syntax
+memberObjRef.sampleSize;
+Description
+Cast member property; determines the sample size of the specified cast member. The result is 
+usually a size of 8 or 16 bits. If a sound channel is given, the value if for the sound member 
+currently playing in the given sound channel.
+This property can be tested but not set.
+Example
+This statement checks the sample size of the sound cast member Voice Over and assigns the value 
+to the variable soundSize:
+-- Lingo syntax
+soundSize = member("Voice Over").sampleSize
+// JavaScript syntax
+var soundSize = member("Voice Over").sampleSize;

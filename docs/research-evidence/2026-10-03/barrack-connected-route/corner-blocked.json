@@ -1,0 +1,4372 @@
+{
+  "scope": "Continuous shared source-derived controls and physics from real recovered settled spawn5; no dynamic barrels, browser, original runtime or footage equivalence",
+  "sourceSpawn": {
+    "position": [
+      -197,
+      -2748,
+      559
+    ],
+    "rotation": [
+      -2,
+      0,
+      -2544
+    ]
+  },
+  "spawns": [
+    {
+      "x": 6.070588235294118,
+      "y": -6.900487121331835e-8,
+      "z": 11.392470588235295
+    },
+    {
+      "x": -101.45976470588236,
+      "y": -7.830859593033304e-8,
+      "z": -57.36705882352941
+    },
+    {
+      "x": -80.77929411764707,
+      "y": 1.3050315400563784e-7,
+      "z": 112.60941176470588
+    },
+    {
+      "x": 77.15026989080883,
+      "y": 6.560089044879744,
+      "z": 34.116705882352946
+    },
+    {
+      "x": 62.243764705882356,
+      "y": 8.13081438209361,
+      "z": -43.64752941176471
+    },
+    {
+      "x": -3.9054117647058826,
+      "y": 9.55437404497932,
+      "z": 55.60658823529412
+    }
+  ],
+  "rampPair": [
+    18,
+    43
+  ],
+  "door": "door open 5",
+  "waypoints": [
+    {
+      "name": "ramp lower approach",
+      "x": -4.037931181066177,
+      "z": 63.44768566176471
+    },
+    {
+      "name": "ramp upper extension",
+      "x": -17.217797794117647,
+      "z": 63.44768566176471
+    },
+    {
+      "name": "upper corner",
+      "x": -16,
+      "z": 64
+    },
+    {
+      "name": "upper platform bypass",
+      "x": -16,
+      "z": 66
+    },
+    {
+      "name": "upper corridor entrance",
+      "x": -8,
+      "z": 66
+    },
+    {
+      "name": "upper corridor exit",
+      "x": -8,
+      "z": 75.5
+    },
+    {
+      "name": "door platform approach",
+      "x": -1.316875,
+      "z": 75.5
+    },
+    {
+      "name": "door near approach",
+      "x": -1.316875631010273,
+      "y": 10.79180826071027,
+      "z": 74.26773140722996
+    },
+    {
+      "name": "door far approach",
+      "x": -1.3168759265061984,
+      "y": 10.79180826071027,
+      "z": 72.57769172419226
+    }
+  ],
+  "status": "blocked",
+  "callbacks": 232,
+  "queries": 4294,
+  "segments": [
+    {
+      "target": {
+        "name": "ramp lower approach",
+        "x": -4.037931181066177,
+        "z": 63.44768566176471
+      },
+      "begin": 0,
+      "end": 32,
+      "reached": true,
+      "final": {
+        "x": -4.027116911557198,
+        "y": 7.761083907400315,
+        "z": 63.429267384128835
+      },
+      "minDistance": 0.307703599126361
+    },
+    {
+      "target": {
+        "name": "ramp upper extension",
+        "x": -17.217797794117647,
+        "z": 63.44768566176471
+      },
+      "begin": 32,
+      "end": 89,
+      "reached": true,
+      "final": {
+        "x": -17.03143403368532,
+        "y": 11.541034059462266,
+        "z": 63.449066934065165
+      },
+      "minDistance": 0.4621413008284439
+    },
+    {
+      "target": {
+        "name": "upper corner",
+        "x": -16,
+        "z": 64
+      },
+      "begin": 89,
+      "end": 111,
+      "reached": true,
+      "final": {
+        "x": -16.207627582732705,
+        "y": 11.317942722061753,
+        "z": 63.96784017856069
+      },
+      "minDistance": 0.4991062573429624
+    },
+    {
+      "target": {
+        "name": "upper platform bypass",
+        "x": -16,
+        "z": 66
+      },
+      "begin": 111,
+      "end": 232,
+      "reached": false,
+      "final": {
+        "x": -15.684882536479021,
+        "y": 11.141978322828214,
+        "z": 64.48670271250664
+      },
+      "minDistance": 1.5365600146899128
+    }
+  ],
+  "trace": [
+    {
+      "callback": 0,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9054117647058826,
+        "y": 10.0604430274781,
+        "z": 55.60658823529412
+      },
+      "velocity": {
+        "x": -1.9371999815044848e-17,
+        "y": 0.003679144384658828,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.842217176737469
+    },
+    {
+      "callback": 1,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9066752337715,
+        "y": 10.060627984697346,
+        "z": 55.68134697111516
+      },
+      "velocity": {
+        "x": -0.024961635125864162,
+        "y": 0.0036791443850268737,
+        "z": 1.4769655520800922
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.767447764972762
+    },
+    {
+      "callback": 2,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9088747641543375,
+        "y": 10.060812941916593,
+        "z": 55.81149191513921
+      },
+      "velocity": {
+        "x": -0.04368286147026366,
+        "y": 0.003679144385026825,
+        "z": 2.5846897161401983
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.6372842355609984
+    },
+    {
+      "callback": 3,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9117763405250896,
+        "y": 10.06099789913584,
+        "z": 55.983176515315506
+      },
+      "velocity": {
+        "x": -0.057723781228564246,
+        "y": 0.003679144385078874,
+        "z": 3.4154828391852727
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.465575117913941
+    },
+    {
+      "callback": 4,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9140709058023466,
+        "y": 10.070182536668867,
+        "z": 56.18271485863675
+      },
+      "velocity": {
+        "x": 0.056704849573056076,
+        "y": 0.9778783784787414,
+        "z": 3.676408646346464
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.266026571523815
+    },
+    {
+      "callback": 5,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9132380019851905,
+        "y": 10.107947043828101,
+        "z": 56.396451509956144
+      },
+      "velocity": {
+        "x": 0.016658076343155623,
+        "y": 0.5731724961257999,
+        "z": 4.274733026388044
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.052336595238544
+    },
+    {
+      "callback": 6,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9124050981680343,
+        "y": 10.125476256869682,
+        "z": 56.61018816127554
+      },
+      "velocity": {
+        "x": 0.016658076343155623,
+        "y": 0.16846661377285851,
+        "z": 4.274733026388044
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.838649637661182
+    },
+    {
+      "callback": 7,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.911572194350878,
+        "y": 10.122770175793622,
+        "z": 56.82392481259493
+      },
+      "velocity": {
+        "x": 0.016658076343155623,
+        "y": -0.23623926858008268,
+        "z": 4.274733026388044
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.624965990895202
+    },
+    {
+      "callback": 8,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.910739290533722,
+        "y": 10.099828800599912,
+        "z": 57.037661463914326
+      },
+      "velocity": {
+        "x": 0.016658076343155623,
+        "y": -0.6409451509330241,
+        "z": 4.274733026388044
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.411285985981648
+    },
+    {
+      "callback": 9,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9099157382103162,
+        "y": 10.080649865760163,
+        "z": 57.24899837000727
+      },
+      "velocity": {
+        "x": 0.016279246795093443,
+        "y": -0.0735054849066975,
+        "z": 4.177519209671953
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.2000090398808885
+    },
+    {
+      "callback": 10,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9108660263401656,
+        "y": 10.080508506330432,
+        "z": 57.48005529608405
+      },
+      "velocity": {
+        "x": -0.01892817798529002,
+        "y": 0.0036791443773082425,
+        "z": 4.602274283076614
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 5.9689829732492425
+    },
+    {
+      "callback": 11,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.91318094199515,
+        "y": 10.080508506330803,
+        "z": 57.727411341711665
+      },
+      "velocity": {
+        "x": -0.04612442150856147,
+        "y": 0.003679144385026749,
+        "z": 4.928540047085034
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 5.721634462180067
+    },
+    {
+      "callback": 12,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.916550883233544,
+        "y": 10.080508506330803,
+        "z": 57.987001554484785
+      },
+      "velocity": {
+        "x": -0.06715762194928449,
+        "y": 0.0036791443850266864,
+        "z": 5.173224141871924
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 5.462032963668516
+    },
+    {
+      "callback": 13,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9207385427973658,
+        "y": 10.080508506330803,
+        "z": 58.25576676086805
+      },
+      "velocity": {
+        "x": -0.08346370327426011,
+        "y": 0.0036791443850265892,
+        "z": 5.356724703655752
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 5.193241375860782
+    },
+    {
+      "callback": 14,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9255616741938613,
+        "y": 10.080508506330803,
+        "z": 58.531412688567904
+      },
+      "velocity": {
+        "x": -0.09613754362901125,
+        "y": 0.003679144385026742,
+        "z": 5.494339718726032
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.917557000489173
+    },
+    {
+      "callback": 15,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9308800704131253,
+        "y": 10.080508506330803,
+        "z": 58.81221871804784
+      },
+      "velocity": {
+        "x": -0.10601605511754228,
+        "y": 0.0036791443850266448,
+        "z": 5.5975422423139785
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.6367028939305435
+    },
+    {
+      "callback": 16,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9365860638350476,
+        "y": 10.080324549111552,
+        "z": 59.09691283435889
+      },
+      "velocity": {
+        "x": -0.11382124775951348,
+        "y": -0.03679144385026738,
+        "z": 5.678982983719614
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.351953013128636
+    },
+    {
+      "callback": 17,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9426214536831923,
+        "y": 10.06735556515433,
+        "z": 59.38573647101022
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -0.4414973262032087,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.0630672123907665
+    },
+    {
+      "callback": 18,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.948656843531337,
+        "y": 10.034151287079466,
+        "z": 59.67456010766155
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -0.8462032085561502,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.7741815476164584
+    },
+    {
+      "callback": 19,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9546922333794816,
+        "y": 9.980711714886953,
+        "z": 59.96338374431288
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -1.250909090909091,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.4852960526145393
+    },
+    {
+      "callback": 20,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9607276232276263,
+        "y": 9.907036848576789,
+        "z": 60.25220738096421
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -1.6556149732620313,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.1964107734161225
+    },
+    {
+      "callback": 21,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.966763013075771,
+        "y": 9.813126688148985,
+        "z": 60.54103101761554
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -2.060320855614972,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.9075257743464724
+    },
+    {
+      "callback": 22,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9727984029239156,
+        "y": 9.698981233603527,
+        "z": 60.82985465426687
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -2.4650267379679147,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.6186411481158873
+    },
+    {
+      "callback": 23,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9788337927720603,
+        "y": 9.564600484940428,
+        "z": 61.1186782909182
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -2.8697326203208573,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.329757033417984
+    },
+    {
+      "callback": 24,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.984869182620205,
+        "y": 9.40998444215968,
+        "z": 61.40750192756953
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -3.2744385026738,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.040873647473963
+    },
+    {
+      "callback": 25,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9909045724683496,
+        "y": 9.23513310526128,
+        "z": 61.69632556422086
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -3.6791443850267425,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.7519913507734635
+    },
+    {
+      "callback": 26,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9969399623164943,
+        "y": 9.04004647424524,
+        "z": 61.985149200872186
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -4.083850267379685,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.4631107885100871
+    },
+    {
+      "callback": 27,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -4.002975352164637,
+        "y": 8.824724549111547,
+        "z": 62.273972837523516
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -4.488556149732627,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.1742332407841427
+    },
+    {
+      "callback": 28,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -4.009010742012777,
+        "y": 8.589167329860212,
+        "z": 62.562796474174846
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -4.89326203208557,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.8853616583681998
+    },
+    {
+      "callback": 29,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -4.015046131860918,
+        "y": 8.333374816491228,
+        "z": 62.851620110826175
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -5.297967914438512,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.5965047078546692
+    },
+    {
+      "callback": 30,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -4.021081521709058,
+        "y": 8.057347009004593,
+        "z": 63.140443747477505
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -5.702673796791455,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.307703599126361
+    },
+    {
+      "callback": 31,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -4.027116911557198,
+        "y": 7.761083907400315,
+        "z": 63.429267384128835
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -6.1073796791443975,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.02135840293853817
+    },
+    {
+      "callback": 32,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -4.033152301405338,
+        "y": 7.4445855116783894,
+        "z": 63.718091020780165
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -6.51208556149734,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 13.18741808796109
+    },
+    {
+      "callback": 33,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -4.0391876912534785,
+        "y": 7.107851821838816,
+        "z": 64.0069146574315
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -6.916791443850283,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 13.190470094462441
+    },
+    {
+      "callback": 34,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -4.045223081101619,
+        "y": 6.750882837881596,
+        "z": 64.29573829408282
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -7.321497326203225,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 13.199845371714437
+    },
+    {
+      "callback": 35,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -4.049330381628173,
+        "y": 6.756349038480447,
+        "z": 64.48694088758118
+      },
+      "velocity": {
+        "x": 8.465450562766819e-16,
+        "y": -0.08094117647058907,
+        "z": -0.4966833012510792
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 13.209412758263861
+    },
+    {
+      "callback": 36,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -4.1249775212986135,
+        "y": 6.741172567892212,
+        "z": 64.46234519279899
+      },
+      "velocity": {
+        "x": -1.5129427934088429,
+        "y": -0.48564705882353043,
+        "z": -0.49191389564492266
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 13.132078154666146
+    },
+    {
+      "callback": 37,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -4.197832653673254,
+        "y": 6.735120181839824,
+        "z": 64.43865728328896
+      },
+      "velocity": {
+        "x": -1.4279207016276183,
+        "y": 0.0036793835294117658,
+        "z": -0.46427005572831304
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 13.057622946503455
+    },
+    {
+      "callback": 38,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -4.325965928022107,
+        "y": 6.735120178123691,
+        "z": 64.4156814442562
+      },
+      "velocity": {
+        "x": -2.5443755111644846,
+        "y": 0.0036791443850267627,
+        "z": -0.45623716774947953
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 12.928122241787388
+    },
+    {
+      "callback": 39,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -4.495964492284517,
+        "y": 6.735120178123691,
+        "z": 64.39303536196967
+      },
+      "velocity": {
+        "x": -3.381552317108467,
+        "y": 0.003679144385026742,
+        "z": -0.45046799284278416
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 12.756909054128592
+    },
+    {
+      "callback": 40,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -4.697358673807003,
+        "y": 6.735120178123691,
+        "z": 64.370640512502
+      },
+      "velocity": {
+        "x": -4.009415780182019,
+        "y": 0.003679144385026742,
+        "z": -0.44584338123171025
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 12.55441123358259
+    },
+    {
+      "callback": 41,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -4.922299622997657,
+        "y": 6.735120178123691,
+        "z": 64.34845023469518
+      },
+      "velocity": {
+        "x": -4.480327065657644,
+        "y": 0.003679144385026742,
+        "z": -0.4419813404815528
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 12.328448892373348
+    },
+    {
+      "callback": 42,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -5.120349670217145,
+        "y": 6.8117409070500505,
+        "z": 64.32729065296003
+      },
+      "velocity": {
+        "x": -3.9138498105701145,
+        "y": 1.4393740059552453,
+        "z": -0.42221279676631185
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 12.129383993055852
+    },
+    {
+      "callback": 43,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -5.329716310436548,
+        "y": 6.897214868180146,
+        "z": 64.30620946422417
+      },
+      "velocity": {
+        "x": -4.103243631730592,
+        "y": 1.6856703585401644,
+        "z": -0.4199589451390757
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 11.919041256830635
+    },
+    {
+      "callback": 44,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -5.550136216752978,
+        "y": 6.98756883667197,
+        "z": 64.28516418463279
+      },
+      "velocity": {
+        "x": -4.327347267494469,
+        "y": 1.7775343518775852,
+        "z": -0.4193836218798574
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 11.697679127082306
+    },
+    {
+      "callback": 45,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -5.779462391243868,
+        "y": 7.081573640014811,
+        "z": 64.26415797305654
+      },
+      "velocity": {
+        "x": -4.5054676600156,
+        "y": 1.850549011030283,
+        "z": -0.41866396925114774
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 11.467438415955932
+    },
+    {
+      "callback": 46,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -6.015867664298775,
+        "y": 7.178480289481521,
+        "z": 64.24319700964566
+      },
+      "velocity": {
+        "x": -4.647045815871993,
+        "y": 1.908584369519978,
+        "z": -0.4178057784618683
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 11.23014144781584
+    },
+    {
+      "callback": 47,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -6.257899965596568,
+        "y": 7.277693556074046,
+        "z": 64.22228684691825
+      },
+      "velocity": {
+        "x": -4.759583656772916,
+        "y": 1.9547155956064182,
+        "z": -0.41682591426739624
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 10.987236568294247
+    },
+    {
+      "callback": 48,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -6.504405318275195,
+        "y": 7.3787404045345495,
+        "z": 64.20143218042888
+      },
+      "velocity": {
+        "x": -4.849042584340336,
+        "y": 1.9913863721206,
+        "z": -0.4157445256634525
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 10.739874866861161
+    },
+    {
+      "callback": 49,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -6.754466627237143,
+        "y": 7.4812449015685445,
+        "z": 64.1806368717763
+      },
+      "velocity": {
+        "x": -4.920160054820502,
+        "y": 2.0205386651018036,
+        "z": -0.41458029569891397
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 10.488971188065607
+    },
+    {
+      "callback": 50,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -7.007355049007934,
+        "y": 7.584908281509012,
+        "z": 64.15990407126877
+      },
+      "velocity": {
+        "x": -4.976700979977536,
+        "y": 2.043715777623934,
+        "z": -0.41334886290280604
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 10.235252616032499
+    },
+    {
+      "callback": 51,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -7.262491348528792,
+        "y": 7.689493105790946,
+        "z": 64.13923636785314
+      },
+      "velocity": {
+        "x": -5.021657444088666,
+        "y": 2.062144217279052,
+        "z": -0.41206247582950367
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.979297009543028
+    },
+    {
+      "callback": 52,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -7.519415190575846,
+        "y": 7.794810674967857,
+        "z": 64.11863593466819
+      },
+      "velocity": {
+        "x": -5.057407383782771,
+        "y": 2.076798741814114,
+        "z": -0.4107302043804869
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.72156362903579
+    },
+    {
+      "callback": 53,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -7.7777607358584495,
+        "y": 7.90071102512634,
+        "z": 64.09810465724517
+      },
+      "velocity": {
+        "x": -5.085840673844216,
+        "y": 2.0884540439036443,
+        "z": -0.4093583664772387
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.462417478160047
+    },
+    {
+      "callback": 54,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -8.037237246998592,
+        "y": 8.00707497793839,
+        "z": 64.07764424067118
+      },
+      "velocity": {
+        "x": -5.108459319887789,
+        "y": 2.097725821876753,
+        "z": -0.40795100171542376
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.202148649660947
+    },
+    {
+      "callback": 55,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -8.297613675685037,
+        "y": 8.113807822666736,
+        "z": 64.05725629644168
+      },
+      "velocity": {
+        "x": -5.1264570786022,
+        "y": 2.1051034174451226,
+        "z": -0.406510313759216
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 8.940987700774329
+    },
+    {
+      "callback": 56,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -8.558706413627947,
+        "y": 8.220834295067268,
+        "z": 64.03694241160538
+      },
+      "velocity": {
+        "x": -5.140782731561381,
+        "y": 2.110975752743255,
+        "z": -0.4050370498553821
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 8.6791178729698
+    },
+    {
+      "callback": 57,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -8.82036955781629,
+        "y": 8.328094586948053,
+        "z": 64.01670420339295
+      },
+      "velocity": {
+        "x": -5.152190369756015,
+        "y": 2.115651942835878,
+        "z": -0.4035308093260851
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 8.416684803682982
+    },
+    {
+      "callback": 58,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -9.082487173955254,
+        "y": 8.435541174817239,
+        "z": 63.996543362486996
+      },
+      "velocity": {
+        "x": -5.161279356111456,
+        "y": 2.1193776770520167,
+        "z": -0.4019902840264811
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 8.153804244778579
+    },
+    {
+      "callback": 59,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -9.344967147934586,
+        "y": 8.543136299492566,
+        "z": 63.976461687785545
+      },
+      "velocity": {
+        "x": -5.168526085323907,
+        "y": 2.122348237896419,
+        "z": -0.40041343833929394
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.890568196852087
+    },
+    {
+      "callback": 60,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -9.607736299386588,
+        "y": 8.650849963063466,
+        "z": 63.95646111512193
+      },
+      "velocity": {
+        "x": -5.174309225077035,
+        "y": 2.1247188478645747,
+        "z": -0.39879763747910496
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.627049784518728
+    },
+    {
+      "callback": 61,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -9.870736498308,
+        "y": 8.758658337026551,
+        "z": 63.936543742023815
+      },
+      "velocity": {
+        "x": -5.17892977688858,
+        "y": 2.126612892734787,
+        "z": -0.39713973240557415
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.363307131107513
+    },
+    {
+      "callback": 62,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -10.133921578896555,
+        "y": 8.866542497213343,
+        "z": 63.9167118502627
+      },
+      "velocity": {
+        "x": -5.182627020076297,
+        "y": 2.1281284572775876,
+        "z": -0.39543610841204935
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.099386438141825
+    },
+    {
+      "callback": 63,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -10.3972548870126,
+        "y": 8.974487418451956,
+        "z": 63.89696792768568
+      },
+      "velocity": {
+        "x": -5.185591184008213,
+        "y": 2.1293435198326094,
+        "z": -0.3936827029347397
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.835324432836532
+    },
+    {
+      "callback": 64,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -10.660707331261584,
+        "y": 9.082481175671775,
+        "z": 63.87731469063494
+      },
+      "velocity": {
+        "x": -5.1879735203227595,
+        "y": 2.130320081087616,
+        "z": -0.39187499654098157
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.5711503133413345
+    },
+    {
+      "callback": 65,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -10.92425583438544,
+        "y": 9.190514309101754,
+        "z": 63.857755108150165
+      },
+      "velocity": {
+        "x": -5.189894308952099,
+        "y": 2.131107445886954,
+        "z": -0.3900079794843452
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.3068872948363985
+    },
+    {
+      "callback": 66,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -11.187882102866265,
+        "y": 9.298579319909466,
+        "z": 63.83829242911458
+      },
+      "velocity": {
+        "x": -5.191449222242738,
+        "y": 2.131744831996203,
+        "z": -0.38807609465794135
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.042553838427851
+    },
+    {
+      "callback": 67,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -11.451571649508942,
+        "y": 9.406670269540665,
+        "z": 63.81893021354859
+      },
+      "velocity": {
+        "x": -5.192714384431824,
+        "y": 2.132263444069362,
+        "z": -0.38607315617982674
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 5.778164627976446
+    },
+    {
+      "callback": 68,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -11.715313017174967,
+        "y": 9.51478246151422,
+        "z": 63.799672369384936
+      },
+      "velocity": {
+        "x": -5.193750394584971,
+        "y": 2.1326881227216075,
+        "z": -0.38399224110610714
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 5.51373134663154
+    },
+    {
+      "callback": 69,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -11.97909716249894,
+        "y": 9.622912188796732,
+        "z": 63.78052319628934
+      },
+      "velocity": {
+        "x": -5.194605526172521,
+        "y": 2.1330386560913537,
+        "z": -0.38182554974176275
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 5.249263294226217
+    },
+    {
+      "callback": 70,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -12.242916966897052,
+        "y": 9.731056533356403,
+        "z": 63.76148743844689
+      },
+      "velocity": {
+        "x": -5.195318272841516,
+        "y": 2.133330823396789,
+        "z": -0.3795642274950222
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.9847678782563145
+    },
+    {
+      "callback": 71,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -12.506766848924544,
+        "y": 9.839213207261563,
+        "z": 63.74257034875699
+      },
+      "velocity": {
+        "x": -5.195919375327248,
+        "y": 2.1335772258019503,
+        "z": -0.37719813788910955
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.72025100446889
+    },
+    {
+      "callback": 72,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -12.770642457414553,
+        "y": 9.947380426892938,
+        "z": 63.723777767633116
+      },
+      "velocity": {
+        "x": -5.196433437013073,
+        "y": 2.1337879486633518,
+        "z": -0.37471557173749126
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.455717387771543
+    },
+    {
+      "callback": 73,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -13.034540429122027,
+        "y": 10.055556813597647,
+        "z": 63.705116220688566
+      },
+      "velocity": {
+        "x": -5.196880213956298,
+        "y": 2.1339710903338625,
+        "z": -0.37210287087522725
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.191170799962458
+    },
+    {
+      "callback": 74,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -13.298458198033785,
+        "y": 10.163741315522087,
+        "z": 63.686593041164876
+      },
+      "velocity": {
+        "x": -5.197275648125135,
+        "y": 2.134133185704638,
+        "z": -0.36934393504302926
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.9266142674526443
+    },
+    {
+      "callback": 75,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -13.562393846278157,
+        "y": 10.271933146497169,
+        "z": 63.66821652528425
+      },
+      "velocity": {
+        "x": -5.197632699285288,
+        "y": 2.134279547209868,
+        "z": -0.36641956558807315
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.662050229536073
+    },
+    {
+      "callback": 76,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -13.826345988831953,
+        "y": 10.380131738777699,
+        "z": 63.64999613220625
+      },
+      "velocity": {
+        "x": -5.197962020812067,
+        "y": 2.1344145418542158,
+        "z": -0.36330657622747214
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.3974806657324583
+    },
+    {
+      "callback": 77,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -14.090313686116989,
+        "y": 10.48833670721418,
+        "z": 63.6319427456652
+      },
+      "velocity": {
+        "x": -5.198272517304037,
+        "y": 2.1345418197880357,
+        "z": -0.3599765632810798
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.1329071991944137
+    },
+    {
+      "callback": 78,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -14.354296380236256,
+        "y": 10.596547823114879,
+        "z": 63.614069022929456
+      },
+      "velocity": {
+        "x": -5.1985718171308175,
+        "y": 2.1346645080133073,
+        "z": -0.3563941646040388
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.8683311820940767
+    },
+    {
+      "callback": 79,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -14.618293852169364,
+        "y": 10.704764996699518,
+        "z": 63.59638987077713
+      },
+      "velocity": {
+        "x": -5.1988666912721895,
+        "y": 2.1347853820728835,
+        "z": -0.3525145270077073
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.6037537683088763
+    },
+    {
+      "callback": 80,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -14.88230619892894,
+        "y": 10.812988267735266,
+        "z": 63.57892311215566
+      },
+      "velocity": {
+        "x": -5.199163452022561,
+        "y": 2.1349070294863814,
+        "z": -0.3482795041640735
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.3391759787545285
+    },
+    {
+      "callback": 81,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -15.146333831798787,
+        "y": 10.921217804814535,
+        "z": 63.56169045000242
+      },
+      "velocity": {
+        "x": -5.199468373840105,
+        "y": 2.1350320222638306,
+        "z": -0.3436117313845457
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.0745987657681857
+    },
+    {
+      "callback": 82,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -15.41037749994733,
+        "y": 11.029453915034546,
+        "z": 63.544718915449764
+      },
+      "velocity": {
+        "x": -5.199788199588494,
+        "y": 2.135163124422829,
+        "z": -0.33840496723174485
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.8100230860680822
+    },
+    {
+      "callback": 83,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -15.674438349246888,
+        "y": 11.137697068108366,
+        "z": 63.528043150417005
+      },
+      "velocity": {
+        "x": -5.200130842511469,
+        "y": 2.1353035797400777,
+        "z": -0.3325074562178136
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.545449999855797
+    },
+    {
+      "callback": 84,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -15.938518037138627,
+        "y": 11.245947943450076,
+        "z": 63.51170923110897
+      },
+      "velocity": {
+        "x": -5.200506503258551,
+        "y": 2.135457569639982,
+        "z": -0.32569120378860567
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.280880835225464
+    },
+    {
+      "callback": 85,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -16.205033505132672,
+        "y": 11.349664594679382,
+        "z": 63.49575305147662
+      },
+      "velocity": {
+        "x": -5.324528323469804,
+        "y": 1.903090549532932,
+        "z": -0.3190558018697538
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.0139043243802441
+    },
+    {
+      "callback": 86,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -16.480500347983554,
+        "y": 11.433689710391327,
+        "z": 63.48019101233947
+      },
+      "velocity": {
+        "x": -5.509336857017884,
+        "y": 1.4983846671799916,
+        "z": -0.31124078274373734
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.7380136325921384
+    },
+    {
+      "callback": 87,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -16.755967190834436,
+        "y": 11.497479531985618,
+        "z": 63.464628973202316
+      },
+      "velocity": {
+        "x": -5.509336857017884,
+        "y": 1.0936787848270513,
+        "z": -0.31124078274373734
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.4621413008284439
+    },
+    {
+      "callback": 88,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -17.03143403368532,
+        "y": 11.541034059462266,
+        "z": 63.449066934065165
+      },
+      "velocity": {
+        "x": -5.509336857017884,
+        "y": 0.68897290247411,
+        "z": -0.31124078274373734
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.1863688791500513
+    },
+    {
+      "callback": 89,
+      "target": "upper corner",
+      "position": {
+        "x": -17.3069008765362,
+        "y": 11.564353292821266,
+        "z": 63.433504894928014
+      },
+      "velocity": {
+        "x": -5.509336857017884,
+        "y": 0.28426702012116856,
+        "z": -0.31124078274373734
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.4243969268296006
+    },
+    {
+      "callback": 90,
+      "target": "upper corner",
+      "position": {
+        "x": -17.582367719387083,
+        "y": 11.567437232062614,
+        "z": 63.41794285579086
+      },
+      "velocity": {
+        "x": -5.509336857017884,
+        "y": -0.12043886223177264,
+        "z": -0.31124078274373734
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.6860243528736987
+    },
+    {
+      "callback": 91,
+      "target": "upper corner",
+      "position": {
+        "x": -17.857834562237965,
+        "y": 11.550285877186324,
+        "z": 63.40238081665371
+      },
+      "velocity": {
+        "x": -5.509336857017884,
+        "y": -0.5251447445847139,
+        "z": -0.31124078274373734
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.951588570613544
+    },
+    {
+      "callback": 92,
+      "target": "upper corner",
+      "position": {
+        "x": -18.133301405088847,
+        "y": 11.51289922819238,
+        "z": 63.38681877751656
+      },
+      "velocity": {
+        "x": -5.509336857017884,
+        "y": -0.9298506269376554,
+        "z": -0.31124078274373734
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.219677025281006
+    },
+    {
+      "callback": 93,
+      "target": "upper corner",
+      "position": {
+        "x": -18.40876824793973,
+        "y": 11.455277285080793,
+        "z": 63.37125673837941
+      },
+      "velocity": {
+        "x": -5.509336857017884,
+        "y": -1.334556509290596,
+        "z": -0.31124078274373734
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.4894743544202127
+    },
+    {
+      "callback": 94,
+      "target": "upper corner",
+      "position": {
+        "x": -18.68423509079061,
+        "y": 11.377420047851558,
+        "z": 63.35569469924226
+      },
+      "velocity": {
+        "x": -5.509336857017884,
+        "y": -1.7392623916435364,
+        "z": -0.31124078274373734
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.7604795495015373
+    },
+    {
+      "callback": 95,
+      "target": "upper corner",
+      "position": {
+        "x": -18.955596210025323,
+        "y": 11.320450317483772,
+        "z": 63.34036460610245
+      },
+      "velocity": {
+        "x": -5.287209817443671,
+        "y": 0.08084388622313773,
+        "z": -0.29869208669194913
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.0283110490169984
+    },
+    {
+      "callback": 96,
+      "target": "upper corner",
+      "position": {
+        "x": -19.07934881286136,
+        "y": 11.317942459094203,
+        "z": 63.34567294122072
+      },
+      "velocity": {
+        "x": -2.451479193960761,
+        "y": 0.003662578506284035,
+        "z": 0.10515555066140461
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.1480999048825344
+    },
+    {
+      "callback": 97,
+      "target": "upper corner",
+      "position": {
+        "x": -19.096322778889103,
+        "y": 11.317942722061753,
+        "z": 63.364573922257165
+      },
+      "velocity": {
+        "x": -0.32706410987222606,
+        "y": 0.003679144385025361,
+        "z": 0.36419493996230146
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.1608513175002684
+    },
+    {
+      "callback": 98,
+      "target": "upper corner",
+      "position": {
+        "x": -19.035246556587662,
+        "y": 11.317942722061753,
+        "z": 63.39302373946688
+      },
+      "velocity": {
+        "x": 1.2046805059062964,
+        "y": 0.003679144385017964,
+        "z": 0.5611502954453326
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.0953419585125053
+    },
+    {
+      "callback": 99,
+      "target": "upper corner",
+      "position": {
+        "x": -18.91671009761621,
+        "y": 11.317942722061753,
+        "z": 63.428632036594095
+      },
+      "velocity": {
+        "x": 2.3529331168372436,
+        "y": 0.0036791443850266725,
+        "z": 0.7068200136212569
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.9721472277030587
+    },
+    {
+      "callback": 100,
+      "target": "upper corner",
+      "position": {
+        "x": -18.755069250373033,
+        "y": 11.317942722061753,
+        "z": 63.46945746473886
+      },
+      "velocity": {
+        "x": 3.214801009901764,
+        "y": 0.0036791443850272137,
+        "z": 0.8119583005648815
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.8056874302160506
+    },
+    {
+      "callback": 101,
+      "target": "upper corner",
+      "position": {
+        "x": -18.56106755299941,
+        "y": 11.317942722061753,
+        "z": 63.51400994073832
+      },
+      "velocity": {
+        "x": 3.861923691777102,
+        "y": 0.0036791443850553995,
+        "z": 0.8868905010573688
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.606770674364656
+    },
+    {
+      "callback": 102,
+      "target": "upper corner",
+      "position": {
+        "x": -18.342763219967935,
+        "y": 11.317942722061753,
+        "z": 63.56118419961164
+      },
+      "velocity": {
+        "x": 4.347924205869907,
+        "y": 0.0036791443850590078,
+        "z": 0.9395603797735094
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.3835055719475475
+    },
+    {
+      "callback": 103,
+      "target": "upper corner",
+      "position": {
+        "x": -18.106202513738577,
+        "y": 11.317942722061753,
+        "z": 63.61016614319966
+      },
+      "velocity": {
+        "x": 4.7130184071308525,
+        "y": 0.0036791443850656344,
+        "z": 0.9758712908287285
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1419755985506757
+    },
+    {
+      "callback": 104,
+      "target": "upper corner",
+      "position": {
+        "x": -17.855922361103765,
+        "y": 11.317942722061753,
+        "z": 63.660356510631765
+      },
+      "velocity": {
+        "x": 4.987384100199287,
+        "y": 0.003679144385108253,
+        "z": 1.000153779190218
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.8867446860439823
+    },
+    {
+      "callback": 105,
+      "target": "upper corner",
+      "position": {
+        "x": -17.59532684145568,
+        "y": 11.317942722061753,
+        "z": 63.71131225933424
+      },
+      "velocity": {
+        "x": 5.193674069675894,
+        "y": 0.003679144384949977,
+        "z": 1.0155491203163027
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.6212366707793335
+    },
+    {
+      "callback": 106,
+      "target": "upper corner",
+      "position": {
+        "x": -17.326969340383688,
+        "y": 11.317942722061753,
+        "z": 63.762701605469964
+      },
+      "velocity": {
+        "x": 5.348899950646539,
+        "y": 0.003679144385026707,
+        "z": 1.0242921100064424
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.348020088264582
+    },
+    {
+      "callback": 107,
+      "target": "upper corner",
+      "position": {
+        "x": -17.052763812922368,
+        "y": 11.317942722061753,
+        "z": 63.814268217707145
+      },
+      "velocity": {
+        "x": 5.465848982825866,
+        "y": 0.0036791443850271166,
+        "z": 1.0278980064839027
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.0690219552247389
+    },
+    {
+      "callback": 108,
+      "target": "upper corner",
+      "position": {
+        "x": -16.774142368231534,
+        "y": 11.317942722061753,
+        "z": 63.8657991447675
+      },
+      "velocity": {
+        "x": 5.554157092881464,
+        "y": 0.0036791443849896535,
+        "z": 1.0272391787810433
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.7856884088722843
+    },
+    {
+      "callback": 109,
+      "target": "upper corner",
+      "position": {
+        "x": -16.49217102820209,
+        "y": 11.317942722061753,
+        "z": 63.9170859775587
+      },
+      "velocity": {
+        "x": 5.6211450660601034,
+        "y": 0.0036791443850284072,
+        "z": 1.022411451702736
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.4991062573429624
+    },
+    {
+      "callback": 110,
+      "target": "upper corner",
+      "position": {
+        "x": -16.207627582732705,
+        "y": 11.317942722061753,
+        "z": 63.96784017856069
+      },
+      "velocity": {
+        "x": 5.67257595680845,
+        "y": 0.003679144385026742,
+        "z": 1.0118210940896368
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.21010346790673043
+    },
+    {
+      "callback": 111,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.994905984352398,
+        "y": 11.306997267516296,
+        "z": 64.00578346958906
+      },
+      "velocity": {
+        "x": 4.254431967606338,
+        "y": -0.40102673796791455,
+        "z": 0.7588658205672276
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.9942230364629876
+    },
+    {
+      "callback": 112,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.782184385972075,
+        "y": 11.275816518853196,
+        "z": 64.04372676061737
+      },
+      "velocity": {
+        "x": 4.254431967606338,
+        "y": -0.805732620320856,
+        "z": 0.7588658205672276
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.9683619151057945
+    },
+    {
+      "callback": 113,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.569462787591752,
+        "y": 11.224400476072448,
+        "z": 64.08167005164569
+      },
+      "velocity": {
+        "x": 4.254431967606338,
+        "y": -1.210438502673797,
+        "z": 0.7588658205672276
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.9660498676334035
+    },
+    {
+      "callback": 114,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.356741189211428,
+        "y": 11.152749139174048,
+        "z": 64.119613342674
+      },
+      "velocity": {
+        "x": 4.254431967606338,
+        "y": -1.6151443850267373,
+        "z": 0.7588658205672276
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.9873690846711825
+    },
+    {
+      "callback": 115,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.144019590831105,
+        "y": 11.06086250815801,
+        "z": 64.15755663370231
+      },
+      "velocity": {
+        "x": 4.254431967606338,
+        "y": -2.019850267379678,
+        "z": 0.7588658205672276
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.0315757477621403
+    },
+    {
+      "callback": 116,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -14.931297992450782,
+        "y": 10.948740583024318,
+        "z": 64.19549992473063
+      },
+      "velocity": {
+        "x": 4.254431967606338,
+        "y": -2.4245561497326205,
+        "z": 0.7588658205672276
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.0972230455025294
+    },
+    {
+      "callback": 117,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -14.718576394070459,
+        "y": 10.816383363772982,
+        "z": 64.23344321575894
+      },
+      "velocity": {
+        "x": 4.254431967606338,
+        "y": -2.829262032085563,
+        "z": 0.7588658205672276
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1823769907560857
+    },
+    {
+      "callback": 118,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -14.505854795690135,
+        "y": 10.663790850403998,
+        "z": 64.27138650678725
+      },
+      "velocity": {
+        "x": 4.254431967606338,
+        "y": -3.2339679144385056,
+        "z": 0.7588658205672276
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.284857654314454
+    },
+    {
+      "callback": 119,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -14.271697445129814,
+        "y": 10.56268990194253,
+        "z": 64.30825020935369
+      },
+      "velocity": {
+        "x": 4.75987045487143,
+        "y": -1.9473814149805497,
+        "z": 0.7334594505849128
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.4184803235343173
+    },
+    {
+      "callback": 120,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -14.131589792250711,
+        "y": 10.50525651722638,
+        "z": 64.38635377416408
+      },
+      "velocity": {
+        "x": 2.853191507841198,
+        "y": -1.1658931896407863,
+        "z": 1.5542590620867107
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.4687670701336435
+    },
+    {
+      "callback": 121,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -14.067059727997492,
+        "y": 10.478804502743076,
+        "z": 64.4904122542534
+      },
+      "velocity": {
+        "x": 1.346816067592227,
+        "y": -0.5484043244816499,
+        "z": 2.066986408020193
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.452572783270138
+    },
+    {
+      "callback": 122,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -14.064001232047433,
+        "y": 10.477550772832,
+        "z": 64.48120785226877
+      },
+      "velocity": {
+        "x": 0.11963704433472815,
+        "y": -0.045362169147830304,
+        "z": -0.20965163599923406
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.4606545506275173
+    },
+    {
+      "callback": 123,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -14.10137602343113,
+        "y": 10.492871352527612,
+        "z": 64.48972877200936
+      },
+      "velocity": {
+        "x": -0.6439713500771552,
+        "y": 0.26765424843729235,
+        "z": -0.07179423098679968
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.4260445557529557
+    },
+    {
+      "callback": 124,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -14.167040838971065,
+        "y": 10.519788507097276,
+        "z": 64.48824563255816
+      },
+      "velocity": {
+        "x": -1.2269871833516204,
+        "y": 0.5066426202580201,
+        "z": -0.08501020106457167
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.375950452656656
+    },
+    {
+      "callback": 125,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -14.255127394880686,
+        "y": 10.555896724359876,
+        "z": 64.48829761585311
+      },
+      "velocity": {
+        "x": -1.672386975365441,
+        "y": 0.6892197682038961,
+        "z": -0.08719445436337463
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.308641268437182
+    },
+    {
+      "callback": 126,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -14.359733081826874,
+        "y": 10.598776422027536,
+        "z": 64.48813893571257
+      },
+      "velocity": {
+        "x": -2.0028738274725564,
+        "y": 0.8246920996872089,
+        "z": -0.0903705247929746
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.2307396622110534
+    },
+    {
+      "callback": 127,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -14.476011314850117,
+        "y": 10.646440900154799,
+        "z": 64.48798042236746
+      },
+      "velocity": {
+        "x": -2.2360014420564402,
+        "y": 0.9202551796608781,
+        "z": -0.09390559261039032
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.146798713342488
+    },
+    {
+      "callback": 128,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -14.599774395281203,
+        "y": 10.697173547932843,
+        "z": 64.4878004875941
+      },
+      "velocity": {
+        "x": -2.385376305059765,
+        "y": 0.9814865443039648,
+        "z": -0.09783601862252528
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.0609170554466187
+    },
+    {
+      "callback": 129,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -14.727368160884422,
+        "y": 10.749476460453394,
+        "z": 64.48760541681867
+      },
+      "velocity": {
+        "x": -2.4616248714996263,
+        "y": 1.012742163082636,
+        "z": -0.10208987389422194
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.976595348868082
+    },
+    {
+      "callback": 130,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -14.855561150782759,
+        "y": 10.80202500548642,
+        "z": 64.48740017717348
+      },
+      "velocity": {
+        "x": -2.4732137552677904,
+        "y": 1.0174926491212695,
+        "z": -0.10655965476611357
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.8967600015849373
+    },
+    {
+      "callback": 131,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -14.98147519231153,
+        "y": 10.853639369779838,
+        "z": 64.48719138638059
+      },
+      "velocity": {
+        "x": -2.427219301856722,
+        "y": 0.9986387195302354,
+        "z": -0.11110418052160496
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.8237276894640615
+    },
+    {
+      "callback": 132,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.102552910050383,
+        "y": 10.903271240501414,
+        "z": 64.48698656992332
+      },
+      "velocity": {
+        "x": -2.3300709356830414,
+        "y": 0.9588159078642661,
+        "z": -0.11555898266747296
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.7591534665433386
+    },
+    {
+      "callback": 133,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.216559177660676,
+        "y": 10.950004400335885,
+        "z": 64.48679362527825
+      },
+      "velocity": {
+        "x": -2.1882292800872603,
+        "y": 0.9006725364439935,
+        "z": -0.11974846217290208
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.7039873986054737
+    },
+    {
+      "callback": 134,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.321609163180804,
+        "y": 10.993066223749853,
+        "z": 64.48661985805532
+      },
+      "velocity": {
+        "x": -2.0087168243056355,
+        "y": 0.8270872462317792,
+        "z": -0.12350598751864748
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.6584732682538923
+    },
+    {
+      "callback": 135,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.416210807584182,
+        "y": 11.031845089694462,
+        "z": 64.48647100657188
+      },
+      "velocity": {
+        "x": -1.7994047830111861,
+        "y": 0.7412865855666954,
+        "z": -0.12669447509359327
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.6222144849338096
+    },
+    {
+      "callback": 136,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.499306364422257,
+        "y": 11.06590740943042,
+        "z": 64.48635055910869
+      },
+      "velocity": {
+        "x": -1.5689926542899109,
+        "y": 0.64683663062202,
+        "z": -0.12922034492756454
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.594311370660902
+    },
+    {
+      "callback": 137,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.570298217548741,
+        "y": 11.095008209663984,
+        "z": 64.48625966027714
+      },
+      "velocity": {
+        "x": -1.326693086932294,
+        "y": 0.5475138070052704,
+        "z": -0.13103366741854325
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5735480411941871
+    },
+    {
+      "callback": 138,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.629048941297684,
+        "y": 11.119091157214996,
+        "z": 64.48619769317963
+      },
+      "velocity": {
+        "x": -1.0817181660447313,
+        "y": 0.4470943092600599,
+        "z": -0.13211064811110074
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5585897831331477
+    },
+    {
+      "callback": 139,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.675852619649945,
+        "y": 11.138276802242414,
+        "z": 64.48616345115173
+      },
+      "velocity": {
+        "x": -0.8427100107209562,
+        "y": 0.34912069290889025,
+        "z": -0.13241622028813937
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5481513559134517
+    },
+    {
+      "callback": 140,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.711381031032355,
+        "y": 11.15284051845378,
+        "z": 64.48615691173606
+      },
+      "velocity": {
+        "x": -0.6172530928205546,
+        "y": 0.25670196540472856,
+        "z": -0.13183641650743266
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.541110575245154
+    },
+    {
+      "callback": 141,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.736613110257913,
+        "y": 11.163183588322797,
+        "z": 64.48618230124765
+      },
+      "velocity": {
+        "x": -0.41158843353919594,
+        "y": 0.1723964303145355,
+        "z": -0.1300358724883547
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5365600146899128
+    },
+    {
+      "callback": 142,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.752762381643354,
+        "y": 11.169803456657078,
+        "z": 64.48625500175716
+      },
+      "velocity": {
+        "x": -0.2307839024327063,
+        "y": 0.09828149586299915,
+        "z": -0.12609262646862002
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5338025817020549
+    },
+    {
+      "callback": 143,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.761245062321859,
+        "y": 11.17328065558906,
+        "z": 64.48641384174613
+      },
+      "velocity": {
+        "x": -0.08072395566138113,
+        "y": 0.03676930338309541,
+        "z": -0.11787785404785152
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5323012036552766
+    },
+    {
+      "callback": 144,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.763804452027195,
+        "y": 11.174329794120588,
+        "z": 64.48662861603427
+      },
+      "velocity": {
+        "x": 0.02724182604758877,
+        "y": -0.007487755801669278,
+        "z": -0.10847766461352883
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5316922937354398
+    },
+    {
+      "callback": 145,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.762446080940459,
+        "y": 11.17377297409286,
+        "z": 64.48662484864005
+      },
+      "velocity": {
+        "x": 0.09636469259770593,
+        "y": -0.0358224257982768,
+        "z": -0.10995928184002143
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5319060719294462
+    },
+    {
+      "callback": 146,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.759978804050643,
+        "y": 11.172761594213004,
+        "z": 64.48661168972245
+      },
+      "velocity": {
+        "x": 0.11448646306284388,
+        "y": -0.043250855946684916,
+        "z": -0.1111705280161405
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5323036096641205
+    },
+    {
+      "callback": 147,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.75746424240098,
+        "y": 11.171730831484338,
+        "z": 64.48662065801854
+      },
+      "velocity": {
+        "x": 0.11447487681645198,
+        "y": -0.04324610654197374,
+        "z": -0.11102058401699638
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.532690649299582
+    },
+    {
+      "callback": 148,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.75495755200326,
+        "y": 11.170703295319289,
+        "z": 64.48662156895954
+      },
+      "velocity": {
+        "x": 0.1144721366745675,
+        "y": -0.04324498330996782,
+        "z": -0.11098515302869989
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5330884112988183
+    },
+    {
+      "callback": 149,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.752459280838425,
+        "y": 11.16967921034481,
+        "z": 64.48662370893807
+      },
+      "velocity": {
+        "x": 0.11446875231404793,
+        "y": -0.04324359600149429,
+        "z": -0.1109414082587337
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.533487595643146
+    },
+    {
+      "callback": 150,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.749969304341867,
+        "y": 11.168658525499698,
+        "z": 64.48662570620259
+      },
+      "velocity": {
+        "x": 0.11446539824724741,
+        "y": -0.04324222111094489,
+        "z": -0.11089807269401812
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5338895337989973
+    },
+    {
+      "callback": 151,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.747487598546579,
+        "y": 11.167641230959457,
+        "z": 64.48662772843426
+      },
+      "velocity": {
+        "x": 0.11446202693956369,
+        "y": -0.04324083915305706,
+        "z": -0.11085453205814969
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5342940217676106
+    },
+    {
+      "callback": 152,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.74501412711963,
+        "y": 11.166627311830586,
+        "z": 64.48662975659148
+      },
+      "velocity": {
+        "x": 0.1144586420140313,
+        "y": -0.04323945161297461,
+        "z": -0.1108108333742481
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.534701042223832
+    },
+    {
+      "callback": 153,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.742548855291325,
+        "y": 11.165616753860377,
+        "z": 64.4866317925451
+      },
+      "velocity": {
+        "x": 0.11445524347694203,
+        "y": -0.04323805849327781,
+        "z": -0.11076697692697358
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5351105573368562
+    },
+    {
+      "callback": 154,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.74009174826785,
+        "y": 11.16460954278624,
+        "z": 64.48663383592682
+      },
+      "velocity": {
+        "x": 0.11445183158622119,
+        "y": -0.04323665989969398,
+        "z": -0.11072296624669628
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5355225318698589
+    },
+    {
+      "callback": 155,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.737642771404856,
+        "y": 11.163605664406848,
+        "z": 64.48663588660413
+      },
+      "velocity": {
+        "x": 0.1144484065794633,
+        "y": -0.04323525592961696,
+        "z": -0.11067880459674463
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5359369307073063
+    },
+    {
+      "callback": 156,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.735201890189332,
+        "y": 11.162605104574718,
+        "z": 64.48663794442211
+      },
+      "velocity": {
+        "x": 0.11444496869295342,
+        "y": -0.04323384667990586,
+        "z": -0.11063449521902423
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5363537191097068
+    },
+    {
+      "callback": 157,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.732769070241865,
+        "y": 11.161607849197129,
+        "z": 64.48664000923003
+      },
+      "velocity": {
+        "x": 0.11444151816036449,
+        "y": -0.04323243224634536,
+        "z": -0.11059004131732299
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5367728626842294
+    },
+    {
+      "callback": 158,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.730344277316698,
+        "y": 11.160613884236144,
+        "z": 64.48664208087874
+      },
+      "velocity": {
+        "x": 0.11443805521287448,
+        "y": -0.043231012723700585,
+        "z": -0.11054544605875351
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5371943273844364
+    },
+    {
+      "callback": 159,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.727927477301993,
+        "y": 11.15962319570873,
+        "z": 64.48664415922067
+      },
+      "velocity": {
+        "x": 0.11443458007917973,
+        "y": -0.04322958820571743,
+        "z": -0.11050071257395964
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5376180795074434
+    },
+    {
+      "callback": 160,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.72551863622009,
+        "y": 11.158635769686848,
+        "z": 64.48664624411008
+      },
+      "velocity": {
+        "x": 0.11443109298551193,
+        "y": -0.043228158785132656,
+        "z": -0.110455843957404
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5380440856908548
+    },
+    {
+      "callback": 161,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.723117720227686,
+        "y": 11.157651592297533,
+        "z": 64.48664833540266
+      },
+      "velocity": {
+        "x": 0.11442759415565691,
+        "y": -0.04322672455367947,
+        "z": -0.11041084326765369
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5384723129102602
+    },
+    {
+      "callback": 162,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.72072469561607,
+        "y": 11.156670649723003,
+        "z": 64.48665043295615
+      },
+      "velocity": {
+        "x": 0.11442408381098194,
+        "y": -0.043225285602099685,
+        "z": -0.11036571352766669
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5389027284758885
+    },
+    {
+      "callback": 163,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.718339528811278,
+        "y": 11.1556929282007,
+        "z": 64.48665253662966
+      },
+      "velocity": {
+        "x": 0.1144205621704448,
+        "y": -0.04322384202015028,
+        "z": -0.11032045772507534
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5393353000304018
+    },
+    {
+      "callback": 164,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.71596218637424,
+        "y": 11.154718414023366,
+        "z": 64.48665464628398
+      },
+      "velocity": {
+        "x": 0.1144170294506215,
+        "y": -0.04322239389660752,
+        "z": -0.11027507881247502
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.539769995545817
+    },
+    {
+      "callback": 165,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.71359263500095,
+        "y": 11.153747093539106,
+        "z": 64.4866567617816
+      },
+      "velocity": {
+        "x": 0.11441348586572297,
+        "y": -0.043220941319280795,
+        "z": -0.11022957970771069
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5402067833206823
+    },
+    {
+      "callback": 166,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.711230841522562,
+        "y": 11.152778953151438,
+        "z": 64.48665888298655
+      },
+      "velocity": {
+        "x": 0.1144099316276175,
+        "y": -0.043219484375018886,
+        "z": -0.11018396329416358
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5406456319774822
+    },
+    {
+      "callback": 167,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.708876772905532,
+        "y": 11.151813979319321,
+        "z": 64.48666100976455
+      },
+      "velocity": {
+        "x": 0.11440636694584363,
+        "y": -0.043218023149714645,
+        "z": -0.11013823242103682
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5410865104596694
+    },
+    {
+      "callback": 168,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.706533059692026,
+        "y": 11.150853250347938,
+        "z": 64.48666322333195
+      },
+      "velocity": {
+        "x": 0.11434852558456009,
+        "y": -0.04319431296572352,
+        "z": -0.11008789698293786
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5415288011158865
+    },
+    {
+      "callback": 169,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.704277784387173,
+        "y": 11.149928773619571,
+        "z": 64.48666775502652
+      },
+      "velocity": {
+        "x": 0.11270344381016764,
+        "y": -0.04251996522073852,
+        "z": -0.1099071719392486
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5419552887433028
+    },
+    {
+      "callback": 170,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.702162058535249,
+        "y": 11.149061500648726,
+        "z": 64.48667266807563
+      },
+      "velocity": {
+        "x": 0.11011305047500365,
+        "y": -0.04145811776038774,
+        "z": -0.10966396892352691
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5423576280893159
+    },
+    {
+      "callback": 171,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.70021309841256,
+        "y": 11.1482625878623,
+        "z": 64.48667758517172
+      },
+      "velocity": {
+        "x": 0.10702742807254423,
+        "y": -0.04019326725787367,
+        "z": -0.10939390754241289
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.542730345065234
+    },
+    {
+      "callback": 172,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.698441598038123,
+        "y": 11.147536418925425,
+        "z": 64.48668213743495
+      },
+      "velocity": {
+        "x": 0.10375483412088878,
+        "y": -0.03885177385251263,
+        "z": -0.10912196817909647
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5430711010683338
+    },
+    {
+      "callback": 173,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.696847291280136,
+        "y": 11.146882884746036,
+        "z": 64.48668614411525
+      },
+      "velocity": {
+        "x": 0.10049833009259432,
+        "y": -0.03751687598767515,
+        "z": -0.10886375079938695
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5433795356998061
+    },
+    {
+      "callback": 174,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.695422994914672,
+        "y": 11.146299040795208,
+        "z": 64.48668954121759
+      },
+      "velocity": {
+        "x": 0.09738437626191122,
+        "y": -0.03624041193797311,
+        "z": -0.10862789913276777
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5436565993403415
+    },
+    {
+      "callback": 175,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.694157500160093,
+        "y": 11.145780292397628,
+        "z": 64.48669234251419
+      },
+      "velocity": {
+        "x": 0.09448508022117807,
+        "y": -0.035051939864619554,
+        "z": -0.1084181467406325
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.543904045241645
+    },
+    {
+      "callback": 176,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.693037579908443,
+        "y": 11.145321217530777,
+        "z": 64.48669460504738
+      },
+      "velocity": {
+        "x": 0.09183522438051658,
+        "y": -0.0339657176848815,
+        "z": -0.10823501730626495
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5441240707084334
+    },
+    {
+      "callback": 177,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.692049332174278,
+        "y": 11.144916117528064,
+        "z": 64.48669640459356
+      },
+      "velocity": {
+        "x": 0.08944495947187374,
+        "y": -0.032985906361036335,
+        "z": -0.10807712844768147
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5443190686138568
+    },
+    {
+      "callback": 178,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.691179038196813,
+        "y": 11.144559368829896,
+        "z": 64.48669782000628
+      },
+      "velocity": {
+        "x": 0.08730898060833919,
+        "y": -0.03211033132730954,
+        "z": -0.10794211640614289
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5444914614276044
+    },
+    {
+      "callback": 179,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.690413676262247,
+        "y": 11.144245633608406,
+        "z": 64.48669892451242
+      },
+      "velocity": {
+        "x": 0.08541294702694126,
+        "y": -0.03133311405454921,
+        "z": -0.10782724235513429
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5446435954346585
+    },
+    {
+      "callback": 180,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.6897411991567,
+        "y": 11.143969973500253,
+        "z": 64.48669978176679
+      },
+      "velocity": {
+        "x": 0.08373782178380917,
+        "y": -0.030646450967050473,
+        "z": -0.10772975780393738
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5447776778570468
+    },
+    {
+      "callback": 181,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.689150655050074,
+        "y": 11.143727899159051,
+        "z": 64.48670044481439
+      },
+      "velocity": {
+        "x": 0.0822626972814034,
+        "y": -0.03004177167550244,
+        "z": -0.10764710259639233
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5448957437253708
+    },
+    {
+      "callback": 182,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.688632208927563,
+        "y": 11.143515379040487,
+        "z": 64.48670095662494
+      },
+      "velocity": {
+        "x": 0.08096655473103614,
+        "y": -0.029510460211400927,
+        "z": -0.1075769949507506
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.544999642717496
+    },
+    {
+      "callback": 183,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.688177104195344,
+        "y": 11.143328823663852,
+        "z": 64.48670135133838
+      },
+      "velocity": {
+        "x": 0.07982929620448076,
+        "y": -0.029044278083025718,
+        "z": -0.10751745680173641
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5450910388676389
+    },
+    {
+      "callback": 184,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.6877775911232,
+        "y": 11.143165056279408,
+        "z": 64.48670165572108
+      },
+      "velocity": {
+        "x": 0.07883229546461112,
+        "y": -0.02863559007053551,
+        "z": -0.1074668035449958
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5451714181287979
+    },
+    {
+      "callback": 185,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.687426839497192,
+        "y": 11.143021277063191,
+        "z": 64.48670189056935
+      },
+      "velocity": {
+        "x": 0.07795864078390162,
+        "y": -0.02827746376151316,
+        "z": -0.10742361651760512
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5452421003432095
+    },
+    {
+      "callback": 186,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.68711884639438,
+        "y": 11.142895025312269,
+        "z": 64.48670207194475
+      },
+      "velocity": {
+        "x": 0.0771931881809888,
+        "y": -0.02796369137355842,
+        "z": -0.10738670906801177
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5453042533229182
+    },
+    {
+      "callback": 187,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.686848345617154,
+        "y": 11.142784142320284,
+        "z": 64.48670221220532
+      },
+      "velocity": {
+        "x": 0.07652250394131063,
+        "y": -0.027688766192499506,
+        "z": -0.10735509220386445
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5453589075638703
+    },
+    {
+      "callback": 188,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.686610722440536,
+        "y": 11.142686736430885,
+        "z": 64.48670232083921
+      },
+      "velocity": {
+        "x": 0.0759347475760074,
+        "y": -0.027447834595199838,
+        "z": -0.10732794281081603
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5454069706852833
+    },
+    {
+      "callback": 189,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.686401935476379,
+        "y": 11.142601151008503,
+        "z": 64.48670240512354
+      },
+      "velocity": {
+        "x": 0.0754195274543509,
+        "y": -0.027236636870769056,
+        "z": -0.10730457568469995
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5454492410725906
+    },
+    {
+      "callback": 190,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.686218446310566,
+        "y": 11.142525935595406,
+        "z": 64.48670247063893
+      },
+      "velocity": {
+        "x": 0.0749677487196851,
+        "y": -0.027051444878652832,
+        "z": -0.10728441965476204
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5454864204534664
+    },
+    {
+      "callback": 191,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.686057156886319,
+        "y": 11.14245982024402,
+        "z": 64.48670252166694
+      },
+      "velocity": {
+        "x": 0.07457146485473445,
+        "y": -0.026889001202661494,
+        "z": -0.10726699758534916
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5455191253011056
+    },
+    {
+      "callback": 192,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.685915354225305,
+        "y": 11.142401692857158,
+        "z": 64.486702561495
+      },
+      "velocity": {
+        "x": 0.07422373900100979,
+        "y": -0.02674646230337232,
+        "z": -0.10725190982760956
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5455478970569723
+    },
+    {
+      "callback": 193,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.685790661887527,
+        "y": 11.142350579290564,
+        "z": 64.48670259265023
+      },
+      "velocity": {
+        "x": 0.07391851786474819,
+        "y": -0.02662134682997084,
+        "z": -0.10723882062754667
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5455732112224925
+    },
+    {
+      "callback": 194,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.685680997497093,
+        "y": 11.142305625941999,
+        "z": 64.48670261707784
+      },
+      "velocity": {
+        "x": 0.07365051907408537,
+        "y": -0.02651148944599197,
+        "z": -0.10722744700919605
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5455954854014955
+    },
+    {
+      "callback": 195,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.685584535656078,
+        "y": 11.14226608454898,
+        "z": 64.48670263627734
+      },
+      "velocity": {
+        "x": 0.07341513172251733,
+        "y": -0.02641500006034584,
+        "z": -0.10721754969942873
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5456150863874702
+    },
+    {
+      "callback": 196,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.685499675602394,
+        "y": 11.142231298931174,
+        "z": 64.48670265140635
+      },
+      "velocity": {
+        "x": 0.07320832923178297,
+        "y": -0.026330228108291977,
+        "z": -0.10720892572093615
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5456323363940019
+    },
+    {
+      "callback": 197,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.685425013020103,
+        "y": 11.142200693434958,
+        "z": 64.48670266335986
+      },
+      "velocity": {
+        "x": 0.07302659339082981,
+        "y": -0.026255731413687818,
+        "z": -0.10720140234049758
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.545647518522749
+    },
+    {
+      "callback": 198,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.685359315470848,
+        "y": 11.14217376286233,
+        "z": 64.4867026728312
+      },
+      "velocity": {
+        "x": 0.07286684834289538,
+        "y": -0.026190249129136103,
+        "z": -0.10719483211478752
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5456608815575323
+    },
+    {
+      "callback": 199,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.685301500975891,
+        "y": 11.142150063691307,
+        "z": 64.48670268035819
+      },
+      "velocity": {
+        "x": 0.0727264033185859,
+        "y": -0.02613267826127766,
+        "z": -0.10718908882395131
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5456726441659978
+    },
+    {
+      "callback": 200,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.685250619336191,
+        "y": 11.142129206418716,
+        "z": 64.48670268635874
+      },
+      "velocity": {
+        "x": 0.07260290299537385,
+        "y": -0.026082053322280238,
+        "z": -0.10718406412335396
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5456829985809204
+    },
+    {
+      "callback": 201,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.685205835830885,
+        "y": 11.142110848877895,
+        "z": 64.48670269115809
+      },
+      "velocity": {
+        "x": 0.07249428447269131,
+        "y": -0.02603752869317944,
+        "z": -0.10717966477705343
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5456921138257482
+    },
+    {
+      "callback": 202,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.685166416981902,
+        "y": 11.142094690403379,
+        "z": 64.48670269500994
+      },
+      "velocity": {
+        "x": 0.0723987399677441,
+        "y": -0.0259983633322425,
+        "z": -0.10717581036346191
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457001385411715
+    },
+    {
+      "callback": 203,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.685131718114222,
+        "y": 11.142080466731613,
+        "z": 64.48670269811247
+      },
+      "velocity": {
+        "x": 0.07231468444939947,
+        "y": -0.025963907507529173,
+        "z": -0.1071724313652687
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457072034631234
+    },
+    {
+      "callback": 204,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.685101172477836,
+        "y": 11.142067945541882,
+        "z": 64.48670270062075
+      },
+      "velocity": {
+        "x": 0.07224072753217052,
+        "y": -0.0259335912757514,
+        "z": -0.1071694675731205
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457134235955106
+    },
+    {
+      "callback": 205,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.685074281728905,
+        "y": 11.142056922554335,
+        "z": 64.48670270265642
+      },
+      "velocity": {
+        "x": 0.07217564904548335,
+        "y": -0.025906914467684013,
+        "z": -0.10716686674635467
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457189001160467
+    },
+    {
+      "callback": 206,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.685050607595016,
+        "y": 11.142047218113467,
+        "z": 64.48670270431508
+      },
+      "velocity": {
+        "x": 0.0721183777756947,
+        "y": -0.025883437974150034,
+        "z": -0.10716458348515394
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457237220485311
+    },
+    {
+      "callback": 207,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.685029764572874,
+        "y": 11.142038674194737,
+        "z": 64.48670270567195
+      },
+      "velocity": {
+        "x": 0.0720679729494224,
+        "y": -0.025862776155712024,
+        "z": -0.10716257827723835
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.545727967730943
+    },
+    {
+      "callback": 208,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.685011413527008,
+        "y": 11.142031151780595,
+        "z": 64.48670270678659
+      },
+      "velocity": {
+        "x": 0.0720236080884038,
+        "y": -0.025844590224498906,
+        "z": -0.10716081668927366
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457317061040359
+    },
+    {
+      "callback": 209,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.684995256075515,
+        "y": 11.14202452855909,
+        "z": 64.48670270770592
+      },
+      "velocity": {
+        "x": 0.07198455691830793,
+        "y": -0.025828582467981143,
+        "z": -0.10715926867871302
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457349978439172
+    },
+    {
+      "callback": 210,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.684981029663842,
+        "y": 11.142018696904527,
+        "z": 64.48670270846736
+      },
+      "velocity": {
+        "x": 0.07195018105912865,
+        "y": -0.025814491203045985,
+        "z": -0.10715790800630799
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457378963561934
+    },
+    {
+      "callback": 211,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.684968503240404,
+        "y": 11.142013562104827,
+        "z": 64.48670270910056
+      },
+      "velocity": {
+        "x": 0.07191991926265567,
+        "y": -0.025802086364252463,
+        "z": -0.10715671173306501
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.545740448650481
+    },
+    {
+      "callback": 212,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.684957473459248,
+        "y": 11.142009040804936,
+        "z": 64.48670270962927
+      },
+      "velocity": {
+        "x": 0.07189327799531102,
+        "y": -0.025791165643569404,
+        "z": -0.10715565978834111
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457426961084348
+    },
+    {
+      "callback": 213,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.684947761344299,
+        "y": 11.142005059639427,
+        "z": 64.48670271007245
+      },
+      "velocity": {
+        "x": 0.07186982319229421,
+        "y": -0.025781551110254097,
+        "z": -0.10715473459806614
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457446751595285
+    },
+    {
+      "callback": 214,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.684939209358294,
+        "y": 11.142001554031031,
+        "z": 64.48670271044537
+      },
+      "velocity": {
+        "x": 0.07184917303272337,
+        "y": -0.02577308624926135,
+        "z": -0.10715392076398861
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457464178749252
+    },
+    {
+      "callback": 215,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.684931678826594,
+        "y": 11.141998467134593,
+        "z": 64.48670271076027
+      },
+      "velocity": {
+        "x": 0.07183099160569835,
+        "y": -0.02576563336484706,
+        "z": -0.10715320478634233
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457479524901028
+    },
+    {
+      "callback": 216,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.684925047672401,
+        "y": 11.141995748908698,
+        "z": 64.48670271102716
+      },
+      "velocity": {
+        "x": 0.07181498335453979,
+        "y": -0.02575907130316716,
+        "z": -0.10715257482359812
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457493038642378
+    },
+    {
+      "callback": 217,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.684919208425294,
+        "y": 11.141993355299343,
+        "z": 64.48670271125414
+      },
+      "velocity": {
+        "x": 0.07180088820129128,
+        "y": -0.02575329345372713,
+        "z": -0.10715202048396504
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457504938847395
+    },
+    {
+      "callback": 218,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.684914066469835,
+        "y": 11.141991247522016,
+        "z": 64.48670271144773
+      },
+      "velocity": {
+        "x": 0.07178847726643663,
+        "y": -0.025748205994815594,
+        "z": -0.10715153264415925
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457515418230112
+    },
+    {
+      "callback": 219,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.684909538505028,
+        "y": 11.141989391430176,
+        "z": 64.48670271161335
+      },
+      "velocity": {
+        "x": 0.071777549109916,
+        "y": -0.02574372635263432,
+        "z": -0.10715110329166654
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457524646473997
+    },
+    {
+      "callback": 220,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.68490555118903,
+        "y": 11.141987756959722,
+        "z": 64.48670271175544
+      },
+      "velocity": {
+        "x": 0.07176792642866452,
+        "y": -0.025739781847562503,
+        "z": -0.10715072538724021
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457532772987495
+    },
+    {
+      "callback": 221,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.684902039946719,
+        "y": 11.141986317640187,
+        "z": 64.48670271187768
+      },
+      "velocity": {
+        "x": 0.07175945315458364,
+        "y": -0.025736308504560115,
+        "z": -0.1071503927449352
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457539929329305
+    },
+    {
+      "callback": 222,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.684898947920464,
+        "y": 11.14198505016463,
+        "z": 64.48670271198299
+      },
+      "velocity": {
+        "x": 0.07175199190358744,
+        "y": -0.025733250007490854,
+        "z": -0.10715009992730282
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457546231343706
+    },
+    {
+      "callback": 223,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.684896225046742,
+        "y": 11.141983934011147,
+        "z": 64.48670271207399
+      },
+      "velocity": {
+        "x": 0.07174542173291584,
+        "y": -0.025730556779806915,
+        "z": -0.10714984215377522
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457551781035717
+    },
+    {
+      "callback": 224,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.68489382724346,
+        "y": 11.141982951109712,
+        "z": 64.4867027121528
+      },
+      "velocity": {
+        "x": 0.07173963616892283,
+        "y": -0.02572818517610069,
+        "z": -0.10714961522048651
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457556668228487
+    },
+    {
+      "callback": 225,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.6848917156947,
+        "y": 11.141982085549003,
+        "z": 64.4867027122211
+      },
+      "velocity": {
+        "x": 0.07173454147247477,
+        "y": -0.025726096771065403,
+        "z": -0.10714941543006525
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457560972018827
+    },
+    {
+      "callback": 226,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.684889856221137,
+        "y": 11.141981323318323,
+        "z": 64.48670271228049
+      },
+      "velocity": {
+        "x": 0.07173005511314375,
+        "y": -0.025724257734036533,
+        "z": -0.10714923953012023
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457564762056024
+    },
+    {
+      "callback": 227,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.684888218725787,
+        "y": 11.141980652080386,
+        "z": 64.48670271233212
+      },
+      "velocity": {
+        "x": 0.0717261044268104,
+        "y": -0.025722638278723182,
+        "z": -0.10714908465930308
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457568099674592
+    },
+    {
+      "callback": 228,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.684886776706168,
+        "y": 11.141980060971362,
+        "z": 64.4867027123771
+      },
+      "velocity": {
+        "x": 0.07172262543453281,
+        "y": -0.025721212179039936,
+        "z": -0.10714894829999619
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457571038884048
+    },
+    {
+      "callback": 229,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.684885506824745,
+        "y": 11.141979540424792,
+        "z": 64.48670271241632
+      },
+      "velocity": {
+        "x": 0.07171956180313514,
+        "y": -0.025719956343033888,
+        "z": -0.10714882823678495
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457573627245735
+    },
+    {
+      "callback": 230,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.68488438853081,
+        "y": 11.141979082016583,
+        "z": 64.48670271245052
+      },
+      "velocity": {
+        "x": 0.07171686393059547,
+        "y": -0.02571885043797085,
+        "z": -0.10714872252001625
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457575906642695
+    },
+    {
+      "callback": 231,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.684883403727573,
+        "y": 11.141978678328538,
+        "z": 64.48670271248048
+      },
+      "velocity": {
+        "x": 0.0717144881409179,
+        "y": -0.025717876560296803,
+        "z": -0.10714862943376507
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.545757791395618
+    },
+    {
+      "callback": 232,
+      "target": "upper platform bypass",
+      "position": {
+        "x": -15.684882536479021,
+        "y": 11.141978322828214,
+        "z": 64.48670271250664
+      },
+      "velocity": {
+        "x": 0.07171239597556538,
+        "y": -0.02571701894518679,
+        "z": -0.10714854746771502
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.5457579681666376
+    }
+  ],
+  "doorState": {
+    "name": "door open 5",
+    "openedAt": null,
+    "phase": "closed",
+    "elapsedSeconds": 0
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "totalLength": 486,
+  "totalLength2": 486,
+  "headerLength": 92,
+  "scriptNumber": 10,
+  "unk20": 3,
+  "parentNumber": -1,
+  "scriptFlags": 0,
+  "unk42": 0,
+  "castID": 196618,
+  "factoryNameID": -1,
+  "handlerVectorsCount": 0,
+  "handlerVectorsOffset": 486,
+  "handlerVectorsSize": 0,
+  "propertiesCount": 3,
+  "propertiesOffset": 92,
+  "globalsCount": 2,
+  "globalsOffset": 98,
+  "handlersCount": 3,
+  "handlersOffset": 102,
+  "literalsCount": 3,
+  "literalsOffset": 428,
+  "literalsDataCount": 34,
+  "literalsDataOffset": 452,
+  "propertyNameIDs": [
+    218,
+    444,
+    108
+  ],
+  "globalNameIDs": [
+    94,
+    311
+  ],
+  "handlers": [
+    {
+      "nameID": 187,
+      "vectorPos": 65535,
+      "compiledLen": 82,
+      "compiledOffset": 240,
+      "argumentCount": 2,
+      "argumentOffset": 322,
+      "localsCount": 2,
+      "localsOffset": 326,
+      "globalsCount": 0,
+      "globalsOffset": 98,
+      "unknown1": 46,
+      "unknown2": 4,
+      "lineCount": 9,
+      "lineOffset": 330,
+      "stackHeight": 7
+    },
+    {
+      "nameID": 287,
+      "vectorPos": 65535,
+      "compiledLen": 64,
+      "compiledOffset": 340,
+      "argumentCount": 1,
+      "argumentOffset": 404,
+      "localsCount": 1,
+      "localsOffset": 406,
+      "globalsCount": 0,
+      "globalsOffset": 98,
+      "unknown1": 308,
+      "unknown2": 16,
+      "lineCount": 7,
+      "lineOffset": 408,
+      "stackHeight": 4
+    },
+    {
+      "nameID": 226,
+      "vectorPos": 65535,
+      "compiledLen": 6,
+      "compiledOffset": 416,
+      "argumentCount": 2,
+      "argumentOffset": 422,
+      "localsCount": 0,
+      "localsOffset": 426,
+      "globalsCount": 0,
+      "globalsOffset": 98,
+      "unknown1": 527,
+      "unknown2": 28,
+      "lineCount": 1,
+      "lineOffset": 426,
+      "stackHeight": 1
+    }
+  ],
+  "literals": [
+    {
+      "type": 9,
+      "offset": 0,
+      "value": 0.20000000000000001
+    },
+    {
+      "type": 1,
+      "offset": 12,
+      "value": "bangs"
+    },
+    {
+      "type": 1,
+      "offset": 22,
+      "value": "barrel"
+    }
+  ]
+}

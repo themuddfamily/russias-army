@@ -1,0 +1,206 @@
+{
+  "inputs": {
+    "docs/research-evidence/2026-10-03/woodland-interior-endpoints/frame-05.png": "ca8962ab6ddf8f3e49edc9a804f4849eb11c15514101f0f8a201c0eab2ccbea9",
+    "public/assets/original-scenes/woodland/textures/haddingtoncafe.png": "4320bad3fe132f09c21f072c4ea5df2c794202cd14236dc4a3ff610acab48eac",
+    "public/assets/original-scenes/woodland/scene.json": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107"
+  },
+  "derivatives": [
+    {
+      "file": "cafe-inspection.png",
+      "crop": [
+        920,
+        185,
+        1150,
+        320
+      ],
+      "scale": 4
+    },
+    {
+      "file": "atlas-panel-inspection.png",
+      "crop": [
+        345,
+        125,
+        512,
+        225
+      ],
+      "scale": 4
+    }
+  ],
+  "resampling": "nearest-neighbor",
+  "contrastAdjustment": false,
+  "finitePlanRaySamples": [
+    {
+      "cameraPlanSample": "corner178",
+      "cameraSourceXYZ": [
+        403.755126953125,
+        -513.5068435668945,
+        -452.1611862182617
+      ],
+      "cafeVertex": 178,
+      "cafeSourceXYZ": [
+        2288.853483482249,
+        -2020.2371064863974,
+        -282.6154964338855
+      ],
+      "rayFractionAtGapLine": -0.0002219548346648827,
+      "gapFractionAtoB": -1.4126202460983937,
+      "withinFiniteGapPlanOnly": false
+    },
+    {
+      "cameraPlanSample": "corner178",
+      "cameraSourceXYZ": [
+        403.755126953125,
+        -513.5068435668945,
+        -452.1611862182617
+      ],
+      "cafeVertex": 143,
+      "cafeSourceXYZ": [
+        2322.1633399853563,
+        -1627.512676134742,
+        -282.6154964338855
+      ],
+      "rayFractionAtGapLine": -0.00031812684522015944,
+      "gapFractionAtoB": -1.4139336446242143,
+      "withinFiniteGapPlanOnly": false
+    },
+    {
+      "cameraPlanSample": "corner193",
+      "cameraSourceXYZ": [
+        434.8760986328125,
+        -212.03733825683594,
+        -452.1611785888672
+      ],
+      "cafeVertex": 178,
+      "cafeSourceXYZ": [
+        2288.853483482249,
+        -2020.2371064863974,
+        -282.6154964338855
+      ],
+      "rayFractionAtGapLine": 0.1884626593033663,
+      "gapFractionAtoB": 1.1947655308099268,
+      "withinFiniteGapPlanOnly": false
+    },
+    {
+      "cameraPlanSample": "corner193",
+      "cameraSourceXYZ": [
+        434.8760986328125,
+        -212.03733825683594,
+        -452.1611785888672
+      ],
+      "cafeVertex": 143,
+      "cafeSourceXYZ": [
+        2322.1633399853563,
+        -1627.512676134742,
+        -282.6154964338855
+      ],
+      "rayFractionAtGapLine": 0.24971171895053262,
+      "gapFractionAtoB": 2.028922748755147,
+      "withinFiniteGapPlanOnly": false
+    },
+    {
+      "cameraPlanSample": "corner224",
+      "cameraSourceXYZ": [
+        1022.3734436035156,
+        -272.8538818359375,
+        -452.1611785888672
+      ],
+      "cafeVertex": 178,
+      "cafeSourceXYZ": [
+        2288.853483482249,
+        -2020.2371064863974,
+        -282.6154964338855
+      ],
+      "rayFractionAtGapLine": 0.1886241095344146,
+      "gapFractionAtoB": 4.459469251005905,
+      "withinFiniteGapPlanOnly": false
+    },
+    {
+      "cameraPlanSample": "corner224",
+      "cameraSourceXYZ": [
+        1022.3734436035156,
+        -272.8538818359375,
+        -452.1611785888672
+      ],
+      "cafeVertex": 143,
+      "cafeSourceXYZ": [
+        2322.1633399853563,
+        -1627.512676134742,
+        -282.6154964338855
+      ],
+      "rayFractionAtGapLine": 0.24990948141123756,
+      "gapFractionAtoB": 5.047695364302373,
+      "withinFiniteGapPlanOnly": false
+    },
+    {
+      "cameraPlanSample": "corner186",
+      "cameraSourceXYZ": [
+        991.2524719238281,
+        -574.085823059082,
+        -452.1611785888672
+      ],
+      "cafeVertex": 178,
+      "cafeSourceXYZ": [
+        2288.853483482249,
+        -2020.2371064863974,
+        -282.6154964338855
+      ],
+      "rayFractionAtGapLine": 0.00020447488028272695,
+      "gapFractionAtoB": 2.6131982703542467,
+      "withinFiniteGapPlanOnly": false
+    },
+    {
+      "cameraPlanSample": "corner186",
+      "cameraSourceXYZ": [
+        991.2524719238281,
+        -574.085823059082,
+        -452.1611785888672
+      ],
+      "cafeVertex": 143,
+      "cafeSourceXYZ": [
+        2322.1633399853563,
+        -1627.512676134742,
+        -282.6154964338855
+      ],
+      "rayFractionAtGapLine": 0.00029301877780287867,
+      "gapFractionAtoB": 2.6140514747243278,
+      "withinFiniteGapPlanOnly": false
+    },
+    {
+      "cameraPlanSample": "footprint-centroid",
+      "cameraSourceXYZ": [
+        713.0642852783203,
+        -393.1209716796875,
+        -452.1611804962158
+      ],
+      "cafeVertex": 178,
+      "cafeSourceXYZ": [
+        2288.853483482249,
+        -2020.2371064863974,
+        -282.6154964338855
+      ],
+      "rayFractionAtGapLine": 0.10408036869645715,
+      "gapFractionAtoB": 1.8298783328317514,
+      "withinFiniteGapPlanOnly": false
+    },
+    {
+      "cameraPlanSample": "footprint-centroid",
+      "cameraSourceXYZ": [
+        713.0642852783203,
+        -393.1209716796875,
+        -452.1611804962158
+      ],
+      "cafeVertex": 143,
+      "cafeSourceXYZ": [
+        2322.1633399853563,
+        -1627.512676134742,
+        -282.6154964338855
+      ],
+      "rayFractionAtGapLine": 0.1427288964007017,
+      "gapFractionAtoB": 2.2792637377920553,
+      "withinFiniteGapPlanOnly": false
+    }
+  ],
+  "raySampleMeaning": "Necessary source-XY aperture alignment only. No camera pose selected, no ray height or other occluders tested; source room corners are not native camera coordinates.",
+  "admittedSourceAnchors": [],
+  "cameraFitAttempted": false
+}

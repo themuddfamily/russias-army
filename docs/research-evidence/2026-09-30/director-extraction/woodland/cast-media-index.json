@@ -1,0 +1,2859 @@
+{
+  "source_format_reference": "https://github.com/ProjectorRays/ProjectorRays/blob/master/src/director/chunk.cpp",
+  "cast_members": [
+    {
+      "id": 31,
+      "name": "explore",
+      "member_type": 11,
+      "info_length": 42,
+      "specific_data_length": 2
+    },
+    {
+      "id": 142,
+      "name": "gunfire",
+      "member_type": 6,
+      "info_length": 118,
+      "specific_data_length": 0
+    },
+    {
+      "id": 342,
+      "name": "hurt",
+      "member_type": 6,
+      "info_length": 115,
+      "specific_data_length": 0
+    },
+    {
+      "id": 482,
+      "name": "hotspots",
+      "member_type": 11,
+      "info_length": 43,
+      "specific_data_length": 2
+    },
+    {
+      "id": 512,
+      "name": "doors",
+      "member_type": 11,
+      "info_length": 40,
+      "specific_data_length": 2
+    },
+    {
+      "id": 513,
+      "name": "bangs",
+      "member_type": 11,
+      "info_length": 40,
+      "specific_data_length": 2
+    },
+    {
+      "id": 515,
+      "name": "offrock",
+      "member_type": 6,
+      "info_length": 118,
+      "specific_data_length": 0
+    },
+    {
+      "id": 516,
+      "name": "spas12wav",
+      "member_type": 6,
+      "info_length": 120,
+      "specific_data_length": 0
+    },
+    {
+      "id": 532,
+      "name": "barrels",
+      "member_type": 11,
+      "info_length": 42,
+      "specific_data_length": 2
+    },
+    {
+      "id": 554,
+      "name": "pickups",
+      "member_type": 11,
+      "info_length": 42,
+      "specific_data_length": 2
+    },
+    {
+      "id": 582,
+      "name": "generics",
+      "member_type": 11,
+      "info_length": 43,
+      "specific_data_length": 2
+    },
+    {
+      "id": 583,
+      "name": "baddies",
+      "member_type": 11,
+      "info_length": 42,
+      "specific_data_length": 2
+    },
+    {
+      "id": 584,
+      "name": "rockets",
+      "member_type": 11,
+      "info_length": 42,
+      "specific_data_length": 2
+    },
+    {
+      "id": 585,
+      "name": "grenades",
+      "member_type": 11,
+      "info_length": 43,
+      "specific_data_length": 2
+    },
+    {
+      "id": 587,
+      "name": "goody",
+      "member_type": 11,
+      "info_length": 40,
+      "specific_data_length": 2
+    },
+    {
+      "id": 948,
+      "name": "spatter",
+      "member_type": 1,
+      "info_length": 142,
+      "specific_data_length": 28
+    },
+    {
+      "id": 959,
+      "name": "miss",
+      "member_type": 11,
+      "info_length": 39,
+      "specific_data_length": 2
+    },
+    {
+      "id": 1003,
+      "name": "bangrocket",
+      "member_type": 1,
+      "info_length": 145,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1163,
+      "name": "blood",
+      "member_type": 11,
+      "info_length": 40,
+      "specific_data_length": 2
+    },
+    {
+      "id": 1175,
+      "name": "endgame",
+      "member_type": 11,
+      "info_length": 42,
+      "specific_data_length": 2
+    },
+    {
+      "id": 1459,
+      "name": "running game",
+      "member_type": 11,
+      "info_length": 47,
+      "specific_data_length": 2
+    },
+    {
+      "id": 1636,
+      "name": "worldphysics",
+      "member_type": 11,
+      "info_length": 47,
+      "specific_data_length": 2
+    },
+    {
+      "id": 1668,
+      "name": "sky",
+      "member_type": 1,
+      "info_length": 122,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1672,
+      "name": "wirefence",
+      "member_type": 1,
+      "info_length": 144,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1679,
+      "name": "bigredfella",
+      "member_type": 1,
+      "info_length": 147,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1681,
+      "name": "havok",
+      "member_type": 15,
+      "info_length": 112,
+      "specific_data_length": 21
+    },
+    {
+      "id": 1856,
+      "name": "rpg",
+      "member_type": 1,
+      "info_length": 139,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1873,
+      "name": "concrete",
+      "member_type": 1,
+      "info_length": 144,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1905,
+      "name": "weaponry",
+      "member_type": 11,
+      "info_length": 43,
+      "specific_data_length": 2
+    },
+    {
+      "id": 1911,
+      "name": "ak47",
+      "member_type": 1,
+      "info_length": 140,
+      "specific_data_length": 28
+    },
+    {
+      "id": 1932,
+      "name": "stepwall",
+      "member_type": 1,
+      "info_length": 144,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2050,
+      "name": "cliffview",
+      "member_type": 1,
+      "info_length": 145,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2052,
+      "name": "rooms",
+      "member_type": 15,
+      "info_length": 121,
+      "specific_data_length": 448
+    },
+    {
+      "id": 2057,
+      "name": "joinroom",
+      "member_type": 11,
+      "info_length": 43,
+      "specific_data_length": 2
+    },
+    {
+      "id": 2064,
+      "name": "puff",
+      "member_type": 11,
+      "info_length": 39,
+      "specific_data_length": 2
+    },
+    {
+      "id": 2085,
+      "name": "baddy",
+      "member_type": 15,
+      "info_length": 105,
+      "specific_data_length": 355
+    },
+    {
+      "id": 2127,
+      "name": "spas12",
+      "member_type": 1,
+      "info_length": 142,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2161,
+      "name": "mfmachinegun",
+      "member_type": 1,
+      "info_length": 147,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2173,
+      "name": "decalspas",
+      "member_type": 1,
+      "info_length": 144,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2176,
+      "name": "noise",
+      "member_type": 1,
+      "info_length": 124,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2180,
+      "name": "pufft",
+      "member_type": 1,
+      "info_length": 140,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2185,
+      "name": "weapons",
+      "member_type": 15,
+      "info_length": 123,
+      "specific_data_length": 448
+    },
+    {
+      "id": 2186,
+      "name": "stats",
+      "member_type": 15,
+      "info_length": 121,
+      "specific_data_length": 448
+    },
+    {
+      "id": 2188,
+      "name": "fadeaway",
+      "member_type": 11,
+      "info_length": 43,
+      "specific_data_length": 2
+    },
+    {
+      "id": 2235,
+      "name": "decal",
+      "member_type": 1,
+      "info_length": 140,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2325,
+      "name": "muzzle",
+      "member_type": 11,
+      "info_length": 41,
+      "specific_data_length": 2
+    },
+    {
+      "id": 2326,
+      "name": "rg6",
+      "member_type": 1,
+      "info_length": 139,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2327,
+      "name": "M U S",
+      "member_type": 11,
+      "info_length": 40,
+      "specific_data_length": 2
+    },
+    {
+      "id": 2328,
+      "name": "GI",
+      "member_type": 1,
+      "info_length": 138,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2575,
+      "name": "hints",
+      "member_type": 15,
+      "info_length": 121,
+      "specific_data_length": 448
+    },
+    {
+      "id": 2879,
+      "name": "banggrenade",
+      "member_type": 1,
+      "info_length": 146,
+      "specific_data_length": 28
+    },
+    {
+      "id": 2943,
+      "name": "repistol",
+      "member_type": 6,
+      "info_length": 43,
+      "specific_data_length": 0
+    },
+    {
+      "id": 3006,
+      "name": "submit",
+      "member_type": 11,
+      "info_length": 41,
+      "specific_data_length": 2
+    },
+    {
+      "id": 3030,
+      "name": "boomnew",
+      "member_type": 6,
+      "info_length": 42,
+      "specific_data_length": 0
+    },
+    {
+      "id": 3031,
+      "name": "grenade1",
+      "member_type": 6,
+      "info_length": 119,
+      "specific_data_length": 0
+    },
+    {
+      "id": 3032,
+      "name": "reak47",
+      "member_type": 6,
+      "info_length": 117,
+      "specific_data_length": 0
+    },
+    {
+      "id": 3034,
+      "name": "rerg6",
+      "member_type": 6,
+      "info_length": 116,
+      "specific_data_length": 0
+    },
+    {
+      "id": 3384,
+      "name": "flashlobby",
+      "member_type": 11,
+      "info_length": 45,
+      "specific_data_length": 2
+    },
+    {
+      "id": 3680,
+      "name": "door",
+      "member_type": 6,
+      "info_length": 115,
+      "specific_data_length": 0
+    },
+    {
+      "id": 3767,
+      "name": "pistol",
+      "member_type": 1,
+      "info_length": 142,
+      "specific_data_length": 28
+    },
+    {
+      "id": 3858,
+      "name": "talk",
+      "member_type": 15,
+      "info_length": 120,
+      "specific_data_length": 448
+    },
+    {
+      "id": 3909,
+      "name": "hurtme",
+      "member_type": 6,
+      "info_length": 117,
+      "specific_data_length": 0
+    },
+    {
+      "id": 4071,
+      "name": "health",
+      "member_type": 1,
+      "info_length": 125,
+      "specific_data_length": 28
+    },
+    {
+      "id": 4095,
+      "name": "resniper",
+      "member_type": 6,
+      "info_length": 119,
+      "specific_data_length": 0
+    },
+    {
+      "id": 4127,
+      "name": "dragunov",
+      "member_type": 1,
+      "info_length": 144,
+      "specific_data_length": 28
+    },
+    {
+      "id": 4138,
+      "name": "recycle and reuse",
+      "member_type": 11,
+      "info_length": 52,
+      "specific_data_length": 2
+    },
+    {
+      "id": 4271,
+      "name": "gunz",
+      "member_type": 15,
+      "info_length": 104,
+      "specific_data_length": 355
+    },
+    {
+      "id": 4278,
+      "name": "sniper",
+      "member_type": 11,
+      "info_length": 41,
+      "specific_data_length": 2
+    },
+    {
+      "id": 4359,
+      "name": "woodenshed",
+      "member_type": 1,
+      "info_length": 146,
+      "specific_data_length": 28
+    },
+    {
+      "id": 4361,
+      "name": "woodenlodge",
+      "member_type": 1,
+      "info_length": 147,
+      "specific_data_length": 28
+    },
+    {
+      "id": 4363,
+      "name": "rowanbranch",
+      "member_type": 1,
+      "info_length": 130,
+      "specific_data_length": 28
+    },
+    {
+      "id": 4364,
+      "name": "lorryback",
+      "member_type": 1,
+      "info_length": 145,
+      "specific_data_length": 28
+    },
+    {
+      "id": 4365,
+      "name": "stonebarn",
+      "member_type": 1,
+      "info_length": 145,
+      "specific_data_length": 28
+    },
+    {
+      "id": 4366,
+      "name": "spindlybirchleaves",
+      "member_type": 1,
+      "info_length": 137,
+      "specific_data_length": 28
+    },
+    {
+      "id": 4367,
+      "name": "solidoldfences",
+      "member_type": 1,
+      "info_length": 150,
+      "specific_data_length": 28
+    },
+    {
+      "id": 4368,
+      "name": "haddingtoncafe",
+      "member_type": 1,
+      "info_length": 150,
+      "specific_data_length": 28
+    },
+    {
+      "id": 4369,
+      "name": "barerocksand2",
+      "member_type": 1,
+      "info_length": 149,
+      "specific_data_length": 28
+    },
+    {
+      "id": 4371,
+      "name": "giname",
+      "member_type": 15,
+      "info_length": 122,
+      "specific_data_length": 448
+    },
+    {
+      "id": 4528,
+      "name": "healthempty",
+      "member_type": 1,
+      "info_length": 146,
+      "specific_data_length": 28
+    },
+    {
+      "id": 4529,
+      "name": "healthfull",
+      "member_type": 1,
+      "info_length": 145,
+      "specific_data_length": 28
+    },
+    {
+      "id": 4627,
+      "name": "brownloo",
+      "member_type": 1,
+      "info_length": 144,
+      "specific_data_length": 28
+    },
+    {
+      "id": 4628,
+      "name": "barks",
+      "member_type": 1,
+      "info_length": 141,
+      "specific_data_length": 28
+    },
+    {
+      "id": 4988,
+      "name": "syccamore",
+      "member_type": 1,
+      "info_length": 128,
+      "specific_data_length": 28
+    },
+    {
+      "id": 5132,
+      "name": "floortop2",
+      "member_type": 1,
+      "info_length": 145,
+      "specific_data_length": 28
+    },
+    {
+      "id": 5303,
+      "name": "irishyew",
+      "member_type": 1,
+      "info_length": 143,
+      "specific_data_length": 28
+    },
+    {
+      "id": 5448,
+      "name": "birch",
+      "member_type": 1,
+      "info_length": 124,
+      "specific_data_length": 28
+    },
+    {
+      "id": 5730,
+      "name": "barn",
+      "member_type": 1,
+      "info_length": 140,
+      "specific_data_length": 28
+    },
+    {
+      "id": 5760,
+      "name": "UI",
+      "member_type": 15,
+      "info_length": 128,
+      "specific_data_length": 233
+    },
+    {
+      "id": 6225,
+      "name": "level2",
+      "member_type": 15,
+      "info_length": 130,
+      "specific_data_length": 355
+    },
+    {
+      "id": 6226,
+      "name": "hurtrot",
+      "member_type": 1,
+      "info_length": 142,
+      "specific_data_length": 28
+    }
+  ],
+  "key_links": [
+    {
+      "child": 6277,
+      "parent": 142,
+      "tag": "ediM",
+      "name": "gunfire"
+    },
+    {
+      "child": 6279,
+      "parent": 142,
+      "tag": "snd ",
+      "name": "gunfire"
+    },
+    {
+      "child": 6271,
+      "parent": 342,
+      "tag": "ediM",
+      "name": "hurt"
+    },
+    {
+      "child": 6273,
+      "parent": 342,
+      "tag": "snd ",
+      "name": "hurt"
+    },
+    {
+      "child": 6241,
+      "parent": 515,
+      "tag": "ediM",
+      "name": "offrock"
+    },
+    {
+      "child": 6243,
+      "parent": 515,
+      "tag": "snd ",
+      "name": "offrock"
+    },
+    {
+      "child": 6247,
+      "parent": 516,
+      "tag": "ediM",
+      "name": "spas12wav"
+    },
+    {
+      "child": 6249,
+      "parent": 516,
+      "tag": "snd ",
+      "name": "spas12wav"
+    },
+    {
+      "child": 6523,
+      "parent": 948,
+      "tag": "ALFA",
+      "name": "spatter"
+    },
+    {
+      "child": 6524,
+      "parent": 948,
+      "tag": "Thum",
+      "name": "spatter"
+    },
+    {
+      "child": 6522,
+      "parent": 948,
+      "tag": "ediM",
+      "name": "spatter"
+    },
+    {
+      "child": 6515,
+      "parent": 1003,
+      "tag": "ALFA",
+      "name": "bangrocket"
+    },
+    {
+      "child": 6516,
+      "parent": 1003,
+      "tag": "Thum",
+      "name": "bangrocket"
+    },
+    {
+      "child": 6514,
+      "parent": 1003,
+      "tag": "ediM",
+      "name": "bangrocket"
+    },
+    {
+      "child": 6561,
+      "parent": 1024,
+      "tag": "Chan",
+      "name": ""
+    },
+    {
+      "child": 6552,
+      "parent": 1024,
+      "tag": "DRCF",
+      "name": ""
+    },
+    {
+      "child": 6566,
+      "parent": 1024,
+      "tag": "FCOL",
+      "name": ""
+    },
+    {
+      "child": 6553,
+      "parent": 1024,
+      "tag": "FXmp",
+      "name": ""
+    },
+    {
+      "child": 6568,
+      "parent": 1024,
+      "tag": "GRID",
+      "name": ""
+    },
+    {
+      "child": 6554,
+      "parent": 1024,
+      "tag": "MCsL",
+      "name": ""
+    },
+    {
+      "child": 6569,
+      "parent": 1024,
+      "tag": "MDFL",
+      "name": ""
+    },
+    {
+      "child": 6567,
+      "parent": 1024,
+      "tag": "PUBL",
+      "name": ""
+    },
+    {
+      "child": 6570,
+      "parent": 1024,
+      "tag": "SCRF",
+      "name": ""
+    },
+    {
+      "child": 6555,
+      "parent": 1024,
+      "tag": "Sord",
+      "name": ""
+    },
+    {
+      "child": 6565,
+      "parent": 1024,
+      "tag": "VERS",
+      "name": ""
+    },
+    {
+      "child": 6556,
+      "parent": 1024,
+      "tag": "VWFI",
+      "name": ""
+    },
+    {
+      "child": 6559,
+      "parent": 1024,
+      "tag": "VWLB",
+      "name": ""
+    },
+    {
+      "child": 6557,
+      "parent": 1024,
+      "tag": "VWSC",
+      "name": ""
+    },
+    {
+      "child": 6562,
+      "parent": 1024,
+      "tag": "XTRl",
+      "name": ""
+    },
+    {
+      "child": 6571,
+      "parent": 1025,
+      "tag": "SCRF",
+      "name": ""
+    },
+    {
+      "child": 6572,
+      "parent": 1026,
+      "tag": "SCRF",
+      "name": ""
+    },
+    {
+      "child": 6573,
+      "parent": 1027,
+      "tag": "SCRF",
+      "name": ""
+    },
+    {
+      "child": 6574,
+      "parent": 1028,
+      "tag": "SCRF",
+      "name": ""
+    },
+    {
+      "child": 6465,
+      "parent": 1668,
+      "tag": "ALFA",
+      "name": "sky"
+    },
+    {
+      "child": 6466,
+      "parent": 1668,
+      "tag": "Thum",
+      "name": "sky"
+    },
+    {
+      "child": 6464,
+      "parent": 1668,
+      "tag": "ediM",
+      "name": "sky"
+    },
+    {
+      "child": 6427,
+      "parent": 1672,
+      "tag": "ALFA",
+      "name": "wirefence"
+    },
+    {
+      "child": 6428,
+      "parent": 1672,
+      "tag": "Thum",
+      "name": "wirefence"
+    },
+    {
+      "child": 6426,
+      "parent": 1672,
+      "tag": "ediM",
+      "name": "wirefence"
+    },
+    {
+      "child": 6403,
+      "parent": 1679,
+      "tag": "ALFA",
+      "name": "bigredfella"
+    },
+    {
+      "child": 6402,
+      "parent": 1679,
+      "tag": "BITD",
+      "name": "bigredfella"
+    },
+    {
+      "child": 6404,
+      "parent": 1679,
+      "tag": "Thum",
+      "name": "bigredfella"
+    },
+    {
+      "child": 6401,
+      "parent": 1679,
+      "tag": "ediM",
+      "name": "bigredfella"
+    },
+    {
+      "child": 6483,
+      "parent": 1856,
+      "tag": "ALFA",
+      "name": "rpg"
+    },
+    {
+      "child": 6482,
+      "parent": 1856,
+      "tag": "BITD",
+      "name": "rpg"
+    },
+    {
+      "child": 6484,
+      "parent": 1856,
+      "tag": "Thum",
+      "name": "rpg"
+    },
+    {
+      "child": 6481,
+      "parent": 1856,
+      "tag": "ediM",
+      "name": "rpg"
+    },
+    {
+      "child": 6415,
+      "parent": 1873,
+      "tag": "ALFA",
+      "name": "concrete"
+    },
+    {
+      "child": 6414,
+      "parent": 1873,
+      "tag": "BITD",
+      "name": "concrete"
+    },
+    {
+      "child": 6416,
+      "parent": 1873,
+      "tag": "Thum",
+      "name": "concrete"
+    },
+    {
+      "child": 6413,
+      "parent": 1873,
+      "tag": "ediM",
+      "name": "concrete"
+    },
+    {
+      "child": 6487,
+      "parent": 1911,
+      "tag": "ALFA",
+      "name": "ak47"
+    },
+    {
+      "child": 6486,
+      "parent": 1911,
+      "tag": "BITD",
+      "name": "ak47"
+    },
+    {
+      "child": 6488,
+      "parent": 1911,
+      "tag": "Thum",
+      "name": "ak47"
+    },
+    {
+      "child": 6485,
+      "parent": 1911,
+      "tag": "ediM",
+      "name": "ak47"
+    },
+    {
+      "child": 6443,
+      "parent": 1932,
+      "tag": "ALFA",
+      "name": "stepwall"
+    },
+    {
+      "child": 6442,
+      "parent": 1932,
+      "tag": "BITD",
+      "name": "stepwall"
+    },
+    {
+      "child": 6444,
+      "parent": 1932,
+      "tag": "Thum",
+      "name": "stepwall"
+    },
+    {
+      "child": 6441,
+      "parent": 1932,
+      "tag": "ediM",
+      "name": "stepwall"
+    },
+    {
+      "child": 6399,
+      "parent": 2050,
+      "tag": "ALFA",
+      "name": "cliffview"
+    },
+    {
+      "child": 6398,
+      "parent": 2050,
+      "tag": "BITD",
+      "name": "cliffview"
+    },
+    {
+      "child": 6400,
+      "parent": 2050,
+      "tag": "Thum",
+      "name": "cliffview"
+    },
+    {
+      "child": 6397,
+      "parent": 2050,
+      "tag": "ediM",
+      "name": "cliffview"
+    },
+    {
+      "child": 6307,
+      "parent": 2052,
+      "tag": "XMED",
+      "name": "rooms"
+    },
+    {
+      "child": 6374,
+      "parent": 2085,
+      "tag": "Thum",
+      "name": "baddy"
+    },
+    {
+      "child": 6373,
+      "parent": 2085,
+      "tag": "XMED",
+      "name": "baddy"
+    },
+    {
+      "child": 6476,
+      "parent": 2127,
+      "tag": "ALFA",
+      "name": "spas12"
+    },
+    {
+      "child": 6475,
+      "parent": 2127,
+      "tag": "BITD",
+      "name": "spas12"
+    },
+    {
+      "child": 6477,
+      "parent": 2127,
+      "tag": "Thum",
+      "name": "spas12"
+    },
+    {
+      "child": 6474,
+      "parent": 2127,
+      "tag": "ediM",
+      "name": "spas12"
+    },
+    {
+      "child": 6503,
+      "parent": 2161,
+      "tag": "ALFA",
+      "name": "mfmachinegun"
+    },
+    {
+      "child": 6504,
+      "parent": 2161,
+      "tag": "Thum",
+      "name": "mfmachinegun"
+    },
+    {
+      "child": 6502,
+      "parent": 2161,
+      "tag": "ediM",
+      "name": "mfmachinegun"
+    },
+    {
+      "child": 6499,
+      "parent": 2173,
+      "tag": "ALFA",
+      "name": "decalspas"
+    },
+    {
+      "child": 6500,
+      "parent": 2173,
+      "tag": "Thum",
+      "name": "decalspas"
+    },
+    {
+      "child": 6498,
+      "parent": 2173,
+      "tag": "ediM",
+      "name": "decalspas"
+    },
+    {
+      "child": 6472,
+      "parent": 2176,
+      "tag": "ALFA",
+      "name": "noise"
+    },
+    {
+      "child": 6473,
+      "parent": 2176,
+      "tag": "Thum",
+      "name": "noise"
+    },
+    {
+      "child": 6471,
+      "parent": 2176,
+      "tag": "ediM",
+      "name": "noise"
+    },
+    {
+      "child": 6507,
+      "parent": 2180,
+      "tag": "ALFA",
+      "name": "pufft"
+    },
+    {
+      "child": 6508,
+      "parent": 2180,
+      "tag": "Thum",
+      "name": "pufft"
+    },
+    {
+      "child": 6506,
+      "parent": 2180,
+      "tag": "ediM",
+      "name": "pufft"
+    },
+    {
+      "child": 6535,
+      "parent": 2185,
+      "tag": "Thum",
+      "name": "weapons"
+    },
+    {
+      "child": 6534,
+      "parent": 2185,
+      "tag": "XMED",
+      "name": "weapons"
+    },
+    {
+      "child": 6537,
+      "parent": 2186,
+      "tag": "Thum",
+      "name": "stats"
+    },
+    {
+      "child": 6536,
+      "parent": 2186,
+      "tag": "XMED",
+      "name": "stats"
+    },
+    {
+      "child": 6511,
+      "parent": 2235,
+      "tag": "ALFA",
+      "name": "decal"
+    },
+    {
+      "child": 6512,
+      "parent": 2235,
+      "tag": "Thum",
+      "name": "decal"
+    },
+    {
+      "child": 6510,
+      "parent": 2235,
+      "tag": "ediM",
+      "name": "decal"
+    },
+    {
+      "child": 6479,
+      "parent": 2326,
+      "tag": "ALFA",
+      "name": "rg6"
+    },
+    {
+      "child": 6480,
+      "parent": 2326,
+      "tag": "Thum",
+      "name": "rg6"
+    },
+    {
+      "child": 6478,
+      "parent": 2326,
+      "tag": "ediM",
+      "name": "rg6"
+    },
+    {
+      "child": 6462,
+      "parent": 2328,
+      "tag": "ALFA",
+      "name": "GI"
+    },
+    {
+      "child": 6463,
+      "parent": 2328,
+      "tag": "Thum",
+      "name": "GI"
+    },
+    {
+      "child": 6461,
+      "parent": 2328,
+      "tag": "ediM",
+      "name": "GI"
+    },
+    {
+      "child": 6539,
+      "parent": 2575,
+      "tag": "Thum",
+      "name": "hints"
+    },
+    {
+      "child": 6538,
+      "parent": 2575,
+      "tag": "XMED",
+      "name": "hints"
+    },
+    {
+      "child": 6519,
+      "parent": 2879,
+      "tag": "ALFA",
+      "name": "banggrenade"
+    },
+    {
+      "child": 6520,
+      "parent": 2879,
+      "tag": "Thum",
+      "name": "banggrenade"
+    },
+    {
+      "child": 6518,
+      "parent": 2879,
+      "tag": "ediM",
+      "name": "banggrenade"
+    },
+    {
+      "child": 6255,
+      "parent": 2943,
+      "tag": "snd ",
+      "name": "repistol"
+    },
+    {
+      "child": 6256,
+      "parent": 2943,
+      "tag": "sndH",
+      "name": "repistol"
+    },
+    {
+      "child": 6257,
+      "parent": 2943,
+      "tag": "sndS",
+      "name": "repistol"
+    },
+    {
+      "child": 6261,
+      "parent": 3030,
+      "tag": "snd ",
+      "name": "boomnew"
+    },
+    {
+      "child": 6262,
+      "parent": 3030,
+      "tag": "sndH",
+      "name": "boomnew"
+    },
+    {
+      "child": 6263,
+      "parent": 3030,
+      "tag": "sndS",
+      "name": "boomnew"
+    },
+    {
+      "child": 6265,
+      "parent": 3031,
+      "tag": "ediM",
+      "name": "grenade1"
+    },
+    {
+      "child": 6267,
+      "parent": 3031,
+      "tag": "snd ",
+      "name": "grenade1"
+    },
+    {
+      "child": 6283,
+      "parent": 3032,
+      "tag": "ediM",
+      "name": "reak47"
+    },
+    {
+      "child": 6285,
+      "parent": 3032,
+      "tag": "snd ",
+      "name": "reak47"
+    },
+    {
+      "child": 6289,
+      "parent": 3034,
+      "tag": "ediM",
+      "name": "rerg6"
+    },
+    {
+      "child": 6291,
+      "parent": 3034,
+      "tag": "snd ",
+      "name": "rerg6"
+    },
+    {
+      "child": 6235,
+      "parent": 3680,
+      "tag": "ediM",
+      "name": "door"
+    },
+    {
+      "child": 6237,
+      "parent": 3680,
+      "tag": "snd ",
+      "name": "door"
+    },
+    {
+      "child": 6491,
+      "parent": 3767,
+      "tag": "ALFA",
+      "name": "pistol"
+    },
+    {
+      "child": 6490,
+      "parent": 3767,
+      "tag": "BITD",
+      "name": "pistol"
+    },
+    {
+      "child": 6492,
+      "parent": 3767,
+      "tag": "Thum",
+      "name": "pistol"
+    },
+    {
+      "child": 6489,
+      "parent": 3767,
+      "tag": "ediM",
+      "name": "pistol"
+    },
+    {
+      "child": 6541,
+      "parent": 3858,
+      "tag": "Thum",
+      "name": "talk"
+    },
+    {
+      "child": 6540,
+      "parent": 3858,
+      "tag": "XMED",
+      "name": "talk"
+    },
+    {
+      "child": 6295,
+      "parent": 3909,
+      "tag": "ediM",
+      "name": "hurtme"
+    },
+    {
+      "child": 6297,
+      "parent": 3909,
+      "tag": "snd ",
+      "name": "hurtme"
+    },
+    {
+      "child": 6528,
+      "parent": 4071,
+      "tag": "ALFA",
+      "name": "health"
+    },
+    {
+      "child": 6527,
+      "parent": 4071,
+      "tag": "BITD",
+      "name": "health"
+    },
+    {
+      "child": 6529,
+      "parent": 4071,
+      "tag": "Thum",
+      "name": "health"
+    },
+    {
+      "child": 6301,
+      "parent": 4095,
+      "tag": "ediM",
+      "name": "resniper"
+    },
+    {
+      "child": 6303,
+      "parent": 4095,
+      "tag": "snd ",
+      "name": "resniper"
+    },
+    {
+      "child": 6495,
+      "parent": 4127,
+      "tag": "ALFA",
+      "name": "dragunov"
+    },
+    {
+      "child": 6494,
+      "parent": 4127,
+      "tag": "BITD",
+      "name": "dragunov"
+    },
+    {
+      "child": 6496,
+      "parent": 4127,
+      "tag": "Thum",
+      "name": "dragunov"
+    },
+    {
+      "child": 6493,
+      "parent": 4127,
+      "tag": "ediM",
+      "name": "dragunov"
+    },
+    {
+      "child": 6376,
+      "parent": 4271,
+      "tag": "Thum",
+      "name": "gunz"
+    },
+    {
+      "child": 6375,
+      "parent": 4271,
+      "tag": "XMED",
+      "name": "gunz"
+    },
+    {
+      "child": 6395,
+      "parent": 4359,
+      "tag": "ALFA",
+      "name": "woodenshed"
+    },
+    {
+      "child": 6394,
+      "parent": 4359,
+      "tag": "BITD",
+      "name": "woodenshed"
+    },
+    {
+      "child": 6396,
+      "parent": 4359,
+      "tag": "Thum",
+      "name": "woodenshed"
+    },
+    {
+      "child": 6393,
+      "parent": 4359,
+      "tag": "ediM",
+      "name": "woodenshed"
+    },
+    {
+      "child": 6407,
+      "parent": 4361,
+      "tag": "ALFA",
+      "name": "woodenlodge"
+    },
+    {
+      "child": 6406,
+      "parent": 4361,
+      "tag": "BITD",
+      "name": "woodenlodge"
+    },
+    {
+      "child": 6408,
+      "parent": 4361,
+      "tag": "Thum",
+      "name": "woodenlodge"
+    },
+    {
+      "child": 6405,
+      "parent": 4361,
+      "tag": "ediM",
+      "name": "woodenlodge"
+    },
+    {
+      "child": 6446,
+      "parent": 4363,
+      "tag": "ALFA",
+      "name": "rowanbranch"
+    },
+    {
+      "child": 6447,
+      "parent": 4363,
+      "tag": "Thum",
+      "name": "rowanbranch"
+    },
+    {
+      "child": 6445,
+      "parent": 4363,
+      "tag": "ediM",
+      "name": "rowanbranch"
+    },
+    {
+      "child": 6439,
+      "parent": 4364,
+      "tag": "ALFA",
+      "name": "lorryback"
+    },
+    {
+      "child": 6438,
+      "parent": 4364,
+      "tag": "BITD",
+      "name": "lorryback"
+    },
+    {
+      "child": 6440,
+      "parent": 4364,
+      "tag": "Thum",
+      "name": "lorryback"
+    },
+    {
+      "child": 6437,
+      "parent": 4364,
+      "tag": "ediM",
+      "name": "lorryback"
+    },
+    {
+      "child": 6435,
+      "parent": 4365,
+      "tag": "ALFA",
+      "name": "stonebarn"
+    },
+    {
+      "child": 6434,
+      "parent": 4365,
+      "tag": "BITD",
+      "name": "stonebarn"
+    },
+    {
+      "child": 6436,
+      "parent": 4365,
+      "tag": "Thum",
+      "name": "stonebarn"
+    },
+    {
+      "child": 6433,
+      "parent": 4365,
+      "tag": "ediM",
+      "name": "stonebarn"
+    },
+    {
+      "child": 6452,
+      "parent": 4366,
+      "tag": "ALFA",
+      "name": "spindlybirchleaves"
+    },
+    {
+      "child": 6453,
+      "parent": 4366,
+      "tag": "Thum",
+      "name": "spindlybirchleaves"
+    },
+    {
+      "child": 6451,
+      "parent": 4366,
+      "tag": "ediM",
+      "name": "spindlybirchleaves"
+    },
+    {
+      "child": 6423,
+      "parent": 4367,
+      "tag": "ALFA",
+      "name": "solidoldfences"
+    },
+    {
+      "child": 6422,
+      "parent": 4367,
+      "tag": "BITD",
+      "name": "solidoldfences"
+    },
+    {
+      "child": 6424,
+      "parent": 4367,
+      "tag": "Thum",
+      "name": "solidoldfences"
+    },
+    {
+      "child": 6421,
+      "parent": 4367,
+      "tag": "ediM",
+      "name": "solidoldfences"
+    },
+    {
+      "child": 6387,
+      "parent": 4368,
+      "tag": "ALFA",
+      "name": "haddingtoncafe"
+    },
+    {
+      "child": 6386,
+      "parent": 4368,
+      "tag": "BITD",
+      "name": "haddingtoncafe"
+    },
+    {
+      "child": 6388,
+      "parent": 4368,
+      "tag": "Thum",
+      "name": "haddingtoncafe"
+    },
+    {
+      "child": 6385,
+      "parent": 4368,
+      "tag": "ediM",
+      "name": "haddingtoncafe"
+    },
+    {
+      "child": 6419,
+      "parent": 4369,
+      "tag": "ALFA",
+      "name": "barerocksand2"
+    },
+    {
+      "child": 6418,
+      "parent": 4369,
+      "tag": "BITD",
+      "name": "barerocksand2"
+    },
+    {
+      "child": 6420,
+      "parent": 4369,
+      "tag": "Thum",
+      "name": "barerocksand2"
+    },
+    {
+      "child": 6417,
+      "parent": 4369,
+      "tag": "ediM",
+      "name": "barerocksand2"
+    },
+    {
+      "child": 6543,
+      "parent": 4371,
+      "tag": "Thum",
+      "name": "giname"
+    },
+    {
+      "child": 6542,
+      "parent": 4371,
+      "tag": "XMED",
+      "name": "giname"
+    },
+    {
+      "child": 6546,
+      "parent": 4528,
+      "tag": "ALFA",
+      "name": "healthempty"
+    },
+    {
+      "child": 6545,
+      "parent": 4528,
+      "tag": "BITD",
+      "name": "healthempty"
+    },
+    {
+      "child": 6547,
+      "parent": 4528,
+      "tag": "Thum",
+      "name": "healthempty"
+    },
+    {
+      "child": 6544,
+      "parent": 4528,
+      "tag": "ediM",
+      "name": "healthempty"
+    },
+    {
+      "child": 6550,
+      "parent": 4529,
+      "tag": "ALFA",
+      "name": "healthfull"
+    },
+    {
+      "child": 6549,
+      "parent": 4529,
+      "tag": "BITD",
+      "name": "healthfull"
+    },
+    {
+      "child": 6551,
+      "parent": 4529,
+      "tag": "Thum",
+      "name": "healthfull"
+    },
+    {
+      "child": 6548,
+      "parent": 4529,
+      "tag": "ediM",
+      "name": "healthfull"
+    },
+    {
+      "child": 6411,
+      "parent": 4627,
+      "tag": "ALFA",
+      "name": "brownloo"
+    },
+    {
+      "child": 6410,
+      "parent": 4627,
+      "tag": "BITD",
+      "name": "brownloo"
+    },
+    {
+      "child": 6412,
+      "parent": 4627,
+      "tag": "Thum",
+      "name": "brownloo"
+    },
+    {
+      "child": 6409,
+      "parent": 4627,
+      "tag": "ediM",
+      "name": "brownloo"
+    },
+    {
+      "child": 6431,
+      "parent": 4628,
+      "tag": "ALFA",
+      "name": "barks"
+    },
+    {
+      "child": 6430,
+      "parent": 4628,
+      "tag": "BITD",
+      "name": "barks"
+    },
+    {
+      "child": 6432,
+      "parent": 4628,
+      "tag": "Thum",
+      "name": "barks"
+    },
+    {
+      "child": 6429,
+      "parent": 4628,
+      "tag": "ediM",
+      "name": "barks"
+    },
+    {
+      "child": 6449,
+      "parent": 4988,
+      "tag": "ALFA",
+      "name": "syccamore"
+    },
+    {
+      "child": 6450,
+      "parent": 4988,
+      "tag": "Thum",
+      "name": "syccamore"
+    },
+    {
+      "child": 6448,
+      "parent": 4988,
+      "tag": "ediM",
+      "name": "syccamore"
+    },
+    {
+      "child": 6469,
+      "parent": 5132,
+      "tag": "ALFA",
+      "name": "floortop2"
+    },
+    {
+      "child": 6468,
+      "parent": 5132,
+      "tag": "BITD",
+      "name": "floortop2"
+    },
+    {
+      "child": 6470,
+      "parent": 5132,
+      "tag": "Thum",
+      "name": "floortop2"
+    },
+    {
+      "child": 6467,
+      "parent": 5132,
+      "tag": "ediM",
+      "name": "floortop2"
+    },
+    {
+      "child": 6459,
+      "parent": 5303,
+      "tag": "ALFA",
+      "name": "irishyew"
+    },
+    {
+      "child": 6460,
+      "parent": 5303,
+      "tag": "Thum",
+      "name": "irishyew"
+    },
+    {
+      "child": 6458,
+      "parent": 5303,
+      "tag": "ediM",
+      "name": "irishyew"
+    },
+    {
+      "child": 6455,
+      "parent": 5448,
+      "tag": "ALFA",
+      "name": "birch"
+    },
+    {
+      "child": 6456,
+      "parent": 5448,
+      "tag": "Thum",
+      "name": "birch"
+    },
+    {
+      "child": 6454,
+      "parent": 5448,
+      "tag": "ediM",
+      "name": "birch"
+    },
+    {
+      "child": 6391,
+      "parent": 5730,
+      "tag": "ALFA",
+      "name": "barn"
+    },
+    {
+      "child": 6390,
+      "parent": 5730,
+      "tag": "BITD",
+      "name": "barn"
+    },
+    {
+      "child": 6392,
+      "parent": 5730,
+      "tag": "Thum",
+      "name": "barn"
+    },
+    {
+      "child": 6389,
+      "parent": 5730,
+      "tag": "ediM",
+      "name": "barn"
+    },
+    {
+      "child": 6526,
+      "parent": 5760,
+      "tag": "Thum",
+      "name": "UI"
+    },
+    {
+      "child": 6525,
+      "parent": 5760,
+      "tag": "XMED",
+      "name": "UI"
+    },
+    {
+      "child": 6378,
+      "parent": 6225,
+      "tag": "Thum",
+      "name": "level2"
+    },
+    {
+      "child": 6377,
+      "parent": 6225,
+      "tag": "XMED",
+      "name": "level2"
+    },
+    {
+      "child": 6532,
+      "parent": 6226,
+      "tag": "ALFA",
+      "name": "hurtrot"
+    },
+    {
+      "child": 6533,
+      "parent": 6226,
+      "tag": "Thum",
+      "name": "hurtrot"
+    },
+    {
+      "child": 6531,
+      "parent": 6226,
+      "tag": "ediM",
+      "name": "hurtrot"
+    },
+    {
+      "child": 6196,
+      "parent": 66560,
+      "tag": "CAS*",
+      "name": ""
+    },
+    {
+      "child": 6231,
+      "parent": 66560,
+      "tag": "Cinf",
+      "name": ""
+    },
+    {
+      "child": 6229,
+      "parent": 66560,
+      "tag": "Fmap",
+      "name": ""
+    },
+    {
+      "child": 6228,
+      "parent": 66560,
+      "tag": "LctX",
+      "name": ""
+    },
+    {
+      "child": 6179,
+      "parent": 132096,
+      "tag": "CAS*",
+      "name": ""
+    },
+    {
+      "child": 6313,
+      "parent": 132096,
+      "tag": "Cinf",
+      "name": ""
+    },
+    {
+      "child": 6311,
+      "parent": 132096,
+      "tag": "Fmap",
+      "name": ""
+    },
+    {
+      "child": 6310,
+      "parent": 132096,
+      "tag": "LctX",
+      "name": ""
+    },
+    {
+      "child": 6148,
+      "parent": 197632,
+      "tag": "CAS*",
+      "name": ""
+    },
+    {
+      "child": 6371,
+      "parent": 197632,
+      "tag": "Cinf",
+      "name": ""
+    },
+    {
+      "child": 6368,
+      "parent": 197632,
+      "tag": "LctX",
+      "name": ""
+    },
+    {
+      "child": 6143,
+      "parent": 328704,
+      "tag": "CAS*",
+      "name": ""
+    },
+    {
+      "child": 6383,
+      "parent": 328704,
+      "tag": "Cinf",
+      "name": ""
+    },
+    {
+      "child": 6380,
+      "parent": 328704,
+      "tag": "LctX",
+      "name": ""
+    }
+  ],
+  "jpeg_media": [
+    {
+      "resource_id": 6385,
+      "name": "haddingtoncafe",
+      "cast_id": 4368,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/06385-haddingtoncafe.jpg"
+    },
+    {
+      "resource_id": 6389,
+      "name": "barn",
+      "cast_id": 5730,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/06389-barn.jpg"
+    },
+    {
+      "resource_id": 6393,
+      "name": "woodenshed",
+      "cast_id": 4359,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/06393-woodenshed.jpg"
+    },
+    {
+      "resource_id": 6397,
+      "name": "cliffview",
+      "cast_id": 2050,
+      "size": [
+        1024,
+        1024
+      ],
+      "file": "media/06397-cliffview.jpg"
+    },
+    {
+      "resource_id": 6401,
+      "name": "bigredfella",
+      "cast_id": 1679,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/06401-bigredfella.jpg"
+    },
+    {
+      "resource_id": 6405,
+      "name": "woodenlodge",
+      "cast_id": 4361,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/06405-woodenlodge.jpg"
+    },
+    {
+      "resource_id": 6409,
+      "name": "brownloo",
+      "cast_id": 4627,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/06409-brownloo.jpg"
+    },
+    {
+      "resource_id": 6413,
+      "name": "concrete",
+      "cast_id": 1873,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/06413-concrete.jpg"
+    },
+    {
+      "resource_id": 6417,
+      "name": "barerocksand2",
+      "cast_id": 4369,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/06417-barerocksand2.jpg"
+    },
+    {
+      "resource_id": 6421,
+      "name": "solidoldfences",
+      "cast_id": 4367,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/06421-solidoldfences.jpg"
+    },
+    {
+      "resource_id": 6426,
+      "name": "wirefence",
+      "cast_id": 1672,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/06426-wirefence.jpg"
+    },
+    {
+      "resource_id": 6429,
+      "name": "barks",
+      "cast_id": 4628,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/06429-barks.jpg"
+    },
+    {
+      "resource_id": 6433,
+      "name": "stonebarn",
+      "cast_id": 4365,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/06433-stonebarn.jpg"
+    },
+    {
+      "resource_id": 6437,
+      "name": "lorryback",
+      "cast_id": 4364,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/06437-lorryback.jpg"
+    },
+    {
+      "resource_id": 6441,
+      "name": "stepwall",
+      "cast_id": 1932,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/06441-stepwall.jpg"
+    },
+    {
+      "resource_id": 6445,
+      "name": "rowanbranch",
+      "cast_id": 4363,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/06445-rowanbranch.jpg"
+    },
+    {
+      "resource_id": 6448,
+      "name": "syccamore",
+      "cast_id": 4988,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/06448-syccamore.jpg"
+    },
+    {
+      "resource_id": 6451,
+      "name": "spindlybirchleaves",
+      "cast_id": 4366,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/06451-spindlybirchleaves.jpg"
+    },
+    {
+      "resource_id": 6454,
+      "name": "birch",
+      "cast_id": 5448,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/06454-birch.jpg"
+    },
+    {
+      "resource_id": 6458,
+      "name": "irishyew",
+      "cast_id": 5303,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/06458-irishyew.jpg"
+    },
+    {
+      "resource_id": 6461,
+      "name": "GI",
+      "cast_id": 2328,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/06461-GI.jpg"
+    },
+    {
+      "resource_id": 6464,
+      "name": "sky",
+      "cast_id": 1668,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/06464-sky.jpg"
+    },
+    {
+      "resource_id": 6467,
+      "name": "floortop2",
+      "cast_id": 5132,
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/06467-floortop2.jpg"
+    },
+    {
+      "resource_id": 6471,
+      "name": "noise",
+      "cast_id": 2176,
+      "size": [
+        64,
+        64
+      ],
+      "file": "media/06471-noise.jpg"
+    },
+    {
+      "resource_id": 6474,
+      "name": "spas12",
+      "cast_id": 2127,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/06474-spas12.jpg"
+    },
+    {
+      "resource_id": 6478,
+      "name": "rg6",
+      "cast_id": 2326,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/06478-rg6.jpg"
+    },
+    {
+      "resource_id": 6481,
+      "name": "rpg",
+      "cast_id": 1856,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/06481-rpg.jpg"
+    },
+    {
+      "resource_id": 6485,
+      "name": "ak47",
+      "cast_id": 1911,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/06485-ak47.jpg"
+    },
+    {
+      "resource_id": 6489,
+      "name": "pistol",
+      "cast_id": 3767,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/06489-pistol.jpg"
+    },
+    {
+      "resource_id": 6493,
+      "name": "dragunov",
+      "cast_id": 4127,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/06493-dragunov.jpg"
+    },
+    {
+      "resource_id": 6498,
+      "name": "decalspas",
+      "cast_id": 2173,
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/06498-decalspas.jpg"
+    },
+    {
+      "resource_id": 6502,
+      "name": "mfmachinegun",
+      "cast_id": 2161,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/06502-mfmachinegun.jpg"
+    },
+    {
+      "resource_id": 6506,
+      "name": "pufft",
+      "cast_id": 2180,
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/06506-pufft.jpg"
+    },
+    {
+      "resource_id": 6510,
+      "name": "decal",
+      "cast_id": 2235,
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/06510-decal.jpg"
+    },
+    {
+      "resource_id": 6514,
+      "name": "bangrocket",
+      "cast_id": 1003,
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/06514-bangrocket.jpg"
+    },
+    {
+      "resource_id": 6518,
+      "name": "banggrenade",
+      "cast_id": 2879,
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/06518-banggrenade.jpg"
+    },
+    {
+      "resource_id": 6522,
+      "name": "spatter",
+      "cast_id": 948,
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/06522-spatter.jpg"
+    },
+    {
+      "resource_id": 6531,
+      "name": "hurtrot",
+      "cast_id": 6226,
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/06531-hurtrot.jpg"
+    }
+  ],
+  "rgba_media": [
+    {
+      "cast_id": 948,
+      "name": "spatter",
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/00948-spatter-rgba.png",
+      "color_resource": 6522,
+      "alpha_resource": 6523
+    },
+    {
+      "cast_id": 1003,
+      "name": "bangrocket",
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/01003-bangrocket-rgba.png",
+      "color_resource": 6514,
+      "alpha_resource": 6515
+    },
+    {
+      "cast_id": 1668,
+      "name": "sky",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/01668-sky-rgba.png",
+      "color_resource": 6464,
+      "alpha_resource": 6465
+    },
+    {
+      "cast_id": 1672,
+      "name": "wirefence",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/01672-wirefence-rgba.png",
+      "color_resource": 6426,
+      "alpha_resource": 6427
+    },
+    {
+      "cast_id": 1679,
+      "name": "bigredfella",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/01679-bigredfella-rgba.png",
+      "color_resource": 6401,
+      "alpha_resource": 6403
+    },
+    {
+      "cast_id": 1856,
+      "name": "rpg",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/01856-rpg-rgba.png",
+      "color_resource": 6481,
+      "alpha_resource": 6483
+    },
+    {
+      "cast_id": 1873,
+      "name": "concrete",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/01873-concrete-rgba.png",
+      "color_resource": 6413,
+      "alpha_resource": 6415
+    },
+    {
+      "cast_id": 1911,
+      "name": "ak47",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/01911-ak47-rgba.png",
+      "color_resource": 6485,
+      "alpha_resource": 6487
+    },
+    {
+      "cast_id": 1932,
+      "name": "stepwall",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/01932-stepwall-rgba.png",
+      "color_resource": 6441,
+      "alpha_resource": 6443
+    },
+    {
+      "cast_id": 2050,
+      "name": "cliffview",
+      "size": [
+        1024,
+        1024
+      ],
+      "file": "media/02050-cliffview-rgba.png",
+      "color_resource": 6397,
+      "alpha_resource": 6399
+    },
+    {
+      "cast_id": 2127,
+      "name": "spas12",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/02127-spas12-rgba.png",
+      "color_resource": 6474,
+      "alpha_resource": 6476
+    },
+    {
+      "cast_id": 2161,
+      "name": "mfmachinegun",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/02161-mfmachinegun-rgba.png",
+      "color_resource": 6502,
+      "alpha_resource": 6503
+    },
+    {
+      "cast_id": 2173,
+      "name": "decalspas",
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/02173-decalspas-rgba.png",
+      "color_resource": 6498,
+      "alpha_resource": 6499
+    },
+    {
+      "cast_id": 2176,
+      "name": "noise",
+      "size": [
+        64,
+        64
+      ],
+      "file": "media/02176-noise-rgba.png",
+      "color_resource": 6471,
+      "alpha_resource": 6472
+    },
+    {
+      "cast_id": 2180,
+      "name": "pufft",
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/02180-pufft-rgba.png",
+      "color_resource": 6506,
+      "alpha_resource": 6507
+    },
+    {
+      "cast_id": 2235,
+      "name": "decal",
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/02235-decal-rgba.png",
+      "color_resource": 6510,
+      "alpha_resource": 6511
+    },
+    {
+      "cast_id": 2326,
+      "name": "rg6",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/02326-rg6-rgba.png",
+      "color_resource": 6478,
+      "alpha_resource": 6479
+    },
+    {
+      "cast_id": 2328,
+      "name": "GI",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/02328-GI-rgba.png",
+      "color_resource": 6461,
+      "alpha_resource": 6462
+    },
+    {
+      "cast_id": 2879,
+      "name": "banggrenade",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/02879-banggrenade-rgba.png",
+      "color_resource": 6518,
+      "alpha_resource": 6519
+    },
+    {
+      "cast_id": 3767,
+      "name": "pistol",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/03767-pistol-rgba.png",
+      "color_resource": 6489,
+      "alpha_resource": 6491
+    },
+    {
+      "cast_id": 4071,
+      "name": "health",
+      "size": [
+        64,
+        64
+      ],
+      "file": "media/04071-health-rgba.png",
+      "color_resource": 6527,
+      "alpha_resource": 6528
+    },
+    {
+      "cast_id": 4127,
+      "name": "dragunov",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/04127-dragunov-rgba.png",
+      "color_resource": 6493,
+      "alpha_resource": 6495
+    },
+    {
+      "cast_id": 4359,
+      "name": "woodenshed",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/04359-woodenshed-rgba.png",
+      "color_resource": 6393,
+      "alpha_resource": 6395
+    },
+    {
+      "cast_id": 4361,
+      "name": "woodenlodge",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/04361-woodenlodge-rgba.png",
+      "color_resource": 6405,
+      "alpha_resource": 6407
+    },
+    {
+      "cast_id": 4363,
+      "name": "rowanbranch",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/04363-rowanbranch-rgba.png",
+      "color_resource": 6445,
+      "alpha_resource": 6446
+    },
+    {
+      "cast_id": 4364,
+      "name": "lorryback",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/04364-lorryback-rgba.png",
+      "color_resource": 6437,
+      "alpha_resource": 6439
+    },
+    {
+      "cast_id": 4365,
+      "name": "stonebarn",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/04365-stonebarn-rgba.png",
+      "color_resource": 6433,
+      "alpha_resource": 6435
+    },
+    {
+      "cast_id": 4366,
+      "name": "spindlybirchleaves",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/04366-spindlybirchleaves-rgba.png",
+      "color_resource": 6451,
+      "alpha_resource": 6452
+    },
+    {
+      "cast_id": 4367,
+      "name": "solidoldfences",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/04367-solidoldfences-rgba.png",
+      "color_resource": 6421,
+      "alpha_resource": 6423
+    },
+    {
+      "cast_id": 4368,
+      "name": "haddingtoncafe",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/04368-haddingtoncafe-rgba.png",
+      "color_resource": 6385,
+      "alpha_resource": 6387
+    },
+    {
+      "cast_id": 4369,
+      "name": "barerocksand2",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/04369-barerocksand2-rgba.png",
+      "color_resource": 6417,
+      "alpha_resource": 6419
+    },
+    {
+      "cast_id": 4528,
+      "name": "healthempty",
+      "size": [
+        64,
+        64
+      ],
+      "file": "media/04528-healthempty-rgba.png",
+      "color_resource": 6545,
+      "alpha_resource": 6546
+    },
+    {
+      "cast_id": 4529,
+      "name": "healthfull",
+      "size": [
+        64,
+        64
+      ],
+      "file": "media/04529-healthfull-rgba.png",
+      "color_resource": 6549,
+      "alpha_resource": 6550
+    },
+    {
+      "cast_id": 4627,
+      "name": "brownloo",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/04627-brownloo-rgba.png",
+      "color_resource": 6409,
+      "alpha_resource": 6411
+    },
+    {
+      "cast_id": 4628,
+      "name": "barks",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/04628-barks-rgba.png",
+      "color_resource": 6429,
+      "alpha_resource": 6431
+    },
+    {
+      "cast_id": 4988,
+      "name": "syccamore",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/04988-syccamore-rgba.png",
+      "color_resource": 6448,
+      "alpha_resource": 6449
+    },
+    {
+      "cast_id": 5132,
+      "name": "floortop2",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/05132-floortop2-rgba.png",
+      "color_resource": 6467,
+      "alpha_resource": 6469
+    },
+    {
+      "cast_id": 5303,
+      "name": "irishyew",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/05303-irishyew-rgba.png",
+      "color_resource": 6458,
+      "alpha_resource": 6459
+    },
+    {
+      "cast_id": 5448,
+      "name": "birch",
+      "size": [
+        512,
+        512
+      ],
+      "file": "media/05448-birch-rgba.png",
+      "color_resource": 6454,
+      "alpha_resource": 6455
+    },
+    {
+      "cast_id": 5730,
+      "name": "barn",
+      "size": [
+        256,
+        256
+      ],
+      "file": "media/05730-barn-rgba.png",
+      "color_resource": 6389,
+      "alpha_resource": 6391
+    },
+    {
+      "cast_id": 6226,
+      "name": "hurtrot",
+      "size": [
+        128,
+        128
+      ],
+      "file": "media/06226-hurtrot-rgba.png",
+      "color_resource": 6531,
+      "alpha_resource": 6532
+    }
+  ],
+  "preview_errors": [],
+  "embedded_swf": [
+    {
+      "cast_id": 5760,
+      "cast_name": "UI",
+      "resource_id": 6525,
+      "swf_file": "media/original-ui.swf",
+      "version": 5,
+      "length": 594756,
+      "tag_counts": {
+        "9": 1,
+        "2": 15,
+        "39": 31,
+        "56": 2,
+        "45": 1,
+        "32": 10,
+        "26": 67,
+        "1": 61,
+        "28": 26,
+        "12": 6,
+        "48": 2,
+        "88": 2,
+        "11": 19,
+        "14": 1,
+        "15": 1,
+        "8": 1,
+        "6": 1,
+        "22": 1,
+        "34": 8,
+        "43": 5,
+        "46": 8,
+        "37": 1,
+        "0": 1
+      },
+      "bitmaps": [
+        {
+          "character_id": 15,
+          "tag": 6,
+          "size": [
+            514,
+            536
+          ],
+          "jpeg": "media/original-ui-character-15.jpg",
+          "png": "media/original-ui-bitmap-raw.png"
+        }
+      ],
+      "executed": false
+    }
+  ]
+}

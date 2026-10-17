@@ -1,0 +1,1892 @@
+{
+  "input": "docs/research-evidence/2026-10-01/woodland-11s-shed-texture-ambiguity.json",
+  "inputSha256": "3581b0e4be82a69afa90d53f00966d0514bbee9d597fdd36f1489104222af87a",
+  "generator": "scripts/research/audit-shed-training-homographies.py",
+  "generatorSha256": "64c5c2493dcabf72d51ac37dabebc097254cf54194ee7d5976012b01345ddaea",
+  "scene": "public/assets/original-scenes/woodland/scene.json",
+  "sceneSha256": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107",
+  "groups": [
+    {
+      "group": 0,
+      "homographyAtlasToReference": [
+        [
+          3.721155054734163,
+          0.46564226750657245,
+          -820.6623909104917
+        ],
+        [
+          0.15928515548925967,
+          3.681287468486168,
+          -1286.3126387063896
+        ],
+        [
+          0.0007998011305690841,
+          0.0007498324770486452,
+          1.0
+        ]
+      ],
+      "trainingMatchIndices": [
+        2,
+        7,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        19,
+        20,
+        25,
+        28,
+        29,
+        30,
+        33,
+        34,
+        35,
+        36,
+        38,
+        39,
+        41,
+        42,
+        43,
+        44,
+        50,
+        52,
+        53,
+        55,
+        58,
+        60,
+        61,
+        63,
+        66,
+        67,
+        71,
+        72,
+        74,
+        78,
+        82,
+        83,
+        84,
+        87,
+        88,
+        91,
+        92,
+        93,
+        94,
+        98,
+        100,
+        102,
+        105,
+        106,
+        108,
+        109,
+        111,
+        116,
+        120,
+        123,
+        125,
+        126,
+        129,
+        133,
+        136,
+        140,
+        143,
+        144,
+        147,
+        148,
+        149,
+        150,
+        153,
+        154
+      ],
+      "trainingErrors": [
+        {
+          "matchIndex": 2,
+          "errorPixels": 1.1928332084071698,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 7,
+          "errorPixels": 1.9319741339079048,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 9,
+          "errorPixels": 0.24531527338058454,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 10,
+          "errorPixels": 0.24531527338058454,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 11,
+          "errorPixels": 0.8268969946940475,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 12,
+          "errorPixels": 0.34001511888031877,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 14,
+          "errorPixels": 1.271118158896415,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 15,
+          "errorPixels": 1.271118158896415,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 19,
+          "errorPixels": 0.6977558552521023,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 20,
+          "errorPixels": 0.38197348430364486,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 25,
+          "errorPixels": 1.0920938513131278,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 28,
+          "errorPixels": 1.0043794383410476,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 29,
+          "errorPixels": 1.5227798180568715,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 30,
+          "errorPixels": 0.5742393406424455,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 33,
+          "errorPixels": 1.063515123386018,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 34,
+          "errorPixels": 0.6319643807218518,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 35,
+          "errorPixels": 0.9006063134118639,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 36,
+          "errorPixels": 0.9840961630736348,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 38,
+          "errorPixels": 1.3042659379219037,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 39,
+          "errorPixels": 1.1248550308355691,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 41,
+          "errorPixels": 0.39120894385378674,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 42,
+          "errorPixels": 0.39120894385378674,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 43,
+          "errorPixels": 0.4158005333551801,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 44,
+          "errorPixels": 0.27237038006996156,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 50,
+          "errorPixels": 0.8170019668300968,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 52,
+          "errorPixels": 0.7053000617998497,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 53,
+          "errorPixels": 0.6237276325074799,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 55,
+          "errorPixels": 0.2584275335833161,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 58,
+          "errorPixels": 0.8748885971877818,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 60,
+          "errorPixels": 0.05658405723091115,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 61,
+          "errorPixels": 0.9392140328252665,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 63,
+          "errorPixels": 0.4077486299405207,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 66,
+          "errorPixels": 1.5375153363566934,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 67,
+          "errorPixels": 0.3485932668600465,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 71,
+          "errorPixels": 0.2532514203403438,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 72,
+          "errorPixels": 0.28459119269308486,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 74,
+          "errorPixels": 0.4048219145596549,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 78,
+          "errorPixels": 0.5320043576896245,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 82,
+          "errorPixels": 0.3026920086675998,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 83,
+          "errorPixels": 0.28903621917118183,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 84,
+          "errorPixels": 0.8025336694747734,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 87,
+          "errorPixels": 0.05207933263155396,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 88,
+          "errorPixels": 0.05207933263155396,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 91,
+          "errorPixels": 1.143869862751845,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 92,
+          "errorPixels": 0.8954981479789347,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 93,
+          "errorPixels": 0.37115516902528223,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 94,
+          "errorPixels": 0.37115516902528223,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 98,
+          "errorPixels": 1.0000158623114677,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 100,
+          "errorPixels": 0.2832797748750198,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 102,
+          "errorPixels": 1.158843908764416,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 105,
+          "errorPixels": 0.6257147963165538,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 106,
+          "errorPixels": 0.47698304555995225,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 108,
+          "errorPixels": 0.9726221690567521,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 109,
+          "errorPixels": 0.153957453736957,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 111,
+          "errorPixels": 0.8914364786753373,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 116,
+          "errorPixels": 1.7002985796431707,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 120,
+          "errorPixels": 0.8228287259873932,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 123,
+          "errorPixels": 0.4398385513893595,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 125,
+          "errorPixels": 1.1169892870502611,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 126,
+          "errorPixels": 0.3853024723536809,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 129,
+          "errorPixels": 0.8117906335044877,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 133,
+          "errorPixels": 0.6382989140543666,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 136,
+          "errorPixels": 0.41858991617266883,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 140,
+          "errorPixels": 0.8921427982498403,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 143,
+          "errorPixels": 0.38141431918771435,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 144,
+          "errorPixels": 0.38141431918771435,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 147,
+          "errorPixels": 1.0567786922869273,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 148,
+          "errorPixels": 1.705404959375292,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 149,
+          "errorPixels": 0.5062679077469574,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 150,
+          "errorPixels": 0.23505895912070482,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 153,
+          "errorPixels": 1.706347253026305,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 154,
+          "errorPixels": 0.18921411998975624,
+          "withinFixedTwoPixelThreshold": true
+        }
+      ],
+      "compatibleSourcePlaneIds": [
+        25
+      ],
+      "heldoutErrors": [
+        {
+          "matchIndex": 0,
+          "errorPixels": 1940.5439835418645,
+          "withinFixedTwoPixelThreshold": false
+        },
+        {
+          "matchIndex": 3,
+          "errorPixels": 926.2078874703219,
+          "withinFixedTwoPixelThreshold": false
+        },
+        {
+          "matchIndex": 4,
+          "errorPixels": 1.5422796009135888,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 8,
+          "errorPixels": 0.6379455471087268,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 16,
+          "errorPixels": 1.5099210841659714,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 17,
+          "errorPixels": 0.48118481538807717,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 22,
+          "errorPixels": 1.7233915435130702,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 23,
+          "errorPixels": 1.7233915435130702,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 26,
+          "errorPixels": 1.2486468731226743,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 27,
+          "errorPixels": 0.38753293672197925,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 31,
+          "errorPixels": 1.093096184769518,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 32,
+          "errorPixels": 0.8177386423097537,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 37,
+          "errorPixels": 0.9959694477812125,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 40,
+          "errorPixels": 0.6591739031253273,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 45,
+          "errorPixels": 0.09450747004291724,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 46,
+          "errorPixels": 1.6996947153125816,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 47,
+          "errorPixels": 0.5261678918896172,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 48,
+          "errorPixels": 0.5261678918896172,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 49,
+          "errorPixels": 0.6723128200343292,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 51,
+          "errorPixels": 0.5143515933957646,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 54,
+          "errorPixels": 0.84826090512286,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 56,
+          "errorPixels": 3.095115139310193,
+          "withinFixedTwoPixelThreshold": false
+        },
+        {
+          "matchIndex": 57,
+          "errorPixels": 0.40976125324911644,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 62,
+          "errorPixels": 0.6290521411939305,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 64,
+          "errorPixels": 0.7466727023025584,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 68,
+          "errorPixels": 0.4880637345327494,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 69,
+          "errorPixels": 0.4880637345327494,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 70,
+          "errorPixels": 0.5464383488557906,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 73,
+          "errorPixels": 1.621273722096763,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 75,
+          "errorPixels": 2.0481698047141816,
+          "withinFixedTwoPixelThreshold": false
+        },
+        {
+          "matchIndex": 76,
+          "errorPixels": 1.7886455570350968,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 79,
+          "errorPixels": 0.51719700502043,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 80,
+          "errorPixels": 0.9506774483796739,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 81,
+          "errorPixels": 0.9506774483796739,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 85,
+          "errorPixels": 0.5593238719223991,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 86,
+          "errorPixels": 0.5593238719223991,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 89,
+          "errorPixels": 0.3290387271751072,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 90,
+          "errorPixels": 0.3290387271751072,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 95,
+          "errorPixels": 1.3889182551631645,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 96,
+          "errorPixels": 3.573254355601852,
+          "withinFixedTwoPixelThreshold": false
+        },
+        {
+          "matchIndex": 97,
+          "errorPixels": 0.2607431925714833,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 101,
+          "errorPixels": 1.08997519193017,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 103,
+          "errorPixels": 1.1448046716646498,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 104,
+          "errorPixels": 1.463118484382586,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 107,
+          "errorPixels": 1.5784254975903182,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 110,
+          "errorPixels": 2.1225873262584547,
+          "withinFixedTwoPixelThreshold": false
+        },
+        {
+          "matchIndex": 112,
+          "errorPixels": 4.513171068752749,
+          "withinFixedTwoPixelThreshold": false
+        },
+        {
+          "matchIndex": 113,
+          "errorPixels": 0.1031614985802945,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 114,
+          "errorPixels": 1.541133861996264,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 117,
+          "errorPixels": 0.19370576464936654,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 119,
+          "errorPixels": 529.5618499790527,
+          "withinFixedTwoPixelThreshold": false
+        },
+        {
+          "matchIndex": 121,
+          "errorPixels": 1.1351058852834017,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 124,
+          "errorPixels": 528.0491689638765,
+          "withinFixedTwoPixelThreshold": false
+        },
+        {
+          "matchIndex": 127,
+          "errorPixels": 523.1526020807236,
+          "withinFixedTwoPixelThreshold": false
+        },
+        {
+          "matchIndex": 130,
+          "errorPixels": 1.4364107882348807,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 131,
+          "errorPixels": 1.004903726206167,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 138,
+          "errorPixels": 497.6259866948141,
+          "withinFixedTwoPixelThreshold": false
+        },
+        {
+          "matchIndex": 139,
+          "errorPixels": 0.8737668687186342,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 145,
+          "errorPixels": 0.79937969273348,
+          "withinFixedTwoPixelThreshold": true
+        },
+        {
+          "matchIndex": 146,
+          "errorPixels": 501.24456624454933,
+          "withinFixedTwoPixelThreshold": false
+        },
+        {
+          "matchIndex": 152,
+          "errorPixels": 636.5946118377112,
+          "withinFixedTwoPixelThreshold": false
+        }
+      ],
+      "heldoutWithinThreshold": 48,
+      "uniqueSourcePlaneAssignment": true
+    }
+  ],
+  "sourcePlanes": [
+    {
+      "normal": [
+        1.4441176540433655e-06,
+        0.4569818253719785,
+        0.889476031873602
+      ],
+      "offset": 5033.580473167972,
+      "faces": [
+        0
+      ]
+    },
+    {
+      "normal": [
+        -0.0,
+        -0.5396663030803555,
+        0.8418790182203035
+      ],
+      "offset": -3837.5255118261503,
+      "faces": [
+        1,
+        75
+      ]
+    },
+    {
+      "normal": [
+        -0.4474239916425981,
+        0.05516188534638848,
+        0.8926191450487919
+      ],
+      "offset": 208.6243203539059,
+      "faces": [
+        2
+      ]
+    },
+    {
+      "normal": [
+        0.5379122372256793,
+        -0.06657336603590093,
+        0.8403680217485161
+      ],
+      "offset": 205.83008211369742,
+      "faces": [
+        3
+      ]
+    },
+    {
+      "normal": [
+        0.0,
+        0.4619337844144776,
+        0.8869144145950717
+      ],
+      "offset": 5069.552680253184,
+      "faces": [
+        4
+      ]
+    },
+    {
+      "normal": [
+        -1.4441030130861205e-06,
+        0.45697719233439443,
+        0.8894784121518006
+      ],
+      "offset": 5033.5452087618005,
+      "faces": [
+        5
+      ]
+    },
+    {
+      "normal": [
+        -0.45936024918780655,
+        0.056851488556729037,
+        0.8864288294696876
+      ],
+      "offset": 203.29461391040292,
+      "faces": [
+        6,
+        53
+      ]
+    },
+    {
+      "normal": [
+        -0.44779462975503437,
+        0.05546080441296124,
+        0.8924147403177622
+      ],
+      "offset": 208.60838094988497,
+      "faces": [
+        7
+      ]
+    },
+    {
+      "normal": [
+        0.0,
+        0.9999999999815599,
+        -6.072926740654508e-06
+      ],
+      "offset": 8733.853056903861,
+      "faces": [
+        8,
+        33,
+        108,
+        144
+      ]
+    },
+    {
+      "normal": [
+        -0.0,
+        0.9999999999802067,
+        -6.291771463860579e-06
+      ],
+      "offset": 8729.657551909775,
+      "faces": [
+        9,
+        18,
+        153,
+        173
+      ]
+    },
+    {
+      "normal": [
+        0.9925018847317595,
+        -0.1222293287386669,
+        -5.79913829511061e-09
+      ],
+      "offset": 121.84169159932777,
+      "faces": [
+        10,
+        35,
+        114,
+        140
+      ]
+    },
+    {
+      "normal": [
+        0.9922778743109995,
+        -0.12403475381055269,
+        0.0
+      ],
+      "offset": 126.78412356828355,
+      "faces": [
+        11,
+        17,
+        186,
+        190
+      ]
+    },
+    {
+      "normal": [
+        3.4403289986417827e-06,
+        0.9999999999940821,
+        -0.0
+      ],
+      "offset": 8977.1613636692,
+      "faces": [
+        12,
+        50,
+        111,
+        130
+      ]
+    },
+    {
+      "normal": [
+        3.3415633253213793e-06,
+        0.999999999994417,
+        0.0
+      ],
+      "offset": 8981.355819139784,
+      "faces": [
+        13,
+        31,
+        185,
+        195
+      ]
+    },
+    {
+      "normal": [
+        0.9924283019084919,
+        -0.12282534580055979,
+        -1.1654832335128439e-08
+      ],
+      "offset": -120.53970215941796,
+      "faces": [
+        14,
+        48,
+        117,
+        142
+      ]
+    },
+    {
+      "normal": [
+        0.992277877514557,
+        -0.12403472818209368,
+        -0.0
+      ],
+      "offset": -125.39660989581631,
+      "faces": [
+        15,
+        29,
+        189,
+        193
+      ]
+    },
+    {
+      "normal": [
+        0.12198654913831092,
+        0.9925271453100273,
+        -0.003024508564088528
+      ],
+      "offset": -146.9562908040417,
+      "faces": [
+        16
+      ]
+    },
+    {
+      "normal": [
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "offset": -1356.3629150390625,
+      "faces": [
+        19,
+        30,
+        40,
+        174,
+        184
+      ]
+    },
+    {
+      "normal": [
+        -0.45180733715779403,
+        0.056475911218940085,
+        0.8903261208918751
+      ],
+      "offset": 205.24553865590266,
+      "faces": [
+        20,
+        58
+      ]
+    },
+    {
+      "normal": [
+        0.5304676958005816,
+        -0.06630845501760031,
+        0.8451078111727522
+      ],
+      "offset": 208.4035147816413,
+      "faces": [
+        21,
+        69
+      ]
+    },
+    {
+      "normal": [
+        0.0,
+        0.45081744838320215,
+        0.8926161707213571
+      ],
+      "offset": 4978.830314834346,
+      "faces": [
+        22,
+        59
+      ]
+    },
+    {
+      "normal": [
+        -0.0,
+        -0.5252681298104633,
+        0.8509367730950509
+      ],
+      "offset": -3698.957165058286,
+      "faces": [
+        23,
+        68,
+        106
+      ]
+    },
+    {
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "offset": 5.593249320983887,
+      "faces": [
+        24,
+        25,
+        122,
+        123,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        152,
+        172
+      ]
+    },
+    {
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "offset": 879.5384521484375,
+      "faces": [
+        26,
+        27,
+        112,
+        113,
+        118,
+        119,
+        120,
+        121,
+        165,
+        166,
+        168,
+        183
+      ]
+    },
+    {
+      "normal": [
+        0.12198709976141556,
+        0.992531685888062,
+        -1.1992418786657236e-08
+      ],
+      "offset": -146.4706028446123,
+      "faces": [
+        28,
+        187
+      ]
+    },
+    {
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "offset": -1352.16796875,
+      "faces": [
+        32,
+        51,
+        74,
+        109,
+        129
+      ]
+    },
+    {
+      "normal": [
+        0.1268733454129872,
+        0.9919189252271159,
+        0.0
+      ],
+      "offset": -142.2171593815125,
+      "faces": [
+        34,
+        49,
+        115,
+        141
+      ]
+    },
+    {
+      "normal": [
+        0.0,
+        -0.5283005542502169,
+        0.8490574329095256
+      ],
+      "offset": -3724.3001090747084,
+      "faces": [
+        36
+      ]
+    },
+    {
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "offset": -1064.11572265625,
+      "faces": [
+        37,
+        46,
+        47,
+        60,
+        63,
+        67,
+        154,
+        194
+      ]
+    },
+    {
+      "normal": [
+        0.5188503152829074,
+        -0.06426127948709524,
+        0.8524463844075527
+      ],
+      "offset": 212.00388614969614,
+      "faces": [
+        38,
+        43
+      ]
+    },
+    {
+      "normal": [
+        0.12198645452338983,
+        0.9925264057419027,
+        -0.0032617200788648292
+      ],
+      "offset": 146.09765026889326,
+      "faces": [
+        39
+      ]
+    },
+    {
+      "normal": [
+        1.669502773512969e-06,
+        -0.5283035095979979,
+        0.8490555940241198
+      ],
+      "offset": -3724.3300574650625,
+      "faces": [
+        41
+      ]
+    },
+    {
+      "normal": [
+        0.12403473979498902,
+        0.9922778760629449,
+        -0.0
+      ],
+      "offset": -146.2093191656979,
+      "faces": [
+        42
+      ]
+    },
+    {
+      "normal": [
+        0.1219869860250713,
+        0.9925307302339589,
+        0.0013873650432281524
+      ],
+      "offset": 146.87189309437184,
+      "faces": [
+        44
+      ]
+    },
+    {
+      "normal": [
+        0.12189119150825922,
+        0.9925434687874869,
+        0.0
+      ],
+      "offset": 146.65326538708413,
+      "faces": [
+        45,
+        57,
+        192
+      ]
+    },
+    {
+      "normal": [
+        0.12118924375674561,
+        0.9925974745898504,
+        0.007963707397879374
+      ],
+      "offset": 144.40620484296878,
+      "faces": [
+        52
+      ]
+    },
+    {
+      "normal": [
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "offset": -1068.3106689453125,
+      "faces": [
+        54,
+        61,
+        66,
+        76,
+        77,
+        82,
+        83,
+        110,
+        143
+      ]
+    },
+    {
+      "normal": [
+        1.5892132882737743e-06,
+        0.46193642785087696,
+        0.8869130378012525
+      ],
+      "offset": 5069.572829597604,
+      "faces": [
+        55
+      ]
+    },
+    {
+      "normal": [
+        0.13093846010134294,
+        0.9913904980714153,
+        -3.2181043750345613e-09
+      ],
+      "offset": 141.8968710974546,
+      "faces": [
+        56,
+        80
+      ]
+    },
+    {
+      "normal": [
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "offset": 160.80592346191406,
+      "faces": [
+        64,
+        125,
+        149
+      ]
+    },
+    {
+      "normal": [
+        0.12154102155925262,
+        0.9925864093761981,
+        5.9742827725830145e-09
+      ],
+      "offset": 146.58404779525918,
+      "faces": [
+        65,
+        70
+      ]
+    },
+    {
+      "normal": [
+        0.10805907182846292,
+        0.9941444749107502,
+        5.311584870391856e-09
+      ],
+      "offset": 141.46026032930277,
+      "faces": [
+        71,
+        78
+      ]
+    },
+    {
+      "normal": [
+        0.12687277492978263,
+        0.9919144650855055,
+        -0.002998822394180681
+      ],
+      "offset": -142.71552141656264,
+      "faces": [
+        72
+      ]
+    },
+    {
+      "normal": [
+        0.5373521570306556,
+        -0.06617643863654449,
+        0.8407575978270344
+      ],
+      "offset": 205.86788129988906,
+      "faces": [
+        73
+      ]
+    },
+    {
+      "normal": [
+        0.12069881676307936,
+        0.9790004690089489,
+        -0.1642859620060428
+      ],
+      "offset": 113.94594138908236,
+      "faces": [
+        79
+      ]
+    },
+    {
+      "normal": [
+        0.1201618806769835,
+        0.9841828829408951,
+        -0.13017363541946067
+      ],
+      "offset": 120.2073181753333,
+      "faces": [
+        81
+      ]
+    },
+    {
+      "normal": [
+        -0.06289522149693731,
+        -0.5242314430062107,
+        0.8492500134097599
+      ],
+      "offset": -3606.355661095475,
+      "faces": [
+        84
+      ]
+    },
+    {
+      "normal": [
+        -0.0,
+        -0.5546964712996068,
+        0.8320527776095484
+      ],
+      "offset": -3975.5289641615473,
+      "faces": [
+        85,
+        89
+      ]
+    },
+    {
+      "normal": [
+        -0.457083364785583,
+        0.03163193965429731,
+        0.888861191654803
+      ],
+      "offset": 208.98507682964618,
+      "faces": [
+        86
+      ]
+    },
+    {
+      "normal": [
+        -0.46495913589500754,
+        0.05811991333085582,
+        0.8834223664941825
+      ],
+      "offset": 205.7587885309561,
+      "faces": [
+        87
+      ]
+    },
+    {
+      "normal": [
+        0.05650847661960869,
+        -0.5274563930562365,
+        0.8477007405294844
+      ],
+      "offset": -3781.5626397322485,
+      "faces": [
+        88
+      ]
+    },
+    {
+      "normal": [
+        0.5195728837815087,
+        -0.10987353962740132,
+        0.8473321802744853
+      ],
+      "offset": 201.5391736583574,
+      "faces": [
+        90
+      ]
+    },
+    {
+      "normal": [
+        0.5060049949063297,
+        -0.06325063431823096,
+        0.8602082901182635
+      ],
+      "offset": 207.7906011696735,
+      "faces": [
+        91
+      ]
+    },
+    {
+      "normal": [
+        0.006834317164784492,
+        0.4504743348423407,
+        0.8927632193125128
+      ],
+      "offset": 4966.63206092326,
+      "faces": [
+        92
+      ]
+    },
+    {
+      "normal": [
+        1.4944575684002015e-06,
+        0.44723305318420875,
+        0.8944174618919831
+      ],
+      "offset": 4948.5120247669,
+      "faces": [
+        93
+      ]
+    },
+    {
+      "normal": [
+        -0.0075337994898434825,
+        0.4508071882771971,
+        0.8925895590151469
+      ],
+      "offset": 4986.726836822121,
+      "faces": [
+        94
+      ]
+    },
+    {
+      "normal": [
+        -0.0,
+        0.4472073490310996,
+        0.8944303142070802
+      ],
+      "offset": 4948.296145611312,
+      "faces": [
+        95
+      ]
+    },
+    {
+      "normal": [
+        -0.45201233133868934,
+        0.05478956851020248,
+        0.8903274428547223
+      ],
+      "offset": 204.9963689843522,
+      "faces": [
+        96
+      ]
+    },
+    {
+      "normal": [
+        -0.4514610380117372,
+        0.055659603602700475,
+        0.8905531649958666
+      ],
+      "offset": 205.11524884550894,
+      "faces": [
+        97
+      ]
+    },
+    {
+      "normal": [
+        0.5204208721142306,
+        -0.10408418862030377,
+        0.8475426818438803
+      ],
+      "offset": 214.57078421441028,
+      "faces": [
+        98
+      ]
+    },
+    {
+      "normal": [
+        -0.44752334552353307,
+        0.08950468131346703,
+        0.8897818649727578
+      ],
+      "offset": 200.24880338350152,
+      "faces": [
+        99
+      ]
+    },
+    {
+      "normal": [
+        0.5389771805810698,
+        0.016843039046999558,
+        0.8421519523509651
+      ],
+      "offset": 195.45662234711796,
+      "faces": [
+        100
+      ]
+    },
+    {
+      "normal": [
+        0.4954974349246043,
+        -0.06136895018261106,
+        0.8664387710257556
+      ],
+      "offset": 207.39341264952412,
+      "faces": [
+        101
+      ]
+    },
+    {
+      "normal": [
+        -0.0,
+        -0.5283035095987342,
+        0.8490555940253032
+      ],
+      "offset": -3727.8895216250203,
+      "faces": [
+        102
+      ]
+    },
+    {
+      "normal": [
+        -0.0,
+        0.4508149144818624,
+        0.8926174504684026
+      ],
+      "offset": 4978.808890120429,
+      "faces": [
+        103
+      ]
+    },
+    {
+      "normal": [
+        0.5375572733356425,
+        -0.0,
+        0.8432272397663333
+      ],
+      "offset": 217.7346273542327,
+      "faces": [
+        104
+      ]
+    },
+    {
+      "normal": [
+        -0.46031714089096865,
+        -0.0,
+        0.8877545436673158
+      ],
+      "offset": 196.2265330636954,
+      "faces": [
+        105
+      ]
+    },
+    {
+      "normal": [
+        -0.0,
+        0.45048945679017366,
+        0.8927817478650055
+      ],
+      "offset": 4976.113974089911,
+      "faces": [
+        107
+      ]
+    },
+    {
+      "normal": [
+        0.12119305586351355,
+        0.9926289554563997,
+        -0.0
+      ],
+      "offset": 143.08559166408293,
+      "faces": [
+        116,
+        139
+      ]
+    },
+    {
+      "normal": [
+        0.9486832117811397,
+        -0.3162280248248418,
+        -2.3316003502651645e-08
+      ],
+      "offset": -72.96059362865283,
+      "faces": [
+        124,
+        171
+      ]
+    },
+    {
+      "normal": [
+        -0.0,
+        1.0,
+        -0.0
+      ],
+      "offset": 8901.65625,
+      "faces": [
+        126,
+        182
+      ]
+    },
+    {
+      "normal": [
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "offset": 1034.7510986328125,
+      "faces": [
+        127,
+        180
+      ]
+    },
+    {
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "offset": -1055.725830078125,
+      "faces": [
+        128,
+        157,
+        158,
+        177
+      ]
+    },
+    {
+      "normal": [
+        -0.0,
+        1.0,
+        -0.0
+      ],
+      "offset": 8717.0791015625,
+      "faces": [
+        137,
+        178
+      ]
+    },
+    {
+      "normal": [
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "offset": -1364.7528076171875,
+      "faces": [
+        138,
+        161,
+        162,
+        169
+      ]
+    },
+    {
+      "normal": [
+        0.12266219899792308,
+        0.9924484797393737,
+        0.0
+      ],
+      "offset": -153.3388950070698,
+      "faces": [
+        145,
+        164
+      ]
+    },
+    {
+      "normal": [
+        0.11950766801761263,
+        0.9928332776881484,
+        0.0
+      ],
+      "offset": -153.38043835871775,
+      "faces": [
+        146,
+        159
+      ]
+    },
+    {
+      "normal": [
+        0.12266219899792308,
+        0.9924484797393737,
+        -0.0
+      ],
+      "offset": 153.8222781477738,
+      "faces": [
+        147,
+        175
+      ]
+    },
+    {
+      "normal": [
+        0.12855402042927758,
+        0.9917025077267219,
+        -0.0
+      ],
+      "offset": 153.89911106851528,
+      "faces": [
+        148,
+        156
+      ]
+    },
+    {
+      "normal": [
+        0.9486829529726878,
+        -0.31622880124842995,
+        4.663199428371468e-08
+      ],
+      "offset": 27.8575085936817,
+      "faces": [
+        150,
+        151
+      ]
+    },
+    {
+      "normal": [
+        0.9924856240469243,
+        -0.12236129314528894,
+        -0.0
+      ],
+      "offset": -138.83752653027565,
+      "faces": [
+        155,
+        160
+      ]
+    },
+    {
+      "normal": [
+        0.9924173165440329,
+        -0.12291407496109136,
+        0.0
+      ],
+      "offset": 138.75183640586457,
+      "faces": [
+        163,
+        176
+      ]
+    },
+    {
+      "normal": [
+        0.0,
+        0.9999999999802067,
+        -6.2917714638605795e-06
+      ],
+      "offset": 8799.573567533393,
+      "faces": [
+        167,
+        181
+      ]
+    },
+    {
+      "normal": [
+        3.160120542782326e-06,
+        0.9999999999950069,
+        0.0
+      ],
+      "offset": 8995.339437171702,
+      "faces": [
+        170,
+        179
+      ]
+    },
+    {
+      "normal": [
+        0.12033113468355601,
+        0.9927338102561332,
+        3.2827221452359924e-07
+      ],
+      "offset": -146.26064625199552,
+      "faces": [
+        188
+      ]
+    },
+    {
+      "normal": [
+        0.1220319135599257,
+        0.9925261770214944,
+        0.0
+      ],
+      "offset": 146.6469153299062,
+      "faces": [
+        191
+      ]
+    }
+  ],
+  "unassignedTrainingMatchIndices": [
+    1,
+    5,
+    6,
+    13,
+    18,
+    21,
+    24,
+    59,
+    65,
+    77,
+    99,
+    115,
+    118,
+    122,
+    128,
+    132,
+    134,
+    135,
+    137,
+    141,
+    142,
+    151
+  ],
+  "counts": {
+    "trainingMatches": 94,
+    "heldoutMatches": 61,
+    "trainingHomographyGroups": 1,
+    "uniqueSourcePlaneAssignments": 1
+  },
+  "method": {
+    "opencvVersion": "4.13.0",
+    "randomSeed": 1701,
+    "trainingOnlyRansacThresholdPixels": 2.0,
+    "minimumTrainingGroupSize": 12,
+    "maximumGroups": 4,
+    "maxRansacIterations": 10000,
+    "ransacConfidence": 0.999,
+    "planeNormalTolerance": 1e-05,
+    "planeOffsetToleranceSourceUnits": 0.02,
+    "sourcePlaneSelection": "Intersection of containing-face source planes across training group, without camera",
+    "heldoutUse": "Validation only; no group membership or source-plane selection"
+  },
+  "landmarks": [],
+  "limitations": [
+    "A single homography group is only a possible plane, since false descriptor matches and repeated atlas patterns can form groups.",
+    "Plane intersections do not test perspective orientation, occlusion, room identity or a jointly consistent camera.",
+    "Held-out errors are reported for all groups, including failures; no group is selected with held-out errors.",
+    "No camera, original runtime, browser or GPU was read or executed.",
+    "No landmark is accepted until independent source-plane identity is established."
+  ],
+  "candidateOutput": "docs/research-evidence/2026-10-01/woodland-11s-shed-training-plane-camera-candidate.json",
+  "candidateOutputSha256": "bb2e70c7c5c6aa08b887d93d1f3d82c54eaa944efca5c880006a96ae07cf11bd",
+  "candidateCounts": {
+    "fit": 72,
+    "heldout": 59
+  }
+}

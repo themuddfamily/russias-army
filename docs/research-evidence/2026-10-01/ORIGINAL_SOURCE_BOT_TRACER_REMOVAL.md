@@ -1,0 +1,9 @@
+# Source practice bot tracers follow source presentation
+
+A broader browser check exposed an actual remaining presentation mismatch, independently of the blood shader correction. The first ten-case run passed nine cases: all new shared-blood and remote fadeaway audio cases passed, along with the other existing presentation checks. Barrack's actual pistol/SPAS miss test failed its existing requirement of no authored effect batches.
+
+The retained trace and decoded sampled state under `artifacts/fidelity-review/2026-10-01/current/source-blood-fade-initial-browser` show a valid pistol decal at opacity.4, followed by one active authored tracer. `Game.combatantShoot` emitted that tracer on every second bot shot even when the map was Barrack/Woodland. This was a production mismatch; the test's zero-authored-effects assertion was preserved.
+
+The recovered weaponry rays create miss/blood planes, while source online event presentation already omits invented tracer batches. Both source-map player routing and existing source-effect tests implement that policy. Offline practice bots are an explicit authored option, but their invented glowing bullet streaks contradicted the selected source visual presentation. The emission now runs only for archival Winter; source bot fire audio and source miss creation continue through their existing paths. Bot decisions, aiming probability, damage, cadence and target selection remain authored and were not changed or newly claimed as original behavior.
+
+Actual Game tests force an even-numbered bot shot with a guaranteed world miss in each source map, verify the source sound and recovered miss route, and require no tracer/impact/light batches. A separate Winter case retains its procedural sound and tracer. The corrected browser run retains the same broad absence assertion and observes actual player misses with bots active. Native original rendering and the full V28 requirement remain open.

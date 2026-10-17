@@ -1,0 +1,823 @@
+{
+  "scene": "public/assets/original-scenes/woodland/scene.json",
+  "sceneSha256": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107",
+  "atlas": "public/assets/original-scenes/woodland/textures/lorryback.png",
+  "atlasSha256": "f7e6ebf4bc6471638f56061216517ea750345cbc62da2239ff657f793b3a289d",
+  "reference": "docs/research-evidence/2026-10-02/interior-approach-textures/woodland-video-13s.jpg",
+  "referenceSha256": "e3efda1f0eb0d1aebae7f0cfe56fc9686620e71fa22c85b181bd57f143f6c49a",
+  "generator": "scripts/research/match-reference-interior-tank.py",
+  "generatorSha256": "37079633b1331866bb58c2feebd42ea359823e3ec6b4e7ca93d4315b55775e99",
+  "imageSize": [
+    1280,
+    574
+  ],
+  "scale": 0.02023529411764706,
+  "verticalFovDegrees": 50,
+  "descriptorMatches": [
+    {
+      "matchIndex": 0,
+      "atlasPixel": [
+        15.517154693603516,
+        108.0901107788086
+      ],
+      "pixel": [
+        66.5668716430664,
+        382.91693115234375
+      ],
+      "role": "fit",
+      "descriptorDistance": 197.14207458496094,
+      "descriptorRatio": 0.694248324387923,
+      "reciprocalNearest": true,
+      "withinExploratoryReferenceRegion": false,
+      "sourceCandidates": [
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 208,
+          "barycentric": [
+            0.9387605714401164,
+            0.032014319101501626,
+            0.029225109458381943
+          ],
+          "sourceLocalPoint": [
+            -434.65701820858374,
+            1883.0420505285617,
+            36.18455969986371
+          ],
+          "worldPoint": [
+            53.47093401849247,
+            -8.291260066542096,
+            29.689903116326455
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 210,
+          "barycentric": [
+            0.9387605714401164,
+            0.032014319101501626,
+            0.029225109458381943
+          ],
+          "sourceLocalPoint": [
+            -272.21796181209936,
+            1863.437314200437,
+            36.18455969986371
+          ],
+          "worldPoint": [
+            56.757936100868406,
+            -8.291260066542096,
+            30.086610722024982
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 213,
+          "barycentric": [
+            0.9387605714401164,
+            0.032014319101501626,
+            0.029225109458381943
+          ],
+          "sourceLocalPoint": [
+            -499.71391883396376,
+            1891.1328708410617,
+            41.4656227557042
+          ],
+          "worldPoint": [
+            52.15448849995538,
+            -8.184396202353325,
+            29.52618298764999
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 215,
+          "barycentric": [
+            0.9387605714401164,
+            0.032014319101501626,
+            0.029225109458381943
+          ],
+          "sourceLocalPoint": [
+            131.2688758698111,
+            75.89843632887188,
+            27.160168464484833
+          ],
+          "worldPoint": [
+            64.92261093396118,
+            -8.473871277422704,
+            66.25798566248488
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 216,
+          "barycentric": [
+            0.06123942855988351,
+            0.9095354619817345,
+            0.029225109458381943
+          ],
+          "sourceLocalPoint": [
+            175.1461027185747,
+            117.26711236149875,
+            32.450331271036085
+          ],
+          "worldPoint": [
+            65.81047952431263,
+            -8.366823277101902,
+            65.42087833570702
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 218,
+          "barycentric": [
+            0.06123942855988351,
+            0.9095354619817345,
+            0.029225109458381943
+          ],
+          "sourceLocalPoint": [
+            -266.92780067928686,
+            1862.814999747312,
+            36.184559811348656
+          ],
+          "worldPoint": [
+            56.8649840673206,
+            -8.291260064286165,
+            30.099203438017625
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 221,
+          "barycentric": [
+            0.06123942855988351,
+            0.9095354619817345,
+            0.029225109458381943
+          ],
+          "sourceLocalPoint": [
+            8.020200108974466,
+            -39.57059486602014,
+            27.160170138223585
+          ],
+          "worldPoint": [
+            62.42863773033013,
+            -8.473871243554107,
+            68.59453547019328
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 223,
+          "barycentric": [
+            0.9387605714401164,
+            0.032014319101501626,
+            0.029225109458381943
+          ],
+          "sourceLocalPoint": [
+            12.065617027218384,
+            -35.81730792329268,
+            27.16017019396606
+          ],
+          "worldPoint": [
+            62.510497931499295,
+            -8.473871242426142,
+            68.51858660499929
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 224,
+          "barycentric": [
+            0.9387605714401164,
+            0.032014319101501626,
+            0.029225109458381943
+          ],
+          "sourceLocalPoint": [
+            70.87975466122705,
+            19.262601226145897,
+            27.160168464484833
+          ],
+          "worldPoint": [
+            63.70061930479925,
+            -8.473871277422704,
+            67.4040284433871
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 227,
+          "barycentric": [
+            0.06123942855988351,
+            0.9095354619817345,
+            0.029225109458381943
+          ],
+          "sourceLocalPoint": [
+            66.83433699238748,
+            15.528370289370141,
+            27.160168520227305
+          ],
+          "worldPoint": [
+            63.61875908844154,
+            -8.473871276294737,
+            67.47959170469598
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 229,
+          "barycentric": [
+            0.9387605714401164,
+            0.032014319101501626,
+            0.029225109458381943
+          ],
+          "sourceLocalPoint": [
+            179.19151334204446,
+            121.00134287022242,
+            32.45033132677856
+          ],
+          "worldPoint": [
+            65.8923395981052,
+            -8.366823275973937,
+            65.34531508305992
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 230,
+          "barycentric": [
+            0.06123942855988351,
+            0.9095354619817345,
+            0.029225109458381943
+          ],
+          "sourceLocalPoint": [
+            127.22346524634136,
+            72.16420628736796,
+            27.160168520227305
+          ],
+          "worldPoint": [
+            64.84075086016861,
+            -8.473871276294737,
+            66.33354890567767
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 232,
+          "barycentric": [
+            0.06123942855988351,
+            0.9095354619817345,
+            0.029225109458381943
+          ],
+          "sourceLocalPoint": [
+            -494.4047007415253,
+            1890.510556387937,
+            41.465622978674105
+          ],
+          "worldPoint": [
+            52.261922089590605,
+            -8.184396197841462,
+            29.538775703642628
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 234,
+          "barycentric": [
+            0.06123942855988351,
+            0.9095354619817345,
+            0.029225109458381943
+          ],
+          "sourceLocalPoint": [
+            -346.61046237524096,
+            1872.4618467657313,
+            36.184563047341214
+          ],
+          "worldPoint": [
+            55.252581971826004,
+            -8.291259998804904,
+            29.903996651291965
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 237,
+          "barycentric": [
+            0.9387605714401164,
+            0.032014319101501626,
+            0.029225109458381943
+          ],
+          "sourceLocalPoint": [
+            -352.1927542925681,
+            1873.0841647863742,
+            36.18456315882616
+          ],
+          "worldPoint": [
+            55.139622653028326,
+            -8.291259996548973,
+            29.89140386310954
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 239,
+          "barycentric": [
+            0.06123942855988351,
+            0.9095354619817345,
+            0.029225109458381943
+          ],
+          "sourceLocalPoint": [
+            -429.0556693316306,
+            1882.419736075437,
+            36.184559811348656
+          ],
+          "worldPoint": [
+            53.58427896047318,
+            -8.291260064286165,
+            29.7024958323191
+          ]
+        }
+      ],
+      "distinctSourceLocationCount": 16
+    },
+    {
+      "matchIndex": 1,
+      "atlasPixel": [
+        177.7874298095703,
+        222.31927490234375
+      ],
+      "pixel": [
+        749.2352294921875,
+        556.9911499023438
+      ],
+      "role": "fit",
+      "descriptorDistance": 81.1541748046875,
+      "descriptorRatio": 0.6771553090635468,
+      "reciprocalNearest": true,
+      "withinExploratoryReferenceRegion": false,
+      "sourceCandidates": [],
+      "distinctSourceLocationCount": 0
+    },
+    {
+      "matchIndex": 2,
+      "atlasPixel": [
+        206.42398071289062,
+        178.39303588867188
+      ],
+      "pixel": [
+        1011.1351318359375,
+        382.1247253417969
+      ],
+      "role": "fit",
+      "descriptorDistance": 250.0139923095703,
+      "descriptorRatio": 0.6692502129480415,
+      "reciprocalNearest": true,
+      "withinExploratoryReferenceRegion": false,
+      "sourceCandidates": [],
+      "distinctSourceLocationCount": 0
+    },
+    {
+      "matchIndex": 3,
+      "atlasPixel": [
+        241.3354949951172,
+        90.51337432861328
+      ],
+      "pixel": [
+        589.470703125,
+        122.30973815917969
+      ],
+      "role": "fit",
+      "descriptorDistance": 77.95511627197266,
+      "descriptorRatio": 0.6912772909611272,
+      "reciprocalNearest": true,
+      "withinExploratoryReferenceRegion": false,
+      "sourceCandidates": [
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 271,
+          "barycentric": [
+            0.07396728974999456,
+            0.3735617226438746,
+            0.5524709876061309
+          ],
+          "sourceLocalPoint": [
+            15.784685990597149,
+            -50.10262596532384,
+            14.0562427535569
+          ],
+          "worldPoint": [
+            62.58575438581708,
+            -8.739033068279129,
+            68.8076542171439
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 273,
+          "barycentric": [
+            0.07396728974999456,
+            0.3735617226438746,
+            0.5524709876061309
+          ],
+          "sourceLocalPoint": [
+            -51.431474227216654,
+            21.298214067482963,
+            14.0562427535569
+          ],
+          "worldPoint": [
+            61.22561561435074,
+            -8.739033068279129,
+            67.362837218833
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 275,
+          "barycentric": [
+            0.07396728974999456,
+            0.3735617226438746,
+            0.5524709876061309
+          ],
+          "sourceLocalPoint": [
+            -263.7970125383406,
+            1875.541013009039,
+            23.0806353550754
+          ],
+          "worldPoint": [
+            56.92833648617269,
+            -8.556421829754283,
+            29.841688816721504
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 277,
+          "barycentric": [
+            0.07396728974999456,
+            0.3735617226438746,
+            0.5524709876061309
+          ],
+          "sourceLocalPoint": [
+            -275.42714812345685,
+            1778.139822521858,
+            23.0806353550754
+          ],
+          "worldPoint": [
+            56.692997271979756,
+            -8.556421829754283,
+            31.812630553638577
+          ]
+        }
+      ],
+      "distinctSourceLocationCount": 4
+    },
+    {
+      "matchIndex": 4,
+      "atlasPixel": [
+        351.6466369628906,
+        215.09246826171875
+      ],
+      "pixel": [
+        229.04306030273438,
+        145.79180908203125
+      ],
+      "role": "fit",
+      "descriptorDistance": 210.3235626220703,
+      "descriptorRatio": 0.6513157378691085,
+      "reciprocalNearest": true,
+      "withinExploratoryReferenceRegion": false,
+      "sourceCandidates": [
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 176,
+          "barycentric": [
+            0.3763387391318501,
+            0.4913949729539236,
+            0.13226628791422626
+          ],
+          "sourceLocalPoint": [
+            -264.1930912327026,
+            1798.705997697357,
+            55.547120114882745
+          ],
+          "worldPoint": [
+            56.92032171729855,
+            -7.899452961673475,
+            31.396467950087306
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 181,
+          "barycentric": [
+            0.37633873453143707,
+            0.4913951668915349,
+            0.132266098577028
+          ],
+          "sourceLocalPoint": [
+            -42.79871781354406,
+            -0.6004619045533726,
+            46.52272321496211
+          ],
+          "worldPoint": [
+            61.400301979427404,
+            -8.08206428717775,
+            67.8059633679142
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 268,
+          "barycentric": [
+            0.12193329807314046,
+            0.39298602613551314,
+            0.48508067579134645
+          ],
+          "sourceLocalPoint": [
+            180.19551254021496,
+            125.68309673258115,
+            46.52022338753453
+          ],
+          "worldPoint": [
+            65.91265581717406,
+            -8.082114871920991,
+            65.25057841666865
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 817,
+          "barycentric": [
+            0.12193353086346703,
+            0.3929857719335697,
+            0.48508069720296326
+          ],
+          "sourceLocalPoint": [
+            -503.9801195213883,
+            1888.55773055396,
+            55.54461454812066
+          ],
+          "worldPoint": [
+            52.06816067428044,
+            -7.899503662553838,
+            29.578291708753692
+          ]
+        }
+      ],
+      "distinctSourceLocationCount": 4
+    },
+    {
+      "matchIndex": 5,
+      "atlasPixel": [
+        417.8829040527344,
+        151.9162139892578
+      ],
+      "pixel": [
+        530.3062744140625,
+        138.81446838378906
+      ],
+      "role": "fit",
+      "descriptorDistance": 111.59748840332031,
+      "descriptorRatio": 0.33711868495902714,
+      "reciprocalNearest": true,
+      "withinExploratoryReferenceRegion": true,
+      "sourceCandidates": [
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 30,
+          "barycentric": [
+            0.7623080244726572,
+            0.10758860327629644,
+            0.13010337225104637
+          ],
+          "sourceLocalPoint": [
+            -519.906566153318,
+            1855.207404040837,
+            88.61518510133027
+          ],
+          "worldPoint": [
+            51.74588434243434,
+            -7.230310940771243,
+            30.253145374666296
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 42,
+          "barycentric": [
+            0.7623079893320766,
+            0.10758909819736802,
+            0.1301029124705555
+          ],
+          "sourceLocalPoint": [
+            164.7534613158279,
+            159.29284819851478,
+            79.86849733920938
+          ],
+          "worldPoint": [
+            65.6001813688688,
+            -7.407302740192983,
+            64.57047521053447
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 1280,
+          "barycentric": [
+            0.10758885396282736,
+            0.13010307296754176,
+            0.7623080730696309
+          ],
+          "sourceLocalPoint": [
+            -27.520471708384584,
+            -33.8849207469757,
+            79.86850646886137
+          ],
+          "worldPoint": [
+            61.7094617829671,
+            -7.40730255545179,
+            68.47948418213733
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 1284,
+          "barycentric": [
+            0.1075887531937233,
+            0.13010301375260983,
+            0.7623082330536669
+          ],
+          "sourceLocalPoint": [
+            -248.37103088568227,
+            1831.7235910715663,
+            88.61518821080513
+          ],
+          "worldPoint": [
+            57.24048576196767,
+            -7.230310877850105,
+            30.728347237103304
+          ]
+        }
+      ],
+      "distinctSourceLocationCount": 4
+    },
+    {
+      "matchIndex": 6,
+      "atlasPixel": [
+        448.7391662597656,
+        475.9106140136719
+      ],
+      "pixel": [
+        618.03125,
+        25.213092803955078
+      ],
+      "role": "fit",
+      "descriptorDistance": 123.24365997314453,
+      "descriptorRatio": 0.6980655118289352,
+      "reciprocalNearest": true,
+      "withinExploratoryReferenceRegion": false,
+      "sourceCandidates": [
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 338,
+          "barycentric": [
+            0.04973013085694489,
+            0.11038058419905586,
+            0.8398892849439993
+          ],
+          "sourceLocalPoint": [
+            -303.31420851684373,
+            1802.7646822228514,
+            34.34168377067877
+          ],
+          "worldPoint": [
+            56.12869440284299,
+            -8.328551202991486,
+            31.314339274983183
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 433,
+          "barycentric": [
+            0.04973013085694489,
+            0.8398892849439993,
+            0.11038058419905586
+          ],
+          "sourceLocalPoint": [
+            27.710190301834466,
+            -18.035002687349447,
+            25.317290478479475
+          ],
+          "worldPoint": [
+            62.82707047305624,
+            -8.511162455492459,
+            68.1587564284602
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 445,
+          "barycentric": [
+            0.04973013085694489,
+            0.8398892849439993,
+            0.11038058419905586
+          ],
+          "sourceLocalPoint": [
+            -295.8955674396604,
+            1863.806933469516,
+            34.34168377067877
+          ],
+          "worldPoint": [
+            56.27881278699305,
+            -8.328551202991486,
+            30.079131367403615
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 452,
+          "barycentric": [
+            0.04973040766539372,
+            0.1103802416502667,
+            0.8398893506843396
+          ],
+          "sourceLocalPoint": [
+            -14.561279779392825,
+            27.037122511847812,
+            25.3172939013065
+          ],
+          "worldPoint": [
+            61.97169484317728,
+            -8.511162386230549,
+            67.24670871854703
+          ]
+        }
+      ],
+      "distinctSourceLocationCount": 4
+    }
+  ],
+  "landmarks": [],
+  "counts": {
+    "atlasDescriptors": 3998,
+    "referenceDescriptors": 3491,
+    "reciprocalRatioMatches": 7,
+    "strictUniqueSourceTriangleLandmarks": 0,
+    "uniqueInsideExploratoryRegion": 0,
+    "outsideExploratoryRegion": 6
+  },
+  "method": {
+    "opencvVersion": "4.13.0",
+    "nfeatures": 6000,
+    "contrastThreshold": 0.005,
+    "ratioThreshold": 0.7,
+    "roleRule": "Atlas coordinate SHA256 modulo3, assigned before reference matching",
+    "uvAdapter": "(u+.5,.5-v)*textureDimensions-.5",
+    "sourceCandidateSelection": "All containing triangles in every part/instance of the resource; no camera/geometry residual",
+    "referenceRegion": [
+      517,
+      121,
+      549,
+      158
+    ],
+    "referenceRegionUse": "Exploratory annotation only, no descriptor discarded"
+  },
+  "originalRuntimeExecuted": false,
+  "cameraFitAttempted": false,
+  "limits": [
+    "Reciprocal SIFT ratio evidence can still contain false matches.",
+    "Source UV convention remains an adapter assumption, not native raster proof.",
+    "Every candidate retained; source component is not selected by image or camera residual.",
+    "Exploratory tank region derives from the visible white/rusted object, not a camera.",
+    "Two-pixel landmark uncertainty retained; fitting requires adequate independently unique geometry and withheld features."
+  ]
+}

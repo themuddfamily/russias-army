@@ -1,0 +1,19 @@
+# Original door audio — static extraction, 2026-09-30
+
+Original sound cast member **3680**, named `door`, is present in both recovered editions. The parsed KEY table associates Barrack `ediM` resource **4846** and Woodland `ediM` resource **6235** with that cast. Their 2052-byte stored payloads are byte-identical. The legacy `snd ` references 4848/6237 are not exported resources in these compressed containers; the existing `ediM` payload is sufficient for static extraction.
+
+`public/assets/original-audio/door.mp3` preserves the compressed sound's MPEG frames byte for byte. `door.wav` is an untrimmed float32 PCM decode for browser audio loading. `provenance.json` records input movies/resources, parsed headers/frame offsets, decoder version, script hash and both output hashes. Reproduce from the repository root:
+
+```sh
+python scripts/research/package-original-door-audio.py
+```
+
+The standard-library parser checks the Director media header length (320), the observed four-byte zero prefix and every consecutive complete MPEG frame until exact EOF. The extracted MP3 begins at original resource offset **324** and contains **24** consecutive 72-byte MPEG-2 Layer III frames, 16,000 Hz mono, 16 kbit/s. The sample rate agrees with the Director header. Stored header fields beyond these checked structural/sample-rate fields are retained in provenance without an invented timing interpretation.
+
+The script invokes installed FFmpeg only to decode these audio bytes. It never loads or executes Director, Lingo, Shockwave, Flash, original scripts or the original movie, and does not play the audio. No resampling, gain adjustment, filter, trim or lossy re-encoding is applied. The WAV contains **13,824** finite, nonempty float samples and an untrimmed decoded transport duration of **0.864 seconds**. This is not a claim about the original scheduled playback duration: historical encoder delay/padding and Director trim/timing fields have not been fully interpreted. The original MP3 compression was already lossy; this extraction does not recover pre-encoding PCM. Copying the MP3 introduces no additional compression loss; the WAV is a static decoded derivative.
+
+Running the packager twice with the recorded installed FFmpeg version produced identical hashes for all three packaged files. WAV SHA256: `faa1bf5cf5ce69d831388b9d4c6fefb98d8da90019f52aa8f1e68f0badf91c77`. The MPEG payload is retained alongside it so later trim/decoder refinements can begin from unchanged original compressed data.
+
+Primary format references are the pinned [dirplayer-rs MediaChunk parser](https://github.com/igorlira/dirplayer-rs/blob/68376fbb4494a6bbad4c70081ecdcb99814a74c9/vm-rust/src/director/chunks/media.rs) and [sound MPEG frame validation](https://github.com/igorlira/dirplayer-rs/blob/68376fbb4494a6bbad4c70081ecdcb99814a74c9/vm-rust/src/director/chunks/sound.rs). The extraction is an independent bounded implementation of the observed layouts. [FFmpeg documentation](https://ffmpeg.org/ffmpeg.html) describes the decoder command's format/codec/metadata options. Original publisher and archive provenance remain in the dated payload manifests.
+
+The [door animation audit](ORIGINAL_DOOR_ANIMATION.md) establishes the source actor's door sound trigger at the model's position. The package is now installed through AudioSystem and Game opening events. Browser checks decode the PCM and verify one source-buffer start per actual doorway opening. Snapshots and repeat opening events do not replay it. The source playsound distance/ear-pan calculation is adapted to normalized positions, WebAudio linear gain and stereo panning; Director integer conversion rounds to the nearest integer. The original eight-channel bound is retained for door voices, while other combat sounds still use the copy's procedural system. Decoder trim/padding and exact historical output-device mixing remain unproved.

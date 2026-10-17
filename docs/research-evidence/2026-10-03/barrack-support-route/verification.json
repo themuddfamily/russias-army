@@ -1,0 +1,16 @@
+{
+  "scope": "Replay without extra initial/final contact and per-callback intersection probes. Serialized JSON state trace equality; not signed-zero/Object.is proof.",
+  "matches": [
+    {
+      "jumpEnabled": false,
+      "jsonSerializedStateTraceMatches": true
+    },
+    {
+      "jumpEnabled": true,
+      "jsonSerializedStateTraceMatches": true
+    }
+  ],
+  "additionalQueries": 1098,
+  "totalQueries": 2369,
+  "budget": 3000
+}

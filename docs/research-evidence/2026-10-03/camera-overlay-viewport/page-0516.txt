@@ -1,0 +1,40 @@
+516 Chapter 12:  Methods
+Parameters
+None.
+Example
+This statement determines whether or not external parameters are available and obtains them if 
+they are:
+--Lingo syntax
+if the runMode contains "Plugin" then
+-- decode the embed parameter
+if externalParamName(swURL) = swURL then
+put externalParamValue(swURL) into myVariable
+end if
+end if
+// JavaScript syntax
+if (_movie.runMode.indexOf("Plugin") >=0) {
+// decode the embed parameter
+if (externalParamName(swURL) == swURL) {
+myVariable = externalParamValue(swURL);
+}
+}
+See also
+environmentPropList, platform
+save castLib
+Usage
+castLib(whichCast).save()
+save castLib whichCast {,pathName&newFileName}
+Description
+Command; saves changes to the cast in the cast’s original file or in a new file. Further operations 
+or references to the cast use the saved cast member. 
+This command does not work with compressed files.
+The save CastLib command doesn’t support URLs as file references.
+Parameters
+pathName&newFileName Optional. Specifies the path and file name to save to. If omitted, the 
+original cast must be linked.
+Example
+This statement causes Director to save the revised version of the Buttons cast in the new file 
+UpdatedButtons in the same folder:
+castLib("Buttons").save(the moviePath & "UpdatedButtons.cst")
+See also
+ @ (pathname)

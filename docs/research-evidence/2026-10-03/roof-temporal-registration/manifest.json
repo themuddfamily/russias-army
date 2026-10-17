@@ -1,0 +1,106 @@
+{
+  "inputs": [
+    {
+      "path": "docs/research-evidence/2026-09-30/woodland-video-15s.jpg",
+      "sha256": "eeae8794813fac85c57c32a9f6af9be859c668699c3f1ab42a731a988f717f3a"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/frame-15.25.png",
+      "sha256": "f604a7faa232502320a41547c8402935ffa463f96e5138459c330241dbdabb2a"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/frame-15.50.png",
+      "sha256": "78836f7f519835a069dba40d0943db28ac62f45a983eb4385e8857d25987db10"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/frame-15.75.png",
+      "sha256": "1ce6f65318928276367734b882c30d99dde25a0359eb1280043d3fd1a2468274"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-01/woodland-video-16s-camera-reference.png",
+      "sha256": "71da5c673445b2bb45639a051b0f72cca44d2df6e7a6d7a0d1f586915b46d257"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/PROTOCOL.md",
+      "sha256": "5aae7ebc070e87119755f9a5d7fec1909d60141d45f10ebe086b45efec8d469d"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/masks.json",
+      "sha256": "10d73ff25c5fc7aa175f75c6edf8c9a4e3ec3b7a0e76191320b7b8f1aebdfcd8"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/track.py",
+      "sha256": "1dbf0c2fd50f21690d479657eb628dc3a4927bedc4d9b1e96b7aa2284970f5d9"
+    }
+  ],
+  "video": {
+    "path": "docs/research-evidence/2026-09-30/woodland-video-first45s.mp4",
+    "sha256": "069ea82b66ef3d2c0656ea81ea2e8fa939179245b5364077e59f213fcd7e5fc1"
+  },
+  "files": [
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/PROTOCOL.md",
+      "sha256": "5aae7ebc070e87119755f9a5d7fec1909d60141d45f10ebe086b45efec8d469d"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/REPORT.md",
+      "sha256": "abdca2bebc9bd13865fe5e3b3b224ee875e2286c613653a6464fcdf59d9656fc"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/extract.sh",
+      "sha256": "b0993f37cd700cc5b6fff2e8ff8eb910da7350efc3cb99013a119b7a6603e46d"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/extraction-15.25.log",
+      "sha256": "0cc964509bd065cfb50b662c9c8b8daa3d8b3e73a2cf269d02bd6db5c4a2804f"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/extraction-15.50.log",
+      "sha256": "582943f1bdb295f746e8c53bf147d1d6c2fa1ef0f7eb7469e6a8779c47d42dc0"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/extraction-15.75.log",
+      "sha256": "7013b6cb5cdd0dc68711b83ec755080dc3453d4bff17444045e707aa9fe7460b"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/extraction-commands.txt",
+      "sha256": "acef0b55aed16ad4114d196e8571475f05174709c47992f19eab6eadc96383c2"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/frame-15.25.png",
+      "sha256": "f604a7faa232502320a41547c8402935ffa463f96e5138459c330241dbdabb2a"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/frame-15.50.png",
+      "sha256": "78836f7f519835a069dba40d0943db28ac62f45a983eb4385e8857d25987db10"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/frame-15.75.png",
+      "sha256": "1ce6f65318928276367734b882c30d99dde25a0359eb1280043d3fd1a2468274"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/image-only-track-overview.svg",
+      "sha256": "65124c106daa9aff2737eedf7803776133a420ddf8cec67f025647c36eccc419"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/masks.json",
+      "sha256": "10d73ff25c5fc7aa175f75c6edf8c9a4e3ec3b7a0e76191320b7b8f1aebdfcd8"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/report.py",
+      "sha256": "e88b3dc1be48158f198d9c7b58be0551d4fa6083226faf15d68690293ed05c0c"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/results.json",
+      "sha256": "13fd53f4c21f01d27867085530f4bbc6c5c26f84d77356f34f6c6725cc28ae6f"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/run.log",
+      "sha256": "e57b63fda5c70f7a63a2ba60707f3c2f185a5f69472bd3f2c2c837a015ac0e94"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-temporal-registration/track.py",
+      "sha256": "1dbf0c2fd50f21690d479657eb628dc3a4927bedc4d9b1e96b7aa2284970f5d9"
+    }
+  ]
+}

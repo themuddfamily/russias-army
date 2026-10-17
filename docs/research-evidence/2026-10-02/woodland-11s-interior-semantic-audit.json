@@ -1,0 +1,778 @@
+{
+  "originalRuntimeExecuted": false,
+  "newCameraFitAttempted": false,
+  "generator": {
+    "path": "scripts/research/audit-original-interior-reference.py",
+    "bytes": 6412,
+    "sha256": "46fc1ef7ca1938fc6cc64909e1de50b718eff0f0493c00a4cd78892d61df7d40"
+  },
+  "inputs": [
+    {
+      "path": "docs/research-evidence/2026-10-01/woodland-11s-shed-texture-ambiguity.json",
+      "bytes": 525122,
+      "sha256": "3581b0e4be82a69afa90d53f00966d0514bbee9d597fdd36f1489104222af87a"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-01/woodland-11s-shed-training-homographies.json",
+      "bytes": 39932,
+      "sha256": "c6e34b15aff2980b5bdb2f77f9f51ded0e5b5ddce64f857c142a40f1d43c5e81"
+    },
+    {
+      "path": "artifacts/fidelity-review/2026-10-01/current/woodland-11s-shed-training-plane-camera-fit.json",
+      "bytes": 86942,
+      "sha256": "a469547207e5be71d69e1ec929dcca99b8efe9b9f0ed1d2c9211dbe10ddc6460"
+    },
+    {
+      "path": "public/assets/original-scenes/woodland/scene.json",
+      "bytes": 5813015,
+      "sha256": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107"
+    },
+    {
+      "path": "public/assets/original-scenes/woodland/textures/woodenshed.png",
+      "bytes": 255367,
+      "sha256": "b5b0bb30474b7aedbc002ad2219ddb786de4b507b7247cc5916e7cd373da71f6"
+    },
+    {
+      "path": "docs/research-evidence/2026-09-30/woodland-video-11s.jpg",
+      "bytes": 38154,
+      "sha256": "6d234e9b3407d7dc3d57fe70e1cfcc5e82795f15ccd95a3d1260213041f4f3ce"
+    }
+  ],
+  "adjacentExteriorReference": {
+    "path": "docs/research-evidence/2026-09-30/woodland-video-10s.jpg",
+    "bytes": 40296,
+    "sha256": "178f6562bc661b262f441aafb19259ecb78ef36dddbdfb7af44cb55982a85360"
+  },
+  "referenceSize": [
+    1280,
+    574
+  ],
+  "historicalCounts": {
+    "atlasDescriptors": 4311,
+    "referenceDescriptors": 3453,
+    "reciprocalRatioMatches": 155,
+    "globallyUniqueUvLandmarks": 0,
+    "distinctSourceLocationMultiplicityHistogram": {
+      "2": 1,
+      "4": 9,
+      "6": 89,
+      "8": 56
+    }
+  },
+  "semanticAnnotationStatus": "Retrospective exploratory image-only regions; not fresh blind validation. No camera/residual determines a region boundary or face assignment.",
+  "regions": [
+    {
+      "name": "visible-back-wall",
+      "rectanglePixels": [
+        235,
+        90,
+        710,
+        370
+      ],
+      "descriptorMatchIndices": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        23,
+        24,
+        25,
+        27,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        78,
+        79,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        116,
+        117,
+        118,
+        120,
+        121,
+        123,
+        125,
+        126,
+        128,
+        129,
+        130,
+        131,
+        133,
+        135,
+        136,
+        137,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        147,
+        149,
+        150
+      ],
+      "trainingCount": 79,
+      "heldoutCount": 47,
+      "trainingCompatibleSourcePlanes": [
+        {
+          "planeId": 8,
+          "normal": [
+            0.0,
+            0.9999999999815599,
+            -6.072926740654508e-06
+          ],
+          "offset": 8733.853056903861,
+          "faces": [
+            8,
+            33,
+            108,
+            144
+          ],
+          "localBounds": [
+            [
+              -1352.16796875,
+              -1068.3106689453125
+            ],
+            [
+              8733.8583984375,
+              8733.859375
+            ],
+            [
+              872.546875,
+              1040.3443603515625
+            ]
+          ]
+        },
+        {
+          "planeId": 10,
+          "normal": [
+            0.9925018847317595,
+            -0.1222293287386669,
+            -5.79913829511061e-09
+          ],
+          "offset": 121.84169159932777,
+          "faces": [
+            10,
+            35,
+            114,
+            140
+          ],
+          "localBounds": [
+            [
+              103.47510528564453,
+              138.43292236328125
+            ],
+            [
+              -156.61097717285156,
+              127.24642181396484
+            ],
+            [
+              -1.3983123302459717,
+              166.399169921875
+            ]
+          ]
+        },
+        {
+          "planeId": 12,
+          "normal": [
+            3.4403289986417827e-06,
+            0.9999999999940821,
+            -0.0
+          ],
+          "offset": 8977.1613636692,
+          "faces": [
+            12,
+            50,
+            111,
+            130
+          ],
+          "localBounds": [
+            [
+              -1352.16796875,
+              -1068.3106689453125
+            ],
+            [
+              8977.1650390625,
+              8977.166015625
+            ],
+            [
+              872.546875,
+              1040.3443603515625
+            ]
+          ]
+        },
+        {
+          "planeId": 14,
+          "normal": [
+            0.9924283019084919,
+            -0.12282534580055979,
+            -1.1654832335128439e-08
+          ],
+          "offset": -120.53970215941796,
+          "faces": [
+            14,
+            48,
+            117,
+            142
+          ],
+          "localBounds": [
+            [
+              -137.0346221923828,
+              -102.07679748535156
+            ],
+            [
+              -125.84810638427734,
+              156.61099243164062
+            ],
+            [
+              -1.3983123302459717,
+              166.399169921875
+            ]
+          ]
+        },
+        {
+          "planeId": 25,
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "offset": -1352.16796875,
+          "faces": [
+            32,
+            51,
+            74,
+            109,
+            129
+          ],
+          "localBounds": [
+            [
+              -1352.16796875,
+              -1352.16796875
+            ],
+            [
+              8733.8583984375,
+              8977.166015625
+            ],
+            [
+              872.546875,
+              1110.260009765625
+            ]
+          ]
+        },
+        {
+          "planeId": 26,
+          "normal": [
+            0.1268733454129872,
+            0.9919189252271159,
+            0.0
+          ],
+          "offset": -142.2171593815125,
+          "faces": [
+            34,
+            49,
+            115,
+            141
+          ],
+          "localBounds": [
+            [
+              -137.0346221923828,
+              103.47511291503906
+            ],
+            [
+              -156.61097717285156,
+              -125.84810638427734
+            ],
+            [
+              -1.3983123302459717,
+              166.39915466308594
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "visible-left-wall",
+      "rectanglePixels": [
+        0,
+        110,
+        195,
+        455
+      ],
+      "descriptorMatchIndices": [
+        115,
+        119,
+        124,
+        127,
+        132,
+        134,
+        138,
+        146,
+        151,
+        152
+      ],
+      "trainingCount": 4,
+      "heldoutCount": 6,
+      "trainingCompatibleSourcePlanes": [
+        {
+          "planeId": 8,
+          "normal": [
+            0.0,
+            0.9999999999815599,
+            -6.072926740654508e-06
+          ],
+          "offset": 8733.853056903861,
+          "faces": [
+            8,
+            33,
+            108,
+            144
+          ],
+          "localBounds": [
+            [
+              -1352.16796875,
+              -1068.3106689453125
+            ],
+            [
+              8733.8583984375,
+              8733.859375
+            ],
+            [
+              872.546875,
+              1040.3443603515625
+            ]
+          ]
+        },
+        {
+          "planeId": 10,
+          "normal": [
+            0.9925018847317595,
+            -0.1222293287386669,
+            -5.79913829511061e-09
+          ],
+          "offset": 121.84169159932777,
+          "faces": [
+            10,
+            35,
+            114,
+            140
+          ],
+          "localBounds": [
+            [
+              103.47510528564453,
+              138.43292236328125
+            ],
+            [
+              -156.61097717285156,
+              127.24642181396484
+            ],
+            [
+              -1.3983123302459717,
+              166.399169921875
+            ]
+          ]
+        },
+        {
+          "planeId": 12,
+          "normal": [
+            3.4403289986417827e-06,
+            0.9999999999940821,
+            -0.0
+          ],
+          "offset": 8977.1613636692,
+          "faces": [
+            12,
+            50,
+            111,
+            130
+          ],
+          "localBounds": [
+            [
+              -1352.16796875,
+              -1068.3106689453125
+            ],
+            [
+              8977.1650390625,
+              8977.166015625
+            ],
+            [
+              872.546875,
+              1040.3443603515625
+            ]
+          ]
+        },
+        {
+          "planeId": 14,
+          "normal": [
+            0.9924283019084919,
+            -0.12282534580055979,
+            -1.1654832335128439e-08
+          ],
+          "offset": -120.53970215941796,
+          "faces": [
+            14,
+            48,
+            117,
+            142
+          ],
+          "localBounds": [
+            [
+              -137.0346221923828,
+              -102.07679748535156
+            ],
+            [
+              -125.84810638427734,
+              156.61099243164062
+            ],
+            [
+              -1.3983123302459717,
+              166.399169921875
+            ]
+          ]
+        },
+        {
+          "planeId": 25,
+          "normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "offset": -1352.16796875,
+          "faces": [
+            32,
+            51,
+            74,
+            109,
+            129
+          ],
+          "localBounds": [
+            [
+              -1352.16796875,
+              -1352.16796875
+            ],
+            [
+              8733.8583984375,
+              8977.166015625
+            ],
+            [
+              872.546875,
+              1110.260009765625
+            ]
+          ]
+        },
+        {
+          "planeId": 26,
+          "normal": [
+            0.1268733454129872,
+            0.9919189252271159,
+            0.0
+          ],
+          "offset": -142.2171593815125,
+          "faces": [
+            34,
+            49,
+            115,
+            141
+          ],
+          "localBounds": [
+            [
+              -137.0346221923828,
+              103.47511291503906
+            ],
+            [
+              -156.61097717285156,
+              -125.84810638427734
+            ],
+            [
+              -1.3983123302459717,
+              166.39915466308594
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "visible-right-wall",
+      "rectanglePixels": [
+        775,
+        110,
+        1100,
+        320
+      ],
+      "descriptorMatchIndices": [
+        1
+      ],
+      "trainingCount": 1,
+      "heldoutCount": 0,
+      "trainingCompatibleSourcePlanes": [
+        {
+          "planeId": 8,
+          "normal": [
+            0.0,
+            0.9999999999815599,
+            -6.072926740654508e-06
+          ],
+          "offset": 8733.853056903861,
+          "faces": [
+            8,
+            33,
+            108,
+            144
+          ],
+          "localBounds": [
+            [
+              -1352.16796875,
+              -1068.3106689453125
+            ],
+            [
+              8733.8583984375,
+              8733.859375
+            ],
+            [
+              872.546875,
+              1040.3443603515625
+            ]
+          ]
+        },
+        {
+          "planeId": 10,
+          "normal": [
+            0.9925018847317595,
+            -0.1222293287386669,
+            -5.79913829511061e-09
+          ],
+          "offset": 121.84169159932777,
+          "faces": [
+            10,
+            35,
+            114,
+            140
+          ],
+          "localBounds": [
+            [
+              103.47510528564453,
+              138.43292236328125
+            ],
+            [
+              -156.61097717285156,
+              127.24642181396484
+            ],
+            [
+              -1.3983123302459717,
+              166.399169921875
+            ]
+          ]
+        },
+        {
+          "planeId": 12,
+          "normal": [
+            3.4403289986417827e-06,
+            0.9999999999940821,
+            -0.0
+          ],
+          "offset": 8977.1613636692,
+          "faces": [
+            12,
+            50,
+            111,
+            130
+          ],
+          "localBounds": [
+            [
+              -1352.16796875,
+              -1068.3106689453125
+            ],
+            [
+              8977.1650390625,
+              8977.166015625
+            ],
+            [
+              872.546875,
+              1040.3443603515625
+            ]
+          ]
+        },
+        {
+          "planeId": 14,
+          "normal": [
+            0.9924283019084919,
+            -0.12282534580055979,
+            -1.1654832335128439e-08
+          ],
+          "offset": -120.53970215941796,
+          "faces": [
+            14,
+            48,
+            117,
+            142
+          ],
+          "localBounds": [
+            [
+              -137.0346221923828,
+              -102.07679748535156
+            ],
+            [
+              -125.84810638427734,
+              156.61099243164062
+            ],
+            [
+              -1.3983123302459717,
+              166.399169921875
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "unassignedDescriptorMatchIndices": [
+    0,
+    3,
+    21,
+    26,
+    28,
+    37,
+    76,
+    77,
+    80,
+    81,
+    93,
+    94,
+    107,
+    108,
+    122,
+    148,
+    153,
+    154
+  ],
+  "allHistoricalMatchesRetained": true,
+  "atlasEvidence": {
+    "dimensions": [
+      512,
+      512
+    ],
+    "alphaRange": [
+      255,
+      255
+    ],
+    "brightPhotographicRoofSpot": {
+      "atlasPixel": [
+        380,
+        338
+      ],
+      "rgba": [
+        252,
+        255,
+        255,
+        255
+      ],
+      "interpretation": "Opaque baked image feature; it cannot alone identify a geometric roof hole or native illumination."
+    }
+  },
+  "historicalDiagnosticFit": {
+    "fitRmsPixels": 0.9096833329126744,
+    "heldoutRmsPixels": 171.71270346042527,
+    "heldoutMaxPixels": 637.2301181855628,
+    "status": "diagnostic-fit-not-native-camera-proof",
+    "retainedUnchanged": true
+  },
+  "conclusion": "The visible back-wall patch retains six compatible source planes across two spatially separate shed components. Image-only wall selection does not supply unique 3D correspondences. Historical all-heldout candidate remains rejected; no registered interior camera is established.",
+  "nextEvidence": [
+    "Recover unique exterior/doorway/terrain correspondences from the preserved10s approach before assigning the11s interior to a source component.",
+    "Use distinct source wall boundaries plus independently identified noncoplanar geometry, or a separate unused interior frame, to check a proposed pose.",
+    "Keep texture-photograph rail/corner/roof-spot identity separate from actual mesh geometry and native lighting."
+  ],
+  "limits": [
+    "Repeated atlas pixels can map to multiple walls and two separate source components.",
+    "Only retained descriptor matches are audited; no new descriptor matching or geometric camera fit ran.",
+    "A training homography establishes neither semantic room identity nor visibility.",
+    "Posthoc semantic regions cannot convert the failed historical heldout camera check into blind validation.",
+    "Source UV convention, FOV/crop/raster, native shader and native lighting remain qualified.",
+    "V12 and V14 remain open at their full scope."
+  ]
+}

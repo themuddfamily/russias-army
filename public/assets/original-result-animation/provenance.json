@@ -1,0 +1,164 @@
+{
+  "executed": false,
+  "sources": [
+    {
+      "edition": "barrack",
+      "castId": 4527,
+      "resourceId": 5118,
+      "path": "docs/research-evidence/2026-09-30/director-extraction/barrack/05118-XMED.bin",
+      "resourceSha256": "291544ea5a5317f12b6eb4f5f1e8d7dbf792d0760dee23611265a5649316452c",
+      "swfSha256": "d38b82cedf41e1e997e2fea7889db1130ccddb8fd6282a215e68703c31e51c13",
+      "swfOffset": 12,
+      "stageBoundsTwips": [
+        0,
+        20480,
+        0,
+        20480
+      ],
+      "frames": 61,
+      "frameRate": 20.0,
+      "opaqueRootActions": [
+        {
+          "tag": 12,
+          "bytes": 30,
+          "sha256": "8a75c0f3622cd77725256b40e224702173dcfea8033c100931eeae0573118134"
+        },
+        {
+          "tag": 12,
+          "bytes": 2,
+          "sha256": "0a6361b3a802f55cd5ae06101c88a1e216320fe11cc0cfe1d791eed08a1200fd"
+        },
+        {
+          "tag": 12,
+          "bytes": 2,
+          "sha256": "0a6361b3a802f55cd5ae06101c88a1e216320fe11cc0cfe1d791eed08a1200fd"
+        },
+        {
+          "tag": 12,
+          "bytes": 2,
+          "sha256": "0a6361b3a802f55cd5ae06101c88a1e216320fe11cc0cfe1d791eed08a1200fd"
+        },
+        {
+          "tag": 12,
+          "bytes": 2,
+          "sha256": "0a6361b3a802f55cd5ae06101c88a1e216320fe11cc0cfe1d791eed08a1200fd"
+        },
+        {
+          "tag": 12,
+          "bytes": 2,
+          "sha256": "0a6361b3a802f55cd5ae06101c88a1e216320fe11cc0cfe1d791eed08a1200fd"
+        }
+      ],
+      "bitmap15": {
+        "byteEquivalentDefineBitsPayload": true,
+        "path": "docs/research-evidence/2026-09-30/director-extraction/barrack/media/original-ui-character-15.jpg",
+        "sha256": "2acbc90faf9ad8aa1f31703ae664470835a77be68ccb22942f9f2dea26aedf23"
+      }
+    },
+    {
+      "edition": "woodland",
+      "castId": 5760,
+      "resourceId": 6525,
+      "path": "docs/research-evidence/2026-09-30/director-extraction/woodland/06525-XMED.bin",
+      "resourceSha256": "d61f9ffbda4cbd5dbe41037bf72c53c510907b6230d86f18c13c3d3a0ad4ba67",
+      "swfSha256": "2aa8814f4c1cb4f1e2f6b62b42e284d7cdf2bb65cb4e72bee655475a7e501f39",
+      "swfOffset": 12,
+      "stageBoundsTwips": [
+        0,
+        20480,
+        0,
+        20480
+      ],
+      "frames": 61,
+      "frameRate": 20.0,
+      "opaqueRootActions": [
+        {
+          "tag": 12,
+          "bytes": 30,
+          "sha256": "8a75c0f3622cd77725256b40e224702173dcfea8033c100931eeae0573118134"
+        },
+        {
+          "tag": 12,
+          "bytes": 2,
+          "sha256": "0a6361b3a802f55cd5ae06101c88a1e216320fe11cc0cfe1d791eed08a1200fd"
+        },
+        {
+          "tag": 12,
+          "bytes": 2,
+          "sha256": "0a6361b3a802f55cd5ae06101c88a1e216320fe11cc0cfe1d791eed08a1200fd"
+        },
+        {
+          "tag": 12,
+          "bytes": 2,
+          "sha256": "0a6361b3a802f55cd5ae06101c88a1e216320fe11cc0cfe1d791eed08a1200fd"
+        },
+        {
+          "tag": 12,
+          "bytes": 2,
+          "sha256": "0a6361b3a802f55cd5ae06101c88a1e216320fe11cc0cfe1d791eed08a1200fd"
+        },
+        {
+          "tag": 12,
+          "bytes": 2,
+          "sha256": "0a6361b3a802f55cd5ae06101c88a1e216320fe11cc0cfe1d791eed08a1200fd"
+        }
+      ],
+      "bitmap15": {
+        "byteEquivalentDefineBitsPayload": true,
+        "path": "docs/research-evidence/2026-09-30/director-extraction/woodland/media/original-ui-character-15.jpg",
+        "sha256": "d538c30ee98267129fdfa18b26e6d2971bcf327fe82cf8a221fdc5ea0e99d7ac"
+      }
+    }
+  ],
+  "decoder": {
+    "file": "scripts/research/export-original-result-animation.py",
+    "sha256": "0c64ff839346c5acad080f0743aa65c4ab910528339a2ce3b585fea31a22267d"
+  },
+  "helper": {
+    "file": "scripts/research/extract-original-result-ui.py",
+    "sha256": "f2d2869b0f9f7778499e550929cc49a55ed72e7781d7ebcc525d4dcd08074d50"
+  },
+  "outputs": {
+    "scroll-content-39.svg": {
+      "file": "public/assets/original-result-animation/scroll-content-39.svg",
+      "sha256": "4214d4c308bbeacf9d0c0afe9eef9d375d1a580bd1b52cc0831609fb2012127f",
+      "bytes": 118909
+    },
+    "scroll-content-83.svg": {
+      "file": "public/assets/original-result-animation/scroll-content-83.svg",
+      "sha256": "b92ff11dea8587f6758fd44ca7bcaee4f1030038801fa87a0d4e058148350062",
+      "bytes": 56696
+    },
+    "timelineData": {
+      "file": "src/originalResultTimelineData.ts",
+      "sha256": "69d654007bcdd30ca0618918b31fd2e50771dc8c6c1caaaf06b878edc5274b08",
+      "bytes": 16540
+    }
+  },
+  "scroll": {
+    "frames": 800,
+    "fps": 20,
+    "rootDepth": 16,
+    "viewport": [
+      0,
+      560,
+      800,
+      30
+    ],
+    "first": [
+      83,
+      801.0,
+      0.05
+    ],
+    "last": [
+      39,
+      -1589.0,
+      0.05
+    ]
+  },
+  "limits": [
+    "Native phase and child reentry semantics remain unexecuted; loop behavior is separately corroborated by passive actions/docs audit.",
+    "Raw sprite ratios do not select nested frames. All nested scroll glyph sprites have one frame.",
+    "SVG glyph raster, viewport stretching and browser20fps wall clock remain adapters."
+  ]
+}

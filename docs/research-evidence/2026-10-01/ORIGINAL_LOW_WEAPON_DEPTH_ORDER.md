@@ -1,0 +1,17 @@
+# Low-quality weapon and world depth ordering
+
+The independently fitted Woodland 16-second camera exposed a real reconstruction defect: showing the source rifle on low quality made distant transparent foliage appear through the opaque stonebarn roof. The same high-quality camera did not show it. This is a correction to the copy's renderer, not proof of native Director parity.
+
+The low-quality path intentionally uses one scene/pass because of previously observed SwiftShader framebuffer corruption with a second scene. Its depth-reset mesh and weapons were in Three's opaque draw queue, with render orders 999 and 1000. Three completes that queue before drawing world transparency, regardless of render order. Clearing depth there erased the roof's obstruction before trees rendered.
+
+The reset and camera-local gun materials now use the transparent queue at orders 999 and 1000, after ordinary world transparency. Previously opaque gun materials use NoBlending and retain depth writes, preserving their opaque pixels. Materials are cloned for the camera; world drops retain original materials and render order zero. Source geometry, textures, weapon transforms, recoil and movement values are unchanged. High-quality rendering keeps its separate world and weapon passes.
+
+The registered diagnostic camera now shares its recording aspect with the view camera, including resize and review-reset handling. The optional rifle capture uses the recovered rest position [3,-10,2] and source FOV50. Historical movement-bob phase remains unknown; this rest-pose image cannot establish exact moving-rifle framing.
+
+The [standalone comparison](../../../artifacts/fidelity-review/2026-10-01/current/woodland-16s-rifle-depth-order-comparison.svg) contains the original recording, failed low-quality capture and corrected capture. The regression checks an upper 1280×280 region, entirely above the rifle in this fixed camera: with the weapon shown and hidden, the PNG bytes are identical. Both images are retained. The test also preserves CPU/browser projection equality, source rest pose/FOV assertions and browser-error checks for low and high quality.
+
+The [planar projection audit](ORIGINAL_PLANAR_FLOOR_PROJECTION_AUDIT.md) and its independent hash/numeric review establish no justified numerical terrain projection replacement. The [shed training-plane audit](ORIGINAL_SHED_TRAINING_PLANE_ASSIGNMENT.md) narrows a wall hypothesis without a prior camera but preserves every failed held-out match. Neither warrants closing terrain/interior/camera requirements.
+
+Validation and current hashes are recorded in [the validation manifest](../../../artifacts/fidelity-review/2026-10-01/current/source-rifle-depth-order-validation.json). Acceptance remains 27/40; all thirteen open requirements remain in scope.
+
+The production build, strict affected browser-test types, all 1,395 client/shared unit tests, both registered low/high camera cases and both all-six low/high weapon cases passed. The latter also exercise source reload, recoil/flash and scope-entry presentation. Server code was unchanged and its suite was not rerun. The regression's default fixture now selects this 16-second rifle comparison; alternate cameras and weapon visibility remain configurable. The old gun/prior environment captures differ at 39,134 pixels in the upper region, but that cross-capture number is diagnostic only; the new same-pose show/hide equality is the direct regression evidence.

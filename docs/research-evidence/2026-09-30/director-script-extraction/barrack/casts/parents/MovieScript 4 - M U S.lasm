@@ -1,0 +1,1136 @@
+global players, mus, nom, goody, hspots, gmusmode, gink, gmygroup, ggroupcount, gmaxusers, groomcount, mla, goldtime, gsubmitstamps, goldnom
+
+on sconnect me
+  [  0] pushcons 0 .............................. <"rooms">
+  [  2] pusharglist 1 ........................... <"rooms">
+  [  4] extcall 47 .............................. <member("rooms")>
+  [  6] pushcons 1 .............................. <EMPTY>
+  [  8] setobjprop 184 .......................... member("rooms").text = EMPTY
+  [ 10] pusharglist 0 ........................... <[]>
+  [ 12] pushlist ................................ <[]>
+  [ 13] setglobal 185 ........................... players = []
+  [ 15] pushcons 2 .............................. <"@lobby">
+  [ 17] setglobal 156 ........................... gmygroup = "@lobby"
+  [ 19] pushzero ................................ <0>
+  [ 20] setglobal 186 ........................... gink = 0
+  [ 22] pushint8 8 .............................. <8>
+  [ 24] setglobal 155 ........................... gmaxusers = 8
+  [ 26] pushcons 3 .............................. <"MultiUser">
+  [ 28] pusharglist 1 ........................... <"MultiUser">
+  [ 30] extcall 188 ............................. <xtra("MultiUser")>
+  [ 32] pusharglist 1 ........................... <xtra("MultiUser")>
+  [ 34] extcall 187 ............................. <new(xtra("MultiUser"))>
+  [ 36] setglobal 46 ............................ mus = new(xtra("MultiUser"))
+  [ 38] pushcons 4 .............................. <"77.92.78.30">
+  [ 40] setglobal 189 ........................... mla = "77.92.78.30"
+  [ 42] pushcons 5 .............................. <"tatas">
+  [ 44] getglobal 18 ............................ <nom>
+  [ 46] pusharglist 1 ........................... <nom>
+  [ 48] localcall 1 ............................. <reversey(nom)>
+  [ 50] joinstr ................................. <"tatas" & reversey(nom)>
+  [ 51] setglobal 190 ........................... goldnom = "tatas" & reversey(nom)
+  [ 53] getglobal 46 ............................ <mus>
+  [ 55] pushsymb 191 ............................ <#logonInfo>
+  [ 57] pushsymb 192 ............................ <#userID>
+  [ 59] getglobal 18 ............................ <nom>
+  [ 61] pushsymb 193 ............................ <#password>
+  [ 63] pushcons 6 .............................. <"password">
+  [ 65] pushsymb 194 ............................ <#movieid>
+  [ 67] pushcons 7 .............................. <"russiasArmy">
+  [ 69] pusharglist 6 ........................... <[#userID: nom, #password: "password", #movieid: "russiasArmy"]>
+  [ 71] pushproplist ............................ <[#userID: nom, #password: "password", #movieid: "russiasArmy"]>
+  [ 72] pushsymb 195 ............................ <#remoteAddress>
+  [ 74] getglobal 189 ........................... <mla>
+  [ 76] pushsymb 196 ............................ <#remoteTCPPort>
+  [ 78] pushint16 1626 .......................... <1626>
+  [ 81] pushsymb 197 ............................ <#encryptionKey>
+  [ 83] pushcons 8 .............................. <"kwe123eefw3434mwe">
+  [ 85] pusharglist 8 ........................... <[#logonInfo: [#userID: nom, #password: "password", #movieid: "russiasArmy"], #remoteAddress: mla, #remoteTCPPort: 1626, #encryptionKey: "kwe123eefw3434mwe"]>
+  [ 87] pushproplist ............................ <[#logonInfo: [#userID: nom, #password: "password", #movieid: "russiasArmy"], #remoteAddress: mla, #remoteTCPPort: 1626, #encryptionKey: "kwe123eefw3434mwe"]>
+  [ 88] pusharglistnoret 2 ...................... <mus, [#logonInfo: [#userID: nom, #password: "password", #movieid: "russiasArmy"], #remoteAddress: mla, #remoteTCPPort: 1626, #encryptionKey: "kwe123eefw3434mwe"]>
+  [ 90] objcall 198 ............................. mus.connectToNetServer([#logonInfo: [#userID: nom, #password: "password", #movieid: "russiasArmy"], #remoteAddress: mla, #remoteTCPPort: 1626, #encryptionKey: "kwe123eefw3434mwe"])
+  [ 92] getglobal 46 ............................ <mus>
+  [ 94] pushsymb 176 ............................ <#incoming>
+  [ 96] getparam 0 .............................. <me>
+  [ 98] pusharglistnoret 3 ...................... <mus, #incoming, me>
+  [100] objcall 199 ............................. mus.setNetMessageHandler(#incoming, me)
+  [102] pushcons 9 .............................. <"start">
+  [104] setglobal 143 ........................... gmusmode = "start"
+  [106] ret
+end
+
+on reversey nstring
+  [  0] pushcons 1 .............................. <EMPTY>
+  [  2] setlocal 0 .............................. vstr = EMPTY
+  [  4] pushint8 1 .............................. <1>
+  [  6] setlocal 1
+  [  8] getlocal 1
+  [ 10] getparam 0 .............................. <nstring>
+  [ 12] getobjprop 134 .......................... <nstring.length>
+  [ 14] lteq
+  [ 15] jmpifz [ 52] ............................ repeat with i = 1 to nstring.length
+  [ 18] getlocal 0 .............................. <vstr>
+  [ 20] getparam 0 .............................. <nstring>
+  [ 22] getobjprop 134 .......................... <nstring.length>
+  [ 24] getlocal 1 .............................. <i>
+  [ 26] sub ..................................... <nstring.length - i>
+  [ 27] pushint8 1 .............................. <1>
+  [ 29] add ..................................... <nstring.length - i + 1>
+  [ 30] pushzero ................................ <0>
+  [ 31] pushzero ................................ <0>
+  [ 32] pushzero ................................ <0>
+  [ 33] pushzero ................................ <0>
+  [ 34] pushzero ................................ <0>
+  [ 35] pushzero ................................ <0>
+  [ 36] pushzero ................................ <0>
+  [ 37] getparam 0 .............................. <nstring>
+  [ 39] getchunk ................................ <char (nstring.length - i + 1) of nstring>
+  [ 40] joinstr ................................. <vstr & char (nstring.length - i + 1) of nstring>
+  [ 41] setlocal 0 .............................. vstr = vstr & char (nstring.length - i + 1) of nstring
+  [ 43] pushint8 1
+  [ 45] getlocal 1
+  [ 47] add
+  [ 48] setlocal 1
+  [ 50] endrepeat [  8]
+  [ 52] getlocal 0 .............................. <vstr>
+  [ 54] pusharglistnoret 1 ...................... <vstr>
+  [ 56] extcall 37 .............................. return vstr
+  [ 58] ret
+end
+
+on setflash var, val
+  [  0] pushint8 1 .............................. <1>
+  [  2] pusharglist 1 ........................... <1>
+  [  4] extcall 141 ............................. <sprite(1)>
+  [  6] getparam 0 .............................. <var>
+  [  8] getparam 1 .............................. <val>
+  [ 10] pusharglistnoret 3 ...................... <sprite(1), var, val>
+  [ 12] objcall 202 ............................. sprite(1).setVariable(var, val)
+  [ 14] ret
+end
+
+on getflash var
+  [  0] pushint8 1 .............................. <1>
+  [  2] pusharglist 1 ........................... <1>
+  [  4] extcall 141 ............................. <sprite(1)>
+  [  6] getparam 0 .............................. <var>
+  [  8] pusharglist 2 ........................... <sprite(1), var>
+  [ 10] extcall 205 ............................. <getVariable(sprite(1), var)>
+  [ 12] setlocal 0 .............................. flv = getVariable(sprite(1), var)
+  [ 14] getlocal 0 .............................. <flv>
+  [ 16] pusharglistnoret 1 ...................... <flv>
+  [ 18] extcall 37 .............................. return flv
+  [ 20] ret
+end
+
+on submitmus what
+  [  0] getglobal 190 ........................... <goldnom>
+  [  2] pushcons 5 .............................. <"tatas">
+  [  4] getglobal 18 ............................ <nom>
+  [  6] pusharglist 1 ........................... <nom>
+  [  8] localcall 1 ............................. <reversey(nom)>
+  [ 10] joinstr ................................. <"tatas" & reversey(nom)>
+  [ 11] eq ...................................... <goldnom = ("tatas" & reversey(nom))>
+  [ 12] getglobal 18 ............................ <nom>
+  [ 14] pushcons 10 ............................. <" ">
+  [ 16] containsstr ............................. <nom contains " ">
+  [ 17] not ..................................... <not (nom contains " ")>
+  [ 18] and ..................................... <(goldnom = ("tatas" & reversey(nom))) and not (nom contains " ")>
+  [ 19] jmpifz [ 56] ............................ if (goldnom = ("tatas" & reversey(nom))) and not (nom contains " ") then / else
+  [ 22] pushzero ................................ <0>
+  [ 23] pushzero ................................ <0>
+  [ 24] set 0 ................................... set the floatPrecision to 0
+  [ 26] getglobal 46 ............................ <mus>
+  [ 28] pushsymb 207 ............................ <#recipients>
+  [ 30] getglobal 156 ........................... <gmygroup>
+  [ 32] pushsymb 208 ............................ <#subject>
+  [ 34] getparam 0 .............................. <what>
+  [ 36] getobjprop 208 .......................... <what.subject>
+  [ 38] pushsymb 209 ............................ <#content>
+  [ 40] getparam 0 .............................. <what>
+  [ 42] getobjprop 209 .......................... <what.content>
+  [ 44] pusharglist 6 ........................... <[#recipients: gmygroup, #subject: what.subject, #content: what.content]>
+  [ 46] pushproplist ............................ <[#recipients: gmygroup, #subject: what.subject, #content: what.content]>
+  [ 47] pusharglist 2 ........................... <mus, [#recipients: gmygroup, #subject: what.subject, #content: what.content]>
+  [ 49] objcall 166 ............................. <mus.sendNetMessage([#recipients: gmygroup, #subject: what.subject, #content: what.content])>
+  [ 51] setlocal 0 .............................. Msg = mus.sendNetMessage([#recipients: gmygroup, #subject: what.subject, #content: what.content])
+  [ 53] jmp [ 64]
+  [ 56] pushcons 11 ............................. <"http://www.gamevial.com">
+  [ 58] pushcons 12 ............................. <"_parent">
+  [ 60] pusharglistnoret 2 ...................... <"http://www.gamevial.com", "_parent">
+  [ 62] extcall 13 .............................. gotoNetPage("http://www.gamevial.com", "_parent")
+  [ 64] ret
+end
+
+on incoming me
+  [  0] getglobal 46 ............................ <mus>
+  [  2] pusharglist 1 ........................... <mus>
+  [  4] extcall 100 ............................. <voidp(mus)>
+  [  6] not ..................................... <not voidp(mus)>
+  [  7] jmpifz [ 41] ............................ if not voidp(mus) then
+  [ 10] getglobal 46 ............................ <mus>
+  [ 12] pusharglist 1 ........................... <mus>
+  [ 14] objcall 211 ............................. <mus.getNetMessage()>
+  [ 16] setlocal 0 .............................. Msg = mus.getNetMessage()
+  [ 18] getglobal 143 ........................... <gmusmode>
+  [ 20] pushcons 13 ............................. <"game">
+  [ 22] eq ...................................... <gmusmode = "game">
+  [ 23] jmpifz [ 35] ............................ if gmusmode = "game" then / else
+  [ 26] getlocal 0 .............................. <Msg>
+  [ 28] pusharglistnoret 1 ...................... <Msg>
+  [ 30] localcall 7 ............................. gamein(Msg)
+  [ 32] jmp [ 41]
+  [ 35] getlocal 0 .............................. <Msg>
+  [ 37] pusharglistnoret 1 ...................... <Msg>
+  [ 39] localcall 11 ............................ lobbyin(Msg)
+  [ 41] ret
+end
+
+on getmus
+  [  0] getglobal 46 ............................ <mus>
+  [  2] pusharglist 1 ........................... <mus>
+  [  4] objcall 212 ............................. <mus.getNumberWaitingNetMessages()>
+  [  6] setlocal 0 .............................. err = mus.getNumberWaitingNetMessages()
+  [  8] getlocal 0 .............................. <err>
+  [ 10] pushzero ................................ <0>
+  [ 11] gt ...................................... <err > 0>
+  [ 12] jmpifz [ 23] ............................ if err > 0 then
+  [ 15] getglobal 46 ............................ <mus>
+  [ 17] getlocal 0 .............................. <err>
+  [ 19] pusharglistnoret 2 ...................... <mus, err>
+  [ 21] objcall 213 ............................. mus.checkNetMessages(err)
+  [ 23] ret
+end
+
+on gamein Msg
+  [  0] getglobal 125 ........................... <goody>
+  [  2] pusharglist 1 ........................... <goody>
+  [  4] extcall 100 ............................. <voidp(goody)>
+  [  6] not ..................................... <not voidp(goody)>
+  [  7] jmpifz [526] ............................ if not voidp(goody) then
+  [ 10] getparam 0 .............................. <Msg>
+  [ 12] getobjprop 209 .......................... <Msg.content>
+  [ 14] setlocal 0 .............................. data = Msg.content
+  [ 16] getparam 0 .............................. <Msg>
+  [ 18] getobjprop 215 .......................... <Msg.senderid>
+  [ 20] setlocal 1 .............................. vsend = Msg.senderid
+  [ 22] getlocal 1 .............................. <vsend>
+  [ 24] pusharglist 1 ........................... <vsend>
+  [ 26] localcall 9 ............................. <getplayer(vsend)>
+  [ 28] setlocal 2 .............................. vbad = getplayer(vsend)
+  [ 30] getparam 0 .............................. <Msg>
+  [ 32] getobjprop 208 .......................... <Msg.subject>
+  [ 34] pushcons 14 ............................. <"talk">
+  [ 36] eq ...................................... <Msg.subject = "talk">
+  [ 37] jmpifz [ 61] ............................ if Msg.subject = "talk" then / else
+  [ 40] getlocal 1 .............................. <vsend>
+  [ 42] pushcons 15 ............................. <": ">
+  [ 44] joinstr ................................. <vsend & ": ">
+  [ 45] getlocal 0 .............................. <data>
+  [ 47] joinstr ................................. <vsend & ": " & data>
+  [ 48] setlocal 3 .............................. wri = vsend & ": " & data
+  [ 50] getglobal 125 ........................... <goody>
+  [ 52] getlocal 3 .............................. <wri>
+  [ 54] pusharglistnoret 2 ...................... <goody, wri>
+  [ 56] objcall 216 ............................. goody.feedback(wri)
+  [ 58] jmp [526]
+  [ 61] getlocal 1 .............................. <vsend>
+  [ 63] getglobal 18 ............................ <nom>
+  [ 65] nteq .................................... <vsend <> nom>
+  [ 66] jmpifz [456] ............................ if vsend <> nom then / else
+  [ 69] getparam 0 .............................. <Msg>
+  [ 71] getobjprop 208 .......................... <Msg.subject>
+  [ 73] peek 0 .................................. case Msg.subject of
+  [ 75] pushcons 16 ............................. <"doorz">
+  [ 77] eq
+  [ 78] jmpifz [139] ............................ (case) "doorz":
+  [ 81] getglobal 54 ............................ <hspots>
+  [ 83] peek 0
+  [ 85] pusharglist 1
+  [ 87] extcall 59
+  [ 89] pushint8 1
+  [ 91] peek 0
+  [ 93] peek 2
+  [ 95] lteq
+  [ 96] jmpifz [134] ............................ repeat with door in hspots
+  [ 99] peek 2
+  [101] peek 1
+  [103] pusharglist 2
+  [105] extcall 217
+  [107] setlocal 4
+  [109] getlocal 4 .............................. <door>
+  [111] getobjprop 218 .......................... <door.pmod>
+  [113] pusharglist 1 ........................... <door.pmod>
+  [115] extcall 93 .............................. <string(door.pmod)>
+  [117] getlocal 0 .............................. <data>
+  [119] eq ...................................... <string(door.pmod) = data>
+  [120] jmpifz [129] ............................ if string(door.pmod) = data then
+  [123] getlocal 4 .............................. <door>
+  [125] pusharglistnoret 1 ...................... <door>
+  [127] objcall 219 ............................. door.anplay()
+  [129] pushint8 1
+  [131] add
+  [132] endrepeat [ 91]
+  [134] pop 3
+  [136] jmp [451]
+  [139] peek 0
+  [141] pushcons 17 ............................. <"grenade">
+  [143] eq
+  [144] jmpifz [172] ............................ (case) "grenade":
+  [147] pushcons 18 ............................. <"grenades">
+  [149] pusharglist 1 ........................... <"grenades">
+  [151] extcall 220 ............................. <script("grenades")>
+  [153] getlocal 0 .............................. <data>
+  [155] getobjprop 108 .......................... <data.pos>
+  [157] getlocal 0 .............................. <data>
+  [159] getobjprop 221 .......................... <data.rot>
+  [161] getlocal 1 .............................. <vsend>
+  [163] pusharglist 4 ........................... <script("grenades"), data.pos, data.rot, vsend>
+  [165] objcall 187 ............................. <script("grenades").new(data.pos, data.rot, vsend)>
+  [167] setlocal 5 .............................. arse = script("grenades").new(data.pos, data.rot, vsend)
+  [169] jmp [451]
+  [172] peek 0
+  [174] pushcons 19 ............................. <"rocket">
+  [176] eq
+  [177] jmpifz [205] ............................ (case) "rocket":
+  [180] pushcons 20 ............................. <"rockets">
+  [182] pusharglist 1 ........................... <"rockets">
+  [184] extcall 220 ............................. <script("rockets")>
+  [186] getlocal 0 .............................. <data>
+  [188] getobjprop 108 .......................... <data.pos>
+  [190] getlocal 0 .............................. <data>
+  [192] getobjprop 221 .......................... <data.rot>
+  [194] getlocal 1 .............................. <vsend>
+  [196] pusharglist 4 ........................... <script("rockets"), data.pos, data.rot, vsend>
+  [198] objcall 187 ............................. <script("rockets").new(data.pos, data.rot, vsend)>
+  [200] setlocal 5 .............................. arse = script("rockets").new(data.pos, data.rot, vsend)
+  [202] jmp [451]
+  [205] peek 0
+  [207] pushcons 21 ............................. <"where">
+  [209] eq
+  [210] jmpifz [352] ............................ (case) "where":
+  [213] getlocal 2 .............................. <vbad>
+  [215] pushzero ................................ <0>
+  [216] nteq .................................... <vbad <> 0>
+  [217] jmpifz [231] ............................ if vbad <> 0 then / else
+  [220] getlocal 2 .............................. <vbad>
+  [222] getlocal 0 .............................. <data>
+  [224] pusharglistnoret 2 ...................... <vbad, data>
+  [226] objcall 222 ............................. vbad.newstuff(data)
+  [228] jmp [268]
+  [231] pushcons 22 ............................. <"baddies">
+  [233] pusharglist 1 ........................... <"baddies">
+  [235] extcall 220 ............................. <script("baddies")>
+  [237] getparam 0 .............................. <Msg>
+  [239] pusharglist 2 ........................... <script("baddies"), Msg>
+  [241] objcall 187 ............................. <script("baddies").new(Msg)>
+  [243] setlocal 2 .............................. vbad = script("baddies").new(Msg)
+  [245] getglobal 185 ........................... <players>
+  [247] getlocal 2 .............................. <vbad>
+  [249] pusharglistnoret 2 ...................... <players, vbad>
+  [251] objcall 223 ............................. players.add(vbad)
+  [253] getlocal 1 .............................. <vsend>
+  [255] pushcons 23 ............................. <" has entered the arena.">
+  [257] joinstr ................................. <vsend & " has entered the arena.">
+  [258] setlocal 3 .............................. wri = vsend & " has entered the arena."
+  [260] getglobal 125 ........................... <goody>
+  [262] getlocal 3 .............................. <wri>
+  [264] pusharglistnoret 2 ...................... <goody, wri>
+  [266] objcall 216 ............................. goody.feedback(wri)
+  [268] getlocal 0 .............................. <data>
+  [270] pushsymb 224 ............................ <#myhu>
+  [272] pusharglist 2 ........................... <data, #myhu>
+  [274] objcall 225 ............................. <data.getaProp(#myhu)>
+  [276] setlocal 6 .............................. myhurts = data.getaProp(#myhu)
+  [278] getlocal 6 .............................. <myhurts>
+  [280] pushzero ................................ <0>
+  [281] gt ...................................... <myhurts > 0>
+  [282] jmpifz [293] ............................ if myhurts > 0 then
+  [285] getlocal 2 .............................. <vbad>
+  [287] getlocal 6 .............................. <myhurts>
+  [289] pusharglistnoret 2 ...................... <vbad, myhurts>
+  [291] objcall 226 ............................. vbad.hurt(myhurts)
+  [293] getlocal 0 .............................. <data>
+  [295] pushsymb 227 ............................ <#shots>
+  [297] pusharglist 2 ........................... <data, #shots>
+  [299] objcall 225 ............................. <data.getaProp(#shots)>
+  [301] setlocal 7 .............................. shots = data.getaProp(#shots)
+  [303] getlocal 7 .............................. <shots>
+  [305] pushzero ................................ <0>
+  [306] gt ...................................... <shots > 0>
+  [307] jmpifz [316] ............................ if shots > 0 then
+  [310] getlocal 2 .............................. <vbad>
+  [312] getlocal 7 .............................. <shots>
+  [314] setobjprop 228 .......................... vbad.misses = shots
+  [316] getlocal 2 .............................. <vbad>
+  [318] getlocal 0 .............................. <data>
+  [320] getobjprop 229 .......................... <data.wea>
+  [322] setobjprop 230 .......................... vbad.weapon = data.wea
+  [324] getlocal 0 .............................. <data>
+  [326] pushsymb 231 ............................ <#hurts>
+  [328] pusharglist 2 ........................... <data, #hurts>
+  [330] objcall 225 ............................. <data.getaProp(#hurts)>
+  [332] setlocal 8 .............................. hurts = data.getaProp(#hurts)
+  [334] getlocal 8 .............................. <hurts>
+  [336] pushzero ................................ <0>
+  [337] gt ...................................... <hurts > 0>
+  [338] jmpifz [349] ............................ if hurts > 0 then
+  [341] getlocal 8 .............................. <hurts>
+  [343] getlocal 1 .............................. <vsend>
+  [345] pusharglistnoret 2 ...................... <hurts, vsend>
+  [347] localcall 8 ............................. dohurts(hurts, vsend)
+  [349] jmp [451]
+  [352] peek 0
+  [354] pushcons 24 ............................. <"dead">
+  [356] eq
+  [357] jmpifz [422] ............................ (case) "dead":
+  [360] getlocal 2 .............................. <vbad>
+  [362] pushzero ................................ <0>
+  [363] nteq .................................... <vbad <> 0>
+  [364] jmpifz [419] ............................ if vbad <> 0 then
+  [367] getlocal 0 .............................. <data>
+  [369] pushsymb 232 ............................ <#killer>
+  [371] pusharglist 2 ........................... <data, #killer>
+  [373] objcall 225 ............................. <data.getaProp(#killer)>
+  [375] setlocal 9 .............................. vkiller = data.getaProp(#killer)
+  [377] getlocal 2 .............................. <vbad>
+  [379] pushzero ................................ <0>
+  [380] setobjprop 233 .......................... vbad.lives = 0
+  [382] getlocal 9 .............................. <vkiller>
+  [384] getglobal 18 ............................ <nom>
+  [386] eq ...................................... <vkiller = nom>
+  [387] jmpifz [398] ............................ if vkiller = nom then
+  [390] getglobal 125 ........................... <goody>
+  [392] pushint8 30 ............................. <30>
+  [394] pusharglistnoret 2 ...................... <goody, 30>
+  [396] objcall 234 ............................. goody.setscore(30)
+  [398] getlocal 9 .............................. <vkiller>
+  [400] pushcons 25 ............................. <" makes ">
+  [402] joinstr ................................. <vkiller & " makes ">
+  [403] getlocal 1 .............................. <vsend>
+  [405] joinstr ................................. <vkiller & " makes " & vsend>
+  [406] pushcons 26 ............................. <" russian history.">
+  [408] joinstr ................................. <vkiller & " makes " & vsend & " russian history.">
+  [409] setlocal 3 .............................. wri = vkiller & " makes " & vsend & " russian history."
+  [411] getglobal 125 ........................... <goody>
+  [413] getlocal 3 .............................. <wri>
+  [415] pusharglistnoret 2 ...................... <goody, wri>
+  [417] objcall 216 ............................. goody.feedback(wri)
+  [419] jmp [451]
+  [422] peek 0
+  [424] pushcons 27 ............................. <"playernames">
+  [426] eq
+  [427] jmpifz [439] ............................ (case) "playernames":
+  [430] getlocal 0 .............................. <data>
+  [432] getobjprop 235 .......................... <data.groupmembers>
+  [434] setlocal 10 ............................. gsubmitlist = data.groupmembers
+  [436] jmp [451]
+  [439] peek 0
+  [441] pushcons 1 .............................. <EMPTY>
+  [443] eq
+  [444] jmpifz [451] ............................ (case) EMPTY:
+  [447] getparam 0 .............................. <Msg>
+  [449] setlocal 3 .............................. wri = Msg
+  [451] pop 1 ................................... end case
+  [453] jmp [526]
+  [456] getparam 0 .............................. <Msg>
+  [458] getobjprop 208 .......................... <Msg.subject>
+  [460] pushcons 21 ............................. <"where">
+  [462] eq ...................................... <Msg.subject = "where">
+  [463] jmpifz [526] ............................ if Msg.subject = "where" then
+  [466] getglobal 236 ........................... <gsubmitstamps>
+  [468] pushzero ................................ <0>
+  [469] eq ...................................... <gsubmitstamps = 0>
+  [470] jmpifz [486] ............................ if gsubmitstamps = 0 then / else
+  [473] getparam 0 .............................. <Msg>
+  [475] getobjprop 238 .......................... <Msg.timeStamp>
+  [477] pusharglist 1 ........................... <Msg.timeStamp>
+  [479] extcall 97 .............................. <integer(Msg.timeStamp)>
+  [481] setglobal 237 ........................... goldtime = integer(Msg.timeStamp)
+  [483] jmp [519]
+  [486] getparam 0 .............................. <Msg>
+  [488] getobjprop 238 .......................... <Msg.timeStamp>
+  [490] pusharglist 1 ........................... <Msg.timeStamp>
+  [492] extcall 97 .............................. <integer(Msg.timeStamp)>
+  [494] getglobal 237 ........................... <goldtime>
+  [496] sub ..................................... <integer(Msg.timeStamp) - goldtime>
+  [497] setlocal 11 ............................. vdtime = integer(Msg.timeStamp) - goldtime
+  [499] getlocal 11 ............................. <vdtime>
+  [501] getglobal 236 ........................... <gsubmitstamps>
+  [503] div ..................................... <vdtime / gsubmitstamps>
+  [504] pushint16 290 ........................... <290>
+  [507] lt ...................................... <(vdtime / gsubmitstamps) < 290>
+  [508] jmpifz [519] ............................ if (vdtime / gsubmitstamps) < 290 then
+  [511] pushcons 11 ............................. <"http://www.gamevial.com">
+  [513] pushcons 12 ............................. <"_parent">
+  [515] pusharglistnoret 2 ...................... <"http://www.gamevial.com", "_parent">
+  [517] extcall 13 .............................. gotoNetPage("http://www.gamevial.com", "_parent")
+  [519] getglobal 236 ........................... <gsubmitstamps>
+  [521] pushint8 1 .............................. <1>
+  [523] add ..................................... <gsubmitstamps + 1>
+  [524] setglobal 236 ........................... gsubmitstamps = gsubmitstamps + 1
+  [526] ret
+end
+
+on dohurts hurts, vnom
+  [  0] getparam 0 .............................. <hurts>
+  [  2] getglobal 125 ........................... <goody>
+  [  4] getobjprop 61 ........................... <goody.name>
+  [  6] pusharglist 2 ........................... <hurts, goody.name>
+  [  8] objcall 225 ............................. <hurts.getaProp(goody.name)>
+  [ 10] setlocal 0 .............................. ooch = hurts.getaProp(goody.name)
+  [ 12] getlocal 0 .............................. <ooch>
+  [ 14] pushzero ................................ <0>
+  [ 15] gt ...................................... <ooch > 0>
+  [ 16] jmpifz [ 29] ............................ if ooch > 0 then
+  [ 19] getglobal 125 ........................... <goody>
+  [ 21] getlocal 0 .............................. <ooch>
+  [ 23] getparam 1 .............................. <vnom>
+  [ 25] pusharglistnoret 3 ...................... <goody, ooch, vnom>
+  [ 27] objcall 226 ............................. goody.hurt(ooch, vnom)
+  [ 29] getglobal 185 ........................... <players>
+  [ 31] peek 0
+  [ 33] pusharglist 1
+  [ 35] extcall 59
+  [ 37] pushint8 1
+  [ 39] peek 0
+  [ 41] peek 2
+  [ 43] lteq
+  [ 44] jmpifz [ 91] ............................ repeat with vbad in players
+  [ 47] peek 2
+  [ 49] peek 1
+  [ 51] pusharglist 2
+  [ 53] extcall 217
+  [ 55] setlocal 1
+  [ 57] getparam 0 .............................. <hurts>
+  [ 59] getlocal 1 .............................. <vbad>
+  [ 61] getobjprop 61 ........................... <vbad.name>
+  [ 63] pusharglist 2 ........................... <hurts, vbad.name>
+  [ 65] objcall 225 ............................. <hurts.getaProp(vbad.name)>
+  [ 67] setlocal 0 .............................. ooch = hurts.getaProp(vbad.name)
+  [ 69] getlocal 0 .............................. <ooch>
+  [ 71] pushzero ................................ <0>
+  [ 72] gt ...................................... <ooch > 0>
+  [ 73] jmpifz [ 86] ............................ if ooch > 0 then
+  [ 76] getlocal 1 .............................. <vbad>
+  [ 78] getlocal 0 .............................. <ooch>
+  [ 80] getparam 1 .............................. <vnom>
+  [ 82] pusharglistnoret 3 ...................... <vbad, ooch, vnom>
+  [ 84] objcall 226 ............................. vbad.hurt(ooch, vnom)
+  [ 86] pushint8 1
+  [ 88] add
+  [ 89] endrepeat [ 39]
+  [ 91] pop 3
+  [ 93] ret
+end
+
+on getplayer vnom
+  [  0] pushzero ................................ <0>
+  [  1] setlocal 0 .............................. player = 0
+  [  3] getparam 0 .............................. <vnom>
+  [  5] getglobal 18 ............................ <nom>
+  [  7] eq ...................................... <vnom = nom>
+  [  8] jmpifz [ 18] ............................ if vnom = nom then / else
+  [ 11] getglobal 125 ........................... <goody>
+  [ 13] setlocal 0 .............................. player = goody
+  [ 15] jmp [ 70]
+  [ 18] pushint8 1 .............................. <1>
+  [ 20] setlocal 1
+  [ 22] getlocal 1
+  [ 24] getglobal 185 ........................... <players>
+  [ 26] getobjprop 59 ........................... <players.count>
+  [ 28] lteq
+  [ 29] jmpifz [ 70] ............................ repeat with i = 1 to players.count
+  [ 32] getparam 0 .............................. <vnom>
+  [ 34] getglobal 185 ........................... <players>
+  [ 36] getlocal 1 .............................. <i>
+  [ 38] pusharglist 2 ........................... <players, i>
+  [ 40] objcall 217 ............................. <players[i]>
+  [ 42] getobjprop 61 ........................... <players[i].name>
+  [ 44] eq ...................................... <vnom = players[i].name>
+  [ 45] jmpifz [ 61] ............................ if vnom = players[i].name then
+  [ 48] getglobal 185 ........................... <players>
+  [ 50] getlocal 1 .............................. <i>
+  [ 52] pusharglist 2 ........................... <players, i>
+  [ 54] objcall 217 ............................. <players[i]>
+  [ 56] setlocal 0 .............................. player = players[i]
+  [ 58] jmp [ 70] ............................... exit repeat
+  [ 61] pushint8 1
+  [ 63] getlocal 1
+  [ 65] add
+  [ 66] setlocal 1
+  [ 68] endrepeat [ 22]
+  [ 70] getlocal 0 .............................. <player>
+  [ 72] pusharglistnoret 1 ...................... <player>
+  [ 74] extcall 37 .............................. return player
+  [ 76] ret
+end
+
+on rotinterp rotfromb, rottob, steps
+  [  0] getparam 2 .............................. <steps>
+  [  2] pusharglist 1 ........................... <steps>
+  [  4] extcall 100 ............................. <voidp(steps)>
+  [  6] jmpifz [ 13] ............................ if voidp(steps) then
+  [  9] pushint8 1 .............................. <1>
+  [ 11] setparam 2 .............................. steps = 1
+  [ 13] getparam 0 .............................. <rotfromb>
+  [ 15] setlocal 0 .............................. rotfrom = rotfromb
+  [ 17] getparam 1 .............................. <rottob>
+  [ 19] setlocal 1 .............................. rotto = rottob
+  [ 21] pushzero ................................ <0>
+  [ 22] pushzero ................................ <0>
+  [ 23] pushzero ................................ <0>
+  [ 24] pusharglist 3 ........................... <0, 0, 0>
+  [ 26] extcall 34 .............................. <vector(0, 0, 0)>
+  [ 28] setlocal 2 .............................. actuallyused = vector(0, 0, 0)
+  [ 30] getlocal 1 .............................. <rotto>
+  [ 32] getobjprop 79 ........................... <rotto.x>
+  [ 34] getlocal 0 .............................. <rotfrom>
+  [ 36] getobjprop 79 ........................... <rotfrom.x>
+  [ 38] sub ..................................... <rotto.x - rotfrom.x>
+  [ 39] setlocal 3 .............................. dx = rotto.x - rotfrom.x
+  [ 41] getlocal 3 .............................. <dx>
+  [ 43] getlocal 3 .............................. <dx>
+  [ 45] mul ..................................... <dx * dx>
+  [ 46] pusharglist 1 ........................... <dx * dx>
+  [ 48] extcall 252 ............................. <sqrt(dx * dx)>
+  [ 50] setlocal 4 .............................. ds = sqrt(dx * dx)
+  [ 52] getlocal 4 .............................. <ds>
+  [ 54] pushint16 180 ........................... <180>
+  [ 57] gt ...................................... <ds > 180>
+  [ 58] jmpifz [100] ............................ if ds > 180 then / else
+  [ 61] getlocal 3 .............................. <dx>
+  [ 63] pushzero ................................ <0>
+  [ 64] gt ...................................... <dx > 0>
+  [ 65] jmpifz [ 84] ............................ if dx > 0 then / else
+  [ 68] getlocal 2 .............................. <actuallyused>
+  [ 70] getlocal 3 .............................. <dx>
+  [ 72] pushint16 360 ........................... <360>
+  [ 75] sub ..................................... <dx - 360>
+  [ 76] getparam 2 .............................. <steps>
+  [ 78] mul ..................................... <(dx - 360) * steps>
+  [ 79] setobjprop 79 ........................... actuallyused.x = (dx - 360) * steps
+  [ 81] jmp [ 97]
+  [ 84] getlocal 2 .............................. <actuallyused>
+  [ 86] getlocal 3 .............................. <dx>
+  [ 88] pushint16 360 ........................... <360>
+  [ 91] add ..................................... <dx + 360>
+  [ 92] getparam 2 .............................. <steps>
+  [ 94] mul ..................................... <(dx + 360) * steps>
+  [ 95] setobjprop 79 ........................... actuallyused.x = (dx + 360) * steps
+  [ 97] jmp [109]
+  [100] getlocal 2 .............................. <actuallyused>
+  [102] getlocal 3 .............................. <dx>
+  [104] getparam 2 .............................. <steps>
+  [106] mul ..................................... <dx * steps>
+  [107] setobjprop 79 ........................... actuallyused.x = dx * steps
+  [109] getlocal 1 .............................. <rotto>
+  [111] getobjprop 81 ........................... <rotto.y>
+  [113] getlocal 0 .............................. <rotfrom>
+  [115] getobjprop 81 ........................... <rotfrom.y>
+  [117] sub ..................................... <rotto.y - rotfrom.y>
+  [118] setlocal 5 .............................. dy = rotto.y - rotfrom.y
+  [120] getlocal 5 .............................. <dy>
+  [122] getlocal 5 .............................. <dy>
+  [124] mul ..................................... <dy * dy>
+  [125] pusharglist 1 ........................... <dy * dy>
+  [127] extcall 252 ............................. <sqrt(dy * dy)>
+  [129] setlocal 4 .............................. ds = sqrt(dy * dy)
+  [131] getlocal 4 .............................. <ds>
+  [133] pushint16 180 ........................... <180>
+  [136] gt ...................................... <ds > 180>
+  [137] jmpifz [179] ............................ if ds > 180 then / else
+  [140] getlocal 5 .............................. <dy>
+  [142] pushzero ................................ <0>
+  [143] gt ...................................... <dy > 0>
+  [144] jmpifz [163] ............................ if dy > 0 then / else
+  [147] getlocal 2 .............................. <actuallyused>
+  [149] getlocal 5 .............................. <dy>
+  [151] pushint16 360 ........................... <360>
+  [154] sub ..................................... <dy - 360>
+  [155] getparam 2 .............................. <steps>
+  [157] mul ..................................... <(dy - 360) * steps>
+  [158] setobjprop 81 ........................... actuallyused.y = (dy - 360) * steps
+  [160] jmp [176]
+  [163] getlocal 2 .............................. <actuallyused>
+  [165] getlocal 5 .............................. <dy>
+  [167] pushint16 360 ........................... <360>
+  [170] add ..................................... <dy + 360>
+  [171] getparam 2 .............................. <steps>
+  [173] mul ..................................... <(dy + 360) * steps>
+  [174] setobjprop 81 ........................... actuallyused.y = (dy + 360) * steps
+  [176] jmp [188]
+  [179] getlocal 2 .............................. <actuallyused>
+  [181] getlocal 5 .............................. <dy>
+  [183] getparam 2 .............................. <steps>
+  [185] mul ..................................... <dy * steps>
+  [186] setobjprop 81 ........................... actuallyused.y = dy * steps
+  [188] getlocal 1 .............................. <rotto>
+  [190] getobjprop 76 ........................... <rotto.z>
+  [192] getlocal 0 .............................. <rotfrom>
+  [194] getobjprop 76 ........................... <rotfrom.z>
+  [196] sub ..................................... <rotto.z - rotfrom.z>
+  [197] setlocal 6 .............................. dz = rotto.z - rotfrom.z
+  [199] getlocal 6 .............................. <dz>
+  [201] getlocal 6 .............................. <dz>
+  [203] mul ..................................... <dz * dz>
+  [204] pusharglist 1 ........................... <dz * dz>
+  [206] extcall 252 ............................. <sqrt(dz * dz)>
+  [208] setlocal 4 .............................. ds = sqrt(dz * dz)
+  [210] getlocal 4 .............................. <ds>
+  [212] pushint16 180 ........................... <180>
+  [215] gt ...................................... <ds > 180>
+  [216] jmpifz [258] ............................ if ds > 180 then / else
+  [219] getlocal 6 .............................. <dz>
+  [221] pushzero ................................ <0>
+  [222] gt ...................................... <dz > 0>
+  [223] jmpifz [242] ............................ if dz > 0 then / else
+  [226] getlocal 2 .............................. <actuallyused>
+  [228] getlocal 6 .............................. <dz>
+  [230] pushint16 360 ........................... <360>
+  [233] sub ..................................... <dz - 360>
+  [234] getparam 2 .............................. <steps>
+  [236] mul ..................................... <(dz - 360) * steps>
+  [237] setobjprop 76 ........................... actuallyused.z = (dz - 360) * steps
+  [239] jmp [255]
+  [242] getlocal 2 .............................. <actuallyused>
+  [244] getlocal 6 .............................. <dz>
+  [246] pushint16 360 ........................... <360>
+  [249] add ..................................... <dz + 360>
+  [250] getparam 2 .............................. <steps>
+  [252] mul ..................................... <(dz + 360) * steps>
+  [253] setobjprop 76 ........................... actuallyused.z = (dz + 360) * steps
+  [255] jmp [267]
+  [258] getlocal 2 .............................. <actuallyused>
+  [260] getlocal 6 .............................. <dz>
+  [262] getparam 2 .............................. <steps>
+  [264] mul ..................................... <dz * steps>
+  [265] setobjprop 76 ........................... actuallyused.z = dz * steps
+  [267] getlocal 2 .............................. <actuallyused>
+  [269] pusharglistnoret 1 ...................... <actuallyused>
+  [271] extcall 37 .............................. return actuallyused
+  [273] ret
+end
+
+on lobbyin Msg
+  [  0] pusharglist 0 ........................... <[]>
+  [  2] pushlist ................................ <[]>
+  [  3] setlocal 0 .............................. grooms = []
+  [  5] getparam 0 .............................. <Msg>
+  [  7] getobjprop 208 .......................... <Msg.subject>
+  [  9] peek 0 .................................. case Msg.subject of
+  [ 11] pushcons 28 ............................. <"ConnectToNetServer">
+  [ 13] eq
+  [ 14] jmpifz [ 81] ............................ (case) "ConnectToNetServer":
+  [ 17] getparam 0 .............................. <Msg>
+  [ 19] getobjprop 263 .......................... <Msg.errorCode>
+  [ 22] pushzero ................................ <0>
+  [ 23] nteq .................................... <Msg.errorCode <> 0>
+  [ 24] jmpifz [ 78] ............................ if Msg.errorCode <> 0 then
+  [ 27] getglobal 18 ............................ <nom>
+  [ 29] pushint8 9 .............................. <9>
+  [ 31] pusharglist 1 ........................... <9>
+  [ 33] extcall 264 ............................. <random(9)>
+  [ 36] joinstr ................................. <nom & random(9)>
+  [ 37] setglobal 18 ............................ nom = nom & random(9)
+  [ 39] getglobal 46 ............................ <mus>
+  [ 41] pushsymb 191 ............................ <#logonInfo>
+  [ 43] pushsymb 192 ............................ <#userID>
+  [ 45] getglobal 18 ............................ <nom>
+  [ 47] pushsymb 193 ............................ <#password>
+  [ 49] pushcons 6 .............................. <"password">
+  [ 51] pushsymb 194 ............................ <#movieid>
+  [ 53] pushcons 7 .............................. <"russiasArmy">
+  [ 55] pusharglist 6 ........................... <[#userID: nom, #password: "password", #movieid: "russiasArmy"]>
+  [ 57] pushproplist ............................ <[#userID: nom, #password: "password", #movieid: "russiasArmy"]>
+  [ 58] pushsymb 195 ............................ <#remoteAddress>
+  [ 60] getglobal 189 ........................... <mla>
+  [ 62] pushsymb 196 ............................ <#remoteTCPPort>
+  [ 64] pushint16 1626 .......................... <1626>
+  [ 67] pushsymb 197 ............................ <#encryptionKey>
+  [ 69] pushcons 8 .............................. <"kwe123eefw3434mwe">
+  [ 71] pusharglist 8 ........................... <[#logonInfo: [#userID: nom, #password: "password", #movieid: "russiasArmy"], #remoteAddress: mla, #remoteTCPPort: 1626, #encryptionKey: "kwe123eefw3434mwe"]>
+  [ 73] pushproplist ............................ <[#logonInfo: [#userID: nom, #password: "password", #movieid: "russiasArmy"], #remoteAddress: mla, #remoteTCPPort: 1626, #encryptionKey: "kwe123eefw3434mwe"]>
+  [ 74] pusharglistnoret 2 ...................... <mus, [#logonInfo: [#userID: nom, #password: "password", #movieid: "russiasArmy"], #remoteAddress: mla, #remoteTCPPort: 1626, #encryptionKey: "kwe123eefw3434mwe"]>
+  [ 76] objcall 198 ............................. mus.connectToNetServer([#logonInfo: [#userID: nom, #password: "password", #movieid: "russiasArmy"], #remoteAddress: mla, #remoteTCPPort: 1626, #encryptionKey: "kwe123eefw3434mwe"])
+  [ 78] jmp [350]
+  [ 81] peek 0
+  [ 83] pushcons 29 ............................. <"checkrooms">
+  [ 85] eq
+  [ 86] jmpifz [118] ............................ (case) "checkrooms":
+  [ 89] getparam 0 .............................. <Msg>
+  [ 91] getchainedprop 209 ...................... <Msg.content>
+  [ 93] pushsymb 266 ............................ <#groups>
+  [ 96] pusharglist 2 ........................... <Msg.content, #groups>
+  [ 98] objcall 59 .............................. <Msg.content.groups.count>
+  [100] setglobal 265 ........................... ggroupcount = Msg.content.groups.count
+  [103] getglobal 143 ........................... <gmusmode>
+  [105] pushcons 29 ............................. <"checkrooms">
+  [107] eq ...................................... <gmusmode = "checkrooms">
+  [108] jmpifz [115] ............................ if gmusmode = "checkrooms" then
+  [111] pushcons 30 ............................. <"getrooms">
+  [113] setglobal 143 ........................... gmusmode = "getrooms"
+  [115] jmp [350]
+  [118] peek 0
+  [120] pushcons 31 ............................. <"showgroupcount">
+  [122] eq
+  [123] jmpifz [342] ............................ (case) "showgroupcount":
+  [126] pusharglist 0 ........................... <[]>
+  [128] pushlist ................................ <[]>
+  [129] setlocal 1 .............................. vrooms = []
+  [131] pushint8 1 .............................. <1>
+  [133] setlocal 2
+  [135] getlocal 2
+  [137] getglobal 44 ............................ <groomcount>
+  [139] lteq
+  [140] jmpifz [163] ............................ repeat with i = 1 to groomcount
+  [143] getlocal 1 .............................. <vrooms>
+  [145] pushcons 32 ............................. <"@Barrack">
+  [147] getlocal 2 .............................. <i>
+  [149] joinstr ................................. <"@Barrack" & i>
+  [150] pusharglistnoret 2 ...................... <vrooms, "@Barrack" & i>
+  [152] objcall 223 ............................. vrooms.add("@Barrack" & i)
+  [154] pushint8 1
+  [156] getlocal 2
+  [158] add
+  [159] setlocal 2
+  [161] endrepeat [135]
+  [163] getlocal 1 .............................. <vrooms>
+  [165] getparam 0 .............................. <Msg>
+  [167] getchainedprop 209 ...................... <Msg.content>
+  [169] getobjprop 267 .......................... <Msg.content.groupName>
+  [172] pusharglist 2 ........................... <vrooms, Msg.content.groupName>
+  [174] objcall 268 ............................. <vrooms.getOne(Msg.content.groupName)>
+  [177] setlocal 3 .............................. vnum = vrooms.getOne(Msg.content.groupName)
+  [179] getlocal 1 .............................. <vrooms>
+  [181] getlocal 3 .............................. <vnum>
+  [183] pusharglist 2 ........................... <vrooms, vnum>
+  [185] objcall 217 ............................. <vrooms[vnum]>
+  [187] pushcons 10 ............................. <" ">
+  [189] joinstr ................................. <vrooms[vnum] & " ">
+  [190] setlocal 4 .............................. vlistentry = vrooms[vnum] & " "
+  [192] getlocal 4 .............................. <vlistentry>
+  [194] pushsymb 269 ............................ <#char>
+  [197] pusharglist 2 ........................... <vlistentry, #char>
+  [199] objcall 59 .............................. <vlistentry.char.count>
+  [201] setlocal 2
+  [203] getlocal 2
+  [205] pushint8 18 ............................. <18>
+  [207] lteq
+  [208] jmpifz [227] ............................ repeat with i = vlistentry.char.count to 18
+  [211] getlocal 4 .............................. <vlistentry>
+  [213] pushcons 33 ............................. <".">
+  [215] joinstr ................................. <vlistentry & ".">
+  [216] setlocal 4 .............................. vlistentry = vlistentry & "."
+  [218] pushint8 1
+  [220] getlocal 2
+  [222] add
+  [223] setlocal 2
+  [225] endrepeat [203]
+  [227] getparam 0 .............................. <Msg>
+  [229] getchainedprop 209 ...................... <Msg.content>
+  [231] getobjprop 270 .......................... <Msg.content.numbermembers>
+  [234] getglobal 155 ........................... <gmaxusers>
+  [236] lt ...................................... <Msg.content.numbermembers < gmaxusers>
+  [237] jmpifz [264] ............................ if Msg.content.numbermembers < gmaxusers then / else
+  [240] getlocal 4 .............................. <vlistentry>
+  [242] pushcons 10 ............................. <" ">
+  [244] joinstr ................................. <vlistentry & " ">
+  [245] getparam 0 .............................. <Msg>
+  [247] getchainedprop 209 ...................... <Msg.content>
+  [249] getobjprop 270 .......................... <Msg.content.numbermembers>
+  [252] joinstr ................................. <vlistentry & " " & Msg.content.numbermembers>
+  [253] pushcons 34 ............................. <"/">
+  [255] joinstr ................................. <vlistentry & " " & Msg.content.numbermembers & "/">
+  [256] getglobal 155 ........................... <gmaxusers>
+  [258] joinstr ................................. <vlistentry & " " & Msg.content.numbermembers & "/" & gmaxusers>
+  [259] setlocal 4 .............................. vlistentry = vlistentry & " " & Msg.content.numbermembers & "/" & gmaxusers
+  [261] jmp [271]
+  [264] getlocal 4 .............................. <vlistentry>
+  [266] pushcons 35 ............................. <" Full">
+  [268] joinstr ................................. <vlistentry & " Full">
+  [269] setlocal 4 .............................. vlistentry = vlistentry & " Full"
+  [271] pushcons 0 .............................. <"rooms">
+  [273] pusharglist 1 ........................... <"rooms">
+  [275] extcall 47 .............................. <member("rooms")>
+  [277] getobjprop 48 ........................... <member("rooms").scrollTop>
+  [279] setlocal 5 .............................. vsct = member("rooms").scrollTop
+  [281] pushcons 0 .............................. <"rooms">
+  [283] pusharglist 1 ........................... <"rooms">
+  [285] extcall 47 .............................. <member("rooms")>
+  [287] pushsymb 164 ............................ <#line>
+  [289] getlocal 3 .............................. <vnum>
+  [291] getlocal 4 .............................. <vlistentry>
+  [293] pusharglistnoret 4 ...................... <member("rooms"), #line, vnum, vlistentry>
+  [295] objcall 271 ............................. member("rooms").line[vnum] = vlistentry
+  [298] pushcons 0 .............................. <"rooms">
+  [300] pusharglist 1 ........................... <"rooms">
+  [302] extcall 47 .............................. <member("rooms")>
+  [304] getlocal 5 .............................. <vsct>
+  [306] setobjprop 48 ........................... member("rooms").scrollTop = vsct
+  [308] pushcons 0 .............................. <"rooms">
+  [310] pusharglist 1 ........................... <"rooms">
+  [312] extcall 47 .............................. <member("rooms")>
+  [314] pushsymb 164 ............................ <#line>
+  [316] getlocal 3 .............................. <vnum>
+  [318] pusharglist 3 ........................... <member("rooms"), #line, vnum>
+  [320] objcall 172 ............................. <member("rooms").line[vnum]>
+  [322] pushzero ................................ <0>
+  [323] pushzero ................................ <0>
+  [324] pushzero ................................ <0>
+  [325] pusharglist 3 ........................... <0, 0, 0>
+  [327] extcall 69 .............................. <rgb(0, 0, 0)>
+  [329] setobjprop 171 .......................... member("rooms").line[vnum].color = rgb(0, 0, 0)
+  [331] pushcons 36 ............................. <"_root.state">
+  [333] pushcons 37 ............................. <"joinrooms">
+  [335] pusharglistnoret 2 ...................... <"_root.state", "joinrooms">
+  [337] localcall 2 ............................. setflash("_root.state", "joinrooms")
+  [339] jmp [350]
+  [342] peek 0
+  [344] pushcons 1 .............................. <EMPTY>
+  [346] eq
+  [347] jmpifz [350] ............................ (case) EMPTY:
+  [350] pop 1 ................................... end case
+  [352] ret
+end
+
+on lobbyframe me
+  [  0] getglobal 143 ........................... <gmusmode>
+  [  2] peek 0 .................................. case gmusmode of
+  [  4] pushcons 9 .............................. <"start">
+  [  6] eq
+  [  7] jmpifz [ 32] ............................ (case) "start":
+  [ 10] getglobal 186 ........................... <gink>
+  [ 12] pushint8 1 .............................. <1>
+  [ 14] add ..................................... <gink + 1>
+  [ 15] setglobal 186 ........................... gink = gink + 1
+  [ 17] getglobal 186 ........................... <gink>
+  [ 19] pushint8 30 ............................. <30>
+  [ 21] gt ...................................... <gink > 30>
+  [ 22] jmpifz [ 29] ............................ if gink > 30 then
+  [ 25] pushcons 29 ............................. <"checkrooms">
+  [ 27] setglobal 143 ........................... gmusmode = "checkrooms"
+  [ 29] jmp [228]
+  [ 32] peek 0
+  [ 34] pushcons 29 ............................. <"checkrooms">
+  [ 36] eq
+  [ 37] jmpifz [ 66] ............................ (case) "checkrooms":
+  [ 40] getglobal 46 ............................ <mus>
+  [ 42] pushsymb 207 ............................ <#recipients>
+  [ 44] pushcons 38 ............................. <"system.movie.getGroups">
+  [ 46] pushsymb 208 ............................ <#subject>
+  [ 48] pushcons 29 ............................. <"checkrooms">
+  [ 50] pushsymb 209 ............................ <#content>
+  [ 52] pushcons 1 .............................. <EMPTY>
+  [ 54] pusharglist 6 ........................... <[#recipients: "system.movie.getGroups", #subject: "checkrooms", #content: EMPTY]>
+  [ 56] pushproplist ............................ <[#recipients: "system.movie.getGroups", #subject: "checkrooms", #content: EMPTY]>
+  [ 57] pusharglist 2 ........................... <mus, [#recipients: "system.movie.getGroups", #subject: "checkrooms", #content: EMPTY]>
+  [ 59] objcall 166 ............................. <mus.sendNetMessage([#recipients: "system.movie.getGroups", #subject: "checkrooms", #content: EMPTY])>
+  [ 61] setlocal 0 .............................. Msg = mus.sendNetMessage([#recipients: "system.movie.getGroups", #subject: "checkrooms", #content: EMPTY])
+  [ 63] jmp [228]
+  [ 66] peek 0
+  [ 68] pushcons 30 ............................. <"getrooms">
+  [ 70] eq
+  [ 71] jmpifz [163] ............................ (case) "getrooms":
+  [ 74] pusharglist 0 ........................... <[]>
+  [ 76] pushlist ................................ <[]>
+  [ 77] setlocal 1 .............................. glist = []
+  [ 79] pushcons 0 .............................. <"rooms">
+  [ 81] pusharglist 1 ........................... <"rooms">
+  [ 83] extcall 47 .............................. <member("rooms")>
+  [ 85] pushcons 1 .............................. <EMPTY>
+  [ 87] setobjprop 184 .......................... member("rooms").text = EMPTY
+  [ 89] pushint8 1 .............................. <1>
+  [ 91] setlocal 2
+  [ 93] getlocal 2
+  [ 95] getglobal 44 ............................ <groomcount>
+  [ 97] lteq
+  [ 98] jmpifz [121] ............................ repeat with i = 1 to groomcount
+  [101] getlocal 1 .............................. <glist>
+  [103] pushcons 32 ............................. <"@Barrack">
+  [105] getlocal 2 .............................. <i>
+  [107] joinstr ................................. <"@Barrack" & i>
+  [108] pusharglistnoret 2 ...................... <glist, "@Barrack" & i>
+  [110] objcall 223 ............................. glist.add("@Barrack" & i)
+  [112] pushint8 1
+  [114] getlocal 2
+  [116] add
+  [117] setlocal 2
+  [119] endrepeat [ 93]
+  [121] pushcons 0 .............................. <"rooms">
+  [123] pusharglist 1 ........................... <"rooms">
+  [125] extcall 47 .............................. <member("rooms")>
+  [127] pushsymb 277 ............................ <#fixed>
+  [130] setobjprop 278 .......................... member("rooms").boxType = #fixed
+  [133] getglobal 46 ............................ <mus>
+  [135] pushsymb 207 ............................ <#recipients>
+  [137] pushcons 39 ............................. <"system.group.getUserCount">
+  [139] pushsymb 208 ............................ <#subject>
+  [141] pushcons 31 ............................. <"showgroupcount">
+  [143] pushsymb 209 ............................ <#content>
+  [145] getlocal 1 .............................. <glist>
+  [147] pusharglist 6 ........................... <[#recipients: "system.group.getUserCount", #subject: "showgroupcount", #content: glist]>
+  [149] pushproplist ............................ <[#recipients: "system.group.getUserCount", #subject: "showgroupcount", #content: glist]>
+  [150] pusharglist 2 ........................... <mus, [#recipients: "system.group.getUserCount", #subject: "showgroupcount", #content: glist]>
+  [152] objcall 166 ............................. <mus.sendNetMessage([#recipients: "system.group.getUserCount", #subject: "showgroupcount", #content: glist])>
+  [154] setlocal 0 .............................. Msg = mus.sendNetMessage([#recipients: "system.group.getUserCount", #subject: "showgroupcount", #content: glist])
+  [156] pushcons 37 ............................. <"joinrooms">
+  [158] setglobal 143 ........................... gmusmode = "joinrooms"
+  [160] jmp [228]
+  [163] peek 0
+  [165] pushcons 37 ............................. <"joinrooms">
+  [167] eq
+  [168] jmpifz [190] ............................ (case) "joinrooms":
+  [171] getglobal 156 ........................... <gmygroup>
+  [173] pushcons 2 .............................. <"@lobby">
+  [175] eq ...................................... <gmygroup = "@lobby">
+  [176] not ..................................... <not (gmygroup = "@lobby")>
+  [177] jmpifz [184] ............................ if not (gmygroup = "@lobby") then
+  [180] pushcons 13 ............................. <"game">
+  [182] setglobal 143 ........................... gmusmode = "game"
+  [184] pushzero ................................ <0>
+  [185] setglobal 236 ........................... gsubmitstamps = 0
+  [187] jmp [228]
+  [190] peek 0
+  [192] pushcons 13 ............................. <"game">
+  [194] eq
+  [195] jmpifz [220] ............................ (case) "game":
+  [198] getglobal 46 ............................ <mus>
+  [200] pushzero ................................ <0>
+  [201] getparam 0 .............................. <me>
+  [203] pusharglistnoret 3 ...................... <mus, 0, me>
+  [205] objcall 199 ............................. mus.setNetMessageHandler(0, me)
+  [207] getglobal 46 ............................ <mus>
+  [209] pushsymb 176 ............................ <#incoming>
+  [211] getparam 0 .............................. <me>
+  [213] pusharglistnoret 3 ...................... <mus, #incoming, me>
+  [215] objcall 199 ............................. mus.setNetMessageHandler(#incoming, me)
+  [217] jmp [228]
+  [220] peek 0
+  [222] pushcons 1 .............................. <EMPTY>
+  [224] eq
+  [225] jmpifz [228] ............................ (case) EMPTY:
+  [228] pop 1 ................................... end case
+  [230] ret
+end
+
+on VerifyUserName userName
+  [  0] pushcons 40 ............................. <"abcdefghijklmnopqrstuvwxyz1234567890">
+  [  2] setlocal 0 .............................. naughties = "abcdefghijklmnopqrstuvwxyz1234567890"
+  [  4] pushcons 1 .............................. <EMPTY>
+  [  6] setlocal 1 .............................. vnam = EMPTY
+  [  8] pushint8 1 .............................. <1>
+  [ 10] setlocal 2
+  [ 12] getlocal 2
+  [ 14] getparam 0 .............................. <userName>
+  [ 16] getobjprop 134 .......................... <userName.length>
+  [ 18] lteq
+  [ 19] jmpifz [ 68] ............................ repeat with i = 1 to userName.length
+  [ 22] getlocal 0 .............................. <naughties>
+  [ 24] getlocal 2 .............................. <i>
+  [ 26] pushzero ................................ <0>
+  [ 27] pushzero ................................ <0>
+  [ 28] pushzero ................................ <0>
+  [ 29] pushzero ................................ <0>
+  [ 30] pushzero ................................ <0>
+  [ 31] pushzero ................................ <0>
+  [ 32] pushzero ................................ <0>
+  [ 33] getparam 0 .............................. <userName>
+  [ 35] getchunk ................................ <char i of userName>
+  [ 36] containsstr ............................. <naughties contains char i of userName>
+  [ 37] pushzero ................................ <0>
+  [ 38] nteq .................................... <(naughties contains char i of userName) <> 0>
+  [ 39] jmpifz [ 59] ............................ if (naughties contains char i of userName) <> 0 then
+  [ 42] getlocal 1 .............................. <vnam>
+  [ 44] getlocal 2 .............................. <i>
+  [ 46] pushzero ................................ <0>
+  [ 47] pushzero ................................ <0>
+  [ 48] pushzero ................................ <0>
+  [ 49] pushzero ................................ <0>
+  [ 50] pushzero ................................ <0>
+  [ 51] pushzero ................................ <0>
+  [ 52] pushzero ................................ <0>
+  [ 53] getparam 0 .............................. <userName>
+  [ 55] getchunk ................................ <char i of userName>
+  [ 56] joinstr ................................. <vnam & char i of userName>
+  [ 57] setlocal 1 .............................. vnam = vnam & char i of userName
+  [ 59] pushint8 1
+  [ 61] getlocal 2
+  [ 63] add
+  [ 64] setlocal 2
+  [ 66] endrepeat [ 12]
+  [ 68] pushcons 41 ............................. <"#">
+  [ 70] getlocal 1 .............................. <vnam>
+  [ 72] joinstr ................................. <"#" & vnam>
+  [ 73] pusharglist 1 ........................... <"#" & vnam>
+  [ 75] extcall 280 ............................. <value("#" & vnam)>
+  [ 78] setlocal 3 .............................. moo = value("#" & vnam)
+  [ 80] getlocal 3 .............................. <moo>
+  [ 82] pusharglist 1 ........................... <moo>
+  [ 84] extcall 93 .............................. <string(moo)>
+  [ 86] setlocal 1 .............................. vnam = string(moo)
+  [ 88] getlocal 1 .............................. <vnam>
+  [ 90] pushcons 33 ............................. <".">
+  [ 92] containsstr ............................. <vnam contains ".">
+  [ 93] getlocal 1 .............................. <vnam>
+  [ 95] pushcons 42 ............................. <"0">
+  [ 97] eq ...................................... <vnam = "0">
+  [ 98] or ...................................... <(vnam contains ".") or (vnam = "0")>
+  [ 99] jmpifz [106] ............................ if (vnam contains ".") or (vnam = "0") then
+  [102] pushcons 1 .............................. <EMPTY>
+  [104] setlocal 1 .............................. vnam = EMPTY
+  [106] getlocal 1 .............................. <vnam>
+  [108] pushcons 1 .............................. <EMPTY>
+  [110] eq ...................................... <vnam = EMPTY>
+  [111] jmpifz [120] ............................ if vnam = EMPTY then
+  [114] pushcons 43 ............................. <"Codename censored, try again.">
+  [116] pusharglistnoret 1 ...................... <"Codename censored, try again.">
+  [118] extcall 122 ............................. alert("Codename censored, try again.")
+  [120] getlocal 1 .............................. <vnam>
+  [122] pusharglistnoret 1 ...................... <vnam>
+  [124] extcall 37 .............................. return vnam
+  [126] ret
+end
+
+on ifuckoff vnom
+  [  0] getglobal 125 ........................... <goody>
+  [  2] pusharglist 1 ........................... <goody>
+  [  4] extcall 100 ............................. <voidp(goody)>
+  [  6] not ..................................... <not voidp(goody)>
+  [  7] getglobal 46 ............................ <mus>
+  [  9] pusharglist 1 ........................... <mus>
+  [ 11] extcall 100 ............................. <voidp(mus)>
+  [ 13] not ..................................... <not voidp(mus)>
+  [ 14] and ..................................... <not voidp(goody) and not voidp(mus)>
+  [ 15] jmpifz [ 75] ............................ if not voidp(goody) and not voidp(mus) then
+  [ 18] pushcons 1 .............................. <EMPTY>
+  [ 20] pushint8 3 .............................. <3>
+  [ 22] set 0 ................................... set the keyDownScript to EMPTY
+  [ 24] getparam 0 .............................. <vnom>
+  [ 26] pusharglist 1 ........................... <vnom>
+  [ 28] extcall 100 ............................. <voidp(vnom)>
+  [ 30] jmpifz [ 37] ............................ if voidp(vnom) then
+  [ 33] pushcons 44 ............................. <"Cowardice">
+  [ 35] setparam 0 .............................. vnom = "Cowardice"
+  [ 37] pushsymb 208 ............................ <#subject>
+  [ 39] pushcons 24 ............................. <"dead">
+  [ 41] pushsymb 209 ............................ <#content>
+  [ 43] pushsymb 230 ............................ <#weapon>
+  [ 45] getglobal 125 ........................... <goody>
+  [ 47] getobjprop 230 .......................... <goody.weapon>
+  [ 49] pushsymb 232 ............................ <#killer>
+  [ 51] getparam 0 .............................. <vnom>
+  [ 53] pusharglist 4 ........................... <[#weapon: goody.weapon, #killer: vnom]>
+  [ 55] pushproplist ............................ <[#weapon: goody.weapon, #killer: vnom]>
+  [ 56] pusharglist 4 ........................... <[#subject: "dead", #content: [#weapon: goody.weapon, #killer: vnom]]>
+  [ 58] pushproplist ............................ <[#subject: "dead", #content: [#weapon: goody.weapon, #killer: vnom]]>
+  [ 59] pusharglistnoret 1 ...................... <[#subject: "dead", #content: [#weapon: goody.weapon, #killer: vnom]]>
+  [ 61] localcall 4 ............................. submitmus([#subject: "dead", #content: [#weapon: goody.weapon, #killer: vnom]])
+  [ 63] getglobal 46 ............................ <mus>
+  [ 65] pushcons 45 ............................. <"system.group.leave">
+  [ 67] pushcons 1 .............................. <EMPTY>
+  [ 69] getglobal 156 ........................... <gmygroup>
+  [ 71] pusharglistnoret 4 ...................... <mus, "system.group.leave", EMPTY, gmygroup>
+  [ 73] objcall 166 ............................. mus.sendNetMessage("system.group.leave", EMPTY, gmygroup)
+  [ 75] ret
+end

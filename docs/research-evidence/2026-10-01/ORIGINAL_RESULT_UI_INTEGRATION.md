@@ -1,0 +1,27 @@
+# Recovered Barrack / Woodland results artwork — 2026-10-01
+
+This document records the initial static integration and its historical validation. The subsequent [motion/press integration](ORIGINAL_RESULT_MOTION_INTEGRATION.md) installs the two child timelines and exact Replay hit/press behavior.
+
+2026-10-06 follow-up: [the results message correction](../../../artifacts/fidelity-review/2026-10-06/source-result-message/EXECUTION_REPORT.md) restores the two recovered invitation paragraphs formerly omitted below. The historical GO control remains disabled. CPU validation proves literal message assignment; no fresh browser or native text-layout claim follows.
+
+The source editions now render the original static UI frame54 artwork instead of the remake's authored result disk, wordmark and decorations. This advances V22 without accepting its whole scope/hit/death/results requirement. Checklist acceptance remains27/40; all thirteen outstanding points remain open.
+
+## Evidence and implementation
+
+The [frame54 audit](ORIGINAL_RESULT_FRAME54_AUDIT.md) established ten source root objects and the separate RE-PLAY and G0 controls. The [passive exporter](../../../scripts/research/extract-original-result-ui.py) now decodes their reachable shapes, masks, original Niagara Solid glyph outlines, bitmap fills, gradients, nested transforms, color transforms, button states and Replay morph poses. It neither executes nor interprets original Director/Lingo/Flash/ActionScript/button actions. [Provenance](../../../public/assets/original-result-ui/provenance.json) records original resource and decoder hashes, character graph, raw root placements, controls, opaque action hashes and every output hash.
+
+Thirty-four SVGs and one provenance JSON retain both edition JPEG backgrounds and emblems, GAME OVER, border, Replay/G0 states and all fifteen authored Replay poses. Deterministic regeneration and XML/hash checks pass. The JPEG bindings are byte-compared to each edition's original DefineBits15 payload. The exporter retains the800-frame scrolling timeline as metadata and paints its first pose. The runtime currently paints the first Replay-up pose; it does not claim continuing native animation.
+
+The [score-channel/text decode](ORIGINAL_RESULT_SCORE_LAYOUT.md) establishes Director gameover frame6, independently selecting SWF frame54. UI loc512,512 and1024-square dimensions plus cast rect(-512,-512,512,512) support stage origin0,0. The source SVG coordinates are clipped to800×600; they are not normalized from1024 to800. rooms loc96,189, width262,height332 plus its cast's zero origin support the message rectangle. Stored style is Times New Roman bold18 black, centered with fixed21 leading. Native field margins, resize/font behavior, full Xtra flags and native text replacement/raster behavior remain unproved.
+
+[Runtime artwork](../../../src/originalResultUi.ts) installs source-only images. Lower root objects remain below Replay depth22, gameover/G0 depth25, emblem34, inert source button28 at depth37, and border40. Dynamic Director rooms text paints above Flash artwork. [CSS](../../../src/style.css) stretches800×600 source coordinates independently to the browser viewport. That stretching, point-to-pixel conversion, browser font fallback, SVG antialiasing/filtering and the rectangular HTML Replay hit envelope remain explicit adapters. Source glyph contours and hit SVGs are preserved as evidence; the envelope does not reproduce their exact native hit test.
+
+[Game lifecycle](../../../src/game.ts) selects the current edition on endRound and updates viewport projection on resize. Existing result IDs and textContent rendering preserve literal callsigns, attacker names and scores. The message retains source commiseration and current points. The historical submission invitation is omitted because the service is unavailable. Original G0 is a disabled HTML control with that accessible name; no external score request is installed. The actual existing Replay button/handler returns to entry and supports mouse/Enter/focus indication. Static depth37 control artwork has no interpreted action. Winter's authored report remains available through its existing layout.
+
+## Verification
+
+**1,274 client/shared +398 server =1,672 unit tests**, production build, strict affected browser-test types and **all12 affected browser cases in one corrected invocation** pass. Validation results are recorded in [the manifest](../../../artifacts/fidelity-review/2026-10-01/current/source-result-validation.json). Source-result browser checks cover both editions at800×600,1280×576 and390×844, successful images, source typography/field geometry, disabled submission, mouse and keyboard Replay, fresh edition selection and Winter's report. Existing normal/scope HUD transitions and real solo/online lethal-blast lifecycle checks supply separate regression evidence. Screenshots are browser adapter evidence, not native pixel equality.
+
+The first eight-case browser invocation passed. A subsequent lifecycle run exposed an obsolete assertion requiring the removed authored wordmark; the corrected assertion requires recovered result artwork instead. Failure logs remain recorded alongside final verification.
+
+No additional checklist item is accepted: continuing nested timelines, opaque Flash actions, native text/raster/registration behavior, hit geometry and the rest of V22 still require evidence.

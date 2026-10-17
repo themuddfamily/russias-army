@@ -1,0 +1,260 @@
+property pos, iam, wrd2, pmod
+global gmem, goody, tasks, clues
+
+on new me, nom, npos, val, modo
+  [  0] getparam 4 .............................. <modo>
+  [  2] pusharglist 1 ........................... <modo>
+  [  4] extcall 100 ............................. <voidp(modo)>
+  [  6] not ..................................... <not voidp(modo)>
+  [  7] jmpifz [ 17] ............................ if not voidp(modo) then / else
+  [ 10] getparam 4 .............................. <modo>
+  [ 12] setprop 218 ............................. pmod = modo
+  [ 14] jmp [ 20]
+  [ 17] pushzero ................................ <0>
+  [ 18] setprop 218 ............................. pmod = 0
+  [ 20] getparam 2 .............................. <npos>
+  [ 22] setprop 108 ............................. pos = npos
+  [ 24] getparam 1 .............................. <nom>
+  [ 26] setprop 494 ............................. iam = nom
+  [ 29] getparam 3 .............................. <val>
+  [ 31] setprop 482 ............................. wrd2 = val
+  [ 34] getmovieprop 52 ......................... <the actorList>
+  [ 36] getparam 0 .............................. <me>
+  [ 38] pusharglistnoret 2 ...................... <the actorList, me>
+  [ 40] objcall 223 ............................. (the actorList).add(me)
+  [ 42] getparam 0 .............................. <me>
+  [ 44] pusharglistnoret 1 ...................... <me>
+  [ 46] extcall 37 .............................. return me
+  [ 48] ret
+end
+
+on stepFrame me
+  [  0] getglobal 125 ........................... <goody>
+  [  2] pusharglist 1 ........................... <goody>
+  [  4] extcall 100 ............................. <voidp(goody)>
+  [  6] not ..................................... <not voidp(goody)>
+  [  7] jmpifz [284] ............................ if not voidp(goody) then
+  [ 10] pushzero ................................ <0>
+  [ 11] setlocal 0 .............................. news = 0
+  [ 13] pushzero ................................ <0>
+  [ 14] setlocal 1 .............................. pickup = 0
+  [ 16] getprop 108 ............................. <pos>
+  [ 18] getglobal 125 ........................... <goody>
+  [ 20] getobjprop 132 .......................... <goody.bsp>
+  [ 22] pusharglist 2 ........................... <pos, goody.bsp>
+  [ 24] extcall 30 .............................. <closetome(pos, goody.bsp)>
+  [ 26] jmpifz [284] ............................ if closetome(pos, goody.bsp) then
+  [ 29] getprop 494 ............................. <iam>
+  [ 32] peek 0 .................................. case iam of
+  [ 34] pushsymb 495 ............................ <#key>
+  [ 37] eq
+  [ 38] jmpifz [ 77] ............................ (case) #key:
+  [ 41] getglobal 125 ........................... <goody>
+  [ 43] getchainedprop 315 ...................... <goody.keys>
+  [ 46] getprop 482 ............................. <wrd2>
+  [ 49] pusharglistnoret 2 ...................... <goody.keys, wrd2>
+  [ 51] objcall 223 ............................. goody.keys.add(wrd2)
+  [ 53] getglobal 125 ........................... <goody>
+  [ 55] pushcons 0 .............................. <"You have the ">
+  [ 57] getprop 482 ............................. <wrd2>
+  [ 60] joinstr ................................. <"You have the " & wrd2>
+  [ 61] pushcons 1 .............................. <" key.">
+  [ 63] joinstr ................................. <"You have the " & wrd2 & " key.">
+  [ 64] pusharglistnoret 2 ...................... <goody, "You have the " & wrd2 & " key.">
+  [ 66] objcall 216 ............................. goody.feedback("You have the " & wrd2 & " key.")
+  [ 68] getparam 0 .............................. <me>
+  [ 70] pusharglistnoret 1 ...................... <me>
+  [ 72] localcall 3 ............................. fuckoff(me)
+  [ 74] jmp [276]
+  [ 77] peek 0
+  [ 79] pushsymb 496 ............................ <#health>
+  [ 82] eq
+  [ 83] jmpifz [112] ............................ (case) #health:
+  [ 86] getglobal 125 ........................... <goody>
+  [ 88] pushint8 20 ............................. <20>
+  [ 90] pusharglistnoret 2 ...................... <goody, 20>
+  [ 92] objcall 293 ............................. goody.setlives(20)
+  [ 95] getglobal 125 ........................... <goody>
+  [ 97] pushcons 2 .............................. <"Health up 20 points">
+  [ 99] pusharglistnoret 2 ...................... <goody, "Health up 20 points">
+  [101] objcall 216 ............................. goody.feedback("Health up 20 points")
+  [103] getparam 0 .............................. <me>
+  [105] pusharglistnoret 1 ...................... <me>
+  [107] localcall 3 ............................. fuckoff(me)
+  [109] jmp [276]
+  [112] peek 0
+  [114] pushsymb 469 ............................ <#ammo>
+  [117] eq
+  [118] jmpifz [185] ............................ (case) #ammo:
+  [121] pushsymb 301 ............................ <#spas12>
+  [124] pushint8 12 ............................. <12>
+  [126] pushsymb 299 ............................ <#ak47>
+  [129] pushint8 50 ............................. <50>
+  [131] pushsymb 298 ............................ <#rg6>
+  [134] pushint8 12 ............................. <12>
+  [136] pushsymb 297 ............................ <#rpg>
+  [139] pushint8 12 ............................. <12>
+  [141] pushsymb 300 ............................ <#pistol>
+  [144] pushint8 20 ............................. <20>
+  [146] pushsymb 302 ............................ <#dragunov>
+  [149] pushint8 5 .............................. <5>
+  [151] pusharglist 12 .......................... <[#spas12: 12, #ak47: 50, #rg6: 12, #rpg: 12, #pistol: 20, #dragunov: 5]>
+  [153] pushproplist ............................ <[#spas12: 12, #ak47: 50, #rg6: 12, #rpg: 12, #pistol: 20, #dragunov: 5]>
+  [154] setlocal 2 .............................. quantities = [#spas12: 12, #ak47: 50, #rg6: 12, #rpg: 12, #pistol: 20, #dragunov: 5]
+  [156] getlocal 2 .............................. <quantities>
+  [158] getprop 482 ............................. <wrd2>
+  [161] pusharglist 2 ........................... <quantities, wrd2>
+  [163] objcall 225 ............................. <quantities.getaProp(wrd2)>
+  [165] setlocal 3 .............................. howmuch = quantities.getaProp(wrd2)
+  [167] getprop 482 ............................. <wrd2>
+  [170] getlocal 3 .............................. <howmuch>
+  [172] pusharglistnoret 2 ...................... <wrd2, howmuch>
+  [174] localcall 2 ............................. getgun(wrd2, howmuch)
+  [176] getparam 0 .............................. <me>
+  [178] pusharglistnoret 1 ...................... <me>
+  [180] localcall 3 ............................. fuckoff(me)
+  [182] jmp [276]
+  [185] peek 0
+  [187] pushsymb 497 ............................ <#task>
+  [190] eq
+  [191] jmpifz [239] ............................ (case) #task:
+  [194] getglobal 55 ............................ <tasks>
+  [196] pushint8 1 .............................. <1>
+  [198] pusharglist 2 ........................... <tasks, 1>
+  [200] objcall 217 ............................. <tasks[1]>
+  [202] getparam 0 .............................. <me>
+  [204] eq ...................................... <tasks[1] = me>
+  [205] jmpifz [236] ............................ if tasks[1] = me then
+  [208] getglobal 55 ............................ <tasks>
+  [210] getparam 0 .............................. <me>
+  [212] pusharglistnoret 2 ...................... <tasks, me>
+  [214] objcall 366 ............................. tasks.deleteOne(me)
+  [217] getglobal 125 ........................... <goody>
+  [219] getprop 482 ............................. <wrd2>
+  [222] pusharglist 1 ........................... <wrd2>
+  [224] extcall 93 .............................. <string(wrd2)>
+  [226] pusharglistnoret 2 ...................... <goody, string(wrd2)>
+  [228] objcall 216 ............................. goody.feedback(string(wrd2))
+  [230] getparam 0 .............................. <me>
+  [232] pusharglistnoret 1 ...................... <me>
+  [234] localcall 3 ............................. fuckoff(me)
+  [236] jmp [276]
+  [239] peek 0
+  [241] pushsymb 498 ............................ <#clue>
+  [244] eq
+  [245] jmpifz [276] ............................ (case) #clue:
+  [248] getglobal 56 ............................ <clues>
+  [250] getparam 0 .............................. <me>
+  [252] pusharglistnoret 2 ...................... <clues, me>
+  [254] objcall 366 ............................. clues.deleteOne(me)
+  [257] getglobal 125 ........................... <goody>
+  [259] getprop 482 ............................. <wrd2>
+  [262] pusharglist 1 ........................... <wrd2>
+  [264] extcall 93 .............................. <string(wrd2)>
+  [266] pusharglistnoret 2 ...................... <goody, string(wrd2)>
+  [268] objcall 216 ............................. goody.feedback(string(wrd2))
+  [270] getparam 0 .............................. <me>
+  [272] pusharglistnoret 1 ...................... <me>
+  [274] localcall 3 ............................. fuckoff(me)
+  [276] pop 1 ................................... end case
+  [278] pushint8 1 .............................. <1>
+  [280] pusharglistnoret 1 ...................... <1>
+  [282] extcall 37 .............................. return 1
+  [284] ret
+end
+
+on getgun me, howmuch
+  [  0] getglobal 125 ........................... <goody>
+  [  2] pushsymb 296 ............................ <#weapons>
+  [  5] getprop 482 ............................. <wrd2>
+  [  8] pusharglist 3 ........................... <goody, #weapons, wrd2>
+  [ 10] objcall 60 .............................. <goody.weapons[wrd2]>
+  [ 12] pusharglist 1 ........................... <goody.weapons[wrd2]>
+  [ 14] extcall 100 ............................. <voidp(goody.weapons[wrd2])>
+  [ 16] jmpifz [ 65] ............................ if voidp(goody.weapons[wrd2]) then / else
+  [ 19] pushcons 0 .............................. <"You have the ">
+  [ 21] getprop 482 ............................. <wrd2>
+  [ 24] joinstr ................................. <"You have the " & wrd2>
+  [ 25] pushcons 3 .............................. <"!">
+  [ 27] joinstr ................................. <"You have the " & wrd2 & "!">
+  [ 28] setlocal 0 .............................. news = "You have the " & wrd2 & "!"
+  [ 30] getglobal 125 ........................... <goody>
+  [ 32] getchainedprop 296 ...................... <goody.weapons>
+  [ 35] getprop 482 ............................. <wrd2>
+  [ 38] pusharglist 1 ........................... <wrd2>
+  [ 40] extcall 500 ............................. <symbol(wrd2)>
+  [ 43] getparam 1 .............................. <howmuch>
+  [ 45] pusharglistnoret 3 ...................... <goody.weapons, symbol(wrd2), howmuch>
+  [ 47] objcall 342 ............................. goody.weapons.addProp(symbol(wrd2), howmuch)
+  [ 50] getglobal 125 ........................... <goody>
+  [ 52] getprop 482 ............................. <wrd2>
+  [ 55] pusharglist 1 ........................... <wrd2>
+  [ 57] extcall 500 ............................. <symbol(wrd2)>
+  [ 60] setobjprop 230 .......................... goody.weapon = symbol(wrd2)
+  [ 62] jmp [128]
+  [ 65] pushcons 4 .............................. <"Ammo for the ">
+  [ 67] getprop 482 ............................. <wrd2>
+  [ 70] joinstr ................................. <"Ammo for the " & wrd2>
+  [ 71] pushcons 5 .............................. <".">
+  [ 73] joinstr ................................. <"Ammo for the " & wrd2 & ".">
+  [ 74] setlocal 0 .............................. news = "Ammo for the " & wrd2 & "."
+  [ 76] getglobal 125 ........................... <goody>
+  [ 78] getchainedprop 296 ...................... <goody.weapons>
+  [ 81] getprop 482 ............................. <wrd2>
+  [ 84] getglobal 125 ........................... <goody>
+  [ 86] getchainedprop 296 ...................... <goody.weapons>
+  [ 89] getprop 482 ............................. <wrd2>
+  [ 92] pusharglist 2 ........................... <goody.weapons, wrd2>
+  [ 94] objcall 225 ............................. <goody.weapons.getaProp(wrd2)>
+  [ 96] getparam 1 .............................. <howmuch>
+  [ 98] add ..................................... <goody.weapons.getaProp(wrd2) + howmuch>
+  [ 99] pusharglistnoret 3 ...................... <goody.weapons, wrd2, goody.weapons.getaProp(wrd2) + howmuch>
+  [101] objcall 398 ............................. goody.weapons.setaProp(wrd2, goody.weapons.getaProp(wrd2) + howmuch)
+  [104] getglobal 125 ........................... <goody>
+  [106] getobjprop 230 .......................... <goody.weapon>
+  [108] pusharglist 0 ........................... <>
+  [110] extcall 6 ............................... <VOID>
+  [112] eq ...................................... <goody.weapon = VOID>
+  [113] jmpifz [128] ............................ if goody.weapon = VOID then
+  [116] getglobal 125 ........................... <goody>
+  [118] getprop 482 ............................. <wrd2>
+  [121] pusharglist 1 ........................... <wrd2>
+  [123] extcall 500 ............................. <symbol(wrd2)>
+  [126] setobjprop 230 .......................... goody.weapon = symbol(wrd2)
+  [128] getglobal 125 ........................... <goody>
+  [130] getchainedprop 320 ...................... <goody.weaponry>
+  [133] pusharglistnoret 1 ...................... <goody.weaponry>
+  [135] objcall 374 ............................. goody.weaponry.sortweapons()
+  [138] getglobal 125 ........................... <goody>
+  [140] getchainedprop 320 ...................... <goody.weaponry>
+  [143] pusharglistnoret 1 ...................... <goody.weaponry>
+  [145] objcall 371 ............................. goody.weaponry.reload()
+  [148] getglobal 125 ........................... <goody>
+  [150] getlocal 0 .............................. <news>
+  [152] pusharglistnoret 2 ...................... <goody, news>
+  [154] objcall 216 ............................. goody.feedback(news)
+  [156] ret
+end
+
+on fuckoff me
+  [  0] getprop 218 ............................. <pmod>
+  [  2] pushzero ................................ <0>
+  [  3] nteq .................................... <pmod <> 0>
+  [  4] jmpifz [ 14] ............................ if pmod <> 0 then
+  [  7] getprop 218 ............................. <pmod>
+  [  9] pusharglistnoret 1 ...................... <pmod>
+  [ 11] objcall 394 ............................. pmod.removeFromWorld()
+  [ 14] getglobal 125 ........................... <goody>
+  [ 16] pushint8 5 .............................. <5>
+  [ 18] pusharglistnoret 2 ...................... <goody, 5>
+  [ 20] objcall 234 ............................. goody.setscore(5)
+  [ 22] getmovieprop 52 ......................... <the actorList>
+  [ 24] getparam 0 .............................. <me>
+  [ 26] pusharglistnoret 2 ...................... <the actorList, me>
+  [ 28] objcall 366 ............................. (the actorList).deleteOne(me)
+  [ 31] ret
+end
+
+on hurt me
+  [  0] ret
+end

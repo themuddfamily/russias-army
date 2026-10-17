@@ -1,0 +1,9 @@
+# Exact idle-transition feasibility and CPU sample
+
+The unmodified server completed 128 Barrack idle legacy-client callbacks. The probe fingerprints every barrel and persistent player proxy field using binary64 bytes, including signed zero and geometry/COM/inertia. All 128 callback clocks advance; all 129 initial/result fingerprints are distinct. The measured loop took 607.688122 ms. No exact cycle or fixed point was observed, so these results provide no basis for a repeated-state physics shortcut. They do not prove that no later cycle exists.
+
+[Probe and raw result](../../../artifacts/fidelity-review/2026-10-02/current/source-idle-transition-audit/source-idle-transition-proof.json) retain initial/final physical fields and every state hash. Source hashes are checked before and after execution. No production code, force, cap, deadline, sleeping or callback skipping changes. This is an early 128-callback feasibility test, not the full 3,000-callback server deadline fixture.
+
+A separate [CPU profile](../../../artifacts/fidelity-review/2026-10-02/current/source-idle-cpu-profile/idle.cpuprofile) runs the same bounded probe. Its [self-time summary](../../../artifacts/fidelity-review/2026-10-02/current/source-idle-cpu-profile/profile-summary.json) includes imports, scene initialization, physics, fingerprint serialization and hashing. Among 1,305 samples, GC accounts for 123.349 ms, resolveOriginalAngularManifold for 78.046 ms and one anonymous convex-sweep node for 77.348 ms. These are whole-process sampled self times, not isolated callback costs; GC does not identify its allocator and tsx line numbers are transformed.
+
+The next performance route is to isolate manifold and convex-query allocations and prove exact state/event parity for any reuse or allocation change. Approximate equality, sleeping or skipping source callbacks are not justified by this probe. The existing server deadlines and whole-goal acceptance remain unresolved.

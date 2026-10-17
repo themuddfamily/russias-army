@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "game_executed": false,
+  "decoder_script": "scripts/research/package-original-hurt-audio.py",
+  "decoder_script_sha256": "f22812cf47dabb0a9344612a15d657020b62db7436ab1d52291fd8977f84ea37",
+  "decoder": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "sources": [
+    {
+      "header_length": 320,
+      "header_u32_fields": [
+        320,
+        3,
+        16000,
+        24000,
+        1393,
+        5305
+      ],
+      "post_header_zero_prefix_bytes": 4,
+      "mpeg_start_offset": 324,
+      "mpeg_frames": [
+        {
+          "source_offset": 324,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 432,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 540,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 648,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 756,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 864,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 972,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 1080,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 1188,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 1296,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 1404,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 1512,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 1620,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 1728,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 1836,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 1944,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 2052,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 2160,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 2268,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 2376,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        }
+      ],
+      "edition": "barrack",
+      "cast_id": 3909,
+      "cast_name": "hurtme",
+      "resource_id": 4906,
+      "resource_path": "docs/research-evidence/2026-09-30/director-extraction/barrack/04906-ediM.bin",
+      "resource_sha256": "2540ca72d42a94be0ebe276d211acf747dbc53ab608eaf5b65cc43edb34948c0",
+      "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-barrack-20110415.dcr",
+      "source_movie_sha256": "779c2420e2b41848749731762f4b64bb70e05c889bb23f8906563a661991b72a"
+    },
+    {
+      "header_length": 320,
+      "header_u32_fields": [
+        320,
+        3,
+        16000,
+        24000,
+        1393,
+        5305
+      ],
+      "post_header_zero_prefix_bytes": 4,
+      "mpeg_start_offset": 324,
+      "mpeg_frames": [
+        {
+          "source_offset": 324,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 432,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 540,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 648,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 756,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 864,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 972,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 1080,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 1188,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 1296,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 1404,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 1512,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 1620,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 1728,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 1836,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 1944,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 2052,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 2160,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 2268,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        },
+        {
+          "source_offset": 2376,
+          "length": 108,
+          "sample_rate": 16000,
+          "channels": 1,
+          "bitrate": 24000,
+          "samples": 576
+        }
+      ],
+      "edition": "woodland",
+      "cast_id": 3909,
+      "cast_name": "hurtme",
+      "resource_id": 6295,
+      "resource_path": "docs/research-evidence/2026-09-30/director-extraction/woodland/06295-ediM.bin",
+      "resource_sha256": "2540ca72d42a94be0ebe276d211acf747dbc53ab608eaf5b65cc43edb34948c0",
+      "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-woodland-20150618.dcr",
+      "source_movie_sha256": "d42aaf3cd5c5bdb1decee1f8b48271c7590e49dee9e6d06a0f2954f8c486245c"
+    }
+  ],
+  "identical_edition_payloads": true,
+  "mp3": {
+    "file": "hurtme.mp3",
+    "sha256": "743fb7f4882ca77d4aec970ad4de99ee22837671dc127cb37a8050dc962a08e1",
+    "bytes": 2160,
+    "transformation": "byte-exact consecutive MPEG frame copy from source offset324; no re-encoding"
+  },
+  "wav": {
+    "file": "hurtme.wav",
+    "sha256": "6c71b3fe4b7c88556b3b409d3a4f3f8aa8e5d9ae32c1b68f6906bfeb051610c0",
+    "bytes": 46138,
+    "codec": "pcm_f32le",
+    "sample_rate": 16000,
+    "channels": 1,
+    "sample_count": 11520,
+    "untrimmed_duration_seconds": 0.72,
+    "transformation": "static FFmpeg decode, float32 PCM, no resampling/gain/filtering/lossy re-encoding",
+    "finite_nonempty_pcm_verified": true,
+    "peak_absolute_sample": 0.8862029314041138
+  },
+  "limits": [
+    "Source MPEG compression was already lossy; pre-encoding PCM is not recovered.",
+    "Director header timing/trim fields and encoder delay/padding are not fully interpreted; output retains all decoded frame samples.",
+    "Decoded transport duration is not claimed to equal historical scheduled playback duration.",
+    "Neither original movie/VM nor audio playback was used."
+  ],
+  "format_references": [
+    "https://github.com/igorlira/dirplayer-rs/blob/68376fbb4494a6bbad4c70081ecdcb99814a74c9/vm-rust/src/director/chunks/media.rs",
+    "https://github.com/igorlira/dirplayer-rs/blob/68376fbb4494a6bbad4c70081ecdcb99814a74c9/vm-rust/src/director/chunks/sound.rs",
+    "https://ffmpeg.org/ffmpeg.html"
+  ],
+  "parser_reused_from": "scripts/research/package-original-door-audio.py",
+  "source_playback": {
+    "handler": "ParentScript 5 - goody.hurt",
+    "call": "playsound(0, \"hurtme\", 8)",
+    "explicit_channel": 8,
+    "replaces_channel_playback": true,
+    "source_volume": 200,
+    "source_pan": 0,
+    "web_audio_gain_adapter": 0.7843137254901961,
+    "positional": false
+  }
+}

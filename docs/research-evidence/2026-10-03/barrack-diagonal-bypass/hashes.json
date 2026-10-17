@@ -1,0 +1,19 @@
+{
+  "docs/research-evidence/2026-10-03/barrack-diagonal-bypass/REPORT.md": "1a30d65794d69dcca7bb858aeaa5635251540bbc22807d2f0a0d26db3bede5ca",
+  "docs/research-evidence/2026-10-03/barrack-diagonal-bypass/inventory-run.log": "0df76c8a72f614e0ea26b7a38fa90d391eacffecdbf0032ae79a36fb74b77188",
+  "docs/research-evidence/2026-10-03/barrack-diagonal-bypass/inventory.json": "ad37d7731c3b39611770507ae0a20ccc04096c847a3d6d584f488740afe1004d",
+  "docs/research-evidence/2026-10-03/barrack-diagonal-bypass/inventory.log": "aae083ca7f833bff29994f401ee213c76d515c98724f42311288cd18e9f71459",
+  "docs/research-evidence/2026-10-03/barrack-diagonal-bypass/inventory.ts": "5665ccf34f9acfd023755680d9501147d7b575c0b66788f7f6dd876363c19b19",
+  "docs/research-evidence/2026-10-03/barrack-diagonal-bypass/record.py": "6105b0d042f2a6190d5a196081412eef4fd0bbe8cce754a19e73be50055d0640",
+  "docs/research-evidence/2026-10-03/barrack-diagonal-bypass/replay.json": "5f7c353f3fb01990c2d837c89ccddea221e3ce727c02b2c6533b09b5b06d0713",
+  "docs/research-evidence/2026-10-03/barrack-diagonal-bypass/replay.log": "5be9a669ccec9ca4dab24447689de3a506655fcdb9f356b0fe8ea79fd6dd4566",
+  "docs/research-evidence/2026-10-03/barrack-diagonal-bypass/replay.ts": "7a2c99c2b3b2c33629c2fd1a169a806e2f192fbc535049087971c7d68d7ed25c",
+  "docs/research-evidence/2026-10-03/barrack-diagonal-bypass/summary.json": "1d25fc503a3c2d2a0cbd0e2b94b2fc9519250decb479bfa55f0ef0658e91bb8e",
+  "shared/originalMapProfile.ts": "0ba668f15dda6d1f5314f58310a2ea174a70d18c2df51267163d521303da0da3",
+  "shared/originalPlayerPhysics.ts": "27679579fc5cd250fe588b231ac6e88e6cd30b96ba673f583d3cae0f980fdcbf",
+  "shared/originalDoorWorld.ts": "547f14d06a68b4c3d5e71bac60c3f48794e8ea45cb112b1ba863dc87a17acc29",
+  "shared/originalSceneGeometry.ts": "56397c99ae1b8ebd935369ae3b1a519474802107943426292513dd1e86428e1d",
+  "shared/originalExplosives.ts": "b2983fe87ee91fbe0b66270049078e1053ce394523956974b37615485dd51cb2",
+  "public/assets/original-scenes/barrack/scene.json": "7b252e098959f98a872850551fdf8f52e5b7e1b5ea79dfa6af21b841f0d31ad3",
+  "public/assets/original-scenes/barrack/doors.json": "31fd470230a100fa7f7b6d83c0ad89a78ad77b5555de7739af33ec9bbd7ccd8e"
+}

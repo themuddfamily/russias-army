@@ -1,0 +1,21 @@
+{
+  "docs/research-evidence/2026-10-03/barrack-support-route/REPORT.md": "c29950f7db86af1c7ff8769f5353d2d0c3de625781d10bbb1f480a3d4e86dcdb",
+  "docs/research-evidence/2026-10-03/barrack-support-route/inspection.json": "56df6696cf3ac91c2f4e087f92470da396e884f7e12d72a39447e1d90cf02e93",
+  "docs/research-evidence/2026-10-03/barrack-support-route/replay.log": "edc03cb991655906fa70e99d5b8058383f320aa2d854c2632c5787e1937a798a",
+  "docs/research-evidence/2026-10-03/barrack-support-route/support-witnesses.json": "c23c6124cfd431b961fd661b88d71836398cde9cab00a8d130b4146e632a2765",
+  "docs/research-evidence/2026-10-03/barrack-support-route/verify.ts": "fd2e6199befcf3f040a5a6b2c18070f39e16e6beca60734e5f5bcd512bc0a592",
+  "docs/research-evidence/2026-10-03/barrack-support-route/verification.log": "c272bd6f17963198bbeabe17f0121497d5b102d42d635f943598062d19c12ef5",
+  "docs/research-evidence/2026-10-03/barrack-support-route/inspect.ts": "0bdfd8d9374aa80fbf13500b3d4cc855d01baa460988e853ca3997d74a80ba41",
+  "docs/research-evidence/2026-10-03/barrack-support-route/witnesses.log": "75f03f1ef25f325ca64241b0690b2e85dd512707c4b6e9734929151167a92d17",
+  "docs/research-evidence/2026-10-03/barrack-support-route/inspection.log": "85ede264338c55308033888d935b9ae7c9ff41b3976d9144ab7f61341ef237dd",
+  "docs/research-evidence/2026-10-03/barrack-support-route/verification.json": "3bea2166007a6a588d7566f841bd622bd8fc9e422d68d993fad097c16c2e421c",
+  "docs/research-evidence/2026-10-03/barrack-support-route/replay.ts": "eeb84ba50ac47b7e4e12afa854d9c1453efaa9c2b240183ae35e23fdaa79544e",
+  "docs/research-evidence/2026-10-03/barrack-support-route/witnesses.py": "eda616020c12bb06b36722b08298b793cbdf9384becd229acff2c6d0dc3fcfdb",
+  "docs/research-evidence/2026-10-03/barrack-support-route/replay.json": "ac4e4cc359cd0ad8b158cfd7fd88fa0750901dacae27ce7a857b9cf892659ef3",
+  "docs/research-evidence/2026-10-03/barrack-stair-gap-inventory/inventory.json": "639e3e09e351b190b89744959ecf75e4e62d89a4c27ec0991c4a6de199e9f120",
+  "public/assets/original-scenes/barrack/scene.json": "7b252e098959f98a872850551fdf8f52e5b7e1b5ea79dfa6af21b841f0d31ad3",
+  "shared/originalPlayerPhysics.ts": "27679579fc5cd250fe588b231ac6e88e6cd30b96ba673f583d3cae0f980fdcbf",
+  "shared/originalSceneGeometry.ts": "56397c99ae1b8ebd935369ae3b1a519474802107943426292513dd1e86428e1d",
+  "shared/originalExplosives.ts": "b2983fe87ee91fbe0b66270049078e1053ce394523956974b37615485dd51cb2",
+  "shared/originalMapProfile.ts": "0ba668f15dda6d1f5314f58310a2ea174a70d18c2df51267163d521303da0da3"
+}

@@ -1,0 +1,156 @@
+{
+  "files": [
+    {
+      "path": "barrack-level1/000684-ffffff96.bin",
+      "bytes": 62,
+      "sha256": "26abbf35c9b0a9e48114f506c0dc7719424972b0008e13332031353e5a5fc4d6"
+    },
+    {
+      "path": "barrack-level1/000900-ffffff96.bin",
+      "bytes": 62,
+      "sha256": "0436370f9a44607139fb47d37c18eca4f471720f1d4a58ebc1263cb3a407fdb1"
+    },
+    {
+      "path": "barrack-level1/001116-ffffff96.bin",
+      "bytes": 62,
+      "sha256": "817e02e5edb476bc4ee5d850427834010b088c0aef9d10cd51fe27308946ada8"
+    },
+    {
+      "path": "barrack-level1/001336-ffffff96.bin",
+      "bytes": 64,
+      "sha256": "438ad7edee3fd70c3ee9f14aa6f97e467ae13284dc148de4460d9ccb46d8622b"
+    },
+    {
+      "path": "barrack-level1/002120-ffffff96.bin",
+      "bytes": 62,
+      "sha256": "fde1847d9f3c43a014bcc66987638eb13dce76e9ccc2cccf61393dd01fd9cf44"
+    },
+    {
+      "path": "barrack-level1/002468-ffffff96.bin",
+      "bytes": 62,
+      "sha256": "14048c4c0e84dfca73d0ea8166ec6d36952e162eba613eb0fe9ddfbbf80d5eb3"
+    },
+    {
+      "path": "barrack-level1/002684-ffffff96.bin",
+      "bytes": 62,
+      "sha256": "7f53deedbf62d1cf02933c3efe8250fb4724674c1584ffdfc053abe29c73951a"
+    },
+    {
+      "path": "barrack-level1/002900-ffffff96.bin",
+      "bytes": 62,
+      "sha256": "867e09f3f66e08064c0632e043c3dd305c91787bea7f868a93870d7cbab5b575"
+    },
+    {
+      "path": "barrack-level1/003116-ffffff96.bin",
+      "bytes": 62,
+      "sha256": "8c1b3870c76505910349b904b92d79da9e06f3c5c054e6831894fc261714f0e6"
+    },
+    {
+      "path": "barrack-level1/003856-ffffff96.bin",
+      "bytes": 62,
+      "sha256": "603901126aaa03ec172f3a34a587e703df0cf75d52addd17e101ae69bb796580"
+    },
+    {
+      "path": "barrack-level1/004072-ffffff96.bin",
+      "bytes": 62,
+      "sha256": "35195b263d2dc063afac4945089b307ac601193baaacb52bfc486e2622b82e57"
+    },
+    {
+      "path": "barrack-level1/004288-ffffff96.bin",
+      "bytes": 62,
+      "sha256": "0c3231fa7ca2fdbd60888ecd042f2c7059a581da3849061db7d3468ef31f11e3"
+    },
+    {
+      "path": "barrack-level1/004500-ffffff96.bin",
+      "bytes": 60,
+      "sha256": "af9ebdc506e667e4aa0d5dc9c6f21df682b548560802fad109052efa6e90409c"
+    },
+    {
+      "path": "barrack-level1/018656-ffffff67.bin",
+      "bytes": 141,
+      "sha256": "64252e830ceb55d59e0c6348a094b02ceaea0622aa4b14b3ac6081d887a226ba"
+    },
+    {
+      "path": "barrack-level1/018940-ffffff67.bin",
+      "bytes": 141,
+      "sha256": "c907c696dfc93c8fa30beafa5d1926c90ae0b6deca84dcbd41b9b9a696c82360"
+    },
+    {
+      "path": "barrack-level1/019232-ffffff67.bin",
+      "bytes": 141,
+      "sha256": "b26cb04416b6f5f2c85fef9a41250a3c60d5eb8219434553ecf7723f240cf0e8"
+    },
+    {
+      "path": "barrack-level1/019524-ffffff67.bin",
+      "bytes": 143,
+      "sha256": "d93be6011235825bc05b2afb2e5052c973bf1b73103d1d9f7cc26c6f829165d7"
+    },
+    {
+      "path": "barrack-level1/019828-ffffff67.bin",
+      "bytes": 285,
+      "sha256": "4334f3d3958da990ca4a6a36d43377cf08425d8936f29a446aa1fb5a04748eb9"
+    },
+    {
+      "path": "barrack-level1/020276-ffffff67.bin",
+      "bytes": 280,
+      "sha256": "1e36c9bf849be50f85dbc109c3859e2adbb6c2c167a2be22a0c783176e555a4d"
+    },
+    {
+      "path": "barrack-level1/020716-ffffff67.bin",
+      "bytes": 290,
+      "sha256": "d19e035dc5e11b220b762e388e8e4b578f036429949d26912f749c34c1694def"
+    },
+    {
+      "path": "barrack-level1/021168-ffffff67.bin",
+      "bytes": 279,
+      "sha256": "3e779931cf742fd057d5822943152db6969d2046034781610454c538948a7ef0"
+    },
+    {
+      "path": "barrack-level1/021608-ffffff67.bin",
+      "bytes": 286,
+      "sha256": "a5a7876ad0e94d9c424a167957bbff8060cfb093b3dbe58978c3dc6f8d8fe28d"
+    },
+    {
+      "path": "barrack-level1/022060-ffffff67.bin",
+      "bytes": 362,
+      "sha256": "13c6a0fc8aaec9e8b5f9a8ef0bdcdc0b88a067b5b2f7d5de2f62a5653a03c325"
+    },
+    {
+      "path": "barrack-level1/022580-ffffff67.bin",
+      "bytes": 141,
+      "sha256": "ee4d47878f9e3600b4766768b50f72da17d6a765d1bc67af9d04257eb68a4fd1"
+    },
+    {
+      "path": "barrack-level1/022892-ffffff67.bin",
+      "bytes": 141,
+      "sha256": "e39881d996e8af6b9190459a482e6f994d82fdd9121f8a73a9a4052707d685f7"
+    },
+    {
+      "path": "barrack-level1/023200-ffffff67.bin",
+      "bytes": 156,
+      "sha256": "d379d5413153a9fb8ae0336634552aff5e498ec00007b36f6d0b6cfdc95b78e5"
+    },
+    {
+      "path": "barrack-level1/door-tracks.json",
+      "bytes": 339863,
+      "sha256": "7720c8beabba1e4f08dcc311e2f4e1d35c53983b73b6155b7ff3eb79dff9b2a8"
+    },
+    {
+      "path": "barrack-level1/full-map-motions.json",
+      "bytes": 136340,
+      "sha256": "cd5557e96b088f0c99fc8280e7cde060e3066bd7e9678d80113d836c11f4125c"
+    },
+    {
+      "path": "woodland-level2/door-tracks.json",
+      "bytes": 531,
+      "sha256": "55abb5686f2aab83d1a0ed05b5fdf81686de39b5ade6f54c318d6f144e4a9d9d"
+    },
+    {
+      "path": "woodland-level2/full-map-motions.json",
+      "bytes": 34,
+      "sha256": "fc273932638f9f75b969111805f0522daf76e7b8abf86484e901b87065eba3b4"
+    }
+  ],
+  "source_parser_commit": "68376fbb4494a6bbad4c70081ecdcb99814a74c9",
+  "mode": "static parsing, no runtime execution"
+}

@@ -1,0 +1,192 @@
+{
+  "source_repository": "https://github.com/igorlira/dirplayer-rs",
+  "source_commit": "68376fbb4494a6bbad4c70081ecdcb99814a74c9",
+  "toolchain": "Rust stable 1.98.1",
+  "adapter": "Standalone IFX parse/CLOD/glTF utility; static Symbol shim, diagnostics enabled, unreferenced synthetic defaultmodel excluded; no VM linked/executed",
+  "casts": [
+    {
+      "cast": "woodland-baddy",
+      "source_xmed_sha256": "c6dfe68c0bd1929c69e2fc8877cadf2f798c104899191a0795bb28821e7e8cc0",
+      "files": [
+        {
+          "file": "woodland-baddy/scene.glb",
+          "bytes": 53492,
+          "sha256": "f66e2c8bc95510cfaf88e635c5f263ef1a679d69d2c272a616c58fe855f148d4"
+        },
+        {
+          "file": "woodland-baddy/parse.log",
+          "bytes": 2312,
+          "sha256": "1cdf885aa7d43220e8fe50be1f19469a1b39080e18f4f5bb2658e71cda0ab87c"
+        },
+        {
+          "file": "woodland-baddy/geometry.json",
+          "bytes": 137219,
+          "sha256": "23ae37fa555905ae71973fd1f314857939769d119f8effb4f224168b1c0c9add"
+        },
+        {
+          "file": "woodland-baddy/validation.json",
+          "bytes": 1029,
+          "sha256": "4c3e066123e0e3d452e177ef39944d624f73dd364e6f3691d20c1bd61ff255e0"
+        }
+      ],
+      "validation_failures": [],
+      "vertices": 742,
+      "faces": 832,
+      "parse_errors": [
+        "[W3D-PARSER] Block 13 parse error: W3dBlockReader: read_ifx_string len=58112 at 107, data_len=1383"
+      ]
+    },
+    {
+      "cast": "barrack-baddy",
+      "source_xmed_sha256": "c6dfe68c0bd1929c69e2fc8877cadf2f798c104899191a0795bb28821e7e8cc0",
+      "files": [
+        {
+          "file": "barrack-baddy/scene.glb",
+          "bytes": 53492,
+          "sha256": "f66e2c8bc95510cfaf88e635c5f263ef1a679d69d2c272a616c58fe855f148d4"
+        },
+        {
+          "file": "barrack-baddy/parse.log",
+          "bytes": 2312,
+          "sha256": "1cdf885aa7d43220e8fe50be1f19469a1b39080e18f4f5bb2658e71cda0ab87c"
+        },
+        {
+          "file": "barrack-baddy/geometry.json",
+          "bytes": 137219,
+          "sha256": "23ae37fa555905ae71973fd1f314857939769d119f8effb4f224168b1c0c9add"
+        },
+        {
+          "file": "barrack-baddy/validation.json",
+          "bytes": 1029,
+          "sha256": "4c3e066123e0e3d452e177ef39944d624f73dd364e6f3691d20c1bd61ff255e0"
+        }
+      ],
+      "validation_failures": [],
+      "vertices": 742,
+      "faces": 832,
+      "parse_errors": [
+        "[W3D-PARSER] Block 13 parse error: W3dBlockReader: read_ifx_string len=58112 at 107, data_len=1383"
+      ]
+    },
+    {
+      "cast": "barrack-level1",
+      "source_xmed_sha256": "aca35459b308b63678f7a70f06d13ab1a724edd21aaff2a62150ded7df403657",
+      "files": [
+        {
+          "file": "barrack-level1/scene.glb",
+          "bytes": 2621348,
+          "sha256": "d3c6644802c1876c652900c721f98ffe44380ebd03f29431262e5e73878bdade"
+        },
+        {
+          "file": "barrack-level1/parse.log",
+          "bytes": 68049,
+          "sha256": "a10e6092a210295f6ce2f4cfaeb4a52daf51ee00af937f475c1c8372236be987"
+        },
+        {
+          "file": "barrack-level1/geometry.json",
+          "bytes": 6030618,
+          "sha256": "2821fb76abb8f67dc06d40e2eb22456aba1c5f684fd8dad7c54d34e577241331"
+        },
+        {
+          "file": "barrack-level1/validation.json",
+          "bytes": 62493,
+          "sha256": "173cb14ed321132b16fb16b728e3585f3cac75208089f090729bb95ecdfe44e0"
+        }
+      ],
+      "validation_failures": [],
+      "vertices": 39637,
+      "faces": 24017,
+      "parse_errors": []
+    },
+    {
+      "cast": "woodland-gunz",
+      "source_xmed_sha256": "c1cae7dcc06db22c605f10754e156ddf7bb186efad70caf10f008e4bca616336",
+      "files": [
+        {
+          "file": "woodland-gunz/scene.glb",
+          "bytes": 313076,
+          "sha256": "22528548f68e9bc4f409d843f9d5ee5ac142eabe5463b1416bdce561170980ca"
+        },
+        {
+          "file": "woodland-gunz/parse.log",
+          "bytes": 10882,
+          "sha256": "d877b3dc1ec9922e5937e13e937325dd02b6cb19c0fb52d05dc04a641f21ea19"
+        },
+        {
+          "file": "woodland-gunz/geometry.json",
+          "bytes": 688561,
+          "sha256": "5e4d1a08041f5cc13fa2e26558b409085fc81257accf6e74be6c47a4ef86d461"
+        },
+        {
+          "file": "woodland-gunz/validation.json",
+          "bytes": 8336,
+          "sha256": "12ba1d3781251cd6aaad4e3ec67435da557cd92db3fe4d8290b80a4c3eb1639f"
+        }
+      ],
+      "validation_failures": [],
+      "vertices": 4707,
+      "faces": 2902,
+      "parse_errors": []
+    },
+    {
+      "cast": "barrack-gunz",
+      "source_xmed_sha256": "c1cae7dcc06db22c605f10754e156ddf7bb186efad70caf10f008e4bca616336",
+      "files": [
+        {
+          "file": "barrack-gunz/scene.glb",
+          "bytes": 313076,
+          "sha256": "01383f42068c63c6e13361042648a414c66c482855ab5ac035ab4bbaa5d94f60"
+        },
+        {
+          "file": "barrack-gunz/parse.log",
+          "bytes": 10882,
+          "sha256": "d877b3dc1ec9922e5937e13e937325dd02b6cb19c0fb52d05dc04a641f21ea19"
+        },
+        {
+          "file": "barrack-gunz/geometry.json",
+          "bytes": 688561,
+          "sha256": "b16119d48f0e13e1876185899f02430f9144fb148ba04a911d6d76217c74195a"
+        },
+        {
+          "file": "barrack-gunz/validation.json",
+          "bytes": 8336,
+          "sha256": "ab89e1b5a09a11312f74f12cda2ec6877b697c1bf1aa8a26e10a65db2f30815f"
+        }
+      ],
+      "validation_failures": [],
+      "vertices": 4707,
+      "faces": 2902,
+      "parse_errors": []
+    },
+    {
+      "cast": "woodland-level2",
+      "source_xmed_sha256": "884d37a314b1ae150be05c1f2a30fb7ef6e20b4c25e047022e5e51e0911f6e6e",
+      "files": [
+        {
+          "file": "woodland-level2/scene.glb",
+          "bytes": 2296296,
+          "sha256": "09cb36677f273c2faff05ba17e2e1a8a933865c37edfae84217e41b93026f25e"
+        },
+        {
+          "file": "woodland-level2/parse.log",
+          "bytes": 24978,
+          "sha256": "ac5337d74f9c23f42595aecd572dd30c242ee477999ee293650141d99da7c2b0"
+        },
+        {
+          "file": "woodland-level2/geometry.json",
+          "bytes": 5795921,
+          "sha256": "c7fd5b2641eb213fcb95987fd0622c2b56970621141e8aa1bc5868f2481b1514"
+        },
+        {
+          "file": "woodland-level2/validation.json",
+          "bytes": 16937,
+          "sha256": "138974ca728efe080206dc2c8b9ce7e37834dfb858b6fd816c3491fd56c13a96"
+        }
+      ],
+      "validation_failures": [],
+      "vertices": 35257,
+      "faces": 24257,
+      "parse_errors": []
+    }
+  ]
+}

@@ -1,0 +1,7470 @@
+{
+  "scope": "Continuous shared source-derived controls and physics from real recovered settled spawn3; no dynamic barrels, browser, original runtime or footage equivalence",
+  "sourceSpawn": {
+    "position": [
+      3810,
+      -1686,
+      411
+    ],
+    "rotation": [
+      4,
+      0,
+      -2210
+    ]
+  },
+  "spawns": [
+    {
+      "x": 6.070588235294118,
+      "y": -6.900487121331835e-8,
+      "z": 11.392470588235295
+    },
+    {
+      "x": -101.45976470588236,
+      "y": -7.830859593033304e-8,
+      "z": -57.36705882352941
+    },
+    {
+      "x": -80.77929411764707,
+      "y": 1.3050315400563784e-7,
+      "z": 112.60941176470588
+    },
+    {
+      "x": 77.15026989080883,
+      "y": 6.560089044879744,
+      "z": 34.116705882352946
+    },
+    {
+      "x": 62.243764705882356,
+      "y": 8.13081438209361,
+      "z": -43.64752941176471
+    },
+    {
+      "x": -3.9054117647058826,
+      "y": 9.55437404497932,
+      "z": 55.60658823529412
+    }
+  ],
+  "rampPair": [
+    18,
+    43
+  ],
+  "door": "door open 5",
+  "waypoints": [
+    {
+      "name": "southward edge-lane probe",
+      "x": 77.12,
+      "z": 36
+    }
+  ],
+  "status": "completed",
+  "callbacks": 10,
+  "queries": 3289,
+  "segments": [
+    {
+      "target": {
+        "name": "southward edge-lane probe",
+        "x": 77.12,
+        "z": 36
+      },
+      "begin": 0,
+      "end": 10,
+      "reached": true,
+      "final": {
+        "x": 77.12058147741624,
+        "y": 7.067822642351828,
+        "z": 35.96382236710272
+      },
+      "minDistance": 0.3103455215714369
+    }
+  ],
+  "trace": [
+    {
+      "callback": 0,
+      "target": "southward edge-lane probe",
+      "position": {
+        "x": 77.15026989080883,
+        "y": 7.066158027378533,
+        "z": 34.116705882352946
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0.003679144384658828,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.8835373635406265
+    },
+    {
+      "callback": 1,
+      "target": "southward edge-lane probe",
+      "position": {
+        "x": 77.1490682889857,
+        "y": 7.066342984597789,
+        "z": 34.19146563816246
+      },
+      "velocity": {
+        "x": -0.023739359428484104,
+        "y": 0.0036791443850062167,
+        "z": 1.4769857034085803
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.8087679517759223
+    },
+    {
+      "callback": 2,
+      "target": "southward edge-lane probe",
+      "position": {
+        "x": 77.14697646118401,
+        "y": 7.066527941817045,
+        "z": 34.3216123578498
+      },
+      "velocity": {
+        "x": -0.041543878999847725,
+        "y": 0.0036791443850227867,
+        "z": 2.5847249809650488
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.6786044223641603
+    },
+    {
+      "callback": 3,
+      "target": "southward edge-lane probe",
+      "position": {
+        "x": 77.14421696389839,
+        "y": 7.0667128990362995,
+        "z": 34.49329930044551
+      },
+      "velocity": {
+        "x": -0.05489726867837237,
+        "y": 0.0036791443850741692,
+        "z": 3.4155294391323943
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.506895304717104
+    },
+    {
+      "callback": 4,
+      "target": "southward edge-lane probe",
+      "position": {
+        "x": 77.14095671449982,
+        "y": 7.0668978562555544,
+        "z": 34.69614141022248
+      },
+      "velocity": {
+        "x": -0.06491231093726398,
+        "y": 0.003679144385026742,
+        "z": 4.038632782757917
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.304026995893585
+    },
+    {
+      "callback": 5,
+      "target": "southward edge-lane probe",
+      "position": {
+        "x": 77.13732090101655,
+        "y": 7.067082813474809,
+        "z": 34.922349895385416
+      },
+      "velocity": {
+        "x": -0.07242359263143328,
+        "y": 0.0036791443850268182,
+        "z": 4.505960290477053
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.0777892936877083
+    },
+    {
+      "callback": 6,
+      "target": "southward edge-lane probe",
+      "position": {
+        "x": 77.13340341446975,
+        "y": 7.067267770694064,
+        "z": 35.16608316208782
+      },
+      "velocity": {
+        "x": -0.07805705390206427,
+        "y": 0.003679144385026742,
+        "z": 4.856455921266407
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.8340245464450626
+    },
+    {
+      "callback": 7,
+      "target": "southward edge-lane probe",
+      "position": {
+        "x": 77.1292746731253,
+        "y": 7.06745272791332,
+        "z": 35.42296001494483
+      },
+      "velocity": {
+        "x": -0.08228214985505425,
+        "y": 0.0036791443850188454,
+        "z": 5.11932764435842
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.577114515424846
+    },
+    {
+      "callback": 8,
+      "target": "southward edge-lane probe",
+      "position": {
+        "x": 77.1249874906826,
+        "y": 7.067637685132575,
+        "z": 35.689694557417795
+      },
+      "velocity": {
+        "x": -0.08545097181979189,
+        "y": 0.0036791443850266517,
+        "z": 5.316481436677429
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.3103455215714369
+    },
+    {
+      "callback": 9,
+      "target": "southward edge-lane probe",
+      "position": {
+        "x": 77.12058147741624,
+        "y": 7.067822642351828,
+        "z": 35.96382236710272
+      },
+      "velocity": {
+        "x": -0.08782758829333563,
+        "y": 0.003679144385102452,
+        "z": 5.464346780916681
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.03618230559314599
+    }
+  ],
+  "contactEvents": [
+    {
+      "callback": 0,
+      "substepIndex": 0,
+      "iteration": 0,
+      "time": 0,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.15026989080883,
+          "y": 6.560089044879745,
+          "z": 34.116705882352946
+        },
+        "b": {
+          "x": 77.15026989080883,
+          "y": 6.560089044879744,
+          "z": 34.116705882352946
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": 0,
+          "y": -0.04047058823529412,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": 0,
+          "y": 0.0040470588235294175,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": 0,
+          "y": 0.0040470588235294175,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 0,
+      "substepIndex": 1,
+      "iteration": 0,
+      "time": 0.005,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.15026989080883,
+          "y": 6.560109380173863,
+          "z": 34.116705882352946
+        },
+        "b": {
+          "x": 77.15026989080883,
+          "y": 6.560089044879744,
+          "z": 34.116705882352946
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": 0,
+          "y": -0.0364235294117647,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": 0,
+          "y": 0.0036423529411764716,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": 0,
+          "y": 0.0036423529411764716,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 0,
+      "substepIndex": 2,
+      "iteration": 0,
+      "time": 0.01,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.15026989080883,
+          "y": 6.560127691938569,
+          "z": 34.116705882352946
+        },
+        "b": {
+          "x": 77.15026989080883,
+          "y": 6.560089044879744,
+          "z": 34.116705882352946
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": 0,
+          "y": -0.03682823529411765,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": 0,
+          "y": 0.003682823529411766,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": 0,
+          "y": 0.003682823529411766,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 0,
+      "substepIndex": 3,
+      "iteration": 0,
+      "time": 0.015,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.15026989080883,
+          "y": 6.560146206056216,
+          "z": 34.116705882352946
+        },
+        "b": {
+          "x": 77.15026989080883,
+          "y": 6.560089044879744,
+          "z": 34.116705882352946
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": 0,
+          "y": -0.03678776470588235,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": 0,
+          "y": 0.0036787764705882367,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": 0,
+          "y": 0.0036787764705882367,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 0,
+      "substepIndex": 4,
+      "iteration": 0,
+      "time": 0.02,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.15026989080883,
+          "y": 6.56016469993857,
+          "z": 34.116705882352946
+        },
+        "b": {
+          "x": 77.15026989080883,
+          "y": 6.560089044879744,
+          "z": 34.116705882352946
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": 0,
+          "y": -0.03679181176470588,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": 0,
+          "y": 0.0036791811764705917,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": 0,
+          "y": 0.0036791811764705917,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 0,
+      "substepIndex": 5,
+      "iteration": 0,
+      "time": 0.025,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.15026989080883,
+          "y": 6.560183195844452,
+          "z": 34.116705882352946
+        },
+        "b": {
+          "x": 77.15026989080883,
+          "y": 6.560089044879744,
+          "z": 34.116705882352946
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": 0,
+          "y": -0.03679140705882353,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": 0,
+          "y": 0.003679140705882357,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": 0,
+          "y": 0.003679140705882357,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 0,
+      "substepIndex": 6,
+      "iteration": 0,
+      "time": 0.03,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.15026989080883,
+          "y": 6.560201691547982,
+          "z": 34.116705882352946
+        },
+        "b": {
+          "x": 77.15026989080883,
+          "y": 6.560089044879744,
+          "z": 34.116705882352946
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": 0,
+          "y": -0.03679144752941176,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": 0,
+          "y": 0.003679144752941177,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": 0,
+          "y": 0.003679144752941177,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 0,
+      "substepIndex": 7,
+      "iteration": 0,
+      "time": 0.035,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.15026989080883,
+          "y": 6.560220187271747,
+          "z": 34.116705882352946
+        },
+        "b": {
+          "x": 77.15026989080883,
+          "y": 6.560089044879744,
+          "z": 34.116705882352946
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": 0,
+          "y": -0.03679144348235294,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": 0,
+          "y": 0.003679144348235297,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": 0,
+          "y": 0.003679144348235297,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 0,
+      "substepIndex": 8,
+      "iteration": 0,
+      "time": 0.04,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.15026989080883,
+          "y": 6.5602386829934884,
+          "z": 34.116705882352946
+        },
+        "b": {
+          "x": 77.15026989080883,
+          "y": 6.560089044879744,
+          "z": 34.116705882352946
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": 0,
+          "y": -0.03679144388705882,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": 0,
+          "y": 0.0036791443887058822,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": 0,
+          "y": 0.0036791443887058822,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 0,
+      "substepIndex": 9,
+      "iteration": 0,
+      "time": 0.045,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.15026989080883,
+          "y": 6.560257178715433,
+          "z": 34.116705882352946
+        },
+        "b": {
+          "x": 77.15026989080883,
+          "y": 6.560089044879744,
+          "z": 34.116705882352946
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": 0,
+          "y": -0.03679144384658824,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": 0,
+          "y": 0.003679144384658828,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": 0,
+          "y": 0.003679144384658828,
+          "z": 0
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 1,
+      "substepIndex": 0,
+      "iteration": 0,
+      "time": 0,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.15026989080883,
+          "y": 6.5602756744373565,
+          "z": 34.116705882352946
+        },
+        "b": {
+          "x": 77.15026989080883,
+          "y": 6.560089044879744,
+          "z": 34.116705882352946
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.024389752837484242,
+          "y": -0.03679144385063529,
+          "z": 1.517451065145837
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.024324713496583633,
+          "y": 0.003679144385063532,
+          "z": 1.5134045289720743
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.024324713496583633,
+          "y": 0.003679144385063532,
+          "z": 1.5134045289720743
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 1,
+      "substepIndex": 1,
+      "iteration": 0,
+      "time": 0.005,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.15014826724135,
+          "y": 6.560294170159282,
+          "z": 34.12427290499781
+        },
+        "b": {
+          "x": 77.15014826724135,
+          "y": 6.560089044879744,
+          "z": 34.12427290499781
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.024324713496583633,
+          "y": -0.03679144385023059,
+          "z": 1.5134045289720743
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.02425967415568374,
+          "y": 0.0036791443850230643,
+          "z": 1.5093579927983563
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.02425967415568374,
+          "y": 0.0036791443850230643,
+          "z": 1.5093579927983563
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 1,
+      "substepIndex": 2,
+      "iteration": 0,
+      "time": 0.01,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.15002696887058,
+          "y": 6.560312665881208,
+          "z": 34.1318196949618
+        },
+        "b": {
+          "x": 77.15002696887058,
+          "y": 6.560089044879744,
+          "z": 34.1318196949618
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.02425967415568374,
+          "y": -0.036791443850271055,
+          "z": 1.5093579927983563
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.024194634814783775,
+          "y": 0.0036791443850271097,
+          "z": 1.5053114566246335
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.024194634814783775,
+          "y": 0.0036791443850271097,
+          "z": 1.5053114566246335
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 1,
+      "substepIndex": 3,
+      "iteration": 0,
+      "time": 0.015,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": -1.4038893164580895e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.1499059956965,
+          "y": 6.560331161603133,
+          "z": 34.13934625224493
+        },
+        "b": {
+          "x": 77.1499059956965,
+          "y": 6.560089044879744,
+          "z": 34.13934625224493
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.024194634814783775,
+          "y": -0.03679144385026701,
+          "z": 1.5053114566246335
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.02412959547388378,
+          "y": 0.003679144385049897,
+          "z": 1.5012649204509083
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.02412959547388378,
+          "y": 0.003679144385049897,
+          "z": 1.5012649204509083
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 1,
+      "substepIndex": 4,
+      "iteration": 0,
+      "time": 0.02,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14978534771913,
+          "y": 6.560349657325059,
+          "z": 34.146852576847174
+        },
+        "b": {
+          "x": 77.14978534771913,
+          "y": 6.560089044879744,
+          "z": 34.146852576847174
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.02412959547388378,
+          "y": -0.03679144385024422,
+          "z": 1.5012649204509083
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.02406455613298386,
+          "y": 0.0036791443850244243,
+          "z": 1.4972183842771887
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.02406455613298386,
+          "y": 0.0036791443850244243,
+          "z": 1.4972183842771887
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 1,
+      "substepIndex": 5,
+      "iteration": 0,
+      "time": 0.025,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14966502493847,
+          "y": 6.560368153046984,
+          "z": 34.15433866876856
+        },
+        "b": {
+          "x": 77.14966502493847,
+          "y": 6.560089044879744,
+          "z": 34.15433866876856
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.02406455613298386,
+          "y": -0.036791443850269695,
+          "z": 1.4972183842771887
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.0239995167920839,
+          "y": 0.003679144385026971,
+          "z": 1.4931718481034661
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.0239995167920839,
+          "y": 0.003679144385026971,
+          "z": 1.4931718481034661
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 1,
+      "substepIndex": 6,
+      "iteration": 0,
+      "time": 0.03,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.1495450273545,
+          "y": 6.56038664876891,
+          "z": 34.16180452800908
+        },
+        "b": {
+          "x": 77.1495450273545,
+          "y": 6.560089044879744,
+          "z": 34.16180452800908
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.0239995167920839,
+          "y": -0.03679144385026715,
+          "z": 1.4931718481034661
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.023934477451183944,
+          "y": 0.003679144385026721,
+          "z": 1.4891253119297438
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.023934477451183944,
+          "y": 0.003679144385026721,
+          "z": 1.4891253119297438
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 1,
+      "substepIndex": 7,
+      "iteration": 0,
+      "time": 0.035,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14942535496725,
+          "y": 6.560405144490836,
+          "z": 34.16925015456873
+        },
+        "b": {
+          "x": 77.14942535496725,
+          "y": 6.560089044879744,
+          "z": 34.16925015456873
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.023934477451183944,
+          "y": -0.0367914438502674,
+          "z": 1.4891253119297438
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.023869438110283987,
+          "y": 0.003679144385026742,
+          "z": 1.4850787757560215
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.023869438110283987,
+          "y": 0.003679144385026742,
+          "z": 1.4850787757560215
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 1,
+      "substepIndex": 8,
+      "iteration": 0,
+      "time": 0.04,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 1.4036328459220868e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.1493060077767,
+          "y": 6.560423640212761,
+          "z": 34.176675548447506
+        },
+        "b": {
+          "x": 77.1493060077767,
+          "y": 6.560089044879744,
+          "z": 34.176675548447506
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.023869438110283987,
+          "y": -0.03679144385026738,
+          "z": 1.4850787757560215
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.023804398769384064,
+          "y": 0.0036791443850038644,
+          "z": 1.4810322395823021
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.023804398769384064,
+          "y": 0.0036791443850038644,
+          "z": 1.4810322395823021
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 1,
+      "substepIndex": 9,
+      "iteration": 0,
+      "time": 0.045,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 1.4035815630593167e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14918698578285,
+          "y": 6.560442135934687,
+          "z": 34.184080709645414
+        },
+        "b": {
+          "x": 77.14918698578285,
+          "y": 6.560089044879744,
+          "z": 34.184080709645414
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.023804398769384064,
+          "y": -0.036791443850290255,
+          "z": 1.4810322395823021
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.023739359428484104,
+          "y": 0.0036791443850062167,
+          "z": 1.4769857034085803
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.023739359428484104,
+          "y": 0.0036791443850062167,
+          "z": 1.4769857034085803
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 2,
+      "substepIndex": 0,
+      "iteration": 0,
+      "time": 0,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.1490682889857,
+          "y": 6.560460631656612,
+          "z": 34.19146563816246
+        },
+        "b": {
+          "x": 77.1490682889857,
+          "y": 6.560089044879744,
+          "z": 34.19146563816246
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.04219427240884732,
+          "y": -0.0367914438502879,
+          "z": 2.6251903427022723
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.04212923306794733,
+          "y": 0.003679144385028796,
+          "z": 2.621143806528548
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.04212923306794733,
+          "y": 0.003679144385028796,
+          "z": 2.621143806528548
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 2,
+      "substepIndex": 1,
+      "iteration": 0,
+      "time": 0.005,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14885764282036,
+          "y": 6.560479127378538,
+          "z": 34.20457135719511
+        },
+        "b": {
+          "x": 77.14885764282036,
+          "y": 6.560089044879744,
+          "z": 34.20457135719511
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.04212923306794733,
+          "y": -0.036791443850265323,
+          "z": 2.621143806528548
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.04206419372704737,
+          "y": 0.0036791443850265337,
+          "z": 2.617097270354826
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.04206419372704737,
+          "y": 0.0036791443850265337,
+          "z": 2.617097270354826
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 2,
+      "substepIndex": 2,
+      "iteration": 0,
+      "time": 0.01,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14864732185173,
+          "y": 6.5604976231004635,
+          "z": 34.217656843546884
+        },
+        "b": {
+          "x": 77.14864732185173,
+          "y": 6.560089044879744,
+          "z": 34.217656843546884
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.04206419372704737,
+          "y": -0.036791443850267586,
+          "z": 2.617097270354826
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.041999154386147416,
+          "y": 0.0036791443850267627,
+          "z": 2.613050734181104
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.041999154386147416,
+          "y": 0.0036791443850267627,
+          "z": 2.613050734181104
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 2,
+      "substepIndex": 3,
+      "iteration": 0,
+      "time": 0.015,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.1484373260798,
+          "y": 6.560516118822389,
+          "z": 34.230722097217786
+        },
+        "b": {
+          "x": 77.1484373260798,
+          "y": 6.560089044879744,
+          "z": 34.230722097217786
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.041999154386147416,
+          "y": -0.03679144385026736,
+          "z": 2.613050734181104
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.04193411504524746,
+          "y": 0.003679144385026742,
+          "z": 2.6090041980073817
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.04193411504524746,
+          "y": 0.003679144385026742,
+          "z": 2.6090041980073817
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 2,
+      "substepIndex": 4,
+      "iteration": 0,
+      "time": 0.02,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14822765550457,
+          "y": 6.560534614544315,
+          "z": 34.24376711820782
+        },
+        "b": {
+          "x": 77.14822765550457,
+          "y": 6.560089044879744,
+          "z": 34.24376711820782
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.04193411504524746,
+          "y": -0.03679144385026738,
+          "z": 2.6090041980073817
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.0418690757043475,
+          "y": 0.003679144385026742,
+          "z": 2.6049576618336596
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.0418690757043475,
+          "y": 0.003679144385026742,
+          "z": 2.6049576618336596
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 2,
+      "substepIndex": 5,
+      "iteration": 0,
+      "time": 0.025,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14801831012605,
+          "y": 6.56055311026624,
+          "z": 34.25679190651699
+        },
+        "b": {
+          "x": 77.14801831012605,
+          "y": 6.560089044879744,
+          "z": 34.25679190651699
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.0418690757043475,
+          "y": -0.03679144385026738,
+          "z": 2.6049576618336596
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.041804036363447546,
+          "y": 0.003679144385026742,
+          "z": 2.6009111256599375
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.041804036363447546,
+          "y": 0.003679144385026742,
+          "z": 2.6009111256599375
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 2,
+      "substepIndex": 6,
+      "iteration": 0,
+      "time": 0.03,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 1.4032226879181103e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14780928994423,
+          "y": 6.560571605988166,
+          "z": 34.26979646214528
+        },
+        "b": {
+          "x": 77.14780928994423,
+          "y": 6.560089044879744,
+          "z": 34.26979646214528
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.041804036363447546,
+          "y": -0.03679144385026738,
+          "z": 2.6009111256599375
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.04173899702254765,
+          "y": 0.003679144384986649,
+          "z": 2.59686458948622
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.04173899702254765,
+          "y": 0.003679144384986649,
+          "z": 2.59686458948622
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 2,
+      "substepIndex": 7,
+      "iteration": 0,
+      "time": 0.035,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14760059495912,
+          "y": 6.560590101710091,
+          "z": 34.28278078509272
+        },
+        "b": {
+          "x": 77.14760059495912,
+          "y": 6.560089044879744,
+          "z": 34.28278078509272
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.04173899702254765,
+          "y": -0.03679144385030747,
+          "z": 2.59686458948622
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.041673957681647625,
+          "y": 0.0036791443850307526,
+          "z": 2.5928180533124934
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.041673957681647625,
+          "y": 0.0036791443850307526,
+          "z": 2.5928180533124934
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 2,
+      "substepIndex": 8,
+      "iteration": 0,
+      "time": 0.04,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": -1.4031201858684384e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.1473922251707,
+          "y": 6.560608597432017,
+          "z": 34.29574487535929
+        },
+        "b": {
+          "x": 77.1473922251707,
+          "y": 6.560089044879744,
+          "z": 34.29574487535929
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.041673957681647625,
+          "y": -0.03679144385026337,
+          "z": 2.5928180533124934
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.04160891834074761,
+          "y": 0.0036791443850663005,
+          "z": 2.588771517138767
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.04160891834074761,
+          "y": 0.0036791443850663005,
+          "z": 2.588771517138767
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 2,
+      "substepIndex": 9,
+      "iteration": 0,
+      "time": 0.045,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.147184180579,
+          "y": 6.5606270931539425,
+          "z": 34.30868873294498
+        },
+        "b": {
+          "x": 77.147184180579,
+          "y": 6.560089044879744,
+          "z": 34.30868873294498
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.04160891834074761,
+          "y": -0.03679144385022782,
+          "z": 2.588771517138767
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.041543878999847725,
+          "y": 0.0036791443850227867,
+          "z": 2.5847249809650488
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.041543878999847725,
+          "y": 0.0036791443850227867,
+          "z": 2.5847249809650488
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 3,
+      "substepIndex": 0,
+      "iteration": 0,
+      "time": 0,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": -1.4030176987927304e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14697646118401,
+          "y": 6.560645588875868,
+          "z": 34.32161235784981
+        },
+        "b": {
+          "x": 77.14697646118401,
+          "y": 6.560089044879744,
+          "z": 34.32161235784981
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.05554766208737205,
+          "y": -0.03679144385027133,
+          "z": 3.4559948008696235
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.055482622746472,
+          "y": 0.003679144385080421,
+          "z": 3.4519482646958948
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.055482622746472,
+          "y": 0.003679144385080421,
+          "z": 3.4519482646958948
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 3,
+      "substepIndex": 1,
+      "iteration": 0,
+      "time": 0.005,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 1.4029664608690873e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14669904807027,
+          "y": 6.560664084597794,
+          "z": 34.33887209917327
+        },
+        "b": {
+          "x": 77.14669904807027,
+          "y": 6.560089044879744,
+          "z": 34.33887209917327
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.055482622746472,
+          "y": -0.0367914438502137,
+          "z": 3.4519482646958948
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.05541758340557222,
+          "y": 0.003679144384968157,
+          "z": 3.4479017285221842
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.05541758340557222,
+          "y": 0.003679144384968157,
+          "z": 3.4479017285221842
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 3,
+      "substepIndex": 2,
+      "iteration": 0,
+      "time": 0.01,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": -1.4029152266877072e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14642196015325,
+          "y": 6.560682580319718,
+          "z": 34.3561116078159
+        },
+        "b": {
+          "x": 77.14642196015325,
+          "y": 6.560089044879744,
+          "z": 34.3561116078159
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.05541758340557222,
+          "y": -0.03679144385032596,
+          "z": 3.4479017285221842
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.05535254406467207,
+          "y": 0.0036791443850857503,
+          "z": 3.4438551923484497
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.05535254406467207,
+          "y": 0.0036791443850857503,
+          "z": 3.4438551923484497
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 3,
+      "substepIndex": 3,
+      "iteration": 0,
+      "time": 0.015,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14614519743293,
+          "y": 6.560701076041644,
+          "z": 34.37333088377763
+        },
+        "b": {
+          "x": 77.14614519743293,
+          "y": 6.560089044879744,
+          "z": 34.37333088377763
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.05535254406467207,
+          "y": -0.03679144385020837,
+          "z": 3.4438551923484497
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.05528750472377222,
+          "y": 0.003679144385020837,
+          "z": 3.439808656174734
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.05528750472377222,
+          "y": 0.003679144385020837,
+          "z": 3.439808656174734
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 3,
+      "substepIndex": 4,
+      "iteration": 0,
+      "time": 0.02,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.1458687599093,
+          "y": 6.56071957176357,
+          "z": 34.39052992705851
+        },
+        "b": {
+          "x": 77.1458687599093,
+          "y": 6.560089044879744,
+          "z": 34.39052992705851
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.05528750472377222,
+          "y": -0.03679144385027328,
+          "z": 3.439808656174734
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.055222465382872246,
+          "y": 0.0036791443850273317,
+          "z": 3.435762120001011
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.055222465382872246,
+          "y": 0.0036791443850273317,
+          "z": 3.435762120001011
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 3,
+      "substepIndex": 5,
+      "iteration": 0,
+      "time": 0.025,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14559264758239,
+          "y": 6.560738067485495,
+          "z": 34.40770873765852
+        },
+        "b": {
+          "x": 77.14559264758239,
+          "y": 6.560089044879744,
+          "z": 34.40770873765852
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.055222465382872246,
+          "y": -0.03679144385026679,
+          "z": 3.435762120001011
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.05515742604197229,
+          "y": 0.0036791443850266795,
+          "z": 3.431715583827289
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.05515742604197229,
+          "y": 0.0036791443850266795,
+          "z": 3.431715583827289
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 3,
+      "substepIndex": 6,
+      "iteration": 0,
+      "time": 0.03,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14531686045218,
+          "y": 6.560756563207421,
+          "z": 34.42486731557765
+        },
+        "b": {
+          "x": 77.14531686045218,
+          "y": 6.560089044879744,
+          "z": 34.42486731557765
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.05515742604197229,
+          "y": -0.03679144385026744,
+          "z": 3.431715583827289
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.055092386701072325,
+          "y": 0.003679144385026749,
+          "z": 3.4276690476535667
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.055092386701072325,
+          "y": 0.003679144385026749,
+          "z": 3.4276690476535667
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 3,
+      "substepIndex": 7,
+      "iteration": 0,
+      "time": 0.035,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14504139851867,
+          "y": 6.560775058929346,
+          "z": 34.442005660815916
+        },
+        "b": {
+          "x": 77.14504139851867,
+          "y": 6.560089044879744,
+          "z": 34.442005660815916
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.055092386701072325,
+          "y": -0.03679144385026737,
+          "z": 3.4276690476535667
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.05502734736017237,
+          "y": 0.003679144385026742,
+          "z": 3.4236225114798446
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.05502734736017237,
+          "y": 0.003679144385026742,
+          "z": 3.4236225114798446
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 3,
+      "substepIndex": 8,
+      "iteration": 0,
+      "time": 0.04,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": -1.4026079001639316e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14476626178187,
+          "y": 6.560793554651272,
+          "z": 34.45912377337332
+        },
+        "b": {
+          "x": 77.14476626178187,
+          "y": 6.560089044879744,
+          "z": 34.45912377337332
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.05502734736017237,
+          "y": -0.03679144385026738,
+          "z": 3.4236225114798446
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.05496230801927232,
+          "y": 0.0036791443850795053,
+          "z": 3.4195759753061163
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.05496230801927232,
+          "y": 0.0036791443850795053,
+          "z": 3.4195759753061163
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 3,
+      "substepIndex": 9,
+      "iteration": 0,
+      "time": 0.045,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": -1.4025566921668978e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14449145024177,
+          "y": 6.5608120503731975,
+          "z": 34.47622165324985
+        },
+        "b": {
+          "x": 77.14449145024177,
+          "y": 6.560089044879744,
+          "z": 34.47622165324985
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.05496230801927232,
+          "y": -0.036791443850214614,
+          "z": 3.4195759753061163
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.05489726867837237,
+          "y": 0.0036791443850741692,
+          "z": 3.4155294391323943
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.05489726867837237,
+          "y": 0.0036791443850741692,
+          "z": 3.4155294391323943
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 4,
+      "substepIndex": 0,
+      "iteration": 0,
+      "time": 0,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14421696389839,
+          "y": 6.560830546095123,
+          "z": 34.49329930044551
+        },
+        "b": {
+          "x": 77.14421696389839,
+          "y": 6.560089044879744,
+          "z": 34.49329930044551
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.06556270434626352,
+          "y": -0.03679144385021995,
+          "z": 4.079098144495132
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.06549766500536364,
+          "y": 0.0036791443850219957,
+          "z": 4.075051608321416
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.06549766500536364,
+          "y": 0.0036791443850219957,
+          "z": 4.075051608321416
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 4,
+      "substepIndex": 1,
+      "iteration": 0,
+      "time": 0.005,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": -1.4024542873893683e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14388947557336,
+          "y": 6.560849041817049,
+          "z": 34.51367455848712
+        },
+        "b": {
+          "x": 77.14388947557336,
+          "y": 6.560089044879744,
+          "z": 34.51367455848712
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.06549766500536364,
+          "y": -0.036791443850272124,
+          "z": 4.075051608321416
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.06543262566446356,
+          "y": 0.0036791443850900246,
+          "z": 4.0710050721476865
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.06543262566446356,
+          "y": 0.0036791443850900246,
+          "z": 4.0710050721476865
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 4,
+      "substepIndex": 2,
+      "iteration": 0,
+      "time": 0.01,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14356231244504,
+          "y": 6.560867537538974,
+          "z": 34.53402958384785
+        },
+        "b": {
+          "x": 77.14356231244504,
+          "y": 6.560089044879744,
+          "z": 34.53402958384785
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.06543262566446356,
+          "y": -0.036791443850204095,
+          "z": 4.0710050721476865
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.06536758632356371,
+          "y": 0.0036791443850204136,
+          "z": 4.0669585359739715
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.06536758632356371,
+          "y": 0.0036791443850204136,
+          "z": 4.0669585359739715
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 4,
+      "substepIndex": 3,
+      "iteration": 0,
+      "time": 0.015,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14323547451342,
+          "y": 6.5608860332609,
+          "z": 34.554364376527715
+        },
+        "b": {
+          "x": 77.14323547451342,
+          "y": 6.560089044879744,
+          "z": 34.554364376527715
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.06536758632356371,
+          "y": -0.036791443850273706,
+          "z": 4.0669585359739715
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.06530254698266375,
+          "y": 0.0036791443850273733,
+          "z": 4.0629119998002485
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.06530254698266375,
+          "y": 0.0036791443850273733,
+          "z": 4.0629119998002485
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 4,
+      "substepIndex": 4,
+      "iteration": 0,
+      "time": 0.02,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 1.4023007082582778e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.1429089617785,
+          "y": 6.560904528982825,
+          "z": 34.57467893652671
+        },
+        "b": {
+          "x": 77.1429089617785,
+          "y": 6.560089044879744,
+          "z": 34.57467893652671
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.06530254698266375,
+          "y": -0.036791443850266746,
+          "z": 4.0629119998002485
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.06523750764176389,
+          "y": 0.003679144384964063,
+          "z": 4.0588654636265336
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.06523750764176389,
+          "y": 0.003679144384964063,
+          "z": 4.0588654636265336
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 4,
+      "substepIndex": 5,
+      "iteration": 0,
+      "time": 0.025,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.1425827742403,
+          "y": 6.56092302470475,
+          "z": 34.59497326384485
+        },
+        "b": {
+          "x": 77.1425827742403,
+          "y": 6.560089044879744,
+          "z": 34.59497326384485
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.06523750764176389,
+          "y": -0.036791443850330056,
+          "z": 4.0588654636265336
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.06517246830086382,
+          "y": 0.0036791443850330077,
+          "z": 4.054818927452804
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.06517246830086382,
+          "y": 0.0036791443850330077,
+          "z": 4.054818927452804
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 4,
+      "substepIndex": 6,
+      "iteration": 0,
+      "time": 0.03,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.1422569118988,
+          "y": 6.560941520426676,
+          "z": 34.615247358482115
+        },
+        "b": {
+          "x": 77.1422569118988,
+          "y": 6.560089044879744,
+          "z": 34.615247358482115
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.06517246830086382,
+          "y": -0.03679144385026111,
+          "z": 4.054818927452804
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.06510742895996387,
+          "y": 0.0036791443850261174,
+          "z": 4.050772391279083
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.06510742895996387,
+          "y": 0.0036791443850261174,
+          "z": 4.050772391279083
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 4,
+      "substepIndex": 7,
+      "iteration": 0,
+      "time": 0.035,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.141931374754,
+          "y": 6.560960016148601,
+          "z": 34.63550122043851
+        },
+        "b": {
+          "x": 77.141931374754,
+          "y": 6.560089044879744,
+          "z": 34.63550122043851
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.06510742895996387,
+          "y": -0.036791443850268,
+          "z": 4.050772391279083
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.0650423896190639,
+          "y": 0.0036791443850268044,
+          "z": 4.046725855105361
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.0650423896190639,
+          "y": 0.0036791443850268044,
+          "z": 4.046725855105361
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 4,
+      "substepIndex": 8,
+      "iteration": 0,
+      "time": 0.04,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.1416061628059,
+          "y": 6.560978511870527,
+          "z": 34.65573484971404
+        },
+        "b": {
+          "x": 77.1416061628059,
+          "y": 6.560089044879744,
+          "z": 34.65573484971404
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.0650423896190639,
+          "y": -0.036791443850267315,
+          "z": 4.046725855105361
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.06497735027816394,
+          "y": 0.003679144385026735,
+          "z": 4.042679318931639
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.06497735027816394,
+          "y": 0.003679144385026735,
+          "z": 4.042679318931639
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 4,
+      "substepIndex": 9,
+      "iteration": 0,
+      "time": 0.045,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14128127605451,
+          "y": 6.560997007592452,
+          "z": 34.67594824630869
+        },
+        "b": {
+          "x": 77.14128127605451,
+          "y": 6.560089044879744,
+          "z": 34.67594824630869
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.06497735027816394,
+          "y": -0.036791443850267384,
+          "z": 4.042679318931639
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.06491231093726398,
+          "y": 0.003679144385026742,
+          "z": 4.038632782757917
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.06491231093726398,
+          "y": 0.003679144385026742,
+          "z": 4.038632782757917
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 5,
+      "substepIndex": 0,
+      "iteration": 0,
+      "time": 0,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14095671449982,
+          "y": 6.561015503314378,
+          "z": 34.69614141022248
+        },
+        "b": {
+          "x": 77.14095671449982,
+          "y": 6.560089044879744,
+          "z": 34.69614141022248
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.0730739860404329,
+          "y": -0.03679144385026738,
+          "z": 4.546425652214275
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.07300894669953294,
+          "y": 0.003679144385026742,
+          "z": 4.542379116040553
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.07300894669953294,
+          "y": 0.003679144385026742,
+          "z": 4.542379116040553
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 5,
+      "substepIndex": 1,
+      "iteration": 0,
+      "time": 0.005,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14059166976632,
+          "y": 6.561033999036304,
+          "z": 34.71885330580268
+        },
+        "b": {
+          "x": 77.14059166976632,
+          "y": 6.560089044879744,
+          "z": 34.71885330580268
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.07300894669953294,
+          "y": -0.03679144385026738,
+          "z": 4.542379116040553
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.07294390735863297,
+          "y": 0.003679144385026742,
+          "z": 4.538332579866831
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.07294390735863297,
+          "y": 0.003679144385026742,
+          "z": 4.538332579866831
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 5,
+      "substepIndex": 2,
+      "iteration": 0,
+      "time": 0.01,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.14022695022953,
+          "y": 6.561052494758229,
+          "z": 34.741544968702016
+        },
+        "b": {
+          "x": 77.14022695022953,
+          "y": 6.560089044879744,
+          "z": 34.741544968702016
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.07294390735863297,
+          "y": -0.03679144385026738,
+          "z": 4.538332579866831
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.07287886801773301,
+          "y": 0.003679144385026742,
+          "z": 4.5342860436931085
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.07287886801773301,
+          "y": 0.003679144385026742,
+          "z": 4.5342860436931085
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 5,
+      "substepIndex": 3,
+      "iteration": 0,
+      "time": 0.015,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13986255588945,
+          "y": 6.561070990480155,
+          "z": 34.76421639892048
+        },
+        "b": {
+          "x": 77.13986255588945,
+          "y": 6.560089044879744,
+          "z": 34.76421639892048
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.07287886801773301,
+          "y": -0.03679144385026738,
+          "z": 4.5342860436931085
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.07281382867683305,
+          "y": 0.003679144385026742,
+          "z": 4.530239507519386
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.07281382867683305,
+          "y": 0.003679144385026742,
+          "z": 4.530239507519386
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 5,
+      "substepIndex": 4,
+      "iteration": 0,
+      "time": 0.02,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13949848674606,
+          "y": 6.56108948620208,
+          "z": 34.78686759645808
+        },
+        "b": {
+          "x": 77.13949848674606,
+          "y": 6.560089044879744,
+          "z": 34.78686759645808
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.07281382867683305,
+          "y": -0.03679144385026738,
+          "z": 4.530239507519386
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.07274878933593308,
+          "y": 0.003679144385026742,
+          "z": 4.526192971345664
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.07274878933593308,
+          "y": 0.003679144385026742,
+          "z": 4.526192971345664
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 5,
+      "substepIndex": 5,
+      "iteration": 0,
+      "time": 0.025,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": -1.4017378724376728e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13913474279938,
+          "y": 6.561107981924006,
+          "z": 34.80949856131482
+        },
+        "b": {
+          "x": 77.13913474279938,
+          "y": 6.560089044879744,
+          "z": 34.80949856131482
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.07274878933593308,
+          "y": -0.03679144385026738,
+          "z": 4.526192971345664
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.072683749995033,
+          "y": 0.003679144385096471,
+          "z": 4.522146435171934
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.072683749995033,
+          "y": 0.003679144385096471,
+          "z": 4.522146435171934
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 5,
+      "substepIndex": 6,
+      "iteration": 0,
+      "time": 0.03,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 1.401686727947692e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13877132404942,
+          "y": 6.5611264776459315,
+          "z": 34.83210929349066
+        },
+        "b": {
+          "x": 77.13877132404942,
+          "y": 6.560089044879744,
+          "z": 34.83210929349066
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.072683749995033,
+          "y": -0.03679144385019765,
+          "z": 4.522146435171934
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.07261871065413328,
+          "y": 0.003679144384950095,
+          "z": 4.518099898998227
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.07261871065413328,
+          "y": 0.003679144384950095,
+          "z": 4.518099898998227
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 5,
+      "substepIndex": 7,
+      "iteration": 0,
+      "time": 0.035,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13840823049614,
+          "y": 6.561144973367856,
+          "z": 34.854699792985656
+        },
+        "b": {
+          "x": 77.13840823049614,
+          "y": 6.560089044879744,
+          "z": 34.854699792985656
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.07261871065413328,
+          "y": -0.036791443850344024,
+          "z": 4.518099898998227
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.07255367131323319,
+          "y": 0.0036791443850344024,
+          "z": 4.514053362824496
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.07255367131323319,
+          "y": 0.0036791443850344024,
+          "z": 4.514053362824496
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 5,
+      "substepIndex": 8,
+      "iteration": 0,
+      "time": 0.04,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13804546213957,
+          "y": 6.561163469089782,
+          "z": 34.87727005979978
+        },
+        "b": {
+          "x": 77.13804546213957,
+          "y": 6.560089044879744,
+          "z": 34.87727005979978
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.07255367131323319,
+          "y": -0.03679144385025972,
+          "z": 4.514053362824496
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.07248863197233324,
+          "y": 0.0036791443850259717,
+          "z": 4.510006826650775
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.07248863197233324,
+          "y": 0.0036791443850259717,
+          "z": 4.510006826650775
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 5,
+      "substepIndex": 9,
+      "iteration": 0,
+      "time": 0.045,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13768301897971,
+          "y": 6.561181964811707,
+          "z": 34.89982009393303
+        },
+        "b": {
+          "x": 77.13768301897971,
+          "y": 6.560089044879744,
+          "z": 34.89982009393303
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.07248863197233324,
+          "y": -0.03679144385026815,
+          "z": 4.510006826650775
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.07242359263143328,
+          "y": 0.0036791443850268182,
+          "z": 4.505960290477053
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.07242359263143328,
+          "y": 0.0036791443850268182,
+          "z": 4.505960290477053
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 6,
+      "substepIndex": 0,
+      "iteration": 0,
+      "time": 0,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13732090101655,
+          "y": 6.561200460533633,
+          "z": 34.922349895385416
+        },
+        "b": {
+          "x": 77.13732090101655,
+          "y": 6.560089044879744,
+          "z": 34.922349895385416
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.07870744731106391,
+          "y": -0.0367914438502673,
+          "z": 4.896921283003627
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.07864240797016395,
+          "y": 0.003679144385026735,
+          "z": 4.8928747468299045
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.07864240797016395,
+          "y": 0.003679144385026735,
+          "z": 4.8928747468299045
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 6,
+      "substepIndex": 1,
+      "iteration": 0,
+      "time": 0.005,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.1369276889767,
+          "y": 6.5612189562555585,
+          "z": 34.946814269119564
+        },
+        "b": {
+          "x": 77.1369276889767,
+          "y": 6.560089044879744,
+          "z": 34.946814269119564
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.07864240797016395,
+          "y": -0.036791443850267384,
+          "z": 4.8928747468299045
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.07857736862926398,
+          "y": 0.003679144385026742,
+          "z": 4.8888282106561824
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.07857736862926398,
+          "y": 0.003679144385026742,
+          "z": 4.8888282106561824
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 6,
+      "substepIndex": 2,
+      "iteration": 0,
+      "time": 0.01,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13653480213355,
+          "y": 6.561237451977484,
+          "z": 34.971258410172844
+        },
+        "b": {
+          "x": 77.13653480213355,
+          "y": 6.560089044879744,
+          "z": 34.971258410172844
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.07857736862926398,
+          "y": -0.03679144385026738,
+          "z": 4.8888282106561824
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.07851232928836402,
+          "y": 0.003679144385026742,
+          "z": 4.88478167448246
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.07851232928836402,
+          "y": 0.003679144385026742,
+          "z": 4.88478167448246
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 6,
+      "substepIndex": 3,
+      "iteration": 0,
+      "time": 0.015,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 1.4013288209917796e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13614224048712,
+          "y": 6.56125594769941,
+          "z": 34.99568231854525
+        },
+        "b": {
+          "x": 77.13614224048712,
+          "y": 6.560089044879744,
+          "z": 34.99568231854525
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.07851232928836402,
+          "y": -0.03679144385026738,
+          "z": 4.88478167448246
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.07844728994746418,
+          "y": 0.0036791443849514965,
+          "z": 4.880735138308746
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.07844728994746418,
+          "y": 0.0036791443849514965,
+          "z": 4.880735138308746
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 6,
+      "substepIndex": 4,
+      "iteration": 0,
+      "time": 0.02,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13575000403738,
+          "y": 6.561274443421334,
+          "z": 35.0200859942368
+        },
+        "b": {
+          "x": 77.13575000403738,
+          "y": 6.560089044879744,
+          "z": 35.0200859942368
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.07844728994746418,
+          "y": -0.03679144385034262,
+          "z": 4.880735138308746
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.07838225060656408,
+          "y": 0.0036791443850342637,
+          "z": 4.876688602135016
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.07838225060656408,
+          "y": 0.0036791443850342637,
+          "z": 4.876688602135016
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 6,
+      "substepIndex": 5,
+      "iteration": 0,
+      "time": 0.025,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13535809278434,
+          "y": 6.56129293914326,
+          "z": 35.04446943724748
+        },
+        "b": {
+          "x": 77.13535809278434,
+          "y": 6.560089044879744,
+          "z": 35.04446943724748
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.07838225060656408,
+          "y": -0.036791443850259856,
+          "z": 4.876688602135016
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.07831721126566413,
+          "y": 0.0036791443850259856,
+          "z": 4.872642065961295
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.07831721126566413,
+          "y": 0.0036791443850259856,
+          "z": 4.872642065961295
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 6,
+      "substepIndex": 6,
+      "iteration": 0,
+      "time": 0.03,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13496650672802,
+          "y": 6.5613114348651855,
+          "z": 35.06883264757729
+        },
+        "b": {
+          "x": 77.13496650672802,
+          "y": 6.560089044879744,
+          "z": 35.06883264757729
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.07831721126566413,
+          "y": -0.036791443850268134,
+          "z": 4.872642065961295
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.07825217192476416,
+          "y": 0.0036791443850268182,
+          "z": 4.868595529787573
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.07825217192476416,
+          "y": 0.0036791443850268182,
+          "z": 4.868595529787573
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 6,
+      "substepIndex": 7,
+      "iteration": 0,
+      "time": 0.035,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13457524586839,
+          "y": 6.561329930587111,
+          "z": 35.09317562522622
+        },
+        "b": {
+          "x": 77.13457524586839,
+          "y": 6.560089044879744,
+          "z": 35.09317562522622
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.07825217192476416,
+          "y": -0.0367914438502673,
+          "z": 4.868595529787573
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.0781871325838642,
+          "y": 0.003679144385026735,
+          "z": 4.864548993613851
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.0781871325838642,
+          "y": 0.003679144385026735,
+          "z": 4.864548993613851
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 6,
+      "substepIndex": 8,
+      "iteration": 0,
+      "time": 0.04,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13418431020547,
+          "y": 6.561348426309037,
+          "z": 35.11749837019429
+        },
+        "b": {
+          "x": 77.13418431020547,
+          "y": 6.560089044879744,
+          "z": 35.11749837019429
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.0781871325838642,
+          "y": -0.036791443850267384,
+          "z": 4.864548993613851
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.07812209324296424,
+          "y": 0.003679144385026742,
+          "z": 4.860502457440129
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.07812209324296424,
+          "y": 0.003679144385026742,
+          "z": 4.860502457440129
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 6,
+      "substepIndex": 9,
+      "iteration": 0,
+      "time": 0.045,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13379369973926,
+          "y": 6.561366922030962,
+          "z": 35.14180088248149
+        },
+        "b": {
+          "x": 77.13379369973926,
+          "y": 6.560089044879744,
+          "z": 35.14180088248149
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.07812209324296424,
+          "y": -0.03679144385026738,
+          "z": 4.860502457440129
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.07805705390206427,
+          "y": 0.003679144385026742,
+          "z": 4.856455921266407
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.07805705390206427,
+          "y": 0.003679144385026742,
+          "z": 4.856455921266407
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 7,
+      "substepIndex": 0,
+      "iteration": 0,
+      "time": 0,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13340341446975,
+          "y": 6.561385417752888,
+          "z": 35.16608316208782
+        },
+        "b": {
+          "x": 77.13340341446975,
+          "y": 6.560089044879744,
+          "z": 35.16608316208782
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08293254326405401,
+          "y": -0.03679144385026738,
+          "z": 5.159793006095642
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08286750392315403,
+          "y": 0.003679144385026742,
+          "z": 5.15574646992192
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08286750392315403,
+          "y": 0.003679144385026742,
+          "z": 5.15574646992192
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 7,
+      "substepIndex": 1,
+      "iteration": 0,
+      "time": 0.005,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13298907695014,
+          "y": 6.561403913474813,
+          "z": 35.19186189443743
+        },
+        "b": {
+          "x": 77.13298907695014,
+          "y": 6.560089044879744,
+          "z": 35.19186189443743
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08286750392315403,
+          "y": -0.03679144385026738,
+          "z": 5.15574646992192
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08280246458225406,
+          "y": 0.003679144385026742,
+          "z": 5.151699933748198
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08280246458225406,
+          "y": 0.003679144385026742,
+          "z": 5.151699933748198
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 7,
+      "substepIndex": 2,
+      "iteration": 0,
+      "time": 0.01,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13257506462723,
+          "y": 6.561422409196739,
+          "z": 35.21762039410617
+        },
+        "b": {
+          "x": 77.13257506462723,
+          "y": 6.560089044879744,
+          "z": 35.21762039410617
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08280246458225406,
+          "y": -0.03679144385026738,
+          "z": 5.151699933748198
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08273742524135408,
+          "y": 0.003679144385026742,
+          "z": 5.147653397574476
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08273742524135408,
+          "y": 0.003679144385026742,
+          "z": 5.147653397574476
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 7,
+      "substepIndex": 3,
+      "iteration": 0,
+      "time": 0.015,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": -1.4008178422853755e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13216137750102,
+          "y": 6.561440904918665,
+          "z": 35.24335866109405
+        },
+        "b": {
+          "x": 77.13216137750102,
+          "y": 6.560089044879744,
+          "z": 35.24335866109405
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08273742524135408,
+          "y": -0.03679144385026738,
+          "z": 5.147653397574476
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08267238590045398,
+          "y": 0.003679144385106005,
+          "z": 5.143606861400745
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08267238590045398,
+          "y": 0.003679144385106005,
+          "z": 5.143606861400745
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 7,
+      "substepIndex": 4,
+      "iteration": 0,
+      "time": 0.02,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13174801557152,
+          "y": 6.56145940064059,
+          "z": 35.26907669540105
+        },
+        "b": {
+          "x": 77.13174801557152,
+          "y": 6.560089044879744,
+          "z": 35.26907669540105
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08267238590045398,
+          "y": -0.036791443850188114,
+          "z": 5.143606861400745
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08260734655955414,
+          "y": 0.0036791443850188177,
+          "z": 5.139560325227031
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08260734655955414,
+          "y": 0.0036791443850188177,
+          "z": 5.139560325227031
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 7,
+      "substepIndex": 5,
+      "iteration": 0,
+      "time": 0.025,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13133497883872,
+          "y": 6.561477896362516,
+          "z": 35.294774497027184
+        },
+        "b": {
+          "x": 77.13133497883872,
+          "y": 6.560089044879744,
+          "z": 35.294774497027184
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08260734655955414,
+          "y": -0.0367914438502753,
+          "z": 5.139560325227031
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08254230721865415,
+          "y": 0.003679144385027533,
+          "z": 5.1355137890533085
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08254230721865415,
+          "y": 0.003679144385027533,
+          "z": 5.1355137890533085
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 7,
+      "substepIndex": 6,
+      "iteration": 0,
+      "time": 0.03,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13092226730262,
+          "y": 6.561496392084441,
+          "z": 35.320452065972454
+        },
+        "b": {
+          "x": 77.13092226730262,
+          "y": 6.560089044879744,
+          "z": 35.320452065972454
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08254230721865415,
+          "y": -0.036791443850266586,
+          "z": 5.1355137890533085
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08247726787775417,
+          "y": 0.0036791443850266586,
+          "z": 5.131467252879586
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08247726787775417,
+          "y": 0.0036791443850266586,
+          "z": 5.131467252879586
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 7,
+      "substepIndex": 7,
+      "iteration": 0,
+      "time": 0.035,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13050988096323,
+          "y": 6.561514887806367,
+          "z": 35.34610940223685
+        },
+        "b": {
+          "x": 77.13050988096323,
+          "y": 6.560089044879744,
+          "z": 35.34610940223685
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08247726787775417,
+          "y": -0.03679144385026746,
+          "z": 5.131467252879586
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08241222853685419,
+          "y": 0.003679144385026749,
+          "z": 5.127420716705864
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08241222853685419,
+          "y": 0.003679144385026749,
+          "z": 5.127420716705864
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 7,
+      "substepIndex": 8,
+      "iteration": 0,
+      "time": 0.04,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": -1.400562492648654e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.13009781982055,
+          "y": 6.5615333835282925,
+          "z": 35.37174650582038
+        },
+        "b": {
+          "x": 77.13009781982055,
+          "y": 6.560089044879744,
+          "z": 35.37174650582038
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08241222853685419,
+          "y": -0.03679144385026737,
+          "z": 5.127420716705864
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08234718919595409,
+          "y": 0.0036791443851056788,
+          "z": 5.123374180532133
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08234718919595409,
+          "y": 0.0036791443851056788,
+          "z": 5.123374180532133
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 7,
+      "substepIndex": 9,
+      "iteration": 0,
+      "time": 0.045,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.12968608387457,
+          "y": 6.561551879250218,
+          "z": 35.397363376723035
+        },
+        "b": {
+          "x": 77.12968608387457,
+          "y": 6.560089044879744,
+          "z": 35.397363376723035
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08234718919595409,
+          "y": -0.03679144385018844,
+          "z": 5.123374180532133
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08228214985505425,
+          "y": 0.0036791443850188454,
+          "z": 5.11932764435842
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08228214985505425,
+          "y": 0.0036791443850188454,
+          "z": 5.11932764435842
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 8,
+      "substepIndex": 0,
+      "iteration": 0,
+      "time": 0,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.1292746731253,
+          "y": 6.561570374972144,
+          "z": 35.42296001494483
+        },
+        "b": {
+          "x": 77.1292746731253,
+          "y": 6.560089044879744,
+          "z": 35.42296001494483
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08610136522879178,
+          "y": -0.036791443850275274,
+          "z": 5.356946798414652
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08603632588789177,
+          "y": 0.003679144385027533,
+          "z": 5.352900262240929
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08603632588789177,
+          "y": 0.003679144385027533,
+          "z": 5.352900262240929
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 8,
+      "substepIndex": 1,
+      "iteration": 0,
+      "time": 0.005,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": -1.400409327546559e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.12884449149585,
+          "y": 6.561588870694069,
+          "z": 35.44972451625604
+        },
+        "b": {
+          "x": 77.12884449149585,
+          "y": 6.560089044879744,
+          "z": 35.44972451625604
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08603632588789177,
+          "y": -0.036791443850266586,
+          "z": 5.352900262240929
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08597128654699165,
+          "y": 0.003679144385109065,
+          "z": 5.3488537260671984
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08597128654699165,
+          "y": 0.003679144385109065,
+          "z": 5.3488537260671984
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 8,
+      "substepIndex": 2,
+      "iteration": 0,
+      "time": 0.01,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.12841463506312,
+          "y": 6.561607366415995,
+          "z": 35.47646878488637
+        },
+        "b": {
+          "x": 77.12841463506312,
+          "y": 6.560089044879744,
+          "z": 35.47646878488637
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08597128654699165,
+          "y": -0.036791443850185054,
+          "z": 5.3488537260671984
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08590624720609182,
+          "y": 0.0036791443850185054,
+          "z": 5.344807189893485
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08590624720609182,
+          "y": 0.0036791443850185054,
+          "z": 5.344807189893485
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 8,
+      "substepIndex": 3,
+      "iteration": 0,
+      "time": 0.015,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.12798510382709,
+          "y": 6.56162586213792,
+          "z": 35.50319282083584
+        },
+        "b": {
+          "x": 77.12798510382709,
+          "y": 6.560089044879744,
+          "z": 35.50319282083584
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08590624720609182,
+          "y": -0.036791443850275614,
+          "z": 5.344807189893485
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08584120786519181,
+          "y": 0.0036791443850275676,
+          "z": 5.340760653719762
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08584120786519181,
+          "y": 0.0036791443850275676,
+          "z": 5.340760653719762
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 8,
+      "substepIndex": 4,
+      "iteration": 0,
+      "time": 0.02,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": -1.4002561959409818e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.12755589778776,
+          "y": 6.561644357859846,
+          "z": 35.529896624104445
+        },
+        "b": {
+          "x": 77.12755589778776,
+          "y": 6.560089044879744,
+          "z": 35.529896624104445
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08584120786519181,
+          "y": -0.03679144385026655,
+          "z": 5.340760653719762
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.0857761685242917,
+          "y": 0.0036791443851088707,
+          "z": 5.336714117546031
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.0857761685242917,
+          "y": 0.0036791443851088707,
+          "z": 5.336714117546031
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 8,
+      "substepIndex": 5,
+      "iteration": 0,
+      "time": 0.025,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 1.4002051595142275e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.12712701694514,
+          "y": 6.561662853581772,
+          "z": 35.55658019469216
+        },
+        "b": {
+          "x": 77.12712701694514,
+          "y": 6.560089044879744,
+          "z": 35.55658019469216
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.0857761685242917,
+          "y": -0.03679144385018525,
+          "z": 5.336714117546031
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08571112918339198,
+          "y": 0.0036791443849363836,
+          "z": 5.332667581372327
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08571112918339198,
+          "y": 0.0036791443849363836,
+          "z": 5.332667581372327
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 8,
+      "substepIndex": 6,
+      "iteration": 0,
+      "time": 0.03,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": -1.4001541268076835e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.12669846129923,
+          "y": 6.561681349303696,
+          "z": 35.583243532599035
+        },
+        "b": {
+          "x": 77.12669846129923,
+          "y": 6.560089044879744,
+          "z": 35.583243532599035
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08571112918339198,
+          "y": -0.036791443850357736,
+          "z": 5.332667581372327
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.0856460898424917,
+          "y": 0.0036791443851178496,
+          "z": 5.328621045198586
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.0856460898424917,
+          "y": 0.0036791443851178496,
+          "z": 5.328621045198586
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 8,
+      "substepIndex": 7,
+      "iteration": 0,
+      "time": 0.035,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.12627023085001,
+          "y": 6.561699845025622,
+          "z": 35.60988663782502
+        },
+        "b": {
+          "x": 77.12627023085001,
+          "y": 6.560089044879744,
+          "z": 35.60988663782502
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.0856460898424917,
+          "y": -0.03679144385017627,
+          "z": 5.328621045198586
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08558105050159187,
+          "y": 0.003679144385017631,
+          "z": 5.324574509024874
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08558105050159187,
+          "y": 0.003679144385017631,
+          "z": 5.324574509024874
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 8,
+      "substepIndex": 8,
+      "iteration": 0,
+      "time": 0.04,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.1258423255975,
+          "y": 6.5617183407475475,
+          "z": 35.636509510370146
+        },
+        "b": {
+          "x": 77.1258423255975,
+          "y": 6.560089044879744,
+          "z": 35.636509510370146
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08558105050159187,
+          "y": -0.03679144385027649,
+          "z": 5.324574509024874
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08551601116069187,
+          "y": 0.003679144385027651,
+          "z": 5.320527972851151
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08551601116069187,
+          "y": 0.003679144385027651,
+          "z": 5.320527972851151
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 8,
+      "substepIndex": 9,
+      "iteration": 0,
+      "time": 0.045,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.1254147455417,
+          "y": 6.561736836469473,
+          "z": 35.663112150234404
+        },
+        "b": {
+          "x": 77.1254147455417,
+          "y": 6.560089044879744,
+          "z": 35.663112150234404
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08551601116069187,
+          "y": -0.03679144385026647,
+          "z": 5.320527972851151
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08545097181979189,
+          "y": 0.0036791443850266517,
+          "z": 5.316481436677429
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08545097181979189,
+          "y": 0.0036791443850266517,
+          "z": 5.316481436677429
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 9,
+      "substepIndex": 0,
+      "iteration": 0,
+      "time": 0,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.1249874906826,
+          "y": 6.561755332191399,
+          "z": 35.689694557417795
+        },
+        "b": {
+          "x": 77.1249874906826,
+          "y": 6.560089044879744,
+          "z": 35.689694557417795
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08847798170233558,
+          "y": -0.03679144385026747,
+          "z": 5.504812142653909
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.0884129423614356,
+          "y": 0.003679144385026749,
+          "z": 5.500765606480187
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.0884129423614356,
+          "y": 0.003679144385026749,
+          "z": 5.500765606480187
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 9,
+      "substepIndex": 1,
+      "iteration": 0,
+      "time": 0.005,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 1.3998990190638314e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.1245454259708,
+          "y": 6.561773827913324,
+          "z": 35.71719838545019
+        },
+        "b": {
+          "x": 77.1245454259708,
+          "y": 6.560089044879744,
+          "z": 35.71719838545019
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.0884129423614356,
+          "y": -0.03679144385026737,
+          "z": 5.500765606480187
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08834790302053575,
+          "y": 0.0036791443849420874,
+          "z": 5.496719070306474
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08834790302053575,
+          "y": 0.0036791443849420874,
+          "z": 5.496719070306474
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 9,
+      "substepIndex": 2,
+      "iteration": 0,
+      "time": 0.01,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 1.3998480086699936e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.1241036864557,
+          "y": 6.561792323635249,
+          "z": 35.74468198080172
+        },
+        "b": {
+          "x": 77.1241036864557,
+          "y": 6.560089044879744,
+          "z": 35.74468198080172
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08834790302053575,
+          "y": -0.03679144385035203,
+          "z": 5.496719070306474
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08828286367963575,
+          "y": 0.0036791443849506222,
+          "z": 5.492672534132752
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08828286367963575,
+          "y": 0.0036791443849506222,
+          "z": 5.492672534132752
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 9,
+      "substepIndex": 3,
+      "iteration": 0,
+      "time": 0.015,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.1236622721373,
+          "y": 6.561810819357174,
+          "z": 35.772145343472395
+        },
+        "b": {
+          "x": 77.1236622721373,
+          "y": 6.560089044879744,
+          "z": 35.772145343472395
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08828286367963575,
+          "y": -0.0367914438503435,
+          "z": 5.492672534132752
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08821782433873564,
+          "y": 0.003679144385034354,
+          "z": 5.488625997959021
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08821782433873564,
+          "y": 0.003679144385034354,
+          "z": 5.488625997959021
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 9,
+      "substepIndex": 4,
+      "iteration": 0,
+      "time": 0.02,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 1.3997459990339942e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.1232211830156,
+          "y": 6.561829315079099,
+          "z": 35.79958847346219
+        },
+        "b": {
+          "x": 77.1232211830156,
+          "y": 6.560089044879744,
+          "z": 35.79958847346219
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08821782433873564,
+          "y": -0.036791443850259765,
+          "z": 5.488625997959021
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.0881527849978358,
+          "y": 0.0036791443849415253,
+          "z": 5.484579461785309
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.0881527849978358,
+          "y": 0.0036791443849415253,
+          "z": 5.484579461785309
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 9,
+      "substepIndex": 5,
+      "iteration": 0,
+      "time": 0.025,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.12278041909062,
+          "y": 6.561847810801024,
+          "z": 35.82701137077112
+        },
+        "b": {
+          "x": 77.12278041909062,
+          "y": 6.560089044879744,
+          "z": 35.82701137077112
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.0881527849978358,
+          "y": -0.036791443850352594,
+          "z": 5.484579461785309
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08808774565693567,
+          "y": 0.003679144385035263,
+          "z": 5.480532925611577
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08808774565693567,
+          "y": 0.003679144385035263,
+          "z": 5.480532925611577
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 9,
+      "substepIndex": 6,
+      "iteration": 0,
+      "time": 0.03,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.12233998036233,
+          "y": 6.561866306522949,
+          "z": 35.854414035399174
+        },
+        "b": {
+          "x": 77.12233998036233,
+          "y": 6.560089044879744,
+          "z": 35.854414035399174
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08808774565693567,
+          "y": -0.036791443850258856,
+          "z": 5.480532925611577
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.0880227063160357,
+          "y": 0.0036791443850258884,
+          "z": 5.476486389437856
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.0880227063160357,
+          "y": 0.0036791443850258884,
+          "z": 5.476486389437856
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 9,
+      "substepIndex": 7,
+      "iteration": 0,
+      "time": 0.035,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.12189986683074,
+          "y": 6.561884802244875,
+          "z": 35.88179646734636
+        },
+        "b": {
+          "x": 77.12189986683074,
+          "y": 6.560089044879744,
+          "z": 35.88179646734636
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.0880227063160357,
+          "y": -0.03679144385026823,
+          "z": 5.476486389437856
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08795766697513571,
+          "y": 0.003679144385026825,
+          "z": 5.472439853264134
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08795766697513571,
+          "y": 0.003679144385026825,
+          "z": 5.472439853264134
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 9,
+      "substepIndex": 8,
+      "iteration": 0,
+      "time": 0.04,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": -1.399542024357332e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.12146007849587,
+          "y": 6.561903297966801,
+          "z": 35.90915866661269
+        },
+        "b": {
+          "x": 77.12146007849587,
+          "y": 6.560089044879744,
+          "z": 35.90915866661269
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.08795766697513571,
+          "y": -0.036791443850267294,
+          "z": 5.472439853264134
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.0878926276342356,
+          "y": 0.0036791443851109246,
+          "z": 5.468393317090403
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.0878926276342356,
+          "y": 0.0036791443851109246,
+          "z": 5.468393317090403
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "callback": 9,
+      "substepIndex": 9,
+      "iteration": 0,
+      "time": 0.045,
+      "substepTime": 0,
+      "remainingBefore": 0.005,
+      "remainingAfter": 0.005,
+      "fraction": 0,
+      "penetrationDepth": 0,
+      "bodyA": {
+        "id": "window-connection",
+        "type": "player"
+      },
+      "bodyB": {
+        "id": "fixed",
+        "type": "fixed"
+      },
+      "normal": {
+        "x": 0,
+        "y": 1,
+        "z": -1.3994910399764924e-14
+      },
+      "surfaceWitnesses": {
+        "a": {
+          "x": 77.12102061535771,
+          "y": 6.561921793688726,
+          "z": 35.93650063319814
+        },
+        "b": {
+          "x": 77.12102061535771,
+          "y": 6.560089044879744,
+          "z": 35.93650063319814
+        }
+      },
+      "beforeResponse": {
+        "a": {
+          "x": -0.0878926276342356,
+          "y": -0.036791443850183195,
+          "z": 5.468393317090403
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterResponse": {
+        "a": {
+          "x": -0.08782758829333563,
+          "y": 0.003679144385102452,
+          "z": 5.464346780916681
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "afterActorCallbacks": {
+        "a": {
+          "x": -0.08782758829333563,
+          "y": 0.003679144385102452,
+          "z": 5.464346780916681
+        },
+        "b": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    }
+  ],
+  "doorState": {
+    "name": "door open 5",
+    "openedAt": null,
+    "phase": "closed",
+    "elapsedSeconds": 0
+  }
+}

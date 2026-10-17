@@ -1,0 +1,5 @@
+# Current source scene material bindings audit
+
+A bounded independent audit compared both recovered explore/generics handlers, the scene packager and current material library. The runtime shader-name image replacements, white emissive overrides, explicit double-sided/reparent lists and sky settings agree with the serialized bindings. Woodland replaces only the first floor part; Barrack replaces all floor parts. The root independently checked the packaged imported ordinary mesh-UV layers: every retained transform and wrap transform is identity and repeat flags are1/1. Runtime-created sky/noise are excluded from that imported-layer check and retain their separately documented scale rules. [Machine inventory](original-scene-material-bindings-audit.json) retains both scene hashes and checked names.
+
+No additional source-backed shader setting correction was established. This check does not establish native alpha/raster behavior, residual ambient-light semantics or the unresolved planar mapping. Existing [planar projection uncertainty](ORIGINAL_PLANAR_FLOOR_PROJECTION_AUDIT.md) remains. No original runtime or GPU was used; no production material code was changed.

@@ -1,0 +1,4812 @@
+{
+  "format": "Paige typed numeric stream; primary-source layout",
+  "primarySource": {
+    "repository": "https://github.com/nmatavka/HERMES-Paige",
+    "commit": "cddd9543709db505077b7b0426962fadd85b343d",
+    "filesSha256": {
+      "PGSOURCE/PGREAD.C": "80e06dd3aa0131ae629fa02a8843b40aed8fdb61c9d65bc2bac14583aecebe63",
+      "PGSOURCE/PGWRITE.C": "25129a549c380ecb8b5168facf6090c6224b29c8ddded331f7003d0aa0973d58",
+      "PGHEADER/PAIGE.H": "d95690e403baae1bded3a383f0895229145479c655e03512e1169559d18ff235",
+      "PGHEADER/PGFILES.H": "58b96218ffa0e560c2b7f2065062eb3a4c930f4102353e128c555feaa0edc4a4",
+      "PGSOURCE/PGTEXT.C": "247878340555e58c0b3c9115802c58d98be412ecf2ac17345639adc2e692e610"
+    }
+  },
+  "editions": {
+    "barrack": {
+      "source": {
+        "resourceId": 5124,
+        "path": "docs/research-evidence/2026-09-30/director-extraction/barrack/05124-XMED.bin",
+        "sha256": "fa58e8b21d6688f02769018e38f2be560ddb65f5f009daf5564aa777fa3a41fe",
+        "bytes": 2046
+      },
+      "insertStyle": {
+        "value": 10,
+        "controlHex": "01",
+        "tokenRangeExclusive": [
+          435,
+          437
+        ],
+        "repeatOrdinal": 0,
+        "repeatTotal": 1
+      },
+      "sectionBodyRangeExclusive": [
+        435,
+        1061
+      ],
+      "completeStyleCount": 12,
+      "fonts": [
+        {
+          "fontIndex": 0,
+          "names": [
+            {
+              "name": "Arial",
+              "pointerRangeExclusive": [
+                1137,
+                1205
+              ]
+            },
+            {
+              "name": "",
+              "pointerRangeExclusive": [
+                1205,
+                1273
+              ]
+            }
+          ],
+          "propertyFields": [
+            {
+              "value": 4,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1273,
+                1275
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1275,
+                1277
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1277,
+                1278
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1278,
+                1279
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 1252,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1279,
+                1283
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 1024,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1283,
+                1287
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1287,
+                1289
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1289,
+                1290
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1290,
+                1291
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 1,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1291,
+                1293
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1293,
+                1295
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1295,
+                1296
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 262152,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1296,
+                1302
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1302,
+                1304
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1304,
+                1305
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 257,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1305,
+                1309
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1309,
+                1311
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            }
+          ]
+        },
+        {
+          "fontIndex": 1,
+          "names": [
+            {
+              "name": "System",
+              "pointerRangeExclusive": [
+                1311,
+                1379
+              ]
+            },
+            {
+              "name": "",
+              "pointerRangeExclusive": [
+                1379,
+                1447
+              ]
+            }
+          ],
+          "propertyFields": [
+            {
+              "value": 4,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1447,
+                1449
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1449,
+                1451
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1451,
+                1452
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1452,
+                1453
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 1252,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1453,
+                1457
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 1024,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1457,
+                1461
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1461,
+                1463
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1463,
+                1464
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1464,
+                1465
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 1,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1465,
+                1467
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1467,
+                1469
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1469,
+                1471
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 4
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1469,
+                1471
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 4
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1469,
+                1471
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 4
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1469,
+                1471
+              ],
+              "repeatOrdinal": 3,
+              "repeatTotal": 4
+            },
+            {
+              "value": 257,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1471,
+                1475
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1475,
+                1477
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            }
+          ]
+        },
+        {
+          "fontIndex": 2,
+          "names": [
+            {
+              "name": "Fixedsys",
+              "pointerRangeExclusive": [
+                1477,
+                1545
+              ]
+            },
+            {
+              "name": "",
+              "pointerRangeExclusive": [
+                1545,
+                1613
+              ]
+            }
+          ],
+          "propertyFields": [
+            {
+              "value": 4,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1613,
+                1615
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1615,
+                1617
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1617,
+                1618
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1618,
+                1619
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 1252,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1619,
+                1623
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 1024,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1623,
+                1627
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1627,
+                1629
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1629,
+                1630
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1630,
+                1631
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 1,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1631,
+                1633
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1633,
+                1635
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1635,
+                1637
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 4
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1635,
+                1637
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 4
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1635,
+                1637
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 4
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1635,
+                1637
+              ],
+              "repeatOrdinal": 3,
+              "repeatTotal": 4
+            },
+            {
+              "value": 257,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1637,
+                1641
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1641,
+                1643
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            }
+          ]
+        }
+      ],
+      "referencedStyles": [
+        {
+          "styleIndex": 10,
+          "fields": [
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                947,
+                949
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 3
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                947,
+                949
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 3
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                947,
+                949
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 3
+            },
+            {
+              "value": 12,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                949,
+                951
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 3,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                951,
+                953
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                953,
+                955
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                955,
+                956
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                956,
+                957
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                957,
+                958
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 65280,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                958,
+                963
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                963,
+                965
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                965,
+                966
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                966,
+                967
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 65535,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                967,
+                972
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 65535,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                972,
+                973
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 65535,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                973,
+                974
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                974,
+                976
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                976,
+                977
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 786432,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                977,
+                983
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                983,
+                985
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                985,
+                987
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                985,
+                987
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                985,
+                987
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                985,
+                987
+              ],
+              "repeatOrdinal": 3,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                985,
+                987
+              ],
+              "repeatOrdinal": 4,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                985,
+                987
+              ],
+              "repeatOrdinal": 5,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                985,
+                987
+              ],
+              "repeatOrdinal": 6,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                985,
+                987
+              ],
+              "repeatOrdinal": 7,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                985,
+                987
+              ],
+              "repeatOrdinal": 8,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                985,
+                987
+              ],
+              "repeatOrdinal": 9,
+              "repeatTotal": 10
+            },
+            {
+              "value": 2,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                987,
+                989
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                989,
+                991
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                991,
+                993
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                991,
+                993
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                991,
+                993
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                991,
+                993
+              ],
+              "repeatOrdinal": 3,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                991,
+                993
+              ],
+              "repeatOrdinal": 4,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                991,
+                993
+              ],
+              "repeatOrdinal": 5,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                991,
+                993
+              ],
+              "repeatOrdinal": 6,
+              "repeatTotal": 7
+            },
+            {
+              "value": 1,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                993,
+                995
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                995,
+                997
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 3,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 4,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 5,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 6,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 7,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 8,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 9,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 10,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 11,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 12,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 13,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 14,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 15,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 16,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 17,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 18,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 19,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 20,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 21,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 22,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 23,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 24,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 25,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 26,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 27,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 28,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 29,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                999,
+                1000
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1000,
+                1001
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1001,
+                1003
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 3
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1001,
+                1003
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 3
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1001,
+                1003
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 3
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1003,
+                1004
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            }
+          ],
+          "selectedFields": {
+            "font_index": {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                947,
+                949
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 3
+            },
+            "ascent": {
+              "value": 12,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                949,
+                951
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "descent": {
+              "value": 3,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                951,
+                953
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "leading": {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                953,
+                955
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "point": {
+              "value": 786432,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                977,
+                983
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "char_extra": {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                985,
+                987
+              ],
+              "repeatOrdinal": 4,
+              "repeatTotal": 10
+            },
+            "bold": {
+              "value": 1,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                993,
+                995
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "italic": {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                995,
+                997
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "underline": {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                997,
+                999
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 30
+            }
+          },
+          "fontName": "Arial",
+          "storedPointSize": 12.0,
+          "storedMetricSum": 15
+        },
+        {
+          "styleIndex": 11,
+          "fields": [
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1004,
+                1006
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 3
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1004,
+                1006
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 3
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1004,
+                1006
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 3
+            },
+            {
+              "value": 12,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1006,
+                1008
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 3,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1008,
+                1010
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1010,
+                1012
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1012,
+                1013
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1013,
+                1014
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1014,
+                1015
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 65280,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1015,
+                1020
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 65280,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1020,
+                1021
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1021,
+                1023
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1023,
+                1024
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 65535,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1024,
+                1029
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 65535,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1029,
+                1030
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 65535,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1030,
+                1031
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1031,
+                1033
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1033,
+                1034
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 786432,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1034,
+                1040
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1040,
+                1042
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1042,
+                1044
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1042,
+                1044
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1042,
+                1044
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1042,
+                1044
+              ],
+              "repeatOrdinal": 3,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1042,
+                1044
+              ],
+              "repeatOrdinal": 4,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1042,
+                1044
+              ],
+              "repeatOrdinal": 5,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1042,
+                1044
+              ],
+              "repeatOrdinal": 6,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1042,
+                1044
+              ],
+              "repeatOrdinal": 7,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1042,
+                1044
+              ],
+              "repeatOrdinal": 8,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1042,
+                1044
+              ],
+              "repeatOrdinal": 9,
+              "repeatTotal": 10
+            },
+            {
+              "value": 1,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1044,
+                1046
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1046,
+                1048
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1048,
+                1050
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1048,
+                1050
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1048,
+                1050
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1048,
+                1050
+              ],
+              "repeatOrdinal": 3,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1048,
+                1050
+              ],
+              "repeatOrdinal": 4,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1048,
+                1050
+              ],
+              "repeatOrdinal": 5,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1048,
+                1050
+              ],
+              "repeatOrdinal": 6,
+              "repeatTotal": 7
+            },
+            {
+              "value": 1,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1050,
+                1052
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1052,
+                1054
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 3,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 4,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 5,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 6,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 7,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 8,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 9,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 10,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 11,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 12,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 13,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 14,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 15,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 16,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 17,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 18,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 19,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 20,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 21,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 22,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 23,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 24,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 25,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 26,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 27,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 28,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 29,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1056,
+                1057
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1057,
+                1058
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1058,
+                1060
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 3
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1058,
+                1060
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 3
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1058,
+                1060
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 3
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1060,
+                1061
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            }
+          ],
+          "selectedFields": {
+            "font_index": {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1004,
+                1006
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 3
+            },
+            "ascent": {
+              "value": 12,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1006,
+                1008
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "descent": {
+              "value": 3,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1008,
+                1010
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "leading": {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1010,
+                1012
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "point": {
+              "value": 786432,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1034,
+                1040
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "char_extra": {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1042,
+                1044
+              ],
+              "repeatOrdinal": 4,
+              "repeatTotal": 10
+            },
+            "bold": {
+              "value": 1,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1050,
+                1052
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "italic": {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1052,
+                1054
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "underline": {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1054,
+                1056
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 30
+            }
+          },
+          "fontName": "Arial",
+          "storedPointSize": 12.0,
+          "storedMetricSum": 15
+        }
+      ],
+      "paragraph": {
+        "bodyRangeExclusive": [
+          1082,
+          1116
+        ],
+        "selectedFields": {
+          "justification": {
+            "value": 0,
+            "controlHex": "01",
+            "tokenRangeExclusive": [
+              1082,
+              1084
+            ],
+            "repeatOrdinal": 0,
+            "repeatTotal": 1
+          },
+          "spacing": {
+            "value": 0,
+            "controlHex": "c2",
+            "tokenRangeExclusive": [
+              1086,
+              1088
+            ],
+            "repeatOrdinal": 3,
+            "repeatTotal": 15
+          },
+          "leading_extra": {
+            "value": 0,
+            "controlHex": "c2",
+            "tokenRangeExclusive": [
+              1086,
+              1088
+            ],
+            "repeatOrdinal": 4,
+            "repeatTotal": 15
+          },
+          "leading_fixed": {
+            "value": 0,
+            "controlHex": "c2",
+            "tokenRangeExclusive": [
+              1086,
+              1088
+            ],
+            "repeatOrdinal": 5,
+            "repeatTotal": 15
+          },
+          "leading_variable": {
+            "value": 0,
+            "controlHex": "c2",
+            "tokenRangeExclusive": [
+              1086,
+              1088
+            ],
+            "repeatOrdinal": 6,
+            "repeatTotal": 15
+          }
+        }
+      }
+    },
+    "woodland": {
+      "source": {
+        "resourceId": 6534,
+        "path": "docs/research-evidence/2026-09-30/director-extraction/woodland/06534-XMED.bin",
+        "sha256": "582c982665103f92a28cb7f975ebdf91a3d69e6a415d332894f026391123f04b",
+        "bytes": 2048
+      },
+      "insertStyle": {
+        "value": 10,
+        "controlHex": "01",
+        "tokenRangeExclusive": [
+          436,
+          438
+        ],
+        "repeatOrdinal": 0,
+        "repeatTotal": 1
+      },
+      "sectionBodyRangeExclusive": [
+        436,
+        1062
+      ],
+      "completeStyleCount": 12,
+      "fonts": [
+        {
+          "fontIndex": 0,
+          "names": [
+            {
+              "name": "Arial",
+              "pointerRangeExclusive": [
+                1139,
+                1207
+              ]
+            },
+            {
+              "name": "",
+              "pointerRangeExclusive": [
+                1207,
+                1275
+              ]
+            }
+          ],
+          "propertyFields": [
+            {
+              "value": 4,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1275,
+                1277
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1277,
+                1279
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1279,
+                1280
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1280,
+                1281
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 1252,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1281,
+                1285
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 1024,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1285,
+                1289
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1289,
+                1291
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1291,
+                1292
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1292,
+                1293
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 1,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1293,
+                1295
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1295,
+                1297
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1297,
+                1298
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 262152,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1298,
+                1304
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1304,
+                1306
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1306,
+                1307
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 257,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1307,
+                1311
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1311,
+                1313
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            }
+          ]
+        },
+        {
+          "fontIndex": 1,
+          "names": [
+            {
+              "name": "System",
+              "pointerRangeExclusive": [
+                1313,
+                1381
+              ]
+            },
+            {
+              "name": "",
+              "pointerRangeExclusive": [
+                1381,
+                1449
+              ]
+            }
+          ],
+          "propertyFields": [
+            {
+              "value": 4,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1449,
+                1451
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1451,
+                1453
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1453,
+                1454
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1454,
+                1455
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 1252,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1455,
+                1459
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 1024,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1459,
+                1463
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1463,
+                1465
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1465,
+                1466
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1466,
+                1467
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 1,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1467,
+                1469
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1469,
+                1471
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1471,
+                1473
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 4
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1471,
+                1473
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 4
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1471,
+                1473
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 4
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1471,
+                1473
+              ],
+              "repeatOrdinal": 3,
+              "repeatTotal": 4
+            },
+            {
+              "value": 257,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1473,
+                1477
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1477,
+                1479
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            }
+          ]
+        },
+        {
+          "fontIndex": 2,
+          "names": [
+            {
+              "name": "Fixedsys",
+              "pointerRangeExclusive": [
+                1479,
+                1547
+              ]
+            },
+            {
+              "name": "",
+              "pointerRangeExclusive": [
+                1547,
+                1615
+              ]
+            }
+          ],
+          "propertyFields": [
+            {
+              "value": 4,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1615,
+                1617
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1617,
+                1619
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1619,
+                1620
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1620,
+                1621
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 1252,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1621,
+                1625
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 1024,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1625,
+                1629
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1629,
+                1631
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1631,
+                1632
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1632,
+                1633
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 1,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1633,
+                1635
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1635,
+                1637
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1637,
+                1639
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 4
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1637,
+                1639
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 4
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1637,
+                1639
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 4
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1637,
+                1639
+              ],
+              "repeatOrdinal": 3,
+              "repeatTotal": 4
+            },
+            {
+              "value": 257,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1639,
+                1643
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1643,
+                1645
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            }
+          ]
+        }
+      ],
+      "referencedStyles": [
+        {
+          "styleIndex": 10,
+          "fields": [
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                948,
+                950
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 3
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                948,
+                950
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 3
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                948,
+                950
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 3
+            },
+            {
+              "value": 12,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                950,
+                952
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 3,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                952,
+                954
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                954,
+                956
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                956,
+                957
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                957,
+                958
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                958,
+                959
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 65280,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                959,
+                964
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                964,
+                966
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                966,
+                967
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                967,
+                968
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 65535,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                968,
+                973
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 65535,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                973,
+                974
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 65535,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                974,
+                975
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                975,
+                977
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                977,
+                978
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 786432,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                978,
+                984
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                984,
+                986
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                986,
+                988
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                986,
+                988
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                986,
+                988
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                986,
+                988
+              ],
+              "repeatOrdinal": 3,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                986,
+                988
+              ],
+              "repeatOrdinal": 4,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                986,
+                988
+              ],
+              "repeatOrdinal": 5,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                986,
+                988
+              ],
+              "repeatOrdinal": 6,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                986,
+                988
+              ],
+              "repeatOrdinal": 7,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                986,
+                988
+              ],
+              "repeatOrdinal": 8,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                986,
+                988
+              ],
+              "repeatOrdinal": 9,
+              "repeatTotal": 10
+            },
+            {
+              "value": 2,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                988,
+                990
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                990,
+                992
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                992,
+                994
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                992,
+                994
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                992,
+                994
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                992,
+                994
+              ],
+              "repeatOrdinal": 3,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                992,
+                994
+              ],
+              "repeatOrdinal": 4,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                992,
+                994
+              ],
+              "repeatOrdinal": 5,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                992,
+                994
+              ],
+              "repeatOrdinal": 6,
+              "repeatTotal": 7
+            },
+            {
+              "value": 1,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                994,
+                996
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                996,
+                998
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 3,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 4,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 5,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 6,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 7,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 8,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 9,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 10,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 11,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 12,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 13,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 14,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 15,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 16,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 17,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 18,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 19,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 20,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 21,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 22,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 23,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 24,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 25,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 26,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 27,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 28,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 29,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1000,
+                1001
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1001,
+                1002
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1002,
+                1004
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 3
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1002,
+                1004
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 3
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1002,
+                1004
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 3
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1004,
+                1005
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            }
+          ],
+          "selectedFields": {
+            "font_index": {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                948,
+                950
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 3
+            },
+            "ascent": {
+              "value": 12,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                950,
+                952
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "descent": {
+              "value": 3,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                952,
+                954
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "leading": {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                954,
+                956
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "point": {
+              "value": 786432,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                978,
+                984
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "char_extra": {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                986,
+                988
+              ],
+              "repeatOrdinal": 4,
+              "repeatTotal": 10
+            },
+            "bold": {
+              "value": 1,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                994,
+                996
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "italic": {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                996,
+                998
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "underline": {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                998,
+                1000
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 30
+            }
+          },
+          "fontName": "Arial",
+          "storedPointSize": 12.0,
+          "storedMetricSum": 15
+        },
+        {
+          "styleIndex": 11,
+          "fields": [
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1005,
+                1007
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 3
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1005,
+                1007
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 3
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1005,
+                1007
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 3
+            },
+            {
+              "value": 12,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1007,
+                1009
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 3,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1009,
+                1011
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1011,
+                1013
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1013,
+                1014
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1014,
+                1015
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1015,
+                1016
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 65280,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1016,
+                1021
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 65280,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1021,
+                1022
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1022,
+                1024
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1024,
+                1025
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 65535,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1025,
+                1030
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 65535,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1030,
+                1031
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 65535,
+              "controlHex": "81",
+              "tokenRangeExclusive": [
+                1031,
+                1032
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1032,
+                1034
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1034,
+                1035
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 786432,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1035,
+                1041
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1041,
+                1043
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1043,
+                1045
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1043,
+                1045
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1043,
+                1045
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1043,
+                1045
+              ],
+              "repeatOrdinal": 3,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1043,
+                1045
+              ],
+              "repeatOrdinal": 4,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1043,
+                1045
+              ],
+              "repeatOrdinal": 5,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1043,
+                1045
+              ],
+              "repeatOrdinal": 6,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1043,
+                1045
+              ],
+              "repeatOrdinal": 7,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1043,
+                1045
+              ],
+              "repeatOrdinal": 8,
+              "repeatTotal": 10
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1043,
+                1045
+              ],
+              "repeatOrdinal": 9,
+              "repeatTotal": 10
+            },
+            {
+              "value": 1,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1045,
+                1047
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1047,
+                1049
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1049,
+                1051
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1049,
+                1051
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1049,
+                1051
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1049,
+                1051
+              ],
+              "repeatOrdinal": 3,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1049,
+                1051
+              ],
+              "repeatOrdinal": 4,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1049,
+                1051
+              ],
+              "repeatOrdinal": 5,
+              "repeatTotal": 7
+            },
+            {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1049,
+                1051
+              ],
+              "repeatOrdinal": 6,
+              "repeatTotal": 7
+            },
+            {
+              "value": 1,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1051,
+                1053
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1053,
+                1055
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 3,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 4,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 5,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 6,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 7,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 8,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 9,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 10,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 11,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 12,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 13,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 14,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 15,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 16,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 17,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 18,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 19,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 20,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 21,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 22,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 23,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 24,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 25,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 26,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 27,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 28,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 29,
+              "repeatTotal": 30
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1057,
+                1058
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1058,
+                1059
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1059,
+                1061
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 3
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1059,
+                1061
+              ],
+              "repeatOrdinal": 1,
+              "repeatTotal": 3
+            },
+            {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1059,
+                1061
+              ],
+              "repeatOrdinal": 2,
+              "repeatTotal": 3
+            },
+            {
+              "value": 0,
+              "controlHex": "82",
+              "tokenRangeExclusive": [
+                1061,
+                1062
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            }
+          ],
+          "selectedFields": {
+            "font_index": {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1005,
+                1007
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 3
+            },
+            "ascent": {
+              "value": 12,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1007,
+                1009
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "descent": {
+              "value": 3,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1009,
+                1011
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "leading": {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1011,
+                1013
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "point": {
+              "value": 786432,
+              "controlHex": "02",
+              "tokenRangeExclusive": [
+                1035,
+                1041
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "char_extra": {
+              "value": 0,
+              "controlHex": "c2",
+              "tokenRangeExclusive": [
+                1043,
+                1045
+              ],
+              "repeatOrdinal": 4,
+              "repeatTotal": 10
+            },
+            "bold": {
+              "value": 1,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1051,
+                1053
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "italic": {
+              "value": 0,
+              "controlHex": "01",
+              "tokenRangeExclusive": [
+                1053,
+                1055
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 1
+            },
+            "underline": {
+              "value": 0,
+              "controlHex": "c1",
+              "tokenRangeExclusive": [
+                1055,
+                1057
+              ],
+              "repeatOrdinal": 0,
+              "repeatTotal": 30
+            }
+          },
+          "fontName": "Arial",
+          "storedPointSize": 12.0,
+          "storedMetricSum": 15
+        }
+      ],
+      "paragraph": {
+        "bodyRangeExclusive": [
+          1083,
+          1118
+        ],
+        "selectedFields": {
+          "justification": {
+            "value": 0,
+            "controlHex": "01",
+            "tokenRangeExclusive": [
+              1083,
+              1085
+            ],
+            "repeatOrdinal": 0,
+            "repeatTotal": 1
+          },
+          "spacing": {
+            "value": 0,
+            "controlHex": "c2",
+            "tokenRangeExclusive": [
+              1087,
+              1089
+            ],
+            "repeatOrdinal": 3,
+            "repeatTotal": 15
+          },
+          "leading_extra": {
+            "value": 0,
+            "controlHex": "c2",
+            "tokenRangeExclusive": [
+              1087,
+              1089
+            ],
+            "repeatOrdinal": 4,
+            "repeatTotal": 15
+          },
+          "leading_fixed": {
+            "value": 0,
+            "controlHex": "c2",
+            "tokenRangeExclusive": [
+              1087,
+              1089
+            ],
+            "repeatOrdinal": 5,
+            "repeatTotal": 15
+          },
+          "leading_variable": {
+            "value": 0,
+            "controlHex": "c2",
+            "tokenRangeExclusive": [
+              1087,
+              1089
+            ],
+            "repeatOrdinal": 6,
+            "repeatTotal": 15
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+recordFont 943
+Example
+This example shows that the radius of the model resource Sphere01 is 24.0:
+put member("3D World").modelResource("Sphere01").radius
+-- 24.0
+randomSeed
+Usage
+the randomSeed 
+Description
+System property; specifies the seed value used for generating random numbers accessed through 
+the random() function.
+Using the same seed produces the same sequence of random numbers. This property can be useful 
+for debugging during development. Using the ticks property is an easy way to produce a unique 
+random seed since the ticks value is highly unlikely to be duplicated on subsequent uses.
+This property can be tested and set.
+Example
+This statement displays the random seed number in the Message window:
+put the randomSeed
+See also
+random(), milliseconds
+recordFont
+Usage
+recordFont(whichCastMember, font {[,face]} {,[bitmapSizes]} {,characterSubset} 
+{, userFontName})
+Description
+Command; embeds a T rueType or Type 1 font as a cast member. Once embedded, these fonts are 
+available to the author just like other fonts installed in the system.
+You must create an empty font cast member with the new() command before using recordFont.
+• font—Name of original font to be recorded. 
+• face—List of symbols indicating the face of the original font; possible values are #plain, 
+#bold, #italic. If you do not provide a value for this argument, #plain is used. 
+• bitmapSizes—List of integers specifying the sizes for which bitmaps are to be recorded. This 
+argument can be empty. If you omit this argument, no bitmaps are generated. These bitmaps 
+typically look better at smaller point sizes (below 14 points) but take up more memory.
+• characterSubset—String of characters to be encoded. Only the specified characters will be 
+available in the font. If this argument is, all characters are encoded. If only certain characters 
+are encoded but an unencoded character is used, that character is displayed as an empty box.
+• userFontName—A string to use as the name of the newly recorded font cast member.

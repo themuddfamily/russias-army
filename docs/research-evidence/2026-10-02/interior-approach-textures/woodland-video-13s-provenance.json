@@ -1,0 +1,43 @@
+{
+  "scope": "New preserved-video frame extraction for future independent geometric landmarks; no fitted camera or original runtime execution",
+  "source": "docs/research-evidence/2026-09-30/woodland-video-first45s.mp4",
+  "sourceSha256": "069ea82b66ef3d2c0656ea81ea2e8fa939179245b5364077e59f213fcd7e5fc1",
+  "output": "docs/research-evidence/2026-10-02/interior-approach-textures/woodland-video-13s.jpg",
+  "outputSha256": "e3efda1f0eb0d1aebae7f0cfe56fc9686620e71fa22c85b181bd57f143f6c49a",
+  "seekSecondsRelativeToPreservedVideo": 13,
+  "command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-ss",
+    "13",
+    "-i",
+    "docs/research-evidence/2026-09-30/woodland-video-first45s.mp4",
+    "-frames:v",
+    "1",
+    "-threads",
+    "1",
+    "-q:v",
+    "2",
+    "docs/research-evidence/2026-10-02/interior-approach-textures/woodland-video-13s.jpg"
+  ],
+  "terminalExitCode": 0,
+  "sourceVideoMetadata": {
+    "width": 1280,
+    "height": 574,
+    "avgFrameRate": "10/1",
+    "timeBase": "1/10240",
+    "startTime": "0.000000"
+  },
+  "observations": [
+    "Interior doorway exposes exterior terrain and distant objects.",
+    "Visible mesh jamb/corner boundaries may supply independent constraints after source identification.",
+    "Photographic wall rails must not be labelled mesh edges solely from appearance."
+  ],
+  "limits": [
+    "No unique source points or component label assigned.",
+    "No camera fit, projection proof or lighting acceptance.",
+    "Relative clip timestamp does not establish native callback time."
+  ]
+}

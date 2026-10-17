@@ -1,0 +1,40 @@
+orthoHeight 907
+Example
+This sprite script uses the originMode property to set up a Flash movie sprite so its origin point 
+can be set to a specific point. It then sets the horizontal and vertical origin points.
+-- Lingo syntax
+property spriteNum
+on beginSprite me
+sprite(spriteNum).scaleMode = #showAll
+sprite(spriteNum).originMode = #point
+sprite(spriteNum).originH = 100
+sprite(spriteNum).originV = 80
+end
+// JavaScript syntax
+function beginSprite() {
+sprite(this.spriteNum).scaleMode = symbol("showAll");
+sprite(this.spriteNum).originMode = symbol("point");
+sprite(this.spriteNum).originH = 100;
+sprite(this.spriteNum).originV = 80;
+}
+See also
+originH, originPoint, scaleMode
+orthoHeight
+Usage
+member(whichCastmember).camera(whichCamera).orthoHeight
+member(whichCastmember).camera[cameraindex].orthoHeight
+sprite(whichSprite).camera.orthoHeight
+Description
+3D property; when camera.projection is set to #orthographic, the value 
+camera.orthoHeight gives the number of perpendicular world units that fit vertically in the 
+sprite. World units are the measuring units for the particular 3D world. They are internally 
+consistent but arbitrarily chosen, and they can vary from one 3D world to another.
+You do not need to specify the camera index (whichCamera) to access the first camera of 
+the sprite. 
+The default value of this property is 200.0
+Example
+The following statement sets the orthoHeight of the camera of sprite 5 to 200. This means 200 
+world units will fit vertically within the sprite.
+sprite(5).camera.orthoheight = 200.0
+See also
+projection

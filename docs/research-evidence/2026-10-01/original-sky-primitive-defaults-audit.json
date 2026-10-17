@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "originalRuntimeExecuted": false,
+  "gpuUsed": false,
+  "nativePixelParityEstablished": false,
+  "manual": {
+    "resolution": {
+      "printedPage": 955,
+      "lines": [
+        38221,
+        38229
+      ],
+      "default": 20
+    },
+    "numSegments": {
+      "printedPage": 900,
+      "lines": [
+        35998,
+        36006
+      ],
+      "default": 2
+    },
+    "bottomRadius": {
+      "printedPage": 668,
+      "lines": [
+        26732,
+        26738
+      ],
+      "axis": "-Y"
+    }
+  },
+  "correction": {
+    "radialSegments": {
+      "before": 64,
+      "after": 20
+    },
+    "heightSegments": {
+      "before": 1,
+      "after": 2
+    }
+  },
+  "regularPolygonMidEdgeRadiusFraction": {
+    "before64": 0.9987954562051724,
+    "after20": 0.9876883405951378
+  },
+  "mapAudits": [
+    {
+      "edition": "woodland",
+      "radiusSource": 11129.770458984374,
+      "sourceLayerCounts": {
+        "0": 3,
+        "1": 20
+      },
+      "usedShaderCount": 23,
+      "allImportedTransformsIdentity": true,
+      "allImportedRepeatFlagsEnabled": true
+    },
+    {
+      "edition": "barrack",
+      "radiusSource": 8033.711181640625,
+      "sourceLayerCounts": {
+        "0": 3,
+        "1": 14
+      },
+      "usedShaderCount": 17,
+      "allImportedTransformsIdentity": true,
+      "allImportedRepeatFlagsEnabled": true
+    }
+  ],
+  "files": [
+    {
+      "path": "/tmp/ra-libreshockwave-src/docs/drmx2004_scripting_ref.pdf",
+      "sha256": "cac296f854e9d60d73567e00f19291851a9c5db806e0613eccbd510a37d29eca"
+    },
+    {
+      "path": "/tmp/ra-libreshockwave-src/docs/_pdf_text/drmx2004_scripting_ref.txt",
+      "sha256": "a53ee6c97174dbbaafa6ab5c12e76e2a6f37b4b5a91a467bd6ecb2097ba3b151"
+    },
+    {
+      "path": "src/originalSceneMaterials.ts",
+      "sha256": "c7fc207b9dda932cbc1280967ecec3bc160dcc19c5ff07a2c1f8d4a9d104683c"
+    },
+    {
+      "path": "src/originalSceneMaterials.test.ts",
+      "sha256": "aefec7f868e6a5720f6d36a65641e562482c7305771c33cebda3e5064a32f255"
+    },
+    {
+      "path": "public/assets/original-scenes/woodland/scene.json",
+      "sha256": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107"
+    },
+    {
+      "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/BehaviorScript 32 - explore.ls",
+      "sha256": "af3c03894bd87347219cf1c2d049b53d66e6e7c6ebc4c4f8b7859201a128bff0"
+    },
+    {
+      "path": "public/assets/original-scenes/barrack/scene.json",
+      "sha256": "7b252e098959f98a872850551fdf8f52e5b7e1b5ea79dfa6af21b841f0d31ad3"
+    },
+    {
+      "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/BehaviorScript 32 - explore.ls",
+      "sha256": "3f351df99fc63409d6b6f43addd56e2c71d55ed33938ff437485dadad4d5ed63"
+    }
+  ],
+  "focusedValidation": {
+    "command": "npx vitest run src/originalSceneMaterials.test.ts src/originalScene.test.ts --maxWorkers=1",
+    "exitCode": 0,
+    "testFiles": 2,
+    "tests": 14,
+    "log": "/tmp/source-sky-primitive-focused.log",
+    "logSha256": "375d72c916f996f594fee821023582c1cae2ae992d1df4bbba4f2817758fef27"
+  }
+}

@@ -1,0 +1,350 @@
+[
+  {
+    "map": "barrack",
+    "scale": 0.02023529411764706,
+    "groundBounds": {
+      "min": {
+        "x": -164.70448483455883,
+        "y": -1.2297975607479321,
+        "z": -161.5865896139706
+      },
+      "max": {
+        "x": 172.20881479779413,
+        "y": 9.582172564338236,
+        "z": 172.86711397058824
+      }
+    },
+    "spawns": [
+      {
+        "source": {
+          "position": [
+            296,
+            -563,
+            87
+          ],
+          "rotation": [
+            1,
+            0,
+            -1264
+          ]
+        },
+        "settledFeet": {
+          "x": 6.070588235294118,
+          "y": -6.900487121331835e-8,
+          "z": 11.392470588235295
+        },
+        "supportSourceUnits": -0.0000034101244494953832,
+        "sourceSpawnEyeAboveSupport": 87.00000341012445,
+        "sourceLateralEquilibriumShift": [
+          0,
+          0
+        ],
+        "nonOverlapping": true
+      },
+      {
+        "source": {
+          "position": [
+            -5018,
+            2835,
+            87
+          ],
+          "rotation": [
+            -1,
+            0,
+            -1532
+          ]
+        },
+        "settledFeet": {
+          "x": -101.45976470588236,
+          "y": -7.830859593033304e-8,
+          "z": -57.36705882352941
+        },
+        "supportSourceUnits": -0.0000038699015430687835,
+        "sourceSpawnEyeAboveSupport": 87.00000386990155,
+        "sourceLateralEquilibriumShift": [
+          0,
+          0
+        ],
+        "nonOverlapping": true
+      },
+      {
+        "source": {
+          "position": [
+            -3996,
+            -5565,
+            87
+          ],
+          "rotation": [
+            1,
+            0,
+            -1872
+          ]
+        },
+        "settledFeet": {
+          "x": -80.77929411764707,
+          "y": 1.3050315400563784e-7,
+          "z": 112.60941176470588
+        },
+        "supportSourceUnits": 0.0000064492837735344275,
+        "sourceSpawnEyeAboveSupport": 86.99999355071623,
+        "sourceLateralEquilibriumShift": [
+          -4.547473508864641e-13,
+          0
+        ],
+        "nonOverlapping": true
+      },
+      {
+        "source": {
+          "position": [
+            3810,
+            -1686,
+            411
+          ],
+          "rotation": [
+            4,
+            0,
+            -2210
+          ]
+        },
+        "settledFeet": {
+          "x": 77.15026989080883,
+          "y": 6.560089044879744,
+          "z": 34.116705882352946
+        },
+        "supportSourceUnits": 324.19044698533617,
+        "sourceSpawnEyeAboveSupport": 86.80955301466383,
+        "sourceLateralEquilibriumShift": [
+          -1.3413135356104249,
+          -2.2737367544323206e-13
+        ],
+        "nonOverlapping": true
+      },
+      {
+        "source": {
+          "position": [
+            3072,
+            2157,
+            489
+          ],
+          "rotation": [
+            -2,
+            0,
+            -2377
+          ]
+        },
+        "settledFeet": {
+          "x": 62.243764705882356,
+          "y": 8.13081438209361,
+          "z": -43.64752941176471
+        },
+        "supportSourceUnits": 401.81350144067255,
+        "sourceSpawnEyeAboveSupport": 87.18649855932745,
+        "sourceLateralEquilibriumShift": [
+          0,
+          0
+        ],
+        "nonOverlapping": true
+      },
+      {
+        "source": {
+          "position": [
+            -197,
+            -2748,
+            559
+          ],
+          "rotation": [
+            -2,
+            0,
+            -2544
+          ]
+        },
+        "settledFeet": {
+          "x": -3.9054117647058826,
+          "y": 9.55437404497932,
+          "z": 55.60658823529412
+        },
+        "supportSourceUnits": 472.1638336181641,
+        "sourceSpawnEyeAboveSupport": 86.83616638183588,
+        "sourceLateralEquilibriumShift": [
+          0,
+          0
+        ],
+        "nonOverlapping": true
+      }
+    ]
+  },
+  {
+    "map": "woodlands",
+    "scale": 0.02023529411764706,
+    "groundBounds": {
+      "min": {
+        "x": -167.67652389705884,
+        "y": -10.222447208180148,
+        "z": -157.59604733455882
+      },
+      "max": {
+        "x": 171.65190946691177,
+        "y": 33.00998448988971,
+        "z": 171.65190946691177
+      }
+    },
+    "spawns": [
+      {
+        "source": {
+          "position": [
+            166,
+            4016,
+            914
+          ],
+          "rotation": [
+            1,
+            0,
+            -1259
+          ]
+        },
+        "settledFeet": {
+          "x": 3.44,
+          "y": 16.744927504310567,
+          "z": -81.26494117647059
+        },
+        "supportSourceUnits": 827.510952247906,
+        "sourceSpawnEyeAboveSupport": 86.48904775209405,
+        "sourceLateralEquilibriumShift": [
+          0,
+          -4.547473508864641e-13
+        ],
+        "nonOverlapping": true
+      },
+      {
+        "source": {
+          "position": [
+            -3414,
+            -2975,
+            -236
+          ],
+          "rotation": [
+            1,
+            0,
+            -1159
+          ]
+        },
+        "settledFeet": {
+          "x": -69.00235294117647,
+          "y": -6.531007869944853,
+          "z": 60.2
+        },
+        "supportSourceUnits": -322.7532958984375,
+        "sourceSpawnEyeAboveSupport": 86.7532958984375,
+        "sourceLateralEquilibriumShift": [
+          4.547473508864641e-13,
+          0
+        ],
+        "nonOverlapping": true
+      },
+      {
+        "source": {
+          "position": [
+            2613,
+            -1584,
+            -373
+          ],
+          "rotation": [
+            1,
+            0,
+            -1004
+          ]
+        },
+        "settledFeet": {
+          "x": 52.95576470588235,
+          "y": -9.29958655056264,
+          "z": 32.052705882352946
+        },
+        "supportSourceUnits": -459.5725911615258,
+        "sourceSpawnEyeAboveSupport": 86.57259116152579,
+        "sourceLateralEquilibriumShift": [
+          0,
+          -2.2737367544323206e-13
+        ],
+        "nonOverlapping": true
+      },
+      {
+        "source": {
+          "position": [
+            5548,
+            -5578,
+            628
+          ],
+          "rotation": [
+            -10,
+            0,
+            -1416
+          ]
+        },
+        "settledFeet": {
+          "x": 112.34635294117648,
+          "y": 10.970437895699837,
+          "z": 112.8724705882353
+        },
+        "supportSourceUnits": 542.1437332177245,
+        "sourceSpawnEyeAboveSupport": 85.8562667822755,
+        "sourceLateralEquilibriumShift": [
+          0,
+          0
+        ],
+        "nonOverlapping": true
+      },
+      {
+        "source": {
+          "position": [
+            615,
+            -6591,
+            556
+          ],
+          "rotation": [
+            -10,
+            0,
+            -1086
+          ]
+        },
+        "settledFeet": {
+          "x": 12.52564705882353,
+          "y": 9.495803970408101,
+          "z": 133.37082352941178
+        },
+        "supportSourceUnits": 469.26938225853985,
+        "sourceSpawnEyeAboveSupport": 86.73061774146015,
+        "sourceLateralEquilibriumShift": [
+          0,
+          -9.094947017729282e-13
+        ],
+        "nonOverlapping": true
+      },
+      {
+        "source": {
+          "position": [
+            2096,
+            -4255,
+            326
+          ],
+          "rotation": [
+            -10,
+            0,
+            -1056
+          ]
+        },
+        "settledFeet": {
+          "x": 42.49411764705882,
+          "y": 4.821541032600328,
+          "z": 86.10117647058824
+        },
+        "supportSourceUnits": 238.27383009943478,
+        "sourceSpawnEyeAboveSupport": 87.72616990056522,
+        "sourceLateralEquilibriumShift": [
+          0,
+          0
+        ],
+        "nonOverlapping": true
+      }
+    ]
+  }
+]

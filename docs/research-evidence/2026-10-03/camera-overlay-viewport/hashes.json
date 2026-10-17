@@ -1,0 +1,202 @@
+[
+  {
+    "path": "docs/research-evidence/2026-10-02/texture-default-conflict/scripting-reference.pdf",
+    "bytes": 10250418,
+    "sha256": "cac296f854e9d60d73567e00f19291851a9c5db806e0613eccbd510a37d29eca"
+  },
+  {
+    "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 5 - goody.ls",
+    "bytes": 9021,
+    "sha256": "6d1b8229158c635eaa6a418d762866a91f27abf78757e812b6e5c7f0670b1297"
+  },
+  {
+    "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/MovieScript 1 - generics.ls",
+    "bytes": 3956,
+    "sha256": "294d86b894b0471cedcff8a486706fa7551ba5cb921cb394236822eaf9bdbc44"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-01/native-gameplay-sprite-constraint.json",
+    "bytes": 16631,
+    "sha256": "01b15558055bb0b1befa6ed568b77ac5cf2d452d585f681c5d64de6f844ae9fe"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/hud-recording-transform/result.json",
+    "bytes": 7555,
+    "sha256": "3b3ffccfca568b7964493f4ef53fe662bc3bbb222acfd96475980c6baa6b7afd"
+  },
+  {
+    "path": "public/assets/original-normal-ui/provenance.json",
+    "bytes": 78135,
+    "sha256": "0faaba4100e51adef2709b0e9e1abc615860dbe6c0860e6ce160b8fb20127568"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/REPORT.md",
+    "bytes": 6591,
+    "sha256": "3f442964fbb4da256e6066ff2b40f3e2487a3b2a996e4df8f5ec132034ddb08f"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/hash-inputs.py",
+    "bytes": 1102,
+    "sha256": "45f1ee3c47d27a2b6361f6438361f20d9ed714294af7cd21f376ba57ba25c33a"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/index.log",
+    "bytes": 632,
+    "sha256": "5f3d7b7db2e81f05192822163cf3df4b39b1506f4d9d6067fd9cb0aae0b5e092"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0235.txt",
+    "bytes": 1951,
+    "sha256": "0baa3dd533e73a2c0d0511fd0a76c874f6c3093544e82d65c0d60915bacecd36"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0236.txt",
+    "bytes": 1593,
+    "sha256": "26369eb7392ac2cf52b85a7bedc940e388bc3086e38a3d939452c6b10e582cb4"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0497.txt",
+    "bytes": 1657,
+    "sha256": "272bb0f517196be764a9806197cb2705e74cff3678e4172c9098d6366cbf809f"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0498.txt",
+    "bytes": 2167,
+    "sha256": "87ccf494aa56e76145b4ae7d527c2a97b582aea1387686683c1c14bf59548b4a"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0499.txt",
+    "bytes": 1902,
+    "sha256": "3e888c59ffa5489599a86e7edd9243c6dfcf05aae84c39ddecd8bf1d31c0c014"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0516.txt",
+    "bytes": 1295,
+    "sha256": "f593367bf57213d7aebfebffe11f09f9122f94350241a083f7544b9940ada47b"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0517.txt",
+    "bytes": 1834,
+    "sha256": "b69e5e967b841075b18737775997f45c660b37901eed266b14de9751499a0674"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0518.txt",
+    "bytes": 2134,
+    "sha256": "6a14f6823e675395bc2538263447f4b69c01ebf6914ffe345459679b0e9f4ebd"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0568.txt",
+    "bytes": 2303,
+    "sha256": "2f9d422b2b2b4d9072a9a285e99394644961b9a04041d9cdf02aebf1f580a8d9"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0569.txt",
+    "bytes": 1660,
+    "sha256": "c7dedee821a0f87d48b4860326c7301ab92da06316c6743597cb0be1ba2795c3"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0570.txt",
+    "bytes": 1264,
+    "sha256": "e79331bcc938a4677b7a87e7a5416505013c51b7a6d1e19e009dcfaf707c5aa5"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0907.txt",
+    "bytes": 1559,
+    "sha256": "d35302cb0ca59d81ed91401a8b7736a9c5851ed7976b513aaf43b28a0566538f"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0908.txt",
+    "bytes": 2124,
+    "sha256": "abc5bbaf54b75f44298d11721a234879f917ecbab23b22210d879ae16c2ef511"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0909.txt",
+    "bytes": 1510,
+    "sha256": "7a215ec302d7c2e36fb700e14fd1b4e7d1785fc24a16b178551796dd388e0c22"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0943.txt",
+    "bytes": 2037,
+    "sha256": "81c6dea469b52f2e18ee92e41324a1e935916eb5fb4826629755e48d04e3bb9d"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0944.txt",
+    "bytes": 2008,
+    "sha256": "bec4f4f131797dd2498543d14b6b1069e203a3bf835e2a45c1ca727e5ffc5334"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0945.txt",
+    "bytes": 1187,
+    "sha256": "d14429fe536c63121c212790c4a41b8c1abc7b079007ffd569d9d22a3d414be5"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0946.txt",
+    "bytes": 1338,
+    "sha256": "918f02ee92234350d47396ed94d1413757d8561c742107d699c79f273f29e518"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0947.txt",
+    "bytes": 1050,
+    "sha256": "7de90c21feb33ce9c0cba62b5c3dbb4a894d1f22395224a50ede142ad5fef691"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0948.txt",
+    "bytes": 1957,
+    "sha256": "8b77ea498187088cd05205b8a4845e81cdb372f2fe7994fbedefb32a090f6d89"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0961.txt",
+    "bytes": 2231,
+    "sha256": "3f6d6b3139bffd42b9105b224a3ccc0b0979d23639fcf0629ae9788dfeed77bb"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0962.txt",
+    "bytes": 1248,
+    "sha256": "afe8eb5bcd08bd13e8fba378eb20f475e8679a8b30be4a9ffefef05ef3ebadf6"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0963.txt",
+    "bytes": 1935,
+    "sha256": "0c2b1477f5fcff1bae885ff9ee3c2e65b71b6691d218d09870b815a3071dfacd"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0967.txt",
+    "bytes": 1684,
+    "sha256": "48f8546e793a86a23f8cde55e062f0458f87035072162a820c2374d67839cea9"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0968.txt",
+    "bytes": 1435,
+    "sha256": "a1e818672d867e14d7872151ba5eccb52065c3a103543aa036d8d560efa9f31e"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0969.txt",
+    "bytes": 1930,
+    "sha256": "189cfb36c5beb41a3fddcf9d723744f638654698253082ac31ca682b187d3902"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0970.txt",
+    "bytes": 1971,
+    "sha256": "3542a3f737efed7054ad84c571561c3c18339ce1ab636b9c236c6d22828135b5"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/page-0971.txt",
+    "bytes": 1938,
+    "sha256": "e21d3576839ae43a5fc500867011e282fbbaf3f5a667a943399926d88702d944"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/property.log",
+    "bytes": 52344,
+    "sha256": "2cb96f2e48e6cc40e554b9ce5308b48cc17b7e8acf3d0438defe1b2e240a6d6d"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/read-index.py",
+    "bytes": 763,
+    "sha256": "e49f63929df26c2450a0a91e4ec2116c9dc43d7fd56fec8047d42f1aec66b8d7"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/camera-overlay-viewport/read-properties.py",
+    "bytes": 1038,
+    "sha256": "3244fb3fca9c40f0dc88bb819904bdf5dbf6bd67f29c73d286e2467786d74581"
+  }
+]

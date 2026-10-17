@@ -1,0 +1,42 @@
+948 Chapter 14:  Properties
+Example
+Without references, you would need statements like these:
+member(whichTextMember).line[whichLine].word[firstWord..lastWord].font = 
+"Palatino" 
+member(whichTextMember).line[whichLine].word[firstWord..lastWord].fontSize = 
+36 
+member(whichTextMember).line[whichLine].word[firstWord..lastWord].fontStyle = 
+[#bold]
+But with a ref property, you can refer to the same chunk as follows:
+myRef = member(whichTextMember).line[whichLine].word[firstWord..lastWord].ref
+The variable myRef is now shorthand for the entire chunk expression. This allows something like 
+the following:
+put myRef.font
+-- "Palatino"
+Or you can set a property of the chunk as follows:
+myRef.fontSize = 18
+myRef.fontStyle = [#italic]
+You can get access to the string referred to by the reference using the text property of 
+the reference:
+put myRef.text
+This would result in the actual string data, not information about the string.
+reflectionMap
+Usage
+member(whichCastmember).shader(whichShader).reflectionMap
+Description
+3D shader property; allows you to get and set the texture used to create reflections on the surface 
+of a model. This texture is applied to the third texture layer of the shader. This property is ignored 
+if the toon modifier is applied to the model resource.
+This helper property provides a simple interface for setting up a common use of reflection 
+mapping. The same effect can be achieved by setting the following properties: 
+shader.textureModeList[3] = #reflection
+shader.blendFunctionList[3] = #blend
+shader.blendSourceList[3] = #constant
+shader.blendConstantList[3] = 50.0
+When tested, this property returns the texture associated with the model’s third texture layer. The 
+default is void.
+Example
+This statement causes the model named GlassSphere to appear to reflect the texture named 
+Portrait off of its surface:
+member("3DPlanet").model("GlassSphere").shader.reflectionMap = \ 
+member("3DPlanet").texture("Portrait")

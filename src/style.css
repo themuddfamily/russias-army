@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap');
+
+:root { color: #ecf2ec; font-family: Inter, system-ui, sans-serif; background: #080b0d; font-synthesis: none; }
+* { box-sizing: border-box; }
+html, body, #game { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+body { user-select: none; }
+canvas { display: block; }
+button { font: 700 14px/1 'Barlow Condensed', sans-serif; letter-spacing: .16em; }
+.hidden { display: none !important; }
+
+#vignette, #damage-flash { position: fixed; inset: 0; pointer-events: none; z-index: 4; }
+#vignette { background: radial-gradient(circle at center, transparent 45%, rgba(2,5,6,.5) 115%); mix-blend-mode: multiply; }
+#damage-flash { opacity: 0; background: radial-gradient(circle, transparent 35%, rgba(150,8,8,.8)); transition: opacity .12s; }
+
+.panel { position: fixed; z-index: 20; color: #e9eee9; }
+.menu-panel { inset: 0; display: flex; flex-direction: column; justify-content: center; overflow-y:auto; padding: clamp(32px, 7vw, 110px); width: 100%; background-image: linear-gradient(90deg, rgba(5,8,9,.98) 0%, rgba(5,8,9,.91) 30%, rgba(5,8,9,.38) 58%, rgba(5,8,9,.08) 100%), url('/assets/generated/screens/menu-backdrop.webp'); background-size: cover; background-position: center; }
+.menu-panel > * { max-width: 540px; }
+.menu-panel::before { content: ''; position: absolute; left: clamp(32px, 7vw, 110px); top: 12%; width: 52px; height: 3px; background: #db3939; box-shadow: 18px 0 #db3939; }
+.eyebrow { color: #b9c6ba; font: 600 11px/1 'Inter'; letter-spacing: .32em; text-transform: uppercase; margin-bottom: 18px; }
+h1, h2 { font-family: 'Barlow Condensed', sans-serif; margin: 0; line-height: .78; letter-spacing: -.04em; }
+h1 { font-size: clamp(68px, 9vw, 126px); font-weight: 800; text-shadow: 0 10px 30px #000; }
+h1 span { color: transparent; -webkit-text-stroke: 1.5px rgba(232,240,232,.8); }
+.edition { margin-top: 22px; color: #db3939; font: 700 13px/1 'Barlow Condensed'; letter-spacing: .28em; }
+.brief { color: #aab3ac; font-size: 13px; line-height: 1.7; max-width: 420px; margin: 28px 0; }
+.mode-switch { display:flex;width:320px;margin:0 0 14px;border:1px solid rgba(255,255,255,.12);padding:3px;background:rgba(0,0,0,.25); }
+.mode-switch button { flex:1;height:34px;border:0;background:transparent;color:#748078;cursor:pointer;font:700 10px/1 'Barlow Condensed';letter-spacing:.14em; }
+.mode-switch button.active { color:#fff;background:#303936;box-shadow:inset 0 -2px #d33a3c; }
+.online-fields { display:grid;grid-template-columns:1fr 1fr;gap:10px;width:320px;margin:-2px 0 14px; }
+.online-fields label { color:#6f7b73;font:600 8px/1 Inter;letter-spacing:.16em; }
+.online-fields input { display:block;width:100%;height:34px;margin-top:6px;padding:0 10px;border:1px solid rgba(255,255,255,.13);outline:0;background:rgba(5,8,9,.78);color:#dce5de;font:600 12px/1 'Barlow Condensed';letter-spacing:.12em;text-transform:uppercase; }
+.online-fields input { user-select:text; }
+.online-fields input:focus { border-color:#ba3739; }
+#connection-note { grid-column:1/-1;color:#68736c;font-size:8px;letter-spacing:.12em; }
+#connection-note.error { color:#e35050; }
+.primary, .ghost { width: 220px; height: 50px; border: 0; cursor: pointer; transition: .2s ease; }
+.primary { color: white; background: #c72e31; box-shadow: 0 10px 35px rgba(199,46,49,.22); clip-path: polygon(0 0, 94% 0, 100% 25%, 100% 100%, 6% 100%, 0 75%); }
+.primary:hover { background: #e33b3e; transform: translateY(-2px); }
+.ghost { color: #c6cec7; background: transparent; border: 1px solid rgba(255,255,255,.15); margin-top: 12px; }
+.ghost:hover { border-color: #c72e31; color: white; }
+.controls-grid { display: grid; grid-template-columns: repeat(2, 160px); gap: 9px 22px; margin-top: 30px; color: #77817a; font: 500 10px/1 Inter; text-transform: uppercase; letter-spacing: .08em; }
+.controls-grid b { color: #d9dfda; display: inline-block; width: 62px; }
+.hint { color: #545d56; font-size: 9px; letter-spacing: .08em; margin-top: 22px; }
+.small-panel { left: 50%; top: 50%; transform: translate(-50%,-50%); width: min(430px, calc(100% - 32px)); padding: 44px; text-align: center; background: linear-gradient(145deg, rgba(15,20,21,.97), rgba(7,10,11,.98)); border: 1px solid rgba(255,255,255,.09); box-shadow: 0 30px 100px rgba(0,0,0,.7); }
+.small-panel h2 { font-size: 52px; line-height: 1; margin-bottom: 30px; }
+.small-panel .primary, .small-panel .ghost { width: 100%; }
+.setting { margin: 24px 0; text-align: left; }
+.setting label { display: block; color: #8e9991; font: 600 10px/1 Inter; letter-spacing: .15em; margin-bottom: 10px; }
+input[type=range] { width: 100%; accent-color: #ce3436; }
+.result-stats { display: grid; grid-template-columns: repeat(4,1fr); gap: 1px; background: rgba(255,255,255,.08); margin: 0 0 28px; }
+.result-stats div { background: #101516; padding: 18px 6px; }
+.result-stats b { display: block; font: 700 24px/1 'Barlow Condensed'; }
+.result-stats span { color: #7e8981; font-size: 8px; letter-spacing: .12em; }
+
+#hud {
+  --hud-surface: rgba(6, 11, 12, .76);
+  --hud-surface-deep: rgba(4, 8, 9, .9);
+  --hud-edge: rgba(220, 234, 224, .17);
+  --hud-text: #edf3ee;
+  --hud-muted: #a3afa6;
+  --hud-accent: #dc3c3f;
+  position: fixed;
+  inset: 0;
+  z-index: 8;
+  pointer-events: none;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+
+.topbar { position: absolute; top: 22px; left: 28px; right: 28px; display: flex; justify-content: space-between; align-items: flex-start; }
+.label { color: #7e8b82; font-size: 9px; letter-spacing: .2em; display: block; }
+.mission strong, .score strong { font-size: 18px; letter-spacing: .06em; }
+.score { text-align: right; }
+#network-status { position:absolute;right:0;top:42px;color:#6f7a73;font-size:8px;letter-spacing:.14em; }
+#network-status.online { color:#67c791;text-shadow:0 0 8px rgba(80,220,140,.5); }
+#network-status.error { color:#e35050; }
+.objective { position: absolute; left: 50%; transform: translateX(-50%); top: 0; min-width: 270px; height: 35px; display: flex; align-items: center; justify-content: center; gap: 10px; background: rgba(8,12,13,.72); border-top: 1px solid rgba(255,255,255,.14); clip-path: polygon(7% 0,93% 0,100% 50%,93% 100%,7% 100%,0 50%); font-size: 11px; letter-spacing: .14em; }
+.objective i { width: 6px; height: 6px; background: #d7383b; border-radius: 50%; box-shadow: 0 0 10px #d7383b; }
+.objective b { color: #e44; font-size: 14px; }
+#leader-line { position:absolute;left:50%;top:42px;transform:translateX(-50%);padding:4px 10px;color:#c3cec6;background:rgba(7,11,12,.62);border-radius:2px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;text-shadow:0 1px 3px #000;}
+#crosshair { --crosshair-gap: 7px; position: absolute; left: 50%; top: 50%; width: 60px; height: 60px; transform: translate(-50%,-50%); transition: transform .12s; }
+#crosshair i { position: absolute; background: rgba(238,245,238,.92); box-shadow: 0 0 3px #000; }
+#crosshair i:nth-child(1) { width: 1px; height: 6px; left: 30px; top: calc(30px - var(--crosshair-gap) - 6px); }
+#crosshair i:nth-child(2) { width: 1px; height: 6px; left: 30px; top: calc(30px + var(--crosshair-gap)); }
+#crosshair i:nth-child(3) { width: 6px; height: 1px; left: calc(30px - var(--crosshair-gap) - 6px); top: 30px; }
+#crosshair i:nth-child(4) { width: 6px; height: 1px; left: calc(30px + var(--crosshair-gap)); top: 30px; }
+#crosshair b { position: absolute; width: 2px; height: 2px; left: 29.5px; top: 29.5px; background: #e34; border-radius: 50%; }
+#scope-overlay { position: absolute; inset: 0; opacity: 0; visibility: hidden; transition: opacity .18s; background: radial-gradient(circle at center, transparent 0 29%, rgba(2,4,4,.2) 29.3%, #020303 43%); }
+#scope-overlay.active { opacity: 1; visibility: visible; }
+#hud:has(#scope-overlay.active) #crosshair { opacity: 0; }
+#scope-overlay.active ~ #hitmarker { z-index: 2; }
+.scope-glass { position: absolute; left: 50%; top: 50%; width: min(68vw,68vh); aspect-ratio: 1; transform: translate(-50%,-50%); border-radius: 50%; border: 2px solid rgba(0,0,0,.9); box-shadow: inset 0 0 55px rgba(0,0,0,.7),0 0 0 100vmax rgba(0,0,0,.88); background: radial-gradient(circle,transparent 48%,rgba(3,8,7,.28)); }
+.scope-glass::before,.scope-glass::after,.scope-glass i,.scope-glass b { content:''; position:absolute; display:block; background:rgba(12,16,14,.92); }
+.scope-glass::before { width:1px; height:100%; left:50%; top:0; }.scope-glass::after { height:1px; width:100%; top:50%; left:0; }
+.scope-glass i { width:12%; height:3px; left:44%; top:50%; transform:translateY(-1px); }
+.scope-glass b { width:3px; height:12%; top:44%; left:50%; transform:translateX(-1px); }
+.scope-glass em { position:absolute; right:14%; bottom:14%; color:rgba(210,220,213,.45);font:500 9px/1 Inter;letter-spacing:.18em;font-style:normal; }
+#hitmarker { position: absolute; left: 50%; top: 50%; transform: translate(-50%,-52%) scale(.7); font: 400 32px/1 Inter; color: white; opacity: 0; text-shadow: 0 0 5px #000; transition: opacity .08s, transform .08s; }
+#hitmarker.kill { color: #e13a3d; }
+#hitmarker.headshot { color: #ffd06a; text-shadow: 0 0 8px rgba(255,151,50,.8), 0 0 3px #000; }
+.bottom-left, .bottom-right { position: absolute; bottom: 28px; min-width: 205px; padding: 12px 15px 11px; isolation: isolate; }
+.bottom-left::before, .bottom-right::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(135deg, var(--hud-surface-deep), var(--hud-surface) 70%, rgba(13, 21, 21, .56));
+  box-shadow: inset 0 0 0 1px var(--hud-edge), 0 8px 24px rgba(0, 0, 0, .16);
+
+}
+.bottom-left::before { clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%); }
+.bottom-right::before { clip-path: polygon(12px 0, 100% 0, 100% 100%, 0 100%, 0 12px); }
+.bottom-left { left: 30px; }
+.bottom-right { right: 30px; text-align: right; }
+#status-text { color: var(--hud-muted); font-size: 10px; letter-spacing: .18em; margin: 0 0 8px 30px; }
+.health-row, .armor-row { display: flex; height: 27px; align-items: center; gap: 8px; }
+.health-row > span { color: #e34343; font: 700 22px/1 Inter; width: 22px; }
+.armor-row > span { color: #6aa8c0; font: 700 20px/1 Inter; width: 22px; }
+.health-row > b, .armor-row > b { width: 27px; font-size: 17px; }
+.bar { width: 110px; height: 4px; background: rgba(255,255,255,.12); }
+.bar i { display: block; width: 100%; height: 100%; background: #d13a3d; transition: width .2s; }
+.armor-row .bar i { background: #5797ad; }
+#weapon-name { color: #a6b0a8; font-size: 11px; letter-spacing: .2em; }
+.ammo { height: 47px; display: flex; align-items: baseline; justify-content: flex-end; gap: 8px; }
+.ammo b { font-size: 48px; line-height: 1; }
+.ammo span { color: #5f6962; font-size: 25px; }
+.ammo em { font-style: normal; color: #9aa49c; font-size: 22px; }
+.equipment { display: flex; gap: 14px; justify-content: flex-end; color: #87928a; font-size: 10px; letter-spacing: .12em; }
+.equipment b { color: #dbe2dc; font-size: 11px; }
+#kill-feed { position: absolute; top: 76px; right: 30px; text-align: right; }
+#kill-feed div { margin-bottom: 5px; padding: 5px 8px; background: rgba(8,10,11,.55); color: #b8c1ba; font-size: 10px; letter-spacing: .05em; animation: feedin .2s ease; }
+#kill-feed b { color: #e64949; }
+@keyframes feedin { from { opacity: 0; transform: translateX(20px); } }
+#prompt {
+  position: absolute;
+  left: 50%;
+  bottom: 21%;
+  z-index: 4;
+  width: max-content;
+  max-width: min(560px, calc(100% - 40px));
+  min-height: 36px;
+  padding: 10px 28px 9px 32px;
+  color: var(--hud-text);
+  background: linear-gradient(100deg, rgba(7, 12, 13, .94), rgba(15, 23, 23, .86));
+  box-shadow: inset 0 0 0 1px var(--hud-edge), 0 10px 32px rgba(0, 0, 0, .34);
+
+  clip-path: polygon(10px 0, calc(100% - 10px) 0, 100% 50%, calc(100% - 10px) 100%, 10px 100%, 0 50%);
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-50%, 10px);
+  font: 600 12px/1.35 'Barlow Condensed', sans-serif;
+  letter-spacing: .19em;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, .9);
+  transition: opacity .16s ease, transform .2s ease, visibility 0s linear .2s;
+}
+#prompt::before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: 9px;
+  bottom: 9px;
+  width: 2px;
+  background: var(--hud-accent);
+  box-shadow: 0 0 9px rgba(220, 60, 63, .5);
+}
+#prompt.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, 0);
+  transition-delay: 0s;
+}
+#respawn-overlay { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; opacity:0; visibility:hidden; background:radial-gradient(circle,rgba(25,3,4,.08),rgba(10,2,3,.68)); backdrop-filter:grayscale(.8); transition:opacity .2s; }
+#respawn-overlay.active { opacity:1; visibility:visible; }
+#respawn-overlay span { color:#d83b3d;font-size:12px;letter-spacing:.32em; }
+#respawn-overlay b { margin:10px 0 5px;font-size:58px;line-height:1; }
+#respawn-overlay em { color:#8d9990;font:500 9px/1 Inter;font-style:normal;letter-spacing:.26em; }
+.minimap { position: absolute; left: 28px; top: 87px; width: 106px; height: 106px; border: 1px solid rgba(255,255,255,.16); border-radius: 50%; overflow: hidden; background: radial-gradient(circle, rgba(38,62,56,.25), rgba(5,8,8,.7)); box-shadow: inset 0 0 25px #050808; }
+.minimap::before, .minimap::after { content:''; position:absolute; background:rgba(255,255,255,.06); }
+.minimap::before { width:1px; height:100%; left:50%; }.minimap::after { height:1px; width:100%; top:50%; }
+.minimap > span { position: absolute; top: 4px; left: 49px; color: #78847b; font-size: 8px; }
+.player-dot { position: absolute; z-index: 3; left: 50px; top: 49px; width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-bottom: 9px solid #e7eee8; transform-origin: 4px 5px; }
+.radar-sweep { position: absolute; inset: 0; background: conic-gradient(from 0deg, transparent 0 88%, rgba(89,180,135,.2) 100%); animation: radar 3s linear infinite; }
+@keyframes radar { to { transform: rotate(360deg); } }
+#radar-dots i { position: absolute; width: 4px; height: 4px; border-radius: 50%; background: #db4242; box-shadow: 0 0 5px #f33; }
+#damage-direction { position: absolute; left: 50%; top: 50%; width: 240px; height: 240px; transform: translate(-50%,-50%); border-top: 4px solid #f33; border-radius: 50%; opacity: 0; }
+
+#loading { position: fixed; inset: 0; z-index: 50; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #070a0b; background-image: linear-gradient(rgba(4,7,8,.78),rgba(4,7,8,.9)),url('/assets/generated/screens/loading-backdrop.webp'); background-size: cover; background-position: center; transition: opacity .5s; }
+.loader-mark { width: 82px; height: 82px; object-fit: contain; filter: drop-shadow(0 8px 22px rgba(0,0,0,.62)); }
+.loader-line { width: 180px; height: 2px; margin: 22px 0 13px; background: #1c2320; overflow: hidden; }
+.loader-line i { display: block; width: 45%; height: 100%; background: #c83234; animation: load 1.2s ease-in-out infinite; }
+@keyframes load { 0% { transform: translateX(-110%); } 100% { transform: translateX(330%); } }
+#loading span { color: #59615c; font: 600 8px/1 Inter; letter-spacing: .28em; }
+
+@media(max-width:650px) {
+  .menu-panel { background-image: linear-gradient(rgba(5,8,9,.86),rgba(5,8,9,.92)),url('/assets/generated/screens/menu-backdrop.webp'); }
+  .controls-grid { grid-template-columns: repeat(2, 1fr); }
+  .minimap { display:none; }
+  .objective { top: 38px; }
+  .bottom-left, .bottom-right { width: calc(50% - 18px); min-width: 0; padding: 10px 10px 9px; }
+  .bottom-left { left: 15px; bottom: 16px; }.bottom-right { right: 15px; bottom: 16px; }
+  .health-row, .armor-row { gap: 7px; }
+  .bar { width: clamp(50px, 18vw, 82px); }
+  #prompt { bottom: 23%; max-width: calc(100% - 24px); min-height: 34px; padding: 9px 22px 8px 26px; font-size: 11px; letter-spacing: .15em; }
+  .mission { display:none; }
+}
+
+@media(max-height:600px) {
+  #prompt { bottom: 18%; }
+}
+
+@media(prefers-reduced-motion:reduce) {
+  #prompt, #prompt.active { transition: none; }
+}
+
+/* Reference presentation: angular menu, white name disk and sparse corner HUD. */
+.svg-definitions { position:absolute;width:0;height:0;overflow:hidden; }
+:root { color:#f4f1e9;background:#131310; }
+button, input, select { font:inherit; }
+button:focus-visible,input:focus-visible,select:focus-visible { outline:3px solid #daae25;outline-offset:4px; }
+button { cursor:pointer; }
+.menu-panel { padding:32px 5vw;display:flex;justify-content:center;align-items:flex-start;background:#a61c22;isolation:isolate; }
+.menu-panel::before { inset:0;width:auto;height:auto;box-shadow:none;background:#10100f;clip-path:polygon(0 0,100% 0,100% 8%,0 76%);z-index:-2; }
+.menu-panel::after { content:'';position:absolute;inset:0;background:#171715;clip-path:polygon(0 100%,0 92%,100% 25%,100% 100%);z-index:-2; }
+.menu-angle { position:absolute;inset:0;max-width:none;background:#dddcd3;clip-path:polygon(17% 53%,96% 14%,96% 87%);z-index:-1; }
+/* Barrack's menu board crosses the upward band with a narrow red/black wedge. */
+.menu-stripes { position:absolute;inset:0;pointer-events:none;z-index:-1; }
+.menu-stripes::before,.menu-stripes::after { content:'';position:absolute;inset:0; }
+.menu-stripes::before { background:#a61c22;clip-path:polygon(18% 0,37% 0,100% 20%,100% 27%); }
+.menu-stripes::after { background:#10100f;clip-path:polygon(28% 0,34% 0,100% 19%,100% 22%); }
+.menu-disk { width:min(610px,52vw);height:min(610px,52vw);max-width:none;border-radius:50%;background:#f1f0e6;box-shadow:0 0 0 2px #fff9,0 15px 45px #0003;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:55px 60px;color:#262626;position:relative; }
+.menu-disk .eyebrow { font:700 10px/1.2 'Barlow Condensed',sans-serif;letter-spacing:.22em;color:#8a2325;margin:0 0 10px; }
+.menu-stage { width:100%;max-width:300px;display:flex;flex-direction:column;align-items:center; }
+.room-identity { margin:0 0 12px;color:#58665d;font:12px/1.3 'Barlow Condensed',sans-serif;text-align:center;overflow-wrap:anywhere; }
+.room-identity strong { color:#31525b; }
+#menu-rooms h2 { margin-bottom:10px; }
+#menu-rooms #room-list { max-height:170px; }
+#menu-rooms #room-list button { padding:3px 7px;line-height:1.1; }
+#entry-note { width:100%;color:#a91d22;font:12px/1.3 'Barlow Condensed',sans-serif;overflow-wrap:anywhere; }
+#entry-note:empty { display:none; }
+.menu-back { margin-top:10px;padding:4px 12px;border:0;background:none;color:#a51f25;font:700 12px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;cursor:pointer; }
+.menu-back:hover { text-decoration:underline; }
+.menu-back:focus-visible { outline:2px solid #31525b;outline-offset:3px; }
+.menu-disk h2 { font:800 clamp(28px,3.2vw,44px)/1 'Barlow Condensed',sans-serif;letter-spacing:-.02em;color:#31525b;margin-bottom:20px;text-align:center; }
+.name-field,.map-field,.online-fields,.mode-switch { width:100%;max-width:300px; }
+.name-field,.map-field label,.online-fields label,.rooms-heading { font:700 10px/1.3 'Barlow Condensed',sans-serif;letter-spacing:.12em;color:#555; }
+input:not([type=range]),select { border:1px solid #a5aaa4;background:#ffffffc4;color:#242927;padding:7px 10px;border-radius:0;user-select:text;font:600 14px/1.2 'Barlow Condensed',sans-serif; }
+.name-field input { display:block;width:100%;margin-top:5px;height:33px; }
+.map-field { display:flex;align-items:center;justify-content:space-between;gap:10px;margin:12px 0; }
+.map-field select { width:155px; }
+.mode-switch { margin:0 0 13px;padding:0;border:1px solid #bbbcb4;background:#dbddd6; }
+.mode-switch button { height:29px;color:#565d57;font:700 11px/1 'Barlow Condensed',sans-serif;letter-spacing:.09em; }
+.mode-switch button.active { color:white;background:#526267;box-shadow:none; }
+.online-fields { display:flex;flex-direction:column;gap:7px;margin:0 0 12px; }
+.online-fields input { height:28px;margin-top:3px;background:#fff;color:#333;border:1px solid #a5aaa4;font:600 13px/1 'Barlow Condensed',sans-serif; }
+.rooms-heading { display:flex;justify-content:space-between;align-items:center; }
+#refresh-rooms { border:0;background:none;padding:2px 0 2px 12px;color:#a21a20;font:700 10px/1 'Barlow Condensed',sans-serif;letter-spacing:.08em; }
+#room-list { max-height:86px;min-height:35px;overflow-y:auto;border-block:1px solid #c4c8bf;padding:3px 0; }
+#room-list button { display:flex;justify-content:space-between;gap:8px;align-items:center;width:100%;border:0;background:transparent;text-align:left;padding:5px 7px;color:#3d5155;font:600 12px/1.2 'Barlow Condensed',sans-serif;letter-spacing:0; }
+#room-list button:hover,#room-list button.selected { background:#dce0d5;color:#a21a20; }
+#room-list button:disabled { opacity:.45;cursor:default; }
+.room-empty { color:#606760;font:12px/1.3 'Barlow Condensed',sans-serif;margin:7px; }
+#connection-note { color:#58665c;font:11px/1.3 'Barlow Condensed',sans-serif;letter-spacing:0; }
+#connection-note.error { color:#a91d22; }
+.primary { background:#a51f25;color:#fff;box-shadow:none;clip-path:none;width:180px;min-height:35px;height:35px;font:800 18px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em; }
+.primary:hover { background:#7f171c;transform:none; }
+.menu-disk .hint { color:#636960;font:11px/1.3 'Barlow Condensed',sans-serif;letter-spacing:0;margin:10px 0 0;text-align:center; }
+.menu-wordmark { position:absolute;left:58%;top:35%;width:37%;transform:rotate(-3deg);color:#161616; }
+.menu-wordmark h1 { font:800 clamp(45px,6.6vw,100px)/.81 'Barlow Condensed',sans-serif;letter-spacing:-.04em;text-shadow:none; }
+.menu-wordmark h1 span { display:inline-block;padding:3px 13px 8px 7px;color:#f5f0e3;background:#aa2026;-webkit-text-stroke:0; }
+.wordmark-emblem { position:absolute;left:-35px;top:-32px;width:clamp(220px,26vw,390px);height:clamp(140px,17vw,250px);color:#d5b42c;pointer-events:none; }
+.menu-wordmark h1,.menu-wordmark .edition,.menu-wordmark p { position:relative;margin-left:clamp(42px,5vw,72px); }
+.menu-wordmark .edition { margin-top:18px;color:#282a28;font:700 12px/1.3 'Barlow Condensed',sans-serif;letter-spacing:.18em; }
+.menu-wordmark p { font:600 9px/1.3 'Barlow Condensed',sans-serif;letter-spacing:.17em;color:#61615a; }
+.menu-footer { position:absolute;bottom:18px;left:25px;right:25px;max-width:none;display:flex;justify-content:space-between;gap:15px;color:#b7b3a9;font:10px/1.4 'Barlow Condensed',sans-serif;letter-spacing:.08em; }
+.small-panel { color:#29393d;background:#f0efe5;border:1px solid white;box-shadow:0 10px 80px #0006; }
+.small-panel .eyebrow { color:#8f2025; }
+.small-panel h2 { color:#31525b;font-size:44px; }
+.setting { margin:18px 0; }
+.setting label { color:#454e49; }
+.setting select { width:100%; }
+.setting-note { color:#5a615b;font:12px/1.4 'Barlow Condensed',sans-serif;margin:9px 0 0; }
+.ghost { color:#7f2327;border:1px solid #b5b6ad;height:36px;font:700 15px/1 'Barlow Condensed',sans-serif; }
+.ghost:hover { color:#a51f25;background:#e4e3d7; }
+.result-disk { text-align:center; }
+.result-disk h2 { margin-bottom:12px;font-size:42px; }
+.result-caption { font:14px/1.3 'Barlow Condensed',sans-serif;color:#5a615b;margin-bottom:18px; }
+.result-stats { width:100%;gap:6px;background:none;margin-bottom:12px; }
+.result-stats div { background:none;padding:10px 2px; }
+.result-stats b { font-size:24px;color:#344b50; }
+.result-stats span { color:#5c645e; }
+.result-star { color:#ab2428;width:38px;height:38px;margin-bottom:14px; }
+.result-disk .primary { width:150px;background:none;color:#a32328;font-size:24px; }
+.fidelity #vignette { display:none; }
+.fidelity .topbar,.fidelity .minimap,.fidelity .armor-row,.fidelity .equipment,.fidelity #status-text,.fidelity .current-ammo { display:none; }
+.weapon-table-panel { position:absolute;left:15px;top:13px;width:200px;color:#ff1717;text-shadow:1px 1px 1px #180600;font:700 14px/1.2 Arial,sans-serif; }
+.weapon-table { width:100%;border-collapse:collapse;background:#0004; }
+.weapon-table caption { position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap; }
+.weapon-table caption span { float:right; }
+.weapon-table tr { height:18px; }
+.weapon-table th { text-align:left;font-weight:700;padding:1px 4px; }
+.weapon-table th span { display:inline-block;min-width:16px;color:inherit; }
+.weapon-table td { text-align:right;white-space:nowrap;padding:1px 5px 1px 0; }
+.weapon-table tr.active { color:#fff500;background:transparent; }
+.health-panel { position:absolute;right:17px;top:10px; }
+.health-row { display:flex;flex-direction:row-reverse;height:44px;gap:10px; }
+.health-row>span { font:700 46px/1 Arial,sans-serif;width:auto;color:#c61219;text-shadow:0 1px 1px #661311; }
+.health-row>b { font:700 19px/1 Arial,sans-serif;color:#fff;min-width:32px;text-shadow:1px 1px #391510; }
+.health-panel .bar { display:none; }
+#kill-feed { top:auto;right:auto;left:17px;bottom:148px;text-align:left;max-width:420px; }
+#kill-feed div { background:none;text-shadow:1px 1px #182716;padding:1px 0;font:11px/1.3 Arial,sans-serif;color:#b3d78a; }
+#kill-feed b { color:#f5cf67; }
+.chat-panel { position:absolute;left:17px;bottom:17px;width:min(460px,calc(100% - 145px));color:#fff500;font:700 14px/1.3 Arial,sans-serif;letter-spacing:.025em;text-shadow:1px 1px #10200c; }
+#chat-log { max-height:140px;padding:5px 8px;background:#0006;overflow-y:auto;overflow-wrap:anywhere;pointer-events:auto; }
+#chat-log:empty { display:none; }
+#chat-log p,#chat-log div { margin:2px 0; }
+#chat-log b { color:inherit; }
+#chat-log .system,#chat-log [data-kind="system"] { color:#20ff16; }
+#chat-log .feedback { color:#20ff16; }
+#chat-log .feedback:last-child { color:#fff500; }
+#chat-form { pointer-events:auto;display:flex;align-items:center;gap:7px;margin-top:8px;background:#151c13b8;padding:5px; }
+#chat-form label { color:#d5cd8c;font-weight:700; }
+#chat-input { min-width:0;flex:1;border:0;background:none;color:#e6eddf;font:12px/1.4 Arial,sans-serif;padding:3px; }
+#chat-form button { background:none;color:#e3d89e;font:700 10px/1 Arial,sans-serif;border:0;padding:6px; }
+.hud-emblem { position:absolute;bottom:15px;right:17px;color:#e8c53e;display:flex;align-items:flex-end;filter:drop-shadow(1px 2px 0 #55410a); }
+.hud-emblem svg { width:70px;height:70px; }
+.hud-emblem span { color:#f5f0e3;font:800 10px/.95 'Barlow Condensed',sans-serif;max-width:44px;padding-bottom:9px; }
+.hud-emblem b { display:inline-block;background:#aa2026;color:#fff6e7;font-size:18px;padding:1px 2px; }
+#prompt { background:#15201196;box-shadow:none;clip-path:none;min-height:24px;padding:5px 12px;font:12px/1.3 Arial,sans-serif;letter-spacing:0;bottom:19%; }
+#prompt::before { display:none; }
+#respawn-overlay { background:#1114;backdrop-filter:none; }
+#respawn-overlay span { color:#eee7d6;text-shadow:1px 1px #111;letter-spacing:.1em; }
+#respawn-overlay em { color:#e2decf; }
+#loading { background:#121211; }
+.loading-title { font:800 40px/.9 'Barlow Condensed',sans-serif;color:#e9e6da; }
+.loading-title b { display:block;color:#b92e32; }
+#loading span { color:#a8a698;font:11px/1 'Barlow Condensed',sans-serif;letter-spacing:.14em; }
+@media(max-width:850px) {
+  .menu-panel { padding:25px; }
+  .menu-disk { width:min(560px,68vw);height:min(560px,68vw);padding:50px; }
+  .menu-wordmark { left:71%;top:38%;width:27%; }.menu-wordmark h1 { font-size:6vw; }.wordmark-emblem { left:-28px;top:-28px;width:220px;height:145px; }.menu-wordmark .edition { font-size:9px; }
+}
+@media(min-width:651px) and (min-height:641px) and (max-width:1050px) {
+  #menu-rooms h2 { font-size:30px; }
+  #menu-rooms #room-list { max-height:110px; }
+  #menu-rooms .room-identity { margin-bottom:7px; }
+}
+@media(max-width:650px),(max-height:640px) {
+  .menu-panel { justify-content:flex-start;overflow-y:auto;padding:28px 20px 65px; }
+  .menu-disk { width:min(460px,100%);height:auto;min-height:460px;padding:45px 45px;border-radius:110px; }
+  .menu-disk h2 { font-size:32px; }.menu-wordmark { display:none; }.menu-footer { position:fixed;bottom:8px;left:15px;right:15px;font-size:9px; }.menu-footer span:last-child { display:none; }
+  .small-panel { max-height:calc(100vh - 24px);overflow-y:auto;padding:26px; }
+  .weapon-table-panel { left:8px;top:8px;width:170px; }.weapon-table tr { height:16px; }.weapon-table { font-size:12px; }.health-panel { right:10px; }.health-row>span { font-size:37px; }
+  .chat-panel { left:10px;bottom:10px;font-size:12px; }.hud-emblem { right:10px;bottom:10px; }.hud-emblem svg { width:54px;height:54px; }
+}
+
+/* The original scope retained the corner HUD over its black circular surround. */
+.fidelity .weapon-table-panel,.fidelity .health-panel,.fidelity .chat-panel,.fidelity .hud-emblem { z-index:3; }
+.fidelity #prompt,.fidelity #hitmarker,.fidelity #damage-direction { display:none; }
+.fidelity .scope-glass em { display:none; }
+.fidelity #scope-overlay { background: url('/assets/original-effects/scope-original.svg') center / 100% 100% no-repeat; transition:none; }
+/* Recovered original scoped frames retain HUD/chat but omit the corner logo. */
+.fidelity #hud:has(#scope-overlay.active) .hud-emblem { visibility:hidden; }
+/* Source UI frame-one vectors mapped from the recovered 800x600 sprite.
+   Viewport normalization is an adapter; native texture projection is unproved. */
+.fidelity .scope-glass { display:none; }
+
+/* Recovered Woodland bitmaps show gray health with red revealed as lives fall. */
+.woodland-health-cross,.legacy-score { display:none; }
+.fidelity[data-map="woodlands"] .health-panel {
+  --woodland-health-size:clamp(48px,10.667vh,96px);
+  right:max(10px,2.25vw);top:max(8px,1.833vh);
+}
+.fidelity[data-map="woodlands"] .health-row { height:var(--woodland-health-size); }
+.fidelity[data-map="woodlands"] .health-row>span { display:none; }
+.fidelity[data-map="woodlands"] .woodland-health-cross { display:block;position:relative;width:var(--woodland-health-size);height:var(--woodland-health-size);flex:none; }
+.woodland-health-cross img { position:absolute;inset:0;width:100%;height:100%; }
+#woodland-health-full { clip-path:inset(100% 0 0 0); }
+.fidelity[data-map="woodlands"] #health { position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap; }
+.fidelity[data-map="woodlands"] .legacy-score { display:block;margin-top:7px;text-align:center;color:#ff1717;font:700 16px/1.15 Arial,sans-serif;letter-spacing:.025em;text-shadow:1px 1px #180600; }
+.legacy-score b { color:#fff500;margin-left:5px; }
+@media(max-width:650px) {
+  .fidelity[data-map="woodlands"] .health-panel { --woodland-health-size:64px;right:10px; }
+}
+@media(max-width:650px),(max-height:640px) {
+  .fidelity[data-map="woodlands"] .legacy-score { font-size:13px;margin-top:5px; }
+}
+
+/* The sharp desktop source uses a conspicuous corner emblem over the gun. */
+@media (min-width:651px) and (min-height:641px) {
+  .fidelity .hud-emblem svg { width:clamp(100px,12vw,190px);height:clamp(100px,12vw,190px); }
+  .fidelity .hud-emblem span { font-size:clamp(12px,1.4vw,20px);max-width:90px;padding-bottom:16px; }
+  .fidelity .hud-emblem b { font-size:clamp(22px,2.4vw,34px); }
+}
+.fidelity .hud-emblem span::after { content:'BARRACK';display:block;margin-top:4px;font-size:8px;letter-spacing:.04em; }
+.fidelity[data-map="woodlands"] .hud-emblem span::after { content:'WOODLANDS'; }
+
+/* Sharp Woodland frames show red outer strokes and rounded black viewport corners. */
+.fidelity[data-map="woodlands"] #crosshair i { background:#f01818;box-shadow:none; }
+.fidelity[data-map="woodlands"] #crosshair i:nth-child(1),
+.fidelity[data-map="woodlands"] #crosshair i:nth-child(2) { width:2px;height:9px; }
+.fidelity[data-map="woodlands"] #crosshair i:nth-child(1) { top:calc(30px - var(--crosshair-gap) - 9px); }
+.fidelity[data-map="woodlands"] #crosshair i:nth-child(3),
+.fidelity[data-map="woodlands"] #crosshair i:nth-child(4) { width:9px;height:2px; }
+.fidelity[data-map="woodlands"] #crosshair i:nth-child(3) { left:calc(30px - var(--crosshair-gap) - 9px); }
+.fidelity[data-map="woodlands"] #crosshair b { display:none; }
+.fidelity[data-map="woodlands"] #game { background:#000; }
+.fidelity[data-map="woodlands"] #game>canvas { border-radius:6vmin; }
+
+/* Short desktop game viewports still have room for the two-column artwork.
+   Keep the compact phone layout separate from the wide source aspect ratio. */
+@media (min-width:851px) and (max-height:640px) {
+  .menu-panel .menu-wordmark { display:block; }
+  .menu-panel .menu-disk { width:min(520px,44vw,88vh);height:min(520px,44vw,88vh);min-height:0;border-radius:50%;padding:clamp(24px,5vh,45px); }
+}
+
+/* Authored broad gold sweep sits behind the right-side wordmark, following the sharp source. */
+.fidelity .hud-emblem { width:clamp(150px,20vw,340px);height:clamp(85px,11vw,185px);display:block; }
+.fidelity .hud-emblem svg { position:absolute;left:0;bottom:0;width:88%;height:100%; }
+.fidelity .hud-emblem span { position:absolute;right:0;bottom:14%;padding:0;width:52%;max-width:none;color:#141412;font-size:clamp(18px,3vw,46px);text-align:right;white-space:nowrap; }
+.fidelity .hud-emblem b { display:block;width:max-content;margin-left:auto;font-size:clamp(27px,3.4vw,49px);padding:1px 4px; }
+.fidelity .hud-emblem small { display:block;margin-top:3px;color:#f5f0e3;background:#080808a6;font:700 clamp(9px,1.15vw,17px)/1 'Barlow Condensed',sans-serif;letter-spacing:.01em;text-align:center; }
+.fidelity .hud-emblem span::after { color:#252521;text-shadow:none;text-align:right; }
+/* Compact play keeps the same outer emblem bounds and existing chat clearance. */
+@media(max-width:650px) {
+  .fidelity .hud-emblem span { font-size:18px; }
+  .fidelity .hud-emblem b { font-size:27px; }
+  .fidelity .hud-emblem small { font-size:9px; }
+}
+
+/* Recovered128-square art centered in the source800×600 viewport. Scaling to
+   other viewport heights is a responsive adapter, not native registration. */
+#original-hurt-overlay {position:absolute;left:50%;top:50%;width:21.333333vh;height:21.333333vh;transform:translate(-50%,-50%);opacity:0;pointer-events:none;z-index:7;}
+body:not(.fidelity) #original-hurt-overlay {display:none;}
+
+/* Recovered endgame message; historical scoreboard service remains unavailable. */
+.result-message { display:contents; }
+#original-result-ui,#original-result-submit { display:none; }
+#result.source-result { padding:0;overflow:hidden;background:#000;display:block; }
+#result.source-result::before { display:none; }
+.source-result>.menu-angle,.source-result>.menu-stripes,.source-result>.menu-wordmark,.source-result>.menu-footer { display:none; }
+.source-result #original-result-ui { display:block;position:absolute;inset:0;max-width:none;pointer-events:none; }
+#original-result-ui>img { position:absolute;inset:0;width:100%;height:100%;object-fit:fill;pointer-events:none; }
+#original-result-scroll { position:absolute;left:0;top:0;width:800px;height:600px;transform:scale(var(--source-result-scale-x,1),var(--source-result-scale-y,1));transform-origin:0 0;pointer-events:none; }
+.original-result-scroll-clip { position:absolute;left:0;top:560px;width:800px;height:30px;overflow:hidden; }
+.original-result-scroll-clip>img { position:absolute;left:0;top:0;width:1847px;height:30px;max-width:none;pointer-events:none; }
+/* Director frame6 rooms: loc96,189;262x332. Cast origin corroborates upper-left registration;
+   zero field padding remains an explicit adapter; stored style is TNR bold18/21. */
+#result.source-result .result-disk { position:absolute;left:0;top:0;width:800px;height:600px;max-width:none;min-width:0;margin:0;padding:0;border:0;border-radius:0;background:none;box-shadow:none;transform:scale(var(--source-result-scale-x,1),var(--source-result-scale-y,1));transform-origin:0 0;display:block;z-index:50; }
+.source-result .result-disk::before,.source-result .result-disk::after,.source-result .result-disk>.eyebrow,.source-result .result-star { display:none; }
+.source-result #result-title { position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%); }
+.source-result .result-message { display:block;position:absolute;left:96px;top:189px;width:262px;height:332px;overflow:hidden; }
+.source-result .result-caption,.source-result .result-stats { width:262px;color:#000;font:bold 18px/21px 'Times New Roman',Times,serif;letter-spacing:0;text-align:center; }
+.source-result .result-caption { margin:0; }
+.source-result .result-stats { display:block;background:none;margin:21px 0 0;white-space:pre-line; }
+/* The source transparent filled hit rectangle contains the complete glyph
+   control hull. Its transformed quadrilateral is therefore the exact union. */
+#result.source-result #restart { position:absolute;left:525.324964px;top:458.542936px;width:107.836594px;height:82.122696px;padding:0;background:none;box-shadow:none;border:0;clip-path:polygon(17.168377934109213% 0%,100% 56.92376411489201%,82.83162206589078% 100%,0% 43.07623588510799%);transform:none;transition:none;font-size:0; }
+#original-result-ui>img[class^="original-replay-"]:not(.original-replay-up) { display:none; }
+.source-result:has(#restart:is(:hover,:focus-visible,:active)) .original-replay-up { display:none; }
+.source-result:has(#restart:is(:hover,:focus-visible)) #original-result-ui>.original-replay-over { display:block; }
+.source-result:has(#restart:active) #original-result-ui>.original-replay-over { display:none; }
+.source-result:has(#restart:active) #original-result-ui>.original-replay-down { display:block; }
+#result.source-result #restart:focus-visible { outline:none; }
+#original-replay-focus { display:none;position:absolute;inset:0;width:100%;height:100%;z-index:23;pointer-events:none; }
+.source-result:has(#restart:focus-visible) #original-replay-focus { display:block; }
+#result.source-result #original-result-submit { display:block;position:absolute;left:168.25px;top:388.55px;width:100px;height:100px;padding:0;border:0;background:none;overflow:visible; }
+
+/* Exact frame-two UI vectors retain their recovered 800x600 placements.
+   Responsive viewport stretching remains an explicit presentation adapter. */
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) #crosshair,
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) .hud-emblem { display:none; }
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) .weapon-table,
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) #chat-log { background:transparent; }
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) #game>canvas { border-radius:0; }
+
+/* TextXtra weapons member:128square at source(40,19), with plain padded
+   rows rather than separately aligned columns. Full Paige decode identifies
+   Arial bold12 and automatic leading with stored12/3/0 metrics. Browser font
+   substitution/rasterization and15px stored-metrics line advance remain adapters. */
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) .weapon-table-panel {
+  left:5vw;top:3.166666666666667vh;width:128px;height:128px;
+  transform:scale(var(--source-hud-scale-x,1),var(--source-hud-scale-y,1));
+  transform-origin:0 0;font:700 12px/15px Arial,sans-serif;
+  letter-spacing:0;color:#ff0000;text-shadow:none;
+}
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) .weapon-table {
+  display:block;width:128px;font:inherit;
+}
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) .weapon-table tbody { display:block; }
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) .weapon-table tr {
+  display:block;height:15px;line-height:15px;white-space:pre;
+}
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) .weapon-table th,
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) .weapon-table td {
+  display:inline;padding:0;white-space:pre;text-align:left;font:inherit;
+}
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) .weapon-table th span { min-width:0; }
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) .weapon-table tr.active { color:#ffff00; }
+
+/* Source text surfaces retain separate hints(40,510), talk(40,490) and
+   stats(right-111,80) overlays. Font metrics/viewport mapping are adapters. */
+#barrack-health { display:none; }
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) .chat-panel {
+  position:absolute;inset:0;width:auto;max-width:none;pointer-events:none;
+  color:#00ff00;text-shadow:none;letter-spacing:0;
+}
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) #chat-log {
+  position:absolute;left:5vw;top:85vh;width:256px;height:256px;max-height:none;
+  transform:scale(var(--source-hud-scale-x,1),var(--source-hud-scale-y,1));transform-origin:0 0;
+  padding:0;background:none;overflow:visible;white-space:pre-wrap;overflow-wrap:anywhere;
+  font:700 11px/14px Arial,sans-serif;pointer-events:none;
+}
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) #chat-log div {
+  margin:0;min-height:14px;color:#00ff00;
+}
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) #chat-log div:first-child { color:#ffff00; }
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) #chat-form {
+  position:absolute;left:5vw;top:81.66666666666667vh;width:256px;
+  transform:scale(var(--source-hud-scale-x,1),var(--source-hud-scale-y,1));transform-origin:0 0;
+  margin:0;padding:0;background:none;gap:0;align-items:baseline;
+  color:#ff0000;font:700 11px/14px Arial,sans-serif;
+}
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) #chat-label {
+  color:inherit;font:inherit;white-space:pre;
+}
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) #chat-input {
+  color:inherit;font:inherit;padding:0;margin:0;height:14px;line-height:14px;
+  outline:0;outline-offset:0;
+}
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) #chat-form button {
+  position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);padding:0;
+}
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) .legacy-score {
+  display:block;position:absolute;z-index:3;left:86.125vw;top:13.333333333333334vh;
+  width:128px;height:128px;margin:0;white-space:pre;
+  transform:scale(var(--source-hud-scale-x,1),var(--source-hud-scale-y,1));transform-origin:0 0;
+  color:#ff0000;font:700 12px/15px Arial,sans-serif;text-align:center;
+  letter-spacing:0;text-shadow:none;
+}
+.fidelity:is([data-map="barrack"],[data-map="woodlands"]) .legacy-score b { color:#ffff00;font:inherit;margin:0; }
+/* Source Barrack health movie replaces the authored cross and visible number.
+   Square-preserving responsive sizing remains the existing health adapter. */
+.fidelity[data-map="barrack"] .health-panel {
+  --woodland-health-size:clamp(48px,10.667vh,96px);right:max(10px,2.25vw);top:max(8px,1.833vh);
+}
+.fidelity[data-map="barrack"] .health-row { height:var(--woodland-health-size); }
+.fidelity[data-map="barrack"] .health-row>span { display:none; }
+.fidelity[data-map="barrack"] #barrack-health { display:block;width:var(--woodland-health-size);height:var(--woodland-health-size); }
+.fidelity[data-map="barrack"] #health { position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap; }

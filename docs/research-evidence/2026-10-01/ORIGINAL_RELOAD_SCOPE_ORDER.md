@@ -1,0 +1,11 @@
+# Source reload before scope construction
+
+Both recovered editions' [weaponry.gun](<../2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 6 - weaponry.ls>) (lines135–153; the Barrack handler has the same ordering) handle R with `reload(me)` before testing the selected weapon for Dragunov and Shift. Their reload handler (lines104–133) can set the selected weapon to VOID, then select the first usable slot, returning before the ordinary reload presentation if every slot is empty.
+
+The copy previously called `openSourceScope()` before R. An empty Dragunov and an entirely empty inventory with R and Shift held therefore constructed a sniper actor before becoming unarmed. Its creation flag skipped that actor's first callback, leaving FOV35 for a callback even though the source would construct no actor. An empty Dragunov with usable pistol ammunition could similarly construct the actor before selecting pistol.
+
+[Game.updateSourceWeaponInput](../../../src/game.ts) now checks scope creation after the direct R route. The source weapon selected by reload determines whether the actor can be created. The existing birth-callback adapter is preserved: a valid Dragunov reload still creates FOV35 without immediately applying the actor's first .75 reduction. Online callbacks already covered by an authoritative weapon epoch retain their scope handling, because the local reload route is deliberately skipped there.
+
+[Actual Game tests](../../../src/originalWeaponGameplay.test.ts) cover both maps: exhausted R+Shift without actor construction, first usable pistol fallback without reopening under held Shift, closing an existing scope on fallback, and a valid Dragunov reload observed before scope construction. They also pin the ordering to both recovered scripts and retain the Winter bypass. Existing scope latch, mouse ordering and source unarmed presentation tests remain included.
+
+Focused command: `npx vitest run src/originalWeaponGameplay.test.ts src/originalScope.test.ts src/originalUnarmedPresentation.test.ts`. Output is saved in `/tmp/source-reload-scope-order-tests.log`. No original runtime or GPU was used. Actor-list mutation timing, native scope raster and authoritative packet scheduling remain unproved; this corrects the explicit recovered handler order only.

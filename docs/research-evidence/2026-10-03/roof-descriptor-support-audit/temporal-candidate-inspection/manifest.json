@@ -1,0 +1,65 @@
+{
+  "files": [
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/temporal-candidate-inspection/REPORT.md",
+      "sha256": "e2acb17577cf8adf1aa15de332d8bdebf833aaaac068e774441d989bc270b8dc"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/temporal-candidate-inspection/atlas-support.png",
+      "sha256": "ab386387bcc9a677f106173bea44fbd14a40862b29eac1e2b38b3bf19bfd3ba7"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/temporal-candidate-inspection/atlas-support.svg",
+      "sha256": "5c37ca75979132db0428aace49bc627ffb43fb4532814c5c517df9ed559109ac"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/temporal-candidate-inspection/crop-provenance.json",
+      "sha256": "be12460b2cef2dd7ab6b56836ca7213ea667ba85bb50e6cd566ca0963f979eeb"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/temporal-candidate-inspection/observations.json",
+      "sha256": "2065b01f1e06f7f2729ca49324de739347c3db1f03de09a3ca2e08af5a224950"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/temporal-candidate-inspection/reference15-roof.png",
+      "sha256": "dd7061c0463529c841aed9303b9e7d49bf2c7f1a7e04cef3a71733a61dba2ce7"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/temporal-candidate-inspection/reference15-roof.svg",
+      "sha256": "d1d08e38c65ca4b5762979991eda43ca4d6d9440784346b1c5774916de2adac0"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/temporal-candidate-inspection/reference15-runnerup.png",
+      "sha256": "adc9024146583237a41b11610d830f7db466d404890a6efe604801686de9f705"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/temporal-candidate-inspection/reference15-runnerup.svg",
+      "sha256": "c0a1afa81fcd6de945a1fff590b98287fb883f8a5f13bfb9fc47e745eb302b67"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/temporal-candidate-inspection/reference16-roof.png",
+      "sha256": "6dc8fb0d9363969e1bbbaf2ca91b00c0a14627d8aef5f914869b80a679ca43d6"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/temporal-candidate-inspection/reference16-roof.svg",
+      "sha256": "c5d45a5dbbff2c4b586bb2b17cd96c86959edfbbe38b922041d12890d7fde223"
+    }
+  ],
+  "additionalInputs": [
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/descriptor-support.json",
+      "sha256": "7f21a1e260f7c4999a1c27ff21c23509eab01242a58b45ede79f9eb3180b31b4"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-01/woodland-15s-stonebarn-roof-window-heldout.json",
+      "sha256": "d6615a2384e190d7d82ab831e8fe36836e32e14a599cfa9112c38ed6b68fa366"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-01/woodland-16s-stonebarn-roof-window-heldout.json",
+      "sha256": "f506d4212cf992362304a17ce3b3b84f53a856399678a9c08ef38e4d5bcdeff0"
+    }
+  ],
+  "cameraFitsRead": false,
+  "newCorrespondenceAccepted": false,
+  "sourceCropPixelsVerified": true
+}

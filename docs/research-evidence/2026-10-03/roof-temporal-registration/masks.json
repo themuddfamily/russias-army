@@ -1,0 +1,11 @@
+{
+  "declaredBeforeMatcherOutputs": true,
+  "observationMethod": "Manual inspection of full native endpoint and extracted intermediate frames; conservative interior polygons narrow the initial protocol neighborhoods to avoid ridge/background leakage. Original broad endpoint polygons remain preserved in PROTOCOL.md. No matches or camera data inspected.",
+  "frames": [
+    {"seconds":15,"path":"docs/research-evidence/2026-09-30/woodland-video-15s.jpg","roofPolygon":[[602,194],[893,190],[925,212],[602,215]]},
+    {"seconds":15.3,"requestedSeconds":15.25,"path":"docs/research-evidence/2026-10-03/roof-temporal-registration/frame-15.25.png","roofPolygon":[[565,187],[892,181],[918,207],[565,207]]},
+    {"seconds":15.5,"requestedSeconds":15.50,"path":"docs/research-evidence/2026-10-03/roof-temporal-registration/frame-15.50.png","roofPolygon":[[498,162],[893,159],[921,187],[498,187]]},
+    {"seconds":15.8,"requestedSeconds":15.75,"path":"docs/research-evidence/2026-10-03/roof-temporal-registration/frame-15.75.png","roofPolygon":[[477,146],[910,147],[932,180],[475,181]]},
+    {"seconds":16,"path":"docs/research-evidence/2026-10-01/woodland-video-16s-camera-reference.png","roofPolygon":[[443,146],[918,137],[939,173],[437,178]]}
+  ]
+}

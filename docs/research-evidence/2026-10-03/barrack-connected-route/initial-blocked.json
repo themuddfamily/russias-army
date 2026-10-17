@@ -1,0 +1,4768 @@
+{
+  "scope": "Continuous shared source-derived controls and physics from real recovered settled spawn5; no dynamic barrels, browser, original runtime or footage equivalence",
+  "sourceSpawn": {
+    "position": [
+      -197,
+      -2748,
+      559
+    ],
+    "rotation": [
+      -2,
+      0,
+      -2544
+    ]
+  },
+  "spawns": [
+    {
+      "x": 6.070588235294118,
+      "y": -6.900487121331835e-8,
+      "z": 11.392470588235295
+    },
+    {
+      "x": -101.45976470588236,
+      "y": -7.830859593033304e-8,
+      "z": -57.36705882352941
+    },
+    {
+      "x": -80.77929411764707,
+      "y": 1.3050315400563784e-7,
+      "z": 112.60941176470588
+    },
+    {
+      "x": 77.15026989080883,
+      "y": 6.560089044879744,
+      "z": 34.116705882352946
+    },
+    {
+      "x": 62.243764705882356,
+      "y": 8.13081438209361,
+      "z": -43.64752941176471
+    },
+    {
+      "x": -3.9054117647058826,
+      "y": 9.55437404497932,
+      "z": 55.60658823529412
+    }
+  ],
+  "rampPair": [
+    18,
+    43
+  ],
+  "door": "door open 5",
+  "waypoints": [
+    {
+      "name": "ramp lower approach",
+      "x": -4.037931181066177,
+      "z": 63.44768566176471
+    },
+    {
+      "name": "ramp upper extension",
+      "x": -17.217797794117647,
+      "z": 63.44768566176471
+    },
+    {
+      "name": "upper platform turn",
+      "x": -16.5,
+      "z": 73
+    },
+    {
+      "name": "door near approach",
+      "x": -1.3168759265061984,
+      "y": 10.79180826071027,
+      "z": 72.57769172419226
+    },
+    {
+      "name": "door far approach",
+      "x": -1.316875631010273,
+      "y": 10.79180826071027,
+      "z": 74.26773140722996
+    }
+  ],
+  "status": "blocked",
+  "callbacks": 256,
+  "queries": 4909,
+  "segments": [
+    {
+      "target": {
+        "name": "ramp lower approach",
+        "x": -4.037931181066177,
+        "z": 63.44768566176471
+      },
+      "begin": 0,
+      "end": 32,
+      "reached": true,
+      "final": {
+        "x": -4.027116911557198,
+        "y": 7.761083907400315,
+        "z": 63.429267384128835
+      },
+      "minDistance": 0.307703599126361
+    },
+    {
+      "target": {
+        "name": "ramp upper extension",
+        "x": -17.217797794117647,
+        "z": 63.44768566176471
+      },
+      "begin": 32,
+      "end": 89,
+      "reached": true,
+      "final": {
+        "x": -17.03143403368532,
+        "y": 11.541034059462266,
+        "z": 63.449066934065165
+      },
+      "minDistance": 0.4621413008284439
+    },
+    {
+      "target": {
+        "name": "upper platform turn",
+        "x": -16.5,
+        "z": 73
+      },
+      "begin": 89,
+      "end": 256,
+      "reached": false,
+      "final": {
+        "x": -18.656099165943242,
+        "y": 11.317942722061922,
+        "z": 72.85237694803637
+      },
+      "minDistance": 2.1644540589961014
+    }
+  ],
+  "trace": [
+    {
+      "callback": 0,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9054117647058826,
+        "y": 10.0604430274781,
+        "z": 55.60658823529412
+      },
+      "velocity": {
+        "x": -1.9371999815044848e-17,
+        "y": 0.003679144384658828,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.842217176737469
+    },
+    {
+      "callback": 1,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9066752337715,
+        "y": 10.060627984697346,
+        "z": 55.68134697111516
+      },
+      "velocity": {
+        "x": -0.024961635125864162,
+        "y": 0.0036791443850268737,
+        "z": 1.4769655520800922
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.767447764972762
+    },
+    {
+      "callback": 2,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9088747641543375,
+        "y": 10.060812941916593,
+        "z": 55.81149191513921
+      },
+      "velocity": {
+        "x": -0.04368286147026366,
+        "y": 0.003679144385026825,
+        "z": 2.5846897161401983
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.6372842355609984
+    },
+    {
+      "callback": 3,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9117763405250896,
+        "y": 10.06099789913584,
+        "z": 55.983176515315506
+      },
+      "velocity": {
+        "x": -0.057723781228564246,
+        "y": 0.003679144385078874,
+        "z": 3.4154828391852727
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.465575117913941
+    },
+    {
+      "callback": 4,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9140709058023466,
+        "y": 10.070182536668867,
+        "z": 56.18271485863675
+      },
+      "velocity": {
+        "x": 0.056704849573056076,
+        "y": 0.9778783784787414,
+        "z": 3.676408646346464
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.266026571523815
+    },
+    {
+      "callback": 5,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9132380019851905,
+        "y": 10.107947043828101,
+        "z": 56.396451509956144
+      },
+      "velocity": {
+        "x": 0.016658076343155623,
+        "y": 0.5731724961257999,
+        "z": 4.274733026388044
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.052336595238544
+    },
+    {
+      "callback": 6,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9124050981680343,
+        "y": 10.125476256869682,
+        "z": 56.61018816127554
+      },
+      "velocity": {
+        "x": 0.016658076343155623,
+        "y": 0.16846661377285851,
+        "z": 4.274733026388044
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.838649637661182
+    },
+    {
+      "callback": 7,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.911572194350878,
+        "y": 10.122770175793622,
+        "z": 56.82392481259493
+      },
+      "velocity": {
+        "x": 0.016658076343155623,
+        "y": -0.23623926858008268,
+        "z": 4.274733026388044
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.624965990895202
+    },
+    {
+      "callback": 8,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.910739290533722,
+        "y": 10.099828800599912,
+        "z": 57.037661463914326
+      },
+      "velocity": {
+        "x": 0.016658076343155623,
+        "y": -0.6409451509330241,
+        "z": 4.274733026388044
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.411285985981648
+    },
+    {
+      "callback": 9,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9099157382103162,
+        "y": 10.080649865760163,
+        "z": 57.24899837000727
+      },
+      "velocity": {
+        "x": 0.016279246795093443,
+        "y": -0.0735054849066975,
+        "z": 4.177519209671953
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.2000090398808885
+    },
+    {
+      "callback": 10,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9108660263401656,
+        "y": 10.080508506330432,
+        "z": 57.48005529608405
+      },
+      "velocity": {
+        "x": -0.01892817798529002,
+        "y": 0.0036791443773082425,
+        "z": 4.602274283076614
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 5.9689829732492425
+    },
+    {
+      "callback": 11,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.91318094199515,
+        "y": 10.080508506330803,
+        "z": 57.727411341711665
+      },
+      "velocity": {
+        "x": -0.04612442150856147,
+        "y": 0.003679144385026749,
+        "z": 4.928540047085034
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 5.721634462180067
+    },
+    {
+      "callback": 12,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.916550883233544,
+        "y": 10.080508506330803,
+        "z": 57.987001554484785
+      },
+      "velocity": {
+        "x": -0.06715762194928449,
+        "y": 0.0036791443850266864,
+        "z": 5.173224141871924
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 5.462032963668516
+    },
+    {
+      "callback": 13,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9207385427973658,
+        "y": 10.080508506330803,
+        "z": 58.25576676086805
+      },
+      "velocity": {
+        "x": -0.08346370327426011,
+        "y": 0.0036791443850265892,
+        "z": 5.356724703655752
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 5.193241375860782
+    },
+    {
+      "callback": 14,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9255616741938613,
+        "y": 10.080508506330803,
+        "z": 58.531412688567904
+      },
+      "velocity": {
+        "x": -0.09613754362901125,
+        "y": 0.003679144385026742,
+        "z": 5.494339718726032
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.917557000489173
+    },
+    {
+      "callback": 15,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9308800704131253,
+        "y": 10.080508506330803,
+        "z": 58.81221871804784
+      },
+      "velocity": {
+        "x": -0.10601605511754228,
+        "y": 0.0036791443850266448,
+        "z": 5.5975422423139785
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.6367028939305435
+    },
+    {
+      "callback": 16,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9365860638350476,
+        "y": 10.080324549111552,
+        "z": 59.09691283435889
+      },
+      "velocity": {
+        "x": -0.11382124775951348,
+        "y": -0.03679144385026738,
+        "z": 5.678982983719614
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.351953013128636
+    },
+    {
+      "callback": 17,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9426214536831923,
+        "y": 10.06735556515433,
+        "z": 59.38573647101022
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -0.4414973262032087,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.0630672123907665
+    },
+    {
+      "callback": 18,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.948656843531337,
+        "y": 10.034151287079466,
+        "z": 59.67456010766155
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -0.8462032085561502,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.7741815476164584
+    },
+    {
+      "callback": 19,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9546922333794816,
+        "y": 9.980711714886953,
+        "z": 59.96338374431288
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -1.250909090909091,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.4852960526145393
+    },
+    {
+      "callback": 20,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9607276232276263,
+        "y": 9.907036848576789,
+        "z": 60.25220738096421
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -1.6556149732620313,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.1964107734161225
+    },
+    {
+      "callback": 21,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.966763013075771,
+        "y": 9.813126688148985,
+        "z": 60.54103101761554
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -2.060320855614972,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.9075257743464724
+    },
+    {
+      "callback": 22,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9727984029239156,
+        "y": 9.698981233603527,
+        "z": 60.82985465426687
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -2.4650267379679147,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.6186411481158873
+    },
+    {
+      "callback": 23,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9788337927720603,
+        "y": 9.564600484940428,
+        "z": 61.1186782909182
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -2.8697326203208573,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.329757033417984
+    },
+    {
+      "callback": 24,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.984869182620205,
+        "y": 9.40998444215968,
+        "z": 61.40750192756953
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -3.2744385026738,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.040873647473963
+    },
+    {
+      "callback": 25,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9909045724683496,
+        "y": 9.23513310526128,
+        "z": 61.69632556422086
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -3.6791443850267425,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.7519913507734635
+    },
+    {
+      "callback": 26,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -3.9969399623164943,
+        "y": 9.04004647424524,
+        "z": 61.985149200872186
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -4.083850267379685,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.4631107885100871
+    },
+    {
+      "callback": 27,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -4.002975352164637,
+        "y": 8.824724549111547,
+        "z": 62.273972837523516
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -4.488556149732627,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.1742332407841427
+    },
+    {
+      "callback": 28,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -4.009010742012777,
+        "y": 8.589167329860212,
+        "z": 62.562796474174846
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -4.89326203208557,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.8853616583681998
+    },
+    {
+      "callback": 29,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -4.015046131860918,
+        "y": 8.333374816491228,
+        "z": 62.851620110826175
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -5.297967914438512,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.5965047078546692
+    },
+    {
+      "callback": 30,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -4.021081521709058,
+        "y": 8.057347009004593,
+        "z": 63.140443747477505
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -5.702673796791455,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.307703599126361
+    },
+    {
+      "callback": 31,
+      "target": "ramp lower approach",
+      "position": {
+        "x": -4.027116911557198,
+        "y": 7.761083907400315,
+        "z": 63.429267384128835
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -6.1073796791443975,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.02135840293853817
+    },
+    {
+      "callback": 32,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -4.033152301405338,
+        "y": 7.4445855116783894,
+        "z": 63.718091020780165
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -6.51208556149734,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 13.18741808796109
+    },
+    {
+      "callback": 33,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -4.0391876912534785,
+        "y": 7.107851821838816,
+        "z": 64.0069146574315
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -6.916791443850283,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 13.190470094462441
+    },
+    {
+      "callback": 34,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -4.045223081101619,
+        "y": 6.750882837881596,
+        "z": 64.29573829408282
+      },
+      "velocity": {
+        "x": -0.12070779696288665,
+        "y": -7.321497326203225,
+        "z": 5.77647273302657
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 13.199845371714437
+    },
+    {
+      "callback": 35,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -4.049330381628173,
+        "y": 6.756349038480447,
+        "z": 64.48694088758118
+      },
+      "velocity": {
+        "x": 8.465450562766819e-16,
+        "y": -0.08094117647058907,
+        "z": -0.4966833012510792
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 13.209412758263861
+    },
+    {
+      "callback": 36,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -4.1249775212986135,
+        "y": 6.741172567892212,
+        "z": 64.46234519279899
+      },
+      "velocity": {
+        "x": -1.5129427934088429,
+        "y": -0.48564705882353043,
+        "z": -0.49191389564492266
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 13.132078154666146
+    },
+    {
+      "callback": 37,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -4.197832653673254,
+        "y": 6.735120181839824,
+        "z": 64.43865728328896
+      },
+      "velocity": {
+        "x": -1.4279207016276183,
+        "y": 0.0036793835294117658,
+        "z": -0.46427005572831304
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 13.057622946503455
+    },
+    {
+      "callback": 38,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -4.325965928022107,
+        "y": 6.735120178123691,
+        "z": 64.4156814442562
+      },
+      "velocity": {
+        "x": -2.5443755111644846,
+        "y": 0.0036791443850267627,
+        "z": -0.45623716774947953
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 12.928122241787388
+    },
+    {
+      "callback": 39,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -4.495964492284517,
+        "y": 6.735120178123691,
+        "z": 64.39303536196967
+      },
+      "velocity": {
+        "x": -3.381552317108467,
+        "y": 0.003679144385026742,
+        "z": -0.45046799284278416
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 12.756909054128592
+    },
+    {
+      "callback": 40,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -4.697358673807003,
+        "y": 6.735120178123691,
+        "z": 64.370640512502
+      },
+      "velocity": {
+        "x": -4.009415780182019,
+        "y": 0.003679144385026742,
+        "z": -0.44584338123171025
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 12.55441123358259
+    },
+    {
+      "callback": 41,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -4.922299622997657,
+        "y": 6.735120178123691,
+        "z": 64.34845023469518
+      },
+      "velocity": {
+        "x": -4.480327065657644,
+        "y": 0.003679144385026742,
+        "z": -0.4419813404815528
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 12.328448892373348
+    },
+    {
+      "callback": 42,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -5.120349670217145,
+        "y": 6.8117409070500505,
+        "z": 64.32729065296003
+      },
+      "velocity": {
+        "x": -3.9138498105701145,
+        "y": 1.4393740059552453,
+        "z": -0.42221279676631185
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 12.129383993055852
+    },
+    {
+      "callback": 43,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -5.329716310436548,
+        "y": 6.897214868180146,
+        "z": 64.30620946422417
+      },
+      "velocity": {
+        "x": -4.103243631730592,
+        "y": 1.6856703585401644,
+        "z": -0.4199589451390757
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 11.919041256830635
+    },
+    {
+      "callback": 44,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -5.550136216752978,
+        "y": 6.98756883667197,
+        "z": 64.28516418463279
+      },
+      "velocity": {
+        "x": -4.327347267494469,
+        "y": 1.7775343518775852,
+        "z": -0.4193836218798574
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 11.697679127082306
+    },
+    {
+      "callback": 45,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -5.779462391243868,
+        "y": 7.081573640014811,
+        "z": 64.26415797305654
+      },
+      "velocity": {
+        "x": -4.5054676600156,
+        "y": 1.850549011030283,
+        "z": -0.41866396925114774
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 11.467438415955932
+    },
+    {
+      "callback": 46,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -6.015867664298775,
+        "y": 7.178480289481521,
+        "z": 64.24319700964566
+      },
+      "velocity": {
+        "x": -4.647045815871993,
+        "y": 1.908584369519978,
+        "z": -0.4178057784618683
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 11.23014144781584
+    },
+    {
+      "callback": 47,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -6.257899965596568,
+        "y": 7.277693556074046,
+        "z": 64.22228684691825
+      },
+      "velocity": {
+        "x": -4.759583656772916,
+        "y": 1.9547155956064182,
+        "z": -0.41682591426739624
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 10.987236568294247
+    },
+    {
+      "callback": 48,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -6.504405318275195,
+        "y": 7.3787404045345495,
+        "z": 64.20143218042888
+      },
+      "velocity": {
+        "x": -4.849042584340336,
+        "y": 1.9913863721206,
+        "z": -0.4157445256634525
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 10.739874866861161
+    },
+    {
+      "callback": 49,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -6.754466627237143,
+        "y": 7.4812449015685445,
+        "z": 64.1806368717763
+      },
+      "velocity": {
+        "x": -4.920160054820502,
+        "y": 2.0205386651018036,
+        "z": -0.41458029569891397
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 10.488971188065607
+    },
+    {
+      "callback": 50,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -7.007355049007934,
+        "y": 7.584908281509012,
+        "z": 64.15990407126877
+      },
+      "velocity": {
+        "x": -4.976700979977536,
+        "y": 2.043715777623934,
+        "z": -0.41334886290280604
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 10.235252616032499
+    },
+    {
+      "callback": 51,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -7.262491348528792,
+        "y": 7.689493105790946,
+        "z": 64.13923636785314
+      },
+      "velocity": {
+        "x": -5.021657444088666,
+        "y": 2.062144217279052,
+        "z": -0.41206247582950367
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.979297009543028
+    },
+    {
+      "callback": 52,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -7.519415190575846,
+        "y": 7.794810674967857,
+        "z": 64.11863593466819
+      },
+      "velocity": {
+        "x": -5.057407383782771,
+        "y": 2.076798741814114,
+        "z": -0.4107302043804869
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.72156362903579
+    },
+    {
+      "callback": 53,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -7.7777607358584495,
+        "y": 7.90071102512634,
+        "z": 64.09810465724517
+      },
+      "velocity": {
+        "x": -5.085840673844216,
+        "y": 2.0884540439036443,
+        "z": -0.4093583664772387
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.462417478160047
+    },
+    {
+      "callback": 54,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -8.037237246998592,
+        "y": 8.00707497793839,
+        "z": 64.07764424067118
+      },
+      "velocity": {
+        "x": -5.108459319887789,
+        "y": 2.097725821876753,
+        "z": -0.40795100171542376
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.202148649660947
+    },
+    {
+      "callback": 55,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -8.297613675685037,
+        "y": 8.113807822666736,
+        "z": 64.05725629644168
+      },
+      "velocity": {
+        "x": -5.1264570786022,
+        "y": 2.1051034174451226,
+        "z": -0.406510313759216
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 8.940987700774329
+    },
+    {
+      "callback": 56,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -8.558706413627947,
+        "y": 8.220834295067268,
+        "z": 64.03694241160538
+      },
+      "velocity": {
+        "x": -5.140782731561381,
+        "y": 2.110975752743255,
+        "z": -0.4050370498553821
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 8.6791178729698
+    },
+    {
+      "callback": 57,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -8.82036955781629,
+        "y": 8.328094586948053,
+        "z": 64.01670420339295
+      },
+      "velocity": {
+        "x": -5.152190369756015,
+        "y": 2.115651942835878,
+        "z": -0.4035308093260851
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 8.416684803682982
+    },
+    {
+      "callback": 58,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -9.082487173955254,
+        "y": 8.435541174817239,
+        "z": 63.996543362486996
+      },
+      "velocity": {
+        "x": -5.161279356111456,
+        "y": 2.1193776770520167,
+        "z": -0.4019902840264811
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 8.153804244778579
+    },
+    {
+      "callback": 59,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -9.344967147934586,
+        "y": 8.543136299492566,
+        "z": 63.976461687785545
+      },
+      "velocity": {
+        "x": -5.168526085323907,
+        "y": 2.122348237896419,
+        "z": -0.40041343833929394
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.890568196852087
+    },
+    {
+      "callback": 60,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -9.607736299386588,
+        "y": 8.650849963063466,
+        "z": 63.95646111512193
+      },
+      "velocity": {
+        "x": -5.174309225077035,
+        "y": 2.1247188478645747,
+        "z": -0.39879763747910496
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.627049784518728
+    },
+    {
+      "callback": 61,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -9.870736498308,
+        "y": 8.758658337026551,
+        "z": 63.936543742023815
+      },
+      "velocity": {
+        "x": -5.17892977688858,
+        "y": 2.126612892734787,
+        "z": -0.39713973240557415
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.363307131107513
+    },
+    {
+      "callback": 62,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -10.133921578896555,
+        "y": 8.866542497213343,
+        "z": 63.9167118502627
+      },
+      "velocity": {
+        "x": -5.182627020076297,
+        "y": 2.1281284572775876,
+        "z": -0.39543610841204935
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.099386438141825
+    },
+    {
+      "callback": 63,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -10.3972548870126,
+        "y": 8.974487418451956,
+        "z": 63.89696792768568
+      },
+      "velocity": {
+        "x": -5.185591184008213,
+        "y": 2.1293435198326094,
+        "z": -0.3936827029347397
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.835324432836532
+    },
+    {
+      "callback": 64,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -10.660707331261584,
+        "y": 9.082481175671775,
+        "z": 63.87731469063494
+      },
+      "velocity": {
+        "x": -5.1879735203227595,
+        "y": 2.130320081087616,
+        "z": -0.39187499654098157
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.5711503133413345
+    },
+    {
+      "callback": 65,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -10.92425583438544,
+        "y": 9.190514309101754,
+        "z": 63.857755108150165
+      },
+      "velocity": {
+        "x": -5.189894308952099,
+        "y": 2.131107445886954,
+        "z": -0.3900079794843452
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.3068872948363985
+    },
+    {
+      "callback": 66,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -11.187882102866265,
+        "y": 9.298579319909466,
+        "z": 63.83829242911458
+      },
+      "velocity": {
+        "x": -5.191449222242738,
+        "y": 2.131744831996203,
+        "z": -0.38807609465794135
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.042553838427851
+    },
+    {
+      "callback": 67,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -11.451571649508942,
+        "y": 9.406670269540665,
+        "z": 63.81893021354859
+      },
+      "velocity": {
+        "x": -5.192714384431824,
+        "y": 2.132263444069362,
+        "z": -0.38607315617982674
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 5.778164627976446
+    },
+    {
+      "callback": 68,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -11.715313017174967,
+        "y": 9.51478246151422,
+        "z": 63.799672369384936
+      },
+      "velocity": {
+        "x": -5.193750394584971,
+        "y": 2.1326881227216075,
+        "z": -0.38399224110610714
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 5.51373134663154
+    },
+    {
+      "callback": 69,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -11.97909716249894,
+        "y": 9.622912188796732,
+        "z": 63.78052319628934
+      },
+      "velocity": {
+        "x": -5.194605526172521,
+        "y": 2.1330386560913537,
+        "z": -0.38182554974176275
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 5.249263294226217
+    },
+    {
+      "callback": 70,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -12.242916966897052,
+        "y": 9.731056533356403,
+        "z": 63.76148743844689
+      },
+      "velocity": {
+        "x": -5.195318272841516,
+        "y": 2.133330823396789,
+        "z": -0.3795642274950222
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.9847678782563145
+    },
+    {
+      "callback": 71,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -12.506766848924544,
+        "y": 9.839213207261563,
+        "z": 63.74257034875699
+      },
+      "velocity": {
+        "x": -5.195919375327248,
+        "y": 2.1335772258019503,
+        "z": -0.37719813788910955
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.72025100446889
+    },
+    {
+      "callback": 72,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -12.770642457414553,
+        "y": 9.947380426892938,
+        "z": 63.723777767633116
+      },
+      "velocity": {
+        "x": -5.196433437013073,
+        "y": 2.1337879486633518,
+        "z": -0.37471557173749126
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.455717387771543
+    },
+    {
+      "callback": 73,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -13.034540429122027,
+        "y": 10.055556813597647,
+        "z": 63.705116220688566
+      },
+      "velocity": {
+        "x": -5.196880213956298,
+        "y": 2.1339710903338625,
+        "z": -0.37210287087522725
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.191170799962458
+    },
+    {
+      "callback": 74,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -13.298458198033785,
+        "y": 10.163741315522087,
+        "z": 63.686593041164876
+      },
+      "velocity": {
+        "x": -5.197275648125135,
+        "y": 2.134133185704638,
+        "z": -0.36934393504302926
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.9266142674526443
+    },
+    {
+      "callback": 75,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -13.562393846278157,
+        "y": 10.271933146497169,
+        "z": 63.66821652528425
+      },
+      "velocity": {
+        "x": -5.197632699285288,
+        "y": 2.134279547209868,
+        "z": -0.36641956558807315
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.662050229536073
+    },
+    {
+      "callback": 76,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -13.826345988831953,
+        "y": 10.380131738777699,
+        "z": 63.64999613220625
+      },
+      "velocity": {
+        "x": -5.197962020812067,
+        "y": 2.1344145418542158,
+        "z": -0.36330657622747214
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.3974806657324583
+    },
+    {
+      "callback": 77,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -14.090313686116989,
+        "y": 10.48833670721418,
+        "z": 63.6319427456652
+      },
+      "velocity": {
+        "x": -5.198272517304037,
+        "y": 2.1345418197880357,
+        "z": -0.3599765632810798
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.1329071991944137
+    },
+    {
+      "callback": 78,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -14.354296380236256,
+        "y": 10.596547823114879,
+        "z": 63.614069022929456
+      },
+      "velocity": {
+        "x": -5.1985718171308175,
+        "y": 2.1346645080133073,
+        "z": -0.3563941646040388
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.8683311820940767
+    },
+    {
+      "callback": 79,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -14.618293852169364,
+        "y": 10.704764996699518,
+        "z": 63.59638987077713
+      },
+      "velocity": {
+        "x": -5.1988666912721895,
+        "y": 2.1347853820728835,
+        "z": -0.3525145270077073
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.6037537683088763
+    },
+    {
+      "callback": 80,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -14.88230619892894,
+        "y": 10.812988267735266,
+        "z": 63.57892311215566
+      },
+      "velocity": {
+        "x": -5.199163452022561,
+        "y": 2.1349070294863814,
+        "z": -0.3482795041640735
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.3391759787545285
+    },
+    {
+      "callback": 81,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -15.146333831798787,
+        "y": 10.921217804814535,
+        "z": 63.56169045000242
+      },
+      "velocity": {
+        "x": -5.199468373840105,
+        "y": 2.1350320222638306,
+        "z": -0.3436117313845457
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.0745987657681857
+    },
+    {
+      "callback": 82,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -15.41037749994733,
+        "y": 11.029453915034546,
+        "z": 63.544718915449764
+      },
+      "velocity": {
+        "x": -5.199788199588494,
+        "y": 2.135163124422829,
+        "z": -0.33840496723174485
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.8100230860680822
+    },
+    {
+      "callback": 83,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -15.674438349246888,
+        "y": 11.137697068108366,
+        "z": 63.528043150417005
+      },
+      "velocity": {
+        "x": -5.200130842511469,
+        "y": 2.1353035797400777,
+        "z": -0.3325074562178136
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.545449999855797
+    },
+    {
+      "callback": 84,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -15.938518037138627,
+        "y": 11.245947943450076,
+        "z": 63.51170923110897
+      },
+      "velocity": {
+        "x": -5.200506503258551,
+        "y": 2.135457569639982,
+        "z": -0.32569120378860567
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.280880835225464
+    },
+    {
+      "callback": 85,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -16.205033505132672,
+        "y": 11.349664594679382,
+        "z": 63.49575305147662
+      },
+      "velocity": {
+        "x": -5.324528323469804,
+        "y": 1.903090549532932,
+        "z": -0.3190558018697538
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 1.0139043243802441
+    },
+    {
+      "callback": 86,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -16.480500347983554,
+        "y": 11.433689710391327,
+        "z": 63.48019101233947
+      },
+      "velocity": {
+        "x": -5.509336857017884,
+        "y": 1.4983846671799916,
+        "z": -0.31124078274373734
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.7380136325921384
+    },
+    {
+      "callback": 87,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -16.755967190834436,
+        "y": 11.497479531985618,
+        "z": 63.464628973202316
+      },
+      "velocity": {
+        "x": -5.509336857017884,
+        "y": 1.0936787848270513,
+        "z": -0.31124078274373734
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.4621413008284439
+    },
+    {
+      "callback": 88,
+      "target": "ramp upper extension",
+      "position": {
+        "x": -17.03143403368532,
+        "y": 11.541034059462266,
+        "z": 63.449066934065165
+      },
+      "velocity": {
+        "x": -5.509336857017884,
+        "y": 0.68897290247411,
+        "z": -0.31124078274373734
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 0.1863688791500513
+    },
+    {
+      "callback": 89,
+      "target": "upper platform turn",
+      "position": {
+        "x": -17.3069008765362,
+        "y": 11.564353292821266,
+        "z": 63.433504894928014
+      },
+      "velocity": {
+        "x": -5.509336857017884,
+        "y": 0.28426702012116856,
+        "z": -0.31124078274373734
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.600464448135892
+    },
+    {
+      "callback": 90,
+      "target": "upper platform turn",
+      "position": {
+        "x": -17.582367719387083,
+        "y": 11.567437232062614,
+        "z": 63.41794285579086
+      },
+      "velocity": {
+        "x": -5.509336857017884,
+        "y": -0.12043886223177264,
+        "z": -0.31124078274373734
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.642994296112622
+    },
+    {
+      "callback": 91,
+      "target": "upper platform turn",
+      "position": {
+        "x": -17.857834562237965,
+        "y": 11.550285877186324,
+        "z": 63.40238081665371
+      },
+      "velocity": {
+        "x": -5.509336857017884,
+        "y": -0.5251447445847139,
+        "z": -0.31124078274373734
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.69319393631143
+    },
+    {
+      "callback": 92,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.133301405088847,
+        "y": 11.51289922819238,
+        "z": 63.38681877751656
+      },
+      "velocity": {
+        "x": -5.509336857017884,
+        "y": -0.9298506269376554,
+        "z": -0.31124078274373734
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.750944912990404
+    },
+    {
+      "callback": 93,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.40876824793973,
+        "y": 11.455277285080793,
+        "z": 63.37125673837941
+      },
+      "velocity": {
+        "x": -5.509336857017884,
+        "y": -1.334556509290596,
+        "z": -0.31124078274373734
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.816113947104874
+    },
+    {
+      "callback": 94,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.68423509079061,
+        "y": 11.377420047851558,
+        "z": 63.35569469924226
+      },
+      "velocity": {
+        "x": -5.509336857017884,
+        "y": -1.7392623916435364,
+        "z": -0.31124078274373734
+      },
+      "supported": false,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.888554376958494
+    },
+    {
+      "callback": 95,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.955596210025323,
+        "y": 11.320450317483772,
+        "z": 63.34036460610245
+      },
+      "velocity": {
+        "x": -5.287209817443671,
+        "y": 0.08084388622313773,
+        "z": -0.29869208669194913
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.966870556485071
+    },
+    {
+      "callback": 96,
+      "target": "upper platform turn",
+      "position": {
+        "x": -19.13473842920998,
+        "y": 11.317942459094203,
+        "z": 63.40255671016566
+      },
+      "velocity": {
+        "x": -3.5605548561116844,
+        "y": 0.0036625785062989746,
+        "z": 1.2361039130916294
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.952525523300205
+    },
+    {
+      "callback": 97,
+      "target": "upper platform turn",
+      "position": {
+        "x": -19.247417398089027,
+        "y": 11.317942722061753,
+        "z": 63.52129170992876
+      },
+      "velocity": {
+        "x": -2.2407887370707704,
+        "y": 0.003679144385040238,
+        "z": 2.3612219104602445
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.868850652816036
+    },
+    {
+      "callback": 98,
+      "target": "upper platform turn",
+      "position": {
+        "x": -19.309924498426835,
+        "y": 11.317942722061753,
+        "z": 63.68170029234168
+      },
+      "velocity": {
+        "x": -1.243395336420416,
+        "y": 0.003679144385016965,
+        "z": 3.190858033984904
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.732748076910468
+    },
+    {
+      "callback": 99,
+      "target": "upper platform turn",
+      "position": {
+        "x": -19.334504430577788,
+        "y": 11.317942722061753,
+        "z": 63.87292301865269
+      },
+      "velocity": {
+        "x": -0.48922962928099567,
+        "y": 0.0036791443850241815,
+        "z": 3.8060244808124657
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.557088970518429
+    },
+    {
+      "callback": 100,
+      "target": "upper platform turn",
+      "position": {
+        "x": -19.33036600440952,
+        "y": 11.317942722061753,
+        "z": 64.08702279537678
+      },
+      "velocity": {
+        "x": 0.0824094172202542,
+        "y": 0.0036791443850268044,
+        "z": 4.263417325671905
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.351584591343341
+    },
+    {
+      "callback": 101,
+      "target": "upper platform turn",
+      "position": {
+        "x": -19.30443102295344,
+        "y": 11.317942722061753,
+        "z": 64.31813665022261
+      },
+      "velocity": {
+        "x": 0.516627448946463,
+        "y": 0.003679144385031391,
+        "z": 4.603811321299479
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 9.12357301646189
+    },
+    {
+      "callback": 102,
+      "target": "upper platform turn",
+      "position": {
+        "x": -19.261920567816745,
+        "y": 11.317942722061753,
+        "z": 64.56190997665468
+      },
+      "velocity": {
+        "x": 0.8470169074229442,
+        "y": 0.003679144385019817,
+        "z": 4.8571611007872955
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 8.878601717895059
+    },
+    {
+      "callback": 103,
+      "target": "upper platform turn",
+      "position": {
+        "x": -19.20678512024091,
+        "y": 11.317942722061753,
+        "z": 64.81510158511257
+      },
+      "velocity": {
+        "x": 1.0987552299196426,
+        "y": 0.0036791443850266448,
+        "z": 5.04567598879483
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 8.620861195332187
+    },
+    {
+      "callback": 104,
+      "target": "upper platform turn",
+      "position": {
+        "x": -19.14202054472903,
+        "y": 11.317942722061753,
+        "z": 65.07529732514404
+      },
+      "velocity": {
+        "x": 1.2908033403246189,
+        "y": 0.0036791443850277966,
+        "z": 5.185883296791701
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 8.35351333533619
+    },
+    {
+      "callback": 105,
+      "target": "upper platform turn",
+      "position": {
+        "x": -19.069902597744438,
+        "y": 11.317942722061753,
+        "z": 65.34069888715896
+      },
+      "velocity": {
+        "x": 1.4374863991810534,
+        "y": 0.0036791443849355995,
+        "z": 5.290099783336294
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 8.078941322912398
+    },
+    {
+      "callback": 106,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.99216234035765,
+        "y": 11.317942722061753,
+        "z": 65.60996696518673
+      },
+      "velocity": {
+        "x": 1.5496509505689362,
+        "y": 0.003679144385016382,
+        "z": 5.367509024282061
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.79893976039874
+    },
+    {
+      "callback": 107,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.91011802559641,
+        "y": 11.317942722061753,
+        "z": 65.88210445338133
+      },
+      "velocity": {
+        "x": 1.6355227194054187,
+        "y": 0.00367914438502686,
+        "z": 5.424959011961477
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.5148590079840245
+    },
+    {
+      "callback": 108,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.82477459628824,
+        "y": 11.317942722061753,
+        "z": 66.15636935376315
+      },
+      "velocity": {
+        "x": 1.701347613385506,
+        "y": 0.0036791443850281297,
+        "z": 5.467555469502349
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 7.22771453127884
+    },
+    {
+      "callback": 109,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.736898921141137,
+        "y": 11.317942722061753,
+        "z": 66.43220980869015
+      },
+      "velocity": {
+        "x": 1.7518731604533344,
+        "y": 0.003679144385026728,
+        "z": 5.49910414622606
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.938269581132482
+    },
+    {
+      "callback": 110,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.64707677995825,
+        "y": 11.317942722061753,
+        "z": 66.70921563331726
+      },
+      "velocity": {
+        "x": 1.7907113036929805,
+        "y": 0.003679144385011969,
+        "z": 5.522440846055613
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.647097610772381
+    },
+    {
+      "callback": 111,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.55575608060607,
+        "y": 11.317942722061753,
+        "z": 66.9870821611023
+      },
+      "velocity": {
+        "x": 1.8206124106849202,
+        "y": 0.003679144385013232,
+        "z": 5.539677779386918
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.354629336183434
+    },
+    {
+      "callback": 112,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.50075989789059,
+        "y": 11.317942628794356,
+        "z": 67.21619382241117
+      },
+      "velocity": {
+        "x": -1.7100302604997693,
+        "y": 0.003670293120936051,
+        "z": 0.8665693693784422
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.1200861161361
+    },
+    {
+      "callback": 113,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.566350144615342,
+        "y": 11.317942722061678,
+        "z": 67.28836579999249
+      },
+      "velocity": {
+        "x": -1.3819274869462541,
+        "y": 0.0036791443833131057,
+        "z": 1.3338990089233416
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 6.073925267473025
+    },
+    {
+      "callback": 114,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.619801411416745,
+        "y": 11.317942722062304,
+        "z": 67.3875099120164
+      },
+      "velocity": {
+        "x": -1.2274572586327255,
+        "y": 0.0036791443993712605,
+        "z": 1.8389299120338052
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 5.999466893946378
+    },
+    {
+      "callback": 115,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.6545829706335,
+        "y": 11.317942722059485,
+        "z": 67.51964389749254
+      },
+      "velocity": {
+        "x": -0.8511755286537329,
+        "y": 0.0036791443165051577,
+        "z": 2.5561563828186222
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 5.8886781867949445
+    },
+    {
+      "callback": 116,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.658710481341537,
+        "y": 11.317942722061753,
+        "z": 67.68502631299614
+      },
+      "velocity": {
+        "x": -0.08208660861536202,
+        "y": 0.0036791443850273525,
+        "z": 3.2890724152204647
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 5.736634574016126
+    },
+    {
+      "callback": 117,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.652129770260316,
+        "y": 11.317942722059959,
+        "z": 67.87570127315055
+      },
+      "velocity": {
+        "x": -0.05041760090529952,
+        "y": 0.0036791443317825204,
+        "z": 3.776748087687802
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 5.557886287972396
+    },
+    {
+      "callback": 118,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65298948567546,
+        "y": 11.317942722061755,
+        "z": 68.08336511100606
+      },
+      "velocity": {
+        "x": -0.054452849558210656,
+        "y": 0.003679144385079325,
+        "z": 4.130946651533855
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 5.3673701527937805
+    },
+    {
+      "callback": 119,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.652994273413167,
+        "y": 11.317942722061755,
+        "z": 68.30385384239247
+      },
+      "velocity": {
+        "x": -0.0562745327183948,
+        "y": 0.003679144385077951,
+        "z": 4.385552898600842
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 5.1661565089495545
+    },
+    {
+      "callback": 120,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65310553419949,
+        "y": 11.317942722061755,
+        "z": 68.53323661507007
+      },
+      "velocity": {
+        "x": -0.058509517130933296,
+        "y": 0.003679144385077951,
+        "z": 4.563423204987467
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.958612565864688
+    },
+    {
+      "callback": 121,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.653218337825777,
+        "y": 11.317942722061755,
+        "z": 68.76854212917742
+      },
+      "velocity": {
+        "x": -0.06098430538354139,
+        "y": 0.003679144385079172,
+        "z": 4.681633318453483
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.747797902490751
+    },
+    {
+      "callback": 122,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65334384963048,
+        "y": 11.317942722061755,
+        "z": 69.00741653821464
+      },
+      "velocity": {
+        "x": -0.06371310483189566,
+        "y": 0.003679144385080213,
+        "z": 4.7527631620627275
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.536255331665467
+    },
+    {
+      "callback": 123,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.653481185594952,
+        "y": 11.317942722061755,
+        "z": 69.24796480657247
+      },
+      "velocity": {
+        "x": -0.06670097859650724,
+        "y": 0.0036791443850822947,
+        "z": 4.785964385378296
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.3261124938482824
+    },
+    {
+      "callback": 124,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65363111421066,
+        "y": 11.317942722061755,
+        "z": 69.48861797098222
+      },
+      "velocity": {
+        "x": -0.06995855817663223,
+        "y": 0.0036791443850834604,
+        "z": 4.787760649506086
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 4.119214819574876
+    },
+    {
+      "callback": 125,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.653793016506654,
+        "y": 11.317942722061757,
+        "z": 69.7280322376759
+      },
+      "velocity": {
+        "x": -0.07347692792421182,
+        "y": 0.003679144385089088,
+        "z": 4.762653605668575
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.9172180684308326
+    },
+    {
+      "callback": 126,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.653967482555156,
+        "y": 11.317942722061757,
+        "z": 69.96501017261963
+      },
+      "velocity": {
+        "x": -0.0772721153006115,
+        "y": 0.003679144385092342,
+        "z": 4.713571127077034
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.721658120812192
+    },
+    {
+      "callback": 127,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.654154178324323,
+        "y": 11.317942722061757,
+        "z": 70.19844009571193
+      },
+      "velocity": {
+        "x": -0.08133403326104931,
+        "y": 0.0036791443850967484,
+        "z": 4.642227488068017
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.5339946408146563
+    },
+    {
+      "callback": 128,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.654352484954195,
+        "y": 11.317942722061757,
+        "z": 70.42724946090658
+      },
+      "velocity": {
+        "x": -0.08564930402607387,
+        "y": 0.0036791443851018554,
+        "z": 4.549406123492271
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.3556340631591217
+    },
+    {
+      "callback": 129,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.654561150040603,
+        "y": 11.317942722061757,
+        "z": 70.65037078940703
+      },
+      "velocity": {
+        "x": -0.09019120233528985,
+        "y": 0.0036791443851077327,
+        "z": 4.435209765007809
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.1879289792177
+    },
+    {
+      "callback": 130,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65477816098439,
+        "y": 11.317942722061757,
+        "z": 70.86671958184638
+      },
+      "velocity": {
+        "x": -0.09491640989272626,
+        "y": 0.0036791443851144842,
+        "z": 4.299300790075189
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 3.0321534040237705
+    },
+    {
+      "callback": 131,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.655000601959138,
+        "y": 11.317942722061757,
+        "z": 71.07518490066491
+      },
+      "velocity": {
+        "x": -0.09976187842695387,
+        "y": 0.003679144385122249,
+        "z": 4.141154907497489
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.8894533671739033
+    },
+    {
+      "callback": 132,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65522459893187,
+        "y": 11.317942722061758,
+        "z": 71.27463399492345
+      },
+      "velocity": {
+        "x": -0.10464340752975844,
+        "y": 0.003679144385131221,
+        "z": 3.9603423251971357
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.7607754206589967
+    },
+    {
+      "callback": 133,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.655445405631358,
+        "y": 11.317942722061758,
+        "z": 71.46393235514903
+      },
+      "velocity": {
+        "x": -0.10945719822687561,
+        "y": 0.0036791443851423994,
+        "z": 3.756836478407102
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.64678081945131
+    },
+    {
+      "callback": 134,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.655657682125977,
+        "y": 11.317942722061758,
+        "z": 71.64197956806439
+      },
+      "velocity": {
+        "x": -0.1140855125068721,
+        "y": 0.0036791443851536126,
+        "z": 3.531329848345639
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.5477597092471913
+    },
+    {
+      "callback": 135,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.655855975561504,
+        "y": 11.31794272206176,
+        "z": 71.80775915346432
+      },
+      "velocity": {
+        "x": -0.11840672129262327,
+        "y": 0.003679144385168455,
+        "z": 3.285513008148307
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.463565144970266
+    },
+    {
+      "callback": 136,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65603534120034,
+        "y": 11.31794272206176,
+        "z": 71.96039751447277
+      },
+      "velocity": {
+        "x": -0.12230850738491726,
+        "y": 0.0036791443851842062,
+        "z": 3.0222558580926053
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.393587625389815
+    },
+    {
+      "callback": 137,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656191965497467,
+        "y": 11.31794272206176,
+        "z": 72.09922412574753
+      },
+      "velocity": {
+        "x": -0.12570131364734885,
+        "y": 0.0036791443852038225,
+        "z": 2.745631058995963
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.3367843220355486
+    },
+    {
+      "callback": 138,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65632361622874,
+        "y": 11.317942722061762,
+        "z": 72.22382340548299
+      },
+      "velocity": {
+        "x": -0.12852822923590218,
+        "y": 0.0036791443852274147,
+        "z": 2.4607464043690954
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.291763871733258
+    },
+    {
+      "callback": 139,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656429782040938,
+        "y": 11.317942722061764,
+        "z": 72.33406939053954
+      },
+      "velocity": {
+        "x": -0.13076815972864628,
+        "y": 0.0036791443852558156,
+        "z": 2.173400005376765
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.256912267122829
+    },
+    {
+      "callback": 140,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65651146582603,
+        "y": 11.317942722061765,
+        "z": 72.4301374473119
+      },
+      "velocity": {
+        "x": -0.13243120364665126,
+        "y": 0.0036791443852907876,
+        "z": 1.8896208944179165
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.2305346962545363
+    },
+    {
+      "callback": 141,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656570708070287,
+        "y": 11.317942722061767,
+        "z": 72.51249179097306
+      },
+      "velocity": {
+        "x": -0.13354752808221504,
+        "y": 0.0036791443853340586,
+        "z": 1.6151860008593955
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.210986538352379
+    },
+    {
+      "callback": 142,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656609976524397,
+        "y": 11.317942722061769,
+        "z": 72.58185198338094
+      },
+      "velocity": {
+        "x": -0.1341523430517548,
+        "y": 0.0036791443853887093,
+        "z": 1.3552014407024682
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.19677362389642
+    },
+    {
+      "callback": 143,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65663154295729,
+        "y": 11.317942722061773,
+        "z": 72.63914455769046
+      },
+      "velocity": {
+        "x": -0.13426916908455322,
+        "y": 0.0036791443854580844,
+        "z": 1.1138077165502185
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.186612965827001
+    },
+    {
+      "callback": 144,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65663689625452,
+        "y": 11.317942722061776,
+        "z": 72.6854470308971
+      },
+      "velocity": {
+        "x": -0.13389175013722715,
+        "y": 0.0036791443855476794,
+        "z": 0.8940316036853416
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1794554991230664
+    },
+    {
+      "callback": 145,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656626151203906,
+        "y": 11.317942722061781,
+        "z": 72.72193118064122
+      },
+      "velocity": {
+        "x": -0.13296238379213085,
+        "y": 0.003679144385664926,
+        "z": 0.6977787694123491
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1744789316882693
+    },
+    {
+      "callback": 146,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656597339371217,
+        "y": 11.317942722061789,
+        "z": 72.74981139336931
+      },
+      "velocity": {
+        "x": -0.13134203536524364,
+        "y": 0.0036791443858202044,
+        "z": 0.5259504391902728
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1710611283588532
+    },
+    {
+      "callback": 147,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656545505776595,
+        "y": 11.3179427220618,
+        "z": 72.77030312306086
+      },
+      "velocity": {
+        "x": -0.12876920743102538,
+        "y": 0.0036791443860298353,
+        "z": 0.3786806606710849
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.168743685584082
+    },
+    {
+      "callback": 148,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656462231531755,
+        "y": 11.317942722061812,
+        "z": 72.7845972599617
+      },
+      "velocity": {
+        "x": -0.12483336647887733,
+        "y": 0.003679144386313518,
+        "z": 0.2557362983131502
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1671935069206265
+    },
+    {
+      "callback": 149,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656340079015447,
+        "y": 11.31794272206183,
+        "z": 72.79385902930616
+      },
+      "velocity": {
+        "x": -0.11915109941325774,
+        "y": 0.0036791443867010554,
+        "z": 0.15716104571202616
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1661709618972695
+    },
+    {
+      "callback": 150,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656196429806077,
+        "y": 11.317942722061854,
+        "z": 72.79925249170702
+      },
+      "velocity": {
+        "x": -0.11236327185099498,
+        "y": 0.003679144387219918,
+        "z": 0.08376096340839208
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.165521324299142
+    },
+    {
+      "callback": 151,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65610046264933,
+        "y": 11.317942722061883,
+        "z": 72.80192837669726
+      },
+      "velocity": {
+        "x": -0.10738860342199721,
+        "y": 0.00367914438786468,
+        "z": 0.03505959890684941
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.165179339684
+    },
+    {
+      "callback": 152,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656082963501746,
+        "y": 11.317942722061915,
+        "z": 72.80289131165787
+      },
+      "velocity": {
+        "x": -0.1059524025860802,
+        "y": 0.003679144388532403,
+        "z": 0.005766900131524912
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1650740358062635
+    },
+    {
+      "callback": 153,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656088222555603,
+        "y": 11.317942722061922,
+        "z": 72.80345432606617
+      },
+      "velocity": {
+        "x": -0.10599386297206312,
+        "y": 0.0036791443887067427,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.16502808882127
+    },
+    {
+      "callback": 154,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656087714956357,
+        "y": 11.317942722061922,
+        "z": 72.80399920728435
+      },
+      "velocity": {
+        "x": -0.10599420088847354,
+        "y": 0.0036791443887067357,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1649781858787605
+    },
+    {
+      "callback": 155,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656087936184527,
+        "y": 11.317942722061922,
+        "z": 72.80454252876527
+      },
+      "velocity": {
+        "x": -0.1059976134732735,
+        "y": 0.0036791443887067427,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.164929285593857
+    },
+    {
+      "callback": 156,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656088072255862,
+        "y": 11.317942722061922,
+        "z": 72.80508436553775
+      },
+      "velocity": {
+        "x": -0.10600077676956601,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1648805694268267
+    },
+    {
+      "callback": 157,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656088216824987,
+        "y": 11.317942722061922,
+        "z": 72.80562471342755
+      },
+      "velocity": {
+        "x": -0.10600394014771167,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1648321299264
+    },
+    {
+      "callback": 158,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656088359620746,
+        "y": 11.317942722061922,
+        "z": 72.80616357729926
+      },
+      "velocity": {
+        "x": -0.1060070850067132,
+        "y": 0.0036791443887058822,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1647839553307624
+    },
+    {
+      "callback": 159,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65608850174223,
+        "y": 11.317942722061922,
+        "z": 72.80670096102018
+      },
+      "velocity": {
+        "x": -0.10601021283996653,
+        "y": 0.0036791443887066733,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.164736045298726
+    },
+    {
+      "callback": 160,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656088643079144,
+        "y": 11.317942722061922,
+        "z": 72.80723686855278
+      },
+      "velocity": {
+        "x": -0.10601332363358598,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1646883982828116
+    },
+    {
+      "callback": 161,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656088783647412,
+        "y": 11.317942722061922,
+        "z": 72.80777130383893
+      },
+      "velocity": {
+        "x": -0.1060164174862025,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.164641012869793
+    },
+    {
+      "callback": 162,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65608892344993,
+        "y": 11.317942722061922,
+        "z": 72.80830427081209
+      },
+      "velocity": {
+        "x": -0.10601949448751603,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1645938876409025
+    },
+    {
+      "callback": 163,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656089062490892,
+        "y": 11.317942722061922,
+        "z": 72.80883577339596
+      },
+      "velocity": {
+        "x": -0.10602255472740049,
+        "y": 0.0036791443887066663,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.164547021186183
+    },
+    {
+      "callback": 164,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656089200774367,
+        "y": 11.317942722061922,
+        "z": 72.80936581550468
+      },
+      "velocity": {
+        "x": -0.10602559829522509,
+        "y": 0.0036791443887066663,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1645004121029983
+    },
+    {
+      "callback": 165,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656089338304383,
+        "y": 11.317942722061922,
+        "z": 72.80989440104283
+      },
+      "velocity": {
+        "x": -0.10602862527990833,
+        "y": 0.0036791443887059655,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1644540589961014
+    },
+    {
+      "callback": 166,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656089475084947,
+        "y": 11.317942722061922,
+        "z": 72.81042153390545
+      },
+      "velocity": {
+        "x": -0.10603163576991431,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.164407960477609
+    },
+    {
+      "callback": 167,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656089611120084,
+        "y": 11.317942722061922,
+        "z": 72.81094721797805
+      },
+      "velocity": {
+        "x": -0.10603462985325793,
+        "y": 0.0036791443887059655,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.164362115167005
+    },
+    {
+      "callback": 168,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65608974641376,
+        "y": 11.317942722061922,
+        "z": 72.81147145713662
+      },
+      "velocity": {
+        "x": -0.10603760761749895,
+        "y": 0.0036791443887067427,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.164316521691025
+    },
+    {
+      "callback": 169,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656089880969933,
+        "y": 11.317942722061922,
+        "z": 72.81199425524763
+      },
+      "velocity": {
+        "x": -0.1060405691497555,
+        "y": 0.0036791443887058822,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1642711786836775
+    },
+    {
+      "callback": 170,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609001479255,
+        "y": 11.317942722061922,
+        "z": 72.81251561616808
+      },
+      "velocity": {
+        "x": -0.10604351453670077,
+        "y": 0.0036791443887066663,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1642260847861925
+    },
+    {
+      "callback": 171,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.6560901478855,
+        "y": 11.317942722061922,
+        "z": 72.81303554374551
+      },
+      "velocity": {
+        "x": -0.10604644386456197,
+        "y": 0.0036791443887067427,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1641812386469517
+    },
+    {
+      "callback": 172,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609028025272,
+        "y": 11.317942722061922,
+        "z": 72.81355404181802
+      },
+      "velocity": {
+        "x": -0.10604935721912619,
+        "y": 0.0036791443887058822,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.164136638921546
+    },
+    {
+      "callback": 173,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656090411898056,
+        "y": 11.317942722061922,
+        "z": 72.81407111421426
+      },
+      "velocity": {
+        "x": -0.10605225468574253,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.164092284272613
+    },
+    {
+      "callback": 174,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656090542825392,
+        "y": 11.317942722061922,
+        "z": 72.81458676475344
+      },
+      "velocity": {
+        "x": -0.10605513634932368,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1640481733699204
+    },
+    {
+      "callback": 175,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656090673038552,
+        "y": 11.317942722061922,
+        "z": 72.8151009972454
+      },
+      "velocity": {
+        "x": -0.10605800229434441,
+        "y": 0.0036791443887059655,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.164004304890238
+    },
+    {
+      "callback": 176,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609080254135,
+        "y": 11.317942722061922,
+        "z": 72.8156138154906
+      },
+      "velocity": {
+        "x": -0.10606085260484907,
+        "y": 0.0036791443887066594,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1639606775173474
+    },
+    {
+      "callback": 177,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656090931337587,
+        "y": 11.317942722061922,
+        "z": 72.81612522328008
+      },
+      "velocity": {
+        "x": -0.10606368736445602,
+        "y": 0.0036791443887067565,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1639172899420127
+    },
+    {
+      "callback": 178,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656091059431063,
+        "y": 11.317942722061922,
+        "z": 72.81663522439558
+      },
+      "velocity": {
+        "x": -0.10606650665634436,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.163874140861945
+    },
+    {
+      "callback": 179,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656091186825517,
+        "y": 11.317942722061922,
+        "z": 72.81714382260948
+      },
+      "velocity": {
+        "x": -0.10606931056327264,
+        "y": 0.0036791443887075337,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1638312289817194
+    },
+    {
+      "callback": 180,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656091313524676,
+        "y": 11.317942722061922,
+        "z": 72.81765102168485
+      },
+      "velocity": {
+        "x": -0.10607209916757386,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1637885530127803
+    },
+    {
+      "callback": 181,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656091439532293,
+        "y": 11.317942722061922,
+        "z": 72.81815682537544
+      },
+      "velocity": {
+        "x": -0.10607487255115977,
+        "y": 0.0036791443887066663,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.16374611167345
+    },
+    {
+      "callback": 182,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656091564852073,
+        "y": 11.317942722061922,
+        "z": 72.81866123742572
+      },
+      "velocity": {
+        "x": -0.10607763079551702,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.163703903688819
+    },
+    {
+      "callback": 183,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656091689487678,
+        "y": 11.317942722061922,
+        "z": 72.81916426157088
+      },
+      "velocity": {
+        "x": -0.10608037398171784,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1636619277907156
+    },
+    {
+      "callback": 184,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609181344276,
+        "y": 11.317942722061922,
+        "z": 72.81966590153687
+      },
+      "velocity": {
+        "x": -0.10608310219041331,
+        "y": 0.0036791443887066663,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1636201827177066
+    },
+    {
+      "callback": 185,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656091936721005,
+        "y": 11.317942722061922,
+        "z": 72.82016616104039
+      },
+      "velocity": {
+        "x": -0.10608581550184434,
+        "y": 0.0036791443887058822,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1635786672151034
+    },
+    {
+      "callback": 186,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656092059326017,
+        "y": 11.317942722061922,
+        "z": 72.82066504378894
+      },
+      "velocity": {
+        "x": -0.10608851399583562,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.163537380034819
+    },
+    {
+      "callback": 187,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656092181261403,
+        "y": 11.317942722061922,
+        "z": 72.82116255348078
+      },
+      "velocity": {
+        "x": -0.10609119775179922,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1634963199354127
+    },
+    {
+      "callback": 188,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609230253075,
+        "y": 11.317942722061922,
+        "z": 72.821658693805
+      },
+      "velocity": {
+        "x": -0.10609386684874347,
+        "y": 0.0036791443887050843,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1634554856820363
+    },
+    {
+      "callback": 189,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656092423137643,
+        "y": 11.317942722061922,
+        "z": 72.82215346844154
+      },
+      "velocity": {
+        "x": -0.10609652136526368,
+        "y": 0.0036791443887067427,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.163414876046416
+    },
+    {
+      "callback": 190,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609254308563,
+        "y": 11.317942722061922,
+        "z": 72.82264688106113
+      },
+      "velocity": {
+        "x": -0.10609916137955268,
+        "y": 0.0036791443887058684,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.163374489806794
+    },
+    {
+      "callback": 191,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656092662378235,
+        "y": 11.317942722061922,
+        "z": 72.8231389353254
+      },
+      "velocity": {
+        "x": -0.1061017869694005,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1633343257478947
+    },
+    {
+      "callback": 192,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609278101898,
+        "y": 11.317942722061922,
+        "z": 72.82362963488687
+      },
+      "velocity": {
+        "x": -0.10610439821219345,
+        "y": 0.003679144388706833,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1632943826609217
+    },
+    {
+      "callback": 193,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656092899011366,
+        "y": 11.317942722061922,
+        "z": 72.82411898338893
+      },
+      "velocity": {
+        "x": -0.10610699518492228,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.163254659343504
+    },
+    {
+      "callback": 194,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656093016358884,
+        "y": 11.317942722061922,
+        "z": 72.82460698446586
+      },
+      "velocity": {
+        "x": -0.10610957796417407,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1632151545996785
+    },
+    {
+      "callback": 195,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656093133064964,
+        "y": 11.317942722061922,
+        "z": 72.82509364174294
+      },
+      "velocity": {
+        "x": -0.10611214662614539,
+        "y": 0.0036791443887067427,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1631758672397954
+    },
+    {
+      "callback": 196,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656093249133075,
+        "y": 11.317942722061922,
+        "z": 72.82557895883635
+      },
+      "velocity": {
+        "x": -0.10611470124663624,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.163136796080598
+    },
+    {
+      "callback": 197,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656093364566644,
+        "y": 11.317942722061922,
+        "z": 72.82606293935319
+      },
+      "velocity": {
+        "x": -0.10611724190105394,
+        "y": 0.0036791443887067565,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1630979399451062
+    },
+    {
+      "callback": 198,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609347936907,
+        "y": 11.317942722061922,
+        "z": 72.82654558689161
+      },
+      "velocity": {
+        "x": -0.10611976866442048,
+        "y": 0.0036791443887058822,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1630592976625937
+    },
+    {
+      "callback": 199,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656093593543748,
+        "y": 11.317942722061922,
+        "z": 72.82702690504073
+      },
+      "velocity": {
+        "x": -0.10612228161136289,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1630208680685867
+    },
+    {
+      "callback": 200,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656093707094037,
+        "y": 11.317942722061922,
+        "z": 72.82750689738067
+      },
+      "velocity": {
+        "x": -0.10612478081612377,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.162982650004791
+    },
+    {
+      "callback": 201,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656093820023333,
+        "y": 11.317942722061922,
+        "z": 72.8279855674826
+      },
+      "velocity": {
+        "x": -0.10612726635256324,
+        "y": 0.0036791443887066663,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.162944642319144
+    },
+    {
+      "callback": 202,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656093932334922,
+        "y": 11.317942722061922,
+        "z": 72.82846291890874
+      },
+      "velocity": {
+        "x": -0.10612973829415925,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1629068438656294
+    },
+    {
+      "callback": 203,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609404403217,
+        "y": 11.317942722061922,
+        "z": 72.82893895521234
+      },
+      "velocity": {
+        "x": -0.10613219671400557,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.162869253504437
+    },
+    {
+      "callback": 204,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609415511834,
+        "y": 11.317942722061922,
+        "z": 72.82941367993774
+      },
+      "velocity": {
+        "x": -0.10613464168481625,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.162831870101753
+    },
+    {
+      "callback": 205,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656094265596764,
+        "y": 11.317942722061922,
+        "z": 72.82988709662041
+      },
+      "velocity": {
+        "x": -0.10613707327893025,
+        "y": 0.0036791443887058822,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1627946925298946
+    },
+    {
+      "callback": 206,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656094375470676,
+        "y": 11.317942722061922,
+        "z": 72.8303592087869
+      },
+      "velocity": {
+        "x": -0.10613949156831338,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1627577196671135
+    },
+    {
+      "callback": 207,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656094484743345,
+        "y": 11.317942722061922,
+        "z": 72.83083001995493
+      },
+      "velocity": {
+        "x": -0.10614189662455162,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.162720950397698
+    },
+    {
+      "callback": 208,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656094593417997,
+        "y": 11.317942722061922,
+        "z": 72.8312995336333
+      },
+      "velocity": {
+        "x": -0.10614428851886568,
+        "y": 0.0036791443887058822,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.162684383611871
+    },
+    {
+      "callback": 209,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609470149786,
+        "y": 11.317942722061922,
+        "z": 72.83176775332204
+      },
+      "velocity": {
+        "x": -0.10614666732209857,
+        "y": 0.0036791443887058822,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1626480182057968
+    },
+    {
+      "callback": 210,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656094808986133,
+        "y": 11.317942722061922,
+        "z": 72.83223468251235
+      },
+      "velocity": {
+        "x": -0.10614903310473263,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.162611853081519
+    },
+    {
+      "callback": 211,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656094915886005,
+        "y": 11.317942722061922,
+        "z": 72.83270032468658
+      },
+      "velocity": {
+        "x": -0.10615138593687903,
+        "y": 0.0036791443887051745,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.162575887146958
+    },
+    {
+      "callback": 212,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656095022200628,
+        "y": 11.317942722061922,
+        "z": 72.83316468331839
+      },
+      "velocity": {
+        "x": -0.10615372588828324,
+        "y": 0.0036791443887058822,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.162540119315843
+    },
+    {
+      "callback": 213,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609512793318,
+        "y": 11.317942722061922,
+        "z": 72.83362776187256
+      },
+      "velocity": {
+        "x": -0.10615605302833125,
+        "y": 0.0036791443887067427,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.162504548507756
+    },
+    {
+      "callback": 214,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656095233086788,
+        "y": 11.317942722061922,
+        "z": 72.83408956380522
+      },
+      "velocity": {
+        "x": -0.10615836742604598,
+        "y": 0.0036791443887066663,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.162469173648011
+    },
+    {
+      "callback": 215,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656095337664564,
+        "y": 11.317942722061922,
+        "z": 72.8345500925637
+      },
+      "velocity": {
+        "x": -0.10616066915009037,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.162433993667679
+    },
+    {
+      "callback": 216,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656095441669613,
+        "y": 11.317942722061922,
+        "z": 72.83500935158666
+      },
+      "velocity": {
+        "x": -0.10616295826876881,
+        "y": 0.0036791443887066733,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.16239900750355
+    },
+    {
+      "callback": 217,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656095545105025,
+        "y": 11.317942722061922,
+        "z": 72.83546734430405
+      },
+      "velocity": {
+        "x": -0.10616523485003306,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1623642140981003
+    },
+    {
+      "callback": 218,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609564797389,
+        "y": 11.317942722061922,
+        "z": 72.83592407413711
+      },
+      "velocity": {
+        "x": -0.1061674989614759,
+        "y": 0.0036791443887066594,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.162329612399485
+    },
+    {
+      "callback": 219,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656095750279228,
+        "y": 11.317942722061922,
+        "z": 72.83637954449844
+      },
+      "velocity": {
+        "x": -0.10616975067034204,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1622952013614336
+    },
+    {
+      "callback": 220,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656095852024098,
+        "y": 11.317942722061922,
+        "z": 72.836833758792
+      },
+      "velocity": {
+        "x": -0.10617199004351914,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1622609799433254
+    },
+    {
+      "callback": 221,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609595321152,
+        "y": 11.317942722061922,
+        "z": 72.8372867204131
+      },
+      "velocity": {
+        "x": -0.10617421714755187,
+        "y": 0.0036791443887059655,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.162226947110088
+    },
+    {
+      "callback": 222,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656096053844493,
+        "y": 11.317942722061922,
+        "z": 72.83773843274847
+      },
+      "velocity": {
+        "x": -0.10617643204863499,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1621931018321927
+    },
+    {
+      "callback": 223,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609615392604,
+        "y": 11.317942722061922,
+        "z": 72.8381888991762
+      },
+      "velocity": {
+        "x": -0.10617863481261562,
+        "y": 0.0036791443887059655,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1621594430856548
+    },
+    {
+      "callback": 224,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656096253459108,
+        "y": 11.317942722061922,
+        "z": 72.83863812306583
+      },
+      "velocity": {
+        "x": -0.1061808255049978,
+        "y": 0.0036791443887066663,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.162125969851923
+    },
+    {
+      "callback": 225,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656096352446657,
+        "y": 11.317942722061922,
+        "z": 72.83908610777834
+      },
+      "velocity": {
+        "x": -0.10618300419094606,
+        "y": 0.0036791443887059655,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1620926811179255
+    },
+    {
+      "callback": 226,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609645089164,
+        "y": 11.317942722061922,
+        "z": 72.83953285666615
+      },
+      "velocity": {
+        "x": -0.1061851709352796,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1620595758760315
+    },
+    {
+      "callback": 227,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656096548797002,
+        "y": 11.317942722061922,
+        "z": 72.83997837307318
+      },
+      "velocity": {
+        "x": -0.10618732580248062,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.16202665312402
+    },
+    {
+      "callback": 228,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656096646165626,
+        "y": 11.317942722061922,
+        "z": 72.84042266033481
+      },
+      "velocity": {
+        "x": -0.10618946885669346,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.161993911864989
+    },
+    {
+      "callback": 229,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656096743000433,
+        "y": 11.317942722061922,
+        "z": 72.84086572177794
+      },
+      "velocity": {
+        "x": -0.1061916001617257,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1619613511074447
+    },
+    {
+      "callback": 230,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656096839304308,
+        "y": 11.317942722061922,
+        "z": 72.841307560721
+      },
+      "velocity": {
+        "x": -0.10619371978105333,
+        "y": 0.0036791443887067565,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1619289698651856
+    },
+    {
+      "callback": 231,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656096935080104,
+        "y": 11.317942722061922,
+        "z": 72.84174818047396
+      },
+      "velocity": {
+        "x": -0.10619582777781716,
+        "y": 0.0036791443887066663,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.161896767157285
+    },
+    {
+      "callback": 232,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656097030330702,
+        "y": 11.317942722061922,
+        "z": 72.84218758433833
+      },
+      "velocity": {
+        "x": -0.10619792421482746,
+        "y": 0.0036791443887059655,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.161864742008122
+    },
+    {
+      "callback": 233,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.6560971250589,
+        "y": 11.317942722061922,
+        "z": 72.84262577560725
+      },
+      "velocity": {
+        "x": -0.10620000915456683,
+        "y": 0.0036791443887067427,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.161832893447241
+    },
+    {
+      "callback": 234,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656097219267558,
+        "y": 11.317942722061922,
+        "z": 72.84306275756538
+      },
+      "velocity": {
+        "x": -0.10620208265918767,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.16180122050948
+    },
+    {
+      "callback": 235,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656097312959467,
+        "y": 11.317942722061922,
+        "z": 72.84349853348904
+      },
+      "velocity": {
+        "x": -0.10620414479051753,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1617697222347982
+    },
+    {
+      "callback": 236,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656097406137427,
+        "y": 11.317942722061922,
+        "z": 72.84393310664618
+      },
+      "velocity": {
+        "x": -0.10620619561006049,
+        "y": 0.0036791443887067427,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.161738397668333
+    },
+    {
+      "callback": 237,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609749880423,
+        "y": 11.317942722061922,
+        "z": 72.84436648029636
+      },
+      "velocity": {
+        "x": -0.10620823517899619,
+        "y": 0.0036791443887066663,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.161707245860363
+    },
+    {
+      "callback": 238,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656097590962613,
+        "y": 11.317942722061922,
+        "z": 72.84479865769083
+      },
+      "velocity": {
+        "x": -0.10621026355818217,
+        "y": 0.003679144388705799,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1616762658662263
+    },
+    {
+      "callback": 239,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609768261534,
+        "y": 11.317942722061922,
+        "z": 72.84522964207252
+      },
+      "velocity": {
+        "x": -0.10621228080815907,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1616454567463728
+    },
+    {
+      "callback": 240,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609777376517,
+        "y": 11.317942722061922,
+        "z": 72.84565943667604
+      },
+      "velocity": {
+        "x": -0.10621428698914598,
+        "y": 0.0036791443887066663,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1616148175663192
+    },
+    {
+      "callback": 241,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656097864414786,
+        "y": 11.317942722061922,
+        "z": 72.84608804472775
+      },
+      "velocity": {
+        "x": -0.10621628216104963,
+        "y": 0.0036791443887066663,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.161584347396541
+    },
+    {
+      "callback": 242,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609795456692,
+        "y": 11.317942722061922,
+        "z": 72.84651546944569
+      },
+      "velocity": {
+        "x": -0.10621826638345655,
+        "y": 0.0036791443887066733,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.16155404531257
+    },
+    {
+      "callback": 243,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609804422427,
+        "y": 11.317942722061922,
+        "z": 72.84694171403969
+      },
+      "velocity": {
+        "x": -0.10622023971564437,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.161523910394892
+    },
+    {
+      "callback": 244,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609813338949,
+        "y": 11.317942722061922,
+        "z": 72.84736678171132
+      },
+      "velocity": {
+        "x": -0.1062222022165748,
+        "y": 0.0036791443887067565,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.161493941728917
+    },
+    {
+      "callback": 245,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656098222065246,
+        "y": 11.317942722061922,
+        "z": 72.84779067565394
+      },
+      "velocity": {
+        "x": -0.10622415394490325,
+        "y": 0.0036791443887058822,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1614641384049844
+    },
+    {
+      "callback": 246,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656098310254222,
+        "y": 11.317942722061922,
+        "z": 72.84821339905271
+      },
+      "velocity": {
+        "x": -0.10622609495897462,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1614344995183745
+    },
+    {
+      "callback": 247,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656098397959035,
+        "y": 11.317942722061922,
+        "z": 72.84863495508462
+      },
+      "velocity": {
+        "x": -0.10622802531682253,
+        "y": 0.0036791443887059655,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.161405024169175
+    },
+    {
+      "callback": 248,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656098485182305,
+        "y": 11.317942722061922,
+        "z": 72.84905534691849
+      },
+      "velocity": {
+        "x": -0.10622994507618166,
+        "y": 0.003679144388706833,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.161375711462338
+    },
+    {
+      "callback": 249,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656098571926634,
+        "y": 11.317942722061922,
+        "z": 72.84947457771499
+      },
+      "velocity": {
+        "x": -0.10623185429447726,
+        "y": 0.003679144388705799,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.161346560507628
+    },
+    {
+      "callback": 250,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656098658194647,
+        "y": 11.317942722061922,
+        "z": 72.84989265062661
+      },
+      "velocity": {
+        "x": -0.10623375302883414,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1613175704196417
+    },
+    {
+      "callback": 251,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656098743988903,
+        "y": 11.317942722061922,
+        "z": 72.85030956879781
+      },
+      "velocity": {
+        "x": -0.10623564133607671,
+        "y": 0.003679144388705799,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1612887403176884
+    },
+    {
+      "callback": 252,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609882931195,
+        "y": 11.317942722061922,
+        "z": 72.85072533536491
+      },
+      "velocity": {
+        "x": -0.10623751927272736,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1612600693258277
+    },
+    {
+      "callback": 253,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609891416638,
+        "y": 11.317942722061922,
+        "z": 72.85113995345617
+      },
+      "velocity": {
+        "x": -0.1062393868950102,
+        "y": 0.0036791443887067427,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1612315565728912
+    },
+    {
+      "callback": 254,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.65609899855473,
+        "y": 11.317942722061922,
+        "z": 72.85155342619174
+      },
+      "velocity": {
+        "x": -0.10624124425885356,
+        "y": 0.0036791443887074574,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1612032011923623
+    },
+    {
+      "callback": 255,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656099082479514,
+        "y": 11.317942722061922,
+        "z": 72.85196575668377
+      },
+      "velocity": {
+        "x": -0.10624309141989163,
+        "y": 0.0036791443887058753,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1611750023223966
+    },
+    {
+      "callback": 256,
+      "target": "upper platform turn",
+      "position": {
+        "x": -18.656099165943242,
+        "y": 11.317942722061922,
+        "z": 72.85237694803637
+      },
+      "velocity": {
+        "x": -0.10624492843346206,
+        "y": 0.0036791443887059586,
+        "z": 0
+      },
+      "supported": true,
+      "intersects": false,
+      "triggered": [],
+      "distance": 2.1611469591057904
+    }
+  ],
+  "doorState": {
+    "name": "door open 5",
+    "openedAt": null,
+    "phase": "closed",
+    "elapsedSeconds": 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "rankSource": "docs/research-evidence/2026-10-02/interior-13s-line-rank/source-doorway-line-rank.json",
+  "rankSourceSha256": "8924a622df61be1d32ac01e4b8f0a50d47923636011247542658538505066598",
+  "hypothesisCount": 64,
+  "allSourceLabelsRetained": true,
+  "idealUprightRanks": [
+    5
+  ],
+  "idealUprightParameters": 6,
+  "idealFreeBankRanks": [
+    6
+  ],
+  "idealFreeBankParameters": 7,
+  "exactUprightAtRelative1eMinus7": {
+    "rank5": 32,
+    "rank6": 32
+  },
+  "exactUprightAtRelative1eMinus5": {
+    "rank5": 64
+  },
+  "maximumSourceEndpointHorizontalDeviationWorld": 1.9761029420806153e-05,
+  "maximumSyntheticEndpointProjectionDifferencePixels": 0.0019893601896607076,
+  "imageMeasurementAllowancePixels": 2,
+  "conditioningConclusion": "Tiny decoded endpoint nonparallelism supplies only weak sixth numerical rank at tight tolerance; it is not a robust independent historical image constraint at the retained2px allowance.",
+  "limits": [
+    "Pixel sensitivity computed at explicitly synthetic poses, not the unknown original pose; no universal bound is claimed.",
+    "Ideal parallel-line diagnostic does not modify source/model/production geometry.",
+    "All exact-source spectra retained; no singular value is suppressed or rounded away.",
+    "No actualimage objective optimized, no heldout samples created, no unique camera proved."
+  ]
+}

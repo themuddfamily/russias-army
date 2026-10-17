@@ -1,0 +1,105 @@
+{
+  "totalLength": 584,
+  "totalLength2": 584,
+  "headerLength": 92,
+  "scriptNumber": 18,
+  "unk20": 3,
+  "parentNumber": -1,
+  "scriptFlags": 0,
+  "unk42": 0,
+  "castID": 196626,
+  "factoryNameID": -1,
+  "handlerVectorsCount": 0,
+  "handlerVectorsOffset": 584,
+  "handlerVectorsSize": 0,
+  "propertiesCount": 3,
+  "propertiesOffset": 92,
+  "globalsCount": 3,
+  "globalsOffset": 98,
+  "handlersCount": 3,
+  "handlersOffset": 104,
+  "literalsCount": 3,
+  "literalsOffset": 524,
+  "literalsDataCount": 36,
+  "literalsDataOffset": 548,
+  "propertyNameIDs": [
+    218,
+    108,
+    519
+  ],
+  "globalNameIDs": [
+    94,
+    125,
+    413
+  ],
+  "handlers": [
+    {
+      "nameID": 187,
+      "vectorPos": 65535,
+      "compiledLen": 194,
+      "compiledOffset": 242,
+      "argumentCount": 3,
+      "argumentOffset": 436,
+      "localsCount": 1,
+      "localsOffset": 442,
+      "globalsCount": 0,
+      "globalsOffset": 98,
+      "unknown1": 82,
+      "unknown2": 6,
+      "lineCount": 22,
+      "lineOffset": 444,
+      "stackHeight": 6
+    },
+    {
+      "nameID": 287,
+      "vectorPos": 65535,
+      "compiledLen": 43,
+      "compiledOffset": 466,
+      "argumentCount": 1,
+      "argumentOffset": 510,
+      "localsCount": 0,
+      "localsOffset": 512,
+      "globalsCount": 0,
+      "globalsOffset": 98,
+      "unknown1": 687,
+      "unknown2": 31,
+      "lineCount": 6,
+      "lineOffset": 512,
+      "stackHeight": 3
+    },
+    {
+      "nameID": 226,
+      "vectorPos": 65535,
+      "compiledLen": 1,
+      "compiledOffset": 518,
+      "argumentCount": 1,
+      "argumentOffset": 520,
+      "localsCount": 0,
+      "localsOffset": 522,
+      "globalsCount": 0,
+      "globalsOffset": 98,
+      "unknown1": 838,
+      "unknown2": 40,
+      "lineCount": 1,
+      "lineOffset": 522,
+      "stackHeight": 0
+    }
+  ],
+  "literals": [
+    {
+      "type": 1,
+      "offset": 0,
+      "value": "decalspas"
+    },
+    {
+      "type": 1,
+      "offset": 14,
+      "value": "decal"
+    },
+    {
+      "type": 9,
+      "offset": 24,
+      "value": 0.40000000000000002
+    }
+  ]
+}

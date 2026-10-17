@@ -1,0 +1,42 @@
+union() 569
+• #world applies the increments relative to the world coordinate system. If a model’s parent is 
+the world, than this is equivalent to using #parent.
+• nodeReference allows you to specify a node to base your translation upon, the command 
+applies the translations relative to the coordinate system of the specified node.
+Example
+This example constructs a transform using the transform command, then it initializes the 
+transform’s position and orientation in space before assigning the transform to the model named 
+mars. Finally this example displays the resulting position of the model.
+t =transform()
+t.transform.identity()
+t.transform.rotate(0, 90, 0)
+t.transform.translate(100, 0, 0)
+gbModel = member("scene").model("mars")
+gbModel.transform = t
+put gbModel.transform.position
+-- vector(100.0000, 0.0000, 0.0000)
+This Lingo moves the model Bip 20 units along the x axis of its parent node:
+put member("Scene").model("Bip").position
+-- vector( -38.5000, 21.2500, 2.0000)
+member("Scene").model("Bip").translate(20, 10, -0.5)
+put member("Scene").model("Bip").position
+-- vector( -18.5000, 31.2500, 1.5000)
+See also
+transform (property), preTranslate(), scale (command), rotate
+union()
+Usage
+rect(1).union(rect(2))
+union (rect1, rect2)
+Description
+Function; returns the smallest rectangle that encloses two rectangles.
+Parameters
+rect2 Required. Specifies the second rectangle.
+Example
+This statement returns the rectangle that encloses the specified rectangles:
+put union (rect (0, 0, 10, 10), rect (15, 15, 20, 20))
+-- rect (0, 0, 20, 20)
+or
+put rect(0, 0, 10, 10).union(rect(15, 15, 20, 20))
+--rect (0, 0, 20, 20)
+See also
+map(), rect()

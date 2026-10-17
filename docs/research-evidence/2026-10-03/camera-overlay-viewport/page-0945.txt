@@ -1,0 +1,42 @@
+rect (Image) 945
+rect (Image)
+Usage
+-- Lingo syntax
+imageObjRef.rect
+// JavaScript syntax
+imageObjRef.rect;
+Description
+Image property. Returns a rectangle describing the size of a given image. Read-only.
+The returned rectangle coordinates are given relative to the top left corner of the image. 
+Therefore, the left and top values of the rectangle are 0, and the right and bottom values are the 
+width and height of the cast member.
+Example
+This statement returns the rectangle of the 300 x 400 pixel member Sunrise in the 
+message window:
+-- Lingo syntax
+member("Sunrise").image.rect -- rect(0, 0, 300, 400)
+ // JavaScript syntax
+member("Sunrise").image.rect; // rect(0, 0, 300, 400)
+This Lingo looks at the first 50 cast members and displays the rectangle and name of each cast 
+member that is a bitmap:
+-- Lingo syntax
+on showAllRects
+repeat with x = 1 to 50
+if member(x).type = #bitmap then
+put member(x).image.rect && "-" && member(x).name  
+end if
+end repeat
+end
+// JavaScript syntax
+function showAllRects() {
+var x = 1;
+while(x < 51) {
+var tp = member(x).type;
+if (tp = "bitmap") {
+trace(member(x).image.rect + " - " + member(x).name);
+i++;
+}
+}
+}
+See also
+height, image(), width 

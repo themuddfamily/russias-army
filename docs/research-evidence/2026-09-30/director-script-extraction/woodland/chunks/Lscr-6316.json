@@ -1,0 +1,174 @@
+{
+  "totalLength": 1022,
+  "totalLength2": 1022,
+  "headerLength": 92,
+  "scriptNumber": 2,
+  "unk20": 5,
+  "parentNumber": -1,
+  "scriptFlags": 0,
+  "unk42": 0,
+  "castID": 196610,
+  "factoryNameID": -1,
+  "handlerVectorsCount": 16,
+  "handlerVectorsOffset": 990,
+  "handlerVectorsSize": 32768,
+  "propertiesCount": 2,
+  "propertiesOffset": 92,
+  "globalsCount": 5,
+  "globalsOffset": 96,
+  "handlersCount": 2,
+  "handlersOffset": 106,
+  "literalsCount": 20,
+  "literalsOffset": 560,
+  "literalsDataCount": 270,
+  "literalsDataOffset": 720,
+  "propertyNameIDs": [
+    266,
+    267
+  ],
+  "globalNameIDs": [
+    17,
+    182,
+    257,
+    268,
+    269
+  ],
+  "handlers": [
+    {
+      "nameID": 254,
+      "vectorPos": 15,
+      "compiledLen": 239,
+      "compiledOffset": 198,
+      "argumentCount": 1,
+      "argumentOffset": 438,
+      "localsCount": 1,
+      "localsOffset": 440,
+      "globalsCount": 0,
+      "globalsOffset": 96,
+      "unknown1": 91,
+      "unknown2": 6,
+      "lineCount": 34,
+      "lineOffset": 442,
+      "stackHeight": 4
+    },
+    {
+      "nameID": 255,
+      "vectorPos": 65535,
+      "compiledLen": 70,
+      "compiledOffset": 476,
+      "argumentCount": 1,
+      "argumentOffset": 546,
+      "localsCount": 2,
+      "localsOffset": 548,
+      "globalsCount": 0,
+      "globalsOffset": 96,
+      "unknown1": 937,
+      "unknown2": 43,
+      "lineCount": 8,
+      "lineOffset": 552,
+      "stackHeight": 3
+    }
+  ],
+  "literals": [
+    {
+      "type": 1,
+      "offset": 0,
+      "value": "game"
+    },
+    {
+      "type": 1,
+      "offset": 10,
+      "value": "_root.state"
+    },
+    {
+      "type": 1,
+      "offset": 26,
+      "value": "verifyname"
+    },
+    {
+      "type": 1,
+      "offset": 42,
+      "value": "_root.codename"
+    },
+    {
+      "type": 1,
+      "offset": 62,
+      "value": ""
+    },
+    {
+      "type": 1,
+      "offset": 68,
+      "value": "getroom"
+    },
+    {
+      "type": 1,
+      "offset": 80,
+      "value": "getcodename"
+    },
+    {
+      "type": 1,
+      "offset": 96,
+      "value": "start"
+    },
+    {
+      "type": 1,
+      "offset": 106,
+      "value": "wait"
+    },
+    {
+      "type": 1,
+      "offset": 116,
+      "value": "foundrooms"
+    },
+    {
+      "type": 1,
+      "offset": 132,
+      "value": "joinrooms"
+    },
+    {
+      "type": 1,
+      "offset": 146,
+      "value": "refresh"
+    },
+    {
+      "type": 1,
+      "offset": 158,
+      "value": "getrooms"
+    },
+    {
+      "type": 1,
+      "offset": 172,
+      "value": "leapto"
+    },
+    {
+      "type": 1,
+      "offset": 184,
+      "value": "http://www.gamevial.com"
+    },
+    {
+      "type": 1,
+      "offset": 212,
+      "value": "_parent"
+    },
+    {
+      "type": 1,
+      "offset": 224,
+      "value": "_root.scroll"
+    },
+    {
+      "type": 1,
+      "offset": 242,
+      "value": "rooms"
+    },
+    {
+      "type": 1,
+      "offset": 252,
+      "value": "up"
+    },
+    {
+      "type": 1,
+      "offset": 260,
+      "value": "down"
+    }
+  ]
+}

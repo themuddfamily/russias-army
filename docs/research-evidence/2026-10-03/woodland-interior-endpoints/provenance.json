@@ -1,0 +1,151 @@
+{
+  "inputs": {
+    "docs/research-evidence/2026-09-30/woodland-video-first45s.mp4": "069ea82b66ef3d2c0656ea81ea2e8fa939179245b5364077e59f213fcd7e5fc1",
+    "docs/research-evidence/2026-10-03/woodland-interior-identity/identity.json": "47812a5c7f86f6893d770a8e81b5e088693cc41035614aa6abce409c182a065b",
+    "docs/research-evidence/2026-10-03/woodland-interior-identity/REPORT.md": "e7704209eb84923fba6724119de415f33a08e9134e52645156fc6e5c932dbe4e",
+    "public/assets/original-scenes/woodland/scene.json": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107"
+  },
+  "dimensions": [
+    1280,
+    574
+  ],
+  "frames": [
+    {
+      "file": "frame-01.png",
+      "decodedZeroBasedFrame": 215,
+      "ptsSeconds": 21.5,
+      "sha256": "fbe41272f0324696fbcd491120278d7f3177f486d8a22c49f38e2c9e1bfcde83"
+    },
+    {
+      "file": "frame-02.png",
+      "decodedZeroBasedFrame": 217,
+      "ptsSeconds": 21.7,
+      "sha256": "171a2c53a4b4fbd6c70f8312955400ec114dde52628fa9cabd0adeb46c6457f9"
+    },
+    {
+      "file": "frame-03.png",
+      "decodedZeroBasedFrame": 219,
+      "ptsSeconds": 21.9,
+      "sha256": "9fa13efa34a45257bdc4571068fd795ea6c7e7414d611d2d11181646f29585e2"
+    },
+    {
+      "file": "frame-04.png",
+      "decodedZeroBasedFrame": 221,
+      "ptsSeconds": 22.1,
+      "sha256": "1ff20ee35f860bf1a53f9265c7e86ee8ed905cfec6d8f3b99d49fdc87508d465"
+    },
+    {
+      "file": "frame-05.png",
+      "decodedZeroBasedFrame": 223,
+      "ptsSeconds": 22.3,
+      "sha256": "ca8962ab6ddf8f3e49edc9a804f4849eb11c15514101f0f8a201c0eab2ccbea9"
+    },
+    {
+      "file": "frame-06.png",
+      "decodedZeroBasedFrame": 225,
+      "ptsSeconds": 22.5,
+      "sha256": "cc264e86539da5c56c2124133502392bb1544db45ff424500d7cec67400abb10"
+    }
+  ],
+  "nativeEndpointCandidates": [
+    {
+      "frame": "frame-05.png",
+      "description": "image-left opening top",
+      "pixelBox": [
+        926,
+        194,
+        936,
+        204
+      ],
+      "conditionalSourceVertex": 198
+    },
+    {
+      "frame": "frame-05.png",
+      "description": "image-right opening top",
+      "pixelBox": [
+        1136,
+        145,
+        1144,
+        153
+      ],
+      "conditionalSourceVertex": 183
+    },
+    {
+      "frame": "frame-06.png",
+      "description": "image-left opening top",
+      "pixelBox": [
+        851,
+        133,
+        859,
+        141
+      ],
+      "conditionalSourceVertex": 198
+    }
+  ],
+  "pixelBoxConvention": "inclusive xMin,yMin,xMax,yMax; conservative manual inspection boxes, not calibrated uncertainty",
+  "admittedSourceAnchors": [],
+  "trainingHeldoutRolesAssigned": false,
+  "cameraFitAttempted": false,
+  "originalRuntimeExecuted": false,
+  "floorCornerAlternatives": [
+    178,
+    193,
+    186,
+    224
+  ],
+  "conditionalLeftRightOrder": [
+    "B",
+    "A"
+  ],
+  "nativeProjectionHandednessIndependentlyEstablished": false,
+  "limits": [
+    "Source gap identity remains conditional.",
+    "Native pitch and roll remain unproved.",
+    "Bottom endpoints are occluded or outside frame.",
+    "Far floor seam is not independently proven to be a mesh vertex.",
+    "Exterior cafe/tank source vertex identities were not established."
+  ],
+  "derivatives": [
+    {
+      "file": "top-endpoint-inspection.png",
+      "inputs": [
+        "frame-05.png",
+        "frame-06.png"
+      ],
+      "cropBoxes": [
+        [
+          870,
+          130,
+          1030,
+          270
+        ],
+        [
+          795,
+          65,
+          955,
+          205
+        ]
+      ],
+      "scale": 4,
+      "resampling": "nearest-neighbor",
+      "contrastAdjustment": false
+    },
+    {
+      "file": "right-top-inspection.png",
+      "inputs": [
+        "frame-05.png"
+      ],
+      "cropBoxes": [
+        [
+          1080,
+          90,
+          1200,
+          260
+        ]
+      ],
+      "scale": 4,
+      "resampling": "nearest-neighbor",
+      "contrastAdjustment": false
+    }
+  ]
+}

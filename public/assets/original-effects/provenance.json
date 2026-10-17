@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "game_executed": false,
+  "identical_edition_atlases": true,
+  "sources": [
+    {
+      "kind": "grenade",
+      "output_file": "banggrenade.png",
+      "sha256": "5795aeb329cf9f36eefdbdd05d8ce7599dc2812e758b11989cc5bf93b15a9d7b",
+      "bytes": 131321,
+      "width": 256,
+      "height": 256,
+      "format": "RGBA PNG",
+      "editions": [
+        {
+          "edition": "barrack",
+          "path": "docs/research-evidence/2026-09-30/director-extraction/barrack/media/02879-banggrenade-rgba.png",
+          "sha256": "5795aeb329cf9f36eefdbdd05d8ce7599dc2812e758b11989cc5bf93b15a9d7b"
+        },
+        {
+          "edition": "woodland",
+          "path": "docs/research-evidence/2026-09-30/director-extraction/woodland/media/02879-banggrenade-rgba.png",
+          "sha256": "5795aeb329cf9f36eefdbdd05d8ce7599dc2812e758b11989cc5bf93b15a9d7b"
+        }
+      ],
+      "transformation": "byte-exact copy of previously statically decoded recovered RGBA atlas; no editing, resizing or re-encoding"
+    },
+    {
+      "kind": "rocket",
+      "output_file": "bangrocket.png",
+      "sha256": "56e2a379fc14859b573fbc3a65855a8102f885d7ccddc8c9813dae440af65e7c",
+      "bytes": 44123,
+      "width": 128,
+      "height": 128,
+      "format": "RGBA PNG",
+      "editions": [
+        {
+          "edition": "barrack",
+          "path": "docs/research-evidence/2026-09-30/director-extraction/barrack/media/01003-bangrocket-rgba.png",
+          "sha256": "56e2a379fc14859b573fbc3a65855a8102f885d7ccddc8c9813dae440af65e7c"
+        },
+        {
+          "edition": "woodland",
+          "path": "docs/research-evidence/2026-09-30/director-extraction/woodland/media/01003-bangrocket-rgba.png",
+          "sha256": "56e2a379fc14859b573fbc3a65855a8102f885d7ccddc8c9813dae440af65e7c"
+        }
+      ],
+      "transformation": "byte-exact copy of previously statically decoded recovered RGBA atlas; no editing, resizing or re-encoding"
+    }
+  ],
+  "scripts": [
+    {
+      "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 17 - bangs.ls",
+      "sha256": "7a59298720976f98932e08ab3cd703d3f3ed57c4444f4fbccf5c27475a14f939"
+    },
+    {
+      "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/MovieScript 1 - generics.ls",
+      "sha256": "5a8fb889e19dfcf7b415b31839ea90fd2f337864919e005e9f023d0e68b70ff3"
+    },
+    {
+      "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 5 - goody.ls",
+      "sha256": "e5e67dcd378dfce9c33f0d598a85857dfe026c16eaa8f509c3f153007dc7c9f8"
+    },
+    {
+      "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/MovieScript 24 - recycle and reuse.ls",
+      "sha256": "7cc976e678d791af943086c10cf0fc4523dc4c8fc56ea7a0c448a892ac67583e"
+    },
+    {
+      "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 17 - bangs.ls",
+      "sha256": "7a59298720976f98932e08ab3cd703d3f3ed57c4444f4fbccf5c27475a14f939"
+    },
+    {
+      "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/MovieScript 1 - generics.ls",
+      "sha256": "294d86b894b0471cedcff8a486706fa7551ba5cb921cb394236822eaf9bdbc44"
+    },
+    {
+      "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 5 - goody.ls",
+      "sha256": "6d1b8229158c635eaa6a418d762866a91f27abf78757e812b6e5c7f0670b1297"
+    },
+    {
+      "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/MovieScript 24 - recycle and reuse.ls",
+      "sha256": "7cc976e678d791af943086c10cf0fc4523dc4c8fc56ea7a0c448a892ac67583e"
+    }
+  ],
+  "source_rules": {
+    "atlas_columns": 4,
+    "atlas_rows": 4,
+    "callbacks": 16,
+    "plane_width_source_units": 50,
+    "plane_length_source_units": 50,
+    "grenade_scale": 7,
+    "rocket_scale": 8,
+    "shader_blend": 50,
+    "near_filtering": 1,
+    "render_format": "rgba8888",
+    "source_texture_scale": [
+      4,
+      4,
+      4
+    ],
+    "first_callback_texture_position": [
+      -1,
+      0,
+      0
+    ],
+    "callback16_recycles": true,
+    "shader_emissive": [
+      255,
+      255,
+      255
+    ]
+  },
+  "limits": [
+    "Recovered atlas pixel bytes are retained, but Director renderer color/alpha/filtering and plane UV parity are not measured.",
+    "Inverse texture transform and top-left row-major tile selection are explicit modern adapter interpretations.",
+    "Nominal 30Hz actor scheduling remains an adapter, not native Director execution."
+  ]
+}

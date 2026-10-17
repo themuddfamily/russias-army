@@ -1,0 +1,623 @@
+{
+  "source_sha256": "b44a03d346338df71c539e0a93ea9a8653dabc10552ec7610380c7220789efba",
+  "block_bytes": 1383,
+  "name": "GI",
+  "declared_bones": 25,
+  "parsed_bones": 25,
+  "consumed_bytes": 1379,
+  "uninterpreted_footer_hex": "d0050000",
+  "optional_masks_empirically_inferred": [
+    9,
+    18,
+    36
+  ],
+  "records": [
+    {
+      "index": 0,
+      "offset": 8,
+      "name": "Bone01",
+      "parent": -1,
+      "length": 0.0,
+      "displacement": [
+        -331.32354736328125,
+        72.1281967163086,
+        66.71815490722656
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "attributes": 4,
+      "uninterpreted_optional_pairs": [],
+      "end": 56
+    },
+    {
+      "index": 1,
+      "offset": 56,
+      "name": "lefthip",
+      "parent": 0,
+      "length": 145.64370727539062,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attributes": 58,
+      "uninterpreted_optional_pairs": [
+        {
+          "mask": 18,
+          "offset": 105,
+          "raw_hex": "00e31b1121000000"
+        }
+      ],
+      "end": 113
+    },
+    {
+      "index": 2,
+      "offset": 113,
+      "name": "leftthigh",
+      "parent": 1,
+      "length": 175.0611572265625,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        -0.21166618168354034,
+        0.6746832132339478,
+        0.21166618168354034,
+        -0.6746832132339478
+      ],
+      "attributes": 52,
+      "uninterpreted_optional_pairs": [
+        {
+          "mask": 36,
+          "offset": 164,
+          "raw_hex": "0ad1c1b80ad1c1b8"
+        }
+      ],
+      "end": 172
+    },
+    {
+      "index": 3,
+      "offset": 172,
+      "name": "leftknee",
+      "parent": 2,
+      "length": 466.8175048828125,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.9572177529335022,
+        0.04895787686109543,
+        -0.1254260540008545,
+        0.2561359703540802
+      ],
+      "attributes": 54,
+      "uninterpreted_optional_pairs": [
+        {
+          "mask": 18,
+          "offset": 222,
+          "raw_hex": "0000803f21000000"
+        },
+        {
+          "mask": 36,
+          "offset": 230,
+          "raw_hex": "000080b5000080b5"
+        }
+      ],
+      "end": 238
+    },
+    {
+      "index": 4,
+      "offset": 238,
+      "name": "leftfoot",
+      "parent": 3,
+      "length": 655.0438842773438,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.994051992893219,
+        0.00591576611623168,
+        -0.08434230089187622,
+        0.06864392757415771
+      ],
+      "attributes": 40,
+      "uninterpreted_optional_pairs": [],
+      "end": 288
+    },
+    {
+      "index": 5,
+      "offset": 288,
+      "name": "lefttoes",
+      "parent": 4,
+      "length": 284.6956787109375,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.5693573951721191,
+        0.08067414909601212,
+        0.7945550084114075,
+        -0.19495178759098053
+      ],
+      "attributes": 42,
+      "uninterpreted_optional_pairs": [],
+      "end": 338
+    },
+    {
+      "index": 6,
+      "offset": 338,
+      "name": "righthip",
+      "parent": 0,
+      "length": 145.6436004638672,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attributes": 36,
+      "uninterpreted_optional_pairs": [
+        {
+          "mask": 36,
+          "offset": 388,
+          "raw_hex": "0000000000000000"
+        }
+      ],
+      "end": 396
+    },
+    {
+      "index": 7,
+      "offset": 396,
+      "name": "rightthigh",
+      "parent": 6,
+      "length": 183.4064178466797,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.20106840133666992,
+        0.6779170036315918,
+        -0.20106840133666992,
+        -0.6779170036315918
+      ],
+      "attributes": 38,
+      "uninterpreted_optional_pairs": [
+        {
+          "mask": 36,
+          "offset": 448,
+          "raw_hex": "0000000000000000"
+        }
+      ],
+      "end": 456
+    },
+    {
+      "index": 8,
+      "offset": 456,
+      "name": "rightknee",
+      "parent": 7,
+      "length": 457.1383972167969,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.8695120215415955,
+        0.29078707098960876,
+        0.37703850865364075,
+        -0.13127723336219788
+      ],
+      "attributes": 32,
+      "uninterpreted_optional_pairs": [],
+      "end": 507
+    },
+    {
+      "index": 9,
+      "offset": 507,
+      "name": "rightfoot",
+      "parent": 8,
+      "length": 655.0435180664062,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.6419983506202698,
+        -0.01885109581053257,
+        -0.764525294303894,
+        -0.05462421476840973
+      ],
+      "attributes": 26,
+      "uninterpreted_optional_pairs": [
+        {
+          "mask": 18,
+          "offset": 558,
+          "raw_hex": "6500000021000000"
+        }
+      ],
+      "end": 566
+    },
+    {
+      "index": 10,
+      "offset": 566,
+      "name": "righttoes",
+      "parent": 9,
+      "length": 284.6914978027344,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.5680582523345947,
+        -0.08855735510587692,
+        0.7941011190414429,
+        0.19715683162212372
+      ],
+      "attributes": 28,
+      "uninterpreted_optional_pairs": [],
+      "end": 617
+    },
+    {
+      "index": 11,
+      "offset": 617,
+      "name": "torso",
+      "parent": 0,
+      "length": 145.64361572265625,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "attributes": 22,
+      "uninterpreted_optional_pairs": [
+        {
+          "mask": 18,
+          "offset": 664,
+          "raw_hex": "7200000021000000"
+        }
+      ],
+      "end": 672
+    },
+    {
+      "index": 12,
+      "offset": 672,
+      "name": "parent",
+      "parent": 11,
+      "length": 600.0,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.7426725625991821,
+        -0.37278857827186584,
+        -0.49717751145362854,
+        -0.2495609074831009
+      ],
+      "attributes": 16,
+      "uninterpreted_optional_pairs": [],
+      "end": 720
+    },
+    {
+      "index": 13,
+      "offset": 720,
+      "name": "leftshoulder",
+      "parent": 11,
+      "length": 600.0,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.7426725625991821,
+        -0.37278857827186584,
+        -0.49717751145362854,
+        -0.2495609074831009
+      ],
+      "attributes": 10,
+      "uninterpreted_optional_pairs": [],
+      "end": 774
+    },
+    {
+      "index": 14,
+      "offset": 774,
+      "name": "leftarm",
+      "parent": 13,
+      "length": 250.73046875,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.6084147095680237,
+        0.15344001352787018,
+        -0.19040916860103607,
+        0.7550046443939209
+      ],
+      "attributes": 12,
+      "uninterpreted_optional_pairs": [],
+      "end": 823
+    },
+    {
+      "index": 15,
+      "offset": 823,
+      "name": "leftwrist",
+      "parent": 14,
+      "length": 249.73516845703125,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.7293763160705566,
+        -0.23868423700332642,
+        0.4061930477619171,
+        0.49603143334388733
+      ],
+      "attributes": 6,
+      "uninterpreted_optional_pairs": [],
+      "end": 874
+    },
+    {
+      "index": 16,
+      "offset": 874,
+      "name": "lefthand",
+      "parent": 15,
+      "length": 358.5730285644531,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.8981720209121704,
+        0.04735798016190529,
+        0.4145313799381256,
+        0.13859297335147858
+      ],
+      "attributes": 0,
+      "uninterpreted_optional_pairs": [],
+      "end": 924
+    },
+    {
+      "index": 17,
+      "offset": 924,
+      "name": "leftfingers",
+      "parent": 16,
+      "length": 130.60069274902344,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.9568880200386047,
+        -0.005145377479493618,
+        0.2899145781993866,
+        0.016982434317469597
+      ],
+      "attributes": 62,
+      "uninterpreted_optional_pairs": [
+        {
+          "mask": 18,
+          "offset": 977,
+          "raw_hex": "ffffffff21000000"
+        },
+        {
+          "mask": 36,
+          "offset": 985,
+          "raw_hex": "ffffffffffffffff"
+        }
+      ],
+      "end": 993
+    },
+    {
+      "index": 18,
+      "offset": 993,
+      "name": "rightshoulder",
+      "parent": 11,
+      "length": 600.0,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.7426725625991821,
+        -0.37278857827186584,
+        -0.49717751145362854,
+        -0.2495609074831009
+      ],
+      "attributes": 56,
+      "uninterpreted_optional_pairs": [],
+      "end": 1048
+    },
+    {
+      "index": 19,
+      "offset": 1048,
+      "name": "rightarm",
+      "parent": 18,
+      "length": 231.22669982910156,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.6014479994773865,
+        0.1516828089952469,
+        0.19181208312511444,
+        -0.7605660557746887
+      ],
+      "attributes": 50,
+      "uninterpreted_optional_pairs": [
+        {
+          "mask": 18,
+          "offset": 1098,
+          "raw_hex": "ffffffff21000000"
+        }
+      ],
+      "end": 1106
+    },
+    {
+      "index": 20,
+      "offset": 1106,
+      "name": "rightwrist",
+      "parent": 19,
+      "length": 278.89794921875,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.9089677929878235,
+        -0.03966941684484482,
+        0.24003727734088898,
+        -0.33850550651550293
+      ],
+      "attributes": 52,
+      "uninterpreted_optional_pairs": [
+        {
+          "mask": 36,
+          "offset": 1158,
+          "raw_hex": "ffffffffffffffff"
+        }
+      ],
+      "end": 1166
+    },
+    {
+      "index": 21,
+      "offset": 1166,
+      "name": "righthand",
+      "parent": 20,
+      "length": 375.310791015625,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.6360297203063965,
+        0.10003048181533813,
+        0.6854824423789978,
+        -0.3399616479873657
+      ],
+      "attributes": 46,
+      "uninterpreted_optional_pairs": [
+        {
+          "mask": 36,
+          "offset": 1217,
+          "raw_hex": "ffffffffffffffff"
+        }
+      ],
+      "end": 1225
+    },
+    {
+      "index": 22,
+      "offset": 1225,
+      "name": "rightfingers",
+      "parent": 21,
+      "length": 133.897705078125,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.9589043855667114,
+        0.0025566457770764828,
+        0.28215688467025757,
+        -0.02972101978957653
+      ],
+      "attributes": 40,
+      "uninterpreted_optional_pairs": [],
+      "end": 1279
+    },
+    {
+      "index": 23,
+      "offset": 1279,
+      "name": "head",
+      "parent": 11,
+      "length": 700.9816284179688,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.7426725625991821,
+        -0.37278857827186584,
+        -0.49717751145362854,
+        -0.2495609074831009
+      ],
+      "attributes": 34,
+      "uninterpreted_optional_pairs": [],
+      "end": 1325
+    },
+    {
+      "index": 24,
+      "offset": 1325,
+      "name": "horn",
+      "parent": 23,
+      "length": 304.8989562988281,
+      "displacement": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion_wxyz": [
+        0.8911353945732117,
+        0.44731059670448303,
+        -0.06801115721464157,
+        -0.03413880243897438
+      ],
+      "attributes": 36,
+      "uninterpreted_optional_pairs": [
+        {
+          "mask": 36,
+          "offset": 1371,
+          "raw_hex": "ffffffffffffffff"
+        }
+      ],
+      "end": 1379
+    }
+  ]
+}

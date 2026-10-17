@@ -1,0 +1,77 @@
+{
+  "scope": "Constructed source-seam XY witness, actual recovered fixed-scene radius-aware support, and finite endpoint visibility. No image camera fit/native view registration.",
+  "scale": 0.02023529411764706,
+  "triangleCount": 24152,
+  "originalSourceCamera": [
+    583.5096249137758,
+    -463.33308147713575,
+    -367.16118240356445
+  ],
+  "support": {
+    "sourceFeetZ": -452.161181544065,
+    "sourceEyeZ": -367.161181544065,
+    "deltaFromSeamWitness": 8.594994369559572e-7,
+    "playerIntersects": false
+  },
+  "actualSourceCamera": [
+    583.5096249137758,
+    -463.33308147713575,
+    -367.161181544065
+  ],
+  "downwardSupportRay": {
+    "id": "stonebarn",
+    "surface": "collider",
+    "distance": 1.7200000000000002,
+    "point": {
+      "x": 11.80748888060817,
+      "y": -9.149614497126963,
+      "z": 9.375681178125571
+    },
+    "normal": {
+      "x": -1.3040548406168957e-9,
+      "y": 1,
+      "z": 1.2531148027153036e-8
+    }
+  },
+  "rays": [
+    {
+      "cafeVertex": 143,
+      "origin": {
+        "x": 11.80748888060817,
+        "y": -7.4296144971269635,
+        "z": 9.375681178125571
+      },
+      "target": {
+        "x": 46.989658173821326,
+        "y": -5.718807692544506,
+        "z": 32.933197681785366
+      },
+      "maxDistanceSourceUnits": 2094.119614522488,
+      "hit": null,
+      "hitSourcePoint": null
+    },
+    {
+      "cafeVertex": 178,
+      "origin": {
+        "x": 11.80748888060817,
+        "y": -7.4296144971269635,
+        "z": 9.375681178125571
+      },
+      "target": {
+        "x": 46.315623430464335,
+        "y": -5.718807692544506,
+        "z": 40.880092037136514
+      },
+      "maxDistanceSourceUnits": 2310.6816263140777,
+      "hit": null,
+      "hitSourcePoint": null
+    }
+  ],
+  "queryCounts": {
+    "playerSupportHeightAt": 1,
+    "playerIntersects": 1,
+    "raycast": 3
+  },
+  "totalPublicCallsIncludingInternalPlayerIntersects": 5,
+  "admittedSourceAnchors": []
+}

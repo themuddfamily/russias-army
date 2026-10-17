@@ -1,0 +1,40 @@
+970 Chapter 14:  Properties
+}
+}
+See also
+scaleMode, originMode
+scale (transform)
+Usage
+member(whichCastmember).node(whichNode).transform.scale
+member(whichCastmember).node(whichNode).getWorldTransform().scale
+transform.scale
+Description
+3D property; allows you to get or set the scaling component of a transform. A transform defines a 
+scale, position and rotation within a given frame of reference. The scale property allows you to 
+get and set the degree of scaling of the transform along each of the three axes. The default value of 
+this property is vector(1.0,1.0,1.0).
+A node can be a camera, group, light or model object. This command does not have any visual 
+effect on lights or cameras as they do not contain geometry. Setting the scale property of a node’s 
+transform defines that object’s scaling along the X, Y and Z axes within the transform’s frame of 
+reference. Getting the scale property of an object’s world relative transform using 
+getWorldTransform().scale returns the object’s scaling relative to the world origin. Setting the 
+scale property of an object’s parent relative transform using transform.scale defines the 
+object’s scaling relative to its parent node.
+Example
+This statement sets the scale property of the transform of the model named Moon to 
+vector(2,5,3):
+member("Scene").model("Moon").transform.scale = vector(2,5,3)
+See also
+transform (property), getWorldTransform(), position (transform), rotation 
+(transform), scale (command)
+scaleMode
+Usage
+-- Lingo syntax
+memberOrSpriteObjRef.scaleMode
+// JavaScript syntax
+memberOrSpriteObjRef.scaleMode;
+Description
+Cast member property and sprite property; controls the way a Flash movie or vector shape is 
+scaled within a sprite’s bounding rectangle. When you scale a Flash movie sprite by setting its 
+scale and viewScale properties, the sprite itself is not scaled; only the view of the movie within 
+the sprite is scaled. The scaleMode property can have these values:

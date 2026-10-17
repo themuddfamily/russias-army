@@ -1,0 +1,4395 @@
+{
+  "generator": {
+    "path": "scripts/research/audit-original-ak-crown-line-contacts.py",
+    "sha256": "819384e1395d33f9625e9c0c7cf5bc962dffe14832a8de2635e5456bb55b5bf8"
+  },
+  "inputs": [
+    {
+      "path": "docs/research-evidence/2026-10-03/ak-front-sight-topology/front-sight-topology.json",
+      "sha256": "39668cd0302663d0aabb5931a0462b712fad694496ae81bd9bfb94fbba8c6545"
+    }
+  ],
+  "originalRuntimeExecuted": false,
+  "cameraFitAttempted": false,
+  "rendererExecuted": false,
+  "method": {
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "projection": "Exact finite triangles projected to source YZ; nondegenerate projected points or degenerate projected segment preimages retain X intervals.",
+    "projectedDegeneracyAreaThreshold": 1e-14,
+    "distanceAllowancesSource": [
+      0,
+      1e-08,
+      1e-06
+    ],
+    "scope": "All 359 triangles for each of three crown-coordinate lines; raw IDs/coordinates/UVs preserved.",
+    "limitations": [
+      "Zero allowance is floating-point computation, not interval-certified exact arithmetic.",
+      "Contacts at these three lines alone cannot establish a neighborhood silhouette, extrema under perspective or eye-facing depth order.",
+      "Native Euler/culling/near clipping, gun translation/bob/recoil, aspect/crop and recorded tip identity remain unproved."
+    ]
+  },
+  "probes": [
+    {
+      "coordinateGroup": 42,
+      "rawVertexIds": [
+        168,
+        169,
+        342,
+        349,
+        616
+      ],
+      "sourceTipCandidate": [
+        -36.35376739501953,
+        -0.27082011103630066,
+        8.82067584991455
+      ],
+      "variants": [
+        {
+          "projectedDistanceAllowanceSource": 0.0,
+          "testedTriangleCount": 359,
+          "contacts": [
+            {
+              "faceId": 59,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                169,
+                605,
+                343
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082014083862305,
+                  7.893864631652832
+                ],
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  7.893864631652832
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.090576171875,
+                  -0.41607666015625
+                ],
+                [
+                  0.056640625,
+                  -0.41607666015625
+                ],
+                [
+                  0.056640625,
+                  -0.37811279296875
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 5.5242253438336775e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    1.0,
+                    -0.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.090576171875,
+                    -0.41607666015625
+                  ]
+                },
+                {
+                  "barycentric": [
+                    1.0,
+                    -0.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.090576171875,
+                    -0.41607666015625
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 133,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                343,
+                620,
+                169
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  7.893864631652832
+                ],
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.056640625,
+                  -0.37811279296875
+                ],
+                [
+                  0.090576171875,
+                  -0.37811279296875
+                ],
+                [
+                  0.090576171875,
+                  -0.41607666015625
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 2.7621126719168387e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.090576171875,
+                    -0.41607666015625
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.090576171875,
+                    -0.41607666015625
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 259,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                601,
+                168,
+                613
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  -0.27082014083862305,
+                  7.893864631652832
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.07666015625,
+                  -0.41448974609375
+                ],
+                [
+                  0.11065673828125,
+                  -0.41448974609375
+                ],
+                [
+                  0.11065673828125,
+                  -0.41839599609375
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 0.09942625068902089,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    1.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.41448974609375
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    1.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.41448974609375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 260,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                614,
+                615,
+                616
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.036376953125,
+                  -0.41839599609375
+                ],
+                [
+                  -0.00164794921875,
+                  -0.41839599609375
+                ],
+                [
+                  -0.00164794921875,
+                  -0.41448974609375
+                ]
+              ],
+              "kind": "projected-degenerate-finite-contact",
+              "projectedSignedDoubleArea": -0.0,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.00164794921875,
+                    -0.41448974609375
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.00164794921875,
+                    -0.41448974609375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 261,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                352,
+                618,
+                341
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  7.893864631652832
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.09185791015625,
+                  -0.417236328125
+                ],
+                [
+                  -0.09185791015625,
+                  -0.41326904296875
+                ],
+                [
+                  -0.05792236328125,
+                  -0.41326904296875
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": -0.09942625068902089,
+              "finiteSourceXSupport": [
+                -37.39043045043945,
+                -37.39043045043945
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    2.778051724217079e-07,
+                    0.9999997221948276,
+                    -0.0
+                  ],
+                  "sourcePoint": [
+                    -37.39043045043945,
+                    -0.2708201110363006,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09185791015625,
+                    -0.41326904407088233
+                  ]
+                },
+                {
+                  "barycentric": [
+                    2.778051724217079e-07,
+                    0.9999997221948276,
+                    -0.0
+                  ],
+                  "sourcePoint": [
+                    -37.39043045043945,
+                    -0.2708201110363006,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09185791015625,
+                    -0.41326904407088233
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 5.551115123125783e-17,
+              "tipXWithinSupport": false,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 262,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                616,
+                619,
+                614
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.00164794921875,
+                  -0.41448974609375
+                ],
+                [
+                  0.036376953125,
+                  -0.41448974609375
+                ],
+                [
+                  0.036376953125,
+                  -0.41839599609375
+                ]
+              ],
+              "kind": "projected-degenerate-finite-contact",
+              "projectedSignedDoubleArea": 0.0,
+              "finiteSourceXSupport": [
+                -37.39043045043945,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    0.9999997221948276,
+                    2.7780517245450595e-07
+                  ],
+                  "sourcePoint": [
+                    -37.39043045043945,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.036376953125,
+                    -0.41448974717892645
+                  ]
+                },
+                {
+                  "barycentric": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.00164794921875,
+                    -0.41448974609375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            }
+          ],
+          "otherComponentContactCount": 0,
+          "degenerateProjectedContactCount": 2,
+          "minimumXSupport": -37.39043045043945,
+          "maximumXSupport": -36.35376739501953
+        },
+        {
+          "projectedDistanceAllowanceSource": 1e-08,
+          "testedTriangleCount": 359,
+          "contacts": [
+            {
+              "faceId": 59,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                169,
+                605,
+                343
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082014083862305,
+                  7.893864631652832
+                ],
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  7.893864631652832
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.090576171875,
+                  -0.41607666015625
+                ],
+                [
+                  0.056640625,
+                  -0.41607666015625
+                ],
+                [
+                  0.056640625,
+                  -0.37811279296875
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 5.5242253438336775e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    1.0,
+                    -0.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.090576171875,
+                    -0.41607666015625
+                  ]
+                },
+                {
+                  "barycentric": [
+                    1.0,
+                    -0.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.090576171875,
+                    -0.41607666015625
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 133,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                343,
+                620,
+                169
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  7.893864631652832
+                ],
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.056640625,
+                  -0.37811279296875
+                ],
+                [
+                  0.090576171875,
+                  -0.37811279296875
+                ],
+                [
+                  0.090576171875,
+                  -0.41607666015625
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 2.7621126719168387e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.090576171875,
+                    -0.41607666015625
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.090576171875,
+                    -0.41607666015625
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 259,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                601,
+                168,
+                613
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  -0.27082014083862305,
+                  7.893864631652832
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.07666015625,
+                  -0.41448974609375
+                ],
+                [
+                  0.11065673828125,
+                  -0.41448974609375
+                ],
+                [
+                  0.11065673828125,
+                  -0.41839599609375
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 0.09942625068902089,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    1.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.41448974609375
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    1.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.41448974609375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 260,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                614,
+                615,
+                616
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.036376953125,
+                  -0.41839599609375
+                ],
+                [
+                  -0.00164794921875,
+                  -0.41839599609375
+                ],
+                [
+                  -0.00164794921875,
+                  -0.41448974609375
+                ]
+              ],
+              "kind": "projected-degenerate-finite-contact",
+              "projectedSignedDoubleArea": -0.0,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.00164794921875,
+                    -0.41448974609375
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.00164794921875,
+                    -0.41448974609375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 261,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                352,
+                618,
+                341
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  7.893864631652832
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.09185791015625,
+                  -0.417236328125
+                ],
+                [
+                  -0.09185791015625,
+                  -0.41326904296875
+                ],
+                [
+                  -0.05792236328125,
+                  -0.41326904296875
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": -0.09942625068902089,
+              "finiteSourceXSupport": [
+                -37.39043045043945,
+                -37.39043045043945
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    2.778051724217079e-07,
+                    0.9999997221948276,
+                    -0.0
+                  ],
+                  "sourcePoint": [
+                    -37.39043045043945,
+                    -0.2708201110363006,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09185791015625,
+                    -0.41326904407088233
+                  ]
+                },
+                {
+                  "barycentric": [
+                    2.778051724217079e-07,
+                    0.9999997221948276,
+                    -0.0
+                  ],
+                  "sourcePoint": [
+                    -37.39043045043945,
+                    -0.2708201110363006,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09185791015625,
+                    -0.41326904407088233
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 5.551115123125783e-17,
+              "tipXWithinSupport": false,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 262,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                616,
+                619,
+                614
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.00164794921875,
+                  -0.41448974609375
+                ],
+                [
+                  0.036376953125,
+                  -0.41448974609375
+                ],
+                [
+                  0.036376953125,
+                  -0.41839599609375
+                ]
+              ],
+              "kind": "projected-degenerate-finite-contact",
+              "projectedSignedDoubleArea": 0.0,
+              "finiteSourceXSupport": [
+                -37.39043045043945,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    0.9999997221948276,
+                    2.7780517245450595e-07
+                  ],
+                  "sourcePoint": [
+                    -37.39043045043945,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.036376953125,
+                    -0.41448974717892645
+                  ]
+                },
+                {
+                  "barycentric": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.00164794921875,
+                    -0.41448974609375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            }
+          ],
+          "otherComponentContactCount": 0,
+          "degenerateProjectedContactCount": 2,
+          "minimumXSupport": -37.39043045043945,
+          "maximumXSupport": -36.35376739501953
+        },
+        {
+          "projectedDistanceAllowanceSource": 1e-06,
+          "testedTriangleCount": 359,
+          "contacts": [
+            {
+              "faceId": 59,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                169,
+                605,
+                343
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082014083862305,
+                  7.893864631652832
+                ],
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  7.893864631652832
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.090576171875,
+                  -0.41607666015625
+                ],
+                [
+                  0.056640625,
+                  -0.41607666015625
+                ],
+                [
+                  0.056640625,
+                  -0.37811279296875
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 5.5242253438336775e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    1.0,
+                    -0.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.090576171875,
+                    -0.41607666015625
+                  ]
+                },
+                {
+                  "barycentric": [
+                    1.0,
+                    -0.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.090576171875,
+                    -0.41607666015625
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 133,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                343,
+                620,
+                169
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  7.893864631652832
+                ],
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.056640625,
+                  -0.37811279296875
+                ],
+                [
+                  0.090576171875,
+                  -0.37811279296875
+                ],
+                [
+                  0.090576171875,
+                  -0.41607666015625
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 2.7621126719168387e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.090576171875,
+                    -0.41607666015625
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.090576171875,
+                    -0.41607666015625
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 259,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                601,
+                168,
+                613
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  -0.27082014083862305,
+                  7.893864631652832
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.07666015625,
+                  -0.41448974609375
+                ],
+                [
+                  0.11065673828125,
+                  -0.41448974609375
+                ],
+                [
+                  0.11065673828125,
+                  -0.41839599609375
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 0.09942625068902089,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    1.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.41448974609375
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    1.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.41448974609375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 260,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                614,
+                615,
+                616
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.036376953125,
+                  -0.41839599609375
+                ],
+                [
+                  -0.00164794921875,
+                  -0.41839599609375
+                ],
+                [
+                  -0.00164794921875,
+                  -0.41448974609375
+                ]
+              ],
+              "kind": "projected-degenerate-finite-contact",
+              "projectedSignedDoubleArea": -0.0,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.00164794921875,
+                    -0.41448974609375
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.00164794921875,
+                    -0.41448974609375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 261,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                352,
+                618,
+                341
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  7.893864631652832
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.09185791015625,
+                  -0.417236328125
+                ],
+                [
+                  -0.09185791015625,
+                  -0.41326904296875
+                ],
+                [
+                  -0.05792236328125,
+                  -0.41326904296875
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": -0.09942625068902089,
+              "finiteSourceXSupport": [
+                -37.39043045043945,
+                -37.39043045043945
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    2.778051724217079e-07,
+                    0.9999997221948276,
+                    -0.0
+                  ],
+                  "sourcePoint": [
+                    -37.39043045043945,
+                    -0.2708201110363006,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09185791015625,
+                    -0.41326904407088233
+                  ]
+                },
+                {
+                  "barycentric": [
+                    2.778051724217079e-07,
+                    0.9999997221948276,
+                    -0.0
+                  ],
+                  "sourcePoint": [
+                    -37.39043045043945,
+                    -0.2708201110363006,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09185791015625,
+                    -0.41326904407088233
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 5.551115123125783e-17,
+              "tipXWithinSupport": false,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 262,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                616,
+                619,
+                614
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.00164794921875,
+                  -0.41448974609375
+                ],
+                [
+                  0.036376953125,
+                  -0.41448974609375
+                ],
+                [
+                  0.036376953125,
+                  -0.41839599609375
+                ]
+              ],
+              "kind": "projected-degenerate-finite-contact",
+              "projectedSignedDoubleArea": 0.0,
+              "finiteSourceXSupport": [
+                -37.39043045043945,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    0.9999997221948276,
+                    2.7780517245450595e-07
+                  ],
+                  "sourcePoint": [
+                    -37.39043045043945,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.036376953125,
+                    -0.41448974717892645
+                  ]
+                },
+                {
+                  "barycentric": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.27082011103630066,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.00164794921875,
+                    -0.41448974609375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            }
+          ],
+          "otherComponentContactCount": 0,
+          "degenerateProjectedContactCount": 2,
+          "minimumXSupport": -37.39043045043945,
+          "maximumXSupport": -36.35376739501953
+        }
+      ],
+      "imageRole": "No pixel/landmark assignment; coordinate-gate candidate only."
+    },
+    {
+      "coordinateGroup": 44,
+      "rawVertexIds": [
+        172,
+        175,
+        338,
+        623
+      ],
+      "sourceTipCandidate": [
+        -36.35376739501953,
+        0.33501529693603516,
+        8.82067584991455
+      ],
+      "variants": [
+        {
+          "projectedDistanceAllowanceSource": 0.0,
+          "testedTriangleCount": 359,
+          "contacts": [
+            {
+              "faceId": 61,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                608,
+                340,
+                175
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  0.29193276166915894,
+                  7.893864631652832
+                ],
+                [
+                  -36.35376739501953,
+                  0.29193270206451416,
+                  7.893864631652832
+                ],
+                [
+                  -36.35376739501953,
+                  0.33501529693603516,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.0648193359375,
+                  -0.37811279296875
+                ],
+                [
+                  -0.0648193359375,
+                  -0.41607666015625
+                ],
+                [
+                  -0.09881591796875,
+                  -0.41607666015625
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": -5.5242253438336775e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    -0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09881591796875,
+                    -0.41607666015625
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    -0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09881591796875,
+                    -0.41607666015625
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 127,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                337,
+                81,
+                338
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  0.29193270206451416,
+                  7.893864631652832
+                ],
+                [
+                  -36.35376739501953,
+                  0.37809789180755615,
+                  7.814451217651367
+                ],
+                [
+                  -36.35376739501953,
+                  0.33501529693603516,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.07666015625,
+                  -0.39385986328125
+                ],
+                [
+                  0.07379150390625,
+                  -0.39068603515625
+                ],
+                [
+                  0.11065673828125,
+                  -0.39068603515625
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 0.08328020042029038,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.39068603515625
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.39068603515625
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 263,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                175,
+                621,
+                608
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  0.33501529693603516,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  0.33501535654067993,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  0.29193276166915894,
+                  7.893864631652832
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.09881591796875,
+                  -0.41607666015625
+                ],
+                [
+                  -0.09881591796875,
+                  -0.37811279296875
+                ],
+                [
+                  -0.0648193359375,
+                  -0.37811279296875
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": -5.5242253438336775e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    1.0,
+                    -0.0,
+                    -0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09881591796875,
+                    -0.41607666015625
+                  ]
+                },
+                {
+                  "barycentric": [
+                    1.0,
+                    -0.0,
+                    -0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09881591796875,
+                    -0.41607666015625
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 264,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                622,
+                623,
+                84
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  0.33501535654067993,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  0.33501529693603516,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  0.37809789180755615,
+                  7.814451217651367
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.493896484375,
+                  0.454833984375
+                ],
+                [
+                  -0.44976806640625,
+                  0.454833984375
+                ],
+                [
+                  -0.44976806640625,
+                  0.4119873046875
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 5.997566177029512e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    1.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.44976806640625,
+                    0.454833984375
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    1.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.44976806640625,
+                    0.454833984375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            }
+          ],
+          "otherComponentContactCount": 0,
+          "degenerateProjectedContactCount": 0,
+          "minimumXSupport": -36.35376739501953,
+          "maximumXSupport": -36.35376739501953
+        },
+        {
+          "projectedDistanceAllowanceSource": 1e-08,
+          "testedTriangleCount": 359,
+          "contacts": [
+            {
+              "faceId": 61,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                608,
+                340,
+                175
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  0.29193276166915894,
+                  7.893864631652832
+                ],
+                [
+                  -36.35376739501953,
+                  0.29193270206451416,
+                  7.893864631652832
+                ],
+                [
+                  -36.35376739501953,
+                  0.33501529693603516,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.0648193359375,
+                  -0.37811279296875
+                ],
+                [
+                  -0.0648193359375,
+                  -0.41607666015625
+                ],
+                [
+                  -0.09881591796875,
+                  -0.41607666015625
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": -5.5242253438336775e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    -0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09881591796875,
+                    -0.41607666015625
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    -0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09881591796875,
+                    -0.41607666015625
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 127,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                337,
+                81,
+                338
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  0.29193270206451416,
+                  7.893864631652832
+                ],
+                [
+                  -36.35376739501953,
+                  0.37809789180755615,
+                  7.814451217651367
+                ],
+                [
+                  -36.35376739501953,
+                  0.33501529693603516,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.07666015625,
+                  -0.39385986328125
+                ],
+                [
+                  0.07379150390625,
+                  -0.39068603515625
+                ],
+                [
+                  0.11065673828125,
+                  -0.39068603515625
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 0.08328020042029038,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.39068603515625
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.39068603515625
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 263,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                175,
+                621,
+                608
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  0.33501529693603516,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  0.33501535654067993,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  0.29193276166915894,
+                  7.893864631652832
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.09881591796875,
+                  -0.41607666015625
+                ],
+                [
+                  -0.09881591796875,
+                  -0.37811279296875
+                ],
+                [
+                  -0.0648193359375,
+                  -0.37811279296875
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": -5.5242253438336775e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    1.0,
+                    -0.0,
+                    -0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09881591796875,
+                    -0.41607666015625
+                  ]
+                },
+                {
+                  "barycentric": [
+                    1.0,
+                    -0.0,
+                    -0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09881591796875,
+                    -0.41607666015625
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 264,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                622,
+                623,
+                84
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  0.33501535654067993,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  0.33501529693603516,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  0.37809789180755615,
+                  7.814451217651367
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.493896484375,
+                  0.454833984375
+                ],
+                [
+                  -0.44976806640625,
+                  0.454833984375
+                ],
+                [
+                  -0.44976806640625,
+                  0.4119873046875
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 5.997566177029512e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    1.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.44976806640625,
+                    0.454833984375
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    1.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.44976806640625,
+                    0.454833984375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            }
+          ],
+          "otherComponentContactCount": 0,
+          "degenerateProjectedContactCount": 0,
+          "minimumXSupport": -36.35376739501953,
+          "maximumXSupport": -36.35376739501953
+        },
+        {
+          "projectedDistanceAllowanceSource": 1e-06,
+          "testedTriangleCount": 359,
+          "contacts": [
+            {
+              "faceId": 60,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                624,
+                628,
+                606
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  0.33501535654067993,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  0.37809792160987854,
+                  7.814451217651367
+                ],
+                [
+                  -37.39043045043945,
+                  0.29193276166915894,
+                  7.893864631652832
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.09185791015625,
+                  -0.3895263671875
+                ],
+                [
+                  -0.05499267578125,
+                  -0.3895263671875
+                ],
+                [
+                  -0.05792236328125,
+                  -0.39263916015625
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": -0.08328017279916367,
+              "finiteSourceXSupport": [
+                -37.39043045043945,
+                -37.39043045043945
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.9999999970169401,
+                    0.0,
+                    2.98305991019987e-09
+                  ],
+                  "sourcePoint": [
+                    -37.39043045043945,
+                    0.335015356412162,
+                    8.820675847149818
+                  ],
+                  "rawUv": [
+                    -0.09185791005501823,
+                    -0.38952636719678563
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.9999999970169401,
+                    0.0,
+                    2.98305991019987e-09
+                  ],
+                  "sourcePoint": [
+                    -37.39043045043945,
+                    0.335015356412162,
+                    8.820675847149818
+                  ],
+                  "rawUv": [
+                    -0.09185791005501823,
+                    -0.38952636719678563
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 5.954035111900769e-08,
+              "tipXWithinSupport": false,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 61,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                608,
+                340,
+                175
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  0.29193276166915894,
+                  7.893864631652832
+                ],
+                [
+                  -36.35376739501953,
+                  0.29193270206451416,
+                  7.893864631652832
+                ],
+                [
+                  -36.35376739501953,
+                  0.33501529693603516,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.0648193359375,
+                  -0.37811279296875
+                ],
+                [
+                  -0.0648193359375,
+                  -0.41607666015625
+                ],
+                [
+                  -0.09881591796875,
+                  -0.41607666015625
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": -5.5242253438336775e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    -0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09881591796875,
+                    -0.41607666015625
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    -0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09881591796875,
+                    -0.41607666015625
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 127,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                337,
+                81,
+                338
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  0.29193270206451416,
+                  7.893864631652832
+                ],
+                [
+                  -36.35376739501953,
+                  0.37809789180755615,
+                  7.814451217651367
+                ],
+                [
+                  -36.35376739501953,
+                  0.33501529693603516,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.07666015625,
+                  -0.39385986328125
+                ],
+                [
+                  0.07379150390625,
+                  -0.39068603515625
+                ],
+                [
+                  0.11065673828125,
+                  -0.39068603515625
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 0.08328020042029038,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.39068603515625
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.39068603515625
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 263,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                175,
+                621,
+                608
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  0.33501529693603516,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  0.33501535654067993,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  0.29193276166915894,
+                  7.893864631652832
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.09881591796875,
+                  -0.41607666015625
+                ],
+                [
+                  -0.09881591796875,
+                  -0.37811279296875
+                ],
+                [
+                  -0.0648193359375,
+                  -0.37811279296875
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": -5.5242253438336775e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    1.0,
+                    -0.0,
+                    -0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09881591796875,
+                    -0.41607666015625
+                  ]
+                },
+                {
+                  "barycentric": [
+                    1.0,
+                    -0.0,
+                    -0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09881591796875,
+                    -0.41607666015625
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 264,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                622,
+                623,
+                84
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  0.33501535654067993,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  0.33501529693603516,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  0.37809789180755615,
+                  7.814451217651367
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.493896484375,
+                  0.454833984375
+                ],
+                [
+                  -0.44976806640625,
+                  0.454833984375
+                ],
+                [
+                  -0.44976806640625,
+                  0.4119873046875
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 5.997566177029512e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    1.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.44976806640625,
+                    0.454833984375
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    1.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    0.33501529693603516,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.44976806640625,
+                    0.454833984375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 267,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                84,
+                641,
+                622
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  0.37809789180755615,
+                  7.814451217651367
+                ],
+                [
+                  -37.39043045043945,
+                  0.37809792160987854,
+                  7.814451217651367
+                ],
+                [
+                  -37.39043045043945,
+                  0.33501535654067993,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.44976806640625,
+                  0.4119873046875
+                ],
+                [
+                  -0.493896484375,
+                  0.4119873046875
+                ],
+                [
+                  -0.493896484375,
+                  0.454833984375
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 2.998783088514756e-08,
+              "finiteSourceXSupport": [
+                -37.39043045043945,
+                -37.39043045043945
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -37.39043045043945,
+                    0.33501535654067993,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.493896484375,
+                    0.454833984375
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -37.39043045043945,
+                    0.33501535654067993,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.493896484375,
+                    0.454833984375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 5.960464477539063e-08,
+              "tipXWithinSupport": false,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            }
+          ],
+          "otherComponentContactCount": 0,
+          "degenerateProjectedContactCount": 0,
+          "minimumXSupport": -37.39043045043945,
+          "maximumXSupport": -36.35376739501953
+        }
+      ],
+      "imageRole": "No pixel/landmark assignment; coordinate-gate candidate only."
+    },
+    {
+      "coordinateGroup": 153,
+      "rawVertexIds": [
+        613,
+        615,
+        617
+      ],
+      "sourceTipCandidate": [
+        -36.35376739501953,
+        -0.37809789180755615,
+        8.82067584991455
+      ],
+      "variants": [
+        {
+          "projectedDistanceAllowanceSource": 0.0,
+          "testedTriangleCount": 359,
+          "contacts": [
+            {
+              "faceId": 58,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                613,
+                626,
+                601
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809792160987854,
+                  7.814451217651367
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082014083862305,
+                  7.893864631652832
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.11065673828125,
+                  -0.41839599609375
+                ],
+                [
+                  0.07379150390625,
+                  -0.41839599609375
+                ],
+                [
+                  0.07666015625,
+                  -0.41448974609375
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 0.10794554313986282,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    1.0,
+                    -0.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.41839599609375
+                  ]
+                },
+                {
+                  "barycentric": [
+                    1.0,
+                    -0.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.41839599609375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 132,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                617,
+                350,
+                88
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  7.814451217651367
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.45013427734375,
+                  0.45538330078125
+                ],
+                [
+                  -0.49432373046875,
+                  0.45538330078125
+                ],
+                [
+                  -0.49432373046875,
+                  0.41253662109375
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": -2.998783088514756e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    1.0,
+                    0.0,
+                    -0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.45013427734375,
+                    0.45538330078125
+                  ]
+                },
+                {
+                  "barycentric": [
+                    1.0,
+                    0.0,
+                    -0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.45013427734375,
+                    0.45538330078125
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 259,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                601,
+                168,
+                613
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  -0.27082014083862305,
+                  7.893864631652832
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.07666015625,
+                  -0.41448974609375
+                ],
+                [
+                  0.11065673828125,
+                  -0.41448974609375
+                ],
+                [
+                  0.11065673828125,
+                  -0.41839599609375
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 0.09942625068902089,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.41839599609375
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.41839599609375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 260,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                614,
+                615,
+                616
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.036376953125,
+                  -0.41839599609375
+                ],
+                [
+                  -0.00164794921875,
+                  -0.41839599609375
+                ],
+                [
+                  -0.00164794921875,
+                  -0.41448974609375
+                ]
+              ],
+              "kind": "projected-degenerate-finite-contact",
+              "projectedSignedDoubleArea": -0.0,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    1.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.00164794921875,
+                    -0.41839599609375
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    1.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.00164794921875,
+                    -0.41839599609375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 265,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                88,
+                625,
+                617
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  7.814451217651367
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809792160987854,
+                  7.814451217651367
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.49432373046875,
+                  0.41253662109375
+                ],
+                [
+                  -0.45013427734375,
+                  0.41253662109375
+                ],
+                [
+                  -0.45013427734375,
+                  0.45538330078125
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": -5.997566177029512e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    -0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.45013427734375,
+                    0.45538330078125
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    -0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.45013427734375,
+                    0.45538330078125
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            }
+          ],
+          "otherComponentContactCount": 0,
+          "degenerateProjectedContactCount": 1,
+          "minimumXSupport": -36.35376739501953,
+          "maximumXSupport": -36.35376739501953
+        },
+        {
+          "projectedDistanceAllowanceSource": 1e-08,
+          "testedTriangleCount": 359,
+          "contacts": [
+            {
+              "faceId": 58,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                613,
+                626,
+                601
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809792160987854,
+                  7.814451217651367
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082014083862305,
+                  7.893864631652832
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.11065673828125,
+                  -0.41839599609375
+                ],
+                [
+                  0.07379150390625,
+                  -0.41839599609375
+                ],
+                [
+                  0.07666015625,
+                  -0.41448974609375
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 0.10794554313986282,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    1.0,
+                    -0.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.41839599609375
+                  ]
+                },
+                {
+                  "barycentric": [
+                    1.0,
+                    -0.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.41839599609375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 132,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                617,
+                350,
+                88
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  7.814451217651367
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.45013427734375,
+                  0.45538330078125
+                ],
+                [
+                  -0.49432373046875,
+                  0.45538330078125
+                ],
+                [
+                  -0.49432373046875,
+                  0.41253662109375
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": -2.998783088514756e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    1.0,
+                    0.0,
+                    -0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.45013427734375,
+                    0.45538330078125
+                  ]
+                },
+                {
+                  "barycentric": [
+                    1.0,
+                    0.0,
+                    -0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.45013427734375,
+                    0.45538330078125
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 259,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                601,
+                168,
+                613
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  -0.27082014083862305,
+                  7.893864631652832
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.07666015625,
+                  -0.41448974609375
+                ],
+                [
+                  0.11065673828125,
+                  -0.41448974609375
+                ],
+                [
+                  0.11065673828125,
+                  -0.41839599609375
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 0.09942625068902089,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.41839599609375
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.41839599609375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 260,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                614,
+                615,
+                616
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.036376953125,
+                  -0.41839599609375
+                ],
+                [
+                  -0.00164794921875,
+                  -0.41839599609375
+                ],
+                [
+                  -0.00164794921875,
+                  -0.41448974609375
+                ]
+              ],
+              "kind": "projected-degenerate-finite-contact",
+              "projectedSignedDoubleArea": -0.0,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    1.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.00164794921875,
+                    -0.41839599609375
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    1.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.00164794921875,
+                    -0.41839599609375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 265,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                88,
+                625,
+                617
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  7.814451217651367
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809792160987854,
+                  7.814451217651367
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.49432373046875,
+                  0.41253662109375
+                ],
+                [
+                  -0.45013427734375,
+                  0.41253662109375
+                ],
+                [
+                  -0.45013427734375,
+                  0.45538330078125
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": -5.997566177029512e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    -0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.45013427734375,
+                    0.45538330078125
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    -0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.45013427734375,
+                    0.45538330078125
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            }
+          ],
+          "otherComponentContactCount": 0,
+          "degenerateProjectedContactCount": 1,
+          "minimumXSupport": -36.35376739501953,
+          "maximumXSupport": -36.35376739501953
+        },
+        {
+          "projectedDistanceAllowanceSource": 1e-06,
+          "testedTriangleCount": 359,
+          "contacts": [
+            {
+              "faceId": 58,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                613,
+                626,
+                601
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809792160987854,
+                  7.814451217651367
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082014083862305,
+                  7.893864631652832
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.11065673828125,
+                  -0.41839599609375
+                ],
+                [
+                  0.07379150390625,
+                  -0.41839599609375
+                ],
+                [
+                  0.07666015625,
+                  -0.41448974609375
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 0.10794554313986282,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    1.0,
+                    -0.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.41839599609375
+                  ]
+                },
+                {
+                  "barycentric": [
+                    1.0,
+                    -0.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.41839599609375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 129,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                341,
+                89,
+                352
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  7.893864631652832
+                ],
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  7.814451217651367
+                ],
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.05792236328125,
+                  -0.41326904296875
+                ],
+                [
+                  -0.05499267578125,
+                  -0.417236328125
+                ],
+                [
+                  -0.09185791015625,
+                  -0.417236328125
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": -0.10794554550656699,
+              "finiteSourceXSupport": [
+                -37.39043045043945,
+                -37.39043045043945
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -37.39043045043945,
+                    -0.37809786200523376,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09185791015625,
+                    -0.417236328125
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -37.39043045043945,
+                    -0.37809786200523376,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09185791015625,
+                    -0.417236328125
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 2.9802322387695312e-08,
+              "tipXWithinSupport": false,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 132,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                617,
+                350,
+                88
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  7.814451217651367
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.45013427734375,
+                  0.45538330078125
+                ],
+                [
+                  -0.49432373046875,
+                  0.45538330078125
+                ],
+                [
+                  -0.49432373046875,
+                  0.41253662109375
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": -2.998783088514756e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    1.0,
+                    0.0,
+                    -0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.45013427734375,
+                    0.45538330078125
+                  ]
+                },
+                {
+                  "barycentric": [
+                    1.0,
+                    0.0,
+                    -0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.45013427734375,
+                    0.45538330078125
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 259,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                601,
+                168,
+                613
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  -0.27082014083862305,
+                  7.893864631652832
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.07666015625,
+                  -0.41448974609375
+                ],
+                [
+                  0.11065673828125,
+                  -0.41448974609375
+                ],
+                [
+                  0.11065673828125,
+                  -0.41839599609375
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": 0.09942625068902089,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.41839599609375
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.11065673828125,
+                    -0.41839599609375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 260,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                614,
+                615,
+                616
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ],
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  0.036376953125,
+                  -0.41839599609375
+                ],
+                [
+                  -0.00164794921875,
+                  -0.41839599609375
+                ],
+                [
+                  -0.00164794921875,
+                  -0.41448974609375
+                ]
+              ],
+              "kind": "projected-degenerate-finite-contact",
+              "projectedSignedDoubleArea": -0.0,
+              "finiteSourceXSupport": [
+                -37.39043045043945,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -37.39043045043945,
+                    -0.37809786200523376,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.036376953125,
+                    -0.41839599609375
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    1.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.00164794921875,
+                    -0.41839599609375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 2.9802322387695312e-08,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 261,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                352,
+                618,
+                341
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  7.893864631652832
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.09185791015625,
+                  -0.417236328125
+                ],
+                [
+                  -0.09185791015625,
+                  -0.41326904296875
+                ],
+                [
+                  -0.05792236328125,
+                  -0.41326904296875
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": -0.09942625068902089,
+              "finiteSourceXSupport": [
+                -37.39043045043945,
+                -37.39043045043945
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -37.39043045043945,
+                    -0.37809786200523376,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09185791015625,
+                    -0.417236328125
+                  ]
+                },
+                {
+                  "barycentric": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ],
+                  "sourcePoint": [
+                    -37.39043045043945,
+                    -0.37809786200523376,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.09185791015625,
+                    -0.417236328125
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 2.9802322387695312e-08,
+              "tipXWithinSupport": false,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 262,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                616,
+                619,
+                614
+              ],
+              "exactTrianglePositions": [
+                [
+                  -36.35376739501953,
+                  -0.27082011103630066,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.27082008123397827,
+                  8.82067584991455
+                ],
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.00164794921875,
+                  -0.41448974609375
+                ],
+                [
+                  0.036376953125,
+                  -0.41448974609375
+                ],
+                [
+                  0.036376953125,
+                  -0.41839599609375
+                ]
+              ],
+              "kind": "projected-degenerate-finite-contact",
+              "projectedSignedDoubleArea": 0.0,
+              "finiteSourceXSupport": [
+                -37.39043045043945,
+                -37.39043045043945
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -37.39043045043945,
+                    -0.37809786200523376,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.036376953125,
+                    -0.41839599609375
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -37.39043045043945,
+                    -0.37809786200523376,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    0.036376953125,
+                    -0.41839599609375
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 2.9802322387695312e-08,
+              "tipXWithinSupport": false,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            },
+            {
+              "faceId": 265,
+              "componentId": 2,
+              "sightComponent": true,
+              "vertexIds": [
+                88,
+                625,
+                617
+              ],
+              "exactTrianglePositions": [
+                [
+                  -37.39043045043945,
+                  -0.37809786200523376,
+                  7.814451217651367
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809792160987854,
+                  7.814451217651367
+                ],
+                [
+                  -36.35376739501953,
+                  -0.37809789180755615,
+                  8.82067584991455
+                ]
+              ],
+              "exactTriangleUvs": [
+                [
+                  -0.49432373046875,
+                  0.41253662109375
+                ],
+                [
+                  -0.45013427734375,
+                  0.41253662109375
+                ],
+                [
+                  -0.45013427734375,
+                  0.45538330078125
+                ]
+              ],
+              "kind": "nondegenerate-projected-point",
+              "projectedSignedDoubleArea": -5.997566177029512e-08,
+              "finiteSourceXSupport": [
+                -36.35376739501953,
+                -36.35376739501953
+              ],
+              "supportEndpoints": [
+                {
+                  "barycentric": [
+                    0.0,
+                    -0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.45013427734375,
+                    0.45538330078125
+                  ]
+                },
+                {
+                  "barycentric": [
+                    0.0,
+                    -0.0,
+                    1.0
+                  ],
+                  "sourcePoint": [
+                    -36.35376739501953,
+                    -0.37809789180755615,
+                    8.82067584991455
+                  ],
+                  "rawUv": [
+                    -0.45013427734375,
+                    0.45538330078125
+                  ]
+                }
+              ],
+              "maximumSupportEndpointDistanceToDeclaredLineSource": 0.0,
+              "tipXWithinSupport": true,
+              "interpretation": "Finite source-axis contact only; positive allowance can include a nearby line, not exact native topology."
+            }
+          ],
+          "otherComponentContactCount": 0,
+          "degenerateProjectedContactCount": 2,
+          "minimumXSupport": -37.39043045043945,
+          "maximumXSupport": -36.35376739501953
+        }
+      ],
+      "imageRole": "No pixel/landmark assignment; coordinate-gate candidate only."
+    }
+  ],
+  "projectionHypotheses": [
+    {
+      "id": "output_viewport_aspect",
+      "assumptions": "Entire1280x574 frame is unscaled camera image with square output pixels, verticalFOV50.",
+      "fx": 615.4734861862433,
+      "fy": 615.4734861862433
+    },
+    {
+      "id": "native_4_3_stretched",
+      "assumptions": "Camera fills800x600 stage at verticalFOV50, then entire image stretches independently to1280x574; not proved by stage rectangle alone.",
+      "fx": 1029.3633218445882,
+      "fy": 615.4734861862433
+    }
+  ],
+  "fitObservations": [],
+  "heldoutObservations": [],
+  "conclusion": "Finite source-axis contact support enumerated; no camera or recorded finite silhouette endpoint accepted."
+}

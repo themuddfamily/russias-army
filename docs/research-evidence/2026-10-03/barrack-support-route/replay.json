@@ -1,0 +1,1591 @@
+{
+  "scope": "Shared current player physics across an actual central window sill80/118. Fixed scene only, no door/barrel/player world or native equivalence. One initialization, source callback step then controls, unchanged impulses/skin/tolerances.",
+  "queries": 1271,
+  "budget": 3000,
+  "radius": 0.5058823529411764,
+  "eyeOffset": 1.2141176470588235,
+  "contactDistance": 0.02023529411764706,
+  "results": [
+    {
+      "jumpEnabled": false,
+      "start": {
+        "x": 50.7,
+        "z": 64.24
+      },
+      "initialSupport": 10.74582918772978,
+      "initialContacts": [
+        {
+          "position": {
+            "x": 50.7,
+            "y": 11.251711540670957,
+            "z": 64.24
+          },
+          "fraction": 0,
+          "normal": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          },
+          "penetrationDepth": 0,
+          "gap": 0,
+          "model": "bigredfellaopen",
+          "witnessA": {
+            "x": 50.7,
+            "y": 10.74582918772978,
+            "z": 64.24
+          },
+          "witnessB": {
+            "x": 50.7,
+            "y": 10.74582918772978,
+            "z": 64.24
+          },
+          "witnessPairs": [
+            {
+              "witnessA": {
+                "x": 50.7,
+                "y": 10.74582918772978,
+                "z": 64.24
+              },
+              "witnessB": {
+                "x": 50.7,
+                "y": 10.74582918772978,
+                "z": 64.24
+              }
+            }
+          ]
+        }
+      ],
+      "initialIntersects": false,
+      "status": "crossed",
+      "crossingCallback": 13,
+      "jumps": 0,
+      "intersections": 0,
+      "endSupport": 10.292872186359105,
+      "finalContacts": [],
+      "trace": [
+        {
+          "callback": 0,
+          "position": {
+            "x": 50.7,
+            "y": 11.251898170228559,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -1.5176470588235293,
+            "y": 0.003679144384658828,
+            "z": -9.292908064118149e-17
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 1,
+          "position": {
+            "x": 50.6252305882353,
+            "y": 11.252083127447806,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -2.6255294117646777,
+            "y": 0.003679144385026742,
+            "z": -1.6076730950924232e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 2,
+          "position": {
+            "x": 50.49506705882352,
+            "y": 11.252268084667053,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -3.456441176470566,
+            "y": 0.003679144385026742,
+            "z": -2.1164598116028966e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 3,
+          "position": {
+            "x": 50.323357941176454,
+            "y": 11.2524530418863,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": 0.003679144385026742,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 4,
+          "position": {
+            "x": 50.120489632352914,
+            "y": 11.252637999105547,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.547012867647048,
+            "y": 0.003679144385026742,
+            "z": -2.7842423770228905e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 5,
+          "position": {
+            "x": 49.94347155142666,
+            "y": 11.309200729718922,
+            "z": 64.24000000351734
+          },
+          "velocity": {
+            "x": -3.567020957126883,
+            "y": 1.9539455267215637,
+            "z": 9.55779886922504e-8
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 6,
+          "position": {
+            "x": 49.76512050357034,
+            "y": 11.395768594290299,
+            "z": 64.2400000082963
+          },
+          "velocity": {
+            "x": -3.567020957126883,
+            "y": 1.5492396443686234,
+            "z": 9.55779886922504e-8
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 7,
+          "position": {
+            "x": 49.58676945571401,
+            "y": 11.462101164744023,
+            "z": 64.24000001307527
+          },
+          "velocity": {
+            "x": -3.567020957126883,
+            "y": 1.144533762015683,
+            "z": 9.55779886922504e-8
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 8,
+          "position": {
+            "x": 49.40841840785769,
+            "y": 11.5081984410801,
+            "z": 64.24000001785424
+          },
+          "velocity": {
+            "x": -3.567020957126883,
+            "y": 0.7398278796627419,
+            "z": 9.55779886922504e-8
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 9,
+          "position": {
+            "x": 49.230067360001364,
+            "y": 11.534060423298534,
+            "z": 64.24000002263321
+          },
+          "velocity": {
+            "x": -3.567020957126883,
+            "y": 0.3351219973098004,
+            "z": 9.55779886922504e-8
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 10,
+          "position": {
+            "x": 49.05171631214504,
+            "y": 11.539687111399314,
+            "z": 64.24000002741218
+          },
+          "velocity": {
+            "x": -3.567020957126883,
+            "y": -0.06958388504314084,
+            "z": 9.55779886922504e-8
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 11,
+          "position": {
+            "x": 48.873365264288715,
+            "y": 11.525078505382455,
+            "z": 64.24000003219115
+          },
+          "velocity": {
+            "x": -3.567020957126883,
+            "y": -0.4742897673960822,
+            "z": 9.55779886922504e-8
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 12,
+          "position": {
+            "x": 48.69501421643239,
+            "y": 11.490234605247943,
+            "z": 64.24000003697012
+          },
+          "velocity": {
+            "x": -3.567020957126883,
+            "y": -0.8789956497490237,
+            "z": 9.55779886922504e-8
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 13,
+          "position": {
+            "x": 48.516663168576066,
+            "y": 11.435155410995785,
+            "z": 64.24000004174908
+          },
+          "velocity": {
+            "x": -3.567020957126883,
+            "y": -1.2837015321019642,
+            "z": 9.55779886922504e-8
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 14,
+          "position": {
+            "x": 48.33831212071974,
+            "y": 11.359840922625983,
+            "z": 64.24000004652805
+          },
+          "velocity": {
+            "x": -3.567020957126883,
+            "y": -1.6884074144549046,
+            "z": 9.55779886922504e-8
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 15,
+          "position": {
+            "x": 48.15996107286342,
+            "y": 11.264291140138527,
+            "z": 64.24000005130702
+          },
+          "velocity": {
+            "x": -3.567020957126883,
+            "y": -2.0931132968078456,
+            "z": 9.55779886922504e-8
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 16,
+          "position": {
+            "x": 47.98161002500709,
+            "y": 11.148506063533434,
+            "z": 64.24000005608599
+          },
+          "velocity": {
+            "x": -3.567020957126883,
+            "y": -2.497819179160788,
+            "z": 9.55779886922504e-8
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 17,
+          "position": {
+            "x": 47.80325897715077,
+            "y": 11.012485692810687,
+            "z": 64.24000006086496
+          },
+          "velocity": {
+            "x": -3.567020957126883,
+            "y": -2.902525061513731,
+            "z": 9.55779886922504e-8
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 18,
+          "position": {
+            "x": 47.624907929294444,
+            "y": 10.856230027970295,
+            "z": 64.24000006564393
+          },
+          "velocity": {
+            "x": -3.567020957126883,
+            "y": -3.3072309438666734,
+            "z": 9.55779886922504e-8
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 19,
+          "position": {
+            "x": 47.46125121846388,
+            "y": 10.82668253927025,
+            "z": 64.24000007002911
+          },
+          "velocity": {
+            "x": -2.3924026943882213,
+            "y": 0.059570153209861615,
+            "z": 6.410413453771856e-8
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 20,
+          "position": {
+            "x": 47.341681485552144,
+            "y": 10.81903575324311,
+            "z": 64.24000007323302
+          },
+          "velocity": {
+            "x": -1.7658283231370377,
+            "y": 0.03451357291336221,
+            "z": 4.7315136533448275e-8
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 21,
+          "position": {
+            "x": 47.25432744215399,
+            "y": 10.819006647711019,
+            "z": 64.24000007557369
+          },
+          "velocity": {
+            "x": -1.2963308833152833,
+            "y": 0.0036791443941359553,
+            "z": 3.47350051838049e-8
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 22,
+          "position": {
+            "x": 47.19060534344268,
+            "y": 10.819006647710586,
+            "z": 64.24000007728115
+          },
+          "velocity": {
+            "x": -0.9418952213106864,
+            "y": 0.003679144384870235,
+            "z": 2.5237951997727426e-8
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 23,
+          "position": {
+            "x": 47.14460502783169,
+            "y": 10.819006647710586,
+            "z": 64.24000007851376
+          },
+          "velocity": {
+            "x": -0.6760684748065068,
+            "y": 0.0036791443845738264,
+            "z": 1.8115177020942496e-8
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 24,
+          "position": {
+            "x": 47.11189604954591,
+            "y": 10.819006647710589,
+            "z": 64.24000007939019
+          },
+          "velocity": {
+            "x": -0.47669841492833,
+            "y": 0.0036791443852221897,
+            "z": 1.2773083220159443e-8
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 25,
+          "position": {
+            "x": 47.08915557425403,
+            "y": 10.819006647710587,
+            "z": 64.2400000799995
+          },
+          "velocity": {
+            "x": -0.3271708700198213,
+            "y": 0.0036791443849778296,
+            "z": 8.766510324133315e-9
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 26,
+          "position": {
+            "x": 47.07389147620757,
+            "y": 10.819006647710587,
+            "z": 64.24000008040852
+          },
+          "velocity": {
+            "x": -0.21502521133844826,
+            "y": 0.0036791443849127844,
+            "z": 5.761568610461456e-9
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 27,
+          "position": {
+            "x": 47.0642346610952,
+            "y": 10.819006647710587,
+            "z": 64.24000008066727
+          },
+          "velocity": {
+            "x": -0.13091596732738223,
+            "y": 0.0036791443850172703,
+            "z": 3.5078729200805364e-9
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 28,
+          "position": {
+            "x": 47.05878330818337,
+            "y": 10.819006647710587,
+            "z": 64.24000008081332
+          },
+          "velocity": {
+            "x": -0.06783403431911422,
+            "y": 0.0036791443850271582,
+            "z": 1.817590823864312e-9
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 29,
+          "position": {
+            "x": 47.05648605192196,
+            "y": 10.819006647710587,
+            "z": 64.24000008087486
+          },
+          "velocity": {
+            "x": -0.020522584562884076,
+            "y": 0.0036791443850279076,
+            "z": 5.498932987033326e-10
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 30,
+          "position": {
+            "x": 47.056267137562244,
+            "y": 10.819006647710587,
+            "z": 64.24000008088072
+          },
+          "velocity": {
+            "x": -1.6397140056002325e-15,
+            "y": 0.003679144385026742,
+            "z": -3.7266227400005294e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 31,
+          "position": {
+            "x": 47.056267137562244,
+            "y": 10.819006647710587,
+            "z": 64.24000008088072
+          },
+          "velocity": {
+            "x": -1.639714005600233e-15,
+            "y": 0.003679144385026742,
+            "z": -3.7266227400005294e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 32,
+          "position": {
+            "x": 47.056267137562244,
+            "y": 10.819006647710587,
+            "z": 64.24000008088072
+          },
+          "velocity": {
+            "x": -1.6397140056002337e-15,
+            "y": 0.003679144385026742,
+            "z": -3.7266227400005294e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 33,
+          "position": {
+            "x": 47.056267137562244,
+            "y": 10.819006647710587,
+            "z": 64.24000008088072
+          },
+          "velocity": {
+            "x": -1.6397140056002317e-15,
+            "y": 0.003679144385026742,
+            "z": -3.7266227400005294e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 34,
+          "position": {
+            "x": 47.056267137562244,
+            "y": 10.819006647710587,
+            "z": 64.24000008088072
+          },
+          "velocity": {
+            "x": -1.6397140056002325e-15,
+            "y": 0.003679144385026742,
+            "z": -3.7266227400005294e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 35,
+          "position": {
+            "x": 47.056267137562244,
+            "y": 10.819006647710587,
+            "z": 64.24000008088072
+          },
+          "velocity": {
+            "x": -1.639714005600233e-15,
+            "y": 0.003679144385026742,
+            "z": -3.7266227400005294e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 36,
+          "position": {
+            "x": 47.056267137562244,
+            "y": 10.819006647710587,
+            "z": 64.24000008088072
+          },
+          "velocity": {
+            "x": -1.6397140056002337e-15,
+            "y": 0.003679144385026742,
+            "z": -3.7266227400005294e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 37,
+          "position": {
+            "x": 47.056267137562244,
+            "y": 10.819006647710587,
+            "z": 64.24000008088072
+          },
+          "velocity": {
+            "x": -1.6397140056002317e-15,
+            "y": 0.003679144385026742,
+            "z": -3.7266227400005294e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 38,
+          "position": {
+            "x": 47.056267137562244,
+            "y": 10.819006647710587,
+            "z": 64.24000008088072
+          },
+          "velocity": {
+            "x": -1.6397140056002325e-15,
+            "y": 0.003679144385026742,
+            "z": -3.7266227400005294e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        }
+      ]
+    },
+    {
+      "jumpEnabled": true,
+      "start": {
+        "x": 50.7,
+        "z": 64.24
+      },
+      "initialSupport": 10.74582918772978,
+      "initialContacts": [
+        {
+          "position": {
+            "x": 50.7,
+            "y": 11.251711540670957,
+            "z": 64.24
+          },
+          "fraction": 0,
+          "normal": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          },
+          "penetrationDepth": 0,
+          "gap": 0,
+          "model": "bigredfellaopen",
+          "witnessA": {
+            "x": 50.7,
+            "y": 10.74582918772978,
+            "z": 64.24
+          },
+          "witnessB": {
+            "x": 50.7,
+            "y": 10.74582918772978,
+            "z": 64.24
+          },
+          "witnessPairs": [
+            {
+              "witnessA": {
+                "x": 50.7,
+                "y": 10.74582918772978,
+                "z": 64.24
+              },
+              "witnessB": {
+                "x": 50.7,
+                "y": 10.74582918772978,
+                "z": 64.24
+              }
+            }
+          ]
+        }
+      ],
+      "initialIntersects": false,
+      "status": "crossed",
+      "crossingCallback": 12,
+      "jumps": 1,
+      "intersections": 0,
+      "endSupport": 10.292872186359105,
+      "finalContacts": [],
+      "trace": [
+        {
+          "callback": 0,
+          "position": {
+            "x": 50.7,
+            "y": 11.251898170228559,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -1.5176470588235293,
+            "y": 0.003679144384658828,
+            "z": -9.292908064118149e-17
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 1,
+          "position": {
+            "x": 50.6252305882353,
+            "y": 11.252083127447806,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -2.6255294117646777,
+            "y": 0.003679144385026742,
+            "z": -1.6076730950924232e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 2,
+          "position": {
+            "x": 50.49506705882352,
+            "y": 11.252268084667053,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -3.456441176470566,
+            "y": 0.003679144385026742,
+            "z": -2.1164598116028966e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 3,
+          "position": {
+            "x": 50.323357941176454,
+            "y": 11.2524530418863,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": 5.062502673796791,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": true
+          },
+          "intersects": false
+        },
+        {
+          "callback": 4,
+          "position": {
+            "x": 50.119376691176456,
+            "y": 11.494448763811432,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": 4.6577967914438485,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 5,
+          "position": {
+            "x": 49.91539544117646,
+            "y": 11.716209191618917,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": 4.253090909090906,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 6,
+          "position": {
+            "x": 49.71141419117646,
+            "y": 11.917734325308759,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": 3.8483850267379633,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 7,
+          "position": {
+            "x": 49.50743294117646,
+            "y": 12.099024164880946,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": 3.4436791443850208,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 8,
+          "position": {
+            "x": 49.30345169117646,
+            "y": 12.260078710335495,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": 3.038973262032078,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 9,
+          "position": {
+            "x": 49.099470441176464,
+            "y": 12.400897961672392,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": 2.6342673796791356,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 10,
+          "position": {
+            "x": 48.895489191176466,
+            "y": 12.521481918891642,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": 2.229561497326193,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 11,
+          "position": {
+            "x": 48.69150794117647,
+            "y": 12.621830581993247,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": 1.8248556149732515,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 12,
+          "position": {
+            "x": 48.48752669117647,
+            "y": 12.7019439509772,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": 1.4201497326203112,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 13,
+          "position": {
+            "x": 48.28354544117647,
+            "y": 12.761822025843514,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": 1.0154438502673708,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 14,
+          "position": {
+            "x": 48.07956419117647,
+            "y": 12.801464806592175,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": 0.6107379679144294,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 15,
+          "position": {
+            "x": 47.875582941176475,
+            "y": 12.820872293223191,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": 0.20603208556148794,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 16,
+          "position": {
+            "x": 47.67160169117648,
+            "y": 12.820044485736561,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": -0.19867379679145325,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 17,
+          "position": {
+            "x": 47.46762044117648,
+            "y": 12.798981384132277,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": -0.6033796791443946,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 18,
+          "position": {
+            "x": 47.26363919117648,
+            "y": 12.757682988410357,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": -1.008085561497336,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 19,
+          "position": {
+            "x": 47.05965794117648,
+            "y": 12.696149298570782,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": -1.4127914438502764,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 20,
+          "position": {
+            "x": 46.855676691176484,
+            "y": 12.614380314613562,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": -1.8174973262032168,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 21,
+          "position": {
+            "x": 46.651695441176486,
+            "y": 12.512376036538697,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": -2.2222032085561585,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 22,
+          "position": {
+            "x": 46.44771419117649,
+            "y": 12.39013646434618,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": -2.626909090909101,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 23,
+          "position": {
+            "x": 46.24373294117649,
+            "y": 12.247661598036023,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": -3.0316149732620437,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 24,
+          "position": {
+            "x": 46.03975169117649,
+            "y": 12.084951437608213,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": -3.4363208556149862,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 25,
+          "position": {
+            "x": 45.83577044117649,
+            "y": 11.90200598306276,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": -3.841026737967929,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 26,
+          "position": {
+            "x": 45.631789191176495,
+            "y": 11.698825234399658,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": -4.245732620320871,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 27,
+          "position": {
+            "x": 45.427807941176496,
+            "y": 11.475409191618905,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": -4.650438502673814,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 28,
+          "position": {
+            "x": 45.2238266911765,
+            "y": 11.231757854720513,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": -5.055144385026757,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 29,
+          "position": {
+            "x": 45.0198454411765,
+            "y": 10.967871223704467,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -4.079624999999982,
+            "y": -5.459850267379699,
+            "z": -2.4980498489857514e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 30,
+          "position": {
+            "x": 44.830518061774406,
+            "y": 10.830288104549702,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -2.589248161764691,
+            "y": 0.4083850267379705,
+            "z": -1.5854572367516497e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 31,
+          "position": {
+            "x": 44.701055653686176,
+            "y": 10.8395779441219,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -2.589248161764691,
+            "y": 0.003679144385029226,
+            "z": -1.5854572367516497e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 32,
+          "position": {
+            "x": 44.571593245597946,
+            "y": 10.828632489576442,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -2.589248161764691,
+            "y": -0.401026737967912,
+            "z": -1.5854572367516497e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": false,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 33,
+          "position": {
+            "x": 44.44428626778338,
+            "y": 10.819006643650011,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -1.8812302480764596,
+            "y": 0.0036790229732620375,
+            "z": -1.1519213008830096e-16
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 34,
+          "position": {
+            "x": 44.351319201847225,
+            "y": 10.819006647710587,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -1.3805697357749929,
+            "y": 0.003679144385026728,
+            "z": -8.453551539582758e-17
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 35,
+          "position": {
+            "x": 44.28338516051303,
+            "y": 10.819006647710587,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -1.0050743606547738,
+            "y": 0.003679144385026742,
+            "z": -6.154305493404709e-17
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 36,
+          "position": {
+            "x": 44.23422588793484,
+            "y": 10.819006647710587,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -0.7234528293146097,
+            "y": 0.003679144385026742,
+            "z": -4.429870958771172e-17
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        },
+        {
+          "callback": 37,
+          "position": {
+            "x": 44.19914769192365,
+            "y": 10.819006647710587,
+            "z": 64.24
+          },
+          "velocity": {
+            "x": -0.5122366808094868,
+            "y": 0.003679144385026742,
+            "z": -3.136545057796015e-17
+          },
+          "supported": false,
+          "control": {
+            "grounded": true,
+            "jumped": false
+          },
+          "intersects": false
+        }
+      ]
+    }
+  ]
+}

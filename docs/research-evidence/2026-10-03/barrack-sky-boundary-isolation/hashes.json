@@ -1,0 +1,110 @@
+{
+  "scope": "Frozen isolated diagnostic inputs and outputs; no native-fidelity claim",
+  "files": [
+    {
+      "path": "src/originalSceneMaterials.ts",
+      "size": 10540,
+      "sha256": "6ba390e37878e1fcb75909e81398f9c3a52a39455d1a28856ea4d037cedffcac"
+    },
+    {
+      "path": "src/originalScene.ts",
+      "size": 5189,
+      "sha256": "de83e269f0438d65a73aebad16c741c3a65707a5e5b1d25d2520acef2c56d559"
+    },
+    {
+      "path": "src/game.ts",
+      "size": 312558,
+      "sha256": "2b4313696293ba9eb290828910bad8c99faba9f204a2ba3fbd122f4528c1265c"
+    },
+    {
+      "path": "shared/originalMapProfile.ts",
+      "size": 4881,
+      "sha256": "0ba668f15dda6d1f5314f58310a2ea174a70d18c2df51267163d521303da0da3"
+    },
+    {
+      "path": "public/assets/original-scenes/barrack/scene.json",
+      "size": 6048362,
+      "sha256": "7b252e098959f98a872850551fdf8f52e5b7e1b5ea79dfa6af21b841f0d31ad3"
+    },
+    {
+      "path": "public/assets/original-scenes/barrack/textures/sky.png",
+      "size": 169131,
+      "sha256": "b5e8a8fe638e45f4beb1fb4426f5c5c88c3a39ae942f8d0fec060d0bf0f176a1"
+    },
+    {
+      "path": "package-lock.json",
+      "size": 69945,
+      "sha256": "d678be6adb229a1ed085bf433de19b85917f008647682ec785c76d730db6a5a7"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/barrack-sky-boundary-isolation/REPORT.md",
+      "size": 2753,
+      "sha256": "024c53242aa01f933d0286e9a0b0a7fd39645acdd78cf04c909047db353ea5c6"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/barrack-sky-boundary-isolation/baseline.png",
+      "size": 300627,
+      "sha256": "3a14738d787536f98716a45306c2392c2df63013fdde53219a4d921b81483e8c"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/barrack-sky-boundary-isolation/baseline.rgba",
+      "size": 2949120,
+      "sha256": "ba67428a5386dcd60acc251e3363bddcb01f1738a0387e7743c1dd2128e4118c"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/barrack-sky-boundary-isolation/bundle.js",
+      "size": 1107604,
+      "sha256": "ffedfc79da6ec02729e799c1b71f7e07c436894de687a68d16ff674b246ca15c"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/barrack-sky-boundary-isolation/entry.ts",
+      "size": 2830,
+      "sha256": "0ef567f1ca5d24712216166cafa4e69139586488b3f0dc349e602cbc5d0fb6d6"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/barrack-sky-boundary-isolation/index.html",
+      "size": 78,
+      "sha256": "f56dc1072314253cb7ee15c7307f81334006459d147ab52ae00bfbe0f538939a"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/barrack-sky-boundary-isolation/intervention.png",
+      "size": 295547,
+      "sha256": "e869e791a20f4cb2ee910097ec61d548f01483a38043e6fdc04adeb4ded01a34"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/barrack-sky-boundary-isolation/intervention.rgba",
+      "size": 2949120,
+      "sha256": "0adf0dddb0853c60f80b2767578ecfc059f4a1f13780d7d8a00cd0f6939e74c1"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/barrack-sky-boundary-isolation/measure.log",
+      "size": 1477,
+      "sha256": "1cbca68d9a66a86e5f9d280ca5bc7c0dfb2b372704d55132af03055164f70a45"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/barrack-sky-boundary-isolation/measure.py",
+      "size": 1695,
+      "sha256": "66ae202b39a675a8192a08691cb3b08bd37bac4ba75330b8cbc4f362f20c4bc6"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/barrack-sky-boundary-isolation/measurements.json",
+      "size": 1489,
+      "sha256": "280a1322fab0be9fadfaf4c93bb4f08d8bcaf1c96d8b5de2cc53c882d5ac8f81"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/barrack-sky-boundary-isolation/run.log",
+      "size": 464,
+      "sha256": "60a33e40e6ab05563ad23f0dd8d22dd854bb412d3fefe901ea9aeb86b3159161"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/barrack-sky-boundary-isolation/run.mjs",
+      "size": 1856,
+      "sha256": "f6e455e8c17e981884da543959d9c7ea4221049e661eefaaefca76aeb2162151"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/barrack-sky-boundary-isolation/settings.json",
+      "size": 2736,
+      "sha256": "4e723afdc89f05d9dcfd648c0a5e9b13e18561eda64865d0ae9a3c0561e49e7b"
+    }
+  ]
+}

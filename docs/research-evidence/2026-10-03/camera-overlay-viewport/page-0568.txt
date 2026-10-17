@@ -1,0 +1,40 @@
+568 Chapter 12:  Methods
+Parameters
+None.
+Example
+This statement creates an identity transform and stores it in the variable tT ransform:
+tTransform = transform()
+See also
+transform (property), preRotate, preTranslate(), preScale(), rotate, 
+translate, scale (command)
+translate
+Usage
+member(whichCastmember).node(whichNode).translate(xIncrement, \ 
+yIncrement, zIncrement {, relativeTo})
+member(whichCastmember).node(whichNode).translate\ 
+(translateVector {, relativeTo})
+transform.translate(xIncrement, yIncrement, zIncrement \ 
+{, relativeTo})
+transform.translate(translateVector {, relativeTo})
+Description
+3D command; applies a translation after the current positional, rotational, and scale offsets held 
+by a referenced node’s transform object or the directly referenced transform object. The 
+translation must be specified as a set of three increments along the three corresponding axes. 
+These increments may be specified explicitly in the form of xIncrement, yIncrement, and 
+zIncrement, or by a translateVector, where the x component of the vector corresponds to the 
+translation along the x axis, y about y axis, and z about z axis.
+A node can be a camera, model, light or group object.
+Parameters
+xIncrement Required if specifying a set of three increments. Specifies the x-axis increment.
+yIncrement Required if specifying a set of three increments. Specifies the y-axis increment.
+zIncrement Required if specifying a set of three increments. Specifies the z-axis increment.
+translateVector Required if specifying a vector. Specifies the vector that contains the x, y, and 
+z components.
+relativeTo Optional. Determines which coordinate system’s axes are used to apply the desired 
+translational changes. The relativeTo parameter can have any of the following values:
+• #self applies the increments relative to the node’s local coordinate system (the x, y and z axes 
+specified for the model during authoring). This value is used as the default if you use the 
+translate command with a node reference and the relativeTo parameter is not specified.
+• #parent applies the increments relative to the node’s parent’s coordinate system. This value is 
+used as the default if you use the translate command with a transform reference and the 
+relativeTo parameter is not specified.

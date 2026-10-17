@@ -1,0 +1,502 @@
+{
+  "totalLength": 5106,
+  "totalLength2": 5106,
+  "headerLength": 92,
+  "scriptNumber": 6,
+  "unk20": 3,
+  "parentNumber": -1,
+  "scriptFlags": 32768,
+  "unk42": 0,
+  "castID": 196614,
+  "factoryNameID": -1,
+  "handlerVectorsCount": 0,
+  "handlerVectorsOffset": 5106,
+  "handlerVectorsSize": 0,
+  "propertiesCount": 16,
+  "propertiesOffset": 92,
+  "globalsCount": 7,
+  "globalsOffset": 124,
+  "handlersCount": 13,
+  "handlersOffset": 138,
+  "literalsCount": 45,
+  "literalsOffset": 4274,
+  "literalsDataCount": 472,
+  "literalsDataOffset": 4634,
+  "propertyNameIDs": [
+    108,
+    218,
+    380,
+    388,
+    387,
+    393,
+    392,
+    381,
+    383,
+    385,
+    384,
+    391,
+    303,
+    227,
+    231,
+    382
+  ],
+  "globalNameIDs": [
+    94,
+    311,
+    53,
+    125,
+    368,
+    413,
+    18
+  ],
+  "handlers": [
+    {
+      "nameID": 187,
+      "vectorPos": 65535,
+      "compiledLen": 120,
+      "compiledOffset": 736,
+      "argumentCount": 2,
+      "argumentOffset": 856,
+      "localsCount": 0,
+      "localsOffset": 860,
+      "globalsCount": 0,
+      "globalsOffset": 124,
+      "unknown1": 269,
+      "unknown2": 13,
+      "lineCount": 16,
+      "lineOffset": 860,
+      "stackHeight": 13
+    },
+    {
+      "nameID": 287,
+      "vectorPos": 65535,
+      "compiledLen": 153,
+      "compiledOffset": 876,
+      "argumentCount": 1,
+      "argumentOffset": 1030,
+      "localsCount": 3,
+      "localsOffset": 1032,
+      "globalsCount": 0,
+      "globalsOffset": 124,
+      "unknown1": 615,
+      "unknown2": 32,
+      "lineCount": 15,
+      "lineOffset": 1038,
+      "stackHeight": 5
+    },
+    {
+      "nameID": 370,
+      "vectorPos": 65535,
+      "compiledLen": 638,
+      "compiledOffset": 1054,
+      "argumentCount": 1,
+      "argumentOffset": 1692,
+      "localsCount": 4,
+      "localsOffset": 1694,
+      "globalsCount": 0,
+      "globalsOffset": 124,
+      "unknown1": 1068,
+      "unknown2": 50,
+      "lineCount": 58,
+      "lineOffset": 1702,
+      "stackHeight": 7
+    },
+    {
+      "nameID": 371,
+      "vectorPos": 65535,
+      "compiledLen": 211,
+      "compiledOffset": 1760,
+      "argumentCount": 1,
+      "argumentOffset": 1972,
+      "localsCount": 5,
+      "localsOffset": 1974,
+      "globalsCount": 0,
+      "globalsOffset": 124,
+      "unknown1": 2920,
+      "unknown2": 111,
+      "lineCount": 26,
+      "lineOffset": 1984,
+      "stackHeight": 5
+    },
+    {
+      "nameID": 372,
+      "vectorPos": 65535,
+      "compiledLen": 699,
+      "compiledOffset": 2010,
+      "argumentCount": 1,
+      "argumentOffset": 2710,
+      "localsCount": 7,
+      "localsOffset": 2712,
+      "globalsCount": 0,
+      "globalsOffset": 124,
+      "unknown1": 3583,
+      "unknown2": 140,
+      "lineCount": 77,
+      "lineOffset": 2726,
+      "stackHeight": 9
+    },
+    {
+      "nameID": 373,
+      "vectorPos": 65535,
+      "compiledLen": 358,
+      "compiledOffset": 2804,
+      "argumentCount": 2,
+      "argumentOffset": 3162,
+      "localsCount": 12,
+      "localsOffset": 3166,
+      "globalsCount": 0,
+      "globalsOffset": 124,
+      "unknown1": 6208,
+      "unknown2": 220,
+      "lineCount": 39,
+      "lineOffset": 3190,
+      "stackHeight": 9
+    },
+    {
+      "nameID": 374,
+      "vectorPos": 65535,
+      "compiledLen": 312,
+      "compiledOffset": 3230,
+      "argumentCount": 1,
+      "argumentOffset": 3542,
+      "localsCount": 8,
+      "localsOffset": 3544,
+      "globalsCount": 0,
+      "globalsOffset": 124,
+      "unknown1": 7282,
+      "unknown2": 262,
+      "lineCount": 23,
+      "lineOffset": 3560,
+      "stackHeight": 7
+    },
+    {
+      "nameID": 375,
+      "vectorPos": 65535,
+      "compiledLen": 140,
+      "compiledOffset": 3584,
+      "argumentCount": 1,
+      "argumentOffset": 3724,
+      "localsCount": 1,
+      "localsOffset": 3726,
+      "globalsCount": 0,
+      "globalsOffset": 124,
+      "unknown1": 8097,
+      "unknown2": 288,
+      "lineCount": 20,
+      "lineOffset": 3728,
+      "stackHeight": 3
+    },
+    {
+      "nameID": 376,
+      "vectorPos": 65535,
+      "compiledLen": 194,
+      "compiledOffset": 3748,
+      "argumentCount": 1,
+      "argumentOffset": 3942,
+      "localsCount": 5,
+      "localsOffset": 3944,
+      "globalsCount": 0,
+      "globalsOffset": 124,
+      "unknown1": 8609,
+      "unknown2": 312,
+      "lineCount": 14,
+      "lineOffset": 3954,
+      "stackHeight": 7
+    },
+    {
+      "nameID": 377,
+      "vectorPos": 65535,
+      "compiledLen": 103,
+      "compiledOffset": 3968,
+      "argumentCount": 1,
+      "argumentOffset": 4072,
+      "localsCount": 2,
+      "localsOffset": 4074,
+      "globalsCount": 0,
+      "globalsOffset": 124,
+      "unknown1": 9174,
+      "unknown2": 328,
+      "lineCount": 11,
+      "lineOffset": 4078,
+      "stackHeight": 5
+    },
+    {
+      "nameID": 226,
+      "vectorPos": 65535,
+      "compiledLen": 1,
+      "compiledOffset": 4090,
+      "argumentCount": 1,
+      "argumentOffset": 4092,
+      "localsCount": 0,
+      "localsOffset": 4094,
+      "globalsCount": 0,
+      "globalsOffset": 124,
+      "unknown1": 9577,
+      "unknown2": 341,
+      "lineCount": 1,
+      "lineOffset": 4094,
+      "stackHeight": 0
+    },
+    {
+      "nameID": 378,
+      "vectorPos": 65535,
+      "compiledLen": 57,
+      "compiledOffset": 4096,
+      "argumentCount": 1,
+      "argumentOffset": 4154,
+      "localsCount": 2,
+      "localsOffset": 4156,
+      "globalsCount": 0,
+      "globalsOffset": 124,
+      "unknown1": 9600,
+      "unknown2": 344,
+      "lineCount": 3,
+      "lineOffset": 4160,
+      "stackHeight": 13
+    },
+    {
+      "nameID": 379,
+      "vectorPos": 65535,
+      "compiledLen": 96,
+      "compiledOffset": 4164,
+      "argumentCount": 2,
+      "argumentOffset": 4260,
+      "localsCount": 1,
+      "localsOffset": 4264,
+      "globalsCount": 0,
+      "globalsOffset": 124,
+      "unknown1": 9792,
+      "unknown2": 350,
+      "lineCount": 7,
+      "lineOffset": 4266,
+      "stackHeight": 7
+    }
+  ],
+  "literals": [
+    {
+      "type": 9,
+      "offset": 0,
+      "value": 0.05
+    },
+    {
+      "type": 9,
+      "offset": 12,
+      "value": 0.003
+    },
+    {
+      "type": 9,
+      "offset": 24,
+      "value": 0.002
+    },
+    {
+      "type": 9,
+      "offset": 36,
+      "value": 0.10000000000000001
+    },
+    {
+      "type": 1,
+      "offset": 48,
+      "value": "pistol"
+    },
+    {
+      "type": 1,
+      "offset": 60,
+      "value": "spas12"
+    },
+    {
+      "type": 1,
+      "offset": 72,
+      "value": "ak47"
+    },
+    {
+      "type": 1,
+      "offset": 82,
+      "value": "rg6"
+    },
+    {
+      "type": 1,
+      "offset": 90,
+      "value": "rpg"
+    },
+    {
+      "type": 1,
+      "offset": 98,
+      "value": "dragunov"
+    },
+    {
+      "type": 1,
+      "offset": 112,
+      "value": "rocket"
+    },
+    {
+      "type": 1,
+      "offset": 124,
+      "value": "r"
+    },
+    {
+      "type": 1,
+      "offset": 130,
+      "value": "R"
+    },
+    {
+      "type": 1,
+      "offset": 136,
+      "value": "sniper"
+    },
+    {
+      "type": 1,
+      "offset": 148,
+      "value": "gunfire"
+    },
+    {
+      "type": 1,
+      "offset": 160,
+      "value": "spas12wav"
+    },
+    {
+      "type": 1,
+      "offset": 174,
+      "value": "grenades"
+    },
+    {
+      "type": 1,
+      "offset": 188,
+      "value": "grenade"
+    },
+    {
+      "type": 1,
+      "offset": 200,
+      "value": "rockets"
+    },
+    {
+      "type": 1,
+      "offset": 212,
+      "value": "resniper"
+    },
+    {
+      "type": 1,
+      "offset": 226,
+      "value": ""
+    },
+    {
+      "type": 1,
+      "offset": 232,
+      "value": "#"
+    },
+    {
+      "type": 1,
+      "offset": 238,
+      "value": "blood"
+    },
+    {
+      "type": 1,
+      "offset": 248,
+      "value": "miss"
+    },
+    {
+      "type": 1,
+      "offset": 258,
+      "value": "muzzle"
+    },
+    {
+      "type": 1,
+      "offset": 270,
+      "value": "weapons"
+    },
+    {
+      "type": 1,
+      "offset": 282,
+      "value": ": "
+    },
+    {
+      "type": 1,
+      "offset": 290,
+      "value": " / "
+    },
+    {
+      "type": 1,
+      "offset": 298,
+      "value": "\r"
+    },
+    {
+      "type": 1,
+      "offset": 304,
+      "value": "1"
+    },
+    {
+      "type": 1,
+      "offset": 310,
+      "value": "2"
+    },
+    {
+      "type": 1,
+      "offset": 316,
+      "value": "3"
+    },
+    {
+      "type": 1,
+      "offset": 322,
+      "value": "4"
+    },
+    {
+      "type": 1,
+      "offset": 328,
+      "value": "5"
+    },
+    {
+      "type": 1,
+      "offset": 334,
+      "value": "6"
+    },
+    {
+      "type": 1,
+      "offset": 340,
+      "value": "gunz"
+    },
+    {
+      "type": 1,
+      "offset": 350,
+      "value": "mfspas12"
+    },
+    {
+      "type": 1,
+      "offset": 364,
+      "value": "mfpistol"
+    },
+    {
+      "type": 1,
+      "offset": 378,
+      "value": "mfak47"
+    },
+    {
+      "type": 1,
+      "offset": 390,
+      "value": "mfdragunov"
+    },
+    {
+      "type": 1,
+      "offset": 406,
+      "value": "rg6grenade"
+    },
+    {
+      "type": 1,
+      "offset": 422,
+      "value": "rpgrocket"
+    },
+    {
+      "type": 1,
+      "offset": 436,
+      "value": "repistol"
+    },
+    {
+      "type": 1,
+      "offset": 450,
+      "value": "reak47"
+    },
+    {
+      "type": 1,
+      "offset": 462,
+      "value": "rerg6"
+    }
+  ]
+}

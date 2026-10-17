@@ -1,0 +1,120 @@
+{
+  "totalLength": 724,
+  "totalLength2": 724,
+  "headerLength": 92,
+  "scriptNumber": 10,
+  "unk20": 5,
+  "parentNumber": -1,
+  "scriptFlags": 0,
+  "unk42": 0,
+  "castID": 196619,
+  "factoryNameID": -1,
+  "handlerVectorsCount": 0,
+  "handlerVectorsOffset": 724,
+  "handlerVectorsSize": 0,
+  "propertiesCount": 7,
+  "propertiesOffset": 92,
+  "globalsCount": 4,
+  "globalsOffset": 106,
+  "handlersCount": 3,
+  "handlersOffset": 114,
+  "literalsCount": 5,
+  "literalsOffset": 626,
+  "literalsDataCount": 58,
+  "literalsDataOffset": 666,
+  "propertyNameIDs": [
+    67,
+    475,
+    478,
+    479,
+    481,
+    477,
+    480
+  ],
+  "globalNameIDs": [
+    39,
+    68,
+    159,
+    28
+  ],
+  "handlers": [
+    {
+      "nameID": 0,
+      "vectorPos": 65535,
+      "compiledLen": 91,
+      "compiledOffset": 252,
+      "argumentCount": 2,
+      "argumentOffset": 344,
+      "localsCount": 0,
+      "localsOffset": 348,
+      "globalsCount": 0,
+      "globalsOffset": 106,
+      "unknown1": 124,
+      "unknown2": 7,
+      "lineCount": 11,
+      "lineOffset": 348,
+      "stackHeight": 9
+    },
+    {
+      "nameID": 4,
+      "vectorPos": 65535,
+      "compiledLen": 195,
+      "compiledOffset": 360,
+      "argumentCount": 1,
+      "argumentOffset": 556,
+      "localsCount": 0,
+      "localsOffset": 558,
+      "globalsCount": 0,
+      "globalsOffset": 106,
+      "unknown1": 389,
+      "unknown2": 21,
+      "lineCount": 23,
+      "lineOffset": 558,
+      "stackHeight": 5
+    },
+    {
+      "nameID": 318,
+      "vectorPos": 65535,
+      "compiledLen": 38,
+      "compiledOffset": 582,
+      "argumentCount": 1,
+      "argumentOffset": 620,
+      "localsCount": 0,
+      "localsOffset": 622,
+      "globalsCount": 0,
+      "globalsOffset": 106,
+      "unknown1": 1130,
+      "unknown2": 47,
+      "lineCount": 4,
+      "lineOffset": 622,
+      "stackHeight": 3
+    }
+  ],
+  "literals": [
+    {
+      "type": 1,
+      "offset": 0,
+      "value": "open"
+    },
+    {
+      "type": 1,
+      "offset": 10,
+      "value": "doorz"
+    },
+    {
+      "type": 1,
+      "offset": 20,
+      "value": "You need the "
+    },
+    {
+      "type": 1,
+      "offset": 38,
+      "value": " key!"
+    },
+    {
+      "type": 1,
+      "offset": 48,
+      "value": "door"
+    }
+  ]
+}

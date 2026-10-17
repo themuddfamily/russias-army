@@ -1,0 +1,118 @@
+{
+  "scope": "Independent visual morphology of native crops; no camera files, fitting, SIFT or optical flow",
+  "sourceAtlasFeature": [
+    87.52855682373047,
+    390.47296142578125
+  ],
+  "sourceBrightWindowCentroid": [
+    82.60714285714286,
+    409.75
+  ],
+  "sourceFeatureOffsetFromWindow": [
+    4.9214139665876075,
+    -19.27703857421875
+  ],
+  "frames": [
+    {
+      "seconds": 15,
+      "windowCentroid": [
+        694.8333333333334,
+        203.41666666666666
+      ],
+      "candidateObservations": [
+        {
+          "candidate": "best",
+          "pixel": [
+            697.2108154296875,
+            190.02023315429688
+          ],
+          "offsetFromIndependentlyMeasuredBrightWindowCentroid": [
+            2.3774820963541288,
+            -13.396433512369782
+          ],
+          "sourceIdentity": "unadjudicated",
+          "role": "manual morphology diagnostic only; unchanged historical heldout roles; no new fit or accepted correspondence"
+        },
+        {
+          "candidate": "second",
+          "pixel": [
+            1260.6195068359375,
+            555.7406616210938
+          ],
+          "offsetFromIndependentlyMeasuredBrightWindowCentroid": [
+            565.7861735026041,
+            352.3239949544271
+          ],
+          "sourceIdentity": "unadjudicated",
+          "role": "manual morphology diagnostic only; unchanged historical heldout roles; no new fit or accepted correspondence"
+        }
+      ]
+    },
+    {
+      "seconds": 16,
+      "windowCentroid": [
+        613.4745762711865,
+        150.135593220339
+      ],
+      "candidateObservations": [
+        {
+          "candidate": "best",
+          "pixel": [
+            619.4713745117188,
+            130.78497314453125
+          ],
+          "offsetFromIndependentlyMeasuredBrightWindowCentroid": [
+            5.996798240532257,
+            -19.35062007580774
+          ],
+          "sourceIdentity": "unadjudicated",
+          "role": "manual morphology diagnostic only; unchanged historical heldout roles; no new fit or accepted correspondence"
+        },
+        {
+          "candidate": "second",
+          "pixel": [
+            630.6611938476562,
+            130.32887268066406
+          ],
+          "offsetFromIndependentlyMeasuredBrightWindowCentroid": [
+            17.186617576469757,
+            -19.806720539674927
+          ],
+          "sourceIdentity": "unadjudicated",
+          "role": "manual morphology diagnostic only; unchanged historical heldout roles; no new fit or accepted correspondence"
+        }
+      ]
+    }
+  ],
+  "manualObservations": [
+    {
+      "id": "distinctive-window-neighborhood",
+      "role": "appearance/local-context diagnostic",
+      "observation": "Atlas,15s and16s display a small dark roof-window patch with a bright lower stripe; theaccepted source center lies above and slightly right of this feature."
+    },
+    {
+      "id": "15s-best-neighborhood",
+      "role": "unadjudicated-pattern",
+      "observation": "The15s best center lies a short distance above the window; surrounding roof strokes are low contrast atnative resolution and do not identify an exact unique corner."
+    },
+    {
+      "id": "16s-alternatives",
+      "role": "retain-both-unadjudicated",
+      "observation": "Both16s candidate centers lie above/right of the bright window atnearly the same Y. Best is closer horizontally; second is about11.19px farther right. This neighbor relation weakly favors best-context similarity but is not invariant under the unknownprojective transform or evidence of exact keypoint identity."
+    },
+    {
+      "id": "15s-runnerup",
+      "role": "unrelated-context-diagnostic",
+      "observation": "The15s runner-up is in the lower-right emblem/crop region, visually unlike the roof/window neighborhood; it still remains in descriptor alternatives rather than erased."
+    },
+    {
+      "id": "source-support-crossing",
+      "role": "descriptor-context-limit",
+      "observation": "The source support includes roof-ridge boundary and the neighboring above-roof atlas strip; reference crops include roof/terrain/background context. Scale/warp/filter changes can shift descriptor centers independently of a physicaltexel."
+    }
+  ],
+  "acceptedNewCorrespondences": [],
+  "candidateSelection": null,
+  "missingIndependentAnchor": "A uniquely identifiable high-contrast roof texel/corner or several stable local pattern features surviving in both15/16s, separate from the window brightnesscentroid and recoverable withoutposeprojection. Current native roofstrokes lack sufficient distinctness to assign either16s center to the same physicalatlaspattern.",
+  "nextCheck": "A predeclared image-to-image local roof correspondence trial could retain bothcandidatecenters and window/ridge context without camera projections; temporal neighborrelation alone is insufficient. Any future algorithmic test must retainfailures/alternatives and cannot relabel heldouts basedonpose residual."
+}

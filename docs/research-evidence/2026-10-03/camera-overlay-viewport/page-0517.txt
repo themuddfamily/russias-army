@@ -1,0 +1,42 @@
+scale (command) 517
+saveMovie()
+Usage
+-- Lingo syntax
+_movie.saveMovie({stringFilePath})
+// JavaScript syntax
+_movie.saveMovie({stringFilePath});
+Description
+Movie method; saves the current movie. 
+Including the optional stringFilePath parameter saves the movie to the file specified. This 
+method does not work with compressed files. The specified filename must include the .dir 
+file extension.
+The saveMovie() method doesn’t support URLs as file references.
+Parameters
+stringFilePath Optional. A string that specifies the path to and name of the file to which the 
+movie is saved.
+Example
+This statement saves the current movie in the Update file:
+-- Lingo syntax
+_movie.saveMovie(_movie.path & "Update.dir")
+// JavaScript syntax
+_movie.saveMovie(_movie.path + "Update.dir");
+See also
+Movie 
+scale (command)
+Usage
+member(whichCastmember).node(whichNode).scale(xScale, yScale, \ 
+zScale)
+member(whichCastmember).node(whichNode).scale(uniformScale)
+transform.scale(xScale, yScale, zScale)
+transform.scale(uniformScale)
+Description
+3D transform command; applies a scaling after the current positional, rotational, and scale offsets 
+held by a referenced node’s transform or the directly referenced transform. The scaling must be 
+specified as either a set of three scalings along the corresponding axes or as a single scaling to be 
+applied uniformly along all axes. You can specify the individual scalings using the xScale, yScale 
+and zScale parameters, otherwise you can specify the uniform scaling amount using the 
+uniformScale parameter.
+A node can be a camera, group, light or model object. Using the scale command adjusts the 
+referenced node’s transform.scale property, but it does not have any visual effect on lights or 
+cameras as they do not contain geometry.
+The scaling values provided must be greater than zero. 

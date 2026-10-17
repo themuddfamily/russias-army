@@ -1,0 +1,147 @@
+property pspr, pmem, scrb, mousein
+global mus, gmusmode, gmaxusers, gmygroup, groomcount
+
+on beginSprite me
+  [  0] getparam 0 .............................. <me>
+  [  2] getobjprop 158 .......................... <me.spriteNum>
+  [  4] pusharglist 1 ........................... <me.spriteNum>
+  [  6] extcall 141 ............................. <sprite(me.spriteNum)>
+  [  8] setprop 154 ............................. pspr = sprite(me.spriteNum)
+  [ 10] getprop 154 ............................. <pspr>
+  [ 12] getobjprop 47 ........................... <pspr.member>
+  [ 14] setprop 153 ............................. pmem = pspr.member
+  [ 16] getprop 154 ............................. <pspr>
+  [ 18] getobjprop 160 .......................... <pspr.right>
+  [ 20] setprop 159 ............................. scrb = pspr.right
+  [ 22] ret
+end
+
+on mouseDown me
+  [  0] getmovieprop 161 ........................ <the mouseLoc>
+  [  2] getobjprop 162 .......................... <(the mouseLoc).locH>
+  [  4] getprop 159 ............................. <scrb>
+  [  6] lt ...................................... <(the mouseLoc).locH < scrb>
+  [  7] jmpifz [ 85] ............................ if (the mouseLoc).locH < scrb then
+  [ 10] getprop 154 ............................. <pspr>
+  [ 12] getmovieprop 161 ........................ <the mouseLoc>
+  [ 14] pusharglist 2 ........................... <pspr, the mouseLoc>
+  [ 16] objcall 163 ............................. <pspr.pointToLine(the mouseLoc)>
+  [ 18] setlocal 0 .............................. lineNum = pspr.pointToLine(the mouseLoc)
+  [ 20] getprop 154 ............................. <pspr>
+  [ 22] getchainedprop 47 ....................... <pspr.member>
+  [ 24] pushsymb 164 ............................ <#line>
+  [ 26] getlocal 0 .............................. <lineNum>
+  [ 28] pusharglist 3 ........................... <pspr.member, #line, lineNum>
+  [ 30] objcall 60 .............................. <pspr.member.line[lineNum]>
+  [ 32] setlocal 1 .............................. tmp = pspr.member.line[lineNum]
+  [ 34] getlocal 1 .............................. <tmp>
+  [ 36] pushsymb 165 ............................ <#word>
+  [ 38] pushint8 3 .............................. <3>
+  [ 40] pusharglist 3 ........................... <tmp, #word, 3>
+  [ 42] objcall 60 .............................. <tmp.word[3]>
+  [ 44] pushcons 0 .............................. <"Full">
+  [ 46] eq ...................................... <tmp.word[3] = "Full">
+  [ 47] jmpifz [ 59] ............................ if tmp.word[3] = "Full" then / else
+  [ 50] pushcons 1 .............................. <"Room full, please reselect">
+  [ 52] pusharglistnoret 1 ...................... <"Room full, please reselect">
+  [ 54] extcall 122 ............................. alert("Room full, please reselect")
+  [ 56] jmp [ 85]
+  [ 59] getlocal 1 .............................. <tmp>
+  [ 61] pushsymb 165 ............................ <#word>
+  [ 63] pushint8 1 .............................. <1>
+  [ 65] pusharglist 3 ........................... <tmp, #word, 1>
+  [ 67] objcall 60 .............................. <tmp.word[1]>
+  [ 69] setglobal 156 ........................... gmygroup = tmp.word[1]
+  [ 71] getglobal 46 ............................ <mus>
+  [ 73] pushcons 2 .............................. <"system.group.join">
+  [ 75] pushcons 3 .............................. <EMPTY>
+  [ 77] getglobal 156 ........................... <gmygroup>
+  [ 79] pusharglist 4 ........................... <mus, "system.group.join", EMPTY, gmygroup>
+  [ 81] objcall 166 ............................. <mus.sendNetMessage("system.group.join", EMPTY, gmygroup)>
+  [ 83] setlocal 2 .............................. errCode = mus.sendNetMessage("system.group.join", EMPTY, gmygroup)
+  [ 85] pushint8 1 .............................. <1>
+  [ 87] inv ..................................... <-1>
+  [ 88] pusharglistnoret 1 ...................... <-1>
+  [ 90] extcall 10 .............................. cursor(-1)
+  [ 92] ret
+end
+
+on exitFrame me
+  [  0] getprop 170 ............................. <mousein>
+  [  2] pushint8 1 .............................. <1>
+  [  4] eq ...................................... <mousein = 1>
+  [  5] jmpifz [ 95] ............................ if mousein = 1 then
+  [  8] getprop 154 ............................. <pspr>
+  [ 10] getmovieprop 161 ........................ <the mouseLoc>
+  [ 12] pusharglist 2 ........................... <pspr, the mouseLoc>
+  [ 14] objcall 163 ............................. <pspr.pointToLine(the mouseLoc)>
+  [ 16] setlocal 0 .............................. lineNum = pspr.pointToLine(the mouseLoc)
+  [ 18] pushcons 4 .............................. <"rooms">
+  [ 20] pusharglist 1 ........................... <"rooms">
+  [ 22] extcall 47 .............................. <member("rooms")>
+  [ 24] getobjprop 48 ........................... <member("rooms").scrollTop>
+  [ 26] setlocal 1 .............................. vst = member("rooms").scrollTop
+  [ 28] getprop 153 ............................. <pmem>
+  [ 30] pushzero ................................ <0>
+  [ 31] pushzero ................................ <0>
+  [ 32] pushzero ................................ <0>
+  [ 33] pusharglist 3 ........................... <0, 0, 0>
+  [ 35] extcall 69 .............................. <rgb(0, 0, 0)>
+  [ 37] setobjprop 171 .......................... pmem.color = rgb(0, 0, 0)
+  [ 39] getlocal 0 .............................. <lineNum>
+  [ 41] pushzero ................................ <0>
+  [ 42] gt ...................................... <lineNum > 0>
+  [ 43] jmpifz [ 95] ............................ if lineNum > 0 then
+  [ 46] getprop 153 ............................. <pmem>
+  [ 48] pushsymb 164 ............................ <#line>
+  [ 50] getlocal 0 .............................. <lineNum>
+  [ 52] pusharglist 3 ........................... <pmem, #line, lineNum>
+  [ 54] objcall 60 .............................. <pmem.line[lineNum]>
+  [ 56] pusharglist 1 ........................... <pmem.line[lineNum]>
+  [ 58] extcall 100 ............................. <voidp(pmem.line[lineNum])>
+  [ 60] not ..................................... <not voidp(pmem.line[lineNum])>
+  [ 61] jmpifz [ 95] ............................ if not voidp(pmem.line[lineNum]) then
+  [ 64] getprop 153 ............................. <pmem>
+  [ 66] pushsymb 164 ............................ <#line>
+  [ 68] getlocal 0 .............................. <lineNum>
+  [ 70] pusharglist 3 ........................... <pmem, #line, lineNum>
+  [ 72] objcall 172 ............................. <pmem.line[lineNum]>
+  [ 74] pushint16 255 ........................... <255>
+  [ 77] pushzero ................................ <0>
+  [ 78] pushzero ................................ <0>
+  [ 79] pusharglist 3 ........................... <255, 0, 0>
+  [ 81] extcall 69 .............................. <rgb(255, 0, 0)>
+  [ 83] setobjprop 171 .......................... pmem.line[lineNum].color = rgb(255, 0, 0)
+  [ 85] pushcons 4 .............................. <"rooms">
+  [ 87] pusharglist 1 ........................... <"rooms">
+  [ 89] extcall 47 .............................. <member("rooms")>
+  [ 91] getlocal 1 .............................. <vst>
+  [ 93] setobjprop 48 ........................... member("rooms").scrollTop = vst
+  [ 95] ret
+end
+
+on mouseEnter me
+  [  0] pushint8 1 .............................. <1>
+  [  2] setprop 170 ............................. mousein = 1
+  [  4] pushint16 280 ........................... <280>
+  [  7] pusharglistnoret 1 ...................... <280>
+  [  9] extcall 10 .............................. cursor(280)
+  [ 11] ret
+end
+
+on mouseLeave me
+  [  0] pushzero ................................ <0>
+  [  1] setprop 170 ............................. mousein = 0
+  [  3] getprop 153 ............................. <pmem>
+  [  5] pushzero ................................ <0>
+  [  6] pushzero ................................ <0>
+  [  7] pushzero ................................ <0>
+  [  8] pusharglist 3 ........................... <0, 0, 0>
+  [ 10] extcall 69 .............................. <rgb(0, 0, 0)>
+  [ 12] setobjprop 171 .......................... pmem.color = rgb(0, 0, 0)
+  [ 14] pushint8 1 .............................. <1>
+  [ 16] inv ..................................... <-1>
+  [ 17] pusharglistnoret 1 ...................... <-1>
+  [ 19] extcall 10 .............................. cursor(-1)
+  [ 21] ret
+end

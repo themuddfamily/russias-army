@@ -1,0 +1,146 @@
+{
+  "method": "Passive recovered explore/generics scripts, packager and current serialized bindings; no native runtime or GPU",
+  "editions": [
+    {
+      "edition": "woodland",
+      "scene": "public/assets/original-scenes/woodland/scene.json",
+      "sha256": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107",
+      "importedOrdinaryShaders": 20,
+      "identityTransformRepeatAnomalies": [],
+      "ordinaryNames": [
+        "barerocksand2",
+        "barks",
+        "barn",
+        "bigredfella",
+        "birch",
+        "brownloo",
+        "cliffview",
+        "concrete",
+        "haddingtoncafe",
+        "irishyew",
+        "lorryback",
+        "rowanbranch",
+        "solidoldfences",
+        "spindlybirchleaves",
+        "stepwall",
+        "stonebarn",
+        "syccamore",
+        "wirefence",
+        "woodenlodge",
+        "woodenshed"
+      ],
+      "doubleSidedModels": [
+        "syccamore",
+        "spindlybirchleaves",
+        "rowanbranch",
+        "othertrees",
+        "birch",
+        "outerfencing"
+      ],
+      "sky": {
+        "backgroundRgb": [
+          141,
+          160,
+          174
+        ],
+        "caps": false,
+        "height": 2000,
+        "nearFiltering": false,
+        "position": [
+          0,
+          0,
+          1000
+        ],
+        "quality": "low",
+        "radius": 11129.770458984374,
+        "renderFormat": "rgba8888",
+        "rotationDegrees": [
+          90,
+          0,
+          0
+        ],
+        "sourceFloorBoundingSphere": [
+          98.7080078125,
+          -348.4921875,
+          563.418701171875,
+          11715.5478515625
+        ],
+        "texture": "sky",
+        "textureScale": [
+          0.1,
+          1.01,
+          1.01
+        ],
+        "visibility": "back"
+      }
+    },
+    {
+      "edition": "barrack",
+      "scene": "public/assets/original-scenes/barrack/scene.json",
+      "sha256": "7b252e098959f98a872850551fdf8f52e5b7e1b5ea79dfa6af21b841f0d31ad3",
+      "importedOrdinaryShaders": 14,
+      "identityTransformRepeatAnomalies": [],
+      "ordinaryNames": [
+        "barn",
+        "bigbarn",
+        "biggreenfella",
+        "bigredfella",
+        "bunker",
+        "cliffview",
+        "concrete",
+        "garage",
+        "hut",
+        "scotspine",
+        "stepwall",
+        "weeseperatehut",
+        "wirefence",
+        "workshop"
+      ],
+      "doubleSidedModels": [
+        "outerfencing"
+      ],
+      "sky": {
+        "backgroundRgb": [
+          141,
+          160,
+          174
+        ],
+        "caps": false,
+        "height": 2000,
+        "nearFiltering": false,
+        "position": [
+          0,
+          0,
+          1000
+        ],
+        "quality": "low",
+        "radius": 8033.711181640625,
+        "renderFormat": "rgba8888",
+        "rotationDegrees": [
+          90,
+          0,
+          0
+        ],
+        "sourceFloorBoundingSphere": [
+          -64.5810546875,
+          0.77734375,
+          207.40025329589844,
+          8456.5380859375
+        ],
+        "texture": "sky",
+        "textureScale": [
+          0.1,
+          1.01,
+          1.01
+        ],
+        "visibility": "back"
+      }
+    }
+  ],
+  "limits": [
+    "planar projection/native alpha/raster/ambient semantics remain unproved"
+  ],
+  "excludedFromImportedOrdinaryCheck": [
+    "runtime-created sky and noise shaders; their separate scale rules already documented"
+  ]
+}

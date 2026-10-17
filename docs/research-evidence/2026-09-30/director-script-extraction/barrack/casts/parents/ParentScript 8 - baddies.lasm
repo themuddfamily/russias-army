@@ -1,0 +1,600 @@
+property pos, rot, speed, lives, bsp, bon, pmod, myname, pmussteps, oldweapon, weapon, gunmod, name, tarpos, tarrot, misses, aiming
+global ghvk, gmem, gcam, baddies, goody, players, gmodinc, gsmokes
+
+on new me, data
+  [  0] pushzero ................................ <0>
+  [  1] setprop 228 ............................. misses = 0
+  [  3] getparam 1 .............................. <data>
+  [  5] getobjprop 215 .......................... <data.senderid>
+  [  7] setprop 61 .............................. name = data.senderid
+  [  9] pushsymb 297 ............................ <#rpg>
+  [ 12] setprop 230 ............................. weapon = #rpg
+  [ 14] getparam 1 .............................. <data>
+  [ 16] getchainedprop 209 ...................... <data.content>
+  [ 18] getobjprop 108 .......................... <data.content.pos>
+  [ 20] setprop 108 ............................. pos = data.content.pos
+  [ 22] getparam 1 .............................. <data>
+  [ 24] getchainedprop 209 ...................... <data.content>
+  [ 26] getobjprop 221 .......................... <data.content.rot>
+  [ 28] setprop 221 ............................. rot = data.content.rot
+  [ 30] getprop 108 ............................. <pos>
+  [ 32] setprop 449 ............................. tarpos = pos
+  [ 35] getprop 221 ............................. <rot>
+  [ 37] setprop 450 ............................. tarrot = rot
+  [ 40] pushsymb 452 ............................ <#GI>
+  [ 43] pusharglist 1 ........................... <#GI>
+  [ 45] extcall 451 ............................. <recyclemodel(#GI)>
+  [ 48] setprop 218 ............................. pmod = recyclemodel(#GI)
+  [ 50] getprop 218 ............................. <pmod>
+  [ 52] pushzero ................................ <0>
+  [ 53] eq ...................................... <pmod = 0>
+  [ 54] jmpifz [ 86] ............................ if pmod = 0 then
+  [ 57] getglobal 49 ............................ <gmodinc>
+  [ 59] pushint8 1 .............................. <1>
+  [ 61] add ..................................... <gmodinc + 1>
+  [ 62] setglobal 49 ............................ gmodinc = gmodinc + 1
+  [ 64] getglobal 94 ............................ <gmem>
+  [ 66] pushcons 0 .............................. <"baddy">
+  [ 68] getglobal 49 ............................ <gmodinc>
+  [ 70] joinstr ................................. <"baddy" & gmodinc>
+  [ 71] pushcons 1 .............................. <"GI">
+  [ 73] pushcons 0 .............................. <"baddy">
+  [ 75] pusharglist 1 ........................... <"baddy">
+  [ 77] extcall 47 .............................. <member("baddy")>
+  [ 79] pusharglist 4 ........................... <gmem, "baddy" & gmodinc, "GI", member("baddy")>
+  [ 81] objcall 433 ............................. <gmem.cloneModelFromCastmember("baddy" & gmodinc, "GI", member("baddy"))>
+  [ 84] setprop 218 ............................. pmod = gmem.cloneModelFromCastmember("baddy" & gmodinc, "GI", member("baddy"))
+  [ 86] pushzero ................................ <0>
+  [ 87] pushzero ................................ <0>
+  [ 88] pushzero ................................ <0>
+  [ 89] pusharglist 3 ........................... <0, 0, 0>
+  [ 91] extcall 34 .............................. <vector(0, 0, 0)>
+  [ 93] setprop 453 ............................. speed = vector(0, 0, 0)
+  [ 96] getprop 218 ............................. <pmod>
+  [ 98] getchainedprop 454 ...................... <pmod.bonesPlayer>
+  [101] pushzero ................................ <0>
+  [102] setobjprop 455 .......................... pmod.bonesPlayer.playRate = 0
+  [105] getprop 218 ............................. <pmod>
+  [107] getchainedprop 96 ....................... <pmod.transform>
+  [109] pushcons 2 .............................. <0.045>
+  [111] pushcons 2 .............................. <0.045>
+  [113] pushcons 2 .............................. <0.045>
+  [115] pusharglist 3 ........................... <0.045, 0.045, 0.045>
+  [117] extcall 34 .............................. <vector(0.045, 0.045, 0.045)>
+  [119] setobjprop 35 ........................... pmod.transform.scale = vector(0.045, 0.045, 0.045)
+  [121] getprop 218 ............................. <pmod>
+  [123] pushsymb 456 ............................ <#boundingSphere>
+  [126] pushint8 2 .............................. <2>
+  [128] pusharglist 3 ........................... <pmod, #boundingSphere, 2>
+  [130] objcall 60 .............................. <pmod.boundingSphere[2]>
+  [132] pushfloat32 0.75 ........................ <0.75>
+  [137] mul ..................................... <pmod.boundingSphere[2] * 0.75>
+  [138] setprop 132 ............................. bsp = pmod.boundingSphere[2] * 0.75
+  [140] getglobal 94 ............................ <gmem>
+  [142] getprop 108 ............................. <pos>
+  [144] pushzero ................................ <0>
+  [145] pushzero ................................ <0>
+  [146] pushint8 1 .............................. <1>
+  [148] inv ..................................... <-1>
+  [149] pusharglist 3 ........................... <0, 0, -1>
+  [151] extcall 34 .............................. <vector(0, 0, -1)>
+  [153] pushint8 1 .............................. <1>
+  [155] pushsymb 414 ............................ <#detailed>
+  [158] pusharglist 5 ........................... <gmem, pos, vector(0, 0, -1), 1, #detailed>
+  [160] objcall 415 ............................. <gmem.modelsUnderRay(pos, vector(0, 0, -1), 1, #detailed)>
+  [163] setlocal 0 .............................. hit = gmem.modelsUnderRay(pos, vector(0, 0, -1), 1, #detailed)
+  [165] getlocal 0 .............................. <hit>
+  [167] getobjprop 59 ........................... <hit.count>
+  [169] pushzero ................................ <0>
+  [170] gt ...................................... <hit.count > 0>
+  [171] jmpifz [196] ............................ if hit.count > 0 then
+  [174] getlocal 0 .............................. <hit>
+  [176] pushint8 1 .............................. <1>
+  [178] pusharglist 2 ........................... <hit, 1>
+  [180] objcall 217 ............................. <hit[1]>
+  [182] getobjprop 416 .......................... <hit[1].isectPosition>
+  [185] pushzero ................................ <0>
+  [186] pushzero ................................ <0>
+  [187] getprop 132 ............................. <bsp>
+  [189] pusharglist 3 ........................... <0, 0, bsp>
+  [191] extcall 34 .............................. <vector(0, 0, bsp)>
+  [193] add ..................................... <hit[1].isectPosition + vector(0, 0, bsp)>
+  [194] setprop 108 ............................. pos = hit[1].isectPosition + vector(0, 0, bsp)
+  [196] getprop 218 ............................. <pmod>
+  [198] getchainedprop 96 ....................... <pmod.transform>
+  [200] getprop 108 ............................. <pos>
+  [202] pushint8 4 .............................. <4>
+  [204] pushzero ................................ <0>
+  [205] pushint8 75 ............................. <75>
+  [207] pusharglist 3 ........................... <4, 0, 75>
+  [209] extcall 34 .............................. <vector(4, 0, 75)>
+  [211] add ..................................... <pos + vector(4, 0, 75)>
+  [212] setobjprop 36 ........................... pmod.transform.position = pos + vector(4, 0, 75)
+  [214] getparam 0 .............................. <me>
+  [216] pusharglistnoret 1 ...................... <me>
+  [218] localcall 2 ............................. getwepmod(me)
+  [220] pushint8 100 ............................ <100>
+  [222] setprop 233 ............................. lives = 100
+  [224] pushint8 10 ............................. <10>
+  [226] setprop 457 ............................. pmussteps = 10
+  [229] pushzero ................................ <0>
+  [230] setprop 458 ............................. bon = 0
+  [233] getglobal 53 ............................ <baddies>
+  [235] getparam 0 .............................. <me>
+  [237] pusharglistnoret 2 ...................... <baddies, me>
+  [239] objcall 223 ............................. baddies.add(me)
+  [241] getmovieprop 52 ......................... <the actorList>
+  [243] getparam 0 .............................. <me>
+  [245] pusharglistnoret 2 ...................... <the actorList, me>
+  [247] objcall 223 ............................. (the actorList).add(me)
+  [249] getparam 0 .............................. <me>
+  [251] pusharglistnoret 1 ...................... <me>
+  [253] extcall 37 .............................. return me
+  [255] ret
+end
+
+on newstuff me, data
+  [  0] getprop 457 ............................. <pmussteps>
+  [  3] pushzero ................................ <0>
+  [  4] gt ...................................... <pmussteps > 0>
+  [  5] jmpifz [ 16] ............................ if pmussteps > 0 then / else
+  [  8] pushint8 10 ............................. <10>
+  [ 10] setprop 457 ............................. pmussteps = 10
+  [ 13] jmp [ 25]
+  [ 16] pushint8 10 ............................. <10>
+  [ 18] getprop 457 ............................. <pmussteps>
+  [ 21] sub ..................................... <10 - pmussteps>
+  [ 22] setprop 457 ............................. pmussteps = 10 - pmussteps
+  [ 25] getparam 1 .............................. <data>
+  [ 27] getobjprop 108 .......................... <data.pos>
+  [ 29] setprop 449 ............................. tarpos = data.pos
+  [ 32] getparam 1 .............................. <data>
+  [ 34] getobjprop 221 .......................... <data.rot>
+  [ 36] setprop 450 ............................. tarrot = data.rot
+  [ 39] ret
+end
+
+on getwepmod me
+  [  0] pushcons 3 .............................. <"spas12">
+  [  2] pushcons 4 .............................. <"pistol">
+  [  4] pushcons 5 .............................. <"ak47">
+  [  6] pushcons 6 .............................. <"rg6">
+  [  8] pushcons 7 .............................. <"rpg">
+  [ 10] pushcons 8 .............................. <"dragunov">
+  [ 12] pusharglist 6 ........................... <["spas12", "pistol", "ak47", "rg6", "rpg", "dragunov"]>
+  [ 14] pushlist ................................ <["spas12", "pistol", "ak47", "rg6", "rpg", "dragunov"]>
+  [ 15] setlocal 0 .............................. tmpguns = ["spas12", "pistol", "ak47", "rg6", "rpg", "dragunov"]
+  [ 17] pushcons 3 .............................. <"spas12">
+  [ 19] pushcons 4 .............................. <"pistol">
+  [ 21] pushcons 5 .............................. <"ak47">
+  [ 23] pushcons 6 .............................. <"rg6">
+  [ 25] pushcons 7 .............................. <"rpg">
+  [ 27] pushcons 8 .............................. <"dragunov">
+  [ 29] pusharglist 6 ........................... <["spas12", "pistol", "ak47", "rg6", "rpg", "dragunov"]>
+  [ 31] pushlist ................................ <["spas12", "pistol", "ak47", "rg6", "rpg", "dragunov"]>
+  [ 32] setlocal 1 .............................. tmptexs = ["spas12", "pistol", "ak47", "rg6", "rpg", "dragunov"]
+  [ 34] getlocal 0 .............................. <tmpguns>
+  [ 36] getprop 230 ............................. <weapon>
+  [ 38] pusharglist 2 ........................... <tmpguns, weapon>
+  [ 40] objcall 268 ............................. <tmpguns.getOne(weapon)>
+  [ 43] not ..................................... <not tmpguns.getOne(weapon)>
+  [ 44] jmpifz [ 52] ............................ if not tmpguns.getOne(weapon) then
+  [ 47] pushsymb 299 ............................ <#ak47>
+  [ 50] setprop 230 ............................. weapon = #ak47
+  [ 52] getglobal 94 ............................ <gmem>
+  [ 54] getprop 230 ............................. <weapon>
+  [ 56] getprop 218 ............................. <pmod>
+  [ 58] getobjprop 61 ........................... <pmod.name>
+  [ 60] joinstr ................................. <weapon & pmod.name>
+  [ 61] pusharglist 1 ........................... <weapon & pmod.name>
+  [ 63] extcall 93 .............................. <string(weapon & pmod.name)>
+  [ 65] pusharglist 2 ........................... <gmem, string(weapon & pmod.name)>
+  [ 67] objcall 58 .............................. <gmem.model(string(weapon & pmod.name))>
+  [ 69] pusharglist 1 ........................... <gmem.model(string(weapon & pmod.name))>
+  [ 71] extcall 100 ............................. <voidp(gmem.model(string(weapon & pmod.name)))>
+  [ 73] jmpifz [140] ............................ if voidp(gmem.model(string(weapon & pmod.name))) then / else
+  [ 76] getglobal 94 ............................ <gmem>
+  [ 78] getprop 230 ............................. <weapon>
+  [ 80] pusharglist 1 ........................... <weapon>
+  [ 82] extcall 93 .............................. <string(weapon)>
+  [ 84] getprop 218 ............................. <pmod>
+  [ 86] getobjprop 61 ........................... <pmod.name>
+  [ 88] joinstr ................................. <string(weapon) & pmod.name>
+  [ 89] getprop 230 ............................. <weapon>
+  [ 91] pusharglist 1 ........................... <weapon>
+  [ 93] extcall 93 .............................. <string(weapon)>
+  [ 95] pushcons 9 .............................. <"gunz">
+  [ 97] pusharglist 1 ........................... <"gunz">
+  [ 99] extcall 47 .............................. <member("gunz")>
+  [101] pusharglist 4 ........................... <gmem, string(weapon) & pmod.name, string(weapon), member("gunz")>
+  [103] objcall 433 ............................. <gmem.cloneModelFromCastmember(string(weapon) & pmod.name, string(weapon), member("gunz"))>
+  [106] setprop 459 ............................. gunmod = gmem.cloneModelFromCastmember(string(weapon) & pmod.name, string(weapon), member("gunz"))
+  [109] getlocal 0 .............................. <tmpguns>
+  [111] getprop 230 ............................. <weapon>
+  [113] pusharglist 2 ........................... <tmpguns, weapon>
+  [115] objcall 268 ............................. <tmpguns.getOne(weapon)>
+  [118] setlocal 2 .............................. arse = tmpguns.getOne(weapon)
+  [120] getprop 459 ............................. <gunmod>
+  [123] getlocal 1 .............................. <tmptexs>
+  [125] getlocal 2 .............................. <arse>
+  [127] pusharglist 2 ........................... <tmptexs, arse>
+  [129] objcall 217 ............................. <tmptexs[arse]>
+  [131] pusharglist 1 ........................... <tmptexs[arse]>
+  [133] extcall 28 .............................. <shady(tmptexs[arse])>
+  [135] setobjprop 66 ........................... gunmod.shaderList = shady(tmptexs[arse])
+  [137] jmp [160]
+  [140] getglobal 94 ............................ <gmem>
+  [142] getprop 230 ............................. <weapon>
+  [144] pusharglist 1 ........................... <weapon>
+  [146] extcall 93 .............................. <string(weapon)>
+  [148] getprop 218 ............................. <pmod>
+  [150] getobjprop 61 ........................... <pmod.name>
+  [152] joinstr ................................. <string(weapon) & pmod.name>
+  [153] pusharglist 2 ........................... <gmem, string(weapon) & pmod.name>
+  [155] objcall 58 .............................. <gmem.model(string(weapon) & pmod.name)>
+  [157] setprop 459 ............................. gunmod = gmem.model(string(weapon) & pmod.name)
+  [160] getprop 459 ............................. <gunmod>
+  [163] pusharglist 1 ........................... <gunmod>
+  [165] extcall 100 ............................. <voidp(gunmod)>
+  [167] not ..................................... <not voidp(gunmod)>
+  [168] jmpifz [180] ............................ if not voidp(gunmod) then
+  [171] getprop 459 ............................. <gunmod>
+  [174] getglobal 413 ........................... <gsmokes>
+  [177] setobjprop 390 .......................... gunmod.parent = gsmokes
+  [180] getprop 459 ............................. <gunmod>
+  [183] pusharglistnoret 1 ...................... <gunmod>
+  [185] extcall 37 .............................. return gunmod
+  [187] ret
+end
+
+on orientgun me
+  [  0] getprop 218 ............................. <pmod>
+  [  2] getchainedprop 454 ...................... <pmod.bonesPlayer>
+  [  5] pushsymb 460 ............................ <#bone>
+  [  8] pushint8 23 ............................. <23>
+  [ 10] pusharglist 3 ........................... <pmod.bonesPlayer, #bone, 23>
+  [ 12] objcall 172 ............................. <pmod.bonesPlayer.bone[23]>
+  [ 14] getobjprop 461 .......................... <pmod.bonesPlayer.bone[23].worldTransform>
+  [ 17] setlocal 0 .............................. moo = pmod.bonesPlayer.bone[23].worldTransform
+  [ 19] getprop 459 ............................. <gunmod>
+  [ 22] getchainedprop 96 ....................... <gunmod.transform>
+  [ 24] getlocal 0 .............................. <moo>
+  [ 26] getobjprop 36 ........................... <moo.position>
+  [ 28] setobjprop 36 ........................... gunmod.transform.position = moo.position
+  [ 30] getprop 459 ............................. <gunmod>
+  [ 33] getchainedprop 96 ....................... <gunmod.transform>
+  [ 35] getlocal 0 .............................. <moo>
+  [ 37] getobjprop 349 .......................... <moo.rotation>
+  [ 40] setobjprop 349 .......................... gunmod.transform.rotation = moo.rotation
+  [ 43] getprop 459 ............................. <gunmod>
+  [ 46] pushzero ................................ <0>
+  [ 47] pushint16 170 ........................... <170>
+  [ 50] pushint8 10 ............................. <10>
+  [ 52] pusharglist 3 ........................... <0, 170, 10>
+  [ 54] extcall 34 .............................. <vector(0, 170, 10)>
+  [ 56] pushsymb 462 ............................ <#self>
+  [ 59] pusharglistnoret 3 ...................... <gunmod, vector(0, 170, 10), #self>
+  [ 61] objcall 463 ............................. gunmod.rotate(vector(0, 170, 10), #self)
+  [ 64] getprop 459 ............................. <gunmod>
+  [ 67] pushzero ................................ <0>
+  [ 68] pushint8 3 .............................. <3>
+  [ 70] inv ..................................... <-3>
+  [ 71] pushzero ................................ <0>
+  [ 72] pusharglist 3 ........................... <0, -3, 0>
+  [ 74] extcall 34 .............................. <vector(0, -3, 0)>
+  [ 76] pushsymb 462 ............................ <#self>
+  [ 79] pusharglistnoret 3 ...................... <gunmod, vector(0, -3, 0), #self>
+  [ 81] objcall 464 ............................. gunmod.translate(vector(0, -3, 0), #self)
+  [ 84] ret
+end
+
+on stepFrame me
+  [  0] getglobal 125 ........................... <goody>
+  [  2] pusharglist 1 ........................... <goody>
+  [  4] extcall 100 ............................. <voidp(goody)>
+  [  6] not ..................................... <not voidp(goody)>
+  [  7] jmpifz [287] ............................ if not voidp(goody) then
+  [ 10] getprop 465 ............................. <aiming>
+  [ 13] pushzero ................................ <0>
+  [ 14] gt ...................................... <aiming > 0>
+  [ 15] jmpifz [ 30] ............................ if aiming > 0 then / else
+  [ 18] getprop 465 ............................. <aiming>
+  [ 21] pushint8 1 .............................. <1>
+  [ 23] sub ..................................... <aiming - 1>
+  [ 24] setprop 465 ............................. aiming = aiming - 1
+  [ 27] jmp [ 43]
+  [ 30] getprop 228 ............................. <misses>
+  [ 32] pushzero ................................ <0>
+  [ 33] gt ...................................... <misses > 0>
+  [ 34] jmpifz [ 43] ............................ if misses > 0 then
+  [ 37] getparam 0 .............................. <me>
+  [ 39] pusharglistnoret 1 ...................... <me>
+  [ 41] localcall 7 ............................. shoot(me)
+  [ 43] getprop 230 ............................. <weapon>
+  [ 45] getprop 466 ............................. <oldweapon>
+  [ 48] nteq .................................... <weapon <> oldweapon>
+  [ 49] jmpifz [ 71] ............................ if weapon <> oldweapon then
+  [ 52] getprop 459 ............................. <gunmod>
+  [ 55] pusharglistnoret 1 ...................... <gunmod>
+  [ 57] objcall 394 ............................. gunmod.removeFromWorld()
+  [ 60] getprop 230 ............................. <weapon>
+  [ 62] setprop 466 ............................. oldweapon = weapon
+  [ 65] getparam 0 .............................. <me>
+  [ 67] pusharglistnoret 1 ...................... <me>
+  [ 69] localcall 2 ............................. getwepmod(me)
+  [ 71] getparam 0 .............................. <me>
+  [ 73] pusharglistnoret 1 ...................... <me>
+  [ 75] localcall 3 ............................. orientgun(me)
+  [ 77] getprop 457 ............................. <pmussteps>
+  [ 80] pushint8 1 .............................. <1>
+  [ 82] sub ..................................... <pmussteps - 1>
+  [ 83] setprop 457 ............................. pmussteps = pmussteps - 1
+  [ 86] getprop 457 ............................. <pmussteps>
+  [ 89] pushzero ................................ <0>
+  [ 90] gt ...................................... <pmussteps > 0>
+  [ 91] jmpifz [140] ............................ if pmussteps > 0 then / else
+  [ 94] getprop 449 ............................. <tarpos>
+  [ 97] getprop 108 ............................. <pos>
+  [ 99] sub ..................................... <tarpos - pos>
+  [100] getprop 457 ............................. <pmussteps>
+  [103] div ..................................... <(tarpos - pos) / pmussteps>
+  [104] setprop 453 ............................. speed = (tarpos - pos) / pmussteps
+  [107] getprop 450 ............................. <tarrot>
+  [110] getprop 221 ............................. <rot>
+  [112] sub ..................................... <tarrot - rot>
+  [113] getprop 457 ............................. <pmussteps>
+  [116] div ..................................... <(tarrot - rot) / pmussteps>
+  [117] pushint8 2 .............................. <2>
+  [119] mul ..................................... <(tarrot - rot) / pmussteps * 2>
+  [120] setlocal 0 .............................. torq = (tarrot - rot) / pmussteps * 2
+  [122] getprop 108 ............................. <pos>
+  [124] getprop 453 ............................. <speed>
+  [127] add ..................................... <pos + speed>
+  [128] setprop 108 ............................. pos = pos + speed
+  [130] getprop 221 ............................. <rot>
+  [132] getlocal 0 .............................. <torq>
+  [134] add ..................................... <rot + torq>
+  [135] setprop 221 ............................. rot = rot + torq
+  [137] jmp [177]
+  [140] getprop 457 ............................. <pmussteps>
+  [143] pushint16 450 ........................... <450>
+  [146] inv ..................................... <-450>
+  [147] eq ...................................... <pmussteps = -450>
+  [148] jmpifz [167] ............................ if pmussteps = -450 then
+  [151] pushint8 1 .............................. <1>
+  [153] inv ..................................... <-1>
+  [154] setprop 233 ............................. lives = -1
+  [156] getglobal 125 ........................... <goody>
+  [158] getprop 61 .............................. <name>
+  [160] pushcons 10 ............................. <" is disconnected">
+  [162] joinstr ................................. <name & " is disconnected">
+  [163] pusharglistnoret 2 ...................... <goody, name & " is disconnected">
+  [165] objcall 216 ............................. goody.feedback(name & " is disconnected")
+  [167] getprop 449 ............................. <tarpos>
+  [170] setprop 108 ............................. pos = tarpos
+  [172] getprop 450 ............................. <tarrot>
+  [175] setprop 221 ............................. rot = tarrot
+  [177] getprop 218 ............................. <pmod>
+  [179] getchainedprop 96 ....................... <pmod.transform>
+  [181] getprop 108 ............................. <pos>
+  [183] pushzero ................................ <0>
+  [184] pushzero ................................ <0>
+  [185] getglobal 125 ........................... <goody>
+  [187] getobjprop 132 .......................... <goody.bsp>
+  [189] pushcons 11 ............................. <0.59999999999999998>
+  [191] mul ..................................... <goody.bsp * 0.59999999999999998>
+  [192] pusharglist 3 ........................... <0, 0, goody.bsp * 0.59999999999999998>
+  [194] extcall 34 .............................. <vector(0, 0, goody.bsp * 0.59999999999999998)>
+  [196] sub ..................................... <pos - vector(0, 0, goody.bsp * 0.59999999999999998)>
+  [197] setobjprop 36 ........................... pmod.transform.position = pos - vector(0, 0, goody.bsp * 0.59999999999999998)
+  [199] getprop 218 ............................. <pmod>
+  [201] getchainedprop 96 ....................... <pmod.transform>
+  [203] getprop 221 ............................. <rot>
+  [205] pushzero ................................ <0>
+  [206] pushzero ................................ <0>
+  [207] pushint8 90 ............................. <90>
+  [209] pusharglist 3 ........................... <0, 0, 90>
+  [211] extcall 34 .............................. <vector(0, 0, 90)>
+  [213] add ..................................... <rot + vector(0, 0, 90)>
+  [214] setobjprop 349 .......................... pmod.transform.rotation = rot + vector(0, 0, 90)
+  [217] getprop 458 ............................. <bon>
+  [220] getprop 453 ............................. <speed>
+  [223] getobjprop 84 ........................... <speed.magnitude>
+  [225] pushint8 10 ............................. <10>
+  [227] mul ..................................... <speed.magnitude * 10>
+  [228] add ..................................... <bon + (speed.magnitude * 10)>
+  [229] setprop 458 ............................. bon = bon + (speed.magnitude * 10)
+  [232] getprop 458 ............................. <bon>
+  [235] pushint16 1000 .......................... <1000>
+  [238] gt ...................................... <bon > 1000>
+  [239] jmpifz [252] ............................ if bon > 1000 then
+  [242] getprop 458 ............................. <bon>
+  [245] pushint16 1000 .......................... <1000>
+  [248] sub ..................................... <bon - 1000>
+  [249] setprop 458 ............................. bon = bon - 1000
+  [252] getprop 218 ............................. <pmod>
+  [254] getchainedprop 454 ...................... <pmod.bonesPlayer>
+  [257] getprop 458 ............................. <bon>
+  [260] setobjprop 467 .......................... pmod.bonesPlayer.currentTime = bon
+  [263] getprop 218 ............................. <pmod>
+  [265] getchainedprop 96 ....................... <pmod.transform>
+  [267] getchainedprop 349 ...................... <pmod.transform.rotation>
+  [270] pushzero ................................ <0>
+  [271] setobjprop 79 ........................... pmod.transform.rotation.x = 0
+  [273] getprop 233 ............................. <lives>
+  [275] pushint8 1 .............................. <1>
+  [277] lt ...................................... <lives < 1>
+  [278] jmpifz [287] ............................ if lives < 1 then
+  [281] getparam 0 .............................. <me>
+  [283] pusharglistnoret 1 ...................... <me>
+  [285] localcall 5 ............................. die(me)
+  [287] ret
+end
+
+on die me
+  [  0] pushint16 3000 .......................... <3000>
+  [  3] setprop 458 ............................. bon = 3000
+  [  6] getprop 218 ............................. <pmod>
+  [  8] getchainedprop 454 ...................... <pmod.bonesPlayer>
+  [ 11] getprop 458 ............................. <bon>
+  [ 14] setobjprop 467 .......................... pmod.bonesPlayer.currentTime = bon
+  [ 17] getprop 459 ............................. <gunmod>
+  [ 20] getchainedprop 96 ....................... <gunmod.transform>
+  [ 22] pushzero ................................ <0>
+  [ 23] pushzero ................................ <0>
+  [ 24] pushint8 36 ............................. <36>
+  [ 26] pusharglist 1 ........................... <36>
+  [ 28] extcall 264 ............................. <random(36)>
+  [ 31] pushint8 10 ............................. <10>
+  [ 33] mul ..................................... <random(36) * 10>
+  [ 34] pusharglist 3 ........................... <0, 0, random(36) * 10>
+  [ 36] extcall 34 .............................. <vector(0, 0, random(36) * 10)>
+  [ 38] setobjprop 349 .......................... gunmod.transform.rotation = vector(0, 0, random(36) * 10)
+  [ 41] getprop 459 ............................. <gunmod>
+  [ 44] getchainedprop 96 ....................... <gunmod.transform>
+  [ 46] getprop 108 ............................. <pos>
+  [ 48] pushzero ................................ <0>
+  [ 49] pushzero ................................ <0>
+  [ 50] getprop 132 ............................. <bsp>
+  [ 52] pushint8 2 .............................. <2>
+  [ 54] div ..................................... <bsp / 2>
+  [ 55] pusharglist 3 ........................... <0, 0, bsp / 2>
+  [ 57] extcall 34 .............................. <vector(0, 0, bsp / 2)>
+  [ 59] sub ..................................... <pos - vector(0, 0, bsp / 2)>
+  [ 60] setobjprop 36 ........................... gunmod.transform.position = pos - vector(0, 0, bsp / 2)
+  [ 62] pushcons 12 ............................. <"pickups">
+  [ 64] pushcons 13 ............................. <"parents">
+  [ 66] pusharglist 2 ........................... <"pickups", "parents">
+  [ 68] extcall 220 ............................. <script("pickups", "parents")>
+  [ 70] pushsymb 469 ............................ <#ammo>
+  [ 73] getprop 459 ............................. <gunmod>
+  [ 76] getchainedprop 96 ....................... <gunmod.transform>
+  [ 78] getobjprop 36 ........................... <gunmod.transform.position>
+  [ 80] getprop 230 ............................. <weapon>
+  [ 82] getprop 459 ............................. <gunmod>
+  [ 85] pusharglist 5 ........................... <script("pickups", "parents"), #ammo, gunmod.transform.position, weapon, gunmod>
+  [ 87] objcall 187 ............................. <script("pickups", "parents").new(#ammo, gunmod.transform.position, weapon, gunmod)>
+  [ 89] setlocal 0 .............................. pickup = script("pickups", "parents").new(#ammo, gunmod.transform.position, weapon, gunmod)
+  [ 91] pushcons 14 ............................. <"fadeaway">
+  [ 93] pushcons 13 ............................. <"parents">
+  [ 95] pusharglist 2 ........................... <"fadeaway", "parents">
+  [ 97] extcall 220 ............................. <script("fadeaway", "parents")>
+  [ 99] getprop 218 ............................. <pmod>
+  [101] getprop 108 ............................. <pos>
+  [103] pusharglist 3 ........................... <script("fadeaway", "parents"), pmod, pos>
+  [105] objcall 187 ............................. <script("fadeaway", "parents").new(pmod, pos)>
+  [107] setlocal 1 .............................. fadeaway = script("fadeaway", "parents").new(pmod, pos)
+  [109] getglobal 185 ........................... <players>
+  [111] getparam 0 .............................. <me>
+  [113] pusharglistnoret 2 ...................... <players, me>
+  [115] objcall 366 ............................. players.deleteOne(me)
+  [118] getglobal 53 ............................ <baddies>
+  [120] getparam 0 .............................. <me>
+  [122] pusharglistnoret 2 ...................... <baddies, me>
+  [124] objcall 366 ............................. baddies.deleteOne(me)
+  [127] getmovieprop 52 ......................... <the actorList>
+  [129] getparam 0 .............................. <me>
+  [131] pusharglistnoret 2 ...................... <the actorList, me>
+  [133] objcall 366 ............................. (the actorList).deleteOne(me)
+  [136] ret
+end
+
+on hurt me, howbad
+  [  0] getprop 108 ............................. <pos>
+  [  2] pushcons 15 ............................. <"hurt">
+  [  4] pusharglistnoret 2 ...................... <pos, "hurt">
+  [  6] extcall 27 .............................. playsound(pos, "hurt")
+  [  8] ret
+end
+
+on shoot me
+  [  0] pushint16 2000 .......................... <2000>
+  [  3] setprop 458 ............................. bon = 2000
+  [  6] getprop 228 ............................. <misses>
+  [  8] pushint8 1 .............................. <1>
+  [ 10] sub ..................................... <misses - 1>
+  [ 11] setprop 228 ............................. misses = misses - 1
+  [ 13] getprop 230 ............................. <weapon>
+  [ 15] peek 0 .................................. case weapon of
+  [ 17] pushsymb 300 ............................ <#pistol>
+  [ 20] eq
+  [ 21] jmpifz [ 54] ............................ (case) #pistol:
+  [ 24] pushint8 8 .............................. <8>
+  [ 26] setprop 465 ............................. aiming = 8
+  [ 29] getprop 108 ............................. <pos>
+  [ 31] pushcons 16 ............................. <"gunfire">
+  [ 33] pusharglistnoret 2 ...................... <pos, "gunfire">
+  [ 35] extcall 27 .............................. playsound(pos, "gunfire")
+  [ 37] pushcons 17 ............................. <"muzzle">
+  [ 39] pusharglist 1 ........................... <"muzzle">
+  [ 41] extcall 220 ............................. <script("muzzle")>
+  [ 43] getparam 0 .............................. <me>
+  [ 45] pusharglist 2 ........................... <script("muzzle"), me>
+  [ 47] objcall 187 ............................. <script("muzzle").new(me)>
+  [ 49] setlocal 0 .............................. muzzle = script("muzzle").new(me)
+  [ 51] jmp [187]
+  [ 54] peek 0
+  [ 56] pushsymb 301 ............................ <#spas12>
+  [ 59] eq
+  [ 60] jmpifz [100] ............................ (case) #spas12:
+  [ 63] getprop 228 ............................. <misses>
+  [ 65] pushint8 1 .............................. <1>
+  [ 67] sub ..................................... <misses - 1>
+  [ 68] setprop 228 ............................. misses = misses - 1
+  [ 70] pushint8 15 ............................. <15>
+  [ 72] setprop 465 ............................. aiming = 15
+  [ 75] getprop 108 ............................. <pos>
+  [ 77] pushcons 18 ............................. <"spas12wav">
+  [ 79] pusharglistnoret 2 ...................... <pos, "spas12wav">
+  [ 81] extcall 27 .............................. playsound(pos, "spas12wav")
+  [ 83] pushcons 17 ............................. <"muzzle">
+  [ 85] pusharglist 1 ........................... <"muzzle">
+  [ 87] extcall 220 ............................. <script("muzzle")>
+  [ 89] getparam 0 .............................. <me>
+  [ 91] pusharglist 2 ........................... <script("muzzle"), me>
+  [ 93] objcall 187 ............................. <script("muzzle").new(me)>
+  [ 95] setlocal 0 .............................. muzzle = script("muzzle").new(me)
+  [ 97] jmp [187]
+  [100] peek 0
+  [102] pushsymb 299 ............................ <#ak47>
+  [105] eq
+  [106] jmpifz [139] ............................ (case) #ak47:
+  [109] pushint8 2 .............................. <2>
+  [111] setprop 465 ............................. aiming = 2
+  [114] getprop 108 ............................. <pos>
+  [116] pushcons 16 ............................. <"gunfire">
+  [118] pusharglistnoret 2 ...................... <pos, "gunfire">
+  [120] extcall 27 .............................. playsound(pos, "gunfire")
+  [122] pushcons 17 ............................. <"muzzle">
+  [124] pusharglist 1 ........................... <"muzzle">
+  [126] extcall 220 ............................. <script("muzzle")>
+  [128] getparam 0 .............................. <me>
+  [130] pusharglist 2 ........................... <script("muzzle"), me>
+  [132] objcall 187 ............................. <script("muzzle").new(me)>
+  [134] setlocal 0 .............................. muzzle = script("muzzle").new(me)
+  [136] jmp [187]
+  [139] peek 0
+  [141] pushsymb 302 ............................ <#dragunov>
+  [144] eq
+  [145] jmpifz [178] ............................ (case) #dragunov:
+  [148] pushint8 2 .............................. <2>
+  [150] setprop 465 ............................. aiming = 2
+  [153] getprop 108 ............................. <pos>
+  [155] pushcons 19 ............................. <"resniper">
+  [157] pusharglistnoret 2 ...................... <pos, "resniper">
+  [159] extcall 27 .............................. playsound(pos, "resniper")
+  [161] pushcons 17 ............................. <"muzzle">
+  [163] pusharglist 1 ........................... <"muzzle">
+  [165] extcall 220 ............................. <script("muzzle")>
+  [167] getparam 0 .............................. <me>
+  [169] pusharglist 2 ........................... <script("muzzle"), me>
+  [171] objcall 187 ............................. <script("muzzle").new(me)>
+  [173] setlocal 0 .............................. muzzle = script("muzzle").new(me)
+  [175] jmp [187]
+  [178] peek 0
+  [180] pushsymb 472 ............................ <#none>
+  [183] eq
+  [184] jmpifz [187] ............................ (case) #none:
+  [187] pop 1 ................................... end case
+  [189] ret
+end

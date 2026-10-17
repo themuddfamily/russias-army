@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "executedOriginal": false,
+  "deterministicSecondExtraction": true,
+  "assetHashesVerified": true,
+  "svgParseAndPassiveElementsVerified": true,
+  "exactCrosshairPlacementColorWidthVerified": true,
+  "sourceBackingAlphaVerified": true,
+  "completeCaptionGlyphOutlinesVerified": true,
+  "commonVectorsAndRootPlacementsCrossEditionEqual": true,
+  "editionCaptionDifferencesPreserved": true,
+  "outputs": {
+    "backing": {
+      "depth": 1,
+      "characterId": 6,
+      "placementMatrices": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "file": "public/assets/original-normal-ui/backing.svg",
+      "sha256": "f2d025a73f97aeab4977587337cf8eb410ad7e9a3f7c958571c5215e6822becb",
+      "bytes": 582,
+      "viewBox": [
+        0,
+        0,
+        800,
+        600
+      ]
+    },
+    "emblem-barrack": {
+      "depth": 2,
+      "characterId": 7,
+      "placementMatrices": [
+        [
+          0.369354248046875,
+          0.0,
+          0.0,
+          0.3695220947265625,
+          639.75,
+          479.6
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "file": "public/assets/original-normal-ui/emblem-barrack.svg",
+      "sha256": "6679bd01779c3b32ca08edac693601a7b610a61b8a40818777bb47193d39a8a8",
+      "bytes": 25782,
+      "viewBox": [
+        0,
+        0,
+        800,
+        600
+      ]
+    },
+    "crosshair": {
+      "depth": 5,
+      "characterId": 11,
+      "placementMatrices": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          385.0,
+          285.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "file": "public/assets/original-normal-ui/crosshair.svg",
+      "sha256": "5753f03f8790560571c582223687e394b5f386e3c6672a9226e450a617c50bc7",
+      "bytes": 463,
+      "viewBox": [
+        0,
+        0,
+        800,
+        600
+      ]
+    },
+    "border": {
+      "depth": 40,
+      "characterId": 5,
+      "placementMatrices": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "file": "public/assets/original-normal-ui/border.svg",
+      "sha256": "a042a83bba212f48678a1bb0a8e3c7d9e50b84cae761cc7e94f2b8f4ce9ee9b3",
+      "bytes": 1137,
+      "viewBox": [
+        0,
+        0,
+        800,
+        600
+      ]
+    },
+    "composite-barrack": {
+      "file": "public/assets/original-normal-ui/normal-ui-barrack.svg",
+      "sha256": "d28a59c6d2588724bb8fb588b84776a98c97e382eeca83437c1883d526d5c3ea",
+      "bytes": 27400,
+      "viewBox": [
+        0,
+        0,
+        800,
+        600
+      ]
+    },
+    "emblem-woodland": {
+      "depth": 2,
+      "characterId": 7,
+      "placementMatrices": [
+        [
+          0.369354248046875,
+          0.0,
+          0.0,
+          0.3695220947265625,
+          639.75,
+          479.6
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "file": "public/assets/original-normal-ui/emblem-woodland.svg",
+      "sha256": "a7257cd932b599ece5e5fdc0f55295120516a71af166a59c2704fc6ecfba0b60",
+      "bytes": 25799,
+      "viewBox": [
+        0,
+        0,
+        800,
+        600
+      ]
+    },
+    "composite-woodland": {
+      "file": "public/assets/original-normal-ui/normal-ui-woodland.svg",
+      "sha256": "3278e12edec2d2fa2487a4e3419fad8ce2740815b3f269d0581aef114a84b9a2",
+      "bytes": 27417,
+      "viewBox": [
+        0,
+        0,
+        800,
+        600
+      ]
+    }
+  },
+  "limitations": [
+    "All static frame2 display objects including DefineText9 caption font outlines are exported. Edition captions differ: Barrack versus Woodland, with original placement differences retained.",
+    "Native stage is1024x1024;800x600 SVG viewport follows visible source artwork and current projection adapter, not proof of native texture rasterization.",
+    "SVG alpha, even-odd contours, quadratic curves and source twip widths are retained; browser antialiasing/round line joins/caps and preserveAspectRatio=none viewport stretching remain explicit adapters.",
+    "ActionScript tags remain opaque and are never interpreted or executed."
+  ]
+}

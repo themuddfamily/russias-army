@@ -1,0 +1,37 @@
+968 Chapter 14:  Properties
+This statement displays the sample size of the sound playing in sound channel 1 in the 
+Message window:
+-- Lingo syntax
+put(sound(1).sampleSize)
+// JavaScript syntax
+put(sound(1).sampleSize);
+scale (3D)
+Usage
+member(whichCastmember).camera(whichCamera).backdrop\ 
+[backdropIndex].scale
+member(whichCastmember).camera(whichCamera).overlay\ 
+[overlayIndex].scale
+Description
+3D property; allows you to get or set the scale value used by a specific overlay or backdrop in the 
+referenced camera’s list of overlays or backdrops to display. The width and height of the backdrop 
+or overlay are multiplied by the scale value.The default value for this property is 1.0.
+Example
+This statement doubles the size of a backdrop:
+sprite(25).camera.backdrop[1].scale = 2.0
+See also
+bevelDepth, overlay
+scale (backdrop and overlay)
+Usage
+member(whichCastmember).camera(whichCamera).backdrop\ 
+[backdropIndex].scale
+member(whichCastmember).camera(whichCamera).overlay\ 
+[overlayIndex].scale
+Description
+3D property; allows you to get or set the scale value used by a specific overlay or backdrop in the 
+referenced camera’s list of overlays or backdrops to display. The width and height of the backdrop 
+or overlay are multiplied by the scale value.The default value for this property is 1.0.
+Example
+This statement doubles the size of a backdrop:
+sprite(25).camera.backdrop[1].scale = 2.0
+See also
+bevelDepth, overlay

@@ -1,0 +1,61 @@
+import {expect,test} from '@playwright/test';
+import {mkdir,writeFile} from 'node:fs/promises';
+
+test.setTimeout(90_000);
+for(const map of ['barrack','woodlands'])test(`${map} actual Legacy scope restores source sensitivity and exits on release or chat`,async({page})=>{
+  const errors:string[]=[],serverErrors:unknown[]=[];
+  page.on('pageerror',error=>errors.push(error.message));
+  page.on('websocket',socket=>socket.on('framereceived',({payload})=>{const message=JSON.parse(String(payload));if(message.type==='error')serverErrors.push(message);}));
+  await page.addInitScript(()=>{
+    let locked:Element|null=null;
+    Object.defineProperty(Document.prototype,'pointerLockElement',{configurable:true,get:()=>locked});
+    Object.defineProperty(HTMLCanvasElement.prototype,'requestPointerLock',{configurable:true,value:function(this:HTMLCanvasElement){locked=this;document.dispatchEvent(new Event('pointerlockchange'));return Promise.resolve();}});
+  });
+  await page.goto(`/?map=${map}&quality=low&e2e=1`);
+  await expect(page.locator('#loading')).toHaveCount(0,{timeout:30_000});
+  await page.locator('#mode-online').click();await page.locator('#deploy').click();
+  await page.locator('#room-code').fill('SCOPE'+Date.now().toString(36));await page.locator('#join-room').click();
+  await expect(page.locator('#network-status')).toHaveAttribute('data-state','connected');
+  if(!await page.evaluate(()=>!!document.pointerLockElement))await page.locator('#game canvas').click();
+  const read=()=>page.evaluate(()=>(window as any).__RA_MULTIPLAYER_DEBUG__.snapshot());
+  await page.keyboard.down('Digit6');await expect(page.locator('tr[data-weapon="sniper"]')).toHaveClass(/active/);await page.keyboard.up('Digit6');
+  await page.keyboard.down('ShiftLeft');
+  await expect(page.locator('#scope-overlay')).toHaveClass(/active/);
+  await expect.poll(async()=>(await read()).originalWeapon.worldFov).toBe(8);
+  const zoomed=await read();expect(zoomed.originalWeapon.viewFov).toBe(8);
+  expect(zoomed.sourceScope.mouseDelta).toBeCloseTo(.5*Math.pow(.93,36),12);
+  const out='artifacts/fidelity-review/2026-10-01/current';await mkdir(out,{recursive:true});
+  await page.screenshot({path:`${out}/${map}-source-scope.png`});
+  const beforeYaw=zoomed.local.yaw;
+  await page.evaluate(()=>{
+    const event=new MouseEvent('mousemove',{bubbles:true});Object.defineProperty(event,'movementX',{value:20});Object.defineProperty(event,'movementY',{value:0});document.dispatchEvent(event);
+  });
+  await expect.poll(async()=>Math.abs((await read()).local.yaw-beforeYaw)).toBeGreaterThan(.001);
+  const moved=await read();expect(beforeYaw-moved.local.yaw).toBeCloseTo(20*.5*Math.pow(.93,36)*Math.PI/180,6);
+  await page.keyboard.up('ShiftLeft');await expect(page.locator('#scope-overlay')).not.toHaveClass(/active/);
+  await expect.poll(async()=>(await read()).originalWeapon.worldFov).toBe(50);
+  const released=await read();
+  await page.keyboard.down('ShiftLeft');await expect(page.locator('#scope-overlay')).toHaveClass(/active/);
+  await page.keyboard.press('Tab');await expect(page.locator('#chat-form')).toBeVisible();
+  await expect(page.locator('#scope-overlay')).not.toHaveClass(/active/);
+  await expect.poll(async()=>(await read()).originalWeapon.worldFov).toBe(50);
+  const typing=await read();await page.keyboard.up('ShiftLeft');
+  expect(typing.movement.pointerCaptured).toBe(true);
+  await expect(page.locator('#chat-input')).toBeFocused();
+  await page.locator('#chat-input').fill('look while typing');
+  const beforeTypingYaw=typing.local.yaw,beforeTypingAmmo=typing.loadout.ammo.sniper;
+  await page.evaluate(()=>{
+    const event=new MouseEvent('mousemove',{bubbles:true});Object.defineProperty(event,'movementX',{value:20});Object.defineProperty(event,'movementY',{value:0});document.dispatchEvent(event);
+  });
+  await expect.poll(async()=>Math.abs((await read()).local.yaw-beforeTypingYaw)).toBeGreaterThan(.001);
+  const typingLook=await read();expect(beforeTypingYaw-typingLook.local.yaw).toBeCloseTo(20*.5*Math.PI/180,6);
+  await expect(page.locator('#chat-input')).toBeFocused();await expect(page.locator('#chat-input')).toHaveValue('look while typing');
+  await page.mouse.down();await page.waitForTimeout(100);await page.mouse.up();
+  expect((await read()).loadout.ammo.sniper).toBe(beforeTypingAmmo);
+  expect((await read()).chatOpen).toBe(true);await expect(page.locator('#chat-input')).toBeFocused();
+  await page.keyboard.press('Enter');await expect(page.locator('#chat-form')).not.toBeVisible();
+  await expect(page.locator('#chat-log')).toContainText('>> look while typing');
+  const sent=await read();expect(sent.movement.pointerCaptured).toBe(true);
+  await writeFile(`${out}/${map}-source-scope.json`,JSON.stringify({map,zoomed,moved,released,typing,typingLook,sent,errors,serverErrors},null,2));
+  expect(errors).toEqual([]);expect(serverErrors).toEqual([]);
+});

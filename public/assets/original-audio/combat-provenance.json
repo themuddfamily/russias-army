@@ -1,0 +1,6100 @@
+{
+  "schema_version": 1,
+  "game_executed": false,
+  "audio_played": false,
+  "decoder_script": "scripts/research/package-original-combat-audio.py",
+  "decoder_script_sha256": "a69c021f0660890d9597b56d4f66adb932c1caadabab3b8d938f463932677b81",
+  "decoder": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "format_references": [
+    "https://github.com/igorlira/dirplayer-rs/blob/68376fbb4494a6bbad4c70081ecdcb99814a74c9/vm-rust/src/director/chunks/sound.rs"
+  ],
+  "assets": {
+    "gunfire": {
+      "sources": [
+        {
+          "codec": "mpeg_layer_iii",
+          "header_length": 356,
+          "header_u32_fields": [
+            356,
+            3,
+            44100,
+            64000,
+            1393,
+            10751
+          ],
+          "post_header_prefix_hex": "466ed577",
+          "mpeg_start_offset": 360,
+          "mpeg_frames": [
+            {
+              "source_offset": 360,
+              "length": 208,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 568,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 777,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 986,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 1195,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 1404,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 1613,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 1822,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 2031,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 2240,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 2449,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 2658,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 2867,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 3076,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 3285,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            }
+          ],
+          "sample_rate": 44100,
+          "channels": 1,
+          "sample_count": 17280,
+          "edition": "barrack",
+          "cast_id": 142,
+          "cast_name": "gunfire",
+          "resource_id": 4888,
+          "resource_tag": "ediM",
+          "resource_path": "docs/research-evidence/2026-09-30/director-extraction/barrack/04888-ediM.bin",
+          "resource_sha256": "2ca64e277a769d6794d26e954470c8de3674cca6ec6fcfef9c81c1416250131a",
+          "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-barrack-20110415.dcr",
+          "source_movie_sha256": "779c2420e2b41848749731762f4b64bb70e05c889bb23f8906563a661991b72a"
+        },
+        {
+          "codec": "mpeg_layer_iii",
+          "header_length": 356,
+          "header_u32_fields": [
+            356,
+            3,
+            44100,
+            64000,
+            1393,
+            10751
+          ],
+          "post_header_prefix_hex": "466ed577",
+          "mpeg_start_offset": 360,
+          "mpeg_frames": [
+            {
+              "source_offset": 360,
+              "length": 208,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 568,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 777,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 986,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 1195,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 1404,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 1613,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 1822,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 2031,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 2240,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 2449,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 2658,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 2867,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 3076,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            },
+            {
+              "source_offset": 3285,
+              "length": 209,
+              "sample_rate": 44100,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 1152,
+              "mpeg_version": 1,
+              "layer": 3
+            }
+          ],
+          "sample_rate": 44100,
+          "channels": 1,
+          "sample_count": 17280,
+          "edition": "woodland",
+          "cast_id": 142,
+          "cast_name": "gunfire",
+          "resource_id": 6277,
+          "resource_tag": "ediM",
+          "resource_path": "docs/research-evidence/2026-09-30/director-extraction/woodland/06277-ediM.bin",
+          "resource_sha256": "2ca64e277a769d6794d26e954470c8de3674cca6ec6fcfef9c81c1416250131a",
+          "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-woodland-20150618.dcr",
+          "source_movie_sha256": "d42aaf3cd5c5bdb1decee1f8b48271c7590e49dee9e6d06a0f2954f8c486245c"
+        }
+      ],
+      "identical_edition_resource_bodies": true,
+      "mp3": {
+        "file": "gunfire.mp3",
+        "sha256": "2e8383b8f67121af12be988244de3d9127be96662307d4f9658337e44e5aaeb0",
+        "bytes": 3134,
+        "transformation": "byte-exact complete frame copy; no re-encoding"
+      },
+      "wav": {
+        "file": "gunfire.wav",
+        "sha256": "0d48eb0c1761e4fb7adf47286d2a9969fdee55a7a8124f7808f78f74a3fce279",
+        "bytes": 69178,
+        "codec": "pcm_f32le",
+        "sample_rate": 44100,
+        "channels": 1,
+        "sample_count": 17280,
+        "untrimmed_duration_seconds": 0.39183673469387753,
+        "finite_nonempty_pcm_verified": true,
+        "peak_absolute_sample": 0.4265310764312744
+      }
+    },
+    "spas12wav": {
+      "sources": [
+        {
+          "codec": "mpeg_layer_iii",
+          "header_length": 320,
+          "header_u32_fields": [
+            320,
+            3,
+            22050,
+            32000,
+            1393,
+            13426
+          ],
+          "post_header_prefix_hex": "00000000",
+          "mpeg_start_offset": 324,
+          "mpeg_frames": [
+            {
+              "source_offset": 324,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 428,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 533,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 637,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 742,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 846,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 951,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1055,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1160,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1264,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1369,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1473,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1578,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1682,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1787,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1891,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1996,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2100,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2205,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2309,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2414,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2518,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2623,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2727,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2832,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2936,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3041,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3145,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3250,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3354,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3459,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3563,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3668,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3772,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            }
+          ],
+          "sample_rate": 22050,
+          "channels": 1,
+          "sample_count": 19584,
+          "edition": "barrack",
+          "cast_id": 516,
+          "cast_name": "spas12wav",
+          "resource_id": 4858,
+          "resource_tag": "ediM",
+          "resource_path": "docs/research-evidence/2026-09-30/director-extraction/barrack/04858-ediM.bin",
+          "resource_sha256": "46cde88bbd714bbd7e71d2f666e6f80ec161d13d7f0a81534445af34da2c5312",
+          "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-barrack-20110415.dcr",
+          "source_movie_sha256": "779c2420e2b41848749731762f4b64bb70e05c889bb23f8906563a661991b72a"
+        },
+        {
+          "codec": "mpeg_layer_iii",
+          "header_length": 320,
+          "header_u32_fields": [
+            320,
+            3,
+            22050,
+            32000,
+            1393,
+            13426
+          ],
+          "post_header_prefix_hex": "00000000",
+          "mpeg_start_offset": 324,
+          "mpeg_frames": [
+            {
+              "source_offset": 324,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 428,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 533,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 637,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 742,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 846,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 951,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1055,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1160,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1264,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1369,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1473,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1578,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1682,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1787,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1891,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1996,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2100,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2205,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2309,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2414,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2518,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2623,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2727,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2832,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2936,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3041,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3145,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3250,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3354,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3459,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3563,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3668,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3772,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            }
+          ],
+          "sample_rate": 22050,
+          "channels": 1,
+          "sample_count": 19584,
+          "edition": "woodland",
+          "cast_id": 516,
+          "cast_name": "spas12wav",
+          "resource_id": 6247,
+          "resource_tag": "ediM",
+          "resource_path": "docs/research-evidence/2026-09-30/director-extraction/woodland/06247-ediM.bin",
+          "resource_sha256": "46cde88bbd714bbd7e71d2f666e6f80ec161d13d7f0a81534445af34da2c5312",
+          "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-woodland-20150618.dcr",
+          "source_movie_sha256": "d42aaf3cd5c5bdb1decee1f8b48271c7590e49dee9e6d06a0f2954f8c486245c"
+        }
+      ],
+      "identical_edition_resource_bodies": true,
+      "mp3": {
+        "file": "spas12wav.mp3",
+        "sha256": "da4f6895487bca066b1f9300357cac4f2bf0aa4c6c614e53f616f8121d8e3573",
+        "bytes": 3553,
+        "transformation": "byte-exact complete frame copy; no re-encoding"
+      },
+      "wav": {
+        "file": "spas12wav.wav",
+        "sha256": "7016c5b2bf050f5a63f4fe050e5240f3719caecbb4d4c4cd357137243890d58a",
+        "bytes": 78394,
+        "codec": "pcm_f32le",
+        "sample_rate": 22050,
+        "channels": 1,
+        "sample_count": 19584,
+        "untrimmed_duration_seconds": 0.8881632653061224,
+        "finite_nonempty_pcm_verified": true,
+        "peak_absolute_sample": 0.9196686744689941
+      }
+    },
+    "resniper": {
+      "sources": [
+        {
+          "codec": "mpeg_layer_iii",
+          "header_length": 320,
+          "header_u32_fields": [
+            320,
+            3,
+            16000,
+            64000,
+            1393,
+            24195
+          ],
+          "post_header_prefix_hex": "00000000",
+          "mpeg_start_offset": 324,
+          "mpeg_frames": [
+            {
+              "source_offset": 324,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 612,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 900,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1188,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1476,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1764,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2052,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2340,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2628,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2916,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3204,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3492,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3780,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4068,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4356,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4644,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4932,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5220,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5508,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5796,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 6084,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 6372,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 6660,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 6948,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 7236,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 7524,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 7812,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 8100,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 8388,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 8676,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 8964,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 9252,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 9540,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 9828,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 10116,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 10404,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 10692,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 10980,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 11268,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 11556,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 11844,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 12132,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 12420,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 12708,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 12996,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 13284,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 13572,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 13860,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 14148,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 14436,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 14724,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 15012,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 15300,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            }
+          ],
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_count": 30528,
+          "edition": "barrack",
+          "cast_id": 4683,
+          "cast_name": "resniper",
+          "resource_id": 4912,
+          "resource_tag": "ediM",
+          "resource_path": "docs/research-evidence/2026-09-30/director-extraction/barrack/04912-ediM.bin",
+          "resource_sha256": "5a68a855126406dfe7996b450fa986909d0394a2d7d68a4e02ef391980a3d35a",
+          "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-barrack-20110415.dcr",
+          "source_movie_sha256": "779c2420e2b41848749731762f4b64bb70e05c889bb23f8906563a661991b72a"
+        },
+        {
+          "codec": "mpeg_layer_iii",
+          "header_length": 320,
+          "header_u32_fields": [
+            320,
+            3,
+            16000,
+            64000,
+            1393,
+            24195
+          ],
+          "post_header_prefix_hex": "00000000",
+          "mpeg_start_offset": 324,
+          "mpeg_frames": [
+            {
+              "source_offset": 324,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 612,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 900,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1188,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1476,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1764,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2052,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2340,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2628,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2916,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3204,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3492,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3780,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4068,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4356,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4644,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4932,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5220,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5508,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5796,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 6084,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 6372,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 6660,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 6948,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 7236,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 7524,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 7812,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 8100,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 8388,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 8676,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 8964,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 9252,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 9540,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 9828,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 10116,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 10404,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 10692,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 10980,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 11268,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 11556,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 11844,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 12132,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 12420,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 12708,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 12996,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 13284,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 13572,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 13860,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 14148,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 14436,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 14724,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 15012,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 15300,
+              "length": 288,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 64000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            }
+          ],
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_count": 30528,
+          "edition": "woodland",
+          "cast_id": 4095,
+          "cast_name": "resniper",
+          "resource_id": 6301,
+          "resource_tag": "ediM",
+          "resource_path": "docs/research-evidence/2026-09-30/director-extraction/woodland/06301-ediM.bin",
+          "resource_sha256": "5a68a855126406dfe7996b450fa986909d0394a2d7d68a4e02ef391980a3d35a",
+          "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-woodland-20150618.dcr",
+          "source_movie_sha256": "d42aaf3cd5c5bdb1decee1f8b48271c7590e49dee9e6d06a0f2954f8c486245c"
+        }
+      ],
+      "identical_edition_resource_bodies": true,
+      "mp3": {
+        "file": "resniper.mp3",
+        "sha256": "bb1ec680ee758ec72843cf680561537dfc879f5261de3c336015c93e4717b108",
+        "bytes": 15264,
+        "transformation": "byte-exact complete frame copy; no re-encoding"
+      },
+      "wav": {
+        "file": "resniper.wav",
+        "sha256": "005b1cc8455263c27384845d0a39e17056b90287b3d4bf63a5a509255491afdd",
+        "bytes": 122170,
+        "codec": "pcm_f32le",
+        "sample_rate": 16000,
+        "channels": 1,
+        "sample_count": 30528,
+        "untrimmed_duration_seconds": 1.908,
+        "finite_nonempty_pcm_verified": true,
+        "peak_absolute_sample": 0.7141688466072083
+      }
+    },
+    "repistol": {
+      "sources": [
+        {
+          "codec": "pcm_u8",
+          "snd_format_type": 2,
+          "reference_count": 0,
+          "command_count": 1,
+          "buffer_command": 32849,
+          "sound_header_offset": 14,
+          "sample_pointer": 0,
+          "declared_sample_count": 6165,
+          "sample_rate_field": 11025,
+          "rate_encoding": "Director plain integer low word",
+          "sample_rate": 11025,
+          "channels": 1,
+          "bits_per_sample": 8,
+          "encoding": 1,
+          "base_frequency": 60,
+          "loop_start": 0,
+          "loop_end": 0,
+          "sample_start_offset": 36,
+          "sample_count": 6165,
+          "edition": "barrack",
+          "cast_id": 2943,
+          "cast_name": "repistol",
+          "resource_id": 4866,
+          "resource_tag": "snd ",
+          "resource_path": "docs/research-evidence/2026-09-30/director-extraction/barrack/04866-snd_.bin",
+          "resource_sha256": "7f8a55e7f17dd50dc8d94f0a29728e35d03413f21c2cb3df1e03d4de297b821f",
+          "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-barrack-20110415.dcr",
+          "source_movie_sha256": "779c2420e2b41848749731762f4b64bb70e05c889bb23f8906563a661991b72a"
+        },
+        {
+          "codec": "pcm_u8",
+          "snd_format_type": 2,
+          "reference_count": 0,
+          "command_count": 1,
+          "buffer_command": 32849,
+          "sound_header_offset": 14,
+          "sample_pointer": 0,
+          "declared_sample_count": 6165,
+          "sample_rate_field": 11025,
+          "rate_encoding": "Director plain integer low word",
+          "sample_rate": 11025,
+          "channels": 1,
+          "bits_per_sample": 8,
+          "encoding": 1,
+          "base_frequency": 60,
+          "loop_start": 0,
+          "loop_end": 0,
+          "sample_start_offset": 36,
+          "sample_count": 6165,
+          "edition": "woodland",
+          "cast_id": 2943,
+          "cast_name": "repistol",
+          "resource_id": 6255,
+          "resource_tag": "snd ",
+          "resource_path": "docs/research-evidence/2026-09-30/director-extraction/woodland/06255-snd_.bin",
+          "resource_sha256": "7f8a55e7f17dd50dc8d94f0a29728e35d03413f21c2cb3df1e03d4de297b821f",
+          "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-woodland-20150618.dcr",
+          "source_movie_sha256": "d42aaf3cd5c5bdb1decee1f8b48271c7590e49dee9e6d06a0f2954f8c486245c"
+        }
+      ],
+      "identical_edition_resource_bodies": true,
+      "pcm": {
+        "file": "repistol.pcm",
+        "sha256": "d6faff0b100fd3007494380644612b8b72bfdfda0ea8827d3089290f1ec63157",
+        "bytes": 6165,
+        "codec": "pcm_u8",
+        "transformation": "byte-exact declared sample copy; WAV conversion (byte-128)/128 is exactly representable"
+      },
+      "wav": {
+        "file": "repistol.wav",
+        "sha256": "8ecb98e450d91add633eaed191c5b3b7e806baa9854629409fed1a0b6140c533",
+        "bytes": 24716,
+        "codec": "pcm_f32le",
+        "sample_rate": 11025,
+        "channels": 1,
+        "sample_count": 6165,
+        "untrimmed_duration_seconds": 0.5591836734693878,
+        "finite_nonempty_pcm_verified": true,
+        "peak_absolute_sample": 0.8125
+      }
+    },
+    "reak47": {
+      "sources": [
+        {
+          "codec": "mpeg_layer_iii",
+          "header_length": 320,
+          "header_u32_fields": [
+            320,
+            3,
+            16000,
+            24000,
+            1393,
+            25077
+          ],
+          "post_header_prefix_hex": "00000000",
+          "mpeg_start_offset": 324,
+          "mpeg_frames": [
+            {
+              "source_offset": 324,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 432,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 540,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 648,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 756,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 864,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 972,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1080,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1188,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1296,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1404,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1512,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1620,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1728,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1836,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1944,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2052,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2160,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2268,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2376,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2484,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2592,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2700,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2808,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2916,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3024,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3132,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3240,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3348,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3456,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3564,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3672,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3780,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3888,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3996,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4104,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4212,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4320,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4428,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4536,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4644,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4752,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4860,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4968,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5076,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5184,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5292,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5400,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5508,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5616,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5724,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5832,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5940,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 6048,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            }
+          ],
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_count": 31104,
+          "edition": "barrack",
+          "cast_id": 3032,
+          "cast_name": "reak47",
+          "resource_id": 4894,
+          "resource_tag": "ediM",
+          "resource_path": "docs/research-evidence/2026-09-30/director-extraction/barrack/04894-ediM.bin",
+          "resource_sha256": "013027492a2b62463f836e4eb7d53289a63b769efba140788d3da4b5c2ef89bd",
+          "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-barrack-20110415.dcr",
+          "source_movie_sha256": "779c2420e2b41848749731762f4b64bb70e05c889bb23f8906563a661991b72a"
+        },
+        {
+          "codec": "mpeg_layer_iii",
+          "header_length": 320,
+          "header_u32_fields": [
+            320,
+            3,
+            16000,
+            24000,
+            1393,
+            25077
+          ],
+          "post_header_prefix_hex": "00000000",
+          "mpeg_start_offset": 324,
+          "mpeg_frames": [
+            {
+              "source_offset": 324,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 432,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 540,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 648,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 756,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 864,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 972,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1080,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1188,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1296,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1404,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1512,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1620,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1728,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1836,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1944,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2052,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2160,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2268,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2376,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2484,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2592,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2700,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2808,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2916,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3024,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3132,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3240,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3348,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3456,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3564,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3672,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3780,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3888,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3996,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4104,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4212,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4320,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4428,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4536,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4644,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4752,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4860,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 4968,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5076,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5184,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5292,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5400,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5508,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5616,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5724,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5832,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 5940,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 6048,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            }
+          ],
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_count": 31104,
+          "edition": "woodland",
+          "cast_id": 3032,
+          "cast_name": "reak47",
+          "resource_id": 6283,
+          "resource_tag": "ediM",
+          "resource_path": "docs/research-evidence/2026-09-30/director-extraction/woodland/06283-ediM.bin",
+          "resource_sha256": "013027492a2b62463f836e4eb7d53289a63b769efba140788d3da4b5c2ef89bd",
+          "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-woodland-20150618.dcr",
+          "source_movie_sha256": "d42aaf3cd5c5bdb1decee1f8b48271c7590e49dee9e6d06a0f2954f8c486245c"
+        }
+      ],
+      "identical_edition_resource_bodies": true,
+      "mp3": {
+        "file": "reak47.mp3",
+        "sha256": "b1919fdce48894226df526d098fdca944075b437a951f82b3090f0fa1261dbaa",
+        "bytes": 5832,
+        "transformation": "byte-exact complete frame copy; no re-encoding"
+      },
+      "wav": {
+        "file": "reak47.wav",
+        "sha256": "949845905e5f2abe6892bf94a9a1f813143de63fb0241e00ecd353e8ba9390c2",
+        "bytes": 124474,
+        "codec": "pcm_f32le",
+        "sample_rate": 16000,
+        "channels": 1,
+        "sample_count": 31104,
+        "untrimmed_duration_seconds": 1.944,
+        "finite_nonempty_pcm_verified": true,
+        "peak_absolute_sample": 0.6880112290382385
+      }
+    },
+    "rerg6": {
+      "sources": [
+        {
+          "codec": "mpeg_layer_iii",
+          "header_length": 320,
+          "header_u32_fields": [
+            320,
+            3,
+            16000,
+            24000,
+            1393,
+            7523
+          ],
+          "post_header_prefix_hex": "00000000",
+          "mpeg_start_offset": 324,
+          "mpeg_frames": [
+            {
+              "source_offset": 324,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 432,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 540,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 648,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 756,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 864,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 972,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1080,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1188,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1296,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1404,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1512,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1620,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1728,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1836,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1944,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2052,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2160,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2268,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2376,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2484,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2592,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2700,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2808,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            }
+          ],
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_count": 13824,
+          "edition": "barrack",
+          "cast_id": 3034,
+          "cast_name": "rerg6",
+          "resource_id": 4900,
+          "resource_tag": "ediM",
+          "resource_path": "docs/research-evidence/2026-09-30/director-extraction/barrack/04900-ediM.bin",
+          "resource_sha256": "a97ad75cbee2f4a1e5394e32d236085f601aaa5aad9906c129121f07240ff00f",
+          "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-barrack-20110415.dcr",
+          "source_movie_sha256": "779c2420e2b41848749731762f4b64bb70e05c889bb23f8906563a661991b72a"
+        },
+        {
+          "codec": "mpeg_layer_iii",
+          "header_length": 320,
+          "header_u32_fields": [
+            320,
+            3,
+            16000,
+            24000,
+            1393,
+            7523
+          ],
+          "post_header_prefix_hex": "00000000",
+          "mpeg_start_offset": 324,
+          "mpeg_frames": [
+            {
+              "source_offset": 324,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 432,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 540,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 648,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 756,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 864,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 972,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1080,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1188,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1296,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1404,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1512,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1620,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1728,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1836,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1944,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2052,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2160,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2268,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2376,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2484,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2592,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2700,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2808,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            }
+          ],
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_count": 13824,
+          "edition": "woodland",
+          "cast_id": 3034,
+          "cast_name": "rerg6",
+          "resource_id": 6289,
+          "resource_tag": "ediM",
+          "resource_path": "docs/research-evidence/2026-09-30/director-extraction/woodland/06289-ediM.bin",
+          "resource_sha256": "a97ad75cbee2f4a1e5394e32d236085f601aaa5aad9906c129121f07240ff00f",
+          "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-woodland-20150618.dcr",
+          "source_movie_sha256": "d42aaf3cd5c5bdb1decee1f8b48271c7590e49dee9e6d06a0f2954f8c486245c"
+        }
+      ],
+      "identical_edition_resource_bodies": true,
+      "mp3": {
+        "file": "rerg6.mp3",
+        "sha256": "e34744dd85f4076e6aa0bdd2346caa2c74a50af2d11c27275ebd202584e620dd",
+        "bytes": 2592,
+        "transformation": "byte-exact complete frame copy; no re-encoding"
+      },
+      "wav": {
+        "file": "rerg6.wav",
+        "sha256": "bdd5bd391a9d733649e35ba373460c613b9e4f49cbb6319b9e811155566c2220",
+        "bytes": 55354,
+        "codec": "pcm_f32le",
+        "sample_rate": 16000,
+        "channels": 1,
+        "sample_count": 13824,
+        "untrimmed_duration_seconds": 0.864,
+        "finite_nonempty_pcm_verified": true,
+        "peak_absolute_sample": 0.5838074088096619
+      }
+    },
+    "grenade1": {
+      "sources": [
+        {
+          "codec": "mpeg_layer_iii",
+          "header_length": 320,
+          "header_u32_fields": [
+            320,
+            3,
+            16000,
+            24000,
+            1393,
+            11656
+          ],
+          "post_header_prefix_hex": "00000000",
+          "mpeg_start_offset": 324,
+          "mpeg_frames": [
+            {
+              "source_offset": 324,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 432,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 540,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 648,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 756,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 864,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 972,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1080,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1188,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1296,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1404,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1512,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1620,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1728,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1836,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1944,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2052,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2160,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2268,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2376,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2484,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2592,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2700,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2808,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2916,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3024,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3132,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3240,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3348,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3456,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3564,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            }
+          ],
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_count": 17856,
+          "edition": "barrack",
+          "cast_id": 3031,
+          "cast_name": "grenade1",
+          "resource_id": 4876,
+          "resource_tag": "ediM",
+          "resource_path": "docs/research-evidence/2026-09-30/director-extraction/barrack/04876-ediM.bin",
+          "resource_sha256": "687b35e1274193f2f0da70a94d206bc72a89b695e35d32c7efcb5f6dddfa88e6",
+          "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-barrack-20110415.dcr",
+          "source_movie_sha256": "779c2420e2b41848749731762f4b64bb70e05c889bb23f8906563a661991b72a"
+        },
+        {
+          "codec": "mpeg_layer_iii",
+          "header_length": 320,
+          "header_u32_fields": [
+            320,
+            3,
+            16000,
+            24000,
+            1393,
+            11656
+          ],
+          "post_header_prefix_hex": "00000000",
+          "mpeg_start_offset": 324,
+          "mpeg_frames": [
+            {
+              "source_offset": 324,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 432,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 540,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 648,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 756,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 864,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 972,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1080,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1188,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1296,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1404,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1512,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1620,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1728,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1836,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1944,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2052,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2160,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2268,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2376,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2484,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2592,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2700,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2808,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2916,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3024,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3132,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3240,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3348,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3456,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3564,
+              "length": 108,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 24000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            }
+          ],
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_count": 17856,
+          "edition": "woodland",
+          "cast_id": 3031,
+          "cast_name": "grenade1",
+          "resource_id": 6265,
+          "resource_tag": "ediM",
+          "resource_path": "docs/research-evidence/2026-09-30/director-extraction/woodland/06265-ediM.bin",
+          "resource_sha256": "687b35e1274193f2f0da70a94d206bc72a89b695e35d32c7efcb5f6dddfa88e6",
+          "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-woodland-20150618.dcr",
+          "source_movie_sha256": "d42aaf3cd5c5bdb1decee1f8b48271c7590e49dee9e6d06a0f2954f8c486245c"
+        }
+      ],
+      "identical_edition_resource_bodies": true,
+      "mp3": {
+        "file": "grenade1.mp3",
+        "sha256": "228c113eaec2251722d29d29003540c4f244693a0987064e064a57cd4a1c5a65",
+        "bytes": 3348,
+        "transformation": "byte-exact complete frame copy; no re-encoding"
+      },
+      "wav": {
+        "file": "grenade1.wav",
+        "sha256": "23e2012ff4f0e7066d829c5bbf281dd86c73660e006800e746e98823f15998c3",
+        "bytes": 71482,
+        "codec": "pcm_f32le",
+        "sample_rate": 16000,
+        "channels": 1,
+        "sample_count": 17856,
+        "untrimmed_duration_seconds": 1.116,
+        "finite_nonempty_pcm_verified": true,
+        "peak_absolute_sample": 0.6937136650085449
+      }
+    },
+    "offrock": {
+      "sources": [
+        {
+          "codec": "mpeg_layer_iii",
+          "header_length": 356,
+          "header_u32_fields": [
+            356,
+            3,
+            22050,
+            32000,
+            1500,
+            13056
+          ],
+          "post_header_prefix_hex": "466ed577",
+          "mpeg_start_offset": 360,
+          "mpeg_frames": [
+            {
+              "source_offset": 360,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 464,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 569,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 673,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 778,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 882,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 987,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1091,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1196,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1300,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1405,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1509,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1614,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1718,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1823,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1927,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2032,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2136,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2241,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2345,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2450,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2554,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2659,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2763,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2868,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2972,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3077,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3181,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            }
+          ],
+          "sample_rate": 22050,
+          "channels": 1,
+          "sample_count": 16128,
+          "edition": "barrack",
+          "cast_id": 515,
+          "cast_name": "offrock",
+          "resource_id": 4852,
+          "resource_tag": "ediM",
+          "resource_path": "docs/research-evidence/2026-09-30/director-extraction/barrack/04852-ediM.bin",
+          "resource_sha256": "4db01ff08aa8db0c52e0c8ec4d7361495b3c5265fdb884805092053f48f929ec",
+          "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-barrack-20110415.dcr",
+          "source_movie_sha256": "779c2420e2b41848749731762f4b64bb70e05c889bb23f8906563a661991b72a"
+        },
+        {
+          "codec": "mpeg_layer_iii",
+          "header_length": 356,
+          "header_u32_fields": [
+            356,
+            3,
+            22050,
+            32000,
+            1500,
+            13056
+          ],
+          "post_header_prefix_hex": "466ed577",
+          "mpeg_start_offset": 360,
+          "mpeg_frames": [
+            {
+              "source_offset": 360,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 464,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 569,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 673,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 778,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 882,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 987,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1091,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1196,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1300,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1405,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1509,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1614,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1718,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1823,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1927,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2032,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2136,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2241,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2345,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2450,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2554,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2659,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2763,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2868,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2972,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3077,
+              "length": 104,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 3181,
+              "length": 105,
+              "sample_rate": 22050,
+              "channels": 1,
+              "bitrate": 32000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            }
+          ],
+          "sample_rate": 22050,
+          "channels": 1,
+          "sample_count": 16128,
+          "edition": "woodland",
+          "cast_id": 515,
+          "cast_name": "offrock",
+          "resource_id": 6241,
+          "resource_tag": "ediM",
+          "resource_path": "docs/research-evidence/2026-09-30/director-extraction/woodland/06241-ediM.bin",
+          "resource_sha256": "4db01ff08aa8db0c52e0c8ec4d7361495b3c5265fdb884805092053f48f929ec",
+          "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-woodland-20150618.dcr",
+          "source_movie_sha256": "d42aaf3cd5c5bdb1decee1f8b48271c7590e49dee9e6d06a0f2954f8c486245c"
+        }
+      ],
+      "identical_edition_resource_bodies": true,
+      "mp3": {
+        "file": "offrock.mp3",
+        "sha256": "da9e62a096743d6132a252272defd5cb32ef10c9aaa391851d3c3c61f10478eb",
+        "bytes": 2926,
+        "transformation": "byte-exact complete frame copy; no re-encoding"
+      },
+      "wav": {
+        "file": "offrock.wav",
+        "sha256": "1645317db432b770645fd782f96ba16015470b234a55cf2a909b5826e6f66f83",
+        "bytes": 64570,
+        "codec": "pcm_f32le",
+        "sample_rate": 22050,
+        "channels": 1,
+        "sample_count": 16128,
+        "untrimmed_duration_seconds": 0.7314285714285714,
+        "finite_nonempty_pcm_verified": true,
+        "peak_absolute_sample": 0.28390535712242126
+      }
+    },
+    "boomnew": {
+      "sources": [
+        {
+          "codec": "pcm_u8",
+          "snd_format_type": 2,
+          "reference_count": 0,
+          "command_count": 1,
+          "buffer_command": 32849,
+          "sound_header_offset": 14,
+          "sample_pointer": 0,
+          "declared_sample_count": 6756,
+          "sample_rate_field": 5500,
+          "rate_encoding": "Director plain integer low word",
+          "sample_rate": 5500,
+          "channels": 1,
+          "bits_per_sample": 8,
+          "encoding": 1,
+          "base_frequency": 60,
+          "loop_start": 0,
+          "loop_end": 0,
+          "sample_start_offset": 36,
+          "sample_count": 6756,
+          "edition": "barrack",
+          "cast_id": 3030,
+          "cast_name": "boomnew",
+          "resource_id": 4872,
+          "resource_tag": "snd ",
+          "resource_path": "docs/research-evidence/2026-09-30/director-extraction/barrack/04872-snd_.bin",
+          "resource_sha256": "2da27d4c3ed8ca6b111eb8ec05ffa20ca74e25e7900857cd571c489a5766a543",
+          "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-barrack-20110415.dcr",
+          "source_movie_sha256": "779c2420e2b41848749731762f4b64bb70e05c889bb23f8906563a661991b72a"
+        },
+        {
+          "codec": "pcm_u8",
+          "snd_format_type": 2,
+          "reference_count": 0,
+          "command_count": 1,
+          "buffer_command": 32849,
+          "sound_header_offset": 14,
+          "sample_pointer": 0,
+          "declared_sample_count": 6756,
+          "sample_rate_field": 5500,
+          "rate_encoding": "Director plain integer low word",
+          "sample_rate": 5500,
+          "channels": 1,
+          "bits_per_sample": 8,
+          "encoding": 1,
+          "base_frequency": 60,
+          "loop_start": 0,
+          "loop_end": 0,
+          "sample_start_offset": 36,
+          "sample_count": 6756,
+          "edition": "woodland",
+          "cast_id": 3030,
+          "cast_name": "boomnew",
+          "resource_id": 6261,
+          "resource_tag": "snd ",
+          "resource_path": "docs/research-evidence/2026-09-30/director-extraction/woodland/06261-snd_.bin",
+          "resource_sha256": "2da27d4c3ed8ca6b111eb8ec05ffa20ca74e25e7900857cd571c489a5766a543",
+          "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-woodland-20150618.dcr",
+          "source_movie_sha256": "d42aaf3cd5c5bdb1decee1f8b48271c7590e49dee9e6d06a0f2954f8c486245c"
+        }
+      ],
+      "identical_edition_resource_bodies": true,
+      "pcm": {
+        "file": "boomnew.pcm",
+        "sha256": "b67ccc67c98f04954189ba198a6f8740fdca6bca4b72b319b186dc605f5d8915",
+        "bytes": 6756,
+        "codec": "pcm_u8",
+        "transformation": "byte-exact declared sample copy; WAV conversion (byte-128)/128 is exactly representable"
+      },
+      "wav": {
+        "file": "boomnew.wav",
+        "sha256": "5ceb60f2ba83c4e2659c05d21a351eb9a8b580dadeb52ed77017af63a17b3dd6",
+        "bytes": 27080,
+        "codec": "pcm_f32le",
+        "sample_rate": 5500,
+        "channels": 1,
+        "sample_count": 6756,
+        "untrimmed_duration_seconds": 1.2283636363636363,
+        "finite_nonempty_pcm_verified": true,
+        "peak_absolute_sample": 0.9453125
+      }
+    },
+    "hurt": {
+      "sources": [
+        {
+          "codec": "mpeg_layer_iii",
+          "header_length": 320,
+          "header_u32_fields": [
+            320,
+            3,
+            16000,
+            16000,
+            1393,
+            8452
+          ],
+          "post_header_prefix_hex": "00000000",
+          "mpeg_start_offset": 324,
+          "mpeg_frames": [
+            {
+              "source_offset": 324,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 396,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 468,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 540,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 612,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 684,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 756,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 828,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 900,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 972,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1044,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1116,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1188,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1260,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1332,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1404,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1476,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1548,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1620,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1692,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1764,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1836,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1908,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1980,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2052,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            }
+          ],
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_count": 14400,
+          "edition": "barrack",
+          "cast_id": 342,
+          "cast_name": "hurt",
+          "resource_id": 4882,
+          "resource_tag": "ediM",
+          "resource_path": "docs/research-evidence/2026-09-30/director-extraction/barrack/04882-ediM.bin",
+          "resource_sha256": "90650f159fce48997d5beb8a37ccd336f798d886383bc0b5ba29cd60b1ad923f",
+          "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-barrack-20110415.dcr",
+          "source_movie_sha256": "779c2420e2b41848749731762f4b64bb70e05c889bb23f8906563a661991b72a"
+        },
+        {
+          "codec": "mpeg_layer_iii",
+          "header_length": 320,
+          "header_u32_fields": [
+            320,
+            3,
+            16000,
+            16000,
+            1393,
+            8452
+          ],
+          "post_header_prefix_hex": "00000000",
+          "mpeg_start_offset": 324,
+          "mpeg_frames": [
+            {
+              "source_offset": 324,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 396,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 468,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 540,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 612,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 684,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 756,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 828,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 900,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 972,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1044,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1116,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1188,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1260,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1332,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1404,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1476,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1548,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1620,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1692,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1764,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1836,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1908,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 1980,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            },
+            {
+              "source_offset": 2052,
+              "length": 72,
+              "sample_rate": 16000,
+              "channels": 1,
+              "bitrate": 16000,
+              "samples": 576,
+              "mpeg_version": 2,
+              "layer": 3
+            }
+          ],
+          "sample_rate": 16000,
+          "channels": 1,
+          "sample_count": 14400,
+          "edition": "woodland",
+          "cast_id": 342,
+          "cast_name": "hurt",
+          "resource_id": 6271,
+          "resource_tag": "ediM",
+          "resource_path": "docs/research-evidence/2026-09-30/director-extraction/woodland/06271-ediM.bin",
+          "resource_sha256": "90650f159fce48997d5beb8a37ccd336f798d886383bc0b5ba29cd60b1ad923f",
+          "source_movie": "docs/research-evidence/2026-09-30/payload-variants/russiasarmy-woodland-20150618.dcr",
+          "source_movie_sha256": "d42aaf3cd5c5bdb1decee1f8b48271c7590e49dee9e6d06a0f2954f8c486245c"
+        }
+      ],
+      "identical_edition_resource_bodies": true,
+      "mp3": {
+        "file": "hurt.mp3",
+        "sha256": "27aee0b9dbdb23bf049a8dad98a9e67945b6735f4f13da6e2c26275c977bd786",
+        "bytes": 1800,
+        "transformation": "byte-exact complete frame copy; no re-encoding"
+      },
+      "wav": {
+        "file": "hurt.wav",
+        "sha256": "9f74f83a3aaeba109a30f8443dc89edd9974b20d1ea65019fa8accc58e96a7e0",
+        "bytes": 57658,
+        "codec": "pcm_f32le",
+        "sample_rate": 16000,
+        "channels": 1,
+        "sample_count": 14400,
+        "untrimmed_duration_seconds": 0.9,
+        "finite_nonempty_pcm_verified": true,
+        "peak_absolute_sample": 0.8587532043457031
+      }
+    }
+  },
+  "limits": [
+    "No original VM, scripts or movie execution.",
+    "Original MPEG compression remains lossy; pre-compression PCM is unavailable.",
+    "Media prefixes and encoder/Director trim fields are recorded, not interpreted as scheduling.",
+    "All decoded frames/samples retained; no resampling, gain adjustment, filtering or lossy re-encoding.",
+    "Native device mixing, channel timing and perceived output have not been measured."
+  ]
+}

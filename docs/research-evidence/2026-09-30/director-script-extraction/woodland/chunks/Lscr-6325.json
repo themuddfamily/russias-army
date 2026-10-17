@@ -1,0 +1,199 @@
+{
+  "totalLength": 1432,
+  "totalLength2": 1432,
+  "headerLength": 92,
+  "scriptNumber": 11,
+  "unk20": 5,
+  "parentNumber": -1,
+  "scriptFlags": 0,
+  "unk42": 0,
+  "castID": 196620,
+  "factoryNameID": -1,
+  "handlerVectorsCount": 0,
+  "handlerVectorsOffset": 1432,
+  "handlerVectorsSize": 0,
+  "propertiesCount": 5,
+  "propertiesOffset": 92,
+  "globalsCount": 3,
+  "globalsOffset": 102,
+  "handlersCount": 4,
+  "handlersOffset": 108,
+  "literalsCount": 18,
+  "literalsOffset": 1054,
+  "literalsDataCount": 234,
+  "literalsDataOffset": 1198,
+  "propertyNameIDs": [
+    67,
+    478,
+    479,
+    481,
+    477
+  ],
+  "globalNameIDs": [
+    68,
+    28,
+    159
+  ],
+  "handlers": [
+    {
+      "nameID": 0,
+      "vectorPos": 65535,
+      "compiledLen": 183,
+      "compiledOffset": 292,
+      "argumentCount": 2,
+      "argumentOffset": 476,
+      "localsCount": 0,
+      "localsOffset": 480,
+      "globalsCount": 0,
+      "globalsOffset": 102,
+      "unknown1": 98,
+      "unknown2": 7,
+      "lineCount": 20,
+      "lineOffset": 480,
+      "stackHeight": 9
+    },
+    {
+      "nameID": 4,
+      "vectorPos": 65535,
+      "compiledLen": 398,
+      "compiledOffset": 500,
+      "argumentCount": 1,
+      "argumentOffset": 898,
+      "localsCount": 3,
+      "localsOffset": 900,
+      "globalsCount": 0,
+      "globalsOffset": 102,
+      "unknown1": 618,
+      "unknown2": 30,
+      "lineCount": 48,
+      "lineOffset": 906,
+      "stackHeight": 11
+    },
+    {
+      "nameID": 318,
+      "vectorPos": 65535,
+      "compiledLen": 17,
+      "compiledOffset": 954,
+      "argumentCount": 1,
+      "argumentOffset": 972,
+      "localsCount": 0,
+      "localsOffset": 974,
+      "globalsCount": 0,
+      "globalsOffset": 102,
+      "unknown1": 2131,
+      "unknown2": 81,
+      "lineCount": 2,
+      "lineOffset": 974,
+      "stackHeight": 2
+    },
+    {
+      "nameID": 482,
+      "vectorPos": 65535,
+      "compiledLen": 65,
+      "compiledOffset": 976,
+      "argumentCount": 1,
+      "argumentOffset": 1042,
+      "localsCount": 1,
+      "localsOffset": 1044,
+      "globalsCount": 0,
+      "globalsOffset": 102,
+      "unknown1": 2207,
+      "unknown2": 86,
+      "lineCount": 7,
+      "lineOffset": 1046,
+      "stackHeight": 6
+    }
+  ],
+  "literals": [
+    {
+      "type": 1,
+      "offset": 0,
+      "value": "anim"
+    },
+    {
+      "type": 1,
+      "offset": 10,
+      "value": "lift"
+    },
+    {
+      "type": 1,
+      "offset": 20,
+      "value": "door"
+    },
+    {
+      "type": 1,
+      "offset": 30,
+      "value": "animswitch"
+    },
+    {
+      "type": 1,
+      "offset": 46,
+      "value": "liftswitch"
+    },
+    {
+      "type": 1,
+      "offset": 62,
+      "value": "lift "
+    },
+    {
+      "type": 1,
+      "offset": 72,
+      "value": "liftswitch2"
+    },
+    {
+      "type": 1,
+      "offset": 88,
+      "value": "Lift activated"
+    },
+    {
+      "type": 1,
+      "offset": 108,
+      "value": "anim "
+    },
+    {
+      "type": 1,
+      "offset": 118,
+      "value": " activated"
+    },
+    {
+      "type": 1,
+      "offset": 134,
+      "value": "open"
+    },
+    {
+      "type": 1,
+      "offset": 144,
+      "value": "_root."
+    },
+    {
+      "type": 1,
+      "offset": 156,
+      "value": "key"
+    },
+    {
+      "type": 1,
+      "offset": 164,
+      "value": "true"
+    },
+    {
+      "type": 1,
+      "offset": 174,
+      "value": "exit"
+    },
+    {
+      "type": 1,
+      "offset": 184,
+      "value": "You need the "
+    },
+    {
+      "type": 1,
+      "offset": 202,
+      "value": " key card!"
+    },
+    {
+      "type": 1,
+      "offset": 218,
+      "value": "liftswitch "
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+property pmod, pos, bangtime
+global gmem, goody, gsmokes
+
+on new me, npos, nnor
+  [  0] pushsymb 129 ............................ <#plane>
+  [  2] pusharglist 1 ........................... <#plane>
+  [  4] extcall 451 ............................. <recyclemodel(#plane)>
+  [  7] setprop 218 ............................. pmod = recyclemodel(#plane)
+  [  9] getprop 218 ............................. <pmod>
+  [ 11] pushzero ................................ <0>
+  [ 12] eq ...................................... <pmod = 0>
+  [ 13] jmpifz [ 22] ............................ if pmod = 0 then
+  [ 16] pusharglist 0 ........................... <>
+  [ 18] extcall 31 .............................. <planemakeme()>
+  [ 20] setprop 218 ............................. pmod = planemakeme()
+  [ 22] getglobal 125 ........................... <goody>
+  [ 24] getobjprop 230 .......................... <goody.weapon>
+  [ 26] pushsymb 301 ............................ <#spas12>
+  [ 29] eq ...................................... <goody.weapon = #spas12>
+  [ 30] jmpifz [ 68] ............................ if goody.weapon = #spas12 then / else
+  [ 33] getprop 218 ............................. <pmod>
+  [ 35] pushcons 0 .............................. <"decalspas">
+  [ 37] pusharglist 1 ........................... <"decalspas">
+  [ 39] extcall 28 .............................. <shady("decalspas")>
+  [ 41] setobjprop 66 ........................... pmod.shaderList = shady("decalspas")
+  [ 43] getprop 218 ............................. <pmod>
+  [ 45] getchainedprop 96 ....................... <pmod.transform>
+  [ 47] pushint8 1 .............................. <1>
+  [ 49] pushint8 1 .............................. <1>
+  [ 51] pushint8 1 .............................. <1>
+  [ 53] pusharglist 3 ........................... <1, 1, 1>
+  [ 55] extcall 34 .............................. <vector(1, 1, 1)>
+  [ 57] pushfloat32 0.5 ......................... <0.5>
+  [ 62] mul ..................................... <vector(1, 1, 1) * 0.5>
+  [ 63] setobjprop 35 ........................... pmod.transform.scale = vector(1, 1, 1) * 0.5
+  [ 65] jmp [ 97]
+  [ 68] getprop 218 ............................. <pmod>
+  [ 70] pushcons 1 .............................. <"decal">
+  [ 72] pusharglist 1 ........................... <"decal">
+  [ 74] extcall 28 .............................. <shady("decal")>
+  [ 76] setobjprop 66 ........................... pmod.shaderList = shady("decal")
+  [ 78] getprop 218 ............................. <pmod>
+  [ 80] getchainedprop 96 ....................... <pmod.transform>
+  [ 82] pushint8 1 .............................. <1>
+  [ 84] pushint8 1 .............................. <1>
+  [ 86] pushint8 1 .............................. <1>
+  [ 88] pusharglist 3 ........................... <1, 1, 1>
+  [ 90] extcall 34 .............................. <vector(1, 1, 1)>
+  [ 92] pushcons 2 .............................. <0.40000000000000002>
+  [ 94] mul ..................................... <vector(1, 1, 1) * 0.40000000000000002>
+  [ 95] setobjprop 35 ........................... pmod.transform.scale = vector(1, 1, 1) * 0.40000000000000002
+  [ 97] getprop 218 ............................. <pmod>
+  [ 99] getchainedprop 67 ....................... <pmod.shader>
+  [101] getchainedprop 68 ....................... <pmod.shader.texture>
+  [103] pushint8 1 .............................. <1>
+  [105] setobjprop 324 .......................... pmod.shader.texture.nearFiltering = 1
+  [108] getprop 218 ............................. <pmod>
+  [110] getchainedprop 67 ....................... <pmod.shader>
+  [112] getchainedprop 68 ....................... <pmod.shader.texture>
+  [114] pushsymb 120 ............................ <#rgba8888>
+  [116] setobjprop 121 .......................... pmod.shader.texture.renderFormat = #rgba8888
+  [118] getprop 218 ............................. <pmod>
+  [120] getchainedprop 67 ....................... <pmod.shader>
+  [122] pushint8 40 ............................. <40>
+  [124] setobjprop 330 .......................... pmod.shader.blend = 40
+  [127] getparam 1 .............................. <npos>
+  [129] setlocal 0 .............................. oldpos = npos
+  [131] getprop 218 ............................. <pmod>
+  [133] getchainedprop 96 ....................... <pmod.transform>
+  [135] getlocal 0 .............................. <oldpos>
+  [137] getparam 2 .............................. <nnor>
+  [139] add ..................................... <oldpos + nnor>
+  [140] setobjprop 36 ........................... pmod.transform.position = oldpos + nnor
+  [142] getprop 218 ............................. <pmod>
+  [144] getlocal 0 .............................. <oldpos>
+  [146] pusharglistnoret 2 ...................... <pmod, oldpos>
+  [148] objcall 504 ............................. pmod.pointAt(oldpos)
+  [151] getprop 218 ............................. <pmod>
+  [153] pushint16 180 ........................... <180>
+  [156] pushzero ................................ <0>
+  [157] pushzero ................................ <0>
+  [158] pushsymb 462 ............................ <#self>
+  [161] pusharglistnoret 5 ...................... <pmod, 180, 0, 0, #self>
+  [163] objcall 463 ............................. pmod.rotate(180, 0, 0, #self)
+  [166] pushint8 80 ............................. <80>
+  [168] setprop 519 ............................. bangtime = 80
+  [171] getprop 218 ............................. <pmod>
+  [173] getglobal 413 ........................... <gsmokes>
+  [176] setobjprop 390 .......................... pmod.parent = gsmokes
+  [179] getmovieprop 52 ......................... <the actorList>
+  [181] getparam 0 .............................. <me>
+  [183] pusharglistnoret 2 ...................... <the actorList, me>
+  [185] objcall 223 ............................. (the actorList).add(me)
+  [187] getparam 0 .............................. <me>
+  [189] pusharglistnoret 1 ...................... <me>
+  [191] extcall 37 .............................. return me
+  [193] ret
+end
+
+on stepFrame me
+  [  0] getprop 218 ............................. <pmod>
+  [  2] pusharglistnoret 1 ...................... <pmod>
+  [  4] objcall 418 ............................. pmod.addToWorld()
+  [  7] getprop 519 ............................. <bangtime>
+  [ 10] pushzero ................................ <0>
+  [ 11] eq ...................................... <bangtime = 0>
+  [ 12] jmpifz [ 33] ............................ if bangtime = 0 then
+  [ 15] pushsymb 129 ............................ <#plane>
+  [ 17] getprop 218 ............................. <pmod>
+  [ 19] pusharglistnoret 2 ...................... <#plane, pmod>
+  [ 21] extcall 474 ............................. storemodel(#plane, pmod)
+  [ 24] getmovieprop 52 ......................... <the actorList>
+  [ 26] getparam 0 .............................. <me>
+  [ 28] pusharglistnoret 2 ...................... <the actorList, me>
+  [ 30] objcall 366 ............................. (the actorList).deleteOne(me)
+  [ 33] getprop 519 ............................. <bangtime>
+  [ 36] pushint8 1 .............................. <1>
+  [ 38] sub ..................................... <bangtime - 1>
+  [ 39] setprop 519 ............................. bangtime = bangtime - 1
+  [ 42] ret
+end
+
+on hurt me
+  [  0] ret
+end

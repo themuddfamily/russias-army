@@ -1,0 +1,2696 @@
+{
+  "parts": [
+    {
+      "resource": "scotspine55",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "barrel",
+      "part": 0,
+      "vertices": 47,
+      "faces": 36,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine24",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine44",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine15",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine05",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine35",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine57",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine59",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine40",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine01",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine39",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine07",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine62",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "cliffview",
+      "part": 0,
+      "vertices": 2226,
+      "faces": 1094,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine03",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "door open 20",
+      "part": 0,
+      "vertices": 24,
+      "faces": 12,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine54",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine60",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine52",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine14",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "hut09",
+      "part": 0,
+      "vertices": 2837,
+      "faces": 1359,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "sheds",
+      "part": 0,
+      "vertices": 210,
+      "faces": 84,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine13",
+      "part": 0,
+      "vertices": 393,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine26",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine49",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "bigredfellaopen",
+      "part": 0,
+      "vertices": 2384,
+      "faces": 1213,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine19",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "door open 09",
+      "part": 0,
+      "vertices": 24,
+      "faces": 12,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "door open 17",
+      "part": 0,
+      "vertices": 14,
+      "faces": 10,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "workshops",
+      "part": 0,
+      "vertices": 190,
+      "faces": 108,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine58",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "plinths",
+      "part": 0,
+      "vertices": 99,
+      "faces": 89,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "plinths",
+      "part": 1,
+      "vertices": 1007,
+      "faces": 416,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine63",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine31",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine43",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "hangar",
+      "part": 0,
+      "vertices": 585,
+      "faces": 376,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine46",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine34",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine53",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine41",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "2story2",
+      "part": 0,
+      "vertices": 507,
+      "faces": 259,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine50",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine06",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine16",
+      "part": 0,
+      "vertices": 393,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "door open 30\t",
+      "part": 0,
+      "vertices": 20,
+      "faces": 10,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine09",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "Object01",
+      "part": 0,
+      "vertices": 170,
+      "faces": 84,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine02",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "weehuthollow",
+      "part": 0,
+      "vertices": 1208,
+      "faces": 567,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine22",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine37",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "door open 5",
+      "part": 0,
+      "vertices": 24,
+      "faces": 12,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "garage",
+      "part": 0,
+      "vertices": 2069,
+      "faces": 872,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "door open 19",
+      "part": 0,
+      "vertices": 13,
+      "faces": 12,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "door open 22",
+      "part": 0,
+      "vertices": 24,
+      "faces": 12,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine17",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "door open 08",
+      "part": 0,
+      "vertices": 24,
+      "faces": 12,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "hangars",
+      "part": 0,
+      "vertices": 424,
+      "faces": 222,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine27",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine25",
+      "part": 0,
+      "vertices": 393,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine11",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine61",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine36",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine10",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine08",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "floor",
+      "part": 0,
+      "vertices": 298,
+      "faces": 574,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "door open 21",
+      "part": 0,
+      "vertices": 24,
+      "faces": 12,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine48",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "door open 18",
+      "part": 0,
+      "vertices": 14,
+      "faces": 10,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine38",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine30",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine51",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine56",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine18",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine33",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine45",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine23",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine28",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine42",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine47",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine04",
+      "part": 0,
+      "vertices": 393,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine20",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine32",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "outerfencing",
+      "part": 0,
+      "vertices": 24,
+      "faces": 8,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "door open 28",
+      "part": 0,
+      "vertices": 19,
+      "faces": 10,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine29",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine21",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "door open 24",
+      "part": 0,
+      "vertices": 18,
+      "faces": 10,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "door open 29",
+      "part": 0,
+      "vertices": 18,
+      "faces": 10,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "scotspine12",
+      "part": 0,
+      "vertices": 392,
+      "faces": 258,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    }
+  ],
+  "validation_failures": [],
+  "world_bounds": [
+    {
+      "model": "hangar",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -528.6534553247343,
+        108.719662722679,
+        -7.6563005447387695
+      ],
+      "original_z_up_max": [
+        1029.1246162134062,
+        587.0717771364073,
+        220.66993713378906
+      ]
+    },
+    {
+      "model": "sheds",
+      "original_parent": "World",
+      "original_z_up_min": [
+        2183.128353529816,
+        -2063.586846717795,
+        402.0215301513672
+      ],
+      "original_z_up_max": [
+        3535.127267209411,
+        3447.425894660094,
+        774.0766296386719
+      ]
+    },
+    {
+      "model": "barrel",
+      "original_parent": "World",
+      "original_z_up_min": [
+        1237.6949005126953,
+        788.2712211608887,
+        0.0
+      ],
+      "original_z_up_max": [
+        1277.6859588623047,
+        826.3188667297363,
+        59.997379302978516
+      ]
+    },
+    {
+      "model": "hangars",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -529.4445843671831,
+        -4956.629548738255,
+        0.0
+      ],
+      "original_z_up_max": [
+        2730.3394002256614,
+        1864.936845621069,
+        366.47119140625
+      ]
+    },
+    {
+      "model": "door open 28",
+      "original_parent": "World",
+      "original_z_up_min": [
+        249.58960136263067,
+        1613.125130134817,
+        1.52587890625e-05
+      ],
+      "original_z_up_max": [
+        253.6448974609375,
+        1713.2890588484508,
+        199.64193725585938
+      ]
+    },
+    {
+      "model": "door open 29",
+      "original_parent": "World",
+      "original_z_up_min": [
+        249.37238126698026,
+        1514.6969053867292,
+        1.52587890625e-05
+      ],
+      "original_z_up_max": [
+        253.4251708984375,
+        1614.8514302973244,
+        199.6419219970703
+      ]
+    },
+    {
+      "model": "door open 24",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -499.58514404296875,
+        1614.8470525614666,
+        1.52587890625e-05
+      ],
+      "original_z_up_max": [
+        -495.52984785893864,
+        1715.010983436124,
+        199.64193725585938
+      ]
+    },
+    {
+      "model": "door open 30\t",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -499.6018415032627,
+        1514.7056884765625,
+        1.52587890625e-05
+      ],
+      "original_z_up_max": [
+        -495.5465725208435,
+        1614.8514394814852,
+        199.6419219970703
+      ]
+    },
+    {
+      "model": "outerfencing",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -5309.571907780599,
+        -5795.397603870137,
+        0.0
+      ],
+      "original_z_up_max": [
+        5735.351448796224,
+        5244.839986682637,
+        241.78466791274332
+      ]
+    },
+    {
+      "model": "weehuthollow",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -1725.1289366161952,
+        -3821.792070091088,
+        307.11566162109375
+      ],
+      "original_z_up_max": [
+        1843.8222598684943,
+        -2384.6653469023076,
+        775.2313842773438
+      ]
+    },
+    {
+      "model": "2story2",
+      "original_parent": "World",
+      "original_z_up_min": [
+        3273.2300342865433,
+        2282.234377440683,
+        401.94769287109375
+      ],
+      "original_z_up_max": [
+        3962.4716122365435,
+        3447.1495492556614,
+        668.1845092773438
+      ]
+    },
+    {
+      "model": "bigredfellaopen",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -4865.92316471551,
+        -5353.240090493188,
+        -7.634552001953125
+      ],
+      "original_z_up_max": [
+        3566.3302536564247,
+        3101.897753352487,
+        876.0797119140625
+      ]
+    },
+    {
+      "model": "door open 20",
+      "original_parent": "World",
+      "original_z_up_min": [
+        247.6908938884735,
+        -459.0929870605469,
+        181.28125
+      ],
+      "original_z_up_max": [
+        250.9942775476311,
+        -396.79784696021824,
+        309.21752166748047
+      ]
+    },
+    {
+      "model": "Object01",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -2309.2526903132975,
+        -2947.1104475693714,
+        533.4664306640625
+      ],
+      "original_z_up_max": [
+        -2202.0080597613896,
+        -2489.2144463820446,
+        612.2933731079102
+      ]
+    },
+    {
+      "model": "door open 17",
+      "original_parent": "World",
+      "original_z_up_min": [
+        494.97526836395264,
+        -2921.243740081787,
+        307.1156005859375
+      ],
+      "original_z_up_max": [
+        501.4536647796631,
+        -2865.642364501953,
+        424.38819122314453
+      ]
+    },
+    {
+      "model": "door open 19",
+      "original_parent": "World",
+      "original_z_up_min": [
+        565.2191162109375,
+        -2406.7741475105286,
+        307.11566162109375
+      ],
+      "original_z_up_max": [
+        621.5273666381836,
+        -2403.257080078125,
+        410.1305694580078
+      ]
+    },
+    {
+      "model": "door open 18",
+      "original_parent": "World",
+      "original_z_up_min": [
+        494.9696044921875,
+        -2865.6562690734863,
+        307.1156005859375
+      ],
+      "original_z_up_max": [
+        501.4479970932007,
+        -2810.054931640625,
+        424.38812255859375
+      ]
+    },
+    {
+      "model": "door open 22",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -1512.1104206213654,
+        -3101.9039918083868,
+        543.0378341674805
+      ],
+      "original_z_up_max": [
+        -1455.9544709554016,
+        -3092.8831224123833,
+        673.9899978637695
+      ]
+    },
+    {
+      "model": "cliffview",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -2164.6866841249994,
+        -3126.4512099485887,
+        508.38877868652344
+      ],
+      "original_z_up_max": [
+        2730.895497049263,
+        -2178.8224905222837,
+        909.078857421875
+      ]
+    },
+    {
+      "model": "plinths",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -2369.142578125,
+        -4153.72802734375,
+        -536.9689865488399
+      ],
+      "original_z_up_max": [
+        4108.578369140625,
+        3549.2198486328125,
+        583.5427752767318
+      ]
+    },
+    {
+      "model": "workshops",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -4945.261175496433,
+        1877.5384297010014,
+        0.0
+      ],
+      "original_z_up_max": [
+        -3918.1861399239306,
+        3808.39986375603,
+        197.26150512695312
+      ]
+    },
+    {
+      "model": "garage",
+      "original_parent": "World",
+      "original_z_up_min": [
+        2564.7933313654426,
+        2232.750907031861,
+        401.99058987663176
+      ],
+      "original_z_up_max": [
+        3207.7911968847266,
+        2834.530616978513,
+        759.1381936550908
+      ]
+    },
+    {
+      "model": "door open 21",
+      "original_parent": "World",
+      "original_z_up_min": [
+        2583.48377947897,
+        2691.3678357242143,
+        409.7844044565071
+      ],
+      "original_z_up_max": [
+        2587.0406424996854,
+        2746.658472874295,
+        519.6441256189175
+      ]
+    },
+    {
+      "model": "door open 08",
+      "original_parent": "World",
+      "original_z_up_min": [
+        2339.0141594520037,
+        -950.1516027322099,
+        501.65102914097423
+      ],
+      "original_z_up_max": [
+        2395.443359375,
+        -945.5641140238603,
+        619.8884243499258
+      ]
+    },
+    {
+      "model": "door open 09",
+      "original_parent": "World",
+      "original_z_up_min": [
+        2134.056313419515,
+        -717.3930041149896,
+        501.6510314941406
+      ],
+      "original_z_up_max": [
+        2193.091032582013,
+        -707.6947209099444,
+        618.1876642439562
+      ]
+    },
+    {
+      "model": "door open 5",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -92.07816382331727,
+        -3630.382080078125,
+        526.2086653410224
+      ],
+      "original_z_up_max": [
+        54.70667881483132,
+        -3626.5138142633273,
+        647.9635620117188
+      ]
+    },
+    {
+      "model": "hut09",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -1773.8627319335938,
+        -3678.3438720703125,
+        295.6273498535156
+      ],
+      "original_z_up_max": [
+        3942.4696044921875,
+        1695.310546875,
+        724.2651519775391
+      ]
+    },
+    {
+      "model": "scotspine",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -4219.240158081055,
+        -1650.1900177001953,
+        -9.371578216552734
+      ],
+      "original_z_up_max": [
+        -3902.112762451172,
+        -1272.6411437988281,
+        406.1369972229004
+      ]
+    },
+    {
+      "model": "scotspine01",
+      "original_parent": "World",
+      "original_z_up_min": [
+        960.8032989501953,
+        1361.5100555419922,
+        -24.079498291015625
+      ],
+      "original_z_up_max": [
+        1277.9306945800781,
+        1739.0589294433594,
+        391.4290771484375
+      ]
+    },
+    {
+      "model": "scotspine02",
+      "original_parent": "World",
+      "original_z_up_min": [
+        2270.9549102783203,
+        5977.42546081543,
+        0.0
+      ],
+      "original_z_up_max": [
+        2588.082305908203,
+        6354.974334716797,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine03",
+      "original_parent": "World",
+      "original_z_up_min": [
+        6552.544021606445,
+        -5120.30989074707,
+        0.0
+      ],
+      "original_z_up_max": [
+        6869.671417236328,
+        -4742.761016845703,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine04",
+      "original_parent": "World",
+      "original_z_up_min": [
+        1245.786827357124,
+        -2336.7400109807077,
+        120.23246765136719
+      ],
+      "original_z_up_max": [
+        1607.3120538386465,
+        -1906.334300134029,
+        593.9122377084459
+      ]
+    },
+    {
+      "model": "scotspine05",
+      "original_parent": "World",
+      "original_z_up_min": [
+        1560.7307891845703,
+        -5817.62190246582,
+        0.0
+      ],
+      "original_z_up_max": [
+        1877.8581848144531,
+        -5440.073028564453,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine06",
+      "original_parent": "World",
+      "original_z_up_min": [
+        1726.4943821197212,
+        5724.812228265322,
+        0.0
+      ],
+      "original_z_up_max": [
+        2103.8759632609253,
+        6174.095364804136,
+        494.45517901605854
+      ]
+    },
+    {
+      "model": "scotspine07",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -4098.343734921025,
+        -4797.666317142419,
+        0.0
+      ],
+      "original_z_up_max": [
+        -3705.105761315608,
+        -4329.505709904137,
+        515.2306375075204
+      ]
+    },
+    {
+      "model": "scotspine08",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -6388.947677612305,
+        -131.6178741455078,
+        0.0
+      ],
+      "original_z_up_max": [
+        -6071.820281982422,
+        245.93099975585938,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine09",
+      "original_parent": "World",
+      "original_z_up_min": [
+        2184.0123780632766,
+        1525.3952497732625,
+        -21.16143798828125
+      ],
+      "original_z_up_max": [
+        2529.6812498851177,
+        1936.923534927806,
+        431.74292310981764
+      ]
+    },
+    {
+      "model": "scotspine10",
+      "original_parent": "World",
+      "original_z_up_min": [
+        2041.331390425813,
+        2216.8574629220793,
+        -3.346160888671875
+      ],
+      "original_z_up_max": [
+        2339.431141561812,
+        2571.753403489218,
+        387.2318990337644
+      ]
+    },
+    {
+      "model": "scotspine11",
+      "original_parent": "World",
+      "original_z_up_min": [
+        2032.5200958251953,
+        -307.3428497314453,
+        12.209426879882812
+      ],
+      "original_z_up_max": [
+        2349.647491455078,
+        70.20602416992188,
+        427.71800231933594
+      ]
+    },
+    {
+      "model": "scotspine12",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -5085.687423706055,
+        4594.01481628418,
+        0.0
+      ],
+      "original_z_up_max": [
+        -4768.560028076172,
+        4971.563690185547,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine13",
+      "original_parent": "World",
+      "original_z_up_min": [
+        629.5345014706782,
+        3208.391230802028,
+        0.0
+      ],
+      "original_z_up_max": [
+        1010.0873535438186,
+        3661.449852479269,
+        498.6102608078545
+      ]
+    },
+    {
+      "model": "scotspine14",
+      "original_parent": "World",
+      "original_z_up_min": [
+        520.6363677978516,
+        -849.8769683837891,
+        -2.201751708984375
+      ],
+      "original_z_up_max": [
+        837.7637634277344,
+        -472.3280944824219,
+        413.30682373046875
+      ]
+    },
+    {
+      "model": "scotspine15",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -3473.5675506591797,
+        3572.5392303466797,
+        0.0
+      ],
+      "original_z_up_max": [
+        -3156.440155029297,
+        3950.088104248047,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine16",
+      "original_parent": "World",
+      "original_z_up_min": [
+        3482.8010156997234,
+        -5173.36164855957,
+        0.0
+      ],
+      "original_z_up_max": [
+        3771.386916235382,
+        -4795.812774658203,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine17",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -2120.9130096435547,
+        -1954.0637969970703,
+        113.96035766601562
+      ],
+      "original_z_up_max": [
+        -1803.7856140136719,
+        -1576.5149230957031,
+        529.4689331054688
+      ]
+    },
+    {
+      "model": "scotspine18",
+      "original_parent": "World",
+      "original_z_up_min": [
+        1547.261124163757,
+        -2088.6689812745353,
+        178.01834106445312
+      ],
+      "original_z_up_max": [
+        1826.333166145876,
+        -1756.426059332156,
+        543.6657822264606
+      ]
+    },
+    {
+      "model": "scotspine19",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -3894.3531951904297,
+        -3909.5921173095703,
+        0.0
+      ],
+      "original_z_up_max": [
+        -3577.225799560547,
+        -3532.043243408203,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine20",
+      "original_parent": "World",
+      "original_z_up_min": [
+        4942.201248168945,
+        3359.6534881591797,
+        0.0
+      ],
+      "original_z_up_max": [
+        5259.328643798828,
+        3737.202362060547,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine21",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -4436.754318237305,
+        -2274.2586212158203,
+        0.0
+      ],
+      "original_z_up_max": [
+        -4119.626922607422,
+        -1896.7097473144531,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine22",
+      "original_parent": "World",
+      "original_z_up_min": [
+        2038.6156930377438,
+        1856.7091034122896,
+        0.0
+      ],
+      "original_z_up_max": [
+        2292.3175944198374,
+        2158.74818453045,
+        332.40684053856967
+      ]
+    },
+    {
+      "model": "scotspine23",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -6256.330490112305,
+        -4614.96028137207,
+        0.0
+      ],
+      "original_z_up_max": [
+        -5939.203094482422,
+        -4237.411407470703,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine24",
+      "original_parent": "World",
+      "original_z_up_min": [
+        3635.6621856689453,
+        -1158.6002960205078,
+        34.0606689453125
+      ],
+      "original_z_up_max": [
+        3952.789581298828,
+        -781.0514221191406,
+        449.5692443847656
+      ]
+    },
+    {
+      "model": "scotspine25",
+      "original_parent": "World",
+      "original_z_up_min": [
+        327.4403163254683,
+        1120.2984018169154,
+        0.0
+      ],
+      "original_z_up_max": [
+        663.595337546969,
+        1520.5001865488448,
+        440.4390661902289
+      ]
+    },
+    {
+      "model": "scotspine26",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -1148.3285369873047,
+        5984.37321472168,
+        0.0
+      ],
+      "original_z_up_max": [
+        -831.2011413574219,
+        6361.922088623047,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine27",
+      "original_parent": "World",
+      "original_z_up_min": [
+        2366.1634063720703,
+        1389.4449920654297,
+        3.277655839920044
+      ],
+      "original_z_up_max": [
+        2683.290802001953,
+        1766.9938659667969,
+        418.78623127937317
+      ]
+    },
+    {
+      "model": "scotspine28",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -5819.868576049805,
+        1133.5575408935547,
+        0.0
+      ],
+      "original_z_up_max": [
+        -5502.741180419922,
+        1511.1064147949219,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine29",
+      "original_parent": "World",
+      "original_z_up_min": [
+        2432.5203399658203,
+        -5567.62727355957,
+        0.0
+      ],
+      "original_z_up_max": [
+        2749.647735595703,
+        -5190.078399658203,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine30",
+      "original_parent": "World",
+      "original_z_up_min": [
+        4325.056961245598,
+        -5521.19075012207,
+        45.32756042480469
+      ],
+      "original_z_up_max": [
+        4664.3102068337685,
+        -5143.641876220703,
+        460.8361358642578
+      ]
+    },
+    {
+      "model": "scotspine31",
+      "original_parent": "World",
+      "original_z_up_min": [
+        2652.8589630126953,
+        -7333.69856262207,
+        0.0
+      ],
+      "original_z_up_max": [
+        2969.986358642578,
+        -6956.149688720703,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine32",
+      "original_parent": "World",
+      "original_z_up_min": [
+        266.4805450439453,
+        -2228.3892364501953,
+        0.0
+      ],
+      "original_z_up_max": [
+        583.6079406738281,
+        -1850.8403625488281,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine33",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -6924.661544799805,
+        -1082.1461944580078,
+        0.0
+      ],
+      "original_z_up_max": [
+        -6607.534149169922,
+        -704.5973205566406,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine34",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -2667.6022186279297,
+        -2570.8919219970703,
+        -7.701395034790039
+      ],
+      "original_z_up_max": [
+        -2350.474822998047,
+        -2193.343048095703,
+        407.8071804046631
+      ]
+    },
+    {
+      "model": "scotspine35",
+      "original_parent": "World",
+      "original_z_up_min": [
+        2632.5203399658203,
+        -4245.95588684082,
+        29.244293212890625
+      ],
+      "original_z_up_max": [
+        2949.647735595703,
+        -3868.407012939453,
+        444.75286865234375
+      ]
+    },
+    {
+      "model": "scotspine36",
+      "original_parent": "World",
+      "original_z_up_min": [
+        4540.506423950195,
+        -4864.85041809082,
+        0.0
+      ],
+      "original_z_up_max": [
+        4857.633819580078,
+        -4487.301544189453,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine37",
+      "original_parent": "World",
+      "original_z_up_min": [
+        1464.4911651611328,
+        -1723.5540313720703,
+        101.8062744140625
+      ],
+      "original_z_up_max": [
+        1781.6185607910156,
+        -1346.0051574707031,
+        517.3148498535156
+      ]
+    },
+    {
+      "model": "scotspine38",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -1415.4626922607422,
+        3503.1129608154297,
+        152.0124053955078
+      ],
+      "original_z_up_max": [
+        -1098.3352966308594,
+        3880.661834716797,
+        567.5209808349609
+      ]
+    },
+    {
+      "model": "scotspine39",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -3870.333533971001,
+        -6436.856710199458,
+        0.0
+      ],
+      "original_z_up_max": [
+        -3508.8083074894785,
+        -6006.450999352779,
+        473.6797700570787
+      ]
+    },
+    {
+      "model": "scotspine40",
+      "original_parent": "World",
+      "original_z_up_min": [
+        2832.5203399658203,
+        789.4449920654297,
+        0.0
+      ],
+      "original_z_up_max": [
+        3149.647735595703,
+        1166.9938659667969,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine41",
+      "original_parent": "World",
+      "original_z_up_min": [
+        2809.6856231689453,
+        -494.4513702392578,
+        46.46913146972656
+      ],
+      "original_z_up_max": [
+        3126.813018798828,
+        -116.90249633789062,
+        461.9777069091797
+      ]
+    },
+    {
+      "model": "scotspine42",
+      "original_parent": "World",
+      "original_z_up_min": [
+        3768.8667801365573,
+        -5578.75007368309,
+        0.0
+      ],
+      "original_z_up_max": [
+        4139.905819413889,
+        -5137.01790742113,
+        486.1450154324666
+      ]
+    },
+    {
+      "model": "scotspine43",
+      "original_parent": "World",
+      "original_z_up_min": [
+        2587.6826934814453,
+        -360.80128479003906,
+        41.59687805175781
+      ],
+      "original_z_up_max": [
+        2904.810089111328,
+        16.747589111328125,
+        457.10545349121094
+      ]
+    },
+    {
+      "model": "scotspine44",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -6896.929122924805,
+        -331.2069854736328,
+        0.0
+      ],
+      "original_z_up_max": [
+        -6579.801727294922,
+        46.341888427734375,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine45",
+      "original_parent": "World",
+      "original_z_up_min": [
+        3943.6721954345703,
+        -3364.6131134033203,
+        0.0
+      ],
+      "original_z_up_max": [
+        4260.799591064453,
+        -2987.064239501953,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine46",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -1848.9508819105122,
+        3571.169432863594,
+        161.16448974609375
+      ],
+      "original_z_up_max": [
+        -1563.5362797726075,
+        3910.9633466709647,
+        535.1221180372286
+      ]
+    },
+    {
+      "model": "scotspine47",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -4548.242599487305,
+        4085.2633514404297,
+        0.0
+      ],
+      "original_z_up_max": [
+        -4231.115203857422,
+        4462.812225341797,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine48",
+      "original_parent": "World",
+      "original_z_up_min": [
+        7410.083572387695,
+        274.0277557373047,
+        0.0
+      ],
+      "original_z_up_max": [
+        7727.210968017578,
+        651.5766296386719,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine49",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -2706.9277304703955,
+        -3226.1227244549136,
+        -35.28645324707031
+      ],
+      "original_z_up_max": [
+        -2348.5737749208092,
+        -2799.492498746662,
+        434.23823501821244
+      ]
+    },
+    {
+      "model": "scotspine50",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -5839.288497924805,
+        4209.34147644043,
+        0.0
+      ],
+      "original_z_up_max": [
+        -5522.161102294922,
+        4586.890350341797,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine51",
+      "original_parent": "World",
+      "original_z_up_min": [
+        2408.9802396883497,
+        -570.7166711463251,
+        55.6055908203125
+      ],
+      "original_z_up_max": [
+        2802.218213293767,
+        -102.55606390804314,
+        570.8362283278329
+      ]
+    },
+    {
+      "model": "scotspine52",
+      "original_parent": "World",
+      "original_z_up_min": [
+        4318.194900512695,
+        -5055.18977355957,
+        0.0
+      ],
+      "original_z_up_max": [
+        4635.322296142578,
+        -4677.640899658203,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine53",
+      "original_parent": "World",
+      "original_z_up_min": [
+        2937.8914337158203,
+        -4016.1638946533203,
+        77.37812805175781
+      ],
+      "original_z_up_max": [
+        3255.018829345703,
+        -3638.615020751953,
+        492.88670349121094
+      ]
+    },
+    {
+      "model": "scotspine54",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -7041.533615112305,
+        232.44554138183594,
+        0.0
+      ],
+      "original_z_up_max": [
+        -6724.406219482422,
+        609.9944152832031,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine55",
+      "original_parent": "World",
+      "original_z_up_min": [
+        7109.983474731445,
+        1289.7863006591797,
+        0.0
+      ],
+      "original_z_up_max": [
+        7427.110870361328,
+        1667.3351745605469,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine56",
+      "original_parent": "World",
+      "original_z_up_min": [
+        7111.455642700195,
+        -4148.06819152832,
+        0.0
+      ],
+      "original_z_up_max": [
+        7428.583038330078,
+        -3770.519317626953,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine57",
+      "original_parent": "World",
+      "original_z_up_min": [
+        3684.4095001220703,
+        743.2008514404297,
+        0.0
+      ],
+      "original_z_up_max": [
+        4001.536895751953,
+        1120.7497253417969,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine58",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -3625.9613494873047,
+        -5722.04475402832,
+        0.0
+      ],
+      "original_z_up_max": [
+        -3308.833953857422,
+        -5344.495880126953,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine59",
+      "original_parent": "World",
+      "original_z_up_min": [
+        6662.887283325195,
+        -3689.9739532470703,
+        0.0
+      ],
+      "original_z_up_max": [
+        6980.014678955078,
+        -3312.425079345703,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine60",
+      "original_parent": "World",
+      "original_z_up_min": [
+        292.0311127608056,
+        6630.37321472168,
+        0.0
+      ],
+      "original_z_up_max": [
+        571.1032194029212,
+        7007.922088623047,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "scotspine61",
+      "original_parent": "World",
+      "original_z_up_min": [
+        4558.127103845405,
+        39.866922613042334,
+        -77.09596252441406
+      ],
+      "original_z_up_max": [
+        4919.5745050105215,
+        470.27263345972096,
+        396.58380753266465
+      ]
+    },
+    {
+      "model": "scotspine62",
+      "original_parent": "World",
+      "original_z_up_min": [
+        913.4938010270362,
+        1052.167737882648,
+        -26.0186767578125
+      ],
+      "original_z_up_max": [
+        1189.3946367372155,
+        1380.6352599771308,
+        335.473785855811
+      ]
+    },
+    {
+      "model": "scotspine63",
+      "original_parent": "World",
+      "original_z_up_min": [
+        384.18629455566406,
+        3117.9352264404297,
+        0.0
+      ],
+      "original_z_up_max": [
+        701.3136901855469,
+        3495.484100341797,
+        415.5085754394531
+      ]
+    },
+    {
+      "model": "floor",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -8139.4658203125,
+        -8542.8515625,
+        -60.774879455566406
+      ],
+      "original_z_up_max": [
+        8510.3193359375,
+        7985.3837890625,
+        473.53759765625
+      ]
+    }
+  ],
+  "declared_original_vertices": 39637,
+  "declared_original_faces": 24017,
+  "parse_errors": [],
+  "skeletons_decoded": 0,
+  "motions_decoded": 13,
+  "synthetic_defaultmodel_excluded": true
+}

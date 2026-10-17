@@ -1,0 +1,754 @@
+{
+  "passive": true,
+  "originalRuntimeExecuted": false,
+  "productionEdited": false,
+  "scope": "Every recovered .ls script in both extracted editions; no claim about nested UI or score sound channels",
+  "editions": {
+    "barrack": {
+      "scriptCount": 26,
+      "scripts": [
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/BehaviorScript 2 - flashlobby.ls",
+          "sha256": "2f7e0a83619ed5a0e60b351a8666992c986843e3c0973c1770e263a9252833f0",
+          "bytes": 1204
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/BehaviorScript 3 - joinroom.ls",
+          "sha256": "c700518d734897d3c0150f669149a12f310ee2a4406e659dc2cac6a66b42a2b8",
+          "bytes": 1013
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/BehaviorScript 32 - explore.ls",
+          "sha256": "3f351df99fc63409d6b6f43addd56e2c71d55ed33938ff437485dadad4d5ed63",
+          "bytes": 3171
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/BehaviorScript 33 - running game.ls",
+          "sha256": "dca2604634f7834caf344da5aec731f9f36e60c514d355dc867a68f8cf25ad2d",
+          "bytes": 33
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/BehaviorScript 34 - endgame.ls",
+          "sha256": "72e2bb4a9e62f800fb064fb7e3925fe3e0e77494a72b5f8f352f38a3734ecd38",
+          "bytes": 1033
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/BehaviorScript 35 - submit.ls",
+          "sha256": "57a8cac33ed7ae7525ef8cfce93ea0a19f5b3fc6211d217f30a52c7bda40f526",
+          "bytes": 848
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/MovieScript 1 - generics.ls",
+          "sha256": "5a8fb889e19dfcf7b415b31839ea90fd2f337864919e005e9f023d0e68b70ff3",
+          "bytes": 3974
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/MovieScript 24 - recycle and reuse.ls",
+          "sha256": "7cc976e678d791af943086c10cf0fc4523dc4c8fc56ea7a0c448a892ac67583e",
+          "bytes": 1050
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/MovieScript 4 - M U S.ls",
+          "sha256": "59a99a5f2533ac4b03db54f89c87475f7eacca8f1f007a08ee051d88aeb6b70d",
+          "bytes": 8032
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 10 - barrels.ls",
+          "sha256": "f132a4d9ae542f6f6c0cc72e550d3ffdb4f2ad7f0489cbb89471fba55c3e1b90",
+          "bytes": 583
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 11 - doors.ls",
+          "sha256": "0dc17a47a3c3baf9177c223dbece9f8de75a690787978445206468d7524f73c6",
+          "bytes": 1330
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 12 - hotspots.ls",
+          "sha256": "6531aade52d8750c0e938f8dac28e89d3fbe3023f5aa77beb2855a636b65e93d",
+          "bytes": 2579
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 13 - pickups.ls",
+          "sha256": "428f34c9fcb37998ef4248d190ab270c0a6f2a3770843c847cb2079ebc9789f6",
+          "bytes": 1762
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 14 - grenades.ls",
+          "sha256": "6b66dde46caac8492cf81cecc7d4cc811c3fc39e2c041cbbb0c276d0f9ddc7ab",
+          "bytes": 1461
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 15 - rockets.ls",
+          "sha256": "80b520d2b85f8336e78ce88d2e4f2812d4652d9fdb27f349cda80f8f7fbc60e6",
+          "bytes": 1859
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 16 - puff.ls",
+          "sha256": "a5411b6f4092ed61fb540e013e034fbda5a3d78dad5d2ac211045128426ab5d4",
+          "bytes": 963
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 17 - bangs.ls",
+          "sha256": "7a59298720976f98932e08ab3cd703d3f3ed57c4444f4fbccf5c27475a14f939",
+          "bytes": 1620
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 18 - miss.ls",
+          "sha256": "3f34ca67b5789271343ca742f4320d0e80958d60155b57e4fc844a6463223ff1",
+          "bytes": 889
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 19 - blood.ls",
+          "sha256": "0416e7fad29dd87f47d94f2757102301f235b391e92369e9fc31994caef10dca",
+          "bytes": 1144
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 20 - muzzle.ls",
+          "sha256": "6ac1f93db2682e85b60178aebca2b85eb87405aa82b77dedde4c08f788325e3a",
+          "bytes": 1096
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 21 - worldphysics.ls",
+          "sha256": "d0cacb163e27b9ffea63eabc56713fbe9c373f55d77b092007b9f89b56d5a8d8",
+          "bytes": 2895
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 5 - goody.ls",
+          "sha256": "e5e67dcd378dfce9c33f0d598a85857dfe026c16eaa8f509c3f153007dc7c9f8",
+          "bytes": 8677
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 6 - weaponry.ls",
+          "sha256": "f585b9f0bf0fce613229f631af4697871218165b28098780e8f86064418373ef",
+          "bytes": 10864
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 7 - sniper.ls",
+          "sha256": "19b8d36635595a5049f0935e87eb0c4e2627236217a7246cb3113cda91a20a8b",
+          "bytes": 1116
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 8 - baddies.ls",
+          "sha256": "7f6a5de789f340d1adf7904a9b15e702b96f4359c41b43805db9b6fc840c9a61",
+          "bytes": 4006
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 9 - fadeaway.ls",
+          "sha256": "f7fc81c7d3663ab47109a877672533ae2d071da5d1524f0e62cc60a4ed80c0dc",
+          "bytes": 783
+        }
+      ],
+      "playSoundInvocationCount": 17,
+      "playSoundInvocations": [
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 11 - doors.ls",
+          "line": 49,
+          "text": "playsound(pmod.transform.position, \"door\")"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 14 - grenades.ls",
+          "line": 8,
+          "text": "playsound(pos, \"grenade1\", 7)"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 15 - rockets.ls",
+          "line": 9,
+          "text": "playsound(pos, \"offrock\", 7)"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 17 - bangs.ls",
+          "line": 6,
+          "text": "playsound(npos, \"boomnew\")"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 5 - goody.ls",
+          "line": 84,
+          "text": "playsound()"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 5 - goody.ls",
+          "line": 278,
+          "text": "playsound(0, \"hurtme\", 8)"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 6 - weaponry.ls",
+          "line": 178,
+          "text": "playsound(0, \"gunfire\", 6)"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 6 - weaponry.ls",
+          "line": 181,
+          "text": "playsound(0, \"spas12wav\", 6)"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 6 - weaponry.ls",
+          "line": 189,
+          "text": "playsound(0, \"gunfire\", 6)"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 6 - weaponry.ls",
+          "line": 198,
+          "text": "playsound(0, \"resniper\", 6)"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 6 - weaponry.ls",
+          "line": 349,
+          "text": "playsound(0, vson, 6)"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 8 - baddies.ls",
+          "line": 128,
+          "text": "playsound(pos, \"hurt\")"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 8 - baddies.ls",
+          "line": 137,
+          "text": "playsound(pos, \"gunfire\")"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 8 - baddies.ls",
+          "line": 142,
+          "text": "playsound(pos, \"spas12wav\")"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 8 - baddies.ls",
+          "line": 146,
+          "text": "playsound(pos, \"gunfire\")"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 8 - baddies.ls",
+          "line": 150,
+          "text": "playsound(pos, \"resniper\")"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 9 - fadeaway.ls",
+          "line": 7,
+          "text": "playsound(pos, \"hurt\")"
+        }
+      ],
+      "audioTermLines": [
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/MovieScript 1 - generics.ls",
+          "line": 89,
+          "text": "if not soundBusy(chan) then"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/MovieScript 1 - generics.ls",
+          "line": 90,
+          "text": "puppetSound(chan, 0)"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/MovieScript 1 - generics.ls",
+          "line": 91,
+          "text": "sound(chan).play([#member: mem, #loopCount: 1])"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/MovieScript 1 - generics.ls",
+          "line": 92,
+          "text": "sound(chan).volume = numvol"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/MovieScript 1 - generics.ls",
+          "line": 93,
+          "text": "sound(chan).pan = vpan"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/MovieScript 1 - generics.ls",
+          "line": 98,
+          "text": "puppetSound(chan, 0)"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/MovieScript 1 - generics.ls",
+          "line": 99,
+          "text": "sound(chan).play([#member: mem, #loopCount: 1])"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/MovieScript 1 - generics.ls",
+          "line": 100,
+          "text": "sound(chan).volume = numvol"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/MovieScript 1 - generics.ls",
+          "line": 101,
+          "text": "sound(chan).pan = vpan"
+        }
+      ],
+      "namedSoundCasts": [
+        {
+          "id": 142,
+          "name": "gunfire",
+          "member_type": 6,
+          "info_length": 118,
+          "specific_data_length": 0
+        },
+        {
+          "id": 342,
+          "name": "hurt",
+          "member_type": 6,
+          "info_length": 115,
+          "specific_data_length": 0
+        },
+        {
+          "id": 515,
+          "name": "offrock",
+          "member_type": 6,
+          "info_length": 118,
+          "specific_data_length": 0
+        },
+        {
+          "id": 516,
+          "name": "spas12wav",
+          "member_type": 6,
+          "info_length": 120,
+          "specific_data_length": 0
+        },
+        {
+          "id": 2943,
+          "name": "repistol",
+          "member_type": 6,
+          "info_length": 43,
+          "specific_data_length": 0
+        },
+        {
+          "id": 3030,
+          "name": "boomnew",
+          "member_type": 6,
+          "info_length": 42,
+          "specific_data_length": 0
+        },
+        {
+          "id": 3031,
+          "name": "grenade1",
+          "member_type": 6,
+          "info_length": 119,
+          "specific_data_length": 0
+        },
+        {
+          "id": 3032,
+          "name": "reak47",
+          "member_type": 6,
+          "info_length": 117,
+          "specific_data_length": 0
+        },
+        {
+          "id": 3034,
+          "name": "rerg6",
+          "member_type": 6,
+          "info_length": 116,
+          "specific_data_length": 0
+        },
+        {
+          "id": 3680,
+          "name": "door",
+          "member_type": 6,
+          "info_length": 115,
+          "specific_data_length": 0
+        },
+        {
+          "id": 3909,
+          "name": "hurtme",
+          "member_type": 6,
+          "info_length": 117,
+          "specific_data_length": 0
+        },
+        {
+          "id": 4683,
+          "name": "resniper",
+          "member_type": 6,
+          "info_length": 119,
+          "specific_data_length": 0
+        }
+      ],
+      "castMediaIndex": {
+        "path": "docs/research-evidence/2026-09-30/director-extraction/barrack/cast-media-index.json",
+        "sha256": "e4838790d3b2a6ca7fcc64204fe07368b0a5ed9adf48c41521c91a38262822e9"
+      }
+    },
+    "woodland": {
+      "scriptCount": 26,
+      "scripts": [
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/BehaviorScript 2 - flashlobby.ls",
+          "sha256": "2f7e0a83619ed5a0e60b351a8666992c986843e3c0973c1770e263a9252833f0",
+          "bytes": 1204
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/BehaviorScript 3 - joinroom.ls",
+          "sha256": "c700518d734897d3c0150f669149a12f310ee2a4406e659dc2cac6a66b42a2b8",
+          "bytes": 1013
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/BehaviorScript 32 - explore.ls",
+          "sha256": "af3c03894bd87347219cf1c2d049b53d66e6e7c6ebc4c4f8b7859201a128bff0",
+          "bytes": 3277
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/BehaviorScript 33 - running game.ls",
+          "sha256": "dca2604634f7834caf344da5aec731f9f36e60c514d355dc867a68f8cf25ad2d",
+          "bytes": 33
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/BehaviorScript 34 - endgame.ls",
+          "sha256": "72e2bb4a9e62f800fb064fb7e3925fe3e0e77494a72b5f8f352f38a3734ecd38",
+          "bytes": 1033
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/BehaviorScript 35 - submit.ls",
+          "sha256": "f8bde07a02d5916b3a30fd58796c2cd1dbca43bf661d4fdcc69623aa87852f49",
+          "bytes": 831
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/MovieScript 1 - generics.ls",
+          "sha256": "294d86b894b0471cedcff8a486706fa7551ba5cb921cb394236822eaf9bdbc44",
+          "bytes": 3956
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/MovieScript 24 - recycle and reuse.ls",
+          "sha256": "7cc976e678d791af943086c10cf0fc4523dc4c8fc56ea7a0c448a892ac67583e",
+          "bytes": 1050
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/MovieScript 4 - M U S.ls",
+          "sha256": "8b34c07fc4d94f6b40d25aff6d29e3cd4fb0e6f564c81dc5ba0575d20e00b18f",
+          "bytes": 8007
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 10 - barrels.ls",
+          "sha256": "f132a4d9ae542f6f6c0cc72e550d3ffdb4f2ad7f0489cbb89471fba55c3e1b90",
+          "bytes": 583
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 11 - doors.ls",
+          "sha256": "0dc17a47a3c3baf9177c223dbece9f8de75a690787978445206468d7524f73c6",
+          "bytes": 1330
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 12 - hotspots.ls",
+          "sha256": "6531aade52d8750c0e938f8dac28e89d3fbe3023f5aa77beb2855a636b65e93d",
+          "bytes": 2579
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 13 - pickups.ls",
+          "sha256": "428f34c9fcb37998ef4248d190ab270c0a6f2a3770843c847cb2079ebc9789f6",
+          "bytes": 1762
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 14 - grenades.ls",
+          "sha256": "6b66dde46caac8492cf81cecc7d4cc811c3fc39e2c041cbbb0c276d0f9ddc7ab",
+          "bytes": 1461
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 15 - rockets.ls",
+          "sha256": "80b520d2b85f8336e78ce88d2e4f2812d4652d9fdb27f349cda80f8f7fbc60e6",
+          "bytes": 1859
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 16 - puff.ls",
+          "sha256": "a5411b6f4092ed61fb540e013e034fbda5a3d78dad5d2ac211045128426ab5d4",
+          "bytes": 963
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 17 - bangs.ls",
+          "sha256": "7a59298720976f98932e08ab3cd703d3f3ed57c4444f4fbccf5c27475a14f939",
+          "bytes": 1620
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 18 - miss.ls",
+          "sha256": "3f34ca67b5789271343ca742f4320d0e80958d60155b57e4fc844a6463223ff1",
+          "bytes": 889
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 19 - blood.ls",
+          "sha256": "0416e7fad29dd87f47d94f2757102301f235b391e92369e9fc31994caef10dca",
+          "bytes": 1144
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 20 - muzzle.ls",
+          "sha256": "6ac1f93db2682e85b60178aebca2b85eb87405aa82b77dedde4c08f788325e3a",
+          "bytes": 1096
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 21 - worldphysics.ls",
+          "sha256": "d0cacb163e27b9ffea63eabc56713fbe9c373f55d77b092007b9f89b56d5a8d8",
+          "bytes": 2895
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 5 - goody.ls",
+          "sha256": "6d1b8229158c635eaa6a418d762866a91f27abf78757e812b6e5c7f0670b1297",
+          "bytes": 9021
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 6 - weaponry.ls",
+          "sha256": "082d419d7e9a973651e5144a6c780437906a62e8dcc35ef3663fd5e206b9b216",
+          "bytes": 10541
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 7 - sniper.ls",
+          "sha256": "711256e34a960b958303efe44d1549134c308bf8d441d24c03b37e9e84fe3e7a",
+          "bytes": 1157
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 8 - baddies.ls",
+          "sha256": "7f6a5de789f340d1adf7904a9b15e702b96f4359c41b43805db9b6fc840c9a61",
+          "bytes": 4006
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 9 - fadeaway.ls",
+          "sha256": "f7fc81c7d3663ab47109a877672533ae2d071da5d1524f0e62cc60a4ed80c0dc",
+          "bytes": 783
+        }
+      ],
+      "playSoundInvocationCount": 17,
+      "playSoundInvocations": [
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 11 - doors.ls",
+          "line": 49,
+          "text": "playsound(pmod.transform.position, \"door\")"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 14 - grenades.ls",
+          "line": 8,
+          "text": "playsound(pos, \"grenade1\", 7)"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 15 - rockets.ls",
+          "line": 9,
+          "text": "playsound(pos, \"offrock\", 7)"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 17 - bangs.ls",
+          "line": 6,
+          "text": "playsound(npos, \"boomnew\")"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 5 - goody.ls",
+          "line": 85,
+          "text": "playsound()"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 5 - goody.ls",
+          "line": 282,
+          "text": "playsound(0, \"hurtme\", 8)"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 6 - weaponry.ls",
+          "line": 166,
+          "text": "playsound(0, \"gunfire\", 6)"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 6 - weaponry.ls",
+          "line": 170,
+          "text": "playsound(0, \"spas12wav\", 6)"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 6 - weaponry.ls",
+          "line": 179,
+          "text": "playsound(0, \"gunfire\", 6)"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 6 - weaponry.ls",
+          "line": 191,
+          "text": "playsound(0, \"resniper\", 6)"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 6 - weaponry.ls",
+          "line": 342,
+          "text": "playsound(0, vson, 6)"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 8 - baddies.ls",
+          "line": 128,
+          "text": "playsound(pos, \"hurt\")"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 8 - baddies.ls",
+          "line": 137,
+          "text": "playsound(pos, \"gunfire\")"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 8 - baddies.ls",
+          "line": 142,
+          "text": "playsound(pos, \"spas12wav\")"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 8 - baddies.ls",
+          "line": 146,
+          "text": "playsound(pos, \"gunfire\")"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 8 - baddies.ls",
+          "line": 150,
+          "text": "playsound(pos, \"resniper\")"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 9 - fadeaway.ls",
+          "line": 7,
+          "text": "playsound(pos, \"hurt\")"
+        }
+      ],
+      "audioTermLines": [
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/MovieScript 1 - generics.ls",
+          "line": 89,
+          "text": "if not soundBusy(chan) then"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/MovieScript 1 - generics.ls",
+          "line": 90,
+          "text": "puppetSound(chan, 0)"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/MovieScript 1 - generics.ls",
+          "line": 91,
+          "text": "sound(chan).play([#member: mem, #loopCount: 1])"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/MovieScript 1 - generics.ls",
+          "line": 92,
+          "text": "sound(chan).volume = numvol"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/MovieScript 1 - generics.ls",
+          "line": 93,
+          "text": "sound(chan).pan = vpan"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/MovieScript 1 - generics.ls",
+          "line": 98,
+          "text": "puppetSound(chan, 0)"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/MovieScript 1 - generics.ls",
+          "line": 99,
+          "text": "sound(chan).play([#member: mem, #loopCount: 1])"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/MovieScript 1 - generics.ls",
+          "line": 100,
+          "text": "sound(chan).volume = numvol"
+        },
+        {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/MovieScript 1 - generics.ls",
+          "line": 101,
+          "text": "sound(chan).pan = vpan"
+        }
+      ],
+      "namedSoundCasts": [
+        {
+          "id": 142,
+          "name": "gunfire",
+          "member_type": 6,
+          "info_length": 118,
+          "specific_data_length": 0
+        },
+        {
+          "id": 342,
+          "name": "hurt",
+          "member_type": 6,
+          "info_length": 115,
+          "specific_data_length": 0
+        },
+        {
+          "id": 515,
+          "name": "offrock",
+          "member_type": 6,
+          "info_length": 118,
+          "specific_data_length": 0
+        },
+        {
+          "id": 516,
+          "name": "spas12wav",
+          "member_type": 6,
+          "info_length": 120,
+          "specific_data_length": 0
+        },
+        {
+          "id": 2943,
+          "name": "repistol",
+          "member_type": 6,
+          "info_length": 43,
+          "specific_data_length": 0
+        },
+        {
+          "id": 3030,
+          "name": "boomnew",
+          "member_type": 6,
+          "info_length": 42,
+          "specific_data_length": 0
+        },
+        {
+          "id": 3031,
+          "name": "grenade1",
+          "member_type": 6,
+          "info_length": 119,
+          "specific_data_length": 0
+        },
+        {
+          "id": 3032,
+          "name": "reak47",
+          "member_type": 6,
+          "info_length": 117,
+          "specific_data_length": 0
+        },
+        {
+          "id": 3034,
+          "name": "rerg6",
+          "member_type": 6,
+          "info_length": 116,
+          "specific_data_length": 0
+        },
+        {
+          "id": 3680,
+          "name": "door",
+          "member_type": 6,
+          "info_length": 115,
+          "specific_data_length": 0
+        },
+        {
+          "id": 3909,
+          "name": "hurtme",
+          "member_type": 6,
+          "info_length": 117,
+          "specific_data_length": 0
+        },
+        {
+          "id": 4095,
+          "name": "resniper",
+          "member_type": 6,
+          "info_length": 119,
+          "specific_data_length": 0
+        }
+      ],
+      "castMediaIndex": {
+        "path": "docs/research-evidence/2026-09-30/director-extraction/woodland/cast-media-index.json",
+        "sha256": "33c9c1ad73f0e89ef46cb1a4f0a7033cec94ca331587271afbad7761458c07fa"
+      }
+    }
+  },
+  "currentAdapters": [
+    {
+      "path": "src/audio.ts",
+      "sha256": "45c71197f75e95bddd551ab5e37fc7745dc77fb690fe6b344f740af98e2df890"
+    },
+    {
+      "path": "src/originalCombatAudio.ts",
+      "sha256": "e507199a5677fc945b6d9d2e0f97b5c017f2b79cb71ac701fb0c2490d0811b6d"
+    },
+    {
+      "path": "src/game.ts",
+      "sha256": "81cbc8d31bcd9ba3a227834e388bcd5f019ccc3ea6d5f96597afc368505f56ba"
+    },
+    {
+      "path": "src/originalCombatAudio.test.ts",
+      "sha256": "af63e9f033edc5678dca13cb6747d8de800a240f75e8d5dfad9480edb3a2593d"
+    },
+    {
+      "path": "src/originalCombatGameplay.test.ts",
+      "sha256": "e253f9d7e0a8aa600a17124410b600db87edba554c61edd297831789bdd19223"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-01/ORIGINAL_COMBAT_AUDIO_INTEGRATION.md",
+      "sha256": "0cf90f730d88c076dcfe1ab89683cf79e245118dfc9277691476b85487032805"
+    }
+  ]
+}

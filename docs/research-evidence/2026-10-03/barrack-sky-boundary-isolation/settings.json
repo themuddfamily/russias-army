@@ -1,0 +1,156 @@
+{
+  "baselineSettings": {
+    "wrapS": 1000,
+    "wrapT": 1000,
+    "minFilter": 1006,
+    "magFilter": 1003,
+    "repeat": [
+      10,
+      0.9900990099009901
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "generateMipmaps": false,
+    "flipY": false,
+    "colorSpace": "srgb"
+  },
+  "interventionSettings": {
+    "wrapS": 1000,
+    "wrapT": 1001,
+    "minFilter": 1006,
+    "magFilter": 1003,
+    "repeat": [
+      10,
+      0.9900990099009901
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "generateMipmaps": false,
+    "flipY": false,
+    "colorSpace": "srgb"
+  },
+  "points": [
+    {
+      "index": 0,
+      "x": -557.7708606287841,
+      "y": -53.14877870601325
+    },
+    {
+      "index": 1,
+      "x": -119438.04776960699,
+      "y": -36923.79646855766
+    },
+    {
+      "index": 9,
+      "x": 291438.01726332266,
+      "y": -36923.79646855197
+    },
+    {
+      "index": 10,
+      "x": 3402.890382410943,
+      "y": -53.14877870601287
+    },
+    {
+      "index": 11,
+      "x": 1979.1214283832007,
+      "y": 116.64011760248928
+    },
+    {
+      "index": 12,
+      "x": 1466.6722769064104,
+      "y": 169.73753619824274
+    },
+    {
+      "index": 13,
+      "x": 1181.6114063603022,
+      "y": 193.07910512257627
+    },
+    {
+      "index": 14,
+      "x": 984.3700641132759,
+      "y": 203.75466894436445
+    },
+    {
+      "index": 15,
+      "x": 826.0402420149921,
+      "y": 206.89769379233476
+    },
+    {
+      "index": 16,
+      "x": 682.1299631015427,
+      "y": 203.75466894436445
+    },
+    {
+      "index": 17,
+      "x": 533.8658835223997,
+      "y": 193.0791051225762
+    },
+    {
+      "index": 18,
+      "x": 355.8912682197265,
+      "y": 169.7375361982427
+    },
+    {
+      "index": 19,
+      "x": 87.04201094647942,
+      "y": 116.64011760248917
+    },
+    {
+      "index": 20,
+      "x": -557.7708606287831,
+      "y": -53.14877870601293
+    }
+  ],
+  "runtime": {
+    "backgroundRgb": [
+      141,
+      160,
+      174
+    ],
+    "caps": false,
+    "height": 2000,
+    "nearFiltering": false,
+    "position": [
+      0,
+      0,
+      1000
+    ],
+    "quality": "low",
+    "radius": 8033.711181640625,
+    "renderFormat": "rgba8888",
+    "rotationDegrees": [
+      90,
+      0,
+      0
+    ],
+    "sourceFloorBoundingSphere": [
+      -64.5810546875,
+      0.77734375,
+      207.40025329589844,
+      8456.5380859375
+    ],
+    "texture": "sky",
+    "textureScale": [
+      0.1,
+      1.01,
+      1.01
+    ],
+    "visibility": "back"
+  },
+  "scale": 0.02023529411764706,
+  "renderer": {
+    "antialias": true,
+    "pixelRatio": 1,
+    "width": 1280,
+    "height": 576,
+    "outputColorSpace": "srgb",
+    "toneMapping": 4,
+    "exposure": 1.02,
+    "glRenderer": "WebKit WebGL"
+  },
+  "errors": []
+}

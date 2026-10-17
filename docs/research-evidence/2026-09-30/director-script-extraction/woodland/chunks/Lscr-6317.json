@@ -1,0 +1,152 @@
+{
+  "totalLength": 822,
+  "totalLength2": 822,
+  "headerLength": 92,
+  "scriptNumber": 3,
+  "unk20": 5,
+  "parentNumber": -1,
+  "scriptFlags": 0,
+  "unk42": 0,
+  "castID": 196611,
+  "factoryNameID": -1,
+  "handlerVectorsCount": 16,
+  "handlerVectorsOffset": 790,
+  "handlerVectorsSize": 33153,
+  "propertiesCount": 4,
+  "propertiesOffset": 92,
+  "globalsCount": 5,
+  "globalsOffset": 100,
+  "handlersCount": 5,
+  "handlersOffset": 110,
+  "literalsCount": 5,
+  "literalsOffset": 670,
+  "literalsDataCount": 80,
+  "literalsDataOffset": 710,
+  "propertyNameIDs": [
+    266,
+    267,
+    275,
+    283
+  ],
+  "globalNameIDs": [
+    182,
+    257,
+    269,
+    268,
+    181
+  ],
+  "handlers": [
+    {
+      "nameID": 270,
+      "vectorPos": 65535,
+      "compiledLen": 30,
+      "compiledOffset": 340,
+      "argumentCount": 1,
+      "argumentOffset": 370,
+      "localsCount": 0,
+      "localsOffset": 372,
+      "globalsCount": 0,
+      "globalsOffset": 100,
+      "unknown1": 113,
+      "unknown2": 6,
+      "lineCount": 3,
+      "lineOffset": 372,
+      "stackHeight": 2
+    },
+    {
+      "nameID": 271,
+      "vectorPos": 0,
+      "compiledLen": 101,
+      "compiledOffset": 376,
+      "argumentCount": 1,
+      "argumentOffset": 478,
+      "localsCount": 3,
+      "localsOffset": 480,
+      "globalsCount": 0,
+      "globalsOffset": 100,
+      "unknown1": 199,
+      "unknown2": 12,
+      "lineCount": 14,
+      "lineOffset": 486,
+      "stackHeight": 5
+    },
+    {
+      "nameID": 254,
+      "vectorPos": 15,
+      "compiledLen": 102,
+      "compiledOffset": 500,
+      "argumentCount": 1,
+      "argumentOffset": 602,
+      "localsCount": 2,
+      "localsOffset": 604,
+      "globalsCount": 0,
+      "globalsOffset": 100,
+      "unknown1": 577,
+      "unknown2": 29,
+      "lineCount": 11,
+      "lineOffset": 608,
+      "stackHeight": 5
+    },
+    {
+      "nameID": 272,
+      "vectorPos": 7,
+      "compiledLen": 14,
+      "compiledOffset": 620,
+      "argumentCount": 1,
+      "argumentOffset": 634,
+      "localsCount": 0,
+      "localsOffset": 636,
+      "globalsCount": 0,
+      "globalsOffset": 100,
+      "unknown1": 910,
+      "unknown2": 43,
+      "lineCount": 2,
+      "lineOffset": 636,
+      "stackHeight": 2
+    },
+    {
+      "nameID": 273,
+      "vectorPos": 8,
+      "compiledLen": 25,
+      "compiledOffset": 638,
+      "argumentCount": 1,
+      "argumentOffset": 664,
+      "localsCount": 0,
+      "localsOffset": 666,
+      "globalsCount": 0,
+      "globalsOffset": 100,
+      "unknown1": 960,
+      "unknown2": 48,
+      "lineCount": 3,
+      "lineOffset": 666,
+      "stackHeight": 5
+    }
+  ],
+  "literals": [
+    {
+      "type": 1,
+      "offset": 0,
+      "value": "Full"
+    },
+    {
+      "type": 1,
+      "offset": 10,
+      "value": "Room full, please reselect"
+    },
+    {
+      "type": 1,
+      "offset": 42,
+      "value": "system.group.join"
+    },
+    {
+      "type": 1,
+      "offset": 64,
+      "value": ""
+    },
+    {
+      "type": 1,
+      "offset": 70,
+      "value": "rooms"
+    }
+  ]
+}

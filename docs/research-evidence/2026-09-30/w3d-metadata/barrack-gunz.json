@@ -1,0 +1,1252 @@
+{
+  "edition": "barrack",
+  "cast_name": "gunz",
+  "cast_id": 4515,
+  "resource_id": 4985,
+  "source_sha256": "c1cae7dcc06db22c605f10754e156ddf7bb186efad70caf10f008e4bca616336",
+  "wrapper_offset": 16,
+  "ifx_header_size": 8,
+  "ifx_version": 17,
+  "declared_length_matches": true,
+  "blocks": [
+    {
+      "offset": 16,
+      "type": "ffffff01",
+      "bytes": 4
+    },
+    {
+      "offset": 28,
+      "type": "ffffff02",
+      "bytes": 3
+    },
+    {
+      "offset": 40,
+      "type": "ffffff72",
+      "bytes": 107
+    },
+    {
+      "offset": 156,
+      "type": "ffffff72",
+      "bytes": 110
+    },
+    {
+      "offset": 276,
+      "type": "ffffff72",
+      "bytes": 116
+    },
+    {
+      "offset": 400,
+      "type": "ffffff72",
+      "bytes": 107
+    },
+    {
+      "offset": 516,
+      "type": "ffffff72",
+      "bytes": 125
+    },
+    {
+      "offset": 652,
+      "type": "ffffff72",
+      "bytes": 128
+    },
+    {
+      "offset": 788,
+      "type": "ffffff72",
+      "bytes": 116
+    },
+    {
+      "offset": 912,
+      "type": "ffffff72",
+      "bytes": 122
+    },
+    {
+      "offset": 1044,
+      "type": "ffffff72",
+      "bytes": 122
+    },
+    {
+      "offset": 1176,
+      "type": "ffffff72",
+      "bytes": 116
+    },
+    {
+      "offset": 1300,
+      "type": "ffffff72",
+      "bytes": 122
+    },
+    {
+      "offset": 1432,
+      "type": "ffffff72",
+      "bytes": 128
+    },
+    {
+      "offset": 1568,
+      "type": "ffffff74",
+      "bytes": 202
+    },
+    {
+      "offset": 1780,
+      "type": "ffffff71",
+      "bytes": 111
+    },
+    {
+      "offset": 1900,
+      "type": "ffffff50",
+      "bytes": 53
+    },
+    {
+      "offset": 1964,
+      "type": "ffffff10",
+      "bytes": 81
+    },
+    {
+      "offset": 2056,
+      "type": "ffffff10",
+      "bytes": 82
+    },
+    {
+      "offset": 2148,
+      "type": "ffffff10",
+      "bytes": 84
+    },
+    {
+      "offset": 2240,
+      "type": "ffffff10",
+      "bytes": 81
+    },
+    {
+      "offset": 2332,
+      "type": "ffffff10",
+      "bytes": 89
+    },
+    {
+      "offset": 2432,
+      "type": "ffffff10",
+      "bytes": 84
+    },
+    {
+      "offset": 2524,
+      "type": "ffffff10",
+      "bytes": 86
+    },
+    {
+      "offset": 2620,
+      "type": "ffffff10",
+      "bytes": 100
+    },
+    {
+      "offset": 2728,
+      "type": "ffffff36",
+      "bytes": 163
+    },
+    {
+      "offset": 2900,
+      "type": "ffffff36",
+      "bytes": 166
+    },
+    {
+      "offset": 3076,
+      "type": "ffffff36",
+      "bytes": 172
+    },
+    {
+      "offset": 3256,
+      "type": "ffffff36",
+      "bytes": 163
+    },
+    {
+      "offset": 3428,
+      "type": "ffffff36",
+      "bytes": 187
+    },
+    {
+      "offset": 3624,
+      "type": "ffffff36",
+      "bytes": 172
+    },
+    {
+      "offset": 3804,
+      "type": "ffffff36",
+      "bytes": 178
+    },
+    {
+      "offset": 3992,
+      "type": "ffffff45",
+      "bytes": 119
+    },
+    {
+      "offset": 4120,
+      "type": "ffffff45",
+      "bytes": 122
+    },
+    {
+      "offset": 4252,
+      "type": "ffffff45",
+      "bytes": 128
+    },
+    {
+      "offset": 4388,
+      "type": "ffffff45",
+      "bytes": 119
+    },
+    {
+      "offset": 4516,
+      "type": "ffffff45",
+      "bytes": 131
+    },
+    {
+      "offset": 4656,
+      "type": "ffffff45",
+      "bytes": 133
+    },
+    {
+      "offset": 4800,
+      "type": "ffffff45",
+      "bytes": 133
+    },
+    {
+      "offset": 4944,
+      "type": "ffffff45",
+      "bytes": 137
+    },
+    {
+      "offset": 5092,
+      "type": "ffffff45",
+      "bytes": 137
+    },
+    {
+      "offset": 5240,
+      "type": "ffffff45",
+      "bytes": 128
+    },
+    {
+      "offset": 5376,
+      "type": "ffffff45",
+      "bytes": 134
+    },
+    {
+      "offset": 5520,
+      "type": "ffffff45",
+      "bytes": 141
+    },
+    {
+      "offset": 5672,
+      "type": "ffffff47",
+      "bytes": 38
+    },
+    {
+      "offset": 5720,
+      "type": "ffffff47",
+      "bytes": 38
+    },
+    {
+      "offset": 5768,
+      "type": "ffffff47",
+      "bytes": 36
+    },
+    {
+      "offset": 5812,
+      "type": "ffffff47",
+      "bytes": 48
+    },
+    {
+      "offset": 5868,
+      "type": "ffffff47",
+      "bytes": 25
+    },
+    {
+      "offset": 5904,
+      "type": "ffffff47",
+      "bytes": 26
+    },
+    {
+      "offset": 5940,
+      "type": "ffffff47",
+      "bytes": 25
+    },
+    {
+      "offset": 5976,
+      "type": "ffffff47",
+      "bytes": 27
+    },
+    {
+      "offset": 6012,
+      "type": "ffffff47",
+      "bytes": 27
+    },
+    {
+      "offset": 6048,
+      "type": "ffffff47",
+      "bytes": 28
+    },
+    {
+      "offset": 6084,
+      "type": "ffffff47",
+      "bytes": 49
+    },
+    {
+      "offset": 6144,
+      "type": "ffffff47",
+      "bytes": 29
+    },
+    {
+      "offset": 6184,
+      "type": "ffffff48",
+      "bytes": 411
+    },
+    {
+      "offset": 6604,
+      "type": "ffffff48",
+      "bytes": 331
+    },
+    {
+      "offset": 6944,
+      "type": "ffffff48",
+      "bytes": 316
+    },
+    {
+      "offset": 7268,
+      "type": "ffffff48",
+      "bytes": 180
+    },
+    {
+      "offset": 7456,
+      "type": "ffffff48",
+      "bytes": 24
+    },
+    {
+      "offset": 7488,
+      "type": "ffffff48",
+      "bytes": 25
+    },
+    {
+      "offset": 7524,
+      "type": "ffffff48",
+      "bytes": 21
+    },
+    {
+      "offset": 7556,
+      "type": "ffffff48",
+      "bytes": 23
+    },
+    {
+      "offset": 7588,
+      "type": "ffffff48",
+      "bytes": 23
+    },
+    {
+      "offset": 7620,
+      "type": "ffffff48",
+      "bytes": 104
+    },
+    {
+      "offset": 7732,
+      "type": "ffffff48",
+      "bytes": 503
+    },
+    {
+      "offset": 8244,
+      "type": "ffffff48",
+      "bytes": 25
+    },
+    {
+      "offset": 8280,
+      "type": "ffffff01",
+      "bytes": 4
+    },
+    {
+      "offset": 8292,
+      "type": "ffffff49",
+      "bytes": 19361
+    },
+    {
+      "offset": 27664,
+      "type": "ffffff49",
+      "bytes": 17857
+    },
+    {
+      "offset": 45532,
+      "type": "ffffff49",
+      "bytes": 16006
+    },
+    {
+      "offset": 61548,
+      "type": "ffffff49",
+      "bytes": 12497
+    },
+    {
+      "offset": 74056,
+      "type": "ffffff49",
+      "bytes": 4271
+    },
+    {
+      "offset": 78336,
+      "type": "ffffff49",
+      "bytes": 4077
+    },
+    {
+      "offset": 82424,
+      "type": "ffffff49",
+      "bytes": 428
+    },
+    {
+      "offset": 82860,
+      "type": "ffffff49",
+      "bytes": 379
+    },
+    {
+      "offset": 83248,
+      "type": "ffffff49",
+      "bytes": 431
+    },
+    {
+      "offset": 83688,
+      "type": "ffffff49",
+      "bytes": 6334
+    },
+    {
+      "offset": 90032,
+      "type": "ffffff49",
+      "bytes": 14706
+    },
+    {
+      "offset": 104748,
+      "type": "ffffff49",
+      "bytes": 419
+    },
+    {
+      "offset": 105176,
+      "type": "ffffff01",
+      "bytes": 4
+    },
+    {
+      "offset": 105188,
+      "type": "ffffff49",
+      "bytes": 15440
+    }
+  ],
+  "block_counts": {
+    "ffffff01": 3,
+    "ffffff02": 1,
+    "ffffff72": 12,
+    "ffffff74": 1,
+    "ffffff71": 1,
+    "ffffff50": 1,
+    "ffffff10": 8,
+    "ffffff36": 7,
+    "ffffff45": 12,
+    "ffffff47": 12,
+    "ffffff48": 12,
+    "ffffff49": 13
+  },
+  "nodes": [
+    {
+      "name": "rpg",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        3.1054230476001976e-07,
+        0.0,
+        1.0
+      ],
+      "model_resource": "rpg",
+      "style": "rpg",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        0.0,
+        3.1054230476001976e-07,
+        0.0
+      ]
+    },
+    {
+      "name": "ak47",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -3.132051062948449e-07,
+        0.0,
+        1.0
+      ],
+      "model_resource": "ak47",
+      "style": "ak47",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        0.0,
+        -3.132051062948449e-07,
+        0.0
+      ]
+    },
+    {
+      "name": "spas12",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -7.473769301213906e-07,
+        0.0,
+        1.0
+      ],
+      "model_resource": "spas12",
+      "style": "spas12",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        0.0,
+        -7.473769301213906e-07,
+        0.0
+      ]
+    },
+    {
+      "name": "rg6",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        -8.742277657347586e-08,
+        -8.742277657347586e-08,
+        0.0,
+        8.742278367890322e-08,
+        1.0,
+        8.742277657347586e-08,
+        0.0,
+        8.74227694680485e-08,
+        -8.742278367890322e-08,
+        1.0,
+        0.0,
+        0.0,
+        1.019244351141424e-07,
+        0.0,
+        1.0
+      ],
+      "model_resource": "rg6",
+      "style": "rg6",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        0.0,
+        1.019244351141424e-07,
+        0.0
+      ]
+    },
+    {
+      "name": "rpgrocket",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "model_resource": "rpgrocket",
+      "style": "rpgrocket",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "rg6grenade",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "model_resource": "rg6grenade",
+      "style": "rg6grenade",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "mfak47",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.7484555314695172e-07,
+        0.0,
+        0.0,
+        -1.7484555314695172e-07,
+        1.0,
+        0.0,
+        0.0,
+        -2.2720195147485356e-07,
+        0.0,
+        1.0
+      ],
+      "model_resource": "mfak47",
+      "style": "mfak47",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        0.0,
+        -2.2720195147485356e-07,
+        0.0
+      ]
+    },
+    {
+      "name": "mfspas12",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.7484555314695172e-07,
+        0.0,
+        0.0,
+        -1.7484555314695172e-07,
+        1.0,
+        0.0,
+        0.0,
+        5.753389586971025e-07,
+        0.0,
+        1.0
+      ],
+      "model_resource": "mfspas12",
+      "style": "mfspas12",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        0.0,
+        5.753389586971025e-07,
+        0.0
+      ]
+    },
+    {
+      "name": "mfpistol",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.7484555314695172e-07,
+        0.0,
+        0.0,
+        -1.7484555314695172e-07,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "model_resource": "mfpistol",
+      "style": "mfpistol",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "pistol",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -2.7041446628572885e-06,
+        0.0,
+        1.0
+      ],
+      "model_resource": "pistol",
+      "style": "pistol",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        0.0,
+        -2.7041446628572885e-06,
+        0.0
+      ]
+    },
+    {
+      "name": "dragunov",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        1.7484555314695172e-07,
+        0.0,
+        0.0,
+        -1.7484555314695172e-07,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -5.641918932042245e-08,
+        0.0,
+        1.0
+      ],
+      "model_resource": "dragunov",
+      "style": "dragunov",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        0.0,
+        -5.641918932042245e-08,
+        0.0
+      ]
+    },
+    {
+      "name": "mfdragunov",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.7484555314695172e-07,
+        0.0,
+        0.0,
+        -1.7484555314695172e-07,
+        1.0,
+        0.0,
+        0.0,
+        -1.4513963719764433e-07,
+        0.0,
+        1.0
+      ],
+      "model_resource": "mfdragunov",
+      "style": "mfdragunov",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        0.0,
+        -1.4513963719764433e-07,
+        0.0
+      ]
+    }
+  ],
+  "model_resources": [
+    {
+      "name": "rpg",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 886,
+          "faces": 482,
+          "update_data_count": 944,
+          "updates": 240,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "rpg",
+          "mesh_bindings": [
+            "rpg"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        19.19780921936035,
+        -3.814697265625e-06,
+        5.226393699645996,
+        34.117523193359375
+      ]
+    },
+    {
+      "name": "ak47",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 814,
+          "faces": 359,
+          "update_data_count": 648,
+          "updates": 183,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "ak47",
+          "mesh_bindings": [
+            "ak47"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -10.734931945800781,
+        -2.384185791015625e-07,
+        0.38137006759643555,
+        28.09412956237793
+      ]
+    },
+    {
+      "name": "spas12",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 765,
+          "faces": 358,
+          "update_data_count": 610,
+          "updates": 185,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "spas12",
+          "mesh_bindings": [
+            "spas12"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -22.13690948486328,
+        2.384185791015625e-06,
+        2.27453875541687,
+        25.771699905395508
+      ]
+    },
+    {
+      "name": "rg6",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 614,
+          "faces": 347,
+          "update_data_count": 422,
+          "updates": 183,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "rg6",
+          "mesh_bindings": [
+            "rg6"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -12.887275695800781,
+        2.384185791015625e-07,
+        0.11204838752746582,
+        19.72163200378418
+      ]
+    },
+    {
+      "name": "rpgrocket",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 195,
+          "faces": 140,
+          "update_data_count": 221,
+          "updates": 70,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "rpgrocket",
+          "mesh_bindings": [
+            "rpg"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -20.3267765045166,
+        3.5762786865234375e-06,
+        7.103999614715576,
+        22.703842163085938
+      ]
+    },
+    {
+      "name": "rg6grenade",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 129,
+          "faces": 144,
+          "update_data_count": 305,
+          "updates": 72,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "rg6grenade",
+          "mesh_bindings": [
+            "rg6"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        2.384185791015625e-07,
+        0.0,
+        -2.384185791015625e-07,
+        2.7497756481170654
+      ]
+    },
+    {
+      "name": "mfak47",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 12,
+          "faces": 6,
+          "update_data_count": 1,
+          "updates": 6,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "mfak47",
+          "mesh_bindings": [
+            "mfmachingun"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -50.01990509033203,
+        9.5367431640625e-07,
+        5.509833335876465,
+        14.879755020141602
+      ]
+    },
+    {
+      "name": "mfspas12",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 12,
+          "faces": 6,
+          "update_data_count": 0,
+          "updates": 6,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "mfspas12",
+          "mesh_bindings": [
+            "mfmachingun"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -60.08921813964844,
+        1.430511474609375e-06,
+        6.230617523193359,
+        16.71914291381836
+      ]
+    },
+    {
+      "name": "mfpistol",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 12,
+          "faces": 6,
+          "update_data_count": 3,
+          "updates": 6,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "mfpistol",
+          "mesh_bindings": [
+            "mfmachingun"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -23.240917205810547,
+        0.3638296127319336,
+        5.996713638305664,
+        8.85793685913086
+      ]
+    },
+    {
+      "name": "pistol",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 231,
+          "faces": 154,
+          "update_data_count": 314,
+          "updates": 80,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "pistol",
+          "mesh_bindings": [
+            "pistol"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -7.324731826782227,
+        0.010026931762695312,
+        1.5625488758087158,
+        11.463942527770996
+      ]
+    },
+    {
+      "name": "dragunov",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 1025,
+          "faces": 894,
+          "update_data_count": 2365,
+          "updates": 457,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "dragunov",
+          "mesh_bindings": [
+            "dragunov"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -20.883113861083984,
+        0.2847411632537842,
+        3.4541211128234863,
+        37.80951690673828
+      ]
+    },
+    {
+      "name": "mfdragunov",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 12,
+          "faces": 6,
+          "update_data_count": 1,
+          "updates": 6,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "mfdragunov",
+          "mesh_bindings": [
+            "mfmachingun"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -67.25537109375,
+        0.0,
+        3.6324658393859863,
+        14.879755973815918
+      ]
+    }
+  ],
+  "errors": [],
+  "parser_reference": "https://github.com/igorlira/dirplayer-rs/tree/68376fbb4494a6bbad4c70081ecdcb99814a74c9/vm-rust/src/director/chunks/w3d"
+}

@@ -1,0 +1,532 @@
+{
+  "totalLength": 4378,
+  "totalLength2": 4378,
+  "headerLength": 92,
+  "scriptNumber": 4,
+  "unk20": 3,
+  "parentNumber": -1,
+  "scriptFlags": 2,
+  "unk42": 0,
+  "castID": 196612,
+  "factoryNameID": -1,
+  "handlerVectorsCount": 0,
+  "handlerVectorsOffset": 4378,
+  "handlerVectorsSize": 0,
+  "propertiesCount": 0,
+  "propertiesOffset": 92,
+  "globalsCount": 15,
+  "globalsOffset": 92,
+  "handlersCount": 15,
+  "handlersOffset": 122,
+  "literalsCount": 46,
+  "literalsOffset": 3312,
+  "literalsDataCount": 698,
+  "literalsDataOffset": 3680,
+  "propertyNameIDs": [],
+  "globalNameIDs": [
+    185,
+    46,
+    18,
+    125,
+    54,
+    143,
+    186,
+    156,
+    265,
+    155,
+    44,
+    189,
+    237,
+    236,
+    190
+  ],
+  "handlers": [
+    {
+      "nameID": 147,
+      "vectorPos": 65535,
+      "compiledLen": 107,
+      "compiledOffset": 812,
+      "argumentCount": 1,
+      "argumentOffset": 920,
+      "localsCount": 0,
+      "localsOffset": 922,
+      "globalsCount": 0,
+      "globalsOffset": 92,
+      "unknown1": 200,
+      "unknown2": 11,
+      "lineCount": 12,
+      "lineOffset": 922,
+      "stackHeight": 10
+    },
+    {
+      "nameID": 174,
+      "vectorPos": 65535,
+      "compiledLen": 59,
+      "compiledOffset": 934,
+      "argumentCount": 1,
+      "argumentOffset": 994,
+      "localsCount": 2,
+      "localsOffset": 996,
+      "globalsCount": 0,
+      "globalsOffset": 92,
+      "unknown1": 724,
+      "unknown2": 26,
+      "lineCount": 5,
+      "lineOffset": 1000,
+      "stackHeight": 10
+    },
+    {
+      "nameID": 146,
+      "vectorPos": 65535,
+      "compiledLen": 15,
+      "compiledOffset": 1006,
+      "argumentCount": 2,
+      "argumentOffset": 1022,
+      "localsCount": 0,
+      "localsOffset": 1026,
+      "globalsCount": 0,
+      "globalsOffset": 92,
+      "unknown1": 878,
+      "unknown2": 34,
+      "lineCount": 1,
+      "lineOffset": 1026,
+      "stackHeight": 4
+    },
+    {
+      "nameID": 144,
+      "vectorPos": 65535,
+      "compiledLen": 21,
+      "compiledOffset": 1028,
+      "argumentCount": 1,
+      "argumentOffset": 1050,
+      "localsCount": 1,
+      "localsOffset": 1052,
+      "globalsCount": 0,
+      "globalsOffset": 92,
+      "unknown1": 937,
+      "unknown2": 37,
+      "lineCount": 2,
+      "lineOffset": 1054,
+      "stackHeight": 3
+    },
+    {
+      "nameID": 175,
+      "vectorPos": 65535,
+      "compiledLen": 65,
+      "compiledOffset": 1056,
+      "argumentCount": 1,
+      "argumentOffset": 1122,
+      "localsCount": 1,
+      "localsOffset": 1124,
+      "globalsCount": 0,
+      "globalsOffset": 92,
+      "unknown1": 1008,
+      "unknown2": 42,
+      "lineCount": 6,
+      "lineOffset": 1126,
+      "stackHeight": 8
+    },
+    {
+      "nameID": 176,
+      "vectorPos": 65535,
+      "compiledLen": 42,
+      "compiledOffset": 1132,
+      "argumentCount": 1,
+      "argumentOffset": 1174,
+      "localsCount": 1,
+      "localsOffset": 1176,
+      "globalsCount": 0,
+      "globalsOffset": 92,
+      "unknown1": 1295,
+      "unknown2": 51,
+      "lineCount": 8,
+      "lineOffset": 1178,
+      "stackHeight": 2
+    },
+    {
+      "nameID": 177,
+      "vectorPos": 65535,
+      "compiledLen": 24,
+      "compiledOffset": 1186,
+      "argumentCount": 0,
+      "argumentOffset": 1210,
+      "localsCount": 1,
+      "localsOffset": 1210,
+      "globalsCount": 0,
+      "globalsOffset": 92,
+      "unknown1": 1462,
+      "unknown2": 62,
+      "lineCount": 5,
+      "lineOffset": 1212,
+      "stackHeight": 3
+    },
+    {
+      "nameID": 178,
+      "vectorPos": 65535,
+      "compiledLen": 527,
+      "compiledOffset": 1218,
+      "argumentCount": 1,
+      "argumentOffset": 1746,
+      "localsCount": 12,
+      "localsOffset": 1748,
+      "globalsCount": 0,
+      "globalsOffset": 92,
+      "unknown1": 1592,
+      "unknown2": 71,
+      "lineCount": 74,
+      "lineOffset": 1772,
+      "stackHeight": 7
+    },
+    {
+      "nameID": 179,
+      "vectorPos": 65535,
+      "compiledLen": 94,
+      "compiledOffset": 1846,
+      "argumentCount": 2,
+      "argumentOffset": 1940,
+      "localsCount": 2,
+      "localsOffset": 1944,
+      "globalsCount": 0,
+      "globalsOffset": 92,
+      "unknown1": 3687,
+      "unknown2": 148,
+      "lineCount": 10,
+      "lineOffset": 1948,
+      "stackHeight": 7
+    },
+    {
+      "nameID": 180,
+      "vectorPos": 65535,
+      "compiledLen": 77,
+      "compiledOffset": 1958,
+      "argumentCount": 1,
+      "argumentOffset": 2036,
+      "localsCount": 2,
+      "localsOffset": 2038,
+      "globalsCount": 0,
+      "globalsOffset": 92,
+      "unknown1": 3944,
+      "unknown2": 161,
+      "lineCount": 12,
+      "lineOffset": 2042,
+      "stackHeight": 4
+    },
+    {
+      "nameID": 181,
+      "vectorPos": 65535,
+      "compiledLen": 274,
+      "compiledOffset": 2054,
+      "argumentCount": 3,
+      "argumentOffset": 2328,
+      "localsCount": 7,
+      "localsOffset": 2334,
+      "globalsCount": 0,
+      "globalsOffset": 92,
+      "unknown1": 4197,
+      "unknown2": 177,
+      "lineCount": 45,
+      "lineOffset": 2348,
+      "stackHeight": 4
+    },
+    {
+      "nameID": 182,
+      "vectorPos": 65535,
+      "compiledLen": 353,
+      "compiledOffset": 2394,
+      "argumentCount": 1,
+      "argumentOffset": 2748,
+      "localsCount": 6,
+      "localsOffset": 2750,
+      "globalsCount": 0,
+      "globalsOffset": 92,
+      "unknown1": 5058,
+      "unknown2": 226,
+      "lineCount": 37,
+      "lineOffset": 2762,
+      "stackHeight": 11
+    },
+    {
+      "nameID": 149,
+      "vectorPos": 65535,
+      "compiledLen": 231,
+      "compiledOffset": 2800,
+      "argumentCount": 1,
+      "argumentOffset": 3032,
+      "localsCount": 3,
+      "localsOffset": 3034,
+      "globalsCount": 0,
+      "globalsOffset": 92,
+      "unknown1": 6323,
+      "unknown2": 266,
+      "lineCount": 31,
+      "lineOffset": 3040,
+      "stackHeight": 9
+    },
+    {
+      "nameID": 145,
+      "vectorPos": 65535,
+      "compiledLen": 127,
+      "compiledOffset": 3072,
+      "argumentCount": 1,
+      "argumentOffset": 3200,
+      "localsCount": 4,
+      "localsOffset": 3202,
+      "globalsCount": 0,
+      "globalsOffset": 92,
+      "unknown1": 7166,
+      "unknown2": 300,
+      "lineCount": 16,
+      "lineOffset": 3210,
+      "stackHeight": 10
+    },
+    {
+      "nameID": 183,
+      "vectorPos": 65535,
+      "compiledLen": 76,
+      "compiledOffset": 3226,
+      "argumentCount": 1,
+      "argumentOffset": 3302,
+      "localsCount": 0,
+      "localsOffset": 3304,
+      "globalsCount": 0,
+      "globalsOffset": 92,
+      "unknown1": 7592,
+      "unknown2": 319,
+      "lineCount": 8,
+      "lineOffset": 3304,
+      "stackHeight": 8
+    }
+  ],
+  "literals": [
+    {
+      "type": 1,
+      "offset": 0,
+      "value": "rooms"
+    },
+    {
+      "type": 1,
+      "offset": 10,
+      "value": ""
+    },
+    {
+      "type": 1,
+      "offset": 16,
+      "value": "@lobby"
+    },
+    {
+      "type": 1,
+      "offset": 28,
+      "value": "MultiUser"
+    },
+    {
+      "type": 1,
+      "offset": 42,
+      "value": "77.92.78.30"
+    },
+    {
+      "type": 1,
+      "offset": 58,
+      "value": "tatas"
+    },
+    {
+      "type": 1,
+      "offset": 68,
+      "value": "password"
+    },
+    {
+      "type": 1,
+      "offset": 82,
+      "value": "russiasArmy"
+    },
+    {
+      "type": 1,
+      "offset": 98,
+      "value": "kwe123eefw3434mwe"
+    },
+    {
+      "type": 1,
+      "offset": 120,
+      "value": "start"
+    },
+    {
+      "type": 1,
+      "offset": 130,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "offset": 136,
+      "value": "http://www.gamevial.com"
+    },
+    {
+      "type": 1,
+      "offset": 164,
+      "value": "_parent"
+    },
+    {
+      "type": 1,
+      "offset": 176,
+      "value": "game"
+    },
+    {
+      "type": 1,
+      "offset": 186,
+      "value": "talk"
+    },
+    {
+      "type": 1,
+      "offset": 196,
+      "value": ": "
+    },
+    {
+      "type": 1,
+      "offset": 204,
+      "value": "doorz"
+    },
+    {
+      "type": 1,
+      "offset": 214,
+      "value": "grenade"
+    },
+    {
+      "type": 1,
+      "offset": 226,
+      "value": "grenades"
+    },
+    {
+      "type": 1,
+      "offset": 240,
+      "value": "rocket"
+    },
+    {
+      "type": 1,
+      "offset": 252,
+      "value": "rockets"
+    },
+    {
+      "type": 1,
+      "offset": 264,
+      "value": "where"
+    },
+    {
+      "type": 1,
+      "offset": 274,
+      "value": "baddies"
+    },
+    {
+      "type": 1,
+      "offset": 286,
+      "value": " has entered the arena."
+    },
+    {
+      "type": 1,
+      "offset": 314,
+      "value": "dead"
+    },
+    {
+      "type": 1,
+      "offset": 324,
+      "value": " makes "
+    },
+    {
+      "type": 1,
+      "offset": 336,
+      "value": " russian history."
+    },
+    {
+      "type": 1,
+      "offset": 358,
+      "value": "playernames"
+    },
+    {
+      "type": 1,
+      "offset": 374,
+      "value": "ConnectToNetServer"
+    },
+    {
+      "type": 1,
+      "offset": 398,
+      "value": "checkrooms"
+    },
+    {
+      "type": 1,
+      "offset": 414,
+      "value": "getrooms"
+    },
+    {
+      "type": 1,
+      "offset": 428,
+      "value": "showgroupcount"
+    },
+    {
+      "type": 1,
+      "offset": 448,
+      "value": "@Barrack"
+    },
+    {
+      "type": 1,
+      "offset": 462,
+      "value": "."
+    },
+    {
+      "type": 1,
+      "offset": 468,
+      "value": "/"
+    },
+    {
+      "type": 1,
+      "offset": 474,
+      "value": " Full"
+    },
+    {
+      "type": 1,
+      "offset": 484,
+      "value": "_root.state"
+    },
+    {
+      "type": 1,
+      "offset": 500,
+      "value": "joinrooms"
+    },
+    {
+      "type": 1,
+      "offset": 514,
+      "value": "system.movie.getGroups"
+    },
+    {
+      "type": 1,
+      "offset": 542,
+      "value": "system.group.getUserCount"
+    },
+    {
+      "type": 1,
+      "offset": 572,
+      "value": "abcdefghijklmnopqrstuvwxyz1234567890"
+    },
+    {
+      "type": 1,
+      "offset": 614,
+      "value": "#"
+    },
+    {
+      "type": 1,
+      "offset": 620,
+      "value": "0"
+    },
+    {
+      "type": 1,
+      "offset": 626,
+      "value": "Codename censored, try again."
+    },
+    {
+      "type": 1,
+      "offset": 660,
+      "value": "Cowardice"
+    },
+    {
+      "type": 1,
+      "offset": 674,
+      "value": "system.group.leave"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "inputs": {
+    "public/assets/original-scenes/woodland/scene.json": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107",
+    "public/assets/original-scenes/woodland/textures/stonebarn.png": "7ff83e28de923ebf82ec17cf57ac3ededf53136b9543960f362f3878551b3b86",
+    "docs/research-evidence/2026-10-03/woodland-interior-reference/frame-01.png": "0ce2e772ed51e069758ae482a204fde35f0f0d1f7f8089f71ad94d308344ce43",
+    "docs/research-evidence/2026-10-03/woodland-interior-reference/frame-02.png": "355a9cf0e4ee29fd4d972c88be596f11f8e02d6d5363add179d9ee1c0d08800f",
+    "docs/research-evidence/2026-10-03/woodland-interior-reference/frame-03.png": "a567ddd54bfd93678ab4721516feb0b3dafb22b3f6ac54942341becda231a0b5",
+    "docs/research-evidence/2026-10-03/woodland-interior-reference/frame-04.png": "ba88099167ebeb90c583251083cb979101d7bc7b5a9e93422a87dcefc1028c0a",
+    "docs/research-evidence/2026-10-03/woodland-interior-reference/frame-05.png": "770f3dc460e4f9a9f8336bdae277fb050951b617d3230c71c9d8fa4ba4d8b923",
+    "docs/research-evidence/2026-10-03/woodland-interior-reference/frame-06.png": "e5b960585b34990cbb4599f25f3112c141fb16fb2e4811dbc4fa5b224e45f973"
+  },
+  "jambs": {
+    "A": {
+      "bottomId": 184,
+      "topId": 183,
+      "bottom": [
+        -796.0790405273438,
+        -77.20850372314453,
+        -0.23756790161132812
+      ],
+      "top": [
+        -796.0790405273438,
+        -77.20850372314453,
+        112.60562896728516
+      ]
+    },
+    "B": {
+      "bottomId": 140,
+      "topId": 198,
+      "bottom": [
+        -649.976806640625,
+        -92.41264343261719,
+        -0.23756790161132812
+      ],
+      "top": [
+        -649.976806640625,
+        -92.41264343261719,
+        112.60563659667969
+      ]
+    }
+  },
+  "corners": {
+    "178": {
+      "position": [
+        -1002.047607421875,
+        -56.06525421142578,
+        -0.23757171630859375
+      ],
+      "openingDirectedHalfPlane": -42.4988815379329
+    },
+    "193": {
+      "position": [
+        -970.9266357421875,
+        245.4042510986328,
+        -0.2375640869140625
+      ],
+      "openingDirectedHalfPlane": 44476.03689429816
+    },
+    "186": {
+      "position": [
+        -414.5502624511719,
+        -116.64423370361328,
+        -0.2375640869140625
+      ],
+      "openingDirectedHalfPlane": 39.16859995457344
+    },
+    "224": {
+      "position": [
+        -383.4292907714844,
+        184.58770751953125,
+        -0.2375640869140625
+      ],
+      "openingDirectedHalfPlane": 44522.99573200126
+    }
+  },
+  "incidentFaces": [
+    {
+      "face": 11,
+      "vertices": [
+        186,
+        140,
+        198
+      ],
+      "positions": [
+        [
+          -414.5502624511719,
+          -116.64423370361328,
+          -0.2375640869140625
+        ],
+        [
+          -649.976806640625,
+          -92.41264343261719,
+          -0.23756790161132812
+        ],
+        [
+          -649.976806640625,
+          -92.41264343261719,
+          112.60563659667969
+        ]
+      ]
+    },
+    {
+      "face": 82,
+      "vertices": [
+        178,
+        179,
+        183
+      ],
+      "positions": [
+        [
+          -1002.047607421875,
+          -56.06525421142578,
+          -0.23757171630859375
+        ],
+        [
+          -1002.047607421875,
+          -56.06525421142578,
+          112.60562896728516
+        ],
+        [
+          -796.0790405273438,
+          -77.20850372314453,
+          112.60562896728516
+        ]
+      ]
+    },
+    {
+      "face": 86,
+      "vertices": [
+        183,
+        184,
+        178
+      ],
+      "positions": [
+        [
+          -796.0790405273438,
+          -77.20850372314453,
+          112.60562896728516
+        ],
+        [
+          -796.0790405273438,
+          -77.20850372314453,
+          -0.23756790161132812
+        ],
+        [
+          -1002.047607421875,
+          -56.06525421142578,
+          -0.23757171630859375
+        ]
+      ]
+    },
+    {
+      "face": 87,
+      "vertices": [
+        198,
+        31,
+        186
+      ],
+      "positions": [
+        [
+          -649.976806640625,
+          -92.41264343261719,
+          112.60563659667969
+        ],
+        [
+          -414.5502624511719,
+          -116.64423370361328,
+          112.60562896728516
+        ],
+        [
+          -414.5502624511719,
+          -116.64423370361328,
+          -0.2375640869140625
+        ]
+      ]
+    },
+    {
+      "face": 92,
+      "vertices": [
+        224,
+        192,
+        81
+      ],
+      "positions": [
+        [
+          -383.4292907714844,
+          184.58770751953125,
+          -0.2375640869140625
+        ],
+        [
+          -383.4292907714844,
+          184.58770751953125,
+          112.60562896728516
+        ],
+        [
+          -970.9266357421875,
+          245.4042510986328,
+          112.60562896728516
+        ]
+      ]
+    },
+    {
+      "face": 109,
+      "vertices": [
+        81,
+        193,
+        224
+      ],
+      "positions": [
+        [
+          -970.9266357421875,
+          245.4042510986328,
+          112.60562896728516
+        ],
+        [
+          -970.9266357421875,
+          245.4042510986328,
+          -0.2375640869140625
+        ],
+        [
+          -383.4292907714844,
+          184.58770751953125,
+          -0.2375640869140625
+        ]
+      ]
+    }
+  ],
+  "conditionalImageOrder": {
+    "left": "B",
+    "right": "A",
+    "assumptions": [
+      "The visible opening is the recovered large interior long-wall gap.",
+      "Viewpoint is inside the room on the positive directed half-plane of A to B.",
+      "Ordinary perspective uses screen right = viewing direction cross world up, without image reflection.",
+      "Both jamb rays have positive perspective depth.",
+      "The explicit same-height endpoint formula uses a level camera; arbitrary native pitch and roll remain unproved."
+    ],
+    "identityStatus": "conditional geometry ordering; no admitted pixel endpoint or camera anchor"
+  },
+  "corner224Status": "conditional candidate for left far-wall/floor junction when viewing the positive-local-X gable; the observed seam need not be a mesh corner",
+  "nativeProjectionHandedness": "not independently recovered in this investigation"
+}

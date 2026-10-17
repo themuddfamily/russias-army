@@ -1,0 +1,140 @@
+global goody, gscore, nom, gosubmit, gmusmode, gkiller
+
+on beginSprite me
+  [  0] pusharglistnoret 0 ...................... <>
+  [  2] extcall 23 .............................. resetactors()
+  [  4] pusharglist 0 ........................... <>
+  [  6] extcall 6 ............................... <VOID>
+  [  8] setglobal 125 ........................... goody = VOID
+  [ 10] pushint8 1 .............................. <1>
+  [ 12] pusharglist 1 ........................... <1>
+  [ 14] extcall 141 ............................. <sprite(1)>
+  [ 16] pushint8 54 ............................. <54>
+  [ 18] pusharglistnoret 2 ...................... <sprite(1), 54>
+  [ 20] objcall 606 ............................. sprite(1).goToFrame(54)
+  [ 23] pushint8 1 .............................. <1>
+  [ 25] pusharglist 1 ........................... <1>
+  [ 27] extcall 141 ............................. <sprite(1)>
+  [ 29] pushzero ................................ <0>
+  [ 30] setobjprop 10 ........................... sprite(1).cursor = 0
+  [ 32] pushcons 0 .............................. <"rooms">
+  [ 34] pusharglist 1 ........................... <"rooms">
+  [ 36] extcall 47 .............................. <member("rooms")>
+  [ 38] pushzero ................................ <0>
+  [ 39] pushzero ................................ <0>
+  [ 40] pushzero ................................ <0>
+  [ 41] pusharglist 3 ........................... <0, 0, 0>
+  [ 43] extcall 69 .............................. <rgb(0, 0, 0)>
+  [ 45] setobjprop 171 .......................... member("rooms").color = rgb(0, 0, 0)
+  [ 47] pushcons 0 .............................. <"rooms">
+  [ 49] pusharglist 1 ........................... <"rooms">
+  [ 51] extcall 47 .............................. <member("rooms")>
+  [ 53] pushcons 1 .............................. <"Our commiserations, Comrade ">
+  [ 55] getglobal 18 ............................ <nom>
+  [ 57] joinstr ................................. <"Our commiserations, Comrade " & nom>
+  [ 58] pushcons 2 .............................. <", you are now pieces of Russian history, thanks to ">
+  [ 60] joinstr ................................. <"Our commiserations, Comrade " & nom & ", you are now pieces of Russian history, thanks to ">
+  [ 61] getglobal 362 ........................... <gkiller>
+  [ 64] joinstr ................................. <"Our commiserations, Comrade " & nom & ", you are now pieces of Russian history, thanks to " & gkiller>
+  [ 65] pushcons 3 .............................. <"...">
+  [ 67] joinstr ................................. <"Our commiserations, Comrade " & nom & ", you are now pieces of Russian history, thanks to " & gkiller & "...">
+  [ 68] pushcons 4 .............................. <RETURN>
+  [ 70] joinstr ................................. <"Our commiserations, Comrade " & nom & ", you are now pieces of Russian history, thanks to " & gkiller & "..." & RETURN>
+  [ 71] pushcons 4 .............................. <RETURN>
+  [ 73] joinstr ................................. <"Our commiserations, Comrade " & nom & ", you are now pieces of Russian history, thanks to " & gkiller & "..." & RETURN & RETURN>
+  [ 74] pushcons 5 .............................. <"Would you like to submit your score of ">
+  [ 76] joinstr ................................. <"Our commiserations, Comrade " & nom & ", you are now pieces of Russian history, thanks to " & gkiller & "..." & RETURN & RETURN & "Would you like to submit your score of ">
+  [ 77] getglobal 20 ............................ <gscore>
+  [ 79] joinstr ................................. <"Our commiserations, Comrade " & nom & ", you are now pieces of Russian history, thanks to " & gkiller & "..." & RETURN & RETURN & "Would you like to submit your score of " & gscore>
+  [ 80] pushcons 6 .............................. <" points?">
+  [ 82] joinstr ................................. <"Our commiserations, Comrade " & nom & ", you are now pieces of Russian history, thanks to " & gkiller & "..." & RETURN & RETURN & "Would you like to submit your score of " & gscore & " points?">
+  [ 83] pushcons 4 .............................. <RETURN>
+  [ 85] joinstr ................................. <"Our commiserations, Comrade " & nom & ", you are now pieces of Russian history, thanks to " & gkiller & "..." & RETURN & RETURN & "Would you like to submit your score of " & gscore & " points?" & RETURN>
+  [ 86] pushcons 4 .............................. <RETURN>
+  [ 88] joinstr ................................. <"Our commiserations, Comrade " & nom & ", you are now pieces of Russian history, thanks to " & gkiller & "..." & RETURN & RETURN & "Would you like to submit your score of " & gscore & " points?" & RETURN & RETURN>
+  [ 89] pushcons 7 .............................. <"Click go to see if you are worthy of Kremlin fame.">
+  [ 91] joinstr ................................. <"Our commiserations, Comrade " & nom & ", you are now pieces of Russian history, thanks to " & gkiller & "..." & RETURN & RETURN & "Would you like to submit your score of " & gscore & " points?" & RETURN & RETURN & "Click go to see if you are worthy of Kremlin fame.">
+  [ 92] setobjprop 184 .......................... member("rooms").text = "Our commiserations, Comrade " & nom & ", you are now pieces of Russian history, thanks to " & gkiller & "..." & RETURN & RETURN & "Would you like to submit your score of " & gscore & " points?" & RETURN & RETURN & "Click go to see if you are worthy of Kremlin fame."
+  [ 94] pushint8 2 .............................. <2>
+  [ 96] pusharglist 1 ........................... <2>
+  [ 98] extcall 141 ............................. <sprite(2)>
+  [100] pushint8 1 .............................. <1>
+  [102] setobjprop 142 .......................... sprite(2).visible = 1
+  [104] ret
+end
+
+on exitFrame me
+  [  0] pushcons 8 .............................. <"_root.state">
+  [  2] pusharglist 1 ........................... <"_root.state">
+  [  4] extcall 144 ............................. <getflash("_root.state")>
+  [  6] setlocal 0 .............................. vstate = getflash("_root.state")
+  [  8] getlocal 0 .............................. <vstate>
+  [ 10] peek 0 .................................. case vstate of
+  [ 12] pushcons 9 .............................. <"replay">
+  [ 14] eq
+  [ 15] jmpifz [ 93] ............................ (case) "replay":
+  [ 18] pushcons 0 .............................. <"rooms">
+  [ 20] pusharglist 1 ........................... <"rooms">
+  [ 22] extcall 47 .............................. <member("rooms")>
+  [ 24] getglobal 18 ............................ <nom>
+  [ 26] pusharglist 1 ........................... <nom>
+  [ 28] extcall 145 ............................. <VerifyUserName(nom)>
+  [ 30] setobjprop 184 .......................... member("rooms").text = VerifyUserName(nom)
+  [ 32] pusharglistnoret 0 ...................... <>
+  [ 34] extcall 43 .............................. clearGlobals()
+  [ 36] pusharglistnoret 0 ...................... <>
+  [ 38] extcall 22 .............................. resetall()
+  [ 40] pushcons 10 ............................. <"lobby">
+  [ 42] pusharglistnoret 1 ...................... <"lobby">
+  [ 44] extcall 150 ............................. go("lobby")
+  [ 46] pushcons 11 ............................. <EMPTY>
+  [ 48] setglobal 143 ........................... gmusmode = EMPTY
+  [ 50] pusharglistnoret 0 ...................... <>
+  [ 52] extcall 607 ............................. updateStage()
+  [ 55] pushint8 1 .............................. <1>
+  [ 57] pusharglist 1 ........................... <1>
+  [ 59] extcall 141 ............................. <sprite(1)>
+  [ 61] pushint8 52 ............................. <52>
+  [ 63] pusharglistnoret 2 ...................... <sprite(1), 52>
+  [ 65] objcall 606 ............................. sprite(1).goToFrame(52)
+  [ 68] pushcons 8 .............................. <"_root.state">
+  [ 70] pushcons 12 ............................. <"getcodename">
+  [ 72] pusharglistnoret 2 ...................... <"_root.state", "getcodename">
+  [ 74] extcall 146 ............................. setflash("_root.state", "getcodename")
+  [ 76] pushcons 13 ............................. <"_root.codename">
+  [ 78] pushcons 0 .............................. <"rooms">
+  [ 80] pusharglist 1 ........................... <"rooms">
+  [ 82] extcall 47 .............................. <member("rooms")>
+  [ 84] getobjprop 184 .......................... <member("rooms").text>
+  [ 86] pusharglistnoret 2 ...................... <"_root.codename", member("rooms").text>
+  [ 88] extcall 146 ............................. setflash("_root.codename", member("rooms").text)
+  [ 90] jmp [139]
+  [ 93] peek 0
+  [ 95] pushcons 14 ............................. <"leapto">
+  [ 97] eq
+  [ 98] jmpifz [116] ............................ (case) "leapto":
+  [101] pushcons 15 ............................. <"http://www.gamevial.com">
+  [103] pushcons 16 ............................. <"_parent">
+  [105] pusharglistnoret 2 ...................... <"http://www.gamevial.com", "_parent">
+  [107] extcall 13 .............................. gotoNetPage("http://www.gamevial.com", "_parent")
+  [109] pusharglistnoret 0 ...................... <>
+  [111] extcall 148 ............................. quit()
+  [113] jmp [139]
+  [116] peek 0
+  [118] pushcons 17 ............................. <"submit">
+  [120] eq
+  [121] jmpifz [131] ............................ (case) "submit":
+  [124] pushint8 1 .............................. <1>
+  [126] setglobal 4 ............................. gosubmit = 1
+  [128] jmp [139]
+  [131] peek 0
+  [133] pushcons 11 ............................. <EMPTY>
+  [135] eq
+  [136] jmpifz [139] ............................ (case) EMPTY:
+  [139] pop 1 ................................... end case
+  [141] pusharglist 0 ........................... <>
+  [143] thebuiltin 608 .......................... <the frame>
+  [146] pusharglistnoret 1 ...................... <the frame>
+  [148] extcall 150 ............................. go(the frame)
+  [150] ret
+end

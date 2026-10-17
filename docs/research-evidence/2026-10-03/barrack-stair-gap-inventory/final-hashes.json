@@ -1,0 +1,21 @@
+{
+  "docs/research-evidence/2026-10-03/barrack-stair-gap-inventory/REPORT.md": "0a6f2ec7436e0537a26cb0d1c06414b7aeda8f321eddd66fd828c707e23b9e15",
+  "docs/research-evidence/2026-10-03/barrack-stair-gap-inventory/candidate-inspection.log": "34230c81d176ea12dd10570f46b94e769edfce5d42ed3b96a2b0d6c74c5087a1",
+  "docs/research-evidence/2026-10-03/barrack-stair-gap-inventory/inventory.json": "639e3e09e351b190b89744959ecf75e4e62d89a4c27ec0991c4a6de199e9f120",
+  "docs/research-evidence/2026-10-03/barrack-stair-gap-inventory/inventory.log": "5c98402b3c11165e261b35be6f2fb077724422d28676d9252e603ababb71ed68",
+  "docs/research-evidence/2026-10-03/barrack-stair-gap-inventory/inventory.ts": "14159e0af71fea13b844543d85990a867c2a3533d6fbe0cfeaeab531d4f19f4f",
+  "docs/research-evidence/2026-10-03/barrack-stair-gap-inventory/orientation.log": "1a6ae33f03a297a0f80004b8b094666981f0618c075245bc4a094132e71866fe",
+  "docs/research-evidence/2026-10-03/barrack-stair-gap-inventory/replay.json": "20c99ca0893f31d653874bd86fa5e6be674e9b975a13c932856af0463608558a",
+  "docs/research-evidence/2026-10-03/barrack-stair-gap-inventory/replay.log": "01861067651841a36baf738335d6a73695f0f0a07a382166982bba7f6a4db9a8",
+  "docs/research-evidence/2026-10-03/barrack-stair-gap-inventory/replay.ts": "cfd13899f3f3e92f802966fccc519e9b0498bd2ddb981e26a65b153bc528372d",
+  "docs/research-evidence/2026-10-03/barrack-stair-gap-inventory/sill-replay.json": "bb0d28846ca483f2129d904b1e4d003e317a800e5600c028bbc50ee47f44ac2b",
+  "docs/research-evidence/2026-10-03/barrack-stair-gap-inventory/sill-replay.log": "d6e51c49cd22ede86a614c64c25f82c3c2df82305f8551f697011acf5b7e4997",
+  "docs/research-evidence/2026-10-03/barrack-stair-gap-inventory/sill-replay.ts": "de0ef73c709a889ec1c096cbfb7407c5bb765ec55d2f26bd622081ba172aee26",
+  "docs/research-evidence/2026-10-03/barrack-stair-gap-inventory/summarize.py": "9aa759c959547eb68cf0ae709a5be7e818560e9ec1669f72b9a8e8829c455dc9",
+  "docs/research-evidence/2026-10-03/barrack-stair-gap-inventory/summary.json": "e64d6b404225289e15311a5cb0bbb1bfcbdb66e586d26971924045b22979f430",
+  "public/assets/original-scenes/barrack/scene.json": "7b252e098959f98a872850551fdf8f52e5b7e1b5ea79dfa6af21b841f0d31ad3",
+  "shared/originalSceneGeometry.ts": "56397c99ae1b8ebd935369ae3b1a519474802107943426292513dd1e86428e1d",
+  "shared/originalMapProfile.ts": "0ba668f15dda6d1f5314f58310a2ea174a70d18c2df51267163d521303da0da3",
+  "shared/originalPlayerPhysics.ts": "27679579fc5cd250fe588b231ac6e88e6cd30b96ba673f583d3cae0f980fdcbf",
+  "shared/originalExplosives.ts": "b2983fe87ee91fbe0b66270049078e1053ce394523956974b37615485dd51cb2"
+}

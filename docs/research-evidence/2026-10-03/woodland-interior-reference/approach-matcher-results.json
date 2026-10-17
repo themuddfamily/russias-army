@@ -1,0 +1,19 @@
+{
+  "generatorSha256": "e351d0567c95c6c050cbbcae954dbaaf7a2334ad56e2531b29fd4116885a99ac",
+  "originalRuntimeExecuted": false,
+  "cameraFitAttempted": false,
+  "results": [
+    {
+      "path": "docs/research-evidence/2026-10-03/woodland-interior-reference/woodland-22s-stonebarn-matches.json",
+      "sha256": "b92e84ac92dbc23079234c72c59355202bab137910d6eed29a5d96c136ad51f7",
+      "counts": {
+        "atlasDescriptors": 3771,
+        "referenceDescriptors": 1758,
+        "reciprocalRatioMatches": 7,
+        "strictUniqueSourceTriangleLandmarks": 5,
+        "uniqueInsideExploratoryRegion": 4,
+        "outsideExploratoryRegion": 3
+      }
+    }
+  ]
+}

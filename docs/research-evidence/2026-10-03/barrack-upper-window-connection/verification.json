@@ -1,0 +1,165 @@
+{
+  "scope": "Offline verification of existing observations; no additional player geometry query or physics replay",
+  "prefixJSONEqual": true,
+  "callbacks": 373,
+  "totalPublicQueries": 7766,
+  "startupIncluded": true,
+  "intersections": 0,
+  "sourceDoorTriggers": 0,
+  "jump": false,
+  "authoredEntryRamp": [
+    {
+      "id": "bigredfellaopen/0/7",
+      "node": "bigredfellaopen",
+      "resource": "bigredfellaopen",
+      "part": 0,
+      "face": 7,
+      "points": [
+        {
+          "x": 48.76212082884011,
+          "y": 10.282744284237133,
+          "z": 63.618859269555344
+        },
+        {
+          "x": 48.762120719844205,
+          "y": 10.282744284237133,
+          "z": 64.86562707745976
+        },
+        {
+          "x": 49.474560172969205,
+          "y": 10.817072639016544,
+          "z": 64.86562713974318
+        }
+      ],
+      "normal": {
+        "x": -0.5999991124105626,
+        "y": 0.8000006656913071,
+        "z": -5.245358937118134e-08
+      },
+      "area": 0.5551536475721076,
+      "horizontal": false
+    },
+    {
+      "id": "bigredfellaopen/0/8",
+      "node": "bigredfellaopen",
+      "resource": "bigredfellaopen",
+      "part": 0,
+      "face": 8,
+      "points": [
+        {
+          "x": 49.474560172969205,
+          "y": 10.817072639016544,
+          "z": 64.86562713974318
+        },
+        {
+          "x": 49.47456028196511,
+          "y": 10.817073874080883,
+          "z": 63.61885933183878
+        },
+        {
+          "x": 48.76212082884011,
+          "y": 10.282744284237133,
+          "z": 63.618859269555344
+        }
+      ],
+      "normal": {
+        "x": -0.5999999999998771,
+        "y": 0.7999999999997499,
+        "z": 7.400366947316265e-07
+      },
+      "area": 0.5551541095234714,
+      "horizontal": false
+    }
+  ],
+  "rampContact": {
+    "callback": 363,
+    "substepIndex": 9,
+    "iteration": 1,
+    "time": 0.04900614384484892,
+    "substepTime": 0.004006143844848921,
+    "remainingBefore": 0.004542983615392001,
+    "remainingAfter": 0.000993856155151079,
+    "fraction": 0.7812327229656271,
+    "penetrationDepth": 0,
+    "bodyA": {
+      "id": "spawn3-south-route",
+      "type": "player"
+    },
+    "bodyB": {
+      "id": "fixed",
+      "type": "fixed"
+    },
+    "normal": {
+      "x": -0.5999991124105598,
+      "y": 0.8000006656913091,
+      "z": -5.245358192717367e-08
+    },
+    "surfaceWitnesses": {
+      "a": {
+        "x": 48.903798954785465,
+        "y": 10.41429677205588,
+        "z": 64.26505897983662
+      },
+      "b": {
+        "x": 48.91594011329542,
+        "y": 10.398108523291304,
+        "z": 64.26505898089803
+      }
+    },
+    "beforeResponse": {
+      "a": {
+        "x": 5.265917353929735,
+        "y": 0.003679144388996941,
+        "z": 0.07042642087077736
+      },
+      "b": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "afterResponse": {
+      "a": {
+        "x": 2.904820359133833,
+        "y": 2.573185212558896,
+        "z": 0.06462534842122496
+      },
+      "b": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "afterActorCallbacks": {
+      "a": {
+        "x": 2.904820359133833,
+        "y": 2.573185212558896,
+        "z": 0.06462534842122496
+      },
+      "b": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  "finalAirborneSample": {
+    "callback": 372,
+    "target": "eastward entry into room80",
+    "position": {
+      "x": 50.47935151766954,
+      "y": 11.787751816857158,
+      "z": 64.2492249729605
+    },
+    "velocity": {
+      "x": 4.520328162965484,
+      "y": 0.6632734011279767,
+      "z": -0.057282095536426325
+    },
+    "supported": false,
+    "intersects": false,
+    "triggered": [],
+    "distance": 0.2208412390855878
+  },
+  "floorSettlingProved": false
+}

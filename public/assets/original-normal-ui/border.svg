@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" preserveAspectRatio="none">
+<!-- Original normal UI frame2 vector layer; no SWF code executed. -->
+<g transform="matrix(1 0 0 1 0 0)">
+<path d="M 796.15 -50 Q 818.5 -50 834.25 -37.7 Q 850 -25.45 850.05 -8.05 L 850.05 608.1 Q 850 625.5 834.25 637.75 Q 818.5 650 796.15 650.05 L 3.9 650.05 Q -18.45 650 -34.2 637.75 Q -50 625.5 -49.95 608.1 L -49.95 -8.05 Q -50 -25.45 -34.2 -37.7 Q -18.45 -50 3.9 -50 L 796.15 -50 Z M 0 42.25 L 0 557.75 Q 0 575.3 12.6 587.65 Q 25.15 600 43 600 L 757 600 Q 774.85 600 787.45 587.65 Q 800 575.3 800 557.75 L 800 42.25 Q 800 24.7 787.45 12.35 Q 774.85 0 757 0 L 43 0 Q 25.15 0 12.6 12.35 Q 0 24.7 0 42.25 Z" fill="#000000" fill-opacity="1" fill-rule="evenodd"/>
+<path d="M 0 42.25 L 0 557.75 Q 0 575.3 12.6 587.65 Q 25.15 600 43 600 L 757 600 Q 774.85 600 787.45 587.65 Q 800 575.3 800 557.75 L 800 42.25 Q 800 24.7 787.45 12.35 Q 774.85 0 757 0 L 43 0 Q 25.15 0 12.6 12.35 Q 0 24.7 0 42.25 Z" fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</svg>

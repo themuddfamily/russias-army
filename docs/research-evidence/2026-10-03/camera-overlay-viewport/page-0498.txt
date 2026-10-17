@@ -1,0 +1,42 @@
+498 Chapter 12:  Methods
+face Optional. Specifies a list of symbols indicating the face of the original font. Possible values 
+are #plain, #bold, #italic. If you do not provide a value for this parameter, #plain is used. 
+bitmapSizes Optional. Specifies a list of integers specifying the sizes for which bitmaps are to be 
+recorded. This parameter can be empty. If you omit this parameter, no bitmaps are generated. 
+These bitmaps typically look better at smaller point sizes (below 14 points) but take up 
+more memory.
+characterSubset Optional. Specifies a string of characters to be encoded. Only the specified 
+characters will be available in the font. If this parameter is omitted, all characters are encoded. If 
+only certain characters are encoded but an unencoded character is used, that character is displayed 
+as an empty box.
+userFontName Optional. Specifies a string to use as the name of the newly recorded font 
+cast member.
+Example
+This statement creates a simple Shock Font using only the two arguments for the cast member 
+and the font to record:
+myNewFontMember = new(#font)
+recordFont(myNewFontMember, "Lunar Lander")
+This statement specifies the bitmap sizes to be generated and the characters for which the font 
+data should be created:
+myNewFontMember = new(#font)
+recordfont(mynewmember,"lunar lander",  [],  [14, 18, 45], "Lunar Lander Game 
+High \ Score First Last Name")
+Note: Since recordFont resynthesizes the font data rather than using it directly, there are no legal 
+restrictions on Shock Font distribution.
+See also
+newMember()
+rect()
+Usage
+-- Lingo syntax
+rect(intLeft, intTop, intRight, intBottom)
+// JavaScript syntax
+rect(intLeft, intTop, intRight, intBottom);
+Description
+Top level function; defines a rectangle.
+You can perform arithmetic operations on rectangles using both Lingo and JavaScript syntax. 
+If you add a single value to a rectangle, Lingo and JavaScript syntax adds it to each element in 
+the rectangle.
+You can refer to rectangle components by list syntax or property syntax. For example, the 
+following assignments set both myRectWidth1 and myRectWidth2 to 50:
+// JavaScript syntax
+var myRect = rect(40,30,90,70);

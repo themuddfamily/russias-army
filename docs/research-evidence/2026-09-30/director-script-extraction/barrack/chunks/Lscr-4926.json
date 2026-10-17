@@ -1,0 +1,143 @@
+{
+  "totalLength": 736,
+  "totalLength2": 736,
+  "headerLength": 92,
+  "scriptNumber": 0,
+  "unk20": 3,
+  "parentNumber": -1,
+  "scriptFlags": 0,
+  "unk42": 0,
+  "castID": 196643,
+  "factoryNameID": -1,
+  "handlerVectorsCount": 16,
+  "handlerVectorsOffset": 704,
+  "handlerVectorsSize": 33152,
+  "propertiesCount": 2,
+  "propertiesOffset": 92,
+  "globalsCount": 5,
+  "globalsOffset": 96,
+  "handlersCount": 4,
+  "handlersOffset": 106,
+  "literalsCount": 7,
+  "literalsOffset": 486,
+  "literalsDataCount": 162,
+  "literalsDataOffset": 542,
+  "propertyNameIDs": [
+    8,
+    5
+  ],
+  "globalNameIDs": [
+    20,
+    19,
+    7,
+    18,
+    4
+  ],
+  "handlers": [
+    {
+      "nameID": 0,
+      "vectorPos": 65535,
+      "compiledLen": 18,
+      "compiledOffset": 290,
+      "argumentCount": 1,
+      "argumentOffset": 308,
+      "localsCount": 0,
+      "localsOffset": 310,
+      "globalsCount": 0,
+      "globalsOffset": 96,
+      "unknown1": 79,
+      "unknown2": 4,
+      "lineCount": 4,
+      "lineOffset": 310,
+      "stackHeight": 1
+    },
+    {
+      "nameID": 1,
+      "vectorPos": 7,
+      "compiledLen": 8,
+      "compiledOffset": 314,
+      "argumentCount": 1,
+      "argumentOffset": 322,
+      "localsCount": 0,
+      "localsOffset": 324,
+      "globalsCount": 0,
+      "globalsOffset": 96,
+      "unknown1": 160,
+      "unknown2": 11,
+      "lineCount": 1,
+      "lineOffset": 324,
+      "stackHeight": 2
+    },
+    {
+      "nameID": 2,
+      "vectorPos": 8,
+      "compiledLen": 8,
+      "compiledOffset": 326,
+      "argumentCount": 1,
+      "argumentOffset": 334,
+      "localsCount": 0,
+      "localsOffset": 336,
+      "globalsCount": 0,
+      "globalsOffset": 96,
+      "unknown1": 194,
+      "unknown2": 14,
+      "lineCount": 1,
+      "lineOffset": 336,
+      "stackHeight": 2
+    },
+    {
+      "nameID": 3,
+      "vectorPos": 15,
+      "compiledLen": 119,
+      "compiledOffset": 338,
+      "argumentCount": 1,
+      "argumentOffset": 458,
+      "localsCount": 3,
+      "localsOffset": 460,
+      "globalsCount": 0,
+      "globalsOffset": 96,
+      "unknown1": 227,
+      "unknown2": 18,
+      "lineCount": 20,
+      "lineOffset": 466,
+      "stackHeight": 7
+    }
+  ],
+  "literals": [
+    {
+      "type": 1,
+      "offset": 0,
+      "value": "russiasarmy"
+    },
+    {
+      "type": 1,
+      "offset": 16,
+      "value": "http://www.gamevial.com/gameheroes.php?game="
+    },
+    {
+      "type": 9,
+      "offset": 66,
+      "value": 7.29564379999999968
+    },
+    {
+      "type": 1,
+      "offset": 78,
+      "value": "http://www.gamevial.com/scoreboard_30days.php"
+    },
+    {
+      "type": 1,
+      "offset": 128,
+      "value": "game"
+    },
+    {
+      "type": 1,
+      "offset": 138,
+      "value": "score"
+    },
+    {
+      "type": 1,
+      "offset": 148,
+      "value": "nickname"
+    }
+  ]
+}

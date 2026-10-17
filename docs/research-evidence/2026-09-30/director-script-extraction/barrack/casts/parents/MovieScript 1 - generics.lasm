@@ -1,0 +1,653 @@
+global gmem, goody, gscore, glevel, Enhancer, mousmov, baddies, hspots, tasks, clues, grecmods, gshaders, gmodinc, groomcount
+
+on getnormal modo, norm
+  [  0] getparam 0 .............................. <modo>
+  [  2] pusharglist 1 ........................... <modo>
+  [  4] objcall 33 .............................. <modo.getWorldTransform()>
+  [  6] setlocal 0 .............................. wtf = modo.getWorldTransform()
+  [  8] getlocal 0 .............................. <wtf>
+  [ 10] pushint8 1 .............................. <1>
+  [ 12] pushint8 1 .............................. <1>
+  [ 14] pushint8 1 .............................. <1>
+  [ 16] pusharglist 3 ........................... <1, 1, 1>
+  [ 18] extcall 34 .............................. <vector(1, 1, 1)>
+  [ 20] setobjprop 35 ........................... wtf.scale = vector(1, 1, 1)
+  [ 22] getlocal 0 .............................. <wtf>
+  [ 24] pushzero ................................ <0>
+  [ 25] pushzero ................................ <0>
+  [ 26] pushzero ................................ <0>
+  [ 27] pusharglist 3 ........................... <0, 0, 0>
+  [ 29] extcall 34 .............................. <vector(0, 0, 0)>
+  [ 31] setobjprop 36 ........................... wtf.position = vector(0, 0, 0)
+  [ 33] getlocal 0 .............................. <wtf>
+  [ 35] getparam 1 .............................. <norm>
+  [ 37] mul ..................................... <wtf * norm>
+  [ 38] setlocal 1 .............................. vnormal = wtf * norm
+  [ 40] getlocal 1 .............................. <vnormal>
+  [ 42] pusharglistnoret 1 ...................... <vnormal>
+  [ 44] extcall 37 .............................. return vnormal
+  [ 46] ret
+end
+
+on resetall
+  [  0] pushint8 1 .............................. <1>
+  [  2] setmovieprop 42 ......................... the romanLingo = 1
+  [  4] pusharglist 0 ........................... <>
+  [  6] extcall 6 ............................... <VOID>
+  [  8] setlocal 0 .............................. mus = VOID
+  [ 10] pusharglistnoret 0 ...................... <>
+  [ 12] extcall 43 .............................. clearGlobals()
+  [ 14] pushint8 51 ............................. <51>
+  [ 16] setglobal 44 ............................ groomcount = 51
+  [ 18] pusharglistnoret 0 ...................... <>
+  [ 20] localcall 2 ............................. resetactors()
+  [ 22] pushint8 2 .............................. <2>
+  [ 24] pushzero ................................ <0>
+  [ 25] set 0 ................................... set the floatPrecision to 2
+  [ 27] pushint8 1 .............................. <1>
+  [ 29] setglobal 45 ............................ glevel = 1
+  [ 31] ret
+end
+
+on resetactors
+  [  0] pushcons 0 .............................. <EMPTY>
+  [  2] pushint8 3 .............................. <3>
+  [  4] set 0 ................................... set the keyDownScript to EMPTY
+  [  6] pushcons 1 .............................. <"rooms">
+  [  8] pusharglist 1 ........................... <"rooms">
+  [ 10] extcall 47 .............................. <member("rooms")>
+  [ 12] pushzero ................................ <0>
+  [ 13] setobjprop 48 ........................... member("rooms").scrollTop = 0
+  [ 15] pushzero ................................ <0>
+  [ 16] setglobal 49 ............................ gmodinc = 0
+  [ 18] pusharglist 0 ........................... <[:]>
+  [ 20] pushproplist ............................ <[:]>
+  [ 21] setglobal 50 ............................ grecmods = [:]
+  [ 23] pusharglist 0 ........................... <[]>
+  [ 25] pushlist ................................ <[]>
+  [ 26] setglobal 51 ............................ gshaders = []
+  [ 28] pusharglist 0 ........................... <[]>
+  [ 30] pushlist ................................ <[]>
+  [ 31] setmovieprop 52 ......................... the actorList = []
+  [ 33] pusharglist 0 ........................... <[]>
+  [ 35] pushlist ................................ <[]>
+  [ 36] setglobal 53 ............................ baddies = []
+  [ 38] pusharglist 0 ........................... <[]>
+  [ 40] pushlist ................................ <[]>
+  [ 41] setglobal 54 ............................ hspots = []
+  [ 43] pusharglist 0 ........................... <[]>
+  [ 45] pushlist ................................ <[]>
+  [ 46] setglobal 55 ............................ tasks = []
+  [ 48] pusharglist 0 ........................... <[]>
+  [ 50] pushlist ................................ <[]>
+  [ 51] setglobal 56 ............................ clues = []
+  [ 53] ret
+end
+
+on prepareMovie me
+  [  0] pusharglist 0 ........................... <[]>
+  [  2] pushlist ................................ <[]>
+  [  3] setmovieprop 52 ......................... the actorList = []
+  [  5] pushint8 1 .............................. <1>
+  [  7] setglobal 45 ............................ glevel = 1
+  [  9] pushcons 2 .............................. <"baddy">
+  [ 11] pusharglist 1 ........................... <"baddy">
+  [ 13] extcall 47 .............................. <member("baddy")>
+  [ 15] setlocal 0 .............................. bad = member("baddy")
+  [ 17] getlocal 0 .............................. <bad>
+  [ 19] pusharglistnoret 1 ...................... <bad>
+  [ 21] objcall 57 .............................. bad.resetWorld()
+  [ 23] pushcons 3 .............................. <"gunz">
+  [ 25] pusharglist 1 ........................... <"gunz">
+  [ 27] extcall 47 .............................. <member("gunz")>
+  [ 29] pusharglistnoret 1 ...................... <member("gunz")>
+  [ 31] objcall 57 .............................. member("gunz").resetWorld()
+  [ 33] pushint8 1 .............................. <1>
+  [ 35] setlocal 1
+  [ 37] getlocal 1
+  [ 39] getlocal 0 .............................. <bad>
+  [ 41] pushsymb 58 ............................. <#model>
+  [ 43] pusharglist 2 ........................... <bad, #model>
+  [ 45] objcall 59 .............................. <bad.model.count>
+  [ 47] lteq
+  [ 48] jmpifz [150] ............................ repeat with i = 1 to bad.model.count
+  [ 51] getlocal 0 .............................. <bad>
+  [ 53] pushsymb 58 ............................. <#model>
+  [ 55] getlocal 1 .............................. <i>
+  [ 57] pusharglist 3 ........................... <bad, #model, i>
+  [ 59] objcall 60 .............................. <bad.model[i]>
+  [ 61] setlocal 2 .............................. md = bad.model[i]
+  [ 63] getlocal 2 .............................. <md>
+  [ 65] getobjprop 61 ........................... <md.name>
+  [ 67] setlocal 3 .............................. nom = md.name
+  [ 69] getlocal 0 .............................. <bad>
+  [ 71] getlocal 3 .............................. <nom>
+  [ 73] pushsymb 62 ............................. <#fromCastMember>
+  [ 75] getlocal 3 .............................. <nom>
+  [ 77] pusharglist 1 ........................... <nom>
+  [ 79] extcall 47 .............................. <member(nom)>
+  [ 81] pusharglist 4 ........................... <bad, nom, #fromCastMember, member(nom)>
+  [ 83] objcall 63 .............................. <bad.newTexture(nom, #fromCastMember, member(nom))>
+  [ 85] setlocal 4 .............................. flog = bad.newTexture(nom, #fromCastMember, member(nom))
+  [ 87] getlocal 2 .............................. <md>
+  [ 89] getlocal 0 .............................. <bad>
+  [ 91] getlocal 3 .............................. <nom>
+  [ 93] pushsymb 64 ............................. <#standard>
+  [ 95] pusharglist 3 ........................... <bad, nom, #standard>
+  [ 97] objcall 65 .............................. <bad.newShader(nom, #standard)>
+  [ 99] setobjprop 66 ........................... md.shaderList = bad.newShader(nom, #standard)
+  [101] getlocal 2 .............................. <md>
+  [103] getchainedprop 67 ....................... <md.shader>
+  [105] getlocal 4 .............................. <flog>
+  [107] setobjprop 68 ........................... md.shader.texture = flog
+  [109] getlocal 2 .............................. <md>
+  [111] getchainedprop 67 ....................... <md.shader>
+  [113] pushint16 200 ........................... <200>
+  [116] pushint16 200 ........................... <200>
+  [119] pushint16 200 ........................... <200>
+  [122] pusharglist 3 ........................... <200, 200, 200>
+  [124] extcall 69 .............................. <rgb(200, 200, 200)>
+  [126] setobjprop 70 ........................... md.shader.emissive = rgb(200, 200, 200)
+  [128] getlocal 2 .............................. <md>
+  [130] getchainedprop 67 ....................... <md.shader>
+  [132] pushzero ................................ <0>
+  [133] pushzero ................................ <0>
+  [134] pushzero ................................ <0>
+  [135] pusharglist 3 ........................... <0, 0, 0>
+  [137] extcall 69 .............................. <rgb(0, 0, 0)>
+  [139] setobjprop 71 ........................... md.shader.specular = rgb(0, 0, 0)
+  [141] pushint8 1
+  [143] getlocal 1
+  [145] add
+  [146] setlocal 1
+  [148] endrepeat [ 37]
+  [150] ret
+end
+
+on cosine3D rotsend
+  [  0] pushzero ................................ <0>
+  [  1] pushzero ................................ <0>
+  [  2] pushzero ................................ <0>
+  [  3] pusharglist 3 ........................... <0, 0, 0>
+  [  5] extcall 34 .............................. <vector(0, 0, 0)>
+  [  7] setlocal 0 .............................. bob = vector(0, 0, 0)
+  [  9] getlocal 0 .............................. <bob>
+  [ 11] getparam 0 .............................. <rotsend>
+  [ 13] getobjprop 76 ........................... <rotsend.z>
+  [ 15] pusharglist 0 ........................... <>
+  [ 17] extcall 77 .............................. <PI>
+  [ 19] mul ..................................... <rotsend.z * PI>
+  [ 20] pushint16 180 ........................... <180>
+  [ 23] div ..................................... <rotsend.z * PI / 180>
+  [ 24] getobjprop 78 ........................... <(rotsend.z * PI / 180).sin>
+  [ 26] inv ..................................... <-(rotsend.z * PI / 180).sin>
+  [ 27] pushint8 1 .............................. <1>
+  [ 29] mul ..................................... <-(rotsend.z * PI / 180).sin * 1>
+  [ 30] setobjprop 79 ........................... bob.x = -(rotsend.z * PI / 180).sin * 1
+  [ 32] getlocal 0 .............................. <bob>
+  [ 34] getparam 0 .............................. <rotsend>
+  [ 36] getobjprop 76 ........................... <rotsend.z>
+  [ 38] pusharglist 0 ........................... <>
+  [ 40] extcall 77 .............................. <PI>
+  [ 42] mul ..................................... <rotsend.z * PI>
+  [ 43] pushint16 180 ........................... <180>
+  [ 46] div ..................................... <rotsend.z * PI / 180>
+  [ 47] getobjprop 80 ........................... <(rotsend.z * PI / 180).cos>
+  [ 49] pushint8 1 .............................. <1>
+  [ 51] mul ..................................... <(rotsend.z * PI / 180).cos * 1>
+  [ 52] setobjprop 81 ........................... bob.y = (rotsend.z * PI / 180).cos * 1
+  [ 54] getlocal 0 .............................. <bob>
+  [ 56] getparam 0 .............................. <rotsend>
+  [ 58] getobjprop 79 ........................... <rotsend.x>
+  [ 60] pusharglist 0 ........................... <>
+  [ 62] extcall 77 .............................. <PI>
+  [ 64] mul ..................................... <rotsend.x * PI>
+  [ 65] pushint16 180 ........................... <180>
+  [ 68] div ..................................... <rotsend.x * PI / 180>
+  [ 69] getobjprop 78 ........................... <(rotsend.x * PI / 180).sin>
+  [ 71] pushint8 1 .............................. <1>
+  [ 73] mul ..................................... <(rotsend.x * PI / 180).sin * 1>
+  [ 74] setobjprop 76 ........................... bob.z = (rotsend.x * PI / 180).sin * 1
+  [ 76] getlocal 0 .............................. <bob>
+  [ 78] getparam 0 .............................. <rotsend>
+  [ 80] getobjprop 79 ........................... <rotsend.x>
+  [ 82] pusharglist 0 ........................... <>
+  [ 84] extcall 77 .............................. <PI>
+  [ 86] mul ..................................... <rotsend.x * PI>
+  [ 87] pushint16 180 ........................... <180>
+  [ 90] div ..................................... <rotsend.x * PI / 180>
+  [ 91] getobjprop 80 ........................... <(rotsend.x * PI / 180).cos>
+  [ 93] getlocal 0 .............................. <bob>
+  [ 95] getobjprop 79 ........................... <bob.x>
+  [ 97] mul ..................................... <(rotsend.x * PI / 180).cos * bob.x>
+  [ 98] setobjprop 79 ........................... bob.x = (rotsend.x * PI / 180).cos * bob.x
+  [100] getlocal 0 .............................. <bob>
+  [102] getparam 0 .............................. <rotsend>
+  [104] getobjprop 79 ........................... <rotsend.x>
+  [106] pusharglist 0 ........................... <>
+  [108] extcall 77 .............................. <PI>
+  [110] mul ..................................... <rotsend.x * PI>
+  [111] pushint16 180 ........................... <180>
+  [114] div ..................................... <rotsend.x * PI / 180>
+  [115] getobjprop 80 ........................... <(rotsend.x * PI / 180).cos>
+  [117] getlocal 0 .............................. <bob>
+  [119] getobjprop 81 ........................... <bob.y>
+  [121] mul ..................................... <(rotsend.x * PI / 180).cos * bob.y>
+  [122] setobjprop 81 ........................... bob.y = (rotsend.x * PI / 180).cos * bob.y
+  [124] getlocal 0 .............................. <bob>
+  [126] pusharglistnoret 1 ...................... <bob>
+  [128] extcall 37 .............................. return bob
+  [130] ret
+end
+
+on vectoang vpos1, vpos2
+  [  0] getparam 0 .............................. <vpos1>
+  [  2] getparam 1 .............................. <vpos2>
+  [  4] sub ..................................... <vpos1 - vpos2>
+  [  5] setlocal 0 .............................. delta = vpos1 - vpos2
+  [  7] getlocal 0 .............................. <delta>
+  [  9] getobjprop 84 ........................... <delta.magnitude>
+  [ 11] pushzero ................................ <0>
+  [ 12] gt ...................................... <delta.magnitude > 0>
+  [ 13] jmpifz [101] ............................ if delta.magnitude > 0 then / else
+  [ 16] getlocal 0 .............................. <delta>
+  [ 18] getobjprop 79 ........................... <delta.x>
+  [ 20] getlocal 0 .............................. <delta>
+  [ 22] getobjprop 81 ........................... <delta.y>
+  [ 24] pusharglist 2 ........................... <delta.x, delta.y>
+  [ 26] extcall 85 .............................. <atan(delta.x, delta.y)>
+  [ 28] setlocal 1 .............................. rad = atan(delta.x, delta.y)
+  [ 30] getlocal 1 .............................. <rad>
+  [ 32] pusharglist 0 ........................... <>
+  [ 34] extcall 77 .............................. <PI>
+  [ 36] pushint16 180 ........................... <180>
+  [ 39] div ..................................... <PI / 180>
+  [ 40] div ..................................... <rad / (PI / 180)>
+  [ 41] setlocal 2 .............................. ang1 = rad / (PI / 180)
+  [ 43] getlocal 0 .............................. <delta>
+  [ 45] getobjprop 79 ........................... <delta.x>
+  [ 47] getlocal 0 .............................. <delta>
+  [ 49] getobjprop 81 ........................... <delta.y>
+  [ 51] pushzero ................................ <0>
+  [ 52] pusharglist 3 ........................... <delta.x, delta.y, 0>
+  [ 54] extcall 34 .............................. <vector(delta.x, delta.y, 0)>
+  [ 56] getobjprop 84 ........................... <vector(delta.x, delta.y, 0).magnitude>
+  [ 58] setlocal 3 .............................. leng = vector(delta.x, delta.y, 0).magnitude
+  [ 60] getlocal 0 .............................. <delta>
+  [ 62] getobjprop 76 ........................... <delta.z>
+  [ 64] getlocal 3 .............................. <leng>
+  [ 66] pusharglist 2 ........................... <delta.z, leng>
+  [ 68] extcall 85 .............................. <atan(delta.z, leng)>
+  [ 70] setlocal 1 .............................. rad = atan(delta.z, leng)
+  [ 72] getlocal 1 .............................. <rad>
+  [ 74] pusharglist 0 ........................... <>
+  [ 76] extcall 77 .............................. <PI>
+  [ 78] pushint16 180 ........................... <180>
+  [ 81] div ..................................... <PI / 180>
+  [ 82] div ..................................... <rad / (PI / 180)>
+  [ 83] setlocal 4 .............................. ang2 = rad / (PI / 180)
+  [ 85] getlocal 4 .............................. <ang2>
+  [ 87] pushzero ................................ <0>
+  [ 88] getlocal 2 .............................. <ang1>
+  [ 90] pusharglist 3 ........................... <ang2, 0, ang1>
+  [ 92] extcall 34 .............................. <vector(ang2, 0, ang1)>
+  [ 94] pusharglistnoret 1 ...................... <vector(ang2, 0, ang1)>
+  [ 96] extcall 37 .............................. return vector(ang2, 0, ang1)
+  [ 98] jmp [112]
+  [101] pushzero ................................ <0>
+  [102] pushzero ................................ <0>
+  [103] pushzero ................................ <0>
+  [104] pusharglist 3 ........................... <0, 0, 0>
+  [106] extcall 34 .............................. <vector(0, 0, 0)>
+  [108] pusharglistnoret 1 ...................... <vector(0, 0, 0)>
+  [110] extcall 37 .............................. return vector(0, 0, 0)
+  [112] ret
+end
+
+on playsound pos, what, chan
+  [  0] getparam 1 .............................. <what>
+  [  2] pusharglist 1 ........................... <what>
+  [  4] extcall 93 .............................. <string(what)>
+  [  6] pusharglist 1 ........................... <string(what)>
+  [  8] extcall 47 .............................. <member(string(what))>
+  [ 10] setlocal 0 .............................. mem = member(string(what))
+  [ 12] getglobal 94 ............................ <gmem>
+  [ 14] pushsymb 95 ............................. <#camera>
+  [ 16] pushint8 1 .............................. <1>
+  [ 18] pusharglist 3 ........................... <gmem, #camera, 1>
+  [ 20] objcall 60 .............................. <gmem.camera[1]>
+  [ 22] setlocal 1 .............................. cam = gmem.camera[1]
+  [ 24] getlocal 1 .............................. <cam>
+  [ 26] getchainedprop 96 ....................... <cam.transform>
+  [ 28] getobjprop 36 ........................... <cam.transform.position>
+  [ 30] setlocal 2 .............................. ear = cam.transform.position
+  [ 32] getlocal 2 .............................. <ear>
+  [ 34] getlocal 1 .............................. <cam>
+  [ 36] pushint8 5 .............................. <5>
+  [ 38] inv ..................................... <-5>
+  [ 39] pushzero ................................ <0>
+  [ 40] pushzero ................................ <0>
+  [ 41] pusharglist 3 ........................... <-5, 0, 0>
+  [ 43] extcall 34 .............................. <vector(-5, 0, 0)>
+  [ 45] pusharglist 2 ........................... <cam, vector(-5, 0, 0)>
+  [ 47] localcall 0 ............................. <getnormal(cam, vector(-5, 0, 0))>
+  [ 49] add ..................................... <ear + getnormal(cam, vector(-5, 0, 0))>
+  [ 50] setlocal 3 .............................. vlear = ear + getnormal(cam, vector(-5, 0, 0))
+  [ 52] getlocal 2 .............................. <ear>
+  [ 54] getlocal 1 .............................. <cam>
+  [ 56] pushint8 5 .............................. <5>
+  [ 58] pushzero ................................ <0>
+  [ 59] pushzero ................................ <0>
+  [ 60] pusharglist 3 ........................... <5, 0, 0>
+  [ 62] extcall 34 .............................. <vector(5, 0, 0)>
+  [ 64] pusharglist 2 ........................... <cam, vector(5, 0, 0)>
+  [ 66] localcall 0 ............................. <getnormal(cam, vector(5, 0, 0))>
+  [ 68] add ..................................... <ear + getnormal(cam, vector(5, 0, 0))>
+  [ 69] setlocal 4 .............................. vrear = ear + getnormal(cam, vector(5, 0, 0))
+  [ 71] getparam 0 .............................. <pos>
+  [ 73] pushzero ................................ <0>
+  [ 74] eq ...................................... <pos = 0>
+  [ 75] jmpifz [ 82] ............................ if pos = 0 then
+  [ 78] getlocal 2 .............................. <ear>
+  [ 80] setparam 0 .............................. pos = ear
+  [ 82] pushint16 200 ........................... <200>
+  [ 85] getparam 0 .............................. <pos>
+  [ 87] getlocal 2 .............................. <ear>
+  [ 89] pusharglist 2 ........................... <pos, ear>
+  [ 91] objcall 98 .............................. <pos.distanceTo(ear)>
+  [ 93] pushcons 4 .............................. <0.04>
+  [ 95] mul ..................................... <pos.distanceTo(ear) * 0.04>
+  [ 96] pusharglist 1 ........................... <pos.distanceTo(ear) * 0.04>
+  [ 98] extcall 97 .............................. <integer(pos.distanceTo(ear) * 0.04)>
+  [100] sub ..................................... <200 - integer(pos.distanceTo(ear) * 0.04)>
+  [101] setlocal 5 .............................. numvol = 200 - integer(pos.distanceTo(ear) * 0.04)
+  [103] getlocal 3 .............................. <vlear>
+  [105] getparam 0 .............................. <pos>
+  [107] pusharglist 2 ........................... <vlear, pos>
+  [109] objcall 98 .............................. <vlear.distanceTo(pos)>
+  [111] pusharglist 1 ........................... <vlear.distanceTo(pos)>
+  [113] extcall 99 .............................. <float(vlear.distanceTo(pos))>
+  [115] getlocal 4 .............................. <vrear>
+  [117] getparam 0 .............................. <pos>
+  [119] pusharglist 2 ........................... <vrear, pos>
+  [121] objcall 98 .............................. <vrear.distanceTo(pos)>
+  [123] sub ..................................... <float(vlear.distanceTo(pos)) - vrear.distanceTo(pos)>
+  [124] pushint8 10 ............................. <10>
+  [126] mul ..................................... <(float(vlear.distanceTo(pos)) - vrear.distanceTo(pos)) * 10>
+  [127] setlocal 6 .............................. vpan = (float(vlear.distanceTo(pos)) - vrear.distanceTo(pos)) * 10
+  [129] getlocal 5 .............................. <numvol>
+  [131] pushint8 1 .............................. <1>
+  [133] gt ...................................... <numvol > 1>
+  [134] jmpifz [279] ............................ if numvol > 1 then
+  [137] getparam 2 .............................. <chan>
+  [139] pusharglist 1 ........................... <chan>
+  [141] extcall 100 ............................. <voidp(chan)>
+  [143] jmpifz [231] ............................ if voidp(chan) then / else
+  [146] pushint8 1 .............................. <1>
+  [148] setparam 2
+  [150] getparam 2
+  [152] pushint8 8 .............................. <8>
+  [154] lteq
+  [155] jmpifz [228] ............................ repeat with chan = 1 to 8
+  [158] getparam 2 .............................. <chan>
+  [160] pusharglist 1 ........................... <chan>
+  [162] extcall 101 ............................. <soundBusy(chan)>
+  [164] not ..................................... <not soundBusy(chan)>
+  [165] jmpifz [219] ............................ if not soundBusy(chan) then
+  [168] getparam 2 .............................. <chan>
+  [170] pushzero ................................ <0>
+  [171] pusharglistnoret 2 ...................... <chan, 0>
+  [173] extcall 102 ............................. puppetSound(chan, 0)
+  [175] getparam 2 .............................. <chan>
+  [177] pusharglist 1 ........................... <chan>
+  [179] extcall 103 ............................. <sound(chan)>
+  [181] pushsymb 47 ............................. <#member>
+  [183] getlocal 0 .............................. <mem>
+  [185] pushsymb 104 ............................ <#loopCount>
+  [187] pushint8 1 .............................. <1>
+  [189] pusharglist 4 ........................... <[#member: mem, #loopCount: 1]>
+  [191] pushproplist ............................ <[#member: mem, #loopCount: 1]>
+  [192] pusharglistnoret 2 ...................... <sound(chan), [#member: mem, #loopCount: 1]>
+  [194] objcall 105 ............................. sound(chan).play([#member: mem, #loopCount: 1])
+  [196] getparam 2 .............................. <chan>
+  [198] pusharglist 1 ........................... <chan>
+  [200] extcall 103 ............................. <sound(chan)>
+  [202] getlocal 5 .............................. <numvol>
+  [204] setobjprop 106 .......................... sound(chan).volume = numvol
+  [206] getparam 2 .............................. <chan>
+  [208] pusharglist 1 ........................... <chan>
+  [210] extcall 103 ............................. <sound(chan)>
+  [212] getlocal 6 .............................. <vpan>
+  [214] setobjprop 107 .......................... sound(chan).pan = vpan
+  [216] jmp [228] ............................... exit repeat
+  [219] pushint8 1
+  [221] getparam 2
+  [223] add
+  [224] setparam 2
+  [226] endrepeat [150]
+  [228] jmp [279]
+  [231] getparam 2 .............................. <chan>
+  [233] pushzero ................................ <0>
+  [234] pusharglistnoret 2 ...................... <chan, 0>
+  [236] extcall 102 ............................. puppetSound(chan, 0)
+  [238] getparam 2 .............................. <chan>
+  [240] pusharglist 1 ........................... <chan>
+  [242] extcall 103 ............................. <sound(chan)>
+  [244] pushsymb 47 ............................. <#member>
+  [246] getlocal 0 .............................. <mem>
+  [248] pushsymb 104 ............................ <#loopCount>
+  [250] pushint8 1 .............................. <1>
+  [252] pusharglist 4 ........................... <[#member: mem, #loopCount: 1]>
+  [254] pushproplist ............................ <[#member: mem, #loopCount: 1]>
+  [255] pusharglistnoret 2 ...................... <sound(chan), [#member: mem, #loopCount: 1]>
+  [257] objcall 105 ............................. sound(chan).play([#member: mem, #loopCount: 1])
+  [259] getparam 2 .............................. <chan>
+  [261] pusharglist 1 ........................... <chan>
+  [263] extcall 103 ............................. <sound(chan)>
+  [265] getlocal 5 .............................. <numvol>
+  [267] setobjprop 106 .......................... sound(chan).volume = numvol
+  [269] getparam 2 .............................. <chan>
+  [271] pusharglist 1 ........................... <chan>
+  [273] extcall 103 ............................. <sound(chan)>
+  [275] getlocal 6 .............................. <vpan>
+  [277] setobjprop 107 .......................... sound(chan).pan = vpan
+  [279] pushint8 1 .............................. <1>
+  [281] pusharglistnoret 1 ...................... <1>
+  [283] extcall 37 .............................. return 1
+  [285] ret
+end
+
+on shady whatty
+  [  0] getglobal 94 ............................ <gmem>
+  [  2] getparam 0 .............................. <whatty>
+  [  4] pusharglist 2 ........................... <gmem, whatty>
+  [  6] objcall 67 .............................. <gmem.shader(whatty)>
+  [  8] pusharglist 1 ........................... <gmem.shader(whatty)>
+  [ 10] extcall 100 ............................. <voidp(gmem.shader(whatty))>
+  [ 12] jmpifz [ 30] ............................ if voidp(gmem.shader(whatty)) then / else
+  [ 15] getglobal 94 ............................ <gmem>
+  [ 17] getparam 0 .............................. <whatty>
+  [ 19] pushsymb 64 ............................. <#standard>
+  [ 21] pusharglist 3 ........................... <gmem, whatty, #standard>
+  [ 23] objcall 65 .............................. <gmem.newShader(whatty, #standard)>
+  [ 25] setlocal 0 .............................. shadster = gmem.newShader(whatty, #standard)
+  [ 27] jmp [ 40]
+  [ 30] getglobal 94 ............................ <gmem>
+  [ 32] getparam 0 .............................. <whatty>
+  [ 34] pusharglist 2 ........................... <gmem, whatty>
+  [ 36] objcall 67 .............................. <gmem.shader(whatty)>
+  [ 38] setlocal 0 .............................. shadster = gmem.shader(whatty)
+  [ 40] getlocal 0 .............................. <shadster>
+  [ 42] getparam 0 .............................. <whatty>
+  [ 44] pusharglist 1 ........................... <whatty>
+  [ 46] localcall 8 ............................. <texy(whatty)>
+  [ 48] setobjprop 68 ........................... shadster.texture = texy(whatty)
+  [ 50] getlocal 0 .............................. <shadster>
+  [ 52] pushint16 255 ........................... <255>
+  [ 55] pushint16 255 ........................... <255>
+  [ 58] pushint16 255 ........................... <255>
+  [ 61] pusharglist 3 ........................... <255, 255, 255>
+  [ 63] extcall 69 .............................. <rgb(255, 255, 255)>
+  [ 65] setobjprop 70 ........................... shadster.emissive = rgb(255, 255, 255)
+  [ 67] getlocal 0 .............................. <shadster>
+  [ 69] pushzero ................................ <0>
+  [ 70] pushzero ................................ <0>
+  [ 71] pushzero ................................ <0>
+  [ 72] pusharglist 3 ........................... <0, 0, 0>
+  [ 74] extcall 69 .............................. <rgb(0, 0, 0)>
+  [ 76] setobjprop 71 ........................... shadster.specular = rgb(0, 0, 0)
+  [ 78] getlocal 0 .............................. <shadster>
+  [ 80] pusharglistnoret 1 ...................... <shadster>
+  [ 82] extcall 37 .............................. return shadster
+  [ 84] ret
+end
+
+on texy whatty
+  [  0] getparam 0 .............................. <whatty>
+  [  2] pushcons 5 .............................. <"textures">
+  [  4] pusharglist 2 ........................... <whatty, "textures">
+  [  6] extcall 47 .............................. <member(whatty, "textures")>
+  [  8] setlocal 0 .............................. vmem = member(whatty, "textures")
+  [ 10] pushcons 6 .............................. <"whatty">
+  [ 12] pusharglist 1 ........................... <"whatty">
+  [ 14] extcall 47 .............................. <member("whatty")>
+  [ 16] pusharglist 1 ........................... <member("whatty")>
+  [ 18] extcall 100 ............................. <voidp(member("whatty"))>
+  [ 20] not ..................................... <not voidp(member("whatty"))>
+  [ 21] jmpifz [ 87] ............................ if not voidp(member("whatty")) then / else
+  [ 24] getglobal 94 ............................ <gmem>
+  [ 26] getparam 0 .............................. <whatty>
+  [ 28] pusharglist 2 ........................... <gmem, whatty>
+  [ 30] objcall 68 .............................. <gmem.texture(whatty)>
+  [ 32] pusharglist 1 ........................... <gmem.texture(whatty)>
+  [ 34] extcall 100 ............................. <voidp(gmem.texture(whatty))>
+  [ 36] jmpifz [ 56] ............................ if voidp(gmem.texture(whatty)) then / else
+  [ 39] getglobal 94 ............................ <gmem>
+  [ 41] getparam 0 .............................. <whatty>
+  [ 43] pushsymb 62 ............................. <#fromCastMember>
+  [ 45] getlocal 0 .............................. <vmem>
+  [ 47] pusharglist 4 ........................... <gmem, whatty, #fromCastMember, vmem>
+  [ 49] objcall 63 .............................. <gmem.newTexture(whatty, #fromCastMember, vmem)>
+  [ 51] setlocal 1 .............................. tex = gmem.newTexture(whatty, #fromCastMember, vmem)
+  [ 53] jmp [ 72]
+  [ 56] getglobal 94 ............................ <gmem>
+  [ 58] getparam 0 .............................. <whatty>
+  [ 60] pusharglist 2 ........................... <gmem, whatty>
+  [ 62] objcall 68 .............................. <gmem.texture(whatty)>
+  [ 64] setlocal 1 .............................. tex = gmem.texture(whatty)
+  [ 66] getlocal 1 .............................. <tex>
+  [ 68] getlocal 0 .............................. <vmem>
+  [ 70] setobjprop 47 ........................... tex.member = vmem
+  [ 72] getlocal 1 .............................. <tex>
+  [ 74] pushsymb 120 ............................ <#rgba8888>
+  [ 76] setobjprop 121 .......................... tex.renderFormat = #rgba8888
+  [ 78] getlocal 1 .............................. <tex>
+  [ 80] pusharglistnoret 1 ...................... <tex>
+  [ 82] extcall 37 .............................. return tex
+  [ 84] jmp [110]
+  [ 87] getparam 0 .............................. <whatty>
+  [ 89] pushcons 7 .............................. <" aint there...">
+  [ 91] joinstr ................................. <whatty & " aint there...">
+  [ 92] pusharglistnoret 1 ...................... <whatty & " aint there...">
+  [ 94] extcall 122 ............................. alert(whatty & " aint there...")
+  [ 96] getglobal 94 ............................ <gmem>
+  [ 98] pushsymb 68 ............................. <#texture>
+  [100] pushint8 1 .............................. <1>
+  [102] pusharglist 3 ........................... <gmem, #texture, 1>
+  [104] objcall 60 .............................. <gmem.texture[1]>
+  [106] pusharglistnoret 1 ...................... <gmem.texture[1]>
+  [108] extcall 37 .............................. return gmem.texture[1]
+  [110] ret
+end
+
+on closetome vpos, diam
+  [  0] getglobal 125 ........................... <goody>
+  [  2] pusharglist 1 ........................... <goody>
+  [  4] extcall 100 ............................. <voidp(goody)>
+  [  6] not ..................................... <not voidp(goody)>
+  [  7] jmpifz [ 32] ............................ if not voidp(goody) then
+  [ 10] getglobal 125 ........................... <goody>
+  [ 12] getchainedprop 108 ...................... <goody.pos>
+  [ 14] getparam 0 .............................. <vpos>
+  [ 16] pusharglist 2 ........................... <goody.pos, vpos>
+  [ 18] objcall 98 .............................. <goody.pos.distanceTo(vpos)>
+  [ 20] getparam 1 .............................. <diam>
+  [ 22] lt ...................................... <goody.pos.distanceTo(vpos) < diam>
+  [ 23] jmpifz [ 32] ............................ if goody.pos.distanceTo(vpos) < diam then
+  [ 26] pushint8 1 .............................. <1>
+  [ 28] pusharglistnoret 1 ...................... <1>
+  [ 30] extcall 37 .............................. return 1
+  [ 32] pushzero ................................ <0>
+  [ 33] pusharglistnoret 1 ...................... <0>
+  [ 35] extcall 37 .............................. return 0
+  [ 37] ret
+end
+
+on planemakeme
+  [  0] getglobal 94 ............................ <gmem>
+  [  2] pushcons 8 .............................. <"plane">
+  [  4] pusharglist 2 ........................... <gmem, "plane">
+  [  6] objcall 128 ............................. <gmem.modelResource("plane")>
+  [  8] pusharglist 1 ........................... <gmem.modelResource("plane")>
+  [ 10] extcall 100 ............................. <voidp(gmem.modelResource("plane"))>
+  [ 12] jmpifz [ 48] ............................ if voidp(gmem.modelResource("plane")) then / else
+  [ 15] getglobal 94 ............................ <gmem>
+  [ 17] pushcons 8 .............................. <"plane">
+  [ 19] pushsymb 129 ............................ <#plane>
+  [ 21] pushsymb 130 ............................ <#front>
+  [ 23] pusharglist 4 ........................... <gmem, "plane", #plane, #front>
+  [ 25] objcall 131 ............................. <gmem.newModelResource("plane", #plane, #front)>
+  [ 27] setlocal 0 .............................. nmr = gmem.newModelResource("plane", #plane, #front)
+  [ 29] getlocal 0 .............................. <nmr>
+  [ 31] getglobal 125 ........................... <goody>
+  [ 33] getobjprop 132 .......................... <goody.bsp>
+  [ 35] setobjprop 133 .......................... nmr.width = goody.bsp
+  [ 37] getlocal 0 .............................. <nmr>
+  [ 39] getglobal 125 ........................... <goody>
+  [ 41] getobjprop 132 .......................... <goody.bsp>
+  [ 43] setobjprop 134 .......................... nmr.length = goody.bsp
+  [ 45] jmp [ 58]
+  [ 48] getglobal 94 ............................ <gmem>
+  [ 50] pushcons 8 .............................. <"plane">
+  [ 52] pusharglist 2 ........................... <gmem, "plane">
+  [ 54] objcall 128 ............................. <gmem.modelResource("plane")>
+  [ 56] setlocal 0 .............................. nmr = gmem.modelResource("plane")
+  [ 58] getglobal 49 ............................ <gmodinc>
+  [ 60] pushint8 1 .............................. <1>
+  [ 62] add ..................................... <gmodinc + 1>
+  [ 63] setglobal 49 ............................ gmodinc = gmodinc + 1
+  [ 65] getglobal 94 ............................ <gmem>
+  [ 67] pushcons 8 .............................. <"plane">
+  [ 69] getglobal 49 ............................ <gmodinc>
+  [ 71] joinstr ................................. <"plane" & gmodinc>
+  [ 72] getlocal 0 .............................. <nmr>
+  [ 74] pusharglist 3 ........................... <gmem, "plane" & gmodinc, nmr>
+  [ 76] objcall 135 ............................. <gmem.newModel("plane" & gmodinc, nmr)>
+  [ 78] setlocal 1 .............................. p = gmem.newModel("plane" & gmodinc, nmr)
+  [ 80] getlocal 1 .............................. <p>
+  [ 82] pusharglistnoret 1 ...................... <p>
+  [ 84] extcall 37 .............................. return p
+  [ 86] ret
+end
+
+on startMovie
+  [  0] pusharglistnoret 0 ...................... <>
+  [  2] localcall 1 ............................. resetall()
+  [  4] getmovieprop 617 ........................ <the moviePath>
+  [  7] pushcons 9 .............................. <"http://www.gamevial.com">
+  [  9] containsstr ............................. <the moviePath contains "http://www.gamevial.com">
+  [ 10] jmpifz [ 16] ............................ if the moviePath contains "http://www.gamevial.com" then / else
+  [ 13] jmp [ 34]
+  [ 16] getmovieprop 617 ........................ <the moviePath>
+  [ 19] pushcons 10 ............................. <"http://gamevial.com">
+  [ 21] containsstr ............................. <the moviePath contains "http://gamevial.com">
+  [ 22] jmpifz [ 28] ............................ if the moviePath contains "http://gamevial.com" then / else
+  [ 25] jmp [ 34]
+  [ 28] pushcons 9 .............................. <"http://www.gamevial.com">
+  [ 30] pusharglistnoret 1 ...................... <"http://www.gamevial.com">
+  [ 32] extcall 13 .............................. gotoNetPage("http://www.gamevial.com")
+  [ 34] pushint8 1 .............................. <1>
+  [ 36] pushint8 8 .............................. <8>
+  [ 38] set 7 ................................... set the exitLock to 1
+  [ 40] ret
+end

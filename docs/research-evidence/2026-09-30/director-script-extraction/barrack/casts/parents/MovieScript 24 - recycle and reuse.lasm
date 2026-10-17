@@ -1,0 +1,161 @@
+global gmem, grecmods, gshaders, gmodinc
+
+on storemodel ntype, nmod
+  [  0] getparam 0 .............................. <ntype>
+  [  2] setlocal 0 .............................. vid = ntype
+  [  4] getglobal 50 ............................ <grecmods>
+  [  6] getparam 0 .............................. <ntype>
+  [  8] pusharglist 2 ........................... <grecmods, ntype>
+  [ 10] objcall 225 ............................. <grecmods.getaProp(ntype)>
+  [ 12] setlocal 1 .............................. vmods = grecmods.getaProp(ntype)
+  [ 14] getlocal 1 .............................. <vmods>
+  [ 16] pushzero ................................ <0>
+  [ 17] eq ...................................... <vmods = 0>
+  [ 18] jmpifz [ 38] ............................ if vmods = 0 then / else
+  [ 21] getglobal 50 ............................ <grecmods>
+  [ 23] getparam 0 .............................. <ntype>
+  [ 25] getparam 1 .............................. <nmod>
+  [ 27] pusharglist 1 ........................... <[nmod]>
+  [ 29] pushlist ................................ <[nmod]>
+  [ 30] pusharglistnoret 3 ...................... <grecmods, ntype, [nmod]>
+  [ 32] objcall 342 ............................. grecmods.addProp(ntype, [nmod])
+  [ 35] jmp [ 57]
+  [ 38] getlocal 1 .............................. <vmods>
+  [ 40] getparam 1 .............................. <nmod>
+  [ 42] pusharglistnoret 2 ...................... <vmods, nmod>
+  [ 44] objcall 223 ............................. vmods.add(nmod)
+  [ 46] getglobal 50 ............................ <grecmods>
+  [ 48] getparam 0 .............................. <ntype>
+  [ 50] getlocal 1 .............................. <vmods>
+  [ 52] pusharglistnoret 3 ...................... <grecmods, ntype, vmods>
+  [ 54] objcall 398 ............................. grecmods.setaProp(ntype, vmods)
+  [ 57] getparam 1 .............................. <nmod>
+  [ 59] pusharglistnoret 1 ...................... <nmod>
+  [ 61] objcall 394 ............................. nmod.removeFromWorld()
+  [ 64] ret
+end
+
+on recyclemodel ntype
+  [  0] getglobal 50 ............................ <grecmods>
+  [  2] getparam 0 .............................. <ntype>
+  [  4] pusharglist 2 ........................... <grecmods, ntype>
+  [  6] objcall 225 ............................. <grecmods.getaProp(ntype)>
+  [  8] setlocal 0 .............................. vmods = grecmods.getaProp(ntype)
+  [ 10] getlocal 0 .............................. <vmods>
+  [ 12] pushzero ................................ <0>
+  [ 13] eq ...................................... <vmods = 0>
+  [ 14] jmpifz [ 37] ............................ if vmods = 0 then / else
+  [ 17] getglobal 50 ............................ <grecmods>
+  [ 19] getparam 0 .............................. <ntype>
+  [ 21] pusharglist 0 ........................... <[]>
+  [ 23] pushlist ................................ <[]>
+  [ 24] pusharglistnoret 3 ...................... <grecmods, ntype, []>
+  [ 26] objcall 342 ............................. grecmods.addProp(ntype, [])
+  [ 29] pushzero ................................ <0>
+  [ 30] pusharglistnoret 1 ...................... <0>
+  [ 32] extcall 37 .............................. return 0
+  [ 34] jmp [ 97]
+  [ 37] getlocal 0 .............................. <vmods>
+  [ 39] getobjprop 59 ........................... <vmods.count>
+  [ 41] pushzero ................................ <0>
+  [ 42] eq ...................................... <vmods.count = 0>
+  [ 43] jmpifz [ 54] ............................ if vmods.count = 0 then / else
+  [ 46] pushzero ................................ <0>
+  [ 47] pusharglistnoret 1 ...................... <0>
+  [ 49] extcall 37 .............................. return 0
+  [ 51] jmp [ 97]
+  [ 54] getlocal 0 .............................. <vmods>
+  [ 56] pushint8 1 .............................. <1>
+  [ 58] pusharglist 2 ........................... <vmods, 1>
+  [ 60] objcall 217 ............................. <vmods[1]>
+  [ 62] setlocal 1 .............................. vmod = vmods[1]
+  [ 64] getlocal 1 .............................. <vmod>
+  [ 66] pusharglistnoret 1 ...................... <vmod>
+  [ 68] objcall 418 ............................. vmod.addToWorld()
+  [ 71] getlocal 0 .............................. <vmods>
+  [ 73] getlocal 1 .............................. <vmod>
+  [ 75] pusharglistnoret 2 ...................... <vmods, vmod>
+  [ 77] objcall 366 ............................. vmods.deleteOne(vmod)
+  [ 80] getglobal 50 ............................ <grecmods>
+  [ 82] getparam 0 .............................. <ntype>
+  [ 84] getlocal 0 .............................. <vmods>
+  [ 86] pusharglistnoret 3 ...................... <grecmods, ntype, vmods>
+  [ 88] objcall 398 ............................. grecmods.setaProp(ntype, vmods)
+  [ 91] getlocal 1 .............................. <vmod>
+  [ 93] pusharglistnoret 1 ...................... <vmod>
+  [ 95] extcall 37 .............................. return vmod
+  [ 97] ret
+end
+
+on recycleshader nam
+  [  0] getglobal 51 ............................ <gshaders>
+  [  2] getobjprop 59 ........................... <gshaders.count>
+  [  4] pushzero ................................ <0>
+  [  5] eq ...................................... <gshaders.count = 0>
+  [  6] jmpifz [ 57] ............................ if gshaders.count = 0 then / else
+  [  9] getglobal 94 ............................ <gmem>
+  [ 11] pushcons 0 .............................. <"shad">
+  [ 13] getglobal 49 ............................ <gmodinc>
+  [ 15] joinstr ................................. <"shad" & gmodinc>
+  [ 16] pushsymb 64 ............................. <#standard>
+  [ 18] pusharglist 3 ........................... <gmem, "shad" & gmodinc, #standard>
+  [ 20] objcall 65 .............................. <gmem.newShader("shad" & gmodinc, #standard)>
+  [ 22] setlocal 0 .............................. sha = gmem.newShader("shad" & gmodinc, #standard)
+  [ 24] getlocal 0 .............................. <sha>
+  [ 26] pushint16 255 ........................... <255>
+  [ 29] pushint16 255 ........................... <255>
+  [ 32] pushint16 255 ........................... <255>
+  [ 35] pusharglist 3 ........................... <255, 255, 255>
+  [ 37] extcall 69 .............................. <rgb(255, 255, 255)>
+  [ 39] setobjprop 70 ........................... sha.emissive = rgb(255, 255, 255)
+  [ 41] getlocal 0 .............................. <sha>
+  [ 43] pushzero ................................ <0>
+  [ 44] setobjprop 567 .......................... sha.shininess = 0
+  [ 47] getglobal 49 ............................ <gmodinc>
+  [ 49] pushint8 1 .............................. <1>
+  [ 51] add ..................................... <gmodinc + 1>
+  [ 52] setglobal 49 ............................ gmodinc = gmodinc + 1
+  [ 54] jmp [ 76]
+  [ 57] getglobal 51 ............................ <gshaders>
+  [ 59] pushint8 1 .............................. <1>
+  [ 61] pusharglist 2 ........................... <gshaders, 1>
+  [ 63] objcall 217 ............................. <gshaders[1]>
+  [ 65] setlocal 0 .............................. sha = gshaders[1]
+  [ 67] getglobal 51 ............................ <gshaders>
+  [ 69] pushint8 1 .............................. <1>
+  [ 71] pusharglistnoret 2 ...................... <gshaders, 1>
+  [ 73] objcall 568 ............................. gshaders.deleteAt(1)
+  [ 76] getlocal 0 .............................. <sha>
+  [ 78] getparam 0 .............................. <nam>
+  [ 80] pusharglist 1 ........................... <nam>
+  [ 82] extcall 29 .............................. <texy(nam)>
+  [ 84] setobjprop 68 ........................... sha.texture = texy(nam)
+  [ 86] getlocal 0 .............................. <sha>
+  [ 88] getchainedprop 518 ...................... <sha.textureTransform>
+  [ 91] pushint8 1 .............................. <1>
+  [ 93] pushint8 1 .............................. <1>
+  [ 95] pushint8 1 .............................. <1>
+  [ 97] pusharglist 3 ........................... <1, 1, 1>
+  [ 99] extcall 34 .............................. <vector(1, 1, 1)>
+  [101] setobjprop 35 ........................... sha.textureTransform.scale = vector(1, 1, 1)
+  [103] getlocal 0 .............................. <sha>
+  [105] getchainedprop 518 ...................... <sha.textureTransform>
+  [108] pushzero ................................ <0>
+  [109] pushzero ................................ <0>
+  [110] pushzero ................................ <0>
+  [111] pusharglist 3 ........................... <0, 0, 0>
+  [113] extcall 34 .............................. <vector(0, 0, 0)>
+  [115] setobjprop 36 ........................... sha.textureTransform.position = vector(0, 0, 0)
+  [117] getlocal 0 .............................. <sha>
+  [119] pusharglistnoret 1 ...................... <sha>
+  [121] extcall 37 .............................. return sha
+  [123] ret
+end
+
+on storeshader nsha
+  [  0] getglobal 51 ............................ <gshaders>
+  [  2] getparam 0 .............................. <nsha>
+  [  4] pusharglistnoret 2 ...................... <gshaders, nsha>
+  [  6] objcall 223 ............................. gshaders.add(nsha)
+  [  8] ret
+end

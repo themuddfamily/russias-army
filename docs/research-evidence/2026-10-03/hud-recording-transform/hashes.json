@@ -1,0 +1,47 @@
+[
+  {
+    "path": "docs/research-evidence/2026-10-03/woodland-interior-endpoints/frame-05.png",
+    "bytes": 188841,
+    "sha256": "ca8962ab6ddf8f3e49edc9a804f4849eb11c15514101f0f8a201c0eab2ccbea9"
+  },
+  {
+    "path": "public/assets/original-normal-ui/provenance.json",
+    "bytes": 78135,
+    "sha256": "0faaba4100e51adef2709b0e9e1abc615860dbe6c0860e6ce160b8fb20127568"
+  },
+  {
+    "path": "public/assets/original-normal-ui/crosshair.svg",
+    "bytes": 463,
+    "sha256": "5753f03f8790560571c582223687e394b5f386e3c6672a9226e450a617c50bc7"
+  },
+  {
+    "path": "public/assets/original-normal-ui/emblem-woodland.svg",
+    "bytes": 25799,
+    "sha256": "a7257cd932b599ece5e5fdc0f55295120516a71af166a59c2704fc6ecfba0b60"
+  },
+  {
+    "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 5 - goody.ls",
+    "bytes": 9021,
+    "sha256": "6d1b8229158c635eaa6a418d762866a91f27abf78757e812b6e5c7f0670b1297"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-01/native-gameplay-sprite-constraint.json",
+    "bytes": 16631,
+    "sha256": "01b15558055bb0b1befa6ed568b77ac5cf2d452d585f681c5d64de6f844ae9fe"
+  },
+  {
+    "path": "public/assets/legacy-woodland/provenance.json",
+    "bytes": 1765,
+    "sha256": "9ecceb8ec13ebea3725fb13c6ab5f159f3ee80d856f84b1af5fbd4698c4b64af"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/hud-recording-transform/analyze.py",
+    "bytes": 3945,
+    "sha256": "e87e95f17af1a54e19d9b47a9450e8718298c3202002c0fc8026e08dde19e648"
+  },
+  {
+    "path": "docs/research-evidence/2026-10-03/hud-recording-transform/result.json",
+    "bytes": 7555,
+    "sha256": "3b3ffccfca568b7964493f4ef53fe662bc3bbb222acfd96475980c6baa6b7afd"
+  }
+]

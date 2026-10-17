@@ -1,0 +1,125 @@
+{
+  "sourceMatcherResults": "docs/research-evidence/2026-10-02/interior-13s-tank-search/tank-matcher-results.json",
+  "sourceMatcherResultsSha256": "857e0f946a4ac05614729ac2114217b258c910ea17931271c7a8e018516c3a9e",
+  "allMatchesRetained": true,
+  "candidateCounts": {
+    "reciprocalMatches": 7,
+    "fit": 7,
+    "heldout": 0,
+    "insideIndependentTankRegion": 1,
+    "sourceUnique": 0,
+    "priorJambEdges": 8,
+    "priorNominalCapAnchors": 4
+  },
+  "distinctiveTankMatches": [
+    {
+      "matchIndex": 5,
+      "atlasPixel": [
+        417.8829040527344,
+        151.9162139892578
+      ],
+      "pixel": [
+        530.3062744140625,
+        138.81446838378906
+      ],
+      "role": "fit",
+      "descriptorDistance": 111.59748840332031,
+      "descriptorRatio": 0.33711868495902714,
+      "reciprocalNearest": true,
+      "withinExploratoryReferenceRegion": true,
+      "sourceCandidates": [
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 30,
+          "barycentric": [
+            0.7623080244726572,
+            0.10758860327629644,
+            0.13010337225104637
+          ],
+          "sourceLocalPoint": [
+            -519.906566153318,
+            1855.207404040837,
+            88.61518510133027
+          ],
+          "worldPoint": [
+            51.74588434243434,
+            -7.230310940771243,
+            30.253145374666296
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 42,
+          "barycentric": [
+            0.7623079893320766,
+            0.10758909819736802,
+            0.1301029124705555
+          ],
+          "sourceLocalPoint": [
+            164.7534613158279,
+            159.29284819851478,
+            79.86849733920938
+          ],
+          "worldPoint": [
+            65.6001813688688,
+            -7.407302740192983,
+            64.57047521053447
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 1280,
+          "barycentric": [
+            0.10758885396282736,
+            0.13010307296754176,
+            0.7623080730696309
+          ],
+          "sourceLocalPoint": [
+            -27.520471708384584,
+            -33.8849207469757,
+            79.86850646886137
+          ],
+          "worldPoint": [
+            61.7094617829671,
+            -7.40730255545179,
+            68.47948418213733
+          ]
+        },
+        {
+          "node": "lorryback",
+          "part": 0,
+          "face": 1284,
+          "barycentric": [
+            0.1075887531937233,
+            0.13010301375260983,
+            0.7623082330536669
+          ],
+          "sourceLocalPoint": [
+            -248.37103088568227,
+            1831.7235910715663,
+            88.61518821080513
+          ],
+          "worldPoint": [
+            57.24048576196767,
+            -7.230310877850105,
+            30.728347237103304
+          ]
+        }
+      ],
+      "distinctSourceLocationCount": 4
+    }
+  ],
+  "cameraHypothesisInputsCreated": false,
+  "reason": "One tank-region correspondence has four source locations; no heldout texture match exists. Existing jamb line samples are exploratory and unassigned, not accepted source endpoints. No independently adequate point-based train/heldout set exists.",
+  "conclusion": "The distinctive tank match strengthens the lorryback resource hypothesis; cap/component identity and camera remain unverified.",
+  "limits": [
+    "All roles assigned from source atlas coordinate before reference matching; no match is reassigned to heldout afterseeing results.",
+    "Six outside-region matches include possible false positives and two UV-unmapped features; none removed.",
+    "All4 matched-point sourceface alternatives and all4 prior nominalanchor alternatives retained; they aredifferent UVsample locations.",
+    "Previous8 mesh jambedge alternatives unchanged and retained.",
+    "No fit, source label selection, renderer or original runtime executes."
+  ]
+}

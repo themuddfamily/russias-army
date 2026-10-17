@@ -1,0 +1,147 @@
+{
+  "scene": "public/assets/original-scenes/woodland/scene.json",
+  "sceneSha256": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107",
+  "candidates": [
+    {
+      "node": {
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          518.5166625976562,
+          -2296.515625,
+          -451.47509765625,
+          1.0
+        ],
+        "name": "woodenshed",
+        "parent": "World",
+        "resource": "woodenshed",
+        "shader": "DefaultShader",
+        "visibility": 1
+      },
+      "meshParts": [
+        {
+          "part": 0,
+          "shader": "woodenshed",
+          "vertices": 415,
+          "faces": 196
+        }
+      ]
+    },
+    {
+      "node": {
+        "matrix": [
+          11.959790229797363,
+          -1.0143985748291016,
+          0.0,
+          0.0,
+          1.0143985748291016,
+          11.959790229797363,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          12.306394577026367,
+          0.0,
+          2344.22119140625,
+          -2193.13427734375,
+          -299.4007873535156,
+          1.0
+        ],
+        "name": "haddingtoncafe",
+        "parent": "World",
+        "resource": "haddingtoncafe",
+        "shader": "DefaultShader",
+        "visibility": 1
+      },
+      "meshParts": [
+        {
+          "part": 0,
+          "shader": "haddingtoncafe",
+          "vertices": 332,
+          "faces": 302
+        }
+      ]
+    },
+    {
+      "node": {
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1405.802734375,
+          -457.44158935546875,
+          -451.9236145019531,
+          1.0
+        ],
+        "name": "stonebarn",
+        "parent": "World",
+        "resource": "stonebarn",
+        "shader": "DefaultShader",
+        "visibility": 1
+      },
+      "meshParts": [
+        {
+          "part": 0,
+          "shader": "stonebarn",
+          "vertices": 230,
+          "faces": 113
+        }
+      ]
+    },
+    {
+      "node": {
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          3077.115966796875,
+          -3350.275634765625,
+          -445.92706298828125,
+          1.0
+        ],
+        "name": "lorryback",
+        "parent": "World",
+        "resource": "lorryback",
+        "shader": "DefaultShader",
+        "visibility": 1
+      },
+      "meshParts": [
+        {
+          "part": 0,
+          "shader": "lorryback",
+          "vertices": 1506,
+          "faces": 1372
+        }
+      ]
+    }
+  ],
+  "nodeSelection": "Visible material/building classes only; not camera residuals or accepted vertex correspondences."
+}

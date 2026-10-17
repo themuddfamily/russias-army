@@ -1,0 +1,5 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {createOriginalDoorWorld} from '../../../../shared/originalDoorWorld';
+import {ORIGINAL_MAP_SCALE as S,ORIGINAL_PLAYER_RADIUS as R} from '../../../../shared/originalMapProfile';
+const base='docs/research-evidence/2026-10-03/barrack-window-connection/',world=createOriginalDoorWorld(JSON.parse(readFileSync('public/assets/original-scenes/barrack/scene.json','utf8')),S,JSON.parse(readFileSync('public/assets/original-scenes/barrack/doors.json','utf8'))),rows=[];
+for(let z=34;z<=76;z+=2){let row='';const cells=[];for(let x=34;x<=80;x+=2){const h=world.fixedGeometry.playerSupportHeightAt(x,z,11,R,2*R);const blocked=h===undefined?true:world.playerIntersects({x,y:h,z},R,2*R);cells.push({x,z,h:h??null,blocked});row+=blocked?'#':h!>10?'U':h!>5?'L':'.';}rows.push({z,row,cells});console.log(z,row)}writeFileSync(base+'grid.json',JSON.stringify({scope:'Radius-aware local geometry probes for connected upper route; U support>10, L>5, # intersects or missing',rows},null,2));

@@ -1,0 +1,9 @@
+{
+  "public/assets/original-scenes/barrack/scene.json": "7b252e098959f98a872850551fdf8f52e5b7e1b5ea79dfa6af21b841f0d31ad3",
+  "shared/originalSceneGeometry.ts": "56397c99ae1b8ebd935369ae3b1a519474802107943426292513dd1e86428e1d",
+  "shared/originalMapProfile.ts": "0ba668f15dda6d1f5314f58310a2ea174a70d18c2df51267163d521303da0da3",
+  "shared/originalPlayerPhysics.ts": "27679579fc5cd250fe588b231ac6e88e6cd30b96ba673f583d3cae0f980fdcbf",
+  "shared/originalExplosives.ts": "b2983fe87ee91fbe0b66270049078e1053ce394523956974b37615485dd51cb2",
+  "docs/research-evidence/2026-10-03/barrack-stair-gap-inventory/inventory.ts": "14159e0af71fea13b844543d85990a867c2a3533d6fbe0cfeaeab531d4f19f4f",
+  "docs/research-evidence/2026-10-03/barrack-stair-gap-inventory/inventory.json": "639e3e09e351b190b89744959ecf75e4e62d89a4c27ec0991c4a6de199e9f120"
+}

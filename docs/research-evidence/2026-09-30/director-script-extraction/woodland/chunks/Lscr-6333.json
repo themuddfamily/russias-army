@@ -1,0 +1,116 @@
+{
+  "totalLength": 662,
+  "totalLength2": 662,
+  "headerLength": 92,
+  "scriptNumber": 19,
+  "unk20": 5,
+  "parentNumber": -1,
+  "scriptFlags": 0,
+  "unk42": 0,
+  "castID": 196628,
+  "factoryNameID": -1,
+  "handlerVectorsCount": 0,
+  "handlerVectorsOffset": 662,
+  "handlerVectorsSize": 0,
+  "propertiesCount": 4,
+  "propertiesOffset": 92,
+  "globalsCount": 8,
+  "globalsOffset": 100,
+  "handlersCount": 3,
+  "handlersOffset": 116,
+  "literalsCount": 4,
+  "literalsOffset": 586,
+  "literalsDataCount": 44,
+  "literalsDataOffset": 618,
+  "propertyNameIDs": [
+    67,
+    37,
+    518,
+    514
+  ],
+  "globalNameIDs": [
+    68,
+    28,
+    56,
+    408,
+    523,
+    521,
+    522,
+    184
+  ],
+  "handlers": [
+    {
+      "nameID": 0,
+      "vectorPos": 65535,
+      "compiledLen": 218,
+      "compiledOffset": 254,
+      "argumentCount": 2,
+      "argumentOffset": 472,
+      "localsCount": 3,
+      "localsOffset": 476,
+      "globalsCount": 0,
+      "globalsOffset": 100,
+      "unknown1": 143,
+      "unknown2": 7,
+      "lineCount": 28,
+      "lineOffset": 482,
+      "stackHeight": 3
+    },
+    {
+      "nameID": 4,
+      "vectorPos": 65535,
+      "compiledLen": 58,
+      "compiledOffset": 510,
+      "argumentCount": 1,
+      "argumentOffset": 568,
+      "localsCount": 1,
+      "localsOffset": 570,
+      "globalsCount": 0,
+      "globalsOffset": 100,
+      "unknown1": 884,
+      "unknown2": 38,
+      "lineCount": 7,
+      "lineOffset": 572,
+      "stackHeight": 3
+    },
+    {
+      "nameID": 10,
+      "vectorPos": 65535,
+      "compiledLen": 1,
+      "compiledOffset": 580,
+      "argumentCount": 1,
+      "argumentOffset": 582,
+      "localsCount": 0,
+      "localsOffset": 584,
+      "globalsCount": 0,
+      "globalsOffset": 100,
+      "unknown1": 1073,
+      "unknown2": 48,
+      "lineCount": 1,
+      "lineOffset": 584,
+      "stackHeight": 0
+    }
+  ],
+  "literals": [
+    {
+      "type": 1,
+      "offset": 0,
+      "value": "#"
+    },
+    {
+      "type": 1,
+      "offset": 6,
+      "value": "muzzles"
+    },
+    {
+      "type": 1,
+      "offset": 18,
+      "value": "mf"
+    },
+    {
+      "type": 1,
+      "offset": 26,
+      "value": "mfmachinegun"
+    }
+  ]
+}

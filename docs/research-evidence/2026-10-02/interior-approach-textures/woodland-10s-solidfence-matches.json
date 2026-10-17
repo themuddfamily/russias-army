@@ -1,0 +1,51 @@
+{
+  "scene": "public/assets/original-scenes/woodland/scene.json",
+  "sceneSha256": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107",
+  "atlas": "public/assets/original-scenes/woodland/textures/solidoldfences.png",
+  "atlasSha256": "c763f7cf00c74c273edc15525caac46df8fdfe852c22d4b936fc1b0c26d37d72",
+  "reference": "docs/research-evidence/2026-09-30/woodland-video-10s.jpg",
+  "referenceSha256": "178f6562bc661b262f441aafb19259ecb78ef36dddbdfb7af44cb55982a85360",
+  "generator": "scripts/research/match-reference-approach-textures.py",
+  "generatorSha256": "dd27ed8c085bf4e4fa5d81d8f7debcf2d574d25198b5bb4d6888006eb7100aad",
+  "imageSize": [
+    1280,
+    574
+  ],
+  "scale": 0.02023529411764706,
+  "verticalFovDegrees": 50,
+  "descriptorMatches": [],
+  "landmarks": [],
+  "counts": {
+    "atlasDescriptors": 902,
+    "referenceDescriptors": 4319,
+    "reciprocalRatioMatches": 0,
+    "strictUniqueSourceTriangleLandmarks": 0,
+    "uniqueInsideExploratoryRegion": 0,
+    "outsideExploratoryRegion": 0
+  },
+  "method": {
+    "opencvVersion": "4.13.0",
+    "nfeatures": 6000,
+    "contrastThreshold": 0.005,
+    "ratioThreshold": 0.7,
+    "roleRule": "Atlas coordinate SHA256 modulo3, assigned before reference matching",
+    "uvAdapter": "(u+.5,.5-v)*textureDimensions-.5",
+    "sourceCandidateSelection": "All containing triangles in every part/instance of the resource; no camera/geometry residual",
+    "referenceRegion": [
+      820,
+      180,
+      1280,
+      320
+    ],
+    "referenceRegionUse": "Exploratory annotation only, no descriptor discarded"
+  },
+  "originalRuntimeExecuted": false,
+  "cameraFitAttempted": false,
+  "limits": [
+    "Reciprocal SIFT ratio evidence can still contain false matches.",
+    "Source UV convention remains an adapter assumption, not native raster proof.",
+    "Every candidate retained; source component is not selected by image or camera residual.",
+    "Exploratory regions derive from visible door/fence area, not a camera.",
+    "Two-pixel landmark uncertainty retained; fitting requires adequate independently unique geometry and withheld features."
+  ]
+}

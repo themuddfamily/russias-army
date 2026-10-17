@@ -1,0 +1,37 @@
+rotation (transform) 963
+rotation (engraver shader)
+Usage
+member(whichCastmember).shader(whichShader).rotation
+member(whichCastmember).model(whichModel).shader.rotation
+member(whichCastmember).model(whichModel).shaderList[index].rotation
+Description
+3D shader engraver property; allows you to get or set an angle in degrees (as a floating-point 
+number) that describes a 2D rotational offset for engraved lines. The default value for this 
+property is 0.0.
+Example
+This statement rotates the lines used to draw the engraver shader for the model gbCyl3 by 1°:
+member("scene").model("gbCyl3").shader.rotation = \ 
+member("scene").model("gbCyl3").shader.rotation + 1
+See also
+transform (property)
+rotation (transform)
+Usage
+member(whichCastmember).node(whichNode).transform.rotation
+member(whichCastmember).node(whichNode).getWorldTransform().rotation
+transform.rotation
+Description
+3D property; allows you to get or set the rotational component of a transform. A transform 
+defines a scale, position and rotation within a given frame of reference. The default value of this 
+property is vector(0,0,0).
+A node can be a camera, group, light or model object. Setting the rotation of a node’s transform 
+defines that object’s rotation within the transform’s frame of reference. Setting the rotation 
+property of an object’s world relative transform using getWorldTransform().rotation defines 
+the object’s rotation relative to the world origin. Setting the rotation property of an object’s 
+parent relative transform using transform.rotation defines the object’s rotation relative to 
+its parent node.
+If you wish to modify the orientation of a transform it is recommended that you use the rotate 
+and prerotate methods instead of setting this property.
+Example
+This statement sets the parent-relative rotation of the first camera in the member to 
+vector(0,0,0):
+member("Space").camera[1].transform.rotation = vector(0, 0, 0)

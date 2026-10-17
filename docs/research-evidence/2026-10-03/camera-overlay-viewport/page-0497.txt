@@ -1,0 +1,38 @@
+recordFont 497
+To view the RealPlayer build number in Windows:
+1 Launch RealPlayer.
+2 Choose About RealPlayer from the Help menu. 
+In the window that appears, the build number appears at the top of the screen in the 
+second line.
+To view the RealPlayer build number on the Macintosh:
+1 Launch RealPlayer.
+2 Choose About RealPlayer from the Apple menu.
+The About RealPlayer dialog box appears. Ignore the build number listed in the second line at 
+the top of the screen; it is incorrect.
+3 Click the Version Info button.
+The RealPlayer Version Information dialog box appears.
+4 Select RealPlayer Core in the list of installed components.
+The build number shown for RealPlayer Core component (for example, 6.0.8.1649) is the 
+same as the build number returned by realPlayerVersion().
+Parameters
+None.
+Example
+The following code shows that build number of the RealPlayer installed on the system is 
+6.0.9.357:
+-- Lingo syntax
+put(realPlayerVersion())
+// JavaScript syntax
+put(realPlayerVersion());
+recordFont
+Usage
+recordFont(whichCastMember, font {[,face]} {,[bitmapSizes]} {,characterSubset} 
+{, userFontName})
+Description
+Command; embeds a T rueType or Type 1 font as a cast member. Once embedded, these fonts are 
+available to the author just like other fonts installed in the system.
+You must create an empty font cast member with the new() command before using recordFont.
+The command creates a Shock Font in whichCastMember using the font named in the font 
+parameter. The value returned from the command reports whether the operation was successful. 
+Zero indicates success.
+Parameters
+font Required. Specifies the name of original font to be recorded.

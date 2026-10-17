@@ -1,0 +1,902 @@
+{
+  "generator": {
+    "path": "scripts/research/audit-original-scope-outline-extrema.py",
+    "sha256": "27dda0d72eb413c650be0c01433204f74417813f394b70616f65d7bd129d99ff"
+  },
+  "inputs": [
+    {
+      "path": "public/assets/original-effects/scope-original.svg",
+      "sha256": "528e36bce0639488de26f03ed653cf652d361809585985c455f16a794d2a901b"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/scope-registration-observations/observations.json",
+      "sha256": "e313cad6e6c2588d8eb4af016c7e930caee9d52ed46cf6603513e8a4f03dc6cf"
+    }
+  ],
+  "originalRuntimeExecuted": false,
+  "cameraFitAttempted": false,
+  "rendererExecuted": false,
+  "method": "Parse first black-mask SVG path; isolate second (inner aperture) contour. Enumerate endpoints and every interior quadratic derivative zero separately for X/Y. Apply exact source root translation (0,-7).",
+  "innerContourSegments": [
+    {
+      "kind": "Q",
+      "start": [
+        644.05,
+        199.6
+      ],
+      "control": [
+        623.95,
+        152.15
+      ],
+      "end": [
+        587.4,
+        115.55
+      ]
+    },
+    {
+      "kind": "Q",
+      "start": [
+        587.4,
+        115.55
+      ],
+      "control": [
+        550.75,
+        78.95
+      ],
+      "end": [
+        503.35,
+        58.9
+      ]
+    },
+    {
+      "kind": "Q",
+      "start": [
+        503.35,
+        58.9
+      ],
+      "control": [
+        454.2,
+        38.1
+      ],
+      "end": [
+        400.45,
+        38.15
+      ]
+    },
+    {
+      "kind": "Q",
+      "start": [
+        400.45,
+        38.15
+      ],
+      "control": [
+        346.65,
+        38.1
+      ],
+      "end": [
+        297.5,
+        58.9
+      ]
+    },
+    {
+      "kind": "Q",
+      "start": [
+        297.5,
+        58.9
+      ],
+      "control": [
+        250.05,
+        78.95
+      ],
+      "end": [
+        213.45,
+        115.55
+      ]
+    },
+    {
+      "kind": "Q",
+      "start": [
+        213.45,
+        115.55
+      ],
+      "control": [
+        176.85,
+        152.15
+      ],
+      "end": [
+        156.8,
+        199.6
+      ]
+    },
+    {
+      "kind": "Q",
+      "start": [
+        156.8,
+        199.6
+      ],
+      "control": [
+        136.0,
+        248.7
+      ],
+      "end": [
+        136.0,
+        302.5
+      ]
+    },
+    {
+      "kind": "Q",
+      "start": [
+        136.0,
+        302.5
+      ],
+      "control": [
+        136.0,
+        356.3
+      ],
+      "end": [
+        156.8,
+        405.45
+      ]
+    },
+    {
+      "kind": "Q",
+      "start": [
+        156.8,
+        405.45
+      ],
+      "control": [
+        176.85,
+        452.85
+      ],
+      "end": [
+        213.45,
+        489.45
+      ]
+    },
+    {
+      "kind": "Q",
+      "start": [
+        213.45,
+        489.45
+      ],
+      "control": [
+        250.05,
+        526.05
+      ],
+      "end": [
+        297.5,
+        546.15
+      ]
+    },
+    {
+      "kind": "Q",
+      "start": [
+        297.5,
+        546.15
+      ],
+      "control": [
+        346.65,
+        566.9
+      ],
+      "end": [
+        400.45,
+        566.9
+      ]
+    },
+    {
+      "kind": "Q",
+      "start": [
+        400.45,
+        566.9
+      ],
+      "control": [
+        454.2,
+        566.9
+      ],
+      "end": [
+        503.35,
+        546.15
+      ]
+    },
+    {
+      "kind": "Q",
+      "start": [
+        503.35,
+        546.15
+      ],
+      "control": [
+        550.75,
+        526.05
+      ],
+      "end": [
+        587.4,
+        489.45
+      ]
+    },
+    {
+      "kind": "Q",
+      "start": [
+        587.4,
+        489.45
+      ],
+      "control": [
+        623.95,
+        452.85
+      ],
+      "end": [
+        644.05,
+        405.45
+      ]
+    },
+    {
+      "kind": "Q",
+      "start": [
+        644.05,
+        405.45
+      ],
+      "control": [
+        664.8,
+        356.3
+      ],
+      "end": [
+        664.85,
+        302.5
+      ]
+    },
+    {
+      "kind": "Q",
+      "start": [
+        664.85,
+        302.5
+      ],
+      "control": [
+        664.8,
+        248.7
+      ],
+      "end": [
+        644.05,
+        199.6
+      ]
+    }
+  ],
+  "analyticExtrema": {
+    "left": {
+      "segmentIndex": 6,
+      "kind": "Q",
+      "parameter": 1.0,
+      "rawPoint": [
+        136.0,
+        302.5
+      ],
+      "translatedSvgPoint": [
+        136.0,
+        295.5
+      ]
+    },
+    "right": {
+      "segmentIndex": 14,
+      "kind": "Q",
+      "parameter": 1.0,
+      "rawPoint": [
+        664.85,
+        302.5
+      ],
+      "translatedSvgPoint": [
+        664.85,
+        295.5
+      ]
+    },
+    "top": {
+      "segmentIndex": 2,
+      "kind": "Q",
+      "parameter": 0.9976019184652279,
+      "rawPoint": [
+        400.70776731133077,
+        38.14988009592326
+      ],
+      "translatedSvgPoint": [
+        400.70776731133077,
+        31.14988009592326
+      ]
+    },
+    "bottom": {
+      "segmentIndex": 10,
+      "kind": "Q",
+      "parameter": 1.0,
+      "rawPoint": [
+        400.45,
+        566.9
+      ],
+      "translatedSvgPoint": [
+        400.45,
+        559.9
+      ]
+    }
+  },
+  "candidateParameters": [
+    {
+      "segmentIndex": 0,
+      "kind": "Q",
+      "parameter": 0.0,
+      "rawPoint": [
+        644.05,
+        199.6
+      ],
+      "translatedSvgPoint": [
+        644.05,
+        192.6
+      ]
+    },
+    {
+      "segmentIndex": 0,
+      "kind": "Q",
+      "parameter": 1.0,
+      "rawPoint": [
+        587.4,
+        115.55
+      ],
+      "translatedSvgPoint": [
+        587.4,
+        108.55
+      ]
+    },
+    {
+      "segmentIndex": 1,
+      "kind": "Q",
+      "parameter": 0.0,
+      "rawPoint": [
+        587.4,
+        115.55
+      ],
+      "translatedSvgPoint": [
+        587.4,
+        108.55
+      ]
+    },
+    {
+      "segmentIndex": 1,
+      "kind": "Q",
+      "parameter": 1.0,
+      "rawPoint": [
+        503.35,
+        58.9
+      ],
+      "translatedSvgPoint": [
+        503.35,
+        51.9
+      ]
+    },
+    {
+      "segmentIndex": 2,
+      "kind": "Q",
+      "parameter": 0.0,
+      "rawPoint": [
+        503.35,
+        58.9
+      ],
+      "translatedSvgPoint": [
+        503.35,
+        51.9
+      ]
+    },
+    {
+      "segmentIndex": 2,
+      "kind": "Q",
+      "parameter": 0.9976019184652279,
+      "rawPoint": [
+        400.70776731133077,
+        38.14988009592326
+      ],
+      "translatedSvgPoint": [
+        400.70776731133077,
+        31.14988009592326
+      ]
+    },
+    {
+      "segmentIndex": 2,
+      "kind": "Q",
+      "parameter": 1.0,
+      "rawPoint": [
+        400.45,
+        38.15
+      ],
+      "translatedSvgPoint": [
+        400.45,
+        31.15
+      ]
+    },
+    {
+      "segmentIndex": 3,
+      "kind": "Q",
+      "parameter": 0.0,
+      "rawPoint": [
+        400.45,
+        38.15
+      ],
+      "translatedSvgPoint": [
+        400.45,
+        31.15
+      ]
+    },
+    {
+      "segmentIndex": 3,
+      "kind": "Q",
+      "parameter": 0.0023980815347720468,
+      "rawPoint": [
+        400.1919931680555,
+        38.14988009592326
+      ],
+      "translatedSvgPoint": [
+        400.1919931680555,
+        31.14988009592326
+      ]
+    },
+    {
+      "segmentIndex": 3,
+      "kind": "Q",
+      "parameter": 1.0,
+      "rawPoint": [
+        297.5,
+        58.9
+      ],
+      "translatedSvgPoint": [
+        297.5,
+        51.9
+      ]
+    },
+    {
+      "segmentIndex": 4,
+      "kind": "Q",
+      "parameter": 0.0,
+      "rawPoint": [
+        297.5,
+        58.9
+      ],
+      "translatedSvgPoint": [
+        297.5,
+        51.9
+      ]
+    },
+    {
+      "segmentIndex": 4,
+      "kind": "Q",
+      "parameter": 1.0,
+      "rawPoint": [
+        213.45,
+        115.55
+      ],
+      "translatedSvgPoint": [
+        213.45,
+        108.55
+      ]
+    },
+    {
+      "segmentIndex": 5,
+      "kind": "Q",
+      "parameter": 0.0,
+      "rawPoint": [
+        213.45,
+        115.55
+      ],
+      "translatedSvgPoint": [
+        213.45,
+        108.55
+      ]
+    },
+    {
+      "segmentIndex": 5,
+      "kind": "Q",
+      "parameter": 1.0,
+      "rawPoint": [
+        156.8,
+        199.6
+      ],
+      "translatedSvgPoint": [
+        156.8,
+        192.6
+      ]
+    },
+    {
+      "segmentIndex": 6,
+      "kind": "Q",
+      "parameter": 0.0,
+      "rawPoint": [
+        156.8,
+        199.6
+      ],
+      "translatedSvgPoint": [
+        156.8,
+        192.6
+      ]
+    },
+    {
+      "segmentIndex": 6,
+      "kind": "Q",
+      "parameter": 1.0,
+      "rawPoint": [
+        136.0,
+        302.5
+      ],
+      "translatedSvgPoint": [
+        136.0,
+        295.5
+      ]
+    },
+    {
+      "segmentIndex": 7,
+      "kind": "Q",
+      "parameter": 0.0,
+      "rawPoint": [
+        136.0,
+        302.5
+      ],
+      "translatedSvgPoint": [
+        136.0,
+        295.5
+      ]
+    },
+    {
+      "segmentIndex": 7,
+      "kind": "Q",
+      "parameter": 1.0,
+      "rawPoint": [
+        156.8,
+        405.45
+      ],
+      "translatedSvgPoint": [
+        156.8,
+        398.45
+      ]
+    },
+    {
+      "segmentIndex": 8,
+      "kind": "Q",
+      "parameter": 0.0,
+      "rawPoint": [
+        156.8,
+        405.45
+      ],
+      "translatedSvgPoint": [
+        156.8,
+        398.45
+      ]
+    },
+    {
+      "segmentIndex": 8,
+      "kind": "Q",
+      "parameter": 1.0,
+      "rawPoint": [
+        213.45,
+        489.45
+      ],
+      "translatedSvgPoint": [
+        213.45,
+        482.45
+      ]
+    },
+    {
+      "segmentIndex": 9,
+      "kind": "Q",
+      "parameter": 0.0,
+      "rawPoint": [
+        213.45,
+        489.45
+      ],
+      "translatedSvgPoint": [
+        213.45,
+        482.45
+      ]
+    },
+    {
+      "segmentIndex": 9,
+      "kind": "Q",
+      "parameter": 1.0,
+      "rawPoint": [
+        297.5,
+        546.15
+      ],
+      "translatedSvgPoint": [
+        297.5,
+        539.15
+      ]
+    },
+    {
+      "segmentIndex": 10,
+      "kind": "Q",
+      "parameter": 0.0,
+      "rawPoint": [
+        297.5,
+        546.15
+      ],
+      "translatedSvgPoint": [
+        297.5,
+        539.15
+      ]
+    },
+    {
+      "segmentIndex": 10,
+      "kind": "Q",
+      "parameter": 1.0,
+      "rawPoint": [
+        400.45,
+        566.9
+      ],
+      "translatedSvgPoint": [
+        400.45,
+        559.9
+      ]
+    },
+    {
+      "segmentIndex": 11,
+      "kind": "Q",
+      "parameter": 0.0,
+      "rawPoint": [
+        400.45,
+        566.9
+      ],
+      "translatedSvgPoint": [
+        400.45,
+        559.9
+      ]
+    },
+    {
+      "segmentIndex": 11,
+      "kind": "Q",
+      "parameter": 1.0,
+      "rawPoint": [
+        503.35,
+        546.15
+      ],
+      "translatedSvgPoint": [
+        503.35,
+        539.15
+      ]
+    },
+    {
+      "segmentIndex": 12,
+      "kind": "Q",
+      "parameter": 0.0,
+      "rawPoint": [
+        503.35,
+        546.15
+      ],
+      "translatedSvgPoint": [
+        503.35,
+        539.15
+      ]
+    },
+    {
+      "segmentIndex": 12,
+      "kind": "Q",
+      "parameter": 1.0,
+      "rawPoint": [
+        587.4,
+        489.45
+      ],
+      "translatedSvgPoint": [
+        587.4,
+        482.45
+      ]
+    },
+    {
+      "segmentIndex": 13,
+      "kind": "Q",
+      "parameter": 0.0,
+      "rawPoint": [
+        587.4,
+        489.45
+      ],
+      "translatedSvgPoint": [
+        587.4,
+        482.45
+      ]
+    },
+    {
+      "segmentIndex": 13,
+      "kind": "Q",
+      "parameter": 1.0,
+      "rawPoint": [
+        644.05,
+        405.45
+      ],
+      "translatedSvgPoint": [
+        644.05,
+        398.45
+      ]
+    },
+    {
+      "segmentIndex": 14,
+      "kind": "Q",
+      "parameter": 0.0,
+      "rawPoint": [
+        644.05,
+        405.45
+      ],
+      "translatedSvgPoint": [
+        644.05,
+        398.45
+      ]
+    },
+    {
+      "segmentIndex": 14,
+      "kind": "Q",
+      "parameter": 1.0,
+      "rawPoint": [
+        664.85,
+        302.5
+      ],
+      "translatedSvgPoint": [
+        664.85,
+        295.5
+      ]
+    },
+    {
+      "segmentIndex": 15,
+      "kind": "Q",
+      "parameter": 0.0,
+      "rawPoint": [
+        664.85,
+        302.5
+      ],
+      "translatedSvgPoint": [
+        664.85,
+        295.5
+      ]
+    },
+    {
+      "segmentIndex": 15,
+      "kind": "Q",
+      "parameter": 1.0,
+      "rawPoint": [
+        644.05,
+        199.6
+      ],
+      "translatedSvgPoint": [
+        644.05,
+        192.6
+      ]
+    }
+  ],
+  "fullTileMappingChecks": [
+    {
+      "reference": {
+        "path": "docs/research-evidence/2026-09-30/barrack-2012-scope-sample-52.png",
+        "sha256": "e29d9c9b8fa5ed45d1f936df6dd8fa0b1f8fd49f0247e4e69d75a289347da5a8"
+      },
+      "tileDimensions": [
+        120,
+        90
+      ],
+      "model": "Declared full 800x600 viewBox independently scaled to entire tile; no inferred content rectangle",
+      "checks": [
+        {
+          "observationId": "left-outline",
+          "role": "fit-diagnostic",
+          "nativePixelInterval": [
+            20,
+            26
+          ],
+          "predictedFullTileCoordinate": 20.4,
+          "withinRetainedInterval": true,
+          "distanceOutsideIntervalPixels": 0,
+          "errorStatus": "Interval comparison only; no residual-based role/interval selection, optimization or fitted crop."
+        },
+        {
+          "observationId": "right-outline",
+          "role": "fit-diagnostic",
+          "nativePixelInterval": [
+            94,
+            100
+          ],
+          "predictedFullTileCoordinate": 99.7275,
+          "withinRetainedInterval": true,
+          "distanceOutsideIntervalPixels": 0,
+          "errorStatus": "Interval comparison only; no residual-based role/interval selection, optimization or fitted crop."
+        },
+        {
+          "observationId": "top-outline",
+          "role": "fit-diagnostic",
+          "nativePixelInterval": [
+            13,
+            19
+          ],
+          "predictedFullTileCoordinate": 4.672482014388488,
+          "withinRetainedInterval": false,
+          "distanceOutsideIntervalPixels": 8.327517985611511,
+          "errorStatus": "Interval comparison only; no residual-based role/interval selection, optimization or fitted crop."
+        },
+        {
+          "observationId": "bottom-outline",
+          "role": "heldout-diagnostic",
+          "nativePixelInterval": [
+            71,
+            77
+          ],
+          "predictedFullTileCoordinate": 83.985,
+          "withinRetainedInterval": false,
+          "distanceOutsideIntervalPixels": 6.984999999999999,
+          "errorStatus": "Interval comparison only; no residual-based role/interval selection, optimization or fitted crop."
+        }
+      ],
+      "allIntervalsConsistent": false
+    },
+    {
+      "reference": {
+        "path": "docs/research-evidence/2026-09-30/woodland-2014-scope-sample-115.png",
+        "sha256": "204cd3051e64e3099f0b03edbf30b881e6f1acfa1f703542ff267b572ae4aaac"
+      },
+      "tileDimensions": [
+        200,
+        90
+      ],
+      "model": "Declared full 800x600 viewBox independently scaled to entire tile; no inferred content rectangle",
+      "checks": [
+        {
+          "observationId": "left-outline",
+          "role": "fit-diagnostic",
+          "nativePixelInterval": [
+            35,
+            42
+          ],
+          "predictedFullTileCoordinate": 34.0,
+          "withinRetainedInterval": false,
+          "distanceOutsideIntervalPixels": 1.0,
+          "errorStatus": "Interval comparison only; no residual-based role/interval selection, optimization or fitted crop."
+        },
+        {
+          "observationId": "right-outline",
+          "role": "fit-diagnostic",
+          "nativePixelInterval": [
+            159,
+            166
+          ],
+          "predictedFullTileCoordinate": 166.2125,
+          "withinRetainedInterval": false,
+          "distanceOutsideIntervalPixels": 0.21250000000000568,
+          "errorStatus": "Interval comparison only; no residual-based role/interval selection, optimization or fitted crop."
+        },
+        {
+          "observationId": "top-outline",
+          "role": "fit-diagnostic",
+          "nativePixelInterval": [
+            3,
+            10
+          ],
+          "predictedFullTileCoordinate": 4.672482014388488,
+          "withinRetainedInterval": true,
+          "distanceOutsideIntervalPixels": 0,
+          "errorStatus": "Interval comparison only; no residual-based role/interval selection, optimization or fitted crop."
+        },
+        {
+          "observationId": "bottom-outline",
+          "role": "heldout-diagnostic",
+          "nativePixelInterval": [
+            78,
+            86
+          ],
+          "predictedFullTileCoordinate": 83.985,
+          "withinRetainedInterval": true,
+          "distanceOutsideIntervalPixels": 0,
+          "errorStatus": "Interval comparison only; no residual-based role/interval selection, optimization or fitted crop."
+        }
+      ],
+      "allIntervalsConsistent": false
+    }
+  ],
+  "contentRectangleHypotheses": [],
+  "contentRectangleStatus": "None added: storyboard-to-tile crop verified, but independent native viewport/letterbox boundary measurements absent. Solving a rectangle from aperture extrema would be observation fitting and circular.",
+  "excludedUnscopedSamples": [
+    {
+      "path": "docs/research-evidence/2026-09-30/woodland-2014-dark-scoped-gun-sample-95.png",
+      "sha256": "375b10a6e0caae7c3af938c569c31c2da4a3c5419c378f2ed05b985b4ff69d0b"
+    }
+  ],
+  "heldoutLimit": "Bottom withheld from top/left/right uses the same aperture curve; it does not supply an independent reticle, border or physical feature family.",
+  "limits": [
+    "Analytic path boundary is not a historical gradient/raster/compression contour.",
+    "Retained manual intervals are exploratory, not calibrated statistical errors.",
+    "Version identity and native overlay mapping remain unproved.",
+    "Fixed-model interval inconsistency does not uniquely identify letterbox, crop, aspect, shader or edition differences."
+  ],
+  "recommendation": "Retain full-tile hypothesis results; do not change CSS from these coarse samples. Obtain independently measured video content bounds or higher-resolution scoped imagery before adding a crop mapping or precise heldout reticle comparison."
+}

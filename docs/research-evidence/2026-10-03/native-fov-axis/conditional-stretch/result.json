@@ -1,0 +1,795 @@
+{
+  "scope": "Conditional four-point compatibility only; all points training, no heldouts, no native camera recovery.",
+  "assumptions": {
+    "verticalFovDegrees": 50,
+    "width": 1280,
+    "height": 574,
+    "principalPoint": [
+      640,
+      287
+    ],
+    "recordedSquareProjectionPixels": false,
+    "assumedAuthoredFullCameraSprite": [
+      800,
+      600
+    ],
+    "conditionalHorizontalStretch": 1.6724738675958188,
+    "focalX": 1029.3633218445882,
+    "focalY": 615.4734861862433,
+    "recordingTransformObserved": false,
+    "fullCameraUncroppedRecordingAssumed": true,
+    "unreflectedPerspective": true,
+    "sourceEyeZ": -367.16118240356445,
+    "standingHeightIsSeamBasedAtCandidateAndNotPhysicallyVerified": true
+  },
+  "method": "31x31 finite XY grid; exact two-ray frame initialization; bounded five-variable damped Gauss-Newton. Not exhaustive.",
+  "evaluations": 1457,
+  "gridInteriorCandidates": 221,
+  "gridBestSquaredResidual": 6082.866729767921,
+  "candidateSourceCamera": [
+    420.72905293355853,
+    -350.6818747538493,
+    -367.16118240356445
+  ],
+  "worldToCameraRightDownForward": [
+    [
+      -0.2657431492296269,
+      -0.9447510366438439,
+      -0.19190116570230206
+    ],
+    [
+      0.07122359634697789,
+      0.17927433308675647,
+      -0.9812175665058699
+    ],
+    [
+      0.961409266629422,
+      -0.2744197373671959,
+      0.019647640631794194
+    ]
+  ],
+  "sumSquaredPixelResidual": 3986.449353945397,
+  "rootMeanSquaredCoordinateResidual": 22.322772436307606,
+  "conditionalEndpointResiduals": [
+    {
+      "conditionalEndpoint": "gap198",
+      "nativeBox": [
+        926,
+        194,
+        936,
+        204
+      ],
+      "nativeCenter": [
+        931.0,
+        199.0
+      ],
+      "predicted": [
+        895.794666489787,
+        223.13177017012472
+      ],
+      "residualPixels": [
+        -35.205333510212995,
+        24.131770170124724
+      ],
+      "euclideanResidualPixels": 42.68205523529821,
+      "insideBox": false,
+      "role": "conditional training; not an admitted anchor"
+    },
+    {
+      "conditionalEndpoint": "gap183",
+      "nativeBox": [
+        1136,
+        145,
+        1144,
+        153
+      ],
+      "nativeCenter": [
+        1140.0,
+        149.0
+      ],
+      "predicted": [
+        1162.9552623595648,
+        163.12890769009098
+      ],
+      "residualPixels": [
+        22.955262359564813,
+        14.128907690090983
+      ],
+      "euclideanResidualPixels": 26.954964338903608,
+      "insideBox": false,
+      "role": "conditional training; not an admitted anchor"
+    },
+    {
+      "conditionalEndpoint": "cafe143",
+      "nativeBox": [
+        975,
+        241,
+        985,
+        251
+      ],
+      "nativeCenter": [
+        980.0,
+        246.0
+      ],
+      "predicted": [
+        963.3223660070316,
+        237.19035258071847
+      ],
+      "residualPixels": [
+        -16.677633992968367,
+        -8.809647419281532
+      ],
+      "euclideanResidualPixels": 18.8614252710517,
+      "insideBox": false,
+      "role": "conditional training; not an admitted anchor"
+    },
+    {
+      "conditionalEndpoint": "cafe178",
+      "nativeBox": [
+        1102,
+        241,
+        1112,
+        251
+      ],
+      "nativeCenter": [
+        1107.0,
+        246.0
+      ],
+      "predicted": [
+        1125.8075265494776,
+        219.00657498278497
+      ],
+      "residualPixels": [
+        18.807526549477643,
+        -26.99342501721503
+      ],
+      "euclideanResidualPixels": 32.89936244168444,
+      "insideBox": false,
+      "role": "conditional training; not an admitted anchor"
+    }
+  ],
+  "allPredictionsInsidePredeclaredBoxes": false,
+  "rotationInvariantPairs": [
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "sourceDegrees": 13.587671572498037,
+      "nativeCenterDegrees": 10.59662082109154,
+      "centerDifferenceDegrees": 2.9910507514064975,
+      "cornerSampleDegreesRange": [
+        9.95688213127035,
+        11.264816983919298
+      ],
+      "cornerRangeIsNotCertifiedContinuousBoxBound": true
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "sourceDegrees": 3.716782001311974,
+      "nativeCenterDegrees": 4.890060625127786,
+      "centerDifferenceDegrees": -1.1732786238158122,
+      "cornerSampleDegreesRange": [
+        3.862019221427185,
+        5.917396187528928
+      ],
+      "cornerRangeIsNotCertifiedContinuousBoxBound": true
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "sourceDegrees": 11.253167877620015,
+      "nativeCenterDegrees": 9.61920008816039,
+      "centerDifferenceDegrees": 1.633967789459625,
+      "cornerSampleDegreesRange": [
+        8.806300346677084,
+        10.464296904964234
+      ],
+      "cornerRangeIsNotCertifiedContinuousBoxBound": true
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "sourceDegrees": 11.034727164203444,
+      "nativeCenterDegrees": 10.848702787087303,
+      "centerDifferenceDegrees": 0.18602437711614073,
+      "cornerSampleDegreesRange": [
+        10.022670374184331,
+        11.678879587998146
+      ],
+      "cornerRangeIsNotCertifiedContinuousBoxBound": true
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "sourceDegrees": 4.76255067354095,
+      "nativeCenterDegrees": 8.070026521598853,
+      "centerDifferenceDegrees": -3.307475848057903,
+      "cornerSampleDegreesRange": [
+        7.291373308548145,
+        8.857878956497467
+      ],
+      "cornerRangeIsNotCertifiedContinuousBoxBound": true
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "sourceDegrees": 7.90278429998446,
+      "nativeCenterDegrees": 6.114372276963551,
+      "centerDifferenceDegrees": 1.7884120230209088,
+      "cornerSampleDegreesRange": [
+        5.631000353905449,
+        6.6718795256780385
+      ],
+      "cornerRangeIsNotCertifiedContinuousBoxBound": true
+    }
+  ],
+  "refinementTrace": [
+    {
+      "iteration": 0,
+      "squaredPixelResidual": 4574.258324300414,
+      "parameters": [
+        427.12932172281444,
+        -352.4641939301653,
+        -0.010728084130615326,
+        0.001237611612093516,
+        0.015075035612346292
+      ]
+    },
+    {
+      "iteration": 1,
+      "squaredPixelResidual": 4265.816465289626,
+      "parameters": [
+        425.15608100906024,
+        -352.380793503568,
+        -0.01457446768502052,
+        0.0028434170305319303,
+        0.02070995689254881
+      ]
+    },
+    {
+      "iteration": 2,
+      "squaredPixelResidual": 4146.884701731796,
+      "parameters": [
+        423.6430285490323,
+        -352.0098886394171,
+        -0.015925622960225306,
+        0.004237929347610046,
+        0.02226793697045082
+      ]
+    },
+    {
+      "iteration": 3,
+      "squaredPixelResidual": 4070.6466101547067,
+      "parameters": [
+        422.36322327195467,
+        -351.51160282502605,
+        -0.016415549061969355,
+        0.005344465408119904,
+        0.022215324590053268
+      ]
+    },
+    {
+      "iteration": 4,
+      "squaredPixelResidual": 4010.9123035315006,
+      "parameters": [
+        421.2263016705605,
+        -350.9453858189835,
+        -0.01663317173673488,
+        0.006195876315316806,
+        0.021541712029005594
+      ]
+    },
+    {
+      "iteration": 5,
+      "squaredPixelResidual": 4010.345927930015,
+      "parameters": [
+        421.2149848835825,
+        -350.93964289797304,
+        -0.01663530330717386,
+        0.006204367136632773,
+        0.02153549687576948
+      ]
+    },
+    {
+      "iteration": 6,
+      "squaredPixelResidual": 4009.7806887652678,
+      "parameters": [
+        421.20368086574183,
+        -350.9338945620716,
+        -0.01663740837963764,
+        0.006212830156339235,
+        0.021529209011454113
+      ]
+    },
+    {
+      "iteration": 7,
+      "squaredPixelResidual": 4009.216577804272,
+      "parameters": [
+        421.19238957143335,
+        -350.9281408293695,
+        -0.01663948752687262,
+        0.006221265484739677,
+        0.02152284966413362
+      ]
+    },
+    {
+      "iteration": 8,
+      "squaredPixelResidual": 4008.6535869429185,
+      "parameters": [
+        421.1811109550621,
+        -350.92238171820964,
+        -0.016641541311489795,
+        0.006229673230903961,
+        0.021516420040314455
+      ]
+    },
+    {
+      "iteration": 9,
+      "squaredPixelResidual": 4008.091708202507,
+      "parameters": [
+        421.1698449710729,
+        -350.9166172471816,
+        -0.016643570286340673,
+        0.006238053502720054,
+        0.021509921324334328
+      ]
+    },
+    {
+      "iteration": 10,
+      "squaredPixelResidual": 4007.530933726103,
+      "parameters": [
+        421.1585915739424,
+        -350.91084743509083,
+        -0.016645574994411647,
+        0.006246406406914441,
+        0.02150335467989694
+      ]
+    },
+    {
+      "iteration": 11,
+      "squaredPixelResidual": 4006.9712557754224,
+      "parameters": [
+        421.1473507181848,
+        -350.90507230097,
+        -0.016647555969180734,
+        0.006254732049069246,
+        0.021496721249766305
+      ]
+    },
+    {
+      "iteration": 12,
+      "squaredPixelResidual": 4006.412666728411,
+      "parameters": [
+        421.13612235836746,
+        -350.89929186406687,
+        -0.016649513734844835,
+        0.006263030533578468,
+        0.021490022155659462
+      ]
+    },
+    {
+      "iteration": 13,
+      "squaredPixelResidual": 4005.8551590741326,
+      "parameters": [
+        421.1249064491393,
+        -350.8935061437792,
+        -0.01665144880608055,
+        0.006271301963919657,
+        0.0214832585006821
+      ]
+    },
+    {
+      "iteration": 14,
+      "squaredPixelResidual": 4005.2987254125114,
+      "parameters": [
+        421.1137029452102,
+        -350.88771515972417,
+        -0.01665336168878613,
+        0.006279546442366847,
+        0.02147643136705798
+      ]
+    },
+    {
+      "iteration": 15,
+      "squaredPixelResidual": 4004.7433584493447,
+      "parameters": [
+        421.10251180137607,
+        -350.8819189316704,
+        -0.016655252879776032,
+        0.0062877640702582015,
+        0.0214695418184452
+      ]
+    },
+    {
+      "iteration": 16,
+      "squaredPixelResidual": 4004.1890509949244,
+      "parameters": [
+        421.0913329725272,
+        -350.87611747954384,
+        -0.01665712286712106,
+        0.0062959549478851995,
+        0.021462590899632112
+      ]
+    },
+    {
+      "iteration": 17,
+      "squaredPixelResidual": 4003.635795959951,
+      "parameters": [
+        421.08016641363946,
+        -350.870310823418,
+        -0.016658972130227587,
+        0.006304119174587226,
+        0.02145557963634679
+      ]
+    },
+    {
+      "iteration": 18,
+      "squaredPixelResidual": 4003.0835863542766,
+      "parameters": [
+        421.0690120798065,
+        -350.8644989835027,
+        -0.01666080114013895,
+        0.0063122568487328605,
+        0.021448509036118318
+      ]
+    },
+    {
+      "iteration": 19,
+      "squaredPixelResidual": 4002.5324152834964,
+      "parameters": [
+        421.05786992622734,
+        -350.8586819801379,
+        -0.01666261035940451,
+        0.00632036806780654,
+        0.0214413800888368
+      ]
+    },
+    {
+      "iteration": 20,
+      "squaredPixelResidual": 4001.982275947363,
+      "parameters": [
+        421.04673990822175,
+        -350.8528598337763,
+        -0.016664400242405165,
+        0.006328452928358403,
+        0.021434193767420607
+      ]
+    },
+    {
+      "iteration": 21,
+      "squaredPixelResidual": 4001.4331616359086,
+      "parameters": [
+        421.0356219812258,
+        -350.8470325649759,
+        -0.01666617123556235,
+        0.006336511526077354,
+        0.02142695102649431
+      ]
+    },
+    {
+      "iteration": 22,
+      "squaredPixelResidual": 4000.885065729256,
+      "parameters": [
+        421.02451610081323,
+        -350.84120019440496,
+        -0.016667923777320494,
+        0.006344543955783978,
+        0.021419652804890617
+      ]
+    },
+    {
+      "iteration": 23,
+      "squaredPixelResidual": 4000.3379816939982,
+      "parameters": [
+        421.01342222269443,
+        -350.83536274282227,
+        -0.01666965829839159,
+        0.006352550311444524,
+        0.021412300023757158
+      ]
+    },
+    {
+      "iteration": 24,
+      "squaredPixelResidual": 3999.79190308115,
+      "parameters": [
+        421.0023403027141,
+        -350.829520231066,
+        -0.016671375221749572,
+        0.006360530686247499,
+        0.02140489358876374
+      ]
+    },
+    {
+      "iteration": 25,
+      "squaredPixelResidual": 3999.246823524526,
+      "parameters": [
+        420.9912702968757,
+        -350.82367268004225,
+        -0.016673074962938125,
+        0.0063684851725612475,
+        0.021397434389205428
+      ]
+    },
+    {
+      "iteration": 26,
+      "squaredPixelResidual": 3998.7027367387686,
+      "parameters": [
+        420.9802121613161,
+        -350.81782011074574,
+        -0.016674757929999482,
+        0.0063764138619704855,
+        0.021389923298987427
+      ]
+    },
+    {
+      "iteration": 27,
+      "squaredPixelResidual": 3998.1596365166056,
+      "parameters": [
+        420.9691658523438,
+        -350.81196254421343,
+        -0.016676424523792137,
+        0.006384316845336337,
+        0.02138236117606827
+      ]
+    },
+    {
+      "iteration": 28,
+      "squaredPixelResidual": 3997.617516728273,
+      "parameters": [
+        420.95813132641723,
+        -350.80610000154724,
+        -0.016678075137975236,
+        0.0063921942127437865,
+        0.02137474886407723
+      ]
+    },
+    {
+      "iteration": 29,
+      "squaredPixelResidual": 3997.0763713182296,
+      "parameters": [
+        420.9471085401623,
+        -350.80023250388626,
+        -0.0166797101591961,
+        0.006400046053599188,
+        0.021367087191419665
+      ]
+    },
+    {
+      "iteration": 30,
+      "squaredPixelResidual": 3996.5361943051644,
+      "parameters": [
+        420.9360974503719,
+        -350.7943600724301,
+        -0.016681329967334936,
+        0.006407872456531991,
+        0.021359376971754985
+      ]
+    },
+    {
+      "iteration": 31,
+      "squaredPixelResidual": 3995.9969797784333,
+      "parameters": [
+        420.92509801401775,
+        -350.7884827283957,
+        -0.016682934935218864,
+        0.006415673509589759,
+        0.02135161900494802
+      ]
+    },
+    {
+      "iteration": 32,
+      "squaredPixelResidual": 3995.458721897548,
+      "parameters": [
+        420.9141101882274,
+        -350.7826004930365,
+        -0.016684525429235018,
+        0.006423449300032741,
+        0.02134381407616232
+      ]
+    },
+    {
+      "iteration": 33,
+      "squaredPixelResidual": 3994.92141489055,
+      "parameters": [
+        420.90313393031886,
+        -350.77671338763207,
+        -0.016686101809133266,
+        0.006431199914529617,
+        0.021335962957642774
+      ]
+    },
+    {
+      "iteration": 34,
+      "squaredPixelResidual": 3994.385053051867,
+      "parameters": [
+        420.89216919779,
+        -350.77082143348406,
+        -0.016687664428255367,
+        0.006438925439094892,
+        0.021328066406905388
+      ]
+    },
+    {
+      "iteration": 35,
+      "squaredPixelResidual": 3993.8496307410696,
+      "parameters": [
+        420.8812159483269,
+        -350.76492465188613,
+        -0.016689213633423215,
+        0.006446625959155912,
+        0.021320125169461388
+      ]
+    },
+    {
+      "iteration": 36,
+      "squaredPixelResidual": 3993.3151423820104,
+      "parameters": [
+        420.87027413978535,
+        -350.75902306416964,
+        -0.016690749765571843,
+        0.006454301559439513,
+        0.021312139976894674
+      ]
+    },
+    {
+      "iteration": 37,
+      "squaredPixelResidual": 3992.7815824606564,
+      "parameters": [
+        420.8593437302331,
+        -350.7531166916448,
+        -0.016692273159175316,
+        0.006461952324171024,
+        0.021304111548824094
+      ]
+    },
+    {
+      "iteration": 38,
+      "squaredPixelResidual": 3992.2489455240343,
+      "parameters": [
+        420.84842467790565,
+        -350.74720555563954,
+        -0.016693784142890588,
+        0.006469578336907574,
+        0.02129604059143711
+      ]
+    },
+    {
+      "iteration": 39,
+      "squaredPixelResidual": 3991.71722617869,
+      "parameters": [
+        420.8375169412463,
+        -350.74128967746356,
+        -0.0166952830393906,
+        0.006477179680691802,
+        0.021287927799023765
+      ]
+    },
+    {
+      "iteration": 40,
+      "squaredPixelResidual": 3991.1864190897195,
+      "parameters": [
+        420.82662047888095,
+        -350.73536907842583,
+        -0.016696770165561647,
+        0.00648475643798236,
+        0.02127977385385417
+      ]
+    },
+    {
+      "iteration": 41,
+      "squaredPixelResidual": 3990.656518979254,
+      "parameters": [
+        420.81573524963596,
+        -350.7294437798133,
+        -0.016698245832607227,
+        0.006492308690694247,
+        0.021271579426247002
+      ]
+    },
+    {
+      "iteration": 42,
+      "squaredPixelResidual": 3990.127520625727,
+      "parameters": [
+        420.80486121254586,
+        -350.72351380289945,
+        -0.016699710346001314,
+        0.006499836520204193,
+        0.02126334517467337
+      ]
+    },
+    {
+      "iteration": 43,
+      "squaredPixelResidual": 3989.5994188623677,
+      "parameters": [
+        420.793998326837,
+        -350.71757916894313,
+        -0.016701164005786362,
+        0.0065073400073899865,
+        0.02125507174668643
+      ]
+    },
+    {
+      "iteration": 44,
+      "squaredPixelResidual": 3989.072208575705,
+      "parameters": [
+        420.7831465519316,
+        -350.71163989916414,
+        -0.016702607106503585,
+        0.006514819232570883,
+        0.021246759778108134
+      ]
+    },
+    {
+      "iteration": 45,
+      "squaredPixelResidual": 3988.5458847045443,
+      "parameters": [
+        420.77230584744984,
+        -350.7056960147764,
+        -0.016704039937607485,
+        0.006522274275591174,
+        0.021238409892887045
+      ]
+    },
+    {
+      "iteration": 46,
+      "squaredPixelResidual": 3988.0204422401057,
+      "parameters": [
+        420.76147617323716,
+        -350.6997475369362,
+        -0.016705462782975102,
+        0.006529705215806243,
+        0.02123002270561044
+      ]
+    },
+    {
+      "iteration": 47,
+      "squaredPixelResidual": 3987.4958762237598,
+      "parameters": [
+        420.75065748932616,
+        -350.69379448677773,
+        -0.01670687592141561,
+        0.006537112132099676,
+        0.021221598820270172
+      ]
+    },
+    {
+      "iteration": 48,
+      "squaredPixelResidual": 3986.9721817456216,
+      "parameters": [
+        420.7398497559499,
+        -350.68783688539463,
+        -0.01670827962689328,
+        0.006544495102846015,
+        0.021213138828934653
+      ]
+    },
+    {
+      "iteration": 49,
+      "squaredPixelResidual": 3986.449353945397,
+      "parameters": [
+        420.72905293355853,
+        -350.6818747538493,
+        -0.016709674168081366,
+        0.006551854205979098,
+        0.021204643314517074
+      ]
+    }
+  ],
+  "admittedSourceAnchors": [],
+  "heldoutEndpoints": [],
+  "productionChanged": false,
+  "nativeCameraFitPromoted": false,
+  "inputSha256": "19294ff2eebae47e39a76a32f3959e89da4138fe2d73cb32e9adc206d95c16c9"
+}

@@ -1,0 +1,296 @@
+{
+  "status": "passive evidence; no native projection calibration",
+  "adapter_commit": "68376fbb4494a6bbad4c70081ecdcb99814a74c9",
+  "manual_defaults": {
+    "MX2004": "identity; printed 1032",
+    "Director11.5": "diagonal(50,50,50,1); printed 347-348"
+  },
+  "noise_scale": 0.005,
+  "noise_repetitions_per_projected_uv_unit": 200,
+  "editions": {
+    "barrack": {
+      "floor_resource_xy_bounds": [
+        [
+          -8389.4658203125,
+          -8262.8515625
+        ],
+        [
+          8260.3193359375,
+          8265.3837890625
+        ]
+      ],
+      "noise_period_source_units_if_resource_bounds_projection": [
+        83.24892578125,
+        82.6411767578125
+      ],
+      "parts": [
+        {
+          "part": 0,
+          "shader": "floortop",
+          "vertices": 298,
+          "active_planar": true,
+          "remapped_mesh_uv_bounds": [
+            [
+              -41.1303596496582,
+              -40.82076644897461
+            ],
+            [
+              42.1303596496582,
+              41.82076644897461
+            ]
+          ],
+          "resource_bounds_vs_mesh_uv_component_rms": 14.91200568209533,
+          "resource_bounds_vs_mesh_uv_vertex_max_component_percentiles": {
+            "50": 17.15083760929145,
+            "90": 24.678853358827393,
+            "95": 32.082343596280325,
+            "99": 40.82076644897461,
+            "100": 41.1303596496582
+          },
+          "largest_difference_vertices": [
+            {
+              "index": 297,
+              "source_position": [
+                8260.3193359375,
+                -68.371826171875,
+                0.0
+              ],
+              "stored_uv_remapped": [
+                42.1303596496582,
+                0.8470439910888672
+              ],
+              "resource_bounds_uv": [
+                1.0,
+                0.5042132712883074
+              ],
+              "max_component_difference": 41.1303596496582
+            },
+            {
+              "index": 290,
+              "source_position": [
+                -8389.4658203125,
+                0.0,
+                0.0
+              ],
+              "stored_uv_remapped": [
+                -41.1303596496582,
+                0.5
+              ],
+              "resource_bounds_uv": [
+                0.0,
+                0.5000766030525533
+              ],
+              "max_component_difference": 41.1303596496582
+            },
+            {
+              "index": 293,
+              "source_position": [
+                -1456.0648193359375,
+                8265.3837890625,
+                0.0
+              ],
+              "stored_uv_remapped": [
+                -6.455870628356934,
+                -40.82076644897461
+              ],
+              "resource_bounds_uv": [
+                0.41642585390201875,
+                0.0
+              ],
+              "max_component_difference": 40.82076644897461
+            }
+          ]
+        }
+      ],
+      "floor_shader_has_serialized_source_layers": false,
+      "floor_shader_present_in_decoded_w3d": false
+    },
+    "woodland": {
+      "floor_resource_xy_bounds": [
+        [
+          -8286.33984375,
+          -8482.7978515625
+        ],
+        [
+          8482.7978515625,
+          7788.1767578125
+        ]
+      ],
+      "noise_period_source_units_if_resource_bounds_projection": [
+        83.8456884765625,
+        81.354873046875
+      ],
+      "parts": [
+        {
+          "part": 0,
+          "shader": "floortop2",
+          "vertices": 552,
+          "active_planar": true,
+          "remapped_mesh_uv_bounds": [
+            [
+              0.0006553828716278076,
+              0.0006553828716278076
+            ],
+            [
+              0.9993446469306946,
+              0.9993446171283722
+            ]
+          ],
+          "resource_bounds_vs_mesh_uv_component_rms": 0.01544468890814164,
+          "resource_bounds_vs_mesh_uv_vertex_max_component_percentiles": {
+            "50": 0.0005683067758366356,
+            "90": 0.0015047468787763307,
+            "95": 0.00687054718075107,
+            "99": 0.08128867876903381,
+            "100": 0.3002621531486511
+          },
+          "largest_difference_vertices": [
+            {
+              "index": 18,
+              "source_position": [
+                8482.7978515625,
+                -8482.7978515625,
+                389.4088439941406
+              ],
+              "stored_uv_remapped": [
+                0.6997378468513489,
+                0.8745084702968597
+              ],
+              "resource_bounds_uv": [
+                1.0,
+                1.0
+              ],
+              "max_component_difference": 0.3002621531486511
+            },
+            {
+              "index": 3,
+              "source_position": [
+                -8261.7822265625,
+                -8482.7978515625,
+                1434.8487548828125
+              ],
+              "stored_uv_remapped": [
+                0.15295550227165222,
+                0.9993446171283722
+              ],
+              "resource_bounds_uv": [
+                0.0014644531897644699,
+                1.0
+              ],
+              "max_component_difference": 0.15149104908188776
+            },
+            {
+              "index": 15,
+              "source_position": [
+                8482.7978515625,
+                -8482.7978515625,
+                389.4088439941406
+              ],
+              "stored_uv_remapped": [
+                0.8495412468910217,
+                0.9993446171283722
+              ],
+              "resource_bounds_uv": [
+                1.0,
+                1.0
+              ],
+              "max_component_difference": 0.15045875310897827
+            }
+          ]
+        },
+        {
+          "part": 1,
+          "shader": "barerocksand2",
+          "vertices": 182,
+          "active_planar": false,
+          "remapped_mesh_uv_bounds": [
+            [
+              -8.623025894165039,
+              0.008145540952682495
+            ],
+            [
+              16.22436237335205,
+              0.9843642711639404
+            ]
+          ],
+          "resource_bounds_vs_mesh_uv_component_rms": 3.593865934287438,
+          "resource_bounds_vs_mesh_uv_vertex_max_component_percentiles": {
+            "50": 2.069488658250525,
+            "90": 8.077573237620138,
+            "95": 12.462089879996185,
+            "99": 15.356795629762015,
+            "100": 15.674362357337232
+          },
+          "largest_difference_vertices": [
+            {
+              "index": 17,
+              "source_position": [
+                936.6861572265625,
+                7788.1767578125,
+                1164.7183837890625
+              ],
+              "stored_uv_remapped": [
+                16.22436237335205,
+                0.010642290115356445
+              ],
+              "resource_bounds_uv": [
+                0.550000016014818,
+                0.0
+              ],
+              "max_component_difference": 15.674362357337232
+            },
+            {
+              "index": 16,
+              "source_position": [
+                936.6861572265625,
+                7788.1767578125,
+                417.4743347167969
+              ],
+              "stored_uv_remapped": [
+                16.22436237335205,
+                0.9843642711639404
+              ],
+              "resource_bounds_uv": [
+                0.550000016014818,
+                0.0
+              ],
+              "max_component_difference": 15.674362357337232
+            },
+            {
+              "index": 57,
+              "source_position": [
+                519.2117919921875,
+                7381.22705078125,
+                431.507080078125
+              ],
+              "stored_uv_remapped": [
+                15.807409286499023,
+                0.9843642711639404
+              ],
+              "resource_bounds_uv": [
+                0.5251046175262557,
+                0.025010776354894806
+              ],
+              "max_component_difference": 15.282304668972767
+            }
+          ]
+        }
+      ],
+      "floor_shader_has_serialized_source_layers": false,
+      "floor_shader_present_in_decoded_w3d": false
+    }
+  },
+  "sha256": {
+    "src/originalSceneMaterials.ts": "bdb6d6d0f9f22d13d6bd58208fcaff20d934c724686847624b753dfb22c025fa",
+    "src/originalScene.ts": "de83e269f0438d65a73aebad16c741c3a65707a5e5b1d25d2520acef2c56d559",
+    "scripts/research/package-original-scenes.py": "30210f0ec318aced57583b76d5c93a03c26fc47aaa2cfa7c4cc41c8472f3a284",
+    "/tmp/ra-libreshockwave-src/docs/drmx2004_scripting_ref.pdf": "cac296f854e9d60d73567e00f19291851a9c5db806e0613eccbd510a37d29eca",
+    "/tmp/ra-libreshockwave-src/docs/adobe_director_11.5.pdf": "47d91d091d73a8b01bb2c6cae992355a6ba79abe626ad200228e0aa70b933774",
+    "public/assets/original-scenes/barrack/scene.json": "7b252e098959f98a872850551fdf8f52e5b7e1b5ea79dfa6af21b841f0d31ad3",
+    "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/BehaviorScript 32 - explore.ls": "3f351df99fc63409d6b6f43addd56e2c71d55ed33938ff437485dadad4d5ed63",
+    "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/MovieScript 1 - generics.ls": "5a8fb889e19dfcf7b415b31839ea90fd2f337864919e005e9f023d0e68b70ff3",
+    "public/assets/original-scenes/woodland/scene.json": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107",
+    "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/BehaviorScript 32 - explore.ls": "af3c03894bd87347219cf1c2d049b53d66e6e7c6ebc4c4f8b7859201a128bff0",
+    "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/MovieScript 1 - generics.ls": "294d86b894b0471cedcff8a486706fa7551ba5cb921cb394236822eaf9bdbc44"
+  }
+}

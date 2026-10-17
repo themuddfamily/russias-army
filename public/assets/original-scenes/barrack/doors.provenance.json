@@ -1,0 +1,8 @@
+{
+  "sourceEvidence": "docs/research-evidence/2026-09-30/original-door-animation/barrack-level1/door-tracks.json",
+  "sourceEvidenceSha256": "7720c8beabba1e4f08dcc311e2f4e1d35c53983b73b6155b7ff3eb79dff9b2a8",
+  "sourceXmedSha256": "aca35459b308b63678f7a70f06d13ab1a724edd21aaff2a62150ded7df403657",
+  "assetSha256": "31fd470230a100fa7f7b6d83c0ad89a78ad77b5555de7739af33ec9bbd7ccd8e",
+  "conversion": "Copied exact source base matrices and all282 parsed source keys; no synthetic geometry or animation",
+  "sourceNotes": "docs/research-evidence/2026-09-30/ORIGINAL_DOOR_ANIMATION.md"
+}

@@ -1,0 +1,152 @@
+property pspr, pmem
+global nom, mus, gmusmode, gmygroup, gmaxusers
+
+on exitFrame me
+  [  0] pushint8 2 .............................. <2>
+  [  2] pusharglist 1 ........................... <2>
+  [  4] extcall 141 ............................. <sprite(2)>
+  [  6] pushzero ................................ <0>
+  [  7] setobjprop 142 .......................... sprite(2).visible = 0
+  [  9] getglobal 143 ........................... <gmusmode>
+  [ 11] pushcons 0 .............................. <"game">
+  [ 13] eq ...................................... <gmusmode = "game">
+  [ 14] jmpifz [ 20] ............................ if gmusmode = "game" then / else
+  [ 17] jmp [223]
+  [ 20] pushcons 1 .............................. <"_root.state">
+  [ 22] pusharglist 1 ........................... <"_root.state">
+  [ 24] extcall 144 ............................. <getflash("_root.state")>
+  [ 26] setlocal 0 .............................. vstate = getflash("_root.state")
+  [ 28] getlocal 0 .............................. <vstate>
+  [ 30] peek 0 .................................. case vstate of
+  [ 32] pushcons 2 .............................. <"verifyname">
+  [ 34] eq
+  [ 35] jmpifz [ 92] ............................ (case) "verifyname":
+  [ 38] pushcons 3 .............................. <"_root.codename">
+  [ 40] pusharglist 1 ........................... <"_root.codename">
+  [ 42] extcall 144 ............................. <getflash("_root.codename")>
+  [ 44] setglobal 18 ............................ nom = getflash("_root.codename")
+  [ 46] getglobal 18 ............................ <nom>
+  [ 48] pusharglist 1 ........................... <nom>
+  [ 50] extcall 145 ............................. <VerifyUserName(nom)>
+  [ 52] setglobal 18 ............................ nom = VerifyUserName(nom)
+  [ 54] pushcons 3 .............................. <"_root.codename">
+  [ 56] getglobal 18 ............................ <nom>
+  [ 58] pusharglistnoret 2 ...................... <"_root.codename", nom>
+  [ 60] extcall 146 ............................. setflash("_root.codename", nom)
+  [ 62] getglobal 18 ............................ <nom>
+  [ 64] pushcons 4 .............................. <EMPTY>
+  [ 66] nteq .................................... <nom <> EMPTY>
+  [ 67] jmpifz [ 81] ............................ if nom <> EMPTY then / else
+  [ 70] pushcons 1 .............................. <"_root.state">
+  [ 72] pushcons 5 .............................. <"getroom">
+  [ 74] pusharglistnoret 2 ...................... <"_root.state", "getroom">
+  [ 76] extcall 146 ............................. setflash("_root.state", "getroom")
+  [ 78] jmp [ 89]
+  [ 81] pushcons 1 .............................. <"_root.state">
+  [ 83] pushcons 6 .............................. <"getcodename">
+  [ 85] pusharglistnoret 2 ...................... <"_root.state", "getcodename">
+  [ 87] extcall 146 ............................. setflash("_root.state", "getcodename")
+  [ 89] jmp [211]
+  [ 92] peek 0
+  [ 94] pushcons 5 .............................. <"getroom">
+  [ 96] eq
+  [ 97] jmpifz [123] ............................ (case) "getroom":
+  [100] getglobal 143 ........................... <gmusmode>
+  [102] pushcons 7 .............................. <"start">
+  [104] nteq .................................... <gmusmode <> "start">
+  [105] jmpifz [120] ............................ if gmusmode <> "start" then
+  [108] pushcons 1 .............................. <"_root.state">
+  [110] pushcons 8 .............................. <"wait">
+  [112] pusharglistnoret 2 ...................... <"_root.state", "wait">
+  [114] extcall 146 ............................. setflash("_root.state", "wait")
+  [116] pusharglistnoret 0 ...................... <>
+  [118] extcall 147 ............................. sconnect()
+  [120] jmp [211]
+  [123] peek 0
+  [125] pushcons 9 .............................. <"foundrooms">
+  [127] eq
+  [128] jmpifz [140] ............................ (case) "foundrooms":
+  [131] getparam 0 .............................. <me>
+  [133] pusharglistnoret 1 ...................... <me>
+  [135] localcall 1 ............................. jrooms(me)
+  [137] jmp [211]
+  [140] peek 0
+  [142] pushcons 10 ............................. <"joinrooms">
+  [144] eq
+  [145] jmpifz [157] ............................ (case) "joinrooms":
+  [148] getparam 0 .............................. <me>
+  [150] pusharglistnoret 1 ...................... <me>
+  [152] localcall 1 ............................. jrooms(me)
+  [154] jmp [211]
+  [157] peek 0
+  [159] pushcons 11 ............................. <"refresh">
+  [161] eq
+  [162] jmpifz [180] ............................ (case) "refresh":
+  [165] pushcons 12 ............................. <"getrooms">
+  [167] setglobal 143 ........................... gmusmode = "getrooms"
+  [169] pushcons 1 .............................. <"_root.state">
+  [171] pushcons 8 .............................. <"wait">
+  [173] pusharglistnoret 2 ...................... <"_root.state", "wait">
+  [175] extcall 146 ............................. setflash("_root.state", "wait")
+  [177] jmp [211]
+  [180] peek 0
+  [182] pushcons 13 ............................. <"leapto">
+  [184] eq
+  [185] jmpifz [203] ............................ (case) "leapto":
+  [188] pushcons 14 ............................. <"http://www.gamevial.com">
+  [190] pushcons 15 ............................. <"_parent">
+  [192] pusharglistnoret 2 ...................... <"http://www.gamevial.com", "_parent">
+  [194] extcall 13 .............................. gotoNetPage("http://www.gamevial.com", "_parent")
+  [196] pusharglistnoret 0 ...................... <>
+  [198] extcall 148 ............................. quit()
+  [200] jmp [211]
+  [203] peek 0
+  [205] pushcons 4 .............................. <EMPTY>
+  [207] eq
+  [208] jmpifz [211] ............................ (case) EMPTY:
+  [211] pop 1 ................................... end case
+  [213] pusharglistnoret 0 ...................... <>
+  [215] extcall 149 ............................. lobbyframe()
+  [217] pushint8 2 .............................. <2>
+  [219] pusharglistnoret 1 ...................... <2>
+  [221] extcall 150 ............................. go(2)
+  [223] ret
+end
+
+on jrooms me
+  [  0] pushint8 2 .............................. <2>
+  [  2] pusharglist 1 ........................... <2>
+  [  4] extcall 141 ............................. <sprite(2)>
+  [  6] pushint8 1 .............................. <1>
+  [  8] setobjprop 142 .......................... sprite(2).visible = 1
+  [ 10] pushcons 16 ............................. <"_root.scroll">
+  [ 12] pusharglist 1 ........................... <"_root.scroll">
+  [ 14] extcall 144 ............................. <getflash("_root.scroll")>
+  [ 16] setlocal 0 .............................. vscroll = getflash("_root.scroll")
+  [ 18] pushcons 17 ............................. <"rooms">
+  [ 20] pusharglist 1 ........................... <"rooms">
+  [ 22] extcall 47 .............................. <member("rooms")>
+  [ 24] setlocal 1 .............................. vmem = member("rooms")
+  [ 26] getlocal 0 .............................. <vscroll>
+  [ 28] pushcons 18 ............................. <"up">
+  [ 30] eq ...................................... <vscroll = "up">
+  [ 31] jmpifz [ 48] ............................ if vscroll = "up" then / else
+  [ 34] getlocal 1 .............................. <vmem>
+  [ 36] getlocal 1 .............................. <vmem>
+  [ 38] getobjprop 48 ........................... <vmem.scrollTop>
+  [ 40] pushint8 16 ............................. <16>
+  [ 42] sub ..................................... <vmem.scrollTop - 16>
+  [ 43] setobjprop 48 ........................... vmem.scrollTop = vmem.scrollTop - 16
+  [ 45] jmp [ 67]
+  [ 48] getlocal 0 .............................. <vscroll>
+  [ 50] pushcons 19 ............................. <"down">
+  [ 52] eq ...................................... <vscroll = "down">
+  [ 53] jmpifz [ 67] ............................ if vscroll = "down" then
+  [ 56] getlocal 1 .............................. <vmem>
+  [ 58] getlocal 1 .............................. <vmem>
+  [ 60] getobjprop 48 ........................... <vmem.scrollTop>
+  [ 62] pushint8 16 ............................. <16>
+  [ 64] add ..................................... <vmem.scrollTop + 16>
+  [ 65] setobjprop 48 ........................... vmem.scrollTop = vmem.scrollTop + 16
+  [ 67] ret
+end

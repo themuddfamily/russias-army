@@ -1,0 +1,383 @@
+{
+  "scope": "Pre-fit manual observation inventory; no registration fit, raster generation, browser or original runtime",
+  "inputs": [
+    {
+      "path": "docs/research-evidence/2026-09-30/remaining-weapons-storyboard-provenance.json",
+      "sha256": "9e7e2576676afdc02ce1c83ada69d28a729d0da4aef27dabbd71d3565f0ede52"
+    },
+    {
+      "path": "public/assets/original-effects/scope-original.svg",
+      "sha256": "528e36bce0639488de26f03ed653cf652d361809585985c455f16a794d2a901b"
+    },
+    {
+      "path": "public/assets/original-effects/scope-original-provenance.json",
+      "sha256": "cb6fbb447e0d9f4d5986edb04373ae75fecb106a0a5c371dac5db3c7d3c52dc2"
+    }
+  ],
+  "frames": [
+    {
+      "reference": {
+        "path": "docs/research-evidence/2026-09-30/barrack-2012-scope-sample-52.png",
+        "sha256": "e29d9c9b8fa5ed45d1f936df6dd8fa0b1f8fd49f0247e4e69d75a289347da5a8"
+      },
+      "storyboard": {
+        "path": "docs/research-evidence/2026-09-30/barrack-2012-sheet-2.jpg",
+        "sha256": "efbaa406d581d1838fa7e7e37b130a1de5580215183f5edd1c0f15bf9e183e8d"
+      },
+      "retainedProvenance": {
+        "artifact": "barrack-2012-scope-sample-52.png",
+        "derived_from": "barrack-2012-sheet-2.jpg",
+        "native_dimensions": [
+          120,
+          90
+        ],
+        "sample_index": 52,
+        "approx_timestamp_seconds": 255.75510204081638,
+        "extraction": "Native pixel crop, no interpolation. Timestamp inferred from storyboard sample interval, not decoded video frame.",
+        "sha256": "e29d9c9b8fa5ed45d1f936df6dd8fa0b1f8fd49f0247e4e69d75a289347da5a8"
+      },
+      "nativeTileDimensions": [
+        120,
+        90
+      ],
+      "tileExtraction": {
+        "sheetOriginPixels": [
+          240,
+          0
+        ],
+        "sheetToTileTranslation": [
+          -240,
+          0
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "interpolation": "none",
+        "decodedRgbPixelsEqual": true
+      },
+      "scopeSample": true,
+      "observations": [
+        {
+          "id": "left-outline",
+          "axis": "x",
+          "nativeTileCoordinateInterval": [
+            20,
+            26
+          ],
+          "role": "fit-diagnostic",
+          "sourceSvgPathAnchor": [
+            136,
+            295.5
+          ],
+          "sourceIdentityStatus": "Exact inner black-mask path anchor; observed blurred outline interval may not equal analytic anchor/extremum.",
+          "uncertaintyStatus": "Manual exploratory interval, not a statistically calibrated point error; no optimizer/residual chosen interval.",
+          "measurementEligibility": "Bounded coarse silhouette/crop diagnostic only; not precise pixel landmark or independent reticle validation."
+        },
+        {
+          "id": "right-outline",
+          "axis": "x",
+          "nativeTileCoordinateInterval": [
+            94,
+            100
+          ],
+          "role": "fit-diagnostic",
+          "sourceSvgPathAnchor": [
+            664.85,
+            295.5
+          ],
+          "sourceIdentityStatus": "Exact inner black-mask path anchor; observed blurred outline interval may not equal analytic anchor/extremum.",
+          "uncertaintyStatus": "Manual exploratory interval, not a statistically calibrated point error; no optimizer/residual chosen interval.",
+          "measurementEligibility": "Bounded coarse silhouette/crop diagnostic only; not precise pixel landmark or independent reticle validation."
+        },
+        {
+          "id": "top-outline",
+          "axis": "y",
+          "nativeTileCoordinateInterval": [
+            13,
+            19
+          ],
+          "role": "fit-diagnostic",
+          "sourceSvgPathAnchor": [
+            400.45,
+            31.15
+          ],
+          "sourceIdentityStatus": "Exact inner black-mask path anchor; observed blurred outline interval may not equal analytic anchor/extremum.",
+          "uncertaintyStatus": "Manual exploratory interval, not a statistically calibrated point error; no optimizer/residual chosen interval.",
+          "measurementEligibility": "Bounded coarse silhouette/crop diagnostic only; not precise pixel landmark or independent reticle validation."
+        },
+        {
+          "id": "bottom-outline",
+          "axis": "y",
+          "nativeTileCoordinateInterval": [
+            71,
+            77
+          ],
+          "role": "heldout-diagnostic",
+          "sourceSvgPathAnchor": [
+            400.45,
+            559.9
+          ],
+          "sourceIdentityStatus": "Exact inner black-mask path anchor; observed blurred outline interval may not equal analytic anchor/extremum.",
+          "uncertaintyStatus": "Manual exploratory interval, not a statistically calibrated point error; no optimizer/residual chosen interval.",
+          "measurementEligibility": "Bounded coarse silhouette/crop diagnostic only; not precise pixel landmark or independent reticle validation."
+        },
+        {
+          "id": "fine-reticle-and-numerals",
+          "role": "unavailable-independent-heldout",
+          "reason": "Native storyboard resolution does not reliably resolve exact finite vector vertices or line crossings."
+        },
+        {
+          "id": "black-surround-and-HUD-chat",
+          "role": "appearance-heldout",
+          "reason": "Broad black surrounding field with HUD/chat visible; semantic presence only, not a geometric fit point."
+        },
+        {
+          "id": "gun-and-lower-right-emblem",
+          "role": "appearance-heldout",
+          "reason": "Absent in scoped samples; scope registration alone does not validate gun/camera behavior."
+        }
+      ],
+      "nativeViewportTransform": null,
+      "cropAspectLimits": [
+        "Storyboard tile represents a downsampled video frame; no native-game viewport/camera crop transform is established.",
+        "Barrack2012 recording versus Barrack2011 payload and Woodland2014 recording versus Woodland2015 payload identity are not proven.",
+        "Aperture ellipticity can derive from video stretch/crop; source circle/native aspect must not be selected by appearance alone."
+      ]
+    },
+    {
+      "reference": {
+        "path": "docs/research-evidence/2026-09-30/woodland-2014-scope-sample-115.png",
+        "sha256": "204cd3051e64e3099f0b03edbf30b881e6f1acfa1f703542ff267b572ae4aaac"
+      },
+      "storyboard": {
+        "path": "docs/research-evidence/2026-09-30/woodland-2014-sheet-4.jpg",
+        "sha256": "fc374e62da55ea9b752821193c66ef0378ff781b1379f9abe95c15e2638e8173"
+      },
+      "retainedProvenance": {
+        "artifact": "woodland-2014-scope-sample-115.png",
+        "derived_from": "woodland-2014-sheet-4.jpg",
+        "native_dimensions": [
+          200,
+          90
+        ],
+        "sample_index": 115,
+        "approx_timestamp_seconds": 566.516393442623,
+        "extraction": "Native pixel crop, no interpolation. Timestamp inferred from storyboard sample interval, not decoded video frame.",
+        "sha256": "204cd3051e64e3099f0b03edbf30b881e6f1acfa1f703542ff267b572ae4aaac"
+      },
+      "nativeTileDimensions": [
+        200,
+        90
+      ],
+      "tileExtraction": {
+        "sheetOriginPixels": [
+          0,
+          270
+        ],
+        "sheetToTileTranslation": [
+          0,
+          -270
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "interpolation": "none",
+        "decodedRgbPixelsEqual": true
+      },
+      "scopeSample": true,
+      "observations": [
+        {
+          "id": "left-outline",
+          "axis": "x",
+          "nativeTileCoordinateInterval": [
+            35,
+            42
+          ],
+          "role": "fit-diagnostic",
+          "sourceSvgPathAnchor": [
+            136,
+            295.5
+          ],
+          "sourceIdentityStatus": "Exact inner black-mask path anchor; observed blurred outline interval may not equal analytic anchor/extremum.",
+          "uncertaintyStatus": "Manual exploratory interval, not a statistically calibrated point error; no optimizer/residual chosen interval.",
+          "measurementEligibility": "Bounded coarse silhouette/crop diagnostic only; not precise pixel landmark or independent reticle validation."
+        },
+        {
+          "id": "right-outline",
+          "axis": "x",
+          "nativeTileCoordinateInterval": [
+            159,
+            166
+          ],
+          "role": "fit-diagnostic",
+          "sourceSvgPathAnchor": [
+            664.85,
+            295.5
+          ],
+          "sourceIdentityStatus": "Exact inner black-mask path anchor; observed blurred outline interval may not equal analytic anchor/extremum.",
+          "uncertaintyStatus": "Manual exploratory interval, not a statistically calibrated point error; no optimizer/residual chosen interval.",
+          "measurementEligibility": "Bounded coarse silhouette/crop diagnostic only; not precise pixel landmark or independent reticle validation."
+        },
+        {
+          "id": "top-outline",
+          "axis": "y",
+          "nativeTileCoordinateInterval": [
+            3,
+            10
+          ],
+          "role": "fit-diagnostic",
+          "sourceSvgPathAnchor": [
+            400.45,
+            31.15
+          ],
+          "sourceIdentityStatus": "Exact inner black-mask path anchor; observed blurred outline interval may not equal analytic anchor/extremum.",
+          "uncertaintyStatus": "Manual exploratory interval, not a statistically calibrated point error; no optimizer/residual chosen interval.",
+          "measurementEligibility": "Bounded coarse silhouette/crop diagnostic only; not precise pixel landmark or independent reticle validation."
+        },
+        {
+          "id": "bottom-outline",
+          "axis": "y",
+          "nativeTileCoordinateInterval": [
+            78,
+            86
+          ],
+          "role": "heldout-diagnostic",
+          "sourceSvgPathAnchor": [
+            400.45,
+            559.9
+          ],
+          "sourceIdentityStatus": "Exact inner black-mask path anchor; observed blurred outline interval may not equal analytic anchor/extremum.",
+          "uncertaintyStatus": "Manual exploratory interval, not a statistically calibrated point error; no optimizer/residual chosen interval.",
+          "measurementEligibility": "Bounded coarse silhouette/crop diagnostic only; not precise pixel landmark or independent reticle validation."
+        },
+        {
+          "id": "fine-reticle-and-numerals",
+          "role": "unavailable-independent-heldout",
+          "reason": "Native storyboard resolution does not reliably resolve exact finite vector vertices or line crossings."
+        },
+        {
+          "id": "black-surround-and-HUD-chat",
+          "role": "appearance-heldout",
+          "reason": "Broad black surrounding field with HUD/chat visible; semantic presence only, not a geometric fit point."
+        },
+        {
+          "id": "gun-and-lower-right-emblem",
+          "role": "appearance-heldout",
+          "reason": "Absent in scoped samples; scope registration alone does not validate gun/camera behavior."
+        }
+      ],
+      "nativeViewportTransform": null,
+      "cropAspectLimits": [
+        "Storyboard tile represents a downsampled video frame; no native-game viewport/camera crop transform is established.",
+        "Barrack2012 recording versus Barrack2011 payload and Woodland2014 recording versus Woodland2015 payload identity are not proven.",
+        "Aperture ellipticity can derive from video stretch/crop; source circle/native aspect must not be selected by appearance alone."
+      ]
+    },
+    {
+      "reference": {
+        "path": "docs/research-evidence/2026-09-30/woodland-2014-dark-scoped-gun-sample-95.png",
+        "sha256": "375b10a6e0caae7c3af938c569c31c2da4a3c5419c378f2ed05b985b4ff69d0b"
+      },
+      "storyboard": {
+        "path": "docs/research-evidence/2026-09-30/woodland-2014-sheet-3.jpg",
+        "sha256": "60aff1bc629ffaf27a37a5fbf991c557bb30d74136e2f04ec29cd04981fa7c96"
+      },
+      "retainedProvenance": {
+        "artifact": "woodland-2014-dark-scoped-gun-sample-95.png",
+        "derived_from": "woodland-2014-sheet-3.jpg",
+        "native_dimensions": [
+          200,
+          90
+        ],
+        "sample_index": 95,
+        "approx_timestamp_seconds": 467.9918032786885,
+        "extraction": "Native pixel crop, no interpolation. Timestamp inferred from storyboard sample interval, not decoded video frame.",
+        "sha256": "375b10a6e0caae7c3af938c569c31c2da4a3c5419c378f2ed05b985b4ff69d0b"
+      },
+      "nativeTileDimensions": [
+        200,
+        90
+      ],
+      "tileExtraction": {
+        "sheetOriginPixels": [
+          0,
+          360
+        ],
+        "sheetToTileTranslation": [
+          0,
+          -360
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "interpolation": "none",
+        "decodedRgbPixelsEqual": true
+      },
+      "scopeSample": false,
+      "observations": [
+        {
+          "id": "unscoped-dark-gun",
+          "role": "excluded-scope-registration",
+          "reason": "Image shows unmasked world and gun/emblem, not a scoped aperture/reticle."
+        }
+      ],
+      "nativeViewportTransform": null,
+      "cropAspectLimits": [
+        "Storyboard tile represents a downsampled video frame; no native-game viewport/camera crop transform is established.",
+        "Barrack2012 recording versus Barrack2011 payload and Woodland2014 recording versus Woodland2015 payload identity are not proven.",
+        "Aperture ellipticity can derive from video stretch/crop; source circle/native aspect must not be selected by appearance alone."
+      ]
+    }
+  ],
+  "sourceArtwork": {
+    "viewBox": [
+      0,
+      0,
+      800,
+      600
+    ],
+    "rootShape4Translation": [
+      0,
+      -7
+    ],
+    "innerMaskPathRawAnchors": {
+      "left": [
+        136,
+        302.5
+      ],
+      "right": [
+        664.85,
+        302.5
+      ],
+      "top": [
+        400.45,
+        38.15
+      ],
+      "bottom": [
+        400.45,
+        566.9
+      ]
+    },
+    "anchorStatus": "Exact SVG path endpoints from recovered source vectors, not numerically solved curve extrema or historical raster landmarks.",
+    "reticleStatus": "Exact vector contours retained in source SVG but unresolved in these native storyboard samples."
+  },
+  "predeclaredMappingModels": [
+    {
+      "id": "full-tile-anisotropic-800x600",
+      "mapping": "x_tile=x_svg*tile_width/800; y_tile=y_svg*tile_height/600",
+      "status": "Hypothesis only; no observed in-game viewport/crop assigned."
+    },
+    {
+      "id": "unknown-content-rectangle",
+      "mapping": "Independent scale and translation in each axis with fixed observation roles; content-rectangle bounds must be measured separately from readable UI/frame boundaries.",
+      "status": "Potential diagnostic only; aperture-only fitting cannot prove native mapping."
+    }
+  ],
+  "fitAttempted": false,
+  "acceptedPreciseCorrespondences": [],
+  "rolesLimit": "Bottom outline is withheld from three cardinal diagnostics but belongs to the same correlated aperture curve; it is not an independent physical feature family. Appearance observations and unresolvable reticle cannot substitute for precise heldout geometry.",
+  "nextStep": "Independently measure content rectangle/letterbox and aperture contour at native tile resolution with fixed threshold sensitivity, retaining these role assignments. A coarse mapping can be checked, but full V22 registration requires a higher-resolution preserved scoped frame or independently resolvable reticle/border features."
+}

@@ -1,0 +1,394 @@
+{
+  "scene": "public/assets/original-scenes/woodland/scene.json",
+  "sceneSha256": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107",
+  "atlas": "public/assets/original-scenes/woodland/textures/stonebarn.png",
+  "atlasSha256": "7ff83e28de923ebf82ec17cf57ac3ededf53136b9543960f362f3878551b3b86",
+  "reference": "docs/research-evidence/2026-10-03/woodland-interior-reference/frame-02.png",
+  "referenceSha256": "355a9cf0e4ee29fd4d972c88be596f11f8e02d6d5363add179d9ee1c0d08800f",
+  "generator": "docs/research-evidence/2026-10-03/woodland-interior-reference/matcher.py",
+  "generatorSha256": "e351d0567c95c6c050cbbcae954dbaaf7a2334ad56e2531b29fd4116885a99ac",
+  "imageSize": [
+    1280,
+    574
+  ],
+  "scale": 0.02023529411764706,
+  "verticalFovDegrees": 50,
+  "descriptorMatches": [
+    {
+      "matchIndex": 0,
+      "atlasPixel": [
+        28.527027130126953,
+        497.84857177734375
+      ],
+      "pixel": [
+        638.3893432617188,
+        331.15655517578125
+      ],
+      "role": "heldout",
+      "descriptorDistance": 221.0113067626953,
+      "descriptorRatio": 0.6596500331824411,
+      "reciprocalNearest": true,
+      "withinExploratoryReferenceRegion": true,
+      "sourceCandidates": [
+        {
+          "node": "stonebarn",
+          "part": 0,
+          "face": 112,
+          "barycentric": [
+            0.6838784044831563,
+            0.12321987996547332,
+            0.1929017155513704
+          ],
+          "sourceLocalPoint": [
+            -953.1216770217299,
+            -83.69307893928766,
+            18.420112089404775
+          ],
+          "worldPoint": [
+            9.160134337030879,
+            -8.772070872348037,
+            10.950019170199777
+          ]
+        }
+      ],
+      "distinctSourceLocationCount": 1
+    },
+    {
+      "matchIndex": 1,
+      "atlasPixel": [
+        205.70094299316406,
+        14.00065803527832
+      ],
+      "pixel": [
+        1142.6270751953125,
+        536.1764526367188
+      ],
+      "role": "fit",
+      "descriptorDistance": 221.7408447265625,
+      "descriptorRatio": 0.6718432285294843,
+      "reciprocalNearest": true,
+      "withinExploratoryReferenceRegion": false,
+      "sourceCandidates": [],
+      "distinctSourceLocationCount": 0
+    },
+    {
+      "matchIndex": 2,
+      "atlasPixel": [
+        226.23597717285156,
+        123.54689025878906
+      ],
+      "pixel": [
+        581.3282470703125,
+        436.7151184082031
+      ],
+      "role": "fit",
+      "descriptorDistance": 192.587646484375,
+      "descriptorRatio": 0.5945563997952922,
+      "reciprocalNearest": true,
+      "withinExploratoryReferenceRegion": true,
+      "sourceCandidates": [
+        {
+          "node": "stonebarn",
+          "part": 0,
+          "face": 1,
+          "barycentric": [
+            0.7393448843052963,
+            0.1198660365190189,
+            0.14078907917568478
+          ],
+          "sourceLocalPoint": [
+            -996.8456084230857,
+            -5.413516513269147,
+            8.224395080220773
+          ],
+          "worldPoint": [
+            8.27536772514462,
+            -8.978384204769172,
+            9.366009201108579
+          ]
+        }
+      ],
+      "distinctSourceLocationCount": 1
+    },
+    {
+      "matchIndex": 3,
+      "atlasPixel": [
+        425.345947265625,
+        382.9566955566406
+      ],
+      "pixel": [
+        1183.3553466796875,
+        536.1029663085938
+      ],
+      "role": "fit",
+      "descriptorDistance": 236.9261474609375,
+      "descriptorRatio": 0.6917499975942527,
+      "reciprocalNearest": true,
+      "withinExploratoryReferenceRegion": false,
+      "sourceCandidates": [
+        {
+          "node": "stonebarn",
+          "part": 0,
+          "face": 105,
+          "barycentric": [
+            0.27070039153409975,
+            0.7073713114701642,
+            0.021928296995736115
+          ],
+          "sourceLocalPoint": [
+            -114.94291408037232,
+            216.170974940192,
+            -2.6780394370420963
+          ],
+          "worldPoint": [
+            26.120928128314823,
+            -9.198998173824375,
+            4.882181844638541
+          ]
+        }
+      ],
+      "distinctSourceLocationCount": 1
+    },
+    {
+      "matchIndex": 4,
+      "atlasPixel": [
+        464.6831359863281,
+        259.27508544921875
+      ],
+      "pixel": [
+        242.7190399169922,
+        479.1988830566406
+      ],
+      "role": "heldout",
+      "descriptorDistance": 237.61734008789062,
+      "descriptorRatio": 0.6606780705990285,
+      "reciprocalNearest": true,
+      "withinExploratoryReferenceRegion": true,
+      "sourceCandidates": [
+        {
+          "node": "stonebarn",
+          "part": 0,
+          "face": 104,
+          "barycentric": [
+            0.8533823271979819,
+            0.1227888263811499,
+            0.023828846420868178
+          ],
+          "sourceLocalPoint": [
+            -242.73755540145802,
+            29.9631456739108,
+            244.1182623310764
+          ],
+          "worldPoint": [
+            23.53496597452344,
+            -4.205002420398917,
+            8.650152036850349
+          ]
+        }
+      ],
+      "distinctSourceLocationCount": 1
+    },
+    {
+      "matchIndex": 5,
+      "atlasPixel": [
+        493.4159240722656,
+        264.08245849609375
+      ],
+      "pixel": [
+        858.8256225585938,
+        303.13885498046875
+      ],
+      "role": "fit",
+      "descriptorDistance": 211.8489990234375,
+      "descriptorRatio": 0.6586216272988391,
+      "reciprocalNearest": true,
+      "withinExploratoryReferenceRegion": true,
+      "sourceCandidates": [
+        {
+          "node": "stonebarn",
+          "part": 0,
+          "face": 26,
+          "barycentric": [
+            0.05598479896425179,
+            0.061861280093534574,
+            0.8821539209422137
+          ],
+          "sourceLocalPoint": [
+            -319.2100930684714,
+            57.058453552014896,
+            234.3577942350627
+          ],
+          "worldPoint": [
+            21.98752168290858,
+            -4.402508363047665,
+            8.101870512728713
+          ]
+        }
+      ],
+      "distinctSourceLocationCount": 1
+    },
+    {
+      "matchIndex": 6,
+      "atlasPixel": [
+        498.97784423828125,
+        76.959716796875
+      ],
+      "pixel": [
+        984.6367797851562,
+        301.76702880859375
+      ],
+      "role": "fit",
+      "descriptorDistance": 272.51239013671875,
+      "descriptorRatio": 0.6948569054124876,
+      "reciprocalNearest": true,
+      "withinExploratoryReferenceRegion": false,
+      "sourceCandidates": [],
+      "distinctSourceLocationCount": 0
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "stonebarn-approach-0",
+      "node": "stonebarn",
+      "part": 0,
+      "face": 112,
+      "barycentric": [
+        0.6838784044831563,
+        0.12321987996547332,
+        0.1929017155513704
+      ],
+      "pixel": [
+        638.3893432617188,
+        331.15655517578125
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "atlasPixel": [
+        28.527027130126953,
+        497.84857177734375
+      ],
+      "withinExploratoryReferenceRegion": true
+    },
+    {
+      "id": "stonebarn-approach-2",
+      "node": "stonebarn",
+      "part": 0,
+      "face": 1,
+      "barycentric": [
+        0.7393448843052963,
+        0.1198660365190189,
+        0.14078907917568478
+      ],
+      "pixel": [
+        581.3282470703125,
+        436.7151184082031
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "atlasPixel": [
+        226.23597717285156,
+        123.54689025878906
+      ],
+      "withinExploratoryReferenceRegion": true
+    },
+    {
+      "id": "stonebarn-approach-3",
+      "node": "stonebarn",
+      "part": 0,
+      "face": 105,
+      "barycentric": [
+        0.27070039153409975,
+        0.7073713114701642,
+        0.021928296995736115
+      ],
+      "pixel": [
+        1183.3553466796875,
+        536.1029663085938
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "atlasPixel": [
+        425.345947265625,
+        382.9566955566406
+      ],
+      "withinExploratoryReferenceRegion": false
+    },
+    {
+      "id": "stonebarn-approach-4",
+      "node": "stonebarn",
+      "part": 0,
+      "face": 104,
+      "barycentric": [
+        0.8533823271979819,
+        0.1227888263811499,
+        0.023828846420868178
+      ],
+      "pixel": [
+        242.7190399169922,
+        479.1988830566406
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "atlasPixel": [
+        464.6831359863281,
+        259.27508544921875
+      ],
+      "withinExploratoryReferenceRegion": true
+    },
+    {
+      "id": "stonebarn-approach-5",
+      "node": "stonebarn",
+      "part": 0,
+      "face": 26,
+      "barycentric": [
+        0.05598479896425179,
+        0.061861280093534574,
+        0.8821539209422137
+      ],
+      "pixel": [
+        858.8256225585938,
+        303.13885498046875
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "atlasPixel": [
+        493.4159240722656,
+        264.08245849609375
+      ],
+      "withinExploratoryReferenceRegion": true
+    }
+  ],
+  "counts": {
+    "atlasDescriptors": 3771,
+    "referenceDescriptors": 1758,
+    "reciprocalRatioMatches": 7,
+    "strictUniqueSourceTriangleLandmarks": 5,
+    "uniqueInsideExploratoryRegion": 4,
+    "outsideExploratoryRegion": 3
+  },
+  "method": {
+    "opencvVersion": "4.13.0",
+    "nfeatures": 6000,
+    "contrastThreshold": 0.005,
+    "ratioThreshold": 0.7,
+    "roleRule": "Atlas coordinate SHA256 modulo3, assigned before reference matching",
+    "uvAdapter": "(u+.5,.5-v)*textureDimensions-.5",
+    "sourceCandidateSelection": "All containing triangles in every part/instance of the resource; no camera/geometry residual",
+    "referenceRegion": [
+      0,
+      100,
+      900,
+      480
+    ],
+    "referenceRegionUse": "Exploratory annotation only, no descriptor discarded"
+  },
+  "originalRuntimeExecuted": false,
+  "cameraFitAttempted": false,
+  "limits": [
+    "Reciprocal SIFT ratio evidence can still contain false matches.",
+    "Source UV convention remains an adapter assumption, not native raster proof.",
+    "Every candidate retained; source component is not selected by image or camera residual.",
+    "Exploratory regions derive from visible door/fence area, not a camera.",
+    "Two-pixel landmark uncertainty retained; fitting requires adequate independently unique geometry and withheld features."
+  ]
+}

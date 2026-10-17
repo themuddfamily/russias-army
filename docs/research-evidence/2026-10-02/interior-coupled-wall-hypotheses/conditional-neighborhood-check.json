@@ -1,0 +1,32 @@
+{
+  "reference15sFit": "artifacts/fidelity-review/2026-10-01/current/woodland-15s-texture-free-stretch-camera-fit.json",
+  "reference15sFitSha256": "1c583da5afbf3aec8eb4f5f33389aa59a53bcb4a9031aaa39f19d1afa26a029d",
+  "reference15sPose": [
+    12.749761911267209,
+    -7.3896558920496975,
+    33.668938189939325
+  ],
+  "preservedApproachReference": "docs/research-evidence/2026-09-30/woodland-video-10s.jpg",
+  "approachReferenceSha256": "178f6562bc661b262f441aafb19259ecb78ef36dddbdfb7af44cb55982a85360",
+  "interiorTimestampSeconds": 11,
+  "facadeTimestampSeconds": 15,
+  "nearbyPoseComparisons": [
+    {
+      "id": "component-A-back-25-left-8",
+      "distanceToConditional15sPose": 169.52444025664636,
+      "minimumStraightLineTravelPerRecordingSecond": 42.38111006416159
+    },
+    {
+      "id": "component-B-back-26-left-10",
+      "distanceToConditional15sPose": 9.811347863236351,
+      "minimumStraightLineTravelPerRecordingSecond": 2.452836965809088
+    }
+  ],
+  "sourceComponentIdentified": false,
+  "limits": [
+    "Distances are conditional on both unvalidated11s hypotheses and partly validated15s facade/capture assumptions.",
+    "No movement cap, exact native callback rate, continuous unedited shot or lack of reset is established by this calculation.",
+    "The10s approach confirms doorway/fence/terrain image context but has no independently unique3D external landmark in this pass.",
+    "This favors the componentB neighborhood as a next hypothesis, not an accepted component label or camera."
+  ]
+}

@@ -1,0 +1,1156 @@
+{
+  "originalRuntimeExecuted": false,
+  "cameraFitAttempted": false,
+  "rendererExecuted": false,
+  "sources": [
+    {
+      "path": "public/assets/original-scenes/woodland/scene.json",
+      "bytes": 5813015,
+      "sha256": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-02/interior-approach-textures/woodland-video-13s.jpg",
+      "bytes": 70734,
+      "sha256": "e3efda1f0eb0d1aebae7f0cfe56fc9686620e71fa22c85b181bd57f143f6c49a"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-02/interior-approach-textures/woodland-video-13s-provenance.json",
+      "bytes": 1563,
+      "sha256": "892fca32f2341f869e696889055b9eefe06464ce146251be936d27ad6e2ed053"
+    },
+    {
+      "path": "public/assets/original-scenes/woodland/textures/woodenshed.png",
+      "bytes": 255367,
+      "sha256": "b5b0bb30474b7aedbc002ad2219ddb786de4b507b7247cc5916e7cd373da71f6"
+    },
+    {
+      "path": "public/assets/original-scenes/woodland/textures/lorryback.png",
+      "bytes": 481788,
+      "sha256": "f7e6ebf4bc6471638f56061216517ea750345cbc62da2239ff657f793b3a289d"
+    },
+    {
+      "path": "public/assets/original-scenes/woodland/textures/haddingtoncafe.png",
+      "bytes": 338598,
+      "sha256": "4320bad3fe132f09c21f072c4ea5df2c794202cd14236dc4a3ff610acab48eac"
+    },
+    {
+      "path": "public/assets/original-scenes/woodland/textures/concrete.png",
+      "bytes": 89839,
+      "sha256": "6f0c34755e4cf7a0463a9d33e475b32a1c3f1b389813ae18ed66edd18740ea7a"
+    },
+    {
+      "path": "public/assets/original-scenes/woodland/textures/stepwall.png",
+      "bytes": 481029,
+      "sha256": "605feca6486f7878b26b7b388d7dc2b5a7dbeb3ee5eed002bafca74681e05b00"
+    },
+    {
+      "path": "public/assets/original-scenes/woodland/textures/brownloo.png",
+      "bytes": 265060,
+      "sha256": "0eb1c816ecfd7f90e656376cc06b129a7242661147fe0949a319345b1643e0e6"
+    },
+    {
+      "path": "public/assets/original-scenes/woodland/textures/bigredfella.png",
+      "bytes": 348916,
+      "sha256": "b260f9b5f291edcb05a62196f7f4ad1c94573b4ce2da6ad61b5e36512695059c"
+    }
+  ],
+  "sceneScale": 0.02023529411764706,
+  "imageSize": [
+    1280,
+    574
+  ],
+  "imageObservations": [
+    {
+      "id": "left-visible-opening-boundary",
+      "geometryKind": "possible mesh jamb silhouette",
+      "segmentPixels": [
+        [
+          203,
+          60
+        ],
+        [
+          275,
+          477
+        ]
+      ],
+      "lineEndpointMeaning": "Sample points along visible boundary; not assigned source vertices",
+      "measurementStatus": "Manual exploratory approximation, nominal2px; no optimization",
+      "sourceCandidates": "Every componentA/B jamb candidate retained"
+    },
+    {
+      "id": "right-visible-opening-boundary",
+      "geometryKind": "possible mesh jamb silhouette",
+      "segmentPixels": [
+        [
+          586,
+          20
+        ],
+        [
+          594,
+          454
+        ]
+      ],
+      "lineEndpointMeaning": "Sample points along visible boundary; not assigned source vertices",
+      "measurementStatus": "Manual exploratory approximation, nominal2px; no optimization",
+      "sourceCandidates": "Every componentA/B jamb candidate retained"
+    },
+    {
+      "id": "white-rust-marked-rounded-object",
+      "rectanglePixels": [
+        517,
+        121,
+        549,
+        158
+      ],
+      "candidateResource": "lorryback",
+      "semanticEvidence": "White rust-marked circular end closely resembles upper-right lorryback atlas photograph",
+      "correspondenceStatus": "Resource candidate only; no center/edge landmark or cap face accepted"
+    },
+    {
+      "id": "adjacent-light-grey-rectangular-object",
+      "rectanglePixels": [
+        548,
+        115,
+        578,
+        173
+      ],
+      "candidateResources": [
+        "haddingtoncafe",
+        "lorryback",
+        "plinths"
+      ],
+      "correspondenceStatus": "Unresolved; light grey/vent-like appearance is insufficient for a unique source point"
+    }
+  ],
+  "sourceDoorJambCandidates": [
+    {
+      "id": "A-jamb-0",
+      "component": "A",
+      "positions": [
+        [
+          -1068.3106689453125,
+          8799.5791015625,
+          879.5384521484375
+        ],
+        [
+          -1068.3106689453125,
+          8799.580078125,
+          1034.7510986328125
+        ]
+      ],
+      "faces": [
+        66,
+        167
+      ],
+      "vertexPairs": [
+        [
+          146,
+          155
+        ],
+        [
+          362,
+          363
+        ]
+      ],
+      "worldPositions": [
+        [
+          -11.125243422564338,
+          8.66198787913603,
+          -131.5914021139706
+        ],
+        [
+          -11.125243422564338,
+          11.802761431525736,
+          -131.591421875
+        ]
+      ],
+      "worldLength": 3.140773552451873
+    },
+    {
+      "id": "A-jamb-1",
+      "component": "A",
+      "positions": [
+        [
+          -1068.3106689453125,
+          8901.65625,
+          879.5384521484375
+        ],
+        [
+          -1068.3106689453125,
+          8901.65625,
+          1034.7510986328125
+        ]
+      ],
+      "faces": [
+        61,
+        182
+      ],
+      "vertexPairs": [
+        [
+          138,
+          283
+        ],
+        [
+          281,
+          279
+        ]
+      ],
+      "worldPositions": [
+        [
+          -11.125243422564338,
+          8.66198787913603,
+          -133.6569632352941
+        ],
+        [
+          -11.125243422564338,
+          11.802761431525736,
+          -133.6569632352941
+        ]
+      ],
+      "worldLength": 3.1407735523897067
+    },
+    {
+      "id": "A-jamb-2",
+      "component": "A",
+      "positions": [
+        [
+          -1064.11572265625,
+          8799.5791015625,
+          879.5384521484375
+        ],
+        [
+          -1064.11572265625,
+          8799.580078125,
+          1034.7510986328125
+        ]
+      ],
+      "faces": [
+        63,
+        181
+      ],
+      "vertexPairs": [
+        [
+          365,
+          393
+        ],
+        [
+          391,
+          361
+        ]
+      ],
+      "worldPositions": [
+        [
+          -11.040357450597426,
+          8.66198787913603,
+          -131.5914021139706
+        ],
+        [
+          -11.040357450597426,
+          11.802761431525736,
+          -131.591421875
+        ]
+      ],
+      "worldLength": 3.140773552451873
+    },
+    {
+      "id": "A-jamb-3",
+      "component": "A",
+      "positions": [
+        [
+          -1064.11572265625,
+          8901.65625,
+          879.5384521484375
+        ],
+        [
+          -1064.11572265625,
+          8901.65625,
+          1034.7510986328125
+        ]
+      ],
+      "faces": [
+        60,
+        126
+      ],
+      "vertexPairs": [
+        [
+          130,
+          396
+        ],
+        [
+          394,
+          280
+        ]
+      ],
+      "worldPositions": [
+        [
+          -11.040357450597426,
+          8.66198787913603,
+          -133.6569632352941
+        ],
+        [
+          -11.040357450597426,
+          11.802761431525736,
+          -133.6569632352941
+        ]
+      ],
+      "worldLength": 3.1407735523897067
+    },
+    {
+      "id": "B-jamb-4",
+      "component": "B",
+      "positions": [
+        [
+          -27.96624755859375,
+          146.8227996826172,
+          5.593249320983887
+        ],
+        [
+          -27.966243743896484,
+          146.8227996826172,
+          160.80592346191406
+        ]
+      ],
+      "faces": [
+        56,
+        171
+      ],
+      "vertexPairs": [
+        [
+          132,
+          278
+        ],
+        [
+          276,
+          274
+        ]
+      ],
+      "worldPositions": [
+        [
+          9.926431927849265,
+          -9.022550342784209,
+          43.49966658289293
+        ],
+        [
+          9.926432005040786,
+          -5.881776230755975,
+          43.49966658289293
+        ]
+      ],
+      "worldLength": 3.140774112028235
+    },
+    {
+      "id": "B-jamb-5",
+      "component": "B",
+      "positions": [
+        [
+          -26.567935943603516,
+          151.01773071289062,
+          5.593249320983887
+        ],
+        [
+          -26.56793212890625,
+          151.01773071289062,
+          160.80592346191406
+        ]
+      ],
+      "faces": [
+        57,
+        124
+      ],
+      "vertexPairs": [
+        [
+          125,
+          371
+        ],
+        [
+          369,
+          275
+        ]
+      ],
+      "worldPositions": [
+        [
+          9.954727174646715,
+          -9.022550342784209,
+          43.4147809196921
+        ],
+        [
+          9.954727251838236,
+          -5.881776230755975,
+          43.4147809196921
+        ]
+      ],
+      "worldLength": 3.140774112028235
+    },
+    {
+      "id": "B-jamb-6",
+      "component": "B",
+      "positions": [
+        [
+          74.11055755615234,
+          134.23797607421875,
+          5.593249320983887
+        ],
+        [
+          74.11054992675781,
+          134.23797607421875,
+          160.80592346191406
+        ]
+      ],
+      "faces": [
+        71,
+        151
+      ],
+      "vertexPairs": [
+        [
+          154,
+          163
+        ],
+        [
+          304,
+          328
+        ]
+      ],
+      "worldPositions": [
+        [
+          11.991986101935892,
+          -9.022550342784209,
+          43.754324190027575
+        ],
+        [
+          11.99198594755285,
+          -5.881776230755975,
+          43.754324190027575
+        ]
+      ],
+      "worldLength": 3.1407741120282378
+    },
+    {
+      "id": "B-jamb-7",
+      "component": "B",
+      "positions": [
+        [
+          75.50887298583984,
+          138.4329071044922,
+          5.593249320983887
+        ],
+        [
+          75.50886535644531,
+          138.4329071044922,
+          160.80592346191406
+        ]
+      ],
+      "faces": [
+        65,
+        150
+      ],
+      "vertexPairs": [
+        [
+          334,
+          331
+        ],
+        [
+          329,
+          332
+        ]
+      ],
+      "worldPositions": [
+        [
+          12.020281425924862,
+          -9.022550342784209,
+          43.669438526826745
+        ],
+        [
+          12.02028127154182,
+          -5.881776230755975,
+          43.669438526826745
+        ]
+      ],
+      "worldLength": 3.1407741120282378
+    }
+  ],
+  "doorJambExtraction": {
+    "resource": "woodenshed",
+    "part": 0,
+    "edgeConstraint": "Actual triangle edge with horizontal source coordinate difference<0.001 and vertical span150..160 source units; retained near both doorway positions",
+    "componentARegionXY": [
+      [
+        -1070,
+        -1060
+      ],
+      [
+        8790,
+        8910
+      ]
+    ],
+    "componentBRegionXY": [
+      [
+        -33,
+        80
+      ],
+      [
+        130,
+        158
+      ]
+    ],
+    "grouping": "Quantized source XY to0.001 only consolidates duplicate representation; exact endpoint coordinates retained",
+    "screenAssignment": "None; inner/outer and both component alternatives retained"
+  },
+  "tankAtlasSampling": {
+    "atlasPixel": [
+      405,
+      145
+    ],
+    "meaning": "Nominal point inside photographed white circular patch, not a measured image feature or guaranteed geometric circle center",
+    "uvAdapter": "(u+.5,.5-v)*512-.5",
+    "sourceCandidates": [
+      {
+        "node": "lorryback",
+        "part": 0,
+        "face": 294,
+        "vertexIndices": [
+          1457,
+          1080,
+          652
+        ],
+        "barycentric": [
+          0.0021571686345110974,
+          0.08703617376358667,
+          0.9108066576019023
+        ],
+        "sourceLocalPoint": [
+          -248.62717938793892,
+          1824.9350792141913,
+          92.24967859411632
+        ],
+        "worldPoint": [
+          57.235302521686705,
+          -7.1567658959760445,
+          30.865714771158423
+        ],
+        "sourceTrianglePositions": [
+          [
+            -255.48365783691406,
+            1798.9659423828125,
+            83.70902252197266
+          ],
+          [
+            -254.8612823486328,
+            1804.256103515625,
+            74.37344360351562
+          ],
+          [
+            -248.0152130126953,
+            1826.97265625,
+            93.9781494140625
+          ]
+        ]
+      },
+      {
+        "node": "lorryback",
+        "part": 0,
+        "face": 1278,
+        "vertexIndices": [
+          281,
+          1437,
+          653
+        ],
+        "barycentric": [
+          0.0021568675635876833,
+          0.08703654567473348,
+          0.9108065867616788
+        ],
+        "sourceLocalPoint": [
+          -32.60357416389758,
+          -29.36125275069295,
+          83.53580536163521
+        ],
+        "worldPoint": [
+          61.60660370974966,
+          -7.333093683739191,
+          68.38794642974197
+        ],
+        "sourceTrianglePositions": [
+          [
+            -48.23381805419922,
+            -7.4684600830078125,
+            74.68461608886719
+          ],
+          [
+            -44.49958801269531,
+            -11.513876914978027,
+            65.66022491455078
+          ],
+          [
+            -31.429779052734375,
+            -31.118589401245117,
+            85.26495361328125
+          ]
+        ]
+      },
+      {
+        "node": "lorryback",
+        "part": 0,
+        "face": 1299,
+        "vertexIndices": [
+          654,
+          195,
+          1447
+        ],
+        "barycentric": [
+          0.9108065222399412,
+          0.002156593346227311,
+          0.08703688441383148
+        ],
+        "sourceLocalPoint": [
+          169.83656044984247,
+          154.76985465157082,
+          83.53579535364926
+        ],
+        "worldPoint": [
+          65.70303937487476,
+          -7.333093886253729,
+          64.6619993152491
+        ],
+        "sourceTrianglePositions": [
+          [
+            168.6627655029297,
+            156.52651977539062,
+            85.26494598388672
+          ],
+          [
+            185.46681213378906,
+            133.1875762939453,
+            74.68462371826172
+          ],
+          [
+            181.73257446289062,
+            136.92181396484375,
+            65.66023254394531
+          ]
+        ]
+      },
+      {
+        "node": "lorryback",
+        "part": 0,
+        "face": 1325,
+        "vertexIndices": [
+          601,
+          201,
+          1460
+        ],
+        "barycentric": [
+          0.9108068233108431,
+          0.0021563808255720173,
+          0.08703679586358487
+        ],
+        "sourceLocalPoint": [
+          -519.6908916948368,
+          1861.995942864044,
+          92.24967380764888
+        ],
+        "worldPoint": [
+          51.75024857853536,
+          -7.15676599283162,
+          30.115777294949638
+        ],
+        "sourceTrianglePositions": [
+          [
+            -520.3028564453125,
+            1859.9583740234375,
+            93.9781494140625
+          ],
+          [
+            -512.8344116210938,
+            1887.9649658203125,
+            83.70901489257812
+          ],
+          [
+            -513.456787109375,
+            1882.6749267578125,
+            74.3734359741211
+          ]
+        ]
+      }
+    ],
+    "candidateCount": 4,
+    "screenAssignment": "None; all four containing source faces retained"
+  },
+  "fullSceneResourceInventory": [
+    {
+      "node": "woodenshed",
+      "resource": "woodenshed",
+      "partCount": 1,
+      "triangles": 196,
+      "shaders": [
+        "woodenshed"
+      ],
+      "worldBounds": [
+        [
+          -17.123837287454045,
+          -9.164026649138506,
+          -135.55275735294117
+        ],
+        [
+          13.6614063577091,
+          13.443887752757353,
+          49.89439560116039
+        ]
+      ]
+    },
+    {
+      "node": "haddingtoncafe",
+      "resource": "haddingtoncafe",
+      "partCount": 1,
+      "triangles": 302,
+      "shaders": [
+        "haddingtoncafe"
+      ],
+      "worldBounds": [
+        [
+          39.11667727526144,
+          -9.263960092564803,
+          32.668867493045745
+        ],
+        [
+          56.01220849444188,
+          -2.8529661272295113,
+          56.39093766905126
+        ]
+      ]
+    },
+    {
+      "node": "stonebarn",
+      "resource": "stonebarn",
+      "partCount": 1,
+      "triangles": 113,
+      "shaders": [
+        "stonebarn"
+      ],
+      "worldBounds": [
+        [
+          7.713421415441177,
+          -9.264987046185663,
+          3.7185823471966915
+        ],
+        [
+          38.89285529641544,
+          -4.154944163602941,
+          14.380929831112132
+        ]
+      ]
+    },
+    {
+      "node": "woodenlodge",
+      "resource": "woodenlodge",
+      "partCount": 1,
+      "triangles": 402,
+      "shaders": [
+        "woodenlodge"
+      ],
+      "worldBounds": [
+        [
+          -125.6838133700763,
+          10.21781192566237,
+          -80.78898336253368
+        ],
+        [
+          -112.58007923879522,
+          16.707333740410895,
+          -74.41584134623758
+        ]
+      ]
+    },
+    {
+      "node": "syccamore",
+      "resource": "syccamore",
+      "partCount": 1,
+      "triangles": 4088,
+      "shaders": [
+        "syccamore"
+      ],
+      "worldBounds": [
+        [
+          -157.8455994944853,
+          -7.4599429859834565,
+          -147.67294761029413
+        ],
+        [
+          132.6400409007353,
+          25.092532915900737,
+          135.40926263786764
+        ]
+      ]
+    },
+    {
+      "node": "lorryback",
+      "resource": "lorryback",
+      "partCount": 1,
+      "triangles": 1372,
+      "shaders": [
+        "lorryback"
+      ],
+      "worldBounds": [
+        [
+          49.99990992647059,
+          -9.546111194386203,
+          28.985779296875002
+        ],
+        [
+          67.02053535730698,
+          -5.988340978285846,
+          69.04060666611616
+        ]
+      ]
+    },
+    {
+      "node": "brownloo",
+      "resource": "brownloo",
+      "partCount": 1,
+      "triangles": 160,
+      "shaders": [
+        "brownloo"
+      ],
+      "worldBounds": [
+        [
+          -73.41481177979105,
+          -6.6258735498231625,
+          73.19935975647479
+        ],
+        [
+          -65.79345117834718,
+          -2.304238144706832,
+          82.7054783136695
+        ]
+      ]
+    },
+    {
+      "node": "solidfence",
+      "resource": "solidfence",
+      "partCount": 1,
+      "triangles": 680,
+      "shaders": [
+        "solidoldfences"
+      ],
+      "worldBounds": [
+        [
+          2.4421150880992166,
+          -9.263546343635111,
+          10.801855490231006
+        ],
+        [
+          44.62780905836741,
+          -7.527302654898026,
+          58.18921756456227
+        ]
+      ]
+    },
+    {
+      "node": "irishyew2",
+      "resource": "irishyew2",
+      "partCount": 1,
+      "triangles": 96,
+      "shaders": [
+        "irishyew"
+      ],
+      "worldBounds": [
+        [
+          22.852983958524817,
+          -9.272342114841237,
+          49.67799009794348
+        ],
+        [
+          26.601008386948532,
+          -4.446943941004136,
+          53.285453899607944
+        ]
+      ]
+    },
+    {
+      "node": "sheds",
+      "resource": "sheds",
+      "partCount": 1,
+      "triangles": 52,
+      "shaders": [
+        "barn"
+      ],
+      "worldBounds": [
+        [
+          120.9365385618495,
+          7.625905991498162,
+          -130.56641564651014
+        ],
+        [
+          129.62354964525628,
+          12.994356445312501,
+          -126.09270091574781
+        ]
+      ]
+    },
+    {
+      "node": "floor",
+      "resource": "floor",
+      "partCount": 2,
+      "triangles": 973,
+      "shaders": [
+        "barerocksand2",
+        "floortop2"
+      ],
+      "worldBounds": [
+        [
+          -167.67652389705884,
+          -10.222447208180148,
+          -157.59604733455882
+        ],
+        [
+          171.65190946691177,
+          33.00998448988971,
+          171.65190946691177
+        ]
+      ]
+    },
+    {
+      "node": "plinths",
+      "resource": "plinths",
+      "partCount": 2,
+      "triangles": 66,
+      "shaders": [
+        "concrete",
+        "stepwall"
+      ],
+      "worldBounds": [
+        [
+          -153.2626017922794,
+          -1.8049822757948593,
+          -134.8299402344152
+        ],
+        [
+          167.02770384306066,
+          20.045336843510555,
+          185.5961018796825
+        ]
+      ]
+    },
+    {
+      "node": "bigredfellaopen01",
+      "resource": "bigredfellaopen01",
+      "partCount": 1,
+      "triangles": 314,
+      "shaders": [
+        "bigredfella"
+      ],
+      "worldBounds": [
+        [
+          -125.6142219418593,
+          13.150874913832721,
+          156.22469948039392
+        ],
+        [
+          -55.28630983600454,
+          27.402441636029412,
+          174.585204617723
+        ]
+      ]
+    },
+    {
+      "node": "outerfencing",
+      "resource": "outerfencing",
+      "partCount": 1,
+      "triangles": 88,
+      "shaders": [
+        "wirefence"
+      ],
+      "worldBounds": [
+        [
+          -98.98324333639707,
+          -207.65533915441176,
+          -149.35381089154413
+        ],
+        [
+          148.88053423713237,
+          15.665457261029413,
+          159.08986259191178
+        ]
+      ]
+    },
+    {
+      "node": "cliffview",
+      "resource": "cliffview",
+      "partCount": 1,
+      "triangles": 825,
+      "shaders": [
+        "cliffview"
+      ],
+      "worldBounds": [
+        [
+          132.50890609202665,
+          8.467697283576516,
+          -129.3257556295956
+        ],
+        [
+          148.95719776826746,
+          12.288339481129366,
+          -92.22402274816177
+        ]
+      ]
+    },
+    {
+      "node": "trunks",
+      "resource": "trunks",
+      "partCount": 1,
+      "triangles": 7540,
+      "shaders": [
+        "barks"
+      ],
+      "worldBounds": [
+        [
+          -156.40777217371325,
+          -10.916790653004366,
+          -155.13633766084558
+        ],
+        [
+          168.43720990349266,
+          24.899941923253678,
+          171.56344427849265
+        ]
+      ]
+    },
+    {
+      "node": "spindlybirchleaves",
+      "resource": "spindlybirchleaves",
+      "partCount": 1,
+      "triangles": 1576,
+      "shaders": [
+        "spindlybirchleaves"
+      ],
+      "worldBounds": [
+        [
+          -158.68965234375,
+          -6.997525634765625,
+          -147.89684995404411
+        ],
+        [
+          147.12594255514708,
+          31.666768037683823,
+          148.48986856617648
+        ]
+      ]
+    },
+    {
+      "node": "rowanbranch",
+      "resource": "rowanbranch",
+      "partCount": 1,
+      "triangles": 3228,
+      "shaders": [
+        "rowanbranch"
+      ],
+      "worldBounds": [
+        [
+          -155.32664131433825,
+          -9.60783349609375,
+          -138.62730675551472
+        ],
+        [
+          133.30868497242648,
+          27.279384765625,
+          150.40834834558825
+        ]
+      ]
+    },
+    {
+      "node": "birch",
+      "resource": "birch",
+      "partCount": 1,
+      "triangles": 1352,
+      "shaders": [
+        "birch"
+      ],
+      "worldBounds": [
+        [
+          -147.4662225413603,
+          -1.7693006807215075,
+          -122.67542819393383
+        ],
+        [
+          140.37752630974265,
+          25.986477424172794,
+          137.03158880974266
+        ]
+      ]
+    },
+    {
+      "node": "irishyew",
+      "resource": "irishyew",
+      "partCount": 1,
+      "triangles": 96,
+      "shaders": [
+        "irishyew"
+      ],
+      "worldBounds": [
+        [
+          31.04959033203125,
+          -9.27089358700023,
+          51.320710115320544
+        ],
+        [
+          34.25523193359375,
+          -5.113493189194624,
+          54.72502632769417
+        ]
+      ]
+    },
+    {
+      "node": "irishyew3",
+      "resource": "irishyew3",
+      "partCount": 1,
+      "triangles": 96,
+      "shaders": [
+        "irishyew"
+      ],
+      "worldBounds": [
+        [
+          14.95242497702206,
+          -9.27089358700023,
+          49.3973147798426
+        ],
+        [
+          18.15806657858456,
+          -5.113493189194624,
+          52.801630992216225
+        ]
+      ]
+    },
+    {
+      "node": "othertrees",
+      "resource": "othertrees",
+      "partCount": 4,
+      "triangles": 642,
+      "shaders": [
+        "birch",
+        "rowanbranch",
+        "spindlybirchleaves",
+        "syccamore"
+      ],
+      "worldBounds": [
+        [
+          -124.3912734375,
+          -354.63248115808824,
+          -158.4378573069853
+        ],
+        [
+          170.90207720588236,
+          22.305736213235296,
+          173.91355928308823
+        ]
+      ]
+    }
+  ],
+  "conclusion": "Actual doorway mesh edges provide potential line constraints; the exterior lorryback resource supplies a plausible noncoplanar object family. Current evidence has8 jamb edges in2 components and4 sampled cap candidates, without accepted image-to-source labels. Independent boundary-based registration is feasible to test, not established.",
+  "limits": [
+    "Door lintel/top corners lie outside or near the image crop; segment samples are not full four-corner observations.",
+    "Foreground gun, wall thickness, blur and texture contrast complicate exact silhouette endpoints.",
+    "The grey exterior object remains semantically ambiguous; all named alternatives retained.",
+    "Photographic rails/highlights are not used as mesh edges or native lighting evidence.",
+    "No camera residual or prior fit selects a component, jamb, cap or resource.",
+    "No unique source landmark set or camera is claimed; V12/V14 remain open."
+  ]
+}

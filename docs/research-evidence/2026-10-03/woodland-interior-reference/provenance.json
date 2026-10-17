@@ -1,0 +1,87 @@
+{
+  "video": "docs/research-evidence/2026-09-30/woodland-video-first45s.mp4",
+  "videoSha256": "069ea82b66ef3d2c0656ea81ea2e8fa939179245b5364077e59f213fcd7e5fc1",
+  "sourceProvenance": "docs/research-evidence/2026-09-30/source-provenance.json",
+  "dimensions": [
+    1280,
+    574
+  ],
+  "fps": 10,
+  "frameCount": 451,
+  "durationSeconds": 45.1,
+  "sourceFormat": "136; silent H264 prefix remux, not full recording",
+  "frames": [
+    {
+      "file": "frame-01.png",
+      "decodedZeroBasedFrame": 210,
+      "ptsSeconds": 21,
+      "sha256": "0ce2e772ed51e069758ae482a204fde35f0f0d1f7f8089f71ad94d308344ce43"
+    },
+    {
+      "file": "frame-02.png",
+      "decodedZeroBasedFrame": 220,
+      "ptsSeconds": 22,
+      "sha256": "355a9cf0e4ee29fd4d972c88be596f11f8e02d6d5363add179d9ee1c0d08800f"
+    },
+    {
+      "file": "frame-03.png",
+      "decodedZeroBasedFrame": 230,
+      "ptsSeconds": 23,
+      "sha256": "a567ddd54bfd93678ab4721516feb0b3dafb22b3f6ac54942341becda231a0b5"
+    },
+    {
+      "file": "frame-04.png",
+      "decodedZeroBasedFrame": 240,
+      "ptsSeconds": 24,
+      "sha256": "ba88099167ebeb90c583251083cb979101d7bc7b5a9e93422a87dcefc1028c0a"
+    },
+    {
+      "file": "frame-05.png",
+      "decodedZeroBasedFrame": 250,
+      "ptsSeconds": 25,
+      "sha256": "770f3dc460e4f9a9f8336bdae277fb050951b617d3230c71c9d8fa4ba4d8b923"
+    },
+    {
+      "file": "frame-06.png",
+      "decodedZeroBasedFrame": 260,
+      "ptsSeconds": 26,
+      "sha256": "e5b960585b34990cbb4599f25f3112c141fb16fb2e4811dbc4fa5b224e45f973"
+    }
+  ],
+  "extraction": "One FFmpeg decode, six exact select(n) frames, threads=1, no native image scaling or brightness adjustment; fps_mode=passthrough",
+  "diagnosticContactSheet": "six-frame-context.png: resized display derivatives only; use frame PNGs for pixels",
+  "originalRuntimeExecuted": false,
+  "cameraFitAttempted": false,
+  "architecturalCandidates": [
+    {
+      "id": "C1",
+      "frame": "frame-02.png",
+      "approxPixel": [
+        323,
+        388
+      ],
+      "interpretation": "left/back wall meets floor",
+      "sourceVertexIdentity": null
+    },
+    {
+      "id": "C2",
+      "frame": "frame-02.png",
+      "approxPixel": [
+        611,
+        383
+      ],
+      "interpretation": "back floor edge disappears behind weapon; not proven geometric corner",
+      "sourceVertexIdentity": null
+    },
+    {
+      "id": "C3",
+      "frame": "frame-02.png",
+      "approxPixel": [
+        783,
+        228
+      ],
+      "interpretation": "upper visible left doorway jamb; lintel boundary unclear",
+      "sourceVertexIdentity": null
+    }
+  ]
+}

@@ -1,0 +1,2395 @@
+{
+  "scene": "public/assets/original-scenes/woodland/scene.json",
+  "sceneSha256": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107",
+  "reference": "docs/research-evidence/2026-09-30/woodland-video-11s.jpg",
+  "referenceSha256": "6d234e9b3407d7dc3d57fe70e1cfcc5e82795f15ccd95a3d1260213041f4f3ce",
+  "imageSize": [
+    1280,
+    574
+  ],
+  "scale": 0.02023529411764706,
+  "verticalFovDegrees": 50,
+  "landmarks": [
+    {
+      "id": "shed-training-plane-candidate-2",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.6283924437211117,
+        0.2986016730394809,
+        0.0730058832394074
+      ],
+      "pixel": [
+        257.14117431640625,
+        179.4601593017578
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 2
+    },
+    {
+      "id": "shed-training-plane-candidate-7",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.13259622880900102,
+        0.7410343550834863,
+        0.12636941610751273
+      ],
+      "pixel": [
+        299.4396667480469,
+        355.2329406738281
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 7
+    },
+    {
+      "id": "shed-training-plane-candidate-9",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.7233049056848035,
+        0.13932505004542395,
+        0.13737004426977256
+      ],
+      "pixel": [
+        291.288330078125,
+        145.98989868164062
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 9
+    },
+    {
+      "id": "shed-training-plane-candidate-10",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.7233049056848035,
+        0.13932505004542395,
+        0.13737004426977256
+      ],
+      "pixel": [
+        291.288330078125,
+        145.98989868164062
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 10
+    },
+    {
+      "id": "shed-training-plane-candidate-11",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.2986877482752983,
+        0.5632533477111775,
+        0.13805890401352414
+      ],
+      "pixel": [
+        302.770263671875,
+        296.0832824707031
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 11
+    },
+    {
+      "id": "shed-training-plane-candidate-12",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.6637631352665765,
+        0.1787435454852487,
+        0.15749331924817483
+      ],
+      "pixel": [
+        304.7971496582031,
+        167.61734008789062
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 12
+    },
+    {
+      "id": "shed-training-plane-candidate-14",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.14636501939183932,
+        0.6842916265201076,
+        0.16934335408805312
+      ],
+      "pixel": [
+        322.6956787109375,
+        349.0713806152344
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 14
+    },
+    {
+      "id": "shed-training-plane-candidate-15",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.14636501939183932,
+        0.6842916265201076,
+        0.16934335408805312
+      ],
+      "pixel": [
+        322.6956787109375,
+        349.0713806152344
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 15
+    },
+    {
+      "id": "shed-training-plane-candidate-19",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.1291307402855083,
+        0.6762289609420192,
+        0.19464029877247246
+      ],
+      "pixel": [
+        336.7968444824219,
+        352.6628112792969
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 19
+    },
+    {
+      "id": "shed-training-plane-candidate-20",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.36865995012743746,
+        0.43467829212236814,
+        0.19666175775019434
+      ],
+      "pixel": [
+        333.75726318359375,
+        271.76507568359375
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 20
+    },
+    {
+      "id": "shed-training-plane-candidate-25",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.6536267511646774,
+        0.10955601719564013,
+        0.23681723163968255
+      ],
+      "pixel": [
+        350.9018249511719,
+        172.0635986328125
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 25
+    },
+    {
+      "id": "shed-training-plane-candidate-28",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.054474937001814716,
+        0.6945553505651979,
+        0.2509697124329873
+      ],
+      "pixel": [
+        369.6887512207031,
+        375.6786193847656
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 28
+    },
+    {
+      "id": "shed-training-plane-candidate-29",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.1274279830289078,
+        0.6113335077896279,
+        0.2612385091814643
+      ],
+      "pixel": [
+        374.918701171875,
+        351.8533630371094
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 29
+    },
+    {
+      "id": "shed-training-plane-candidate-30",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.23625130992991528,
+        0.5020771219473051,
+        0.2616715681227796
+      ],
+      "pixel": [
+        371.4322509765625,
+        315.6773681640625
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 30
+    },
+    {
+      "id": "shed-training-plane-candidate-33",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.4947389061060772,
+        0.23752908790773042,
+        0.26773200598619235
+      ],
+      "pixel": [
+        369.29949951171875,
+        227.994873046875
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 33
+    },
+    {
+      "id": "shed-training-plane-candidate-34",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.6474872757810244,
+        0.0821148035703421,
+        0.2703979206486335
+      ],
+      "pixel": [
+        368.68438720703125,
+        173.270751953125
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 34
+    },
+    {
+      "id": "shed-training-plane-candidate-35",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.6479136929351053,
+        0.07411248098974506,
+        0.2779738260751497
+      ],
+      "pixel": [
+        374.0484313964844,
+        173.6812286376953
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 35
+    },
+    {
+      "id": "shed-training-plane-candidate-36",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.590675196238989,
+        0.12926720978659403,
+        0.28005759397441693
+      ],
+      "pixel": [
+        374.76092529296875,
+        194.79705810546875
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 36
+    },
+    {
+      "id": "shed-training-plane-candidate-38",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.12405488165395506,
+        0.5942048253926528,
+        0.28174029295339215
+      ],
+      "pixel": [
+        383.4143371582031,
+        353.7415466308594
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 38
+    },
+    {
+      "id": "shed-training-plane-candidate-39",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.35448182236755943,
+        0.36170796320679127,
+        0.2838102144256493
+      ],
+      "pixel": [
+        380.6056213378906,
+        276.2315673828125
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 39
+    },
+    {
+      "id": "shed-training-plane-candidate-41",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.3087903606044118,
+        0.4002609950174912,
+        0.290948644378097
+      ],
+      "pixel": [
+        385.95953369140625,
+        291.30108642578125
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 41
+    },
+    {
+      "id": "shed-training-plane-candidate-42",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.3087903606044118,
+        0.4002609950174912,
+        0.290948644378097
+      ],
+      "pixel": [
+        385.95953369140625,
+        291.30108642578125
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 42
+    },
+    {
+      "id": "shed-training-plane-candidate-43",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.2579415221374698,
+        0.4472082445770924,
+        0.2948502332854378
+      ],
+      "pixel": [
+        389.4231872558594,
+        307.9905090332031
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 43
+    },
+    {
+      "id": "shed-training-plane-candidate-44",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.09476019785018408,
+        0.606310483086658,
+        0.2989293190631579
+      ],
+      "pixel": [
+        394.43646240234375,
+        362.55517578125
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 44
+    },
+    {
+      "id": "shed-training-plane-candidate-50",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.22967202513745621,
+        0.46136453211557976,
+        0.308963442746964
+      ],
+      "pixel": [
+        397.666015625,
+        316.8804626464844
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 50
+    },
+    {
+      "id": "shed-training-plane-candidate-52",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.17068399533852485,
+        0.5187282327873285,
+        0.3105877718741467
+      ],
+      "pixel": [
+        399.244384765625,
+        336.4961242675781
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 52
+    },
+    {
+      "id": "shed-training-plane-candidate-53",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.5967465458051261,
+        0.07830669877977203,
+        0.3249467554151019
+      ],
+      "pixel": [
+        399.9196472167969,
+        191.31076049804688
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 53
+    },
+    {
+      "id": "shed-training-plane-candidate-55",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.08640168408573623,
+        0.5669890641733889,
+        0.34660925174087487
+      ],
+      "pixel": [
+        419.28240966796875,
+        364.1585693359375
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 55
+    },
+    {
+      "id": "shed-training-plane-candidate-58",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.3503224097712738,
+        0.03055973296330599,
+        0.6191178572654202
+      ],
+      "pixel": [
+        429.55755615234375,
+        172.6019744873047
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 58
+    },
+    {
+      "id": "shed-training-plane-candidate-60",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.356869137340338,
+        0.2426668879890742,
+        0.4004639746705878
+      ],
+      "pixel": [
+        444.29302978515625,
+        273.9743957519531
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 60
+    },
+    {
+      "id": "shed-training-plane-candidate-61",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.13269424458633872,
+        0.4652404892056575,
+        0.40206526620800376
+      ],
+      "pixel": [
+        447.5828552246094,
+        347.1325378417969
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 61
+    },
+    {
+      "id": "shed-training-plane-candidate-63",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.5740259063463129,
+        0.012470365712104695,
+        0.4135037279415824
+      ],
+      "pixel": [
+        448.2547302246094,
+        199.501708984375
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 63
+    },
+    {
+      "id": "shed-training-plane-candidate-66",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.30896018992158103,
+        0.26383886231436326,
+        0.4272009477640557
+      ],
+      "pixel": [
+        459.7576599121094,
+        290.9674072265625
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 66
+    },
+    {
+      "id": "shed-training-plane-candidate-67",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.32545628861718046,
+        0.10619759845386759,
+        0.568346112928952
+      ],
+      "pixel": [
+        457.0942077636719,
+        164.62355041503906
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 67
+    },
+    {
+      "id": "shed-training-plane-candidate-71",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.42425643993983775,
+        0.12881718336274403,
+        0.44692637669741825
+      ],
+      "pixel": [
+        468.16387939453125,
+        250.98838806152344
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 71
+    },
+    {
+      "id": "shed-training-plane-candidate-72",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.5448655332710917,
+        0.005110906913984871,
+        0.4500235598149234
+      ],
+      "pixel": [
+        467.9296569824219,
+        209.93719482421875
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 72
+    },
+    {
+      "id": "shed-training-plane-candidate-74",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.19976919421694794,
+        0.25953409774123226,
+        0.5406967080418198
+      ],
+      "pixel": [
+        470.6361083984375,
+        120.98873138427734
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 74
+    },
+    {
+      "id": "shed-training-plane-candidate-78",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.3394480874537138,
+        0.14537679553054925,
+        0.5151751170157369
+      ],
+      "pixel": [
+        484.9369812011719,
+        170.2246551513672
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 78
+    },
+    {
+      "id": "shed-training-plane-candidate-82",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.12640279622515038,
+        0.3735837452865272,
+        0.5000134584883223
+      ],
+      "pixel": [
+        498.5474548339844,
+        348.3038330078125
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 82
+    },
+    {
+      "id": "shed-training-plane-candidate-83",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.2727813049170391,
+        0.22720428166863796,
+        0.500014413414323
+      ],
+      "pixel": [
+        497.0423278808594,
+        301.0537414550781
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 83
+    },
+    {
+      "id": "shed-training-plane-candidate-84",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.18403465063580193,
+        0.3195762528286397,
+        0.4963890965355583
+      ],
+      "pixel": [
+        493.749267578125,
+        114.8277587890625
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 84
+    },
+    {
+      "id": "shed-training-plane-candidate-87",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.46267804238425414,
+        0.03259367136474057,
+        0.5047282862510053
+      ],
+      "pixel": [
+        497.7638244628906,
+        237.68589782714844
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 87
+    },
+    {
+      "id": "shed-training-plane-candidate-88",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.46267804238425414,
+        0.03259367136474057,
+        0.5047282862510053
+      ],
+      "pixel": [
+        497.7638244628906,
+        237.68589782714844
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 88
+    },
+    {
+      "id": "shed-training-plane-candidate-91",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.32476279909477257,
+        0.18114016550283799,
+        0.4940970354023894
+      ],
+      "pixel": [
+        495.7853088378906,
+        165.94557189941406
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 91
+    },
+    {
+      "id": "shed-training-plane-candidate-92",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.2588830558718559,
+        0.22481674523496295,
+        0.5163001988931811
+      ],
+      "pixel": [
+        505.2899169921875,
+        304.22552490234375
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 92
+    },
+    {
+      "id": "shed-training-plane-candidate-93",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 74,
+      "barycentric": [
+        0.4199185858396627,
+        0.2149402703812898,
+        0.36514114377904755
+      ],
+      "pixel": [
+        497.9803466796875,
+        15.717370986938477
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 93
+    },
+    {
+      "id": "shed-training-plane-candidate-94",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 74,
+      "barycentric": [
+        0.4199185858396627,
+        0.2149402703812898,
+        0.36514114377904755
+      ],
+      "pixel": [
+        497.9803466796875,
+        15.717370986938477
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 94
+    },
+    {
+      "id": "shed-training-plane-candidate-98",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.32283256602777366,
+        0.2135109327912514,
+        0.4636565011809749
+      ],
+      "pixel": [
+        511.8167419433594,
+        163.64871215820312
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 98
+    },
+    {
+      "id": "shed-training-plane-candidate-100",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.3527278251798359,
+        0.09383251644494085,
+        0.5534396583752232
+      ],
+      "pixel": [
+        523.7901611328125,
+        273.6920166015625
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 100
+    },
+    {
+      "id": "shed-training-plane-candidate-102",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.2396709930604345,
+        0.19925555074903392,
+        0.5610734561905316
+      ],
+      "pixel": [
+        529.1861572265625,
+        310.07611083984375
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 102
+    },
+    {
+      "id": "shed-training-plane-candidate-105",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.42561585083978415,
+        0.0017578788475222967,
+        0.5726262703126935
+      ],
+      "pixel": [
+        532.7632446289062,
+        249.0625
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 105
+    },
+    {
+      "id": "shed-training-plane-candidate-106",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.19670844581088576,
+        0.22391622500075659,
+        0.5793753291883577
+      ],
+      "pixel": [
+        538.13916015625,
+        324.16229248046875
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 106
+    },
+    {
+      "id": "shed-training-plane-candidate-108",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 74,
+      "barycentric": [
+        0.4978815219902821,
+        0.1960093211006921,
+        0.30610915690902574
+      ],
+      "pixel": [
+        534.7899780273438,
+        20.527873992919922
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 108
+    },
+    {
+      "id": "shed-training-plane-candidate-109",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.35999865495180805,
+        0.04777104076997433,
+        0.5922303042782177
+      ],
+      "pixel": [
+        543.3834838867188,
+        271.1556701660156
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 109
+    },
+    {
+      "id": "shed-training-plane-candidate-111",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.29893767411550165,
+        0.29660383607012697,
+        0.4044584898143713
+      ],
+      "pixel": [
+        543.4946899414062,
+        157.2560577392578
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 111
+    },
+    {
+      "id": "shed-training-plane-candidate-116",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.1760162477163415,
+        0.21010730478742964,
+        0.6138764474962288
+      ],
+      "pixel": [
+        555.3771362304688,
+        332.09521484375
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 116
+    },
+    {
+      "id": "shed-training-plane-candidate-120",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.2856784343988409,
+        0.082482124471601,
+        0.6318394411295581
+      ],
+      "pixel": [
+        563.903076171875,
+        294.3233337402344
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 120
+    },
+    {
+      "id": "shed-training-plane-candidate-123",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.6307593299928471,
+        0.013608501534333116,
+        0.3556321684728197
+      ],
+      "pixel": [
+        569.4479370117188,
+        267.2872619628906
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 123
+    },
+    {
+      "id": "shed-training-plane-candidate-125",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.2059659874577653,
+        0.13407331371545084,
+        0.6599606988267839
+      ],
+      "pixel": [
+        576.6087646484375,
+        320.7539978027344
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 125
+    },
+    {
+      "id": "shed-training-plane-candidate-126",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.4056776338942326,
+        0.2575410337154235,
+        0.3367813323903439
+      ],
+      "pixel": [
+        577.7772216796875,
+        193.34295654296875
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 126
+    },
+    {
+      "id": "shed-training-plane-candidate-129",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.300049488263023,
+        0.005765026313773133,
+        0.6941854854232038
+      ],
+      "pixel": [
+        594.3604125976562,
+        288.8703918457031
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 129
+    },
+    {
+      "id": "shed-training-plane-candidate-133",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.270640607989572,
+        0.4667072939335595,
+        0.26265209807686857
+      ],
+      "pixel": [
+        614.89453125,
+        148.28663635253906
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 133
+    },
+    {
+      "id": "shed-training-plane-candidate-136",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.5613936511419843,
+        0.22535137913961445,
+        0.21325496971840127
+      ],
+      "pixel": [
+        638.7291870117188,
+        244.0562744140625
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 136
+    },
+    {
+      "id": "shed-training-plane-candidate-140",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.4280756872535013,
+        0.41091776105889083,
+        0.16100655168760789
+      ],
+      "pixel": [
+        664.36181640625,
+        199.686767578125
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 140
+    },
+    {
+      "id": "shed-training-plane-candidate-143",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.1932698558681516,
+        0.6491127441864583,
+        0.15761739994539017
+      ],
+      "pixel": [
+        667.3683471679688,
+        122.04136657714844
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 143
+    },
+    {
+      "id": "shed-training-plane-candidate-144",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.1932698558681516,
+        0.6491127441864583,
+        0.15761739994539017
+      ],
+      "pixel": [
+        667.3683471679688,
+        122.04136657714844
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 144
+    },
+    {
+      "id": "shed-training-plane-candidate-147",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.378142370005091,
+        0.500958089702254,
+        0.12089954029265498
+      ],
+      "pixel": [
+        685.0431518554688,
+        184.64984130859375
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 147
+    },
+    {
+      "id": "shed-training-plane-candidate-148",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.09087985071659843,
+        0.7908107264018825,
+        0.11830942288151905
+      ],
+      "pixel": [
+        688.1658935546875,
+        88.59943389892578
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 148
+    },
+    {
+      "id": "shed-training-plane-candidate-149",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.40837839458542713,
+        0.4776117368511844,
+        0.11400986856338843
+      ],
+      "pixel": [
+        687.155029296875,
+        194.58175659179688
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 149
+    },
+    {
+      "id": "shed-training-plane-candidate-150",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.5337539717170968,
+        0.3609222859875893,
+        0.10532374229531385
+      ],
+      "pixel": [
+        690.9092407226562,
+        234.92782592773438
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 150
+    },
+    {
+      "id": "shed-training-plane-candidate-153",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.665250195266236,
+        0.28902239731309376,
+        0.04572740742067027
+      ],
+      "pixel": [
+        716.1689453125,
+        276.14373779296875
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 153
+    },
+    {
+      "id": "shed-training-plane-candidate-154",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.6940423791305808,
+        0.2735915380504777,
+        0.03236608281894155
+      ],
+      "pixel": [
+        724.0174560546875,
+        284.93621826171875
+      ],
+      "role": "fit",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 154
+    },
+    {
+      "id": "shed-training-plane-candidate-4",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.43968121193306176,
+        0.47078050970899316,
+        0.08953827835794506
+      ],
+      "pixel": [
+        269.50311279296875,
+        248.40721130371094
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 4
+    },
+    {
+      "id": "shed-training-plane-candidate-8",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.36381855299890176,
+        0.5001296780752855,
+        0.1360517689258127
+      ],
+      "pixel": [
+        298.98046875,
+        273.7000427246094
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 8
+    },
+    {
+      "id": "shed-training-plane-candidate-16",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.4700820183408869,
+        0.36033255382988366,
+        0.1695854278292294
+      ],
+      "pixel": [
+        315.38665771484375,
+        235.32891845703125
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 16
+    },
+    {
+      "id": "shed-training-plane-candidate-17",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.4453535111265132,
+        0.37309082489404155,
+        0.18155566397944523
+      ],
+      "pixel": [
+        322.775634765625,
+        245.26492309570312
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 17
+    },
+    {
+      "id": "shed-training-plane-candidate-22",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.6266071979390291,
+        0.15982980902447042,
+        0.21356299303650056
+      ],
+      "pixel": [
+        338.7794494628906,
+        180.17617797851562
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 22
+    },
+    {
+      "id": "shed-training-plane-candidate-23",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.6266071979390291,
+        0.15982980902447042,
+        0.21356299303650056
+      ],
+      "pixel": [
+        338.7794494628906,
+        180.17617797851562
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 23
+    },
+    {
+      "id": "shed-training-plane-candidate-26",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.05374787343368237,
+        0.709383925751348,
+        0.23686820081496965
+      ],
+      "pixel": [
+        361.8927307128906,
+        378.3937072753906
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 26
+    },
+    {
+      "id": "shed-training-plane-candidate-27",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.37078912453811885,
+        0.3845877205952649,
+        0.24462315486661623
+      ],
+      "pixel": [
+        360.0665283203125,
+        270.3341979980469
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 27
+    },
+    {
+      "id": "shed-training-plane-candidate-31",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.5619208607997883,
+        0.17260959164116663,
+        0.265469547559045
+      ],
+      "pixel": [
+        367.8994140625,
+        203.0700225830078
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 31
+    },
+    {
+      "id": "shed-training-plane-candidate-32",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.6742127816746597,
+        0.060280428652268174,
+        0.2655067896730721
+      ],
+      "pixel": [
+        365.8968200683594,
+        163.5016326904297
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 32
+    },
+    {
+      "id": "shed-training-plane-candidate-37",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.056999862244162536,
+        0.6624329713942996,
+        0.28056716636153795
+      ],
+      "pixel": [
+        385.97454833984375,
+        375.5491638183594
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 37
+    },
+    {
+      "id": "shed-training-plane-candidate-40",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.6020463850446944,
+        0.10899491699690744,
+        0.28895869795839807
+      ],
+      "pixel": [
+        380.7052001953125,
+        190.27780151367188
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 40
+    },
+    {
+      "id": "shed-training-plane-candidate-45",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.3704686808779516,
+        0.3264538015118701,
+        0.3030775176101783
+      ],
+      "pixel": [
+        391.9560852050781,
+        270.3201599121094
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 45
+    },
+    {
+      "id": "shed-training-plane-candidate-46",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.28584336206168726,
+        0.01783611702617938,
+        0.6963205209121334
+      ],
+      "pixel": [
+        386.4463195800781,
+        151.87998962402344
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 46
+    },
+    {
+      "id": "shed-training-plane-candidate-47",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.12785886426789717,
+        0.5632990879529772,
+        0.3088420477791256
+      ],
+      "pixel": [
+        398.4389343261719,
+        351.45501708984375
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 47
+    },
+    {
+      "id": "shed-training-plane-candidate-48",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.12785886426789717,
+        0.5632990879529772,
+        0.3088420477791256
+      ],
+      "pixel": [
+        398.4389343261719,
+        351.45501708984375
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 48
+    },
+    {
+      "id": "shed-training-plane-candidate-49",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.4326495018396639,
+        0.25838705541337204,
+        0.308963442746964
+      ],
+      "pixel": [
+        393.9299621582031,
+        248.29258728027344
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 49
+    },
+    {
+      "id": "shed-training-plane-candidate-51",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.2881241706567256,
+        0.4019253512088417,
+        0.3099504781344327
+      ],
+      "pixel": [
+        396.7425842285156,
+        297.5919494628906
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 51
+    },
+    {
+      "id": "shed-training-plane-candidate-54",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.3691337253996776,
+        0.3031465334449515,
+        0.32771974115537095
+      ],
+      "pixel": [
+        404.8763122558594,
+        271.2741394042969
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 54
+    },
+    {
+      "id": "shed-training-plane-candidate-56",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.3375597860022608,
+        0.012143784078117071,
+        0.6502964299196221
+      ],
+      "pixel": [
+        412.61309814453125,
+        165.7391357421875
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 56
+    },
+    {
+      "id": "shed-training-plane-candidate-57",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.33181494601829575,
+        0.31645465346485047,
+        0.3517304005168537
+      ],
+      "pixel": [
+        418.9062194824219,
+        282.5391540527344
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 57
+    },
+    {
+      "id": "shed-training-plane-candidate-62",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.3175401083396413,
+        0.08765624085889237,
+        0.5948036508014664
+      ],
+      "pixel": [
+        442.3999938964844,
+        161.39791870117188
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 62
+    },
+    {
+      "id": "shed-training-plane-candidate-64",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.38601864133926045,
+        0.1978092093759642,
+        0.41617214928477536
+      ],
+      "pixel": [
+        452.2868957519531,
+        264.7697448730469
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 64
+    },
+    {
+      "id": "shed-training-plane-candidate-68",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.41608129232458657,
+        0.020416934347988754,
+        0.5635017733274247
+      ],
+      "pixel": [
+        460.6549377441406,
+        195.97894287109375
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 68
+    },
+    {
+      "id": "shed-training-plane-candidate-69",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.41608129232458657,
+        0.020416934347988754,
+        0.5635017733274247
+      ],
+      "pixel": [
+        460.6549377441406,
+        195.97894287109375
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 69
+    },
+    {
+      "id": "shed-training-plane-candidate-70",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.37627917261291666,
+        0.1811435417940817,
+        0.4425772855930016
+      ],
+      "pixel": [
+        466.07366943359375,
+        267.6205749511719
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 70
+    },
+    {
+      "id": "shed-training-plane-candidate-73",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.4909483157468606,
+        0.058751315263764405,
+        0.450300368989375
+      ],
+      "pixel": [
+        468.6238708496094,
+        226.7315216064453
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 73
+    },
+    {
+      "id": "shed-training-plane-candidate-75",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.2833063946281651,
+        0.1944749541749694,
+        0.5222186511968655
+      ],
+      "pixel": [
+        479.57879638671875,
+        151.74346923828125
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 75
+    },
+    {
+      "id": "shed-training-plane-candidate-76",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.07167712289352624,
+        0.4067172884020546,
+        0.5216055887044191
+      ],
+      "pixel": [
+        477.5196533203125,
+        75.5657730102539
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 76
+    },
+    {
+      "id": "shed-training-plane-candidate-79",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.35458216723267544,
+        0.15723220708936442,
+        0.48818562567796014
+      ],
+      "pixel": [
+        489.94610595703125,
+        273.4330749511719
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 79
+    },
+    {
+      "id": "shed-training-plane-candidate-80",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 74,
+      "barycentric": [
+        0.38802710176170074,
+        0.2276624039234737,
+        0.3843104943148255
+      ],
+      "pixel": [
+        483.1094970703125,
+        12.90006160736084
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 80
+    },
+    {
+      "id": "shed-training-plane-candidate-81",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 74,
+      "barycentric": [
+        0.38802710176170074,
+        0.2276624039234737,
+        0.3843104943148255
+      ],
+      "pixel": [
+        483.1094970703125,
+        12.90006160736084
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 81
+    },
+    {
+      "id": "shed-training-plane-candidate-85",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.43760827206011366,
+        0.06651697842145256,
+        0.4958747495184338
+      ],
+      "pixel": [
+        496.4421081542969,
+        204.402099609375
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 85
+    },
+    {
+      "id": "shed-training-plane-candidate-86",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.43760827206011366,
+        0.06651697842145256,
+        0.4958747495184338
+      ],
+      "pixel": [
+        496.4421081542969,
+        204.402099609375
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 86
+    },
+    {
+      "id": "shed-training-plane-candidate-89",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.27549075067049533,
+        0.23025656098900196,
+        0.49425268834050273
+      ],
+      "pixel": [
+        495.56671142578125,
+        147.88673400878906
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 89
+    },
+    {
+      "id": "shed-training-plane-candidate-90",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.27549075067049533,
+        0.23025656098900196,
+        0.49425268834050273
+      ],
+      "pixel": [
+        495.56671142578125,
+        147.88673400878906
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 90
+    },
+    {
+      "id": "shed-training-plane-candidate-95",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.35192273717112976,
+        0.1267497366392787,
+        0.5213275261895916
+      ],
+      "pixel": [
+        508.403564453125,
+        273.7464904785156
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 95
+    },
+    {
+      "id": "shed-training-plane-candidate-96",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.25270994112279754,
+        0.27122596543769323,
+        0.4760640934395092
+      ],
+      "pixel": [
+        506.45550537109375,
+        143.37208557128906
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 96
+    },
+    {
+      "id": "shed-training-plane-candidate-97",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.29108360451275395,
+        0.2436997839526352,
+        0.46521661153461086
+      ],
+      "pixel": [
+        511.1935119628906,
+        153.22296142578125
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 97
+    },
+    {
+      "id": "shed-training-plane-candidate-101",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.3068429884606436,
+        0.2503527519725645,
+        0.44280425956679187
+      ],
+      "pixel": [
+        523.2446899414062,
+        160.11727905273438
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 101
+    },
+    {
+      "id": "shed-training-plane-candidate-103",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.2812725142015431,
+        0.28771393629375025,
+        0.4310135495047067
+      ],
+      "pixel": [
+        529.290283203125,
+        151.37974548339844
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 103
+    },
+    {
+      "id": "shed-training-plane-candidate-104",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.48672873245208303,
+        0.0840924889877961,
+        0.4291787785601208
+      ],
+      "pixel": [
+        531.4059448242188,
+        218.92355346679688
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 104
+    },
+    {
+      "id": "shed-training-plane-candidate-107",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 74,
+      "barycentric": [
+        0.4671445479902018,
+        0.2518792468048601,
+        0.2809762052049381
+      ],
+      "pixel": [
+        531.2233276367188,
+        10.758752822875977
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 107
+    },
+    {
+      "id": "shed-training-plane-candidate-110",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.15839624080249348,
+        0.4362269886677165,
+        0.40537677052979
+      ],
+      "pixel": [
+        542.3411865234375,
+        109.6153335571289
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 110
+    },
+    {
+      "id": "shed-training-plane-candidate-112",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.5184460560313959,
+        0.07781105182600379,
+        0.4037428921426003
+      ],
+      "pixel": [
+        544.4888305664062,
+        235.4403839111328
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 112
+    },
+    {
+      "id": "shed-training-plane-candidate-113",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.4045455061365537,
+        0.19585371261461199,
+        0.3996007812488343
+      ],
+      "pixel": [
+        546.0213012695312,
+        192.6735382080078
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 113
+    },
+    {
+      "id": "shed-training-plane-candidate-114",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.392625487003763,
+        0.0009794332524556226,
+        0.6063950797437814
+      ],
+      "pixel": [
+        551.7335205078125,
+        260.1959533691406
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 114
+    },
+    {
+      "id": "shed-training-plane-candidate-117",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.2722019443321818,
+        0.11131489892119135,
+        0.6164831567466268
+      ],
+      "pixel": [
+        555.7395629882812,
+        299.6932373046875
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 117
+    },
+    {
+      "id": "shed-training-plane-candidate-119",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.19417129285770196,
+        0.18197376040180374,
+        0.6238549467404944
+      ],
+      "pixel": [
+        37.133155822753906,
+        409.4671630859375
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 119
+    },
+    {
+      "id": "shed-training-plane-candidate-121",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.10832053507686257,
+        0.2575123916668845,
+        0.6341670732562529
+      ],
+      "pixel": [
+        565.3797607421875,
+        352.6926574707031
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 121
+    },
+    {
+      "id": "shed-training-plane-candidate-124",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.5986493595691278,
+        0.050043093083701355,
+        0.3513075473471708
+      ],
+      "pixel": [
+        44.14379119873047,
+        286.7303771972656
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 124
+    },
+    {
+      "id": "shed-training-plane-candidate-127",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.6054836787730744,
+        0.06447425972073872,
+        0.33004206150618687
+      ],
+      "pixel": [
+        59.798500061035156,
+        291.3732604980469
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 127
+    },
+    {
+      "id": "shed-training-plane-candidate-130",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.18911057329670777,
+        0.10598883599203643,
+        0.7049005907112558
+      ],
+      "pixel": [
+        599.9479370117188,
+        326.2527770996094
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 130
+    },
+    {
+      "id": "shed-training-plane-candidate-131",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.47784383780541506,
+        0.2292683615234511,
+        0.2928878006711339
+      ],
+      "pixel": [
+        599.705078125,
+        218.0057373046875
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 131
+    },
+    {
+      "id": "shed-training-plane-candidate-138",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.13388829025402438,
+        0.05710448961016719,
+        0.8090072201358084
+      ],
+      "pixel": [
+        154.20565795898438,
+        390.888427734375
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 138
+    },
+    {
+      "id": "shed-training-plane-candidate-139",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.8086571889833424,
+        0.024217093516594238,
+        0.16712571750006341
+      ],
+      "pixel": [
+        661.0986938476562,
+        321.54058837890625
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 139
+    },
+    {
+      "id": "shed-training-plane-candidate-145",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.7138452595930829,
+        0.15575010543484125,
+        0.13040463497207588
+      ],
+      "pixel": [
+        678.9175415039062,
+        291.771240234375
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 145
+    },
+    {
+      "id": "shed-training-plane-candidate-146",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 51,
+      "barycentric": [
+        0.7915863312931433,
+        0.08418179476902539,
+        0.12423187393783133
+      ],
+      "pixel": [
+        180.57164001464844,
+        348.451904296875
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 146
+    },
+    {
+      "id": "shed-training-plane-candidate-152",
+      "node": "woodenshed",
+      "part": 0,
+      "face": 32,
+      "barycentric": [
+        0.05499082994471283,
+        0.02127308176044183,
+        0.9237360882948453
+      ],
+      "pixel": [
+        69.39163208007812,
+        432.10443115234375
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "descriptorMatchIndex": 152
+    }
+  ],
+  "status": "Unvalidated training-only plane-assignment hypothesis; all plane-compatible heldouts retained without residual filtering",
+  "method": {
+    "opencvVersion": "4.13.0",
+    "randomSeed": 1701,
+    "trainingOnlyRansacThresholdPixels": 2.0,
+    "minimumTrainingGroupSize": 12,
+    "maximumGroups": 4,
+    "maxRansacIterations": 10000,
+    "ransacConfidence": 0.999,
+    "planeNormalTolerance": 1e-05,
+    "planeOffsetToleranceSourceUnits": 0.02,
+    "sourcePlaneSelection": "Intersection of containing-face source planes across training group, without camera",
+    "heldoutUse": "Validation only; no group membership or source-plane selection"
+  },
+  "limitations": [
+    "A single homography group is only a possible plane, since false descriptor matches and repeated atlas patterns can form groups.",
+    "Plane intersections do not test perspective orientation, occlusion, room identity or a jointly consistent camera.",
+    "Held-out errors are reported for all groups, including failures; no group is selected with held-out errors.",
+    "No camera, original runtime, browser or GPU was read or executed.",
+    "No landmark is accepted until independent source-plane identity is established."
+  ],
+  "audit": "docs/research-evidence/2026-10-01/woodland-11s-shed-training-homographies.json",
+  "generatorSha256": "64c5c2493dcabf72d51ac37dabebc097254cf54194ee7d5976012b01345ddaea"
+}

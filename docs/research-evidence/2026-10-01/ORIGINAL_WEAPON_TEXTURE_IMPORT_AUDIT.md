@@ -1,0 +1,9 @@
+# Weapon texture imports and sampling
+
+The scene no-mipmap correction cannot simply be copied to weapons. Recovered weaponry `setupmods` clones each gun from `gunz`, then calls `shady`; `setuprockets` does likewise for grenade and rocket resources. Primary Director MX2004 Scripting Reference, printed265, establishes that `cloneModelFromCastmember` imports the model's referenced resources, shaders, textures and children. The generic `texy` helper returns an existing texture when present, rather than recreating it.
+
+Both recovered `gunz` shader tables contain the six named gun textures, including the grenade/rocket reuse. Neither W3D has any type0xffffff22 texture-info block carrying the secondary decoder's proposed mip-mode fields. The [passive audit](original-weapon-texture-import-audit.json) records names, counts and hashes and verifies both original XMED hashes against the preserved metadata. Missing texture-info blocks do not independently prove native import quality.
+
+Printed942 establishes low/no-mipmap as a new texture default. It does not resolve the native import defaults of these authored gun resources. In contrast, recovered `explore` explicitly deletes ordinary scene textures and recreates them from cast images; that was the stronger basis for the scene correction. No equivalent weapon deletion occurs before its texture lookup.
+
+The copy currently uses generated mipmaps and linear trilinear minification for weapon textures. This remains a qualified adapter choice, not native renderer proof. No production material change follows from this audit. Next evidence must establish original imported-resource sampling or independent texture detail at a registered gun view; applying new-texture defaults without resolving the import distinction would be an unsupported correction. No original runtime was executed.

@@ -1,0 +1,850 @@
+{
+  "schemaVersion": 1,
+  "executedOriginal": false,
+  "method": "Passive CASt and XMED byte reads; recovered Lingo source inspection. No movie, bytecode or ActionScript execution.",
+  "editions": {
+    "barrack": {
+      "scripts": {
+        "ParentScript 5 - goody.ls": {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 5 - goody.ls",
+          "sha256": "e5e67dcd378dfce9c33f0d598a85857dfe026c16eaa8f509c3f153007dc7c9f8"
+        },
+        "ParentScript 6 - weaponry.ls": {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 6 - weaponry.ls",
+          "sha256": "f585b9f0bf0fce613229f631af4697871218165b28098780e8f86064418373ef"
+        }
+      },
+      "members": {
+        "weapons": {
+          "castId": 2185,
+          "memberType": 15,
+          "cast": {
+            "path": "docs/research-evidence/2026-09-30/director-extraction/barrack/02185-CASt.bin",
+            "sha256": "810a0b232f8a653d0e098c23f36d407305ad2d6f7ba26fb606747c3a2adbf75a",
+            "infoLength": 123,
+            "specificDataOffset": 135,
+            "specificDataLength": 448
+          },
+          "xmed": {
+            "resourceId": 5124,
+            "path": "docs/research-evidence/2026-09-30/director-extraction/barrack/05124-XMED.bin",
+            "sha256": "fa58e8b21d6688f02769018e38f2be560ddb65f5f009daf5564aa777fa3a41fe",
+            "bytes": 2046
+          },
+          "nativeTexture": {
+            "width": 128,
+            "height": 128,
+            "heightAbsoluteOffset": 183,
+            "widthAbsoluteOffset": 187,
+            "encoding": "big-endian uint32"
+          },
+          "overlayAnchor": [
+            40,
+            19
+          ],
+          "overlaySource": {
+            "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 5 - goody.ls",
+            "line": 74,
+            "statement": "pmod.addOverlay(hud3, point(40, 19), 0)"
+          },
+          "storedFormattingEvidence": {
+            "styleRunsSection": {
+              "bodyAbsoluteOffset": 366,
+              "rawHex": "0230014102313401420232370141023743014103",
+              "runs": [
+                {
+                  "offset": 0,
+                  "styleIndex": 10,
+                  "absoluteOffset": 366
+                },
+                {
+                  "offset": 20,
+                  "styleIndex": 11,
+                  "absoluteOffset": 370
+                },
+                {
+                  "offset": 39,
+                  "styleIndex": 10,
+                  "absoluteOffset": 375
+                },
+                {
+                  "offset": 124,
+                  "styleIndex": 10,
+                  "absoluteOffset": 380
+                }
+              ]
+            },
+            "styleRecordsSection": {
+              "bodyAbsoluteOffset": 435,
+              "bodyLengthIncludingTerminator": 627,
+              "declaredCount": 12,
+              "insertStyle": {
+                "value": 10,
+                "controlHex": "01",
+                "tokenRangeExclusive": [
+                  435,
+                  437
+                ],
+                "repeatOrdinal": 0,
+                "repeatTotal": 1
+              },
+              "fieldCountPerCompleteStyle": 77,
+              "decodeEvidence": "weapons-style-decode.json"
+            },
+            "referencedStyles": [
+              {
+                "styleIndex": 10,
+                "selectedFields": {
+                  "font_index": {
+                    "value": 0,
+                    "controlHex": "c1",
+                    "tokenRangeExclusive": [
+                      947,
+                      949
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 3
+                  },
+                  "ascent": {
+                    "value": 12,
+                    "controlHex": "01",
+                    "tokenRangeExclusive": [
+                      949,
+                      951
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "descent": {
+                    "value": 3,
+                    "controlHex": "01",
+                    "tokenRangeExclusive": [
+                      951,
+                      953
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "leading": {
+                    "value": 0,
+                    "controlHex": "01",
+                    "tokenRangeExclusive": [
+                      953,
+                      955
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "point": {
+                    "value": 786432,
+                    "controlHex": "02",
+                    "tokenRangeExclusive": [
+                      977,
+                      983
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "char_extra": {
+                    "value": 0,
+                    "controlHex": "c2",
+                    "tokenRangeExclusive": [
+                      985,
+                      987
+                    ],
+                    "repeatOrdinal": 4,
+                    "repeatTotal": 10
+                  },
+                  "bold": {
+                    "value": 1,
+                    "controlHex": "01",
+                    "tokenRangeExclusive": [
+                      993,
+                      995
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "italic": {
+                    "value": 0,
+                    "controlHex": "01",
+                    "tokenRangeExclusive": [
+                      995,
+                      997
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "underline": {
+                    "value": 0,
+                    "controlHex": "c1",
+                    "tokenRangeExclusive": [
+                      997,
+                      999
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 30
+                  }
+                },
+                "fontName": "Arial",
+                "storedPointSize": 12.0,
+                "storedMetricSum": 15
+              },
+              {
+                "styleIndex": 11,
+                "selectedFields": {
+                  "font_index": {
+                    "value": 0,
+                    "controlHex": "c1",
+                    "tokenRangeExclusive": [
+                      1004,
+                      1006
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 3
+                  },
+                  "ascent": {
+                    "value": 12,
+                    "controlHex": "01",
+                    "tokenRangeExclusive": [
+                      1006,
+                      1008
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "descent": {
+                    "value": 3,
+                    "controlHex": "01",
+                    "tokenRangeExclusive": [
+                      1008,
+                      1010
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "leading": {
+                    "value": 0,
+                    "controlHex": "01",
+                    "tokenRangeExclusive": [
+                      1010,
+                      1012
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "point": {
+                    "value": 786432,
+                    "controlHex": "02",
+                    "tokenRangeExclusive": [
+                      1034,
+                      1040
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "char_extra": {
+                    "value": 0,
+                    "controlHex": "c2",
+                    "tokenRangeExclusive": [
+                      1042,
+                      1044
+                    ],
+                    "repeatOrdinal": 4,
+                    "repeatTotal": 10
+                  },
+                  "bold": {
+                    "value": 1,
+                    "controlHex": "01",
+                    "tokenRangeExclusive": [
+                      1050,
+                      1052
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "italic": {
+                    "value": 0,
+                    "controlHex": "01",
+                    "tokenRangeExclusive": [
+                      1052,
+                      1054
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "underline": {
+                    "value": 0,
+                    "controlHex": "c1",
+                    "tokenRangeExclusive": [
+                      1054,
+                      1056
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 30
+                  }
+                },
+                "fontName": "Arial",
+                "storedPointSize": 12.0,
+                "storedMetricSum": 15
+              }
+            ],
+            "fontCandidates": [
+              {
+                "absoluteOffset": 1137,
+                "name": "Arial"
+              },
+              {
+                "absoluteOffset": 1311,
+                "name": "System"
+              },
+              {
+                "absoluteOffset": 1477,
+                "name": "Fixedsys"
+              }
+            ],
+            "selectedFontFamily": "Arial",
+            "bold": true,
+            "lineSpacing": {
+              "storedAscent": 12,
+              "storedDescent": 3,
+              "storedLeading": 0,
+              "storedMetricSum": 15,
+              "paragraphLeadingFixed": 0,
+              "paragraphLeadingVariable": 0,
+              "nativeRemeasurementAndRasterizationVerified": false
+            },
+            "supersededRepeatSplitNote": "C2 0A and C2 0D are repeat controls, not record terminators. Earlier marker-delimited ranges did not describe complete styles; corrected by primary Paige layout."
+          }
+        },
+        "stats": {
+          "castId": 2186,
+          "memberType": 15,
+          "cast": {
+            "path": "docs/research-evidence/2026-09-30/director-extraction/barrack/02186-CASt.bin",
+            "sha256": "f2d28f8985594c987f9c8243043a6eb46afcac897f406b9313aca75a7afb26bd",
+            "infoLength": 121,
+            "specificDataOffset": 133,
+            "specificDataLength": 448
+          },
+          "xmed": {
+            "resourceId": 5126,
+            "path": "docs/research-evidence/2026-09-30/director-extraction/barrack/05126-XMED.bin",
+            "sha256": "05451313ccf7805c4696ce96644b55317a7145eb410b8aac646cd1c52b71cc78",
+            "bytes": 1875
+          },
+          "nativeTexture": {
+            "width": 128,
+            "height": 128,
+            "heightAbsoluteOffset": 181,
+            "widthAbsoluteOffset": 185,
+            "encoding": "big-endian uint32"
+          },
+          "overlayAnchor": [
+            "viewportRight - 111",
+            80
+          ],
+          "overlaySource": {
+            "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 5 - goody.ls",
+            "line": 75,
+            "statement": "pmod.addOverlay(hud4, point(rec[3] - 111, 80), 0)"
+          }
+        },
+        "hints": {
+          "castId": 2575,
+          "memberType": 15,
+          "cast": {
+            "path": "docs/research-evidence/2026-09-30/director-extraction/barrack/02575-CASt.bin",
+            "sha256": "b347b997a31eeee2f2b6613932c9d4d536f22e30c82617bb53d292afb57229f1",
+            "infoLength": 121,
+            "specificDataOffset": 133,
+            "specificDataLength": 448
+          },
+          "xmed": {
+            "resourceId": 5128,
+            "path": "docs/research-evidence/2026-09-30/director-extraction/barrack/05128-XMED.bin",
+            "sha256": "a2ac8755734db1359f5bb8b7ae5351ae6c04cd17fbfed9e6146fcf2a5ff5e1f7",
+            "bytes": 4035
+          },
+          "nativeTexture": {
+            "width": 256,
+            "height": 256,
+            "heightAbsoluteOffset": 181,
+            "widthAbsoluteOffset": 185,
+            "encoding": "big-endian uint32"
+          },
+          "overlayAnchor": [
+            40,
+            510
+          ],
+          "overlaySource": {
+            "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 5 - goody.ls",
+            "line": 76,
+            "statement": "pmod.addOverlay(hud5, point(40, 510), 0)"
+          }
+        },
+        "talk": {
+          "castId": 3858,
+          "memberType": 15,
+          "cast": {
+            "path": "docs/research-evidence/2026-09-30/director-extraction/barrack/03858-CASt.bin",
+            "sha256": "d99e46205dcab567777b56477353b80acfab0d6c8945a5e4d811caa477f6fc6d",
+            "infoLength": 120,
+            "specificDataOffset": 132,
+            "specificDataLength": 448
+          },
+          "xmed": {
+            "resourceId": 5130,
+            "path": "docs/research-evidence/2026-09-30/director-extraction/barrack/05130-XMED.bin",
+            "sha256": "8bd2d66938d79eda0683cf0c5799a27678cab04972eb57c1cb0a463e1505093d",
+            "bytes": 1842
+          },
+          "nativeTexture": {
+            "width": 256,
+            "height": 256,
+            "heightAbsoluteOffset": 180,
+            "widthAbsoluteOffset": 184,
+            "encoding": "big-endian uint32"
+          },
+          "overlayAnchor": [
+            40,
+            490
+          ],
+          "overlaySource": {
+            "path": "docs/research-evidence/2026-09-30/director-script-extraction/barrack/casts/parents/ParentScript 5 - goody.ls",
+            "line": 77,
+            "statement": "pmod.addOverlay(hud6, point(40, 490), 0)"
+          }
+        }
+      }
+    },
+    "woodland": {
+      "scripts": {
+        "ParentScript 5 - goody.ls": {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 5 - goody.ls",
+          "sha256": "6d1b8229158c635eaa6a418d762866a91f27abf78757e812b6e5c7f0670b1297"
+        },
+        "ParentScript 6 - weaponry.ls": {
+          "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 6 - weaponry.ls",
+          "sha256": "082d419d7e9a973651e5144a6c780437906a62e8dcc35ef3663fd5e206b9b216"
+        }
+      },
+      "members": {
+        "weapons": {
+          "castId": 2185,
+          "memberType": 15,
+          "cast": {
+            "path": "docs/research-evidence/2026-09-30/director-extraction/woodland/02185-CASt.bin",
+            "sha256": "810a0b232f8a653d0e098c23f36d407305ad2d6f7ba26fb606747c3a2adbf75a",
+            "infoLength": 123,
+            "specificDataOffset": 135,
+            "specificDataLength": 448
+          },
+          "xmed": {
+            "resourceId": 6534,
+            "path": "docs/research-evidence/2026-09-30/director-extraction/woodland/06534-XMED.bin",
+            "sha256": "582c982665103f92a28cb7f975ebdf91a3d69e6a415d332894f026391123f04b",
+            "bytes": 2048
+          },
+          "nativeTexture": {
+            "width": 128,
+            "height": 128,
+            "heightAbsoluteOffset": 183,
+            "widthAbsoluteOffset": 187,
+            "encoding": "big-endian uint32"
+          },
+          "overlayAnchor": [
+            40,
+            19
+          ],
+          "overlaySource": {
+            "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 5 - goody.ls",
+            "line": 75,
+            "statement": "pmod.addOverlay(hud3, point(40, 19), 0)"
+          },
+          "storedFormattingEvidence": {
+            "styleRunsSection": {
+              "bodyAbsoluteOffset": 367,
+              "rawHex": "0230014102323801420233440141023744014103",
+              "runs": [
+                {
+                  "offset": 0,
+                  "styleIndex": 10,
+                  "absoluteOffset": 367
+                },
+                {
+                  "offset": 40,
+                  "styleIndex": 11,
+                  "absoluteOffset": 371
+                },
+                {
+                  "offset": 61,
+                  "styleIndex": 10,
+                  "absoluteOffset": 376
+                },
+                {
+                  "offset": 125,
+                  "styleIndex": 10,
+                  "absoluteOffset": 381
+                }
+              ]
+            },
+            "styleRecordsSection": {
+              "bodyAbsoluteOffset": 436,
+              "bodyLengthIncludingTerminator": 627,
+              "declaredCount": 12,
+              "insertStyle": {
+                "value": 10,
+                "controlHex": "01",
+                "tokenRangeExclusive": [
+                  436,
+                  438
+                ],
+                "repeatOrdinal": 0,
+                "repeatTotal": 1
+              },
+              "fieldCountPerCompleteStyle": 77,
+              "decodeEvidence": "weapons-style-decode.json"
+            },
+            "referencedStyles": [
+              {
+                "styleIndex": 10,
+                "selectedFields": {
+                  "font_index": {
+                    "value": 0,
+                    "controlHex": "c1",
+                    "tokenRangeExclusive": [
+                      948,
+                      950
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 3
+                  },
+                  "ascent": {
+                    "value": 12,
+                    "controlHex": "01",
+                    "tokenRangeExclusive": [
+                      950,
+                      952
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "descent": {
+                    "value": 3,
+                    "controlHex": "01",
+                    "tokenRangeExclusive": [
+                      952,
+                      954
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "leading": {
+                    "value": 0,
+                    "controlHex": "01",
+                    "tokenRangeExclusive": [
+                      954,
+                      956
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "point": {
+                    "value": 786432,
+                    "controlHex": "02",
+                    "tokenRangeExclusive": [
+                      978,
+                      984
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "char_extra": {
+                    "value": 0,
+                    "controlHex": "c2",
+                    "tokenRangeExclusive": [
+                      986,
+                      988
+                    ],
+                    "repeatOrdinal": 4,
+                    "repeatTotal": 10
+                  },
+                  "bold": {
+                    "value": 1,
+                    "controlHex": "01",
+                    "tokenRangeExclusive": [
+                      994,
+                      996
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "italic": {
+                    "value": 0,
+                    "controlHex": "01",
+                    "tokenRangeExclusive": [
+                      996,
+                      998
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "underline": {
+                    "value": 0,
+                    "controlHex": "c1",
+                    "tokenRangeExclusive": [
+                      998,
+                      1000
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 30
+                  }
+                },
+                "fontName": "Arial",
+                "storedPointSize": 12.0,
+                "storedMetricSum": 15
+              },
+              {
+                "styleIndex": 11,
+                "selectedFields": {
+                  "font_index": {
+                    "value": 0,
+                    "controlHex": "c1",
+                    "tokenRangeExclusive": [
+                      1005,
+                      1007
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 3
+                  },
+                  "ascent": {
+                    "value": 12,
+                    "controlHex": "01",
+                    "tokenRangeExclusive": [
+                      1007,
+                      1009
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "descent": {
+                    "value": 3,
+                    "controlHex": "01",
+                    "tokenRangeExclusive": [
+                      1009,
+                      1011
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "leading": {
+                    "value": 0,
+                    "controlHex": "01",
+                    "tokenRangeExclusive": [
+                      1011,
+                      1013
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "point": {
+                    "value": 786432,
+                    "controlHex": "02",
+                    "tokenRangeExclusive": [
+                      1035,
+                      1041
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "char_extra": {
+                    "value": 0,
+                    "controlHex": "c2",
+                    "tokenRangeExclusive": [
+                      1043,
+                      1045
+                    ],
+                    "repeatOrdinal": 4,
+                    "repeatTotal": 10
+                  },
+                  "bold": {
+                    "value": 1,
+                    "controlHex": "01",
+                    "tokenRangeExclusive": [
+                      1051,
+                      1053
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "italic": {
+                    "value": 0,
+                    "controlHex": "01",
+                    "tokenRangeExclusive": [
+                      1053,
+                      1055
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 1
+                  },
+                  "underline": {
+                    "value": 0,
+                    "controlHex": "c1",
+                    "tokenRangeExclusive": [
+                      1055,
+                      1057
+                    ],
+                    "repeatOrdinal": 0,
+                    "repeatTotal": 30
+                  }
+                },
+                "fontName": "Arial",
+                "storedPointSize": 12.0,
+                "storedMetricSum": 15
+              }
+            ],
+            "fontCandidates": [
+              {
+                "absoluteOffset": 1139,
+                "name": "Arial"
+              },
+              {
+                "absoluteOffset": 1313,
+                "name": "System"
+              },
+              {
+                "absoluteOffset": 1479,
+                "name": "Fixedsys"
+              }
+            ],
+            "selectedFontFamily": "Arial",
+            "bold": true,
+            "lineSpacing": {
+              "storedAscent": 12,
+              "storedDescent": 3,
+              "storedLeading": 0,
+              "storedMetricSum": 15,
+              "paragraphLeadingFixed": 0,
+              "paragraphLeadingVariable": 0,
+              "nativeRemeasurementAndRasterizationVerified": false
+            },
+            "supersededRepeatSplitNote": "C2 0A and C2 0D are repeat controls, not record terminators. Earlier marker-delimited ranges did not describe complete styles; corrected by primary Paige layout."
+          }
+        },
+        "stats": {
+          "castId": 2186,
+          "memberType": 15,
+          "cast": {
+            "path": "docs/research-evidence/2026-09-30/director-extraction/woodland/02186-CASt.bin",
+            "sha256": "f2d28f8985594c987f9c8243043a6eb46afcac897f406b9313aca75a7afb26bd",
+            "infoLength": 121,
+            "specificDataOffset": 133,
+            "specificDataLength": 448
+          },
+          "xmed": {
+            "resourceId": 6536,
+            "path": "docs/research-evidence/2026-09-30/director-extraction/woodland/06536-XMED.bin",
+            "sha256": "3b6d947c499781a6b57bd911c03b6ae4bc2657b134e0e7b77272cd5df7cb6df2",
+            "bytes": 1875
+          },
+          "nativeTexture": {
+            "width": 128,
+            "height": 128,
+            "heightAbsoluteOffset": 181,
+            "widthAbsoluteOffset": 185,
+            "encoding": "big-endian uint32"
+          },
+          "overlayAnchor": [
+            "viewportRight - 111",
+            80
+          ],
+          "overlaySource": {
+            "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 5 - goody.ls",
+            "line": 76,
+            "statement": "pmod.addOverlay(hud4, point(rec[3] - 111, 80), 0)"
+          }
+        },
+        "hints": {
+          "castId": 2575,
+          "memberType": 15,
+          "cast": {
+            "path": "docs/research-evidence/2026-09-30/director-extraction/woodland/02575-CASt.bin",
+            "sha256": "b347b997a31eeee2f2b6613932c9d4d536f22e30c82617bb53d292afb57229f1",
+            "infoLength": 121,
+            "specificDataOffset": 133,
+            "specificDataLength": 448
+          },
+          "xmed": {
+            "resourceId": 6538,
+            "path": "docs/research-evidence/2026-09-30/director-extraction/woodland/06538-XMED.bin",
+            "sha256": "f63b32842bb269946c432efde7144009c7f07b81addcaf0d574e7bb172346aef",
+            "bytes": 3960
+          },
+          "nativeTexture": {
+            "width": 256,
+            "height": 256,
+            "heightAbsoluteOffset": 181,
+            "widthAbsoluteOffset": 185,
+            "encoding": "big-endian uint32"
+          },
+          "overlayAnchor": [
+            40,
+            510
+          ],
+          "overlaySource": {
+            "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 5 - goody.ls",
+            "line": 77,
+            "statement": "pmod.addOverlay(hud5, point(40, 510), 0)"
+          }
+        },
+        "talk": {
+          "castId": 3858,
+          "memberType": 15,
+          "cast": {
+            "path": "docs/research-evidence/2026-09-30/director-extraction/woodland/03858-CASt.bin",
+            "sha256": "d99e46205dcab567777b56477353b80acfab0d6c8945a5e4d811caa477f6fc6d",
+            "infoLength": 120,
+            "specificDataOffset": 132,
+            "specificDataLength": 448
+          },
+          "xmed": {
+            "resourceId": 6540,
+            "path": "docs/research-evidence/2026-09-30/director-extraction/woodland/06540-XMED.bin",
+            "sha256": "bf60fd0c406f69e7fda6ef1b05c8dc35bc5672555bece9af2e28418913d7296d",
+            "bytes": 2328
+          },
+          "nativeTexture": {
+            "width": 256,
+            "height": 256,
+            "heightAbsoluteOffset": 180,
+            "widthAbsoluteOffset": 184,
+            "encoding": "big-endian uint32"
+          },
+          "overlayAnchor": [
+            40,
+            490
+          ],
+          "overlaySource": {
+            "path": "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 5 - goody.ls",
+            "line": 78,
+            "statement": "pmod.addOverlay(hud6, point(40, 490), 0)"
+          }
+        }
+      }
+    }
+  },
+  "interpretationReference": {
+    "url": "https://github.com/LibreShockwave/LibreShockwave/blob/fca530f9ef388d7ff38fa6c7117feae5bb5411c6/cpp/src/cast/XmedTextParser.cpp",
+    "commit": "fca530f9ef388d7ff38fa6c7117feae5bb5411c6",
+    "classification": "Independent reverse-engineered parser, not vendor format documentation.",
+    "issue": "extractStyleRecords splits only C2 0A; these weapons resources require C2 0D as well. Modal font-size fallback chooses unused14 instead of referenced12."
+  },
+  "limits": [
+    "128-square weapons texture does not imply128px visible text width, wrapping or glyph advances.",
+    "Referenced12 interpretation uses reverse-engineered16.16 field decoding; raw bytes and references are directly verified. It does not prove point-to-pixel scaling.",
+    "Selected font family, style inheritance, bold flag, baseline, native glyph rasterization and line spacing remain unresolved. Candidate-name presence alone is insufficient.",
+    "The stored text contains historical ammunition; runtime counts must continue to come from recovered weapon logic.",
+    "Overlay anchors are source coordinates. Responsive mapping remains an explicit adapter."
+  ]
+}

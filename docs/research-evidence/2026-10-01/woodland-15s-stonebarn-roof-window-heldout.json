@@ -1,0 +1,239 @@
+{
+  "scene": "public/assets/original-scenes/woodland/scene.json",
+  "sceneSha256": "89864c438f29504502aa7fae6afbe5e600303f00a0a2c5318c16e6d5b8d3d107",
+  "reference": "docs/research-evidence/2026-09-30/woodland-video-15s.jpg",
+  "referenceSha256": "eeae8794813fac85c57c32a9f6af9be859c668699c3f1ab42a731a988f717f3a",
+  "atlas": "public/assets/original-scenes/woodland/textures/stonebarn.png",
+  "atlasSha256": "7ff83e28de923ebf82ec17cf57ac3ededf53136b9543960f362f3878551b3b86",
+  "generator": "scripts/research/measure-reference-roof-window.py",
+  "generatorSha256": "89a5a3d4f1067a9d5bbac169beb61d3dc64799f2455ef6116f823f635d8f6957",
+  "imageSize": [
+    1280,
+    574
+  ],
+  "scale": 0.02023529411764706,
+  "verticalFovDegrees": 50,
+  "landmarks": [
+    {
+      "id": "roof-window-bright-component-centroid-threshold160",
+      "node": "stonebarn",
+      "part": 0,
+      "face": 19,
+      "barycentric": [
+        0.5083506786688928,
+        0.167898448735501,
+        0.32375087259560614
+      ],
+      "atlasPixel": [
+        82.60714285714286,
+        409.75
+      ],
+      "pixel": [
+        694.8333333333334,
+        203.41666666666666
+      ],
+      "role": "heldout",
+      "uncertaintyPixels": 2,
+      "sourceLocalPoint": [
+        -809.5452139337112,
+        -8.678927787595946,
+        175.11834737928032
+      ]
+    }
+  ],
+  "sourceComponent": {
+    "centroid": [
+      82.60714285714286,
+      409.75
+    ],
+    "bounds": [
+      79,
+      408,
+      10,
+      4
+    ],
+    "pixelCount": 28,
+    "otherComponentPixelCounts": [],
+    "touchesRoiBorder": false
+  },
+  "referenceComponent": {
+    "centroid": [
+      694.8333333333334,
+      203.41666666666666
+    ],
+    "bounds": [
+      690,
+      202,
+      12,
+      3
+    ],
+    "pixelCount": 24,
+    "otherComponentPixelCounts": [],
+    "touchesRoiBorder": false
+  },
+  "sensitivityMeasurements": [
+    {
+      "threshold": 100,
+      "source": {
+        "centroid": [
+          83.39506172839506,
+          408.39506172839504
+        ],
+        "bounds": [
+          79,
+          404,
+          11,
+          9
+        ],
+        "pixelCount": 81,
+        "otherComponentPixelCounts": [],
+        "touchesRoiBorder": false
+      },
+      "reference": {
+        "centroid": [
+          695.3333333333334,
+          202.65432098765433
+        ],
+        "bounds": [
+          689,
+          199,
+          15,
+          7
+        ],
+        "pixelCount": 81,
+        "otherComponentPixelCounts": [],
+        "touchesRoiBorder": false
+      }
+    },
+    {
+      "threshold": 128,
+      "source": {
+        "centroid": [
+          83.36,
+          409.5
+        ],
+        "bounds": [
+          79,
+          406,
+          11,
+          7
+        ],
+        "pixelCount": 50,
+        "otherComponentPixelCounts": [
+          1
+        ],
+        "touchesRoiBorder": false
+      },
+      "reference": {
+        "centroid": [
+          694.75,
+          203.16071428571428
+        ],
+        "bounds": [
+          689,
+          200,
+          14,
+          6
+        ],
+        "pixelCount": 56,
+        "otherComponentPixelCounts": [],
+        "touchesRoiBorder": false
+      }
+    },
+    {
+      "threshold": 160,
+      "source": {
+        "centroid": [
+          82.60714285714286,
+          409.75
+        ],
+        "bounds": [
+          79,
+          408,
+          10,
+          4
+        ],
+        "pixelCount": 28,
+        "otherComponentPixelCounts": [],
+        "touchesRoiBorder": false
+      },
+      "reference": {
+        "centroid": [
+          694.8333333333334,
+          203.41666666666666
+        ],
+        "bounds": [
+          690,
+          202,
+          12,
+          3
+        ],
+        "pixelCount": 24,
+        "otherComponentPixelCounts": [],
+        "touchesRoiBorder": false
+      }
+    },
+    {
+      "threshold": 192,
+      "source": {
+        "centroid": [
+          82.5,
+          411.0
+        ],
+        "bounds": [
+          81,
+          411,
+          4,
+          1
+        ],
+        "pixelCount": 4,
+        "otherComponentPixelCounts": [],
+        "touchesRoiBorder": false
+      },
+      "reference": {
+        "centroid": [
+          693.0,
+          204.0
+        ],
+        "bounds": [
+          692,
+          204,
+          3,
+          1
+        ],
+        "pixelCount": 3,
+        "otherComponentPixelCounts": [],
+        "touchesRoiBorder": false
+      }
+    }
+  ],
+  "method": {
+    "grayConversion": "cv2.imread IMREAD_GRAYSCALE",
+    "threshold": 160,
+    "connectivity": 8,
+    "selection": "Largest connected component inside visually annotated window ROI",
+    "atlasRoi": [
+      65,
+      385,
+      105,
+      425
+    ],
+    "referenceRoi": [
+      650,
+      170,
+      750,
+      230
+    ],
+    "uvPixelConvention": "(u+.5,.5-v)*512-.5",
+    "faceSelection": "Exactly one containing source UV triangle over entire mesh",
+    "roleRule": "Heldout only; no pose fitting or candidate selection"
+  },
+  "limitations": [
+    "Projective transformation does not exactly preserve area centroid.",
+    "Brightness threshold interacts with JPEG compression, interpolation, and exposure.",
+    "Reference ROIs identify the distinctive white window visually, independently of any camera projection.",
+    "Two pixel allowance is fixed before projection evaluation; sensitivity thresholds do not select a preferred fit.",
+    "This alternative measurement does not replace or invalidate the separate failed roof SIFT check.",
+    "A single small roof feature cannot prove full camera equivalence."
+  ]
+}

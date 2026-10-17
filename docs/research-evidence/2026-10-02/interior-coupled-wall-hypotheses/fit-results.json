@@ -1,0 +1,272 @@
+{
+  "fitter": "scripts/research/fit-reference-camera.py",
+  "sourceOnlyHypotheses": true,
+  "allEightCandidatesRetained": true,
+  "solutionSelectionWithinHypothesis": "Training objective only, never heldout residual",
+  "perCandidateTimeLimitSeconds": 3,
+  "results": [
+    {
+      "id": "component-A-back-8-left-25",
+      "path": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-8-left-25.json",
+      "sha256": "f3a21dc32807f52efd253fdab485dfcf3f5d228eead49bf75eee1eeee830f816",
+      "training": 83,
+      "heldout": 53,
+      "unresolvedAssignments": 0,
+      "normalDotProduct": 0.0,
+      "fitCommand": [
+        "/usr/local/bin/python",
+        "scripts/research/fit-reference-camera.py",
+        "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-8-left-25.json",
+        "--upright",
+        "--output",
+        "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-8-left-25-fit.json"
+      ],
+      "terminalStatus": "passed",
+      "returnCode": 0,
+      "seconds": 0.981849287998557,
+      "fit": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-8-left-25-fit.json",
+      "fitRmsPixels": 57.56026507279234,
+      "heldoutRmsPixels": 71.56606703758476,
+      "heldoutMaxPixels": 268.7433085879292,
+      "heldoutBehindCameraCount": 0,
+      "position": [
+        -21.586910849368437,
+        10.459136555256094,
+        -135.96924257340763
+      ],
+      "horizontalRecordingStretch": 2.139104900828799,
+      "fitSha256": "5d218b4f528c915cd66cb30386a62d2dd2296371e25b264780a4a0553e01debc"
+    },
+    {
+      "id": "component-A-back-12-left-25",
+      "path": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-12-left-25.json",
+      "sha256": "e8718d6f1de6244e42540275db33959f7aa12853d95d870686020eba21ef5cd1",
+      "training": 83,
+      "heldout": 53,
+      "unresolvedAssignments": 0,
+      "normalDotProduct": 3.4403289986417827e-06,
+      "fitCommand": [
+        "/usr/local/bin/python",
+        "scripts/research/fit-reference-camera.py",
+        "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-12-left-25.json",
+        "--upright",
+        "--output",
+        "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-12-left-25-fit.json"
+      ],
+      "terminalStatus": "passed",
+      "returnCode": 0,
+      "seconds": 0.48754696900141425,
+      "fit": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-12-left-25-fit.json",
+      "fitRmsPixels": 79.16114369092692,
+      "heldoutRmsPixels": 111.86214113437575,
+      "heldoutMaxPixels": 477.94402603458803,
+      "heldoutBehindCameraCount": 0,
+      "position": [
+        -8.428869727880723,
+        10.084936388263708,
+        -136.40567594021445
+      ],
+      "horizontalRecordingStretch": 2.5,
+      "fitSha256": "dc8764260dd80ec54df9f842da2b4bc22ea5b08017b6a237da08f08990922991"
+    },
+    {
+      "id": "component-A-back-25-left-8",
+      "path": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-25-left-8.json",
+      "sha256": "8fe0f5a211e0a779c669b4f67afdb50b4b83f6ba50564dfd7a458de2c18f20fc",
+      "training": 83,
+      "heldout": 53,
+      "unresolvedAssignments": 0,
+      "normalDotProduct": 0.0,
+      "fitCommand": [
+        "/usr/local/bin/python",
+        "scripts/research/fit-reference-camera.py",
+        "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-25-left-8.json",
+        "--upright",
+        "--output",
+        "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-25-left-8-fit.json"
+      ],
+      "terminalStatus": "passed",
+      "returnCode": 0,
+      "seconds": 0.4195444810011395,
+      "fit": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-25-left-8-fit.json",
+      "fitRmsPixels": 16.911824305509025,
+      "heldoutRmsPixels": 19.520072675415605,
+      "heldoutMaxPixels": 141.31807970595895,
+      "heldoutBehindCameraCount": 0,
+      "position": [
+        -10.75242804709287,
+        10.397342727713788,
+        -133.27358362997015
+      ],
+      "horizontalRecordingStretch": 1.003404069729289,
+      "fitSha256": "b7bbf6b4a56f9b9ada615d78c541fb5488bb1d92c8508f0b706457ec4241c291"
+    },
+    {
+      "id": "component-A-back-25-left-12",
+      "path": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-25-left-12.json",
+      "sha256": "f5c16d4036b9842f05d6c2f88157e8497214a54c31c6fe5be28b01dfa5896410",
+      "training": 83,
+      "heldout": 53,
+      "unresolvedAssignments": 0,
+      "normalDotProduct": 3.4403289986417827e-06,
+      "fitCommand": [
+        "/usr/local/bin/python",
+        "scripts/research/fit-reference-camera.py",
+        "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-25-left-12.json",
+        "--upright",
+        "--output",
+        "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-25-left-12-fit.json"
+      ],
+      "terminalStatus": "passed",
+      "returnCode": 0,
+      "seconds": 0.43915155600006983,
+      "fit": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-A-back-25-left-12-fit.json",
+      "fitRmsPixels": 61.93168778802496,
+      "heldoutRmsPixels": 103.14700338315845,
+      "heldoutMaxPixels": 561.9331145278301,
+      "heldoutBehindCameraCount": 0,
+      "position": [
+        -14.680131716416213,
+        10.331847509932206,
+        -138.78818271638943
+      ],
+      "horizontalRecordingStretch": 2.5,
+      "fitSha256": "b62d0721ff1f00e3240617ad453446ae682e3ba1de7825e35b0ee1ed762c374f"
+    },
+    {
+      "id": "component-B-back-10-left-26",
+      "path": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-B-back-10-left-26.json",
+      "sha256": "a0df0babedaa0ee6d731d9a3741d338979bd14376d4f01fbff902db3a952211d",
+      "training": 83,
+      "heldout": 53,
+      "unresolvedAssignments": 0,
+      "normalDotProduct": 0.004680450050923032,
+      "fitCommand": [
+        "/usr/local/bin/python",
+        "scripts/research/fit-reference-camera.py",
+        "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-B-back-10-left-26.json",
+        "--upright",
+        "--output",
+        "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-B-back-10-left-26-fit.json"
+      ],
+      "terminalStatus": "passed",
+      "returnCode": 0,
+      "seconds": 0.5662782790004712,
+      "fit": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-B-back-10-left-26-fit.json",
+      "fitRmsPixels": 57.5128071580964,
+      "heldoutRmsPixels": 71.47664408636459,
+      "heldoutMaxPixels": 268.33842230169125,
+      "heldoutBehindCameraCount": 0,
+      "position": [
+        6.384593645874492,
+        -7.229853170219926,
+        53.61477053785803
+      ],
+      "horizontalRecordingStretch": 2.12817984848123,
+      "fitSha256": "2c6878e96a961d0699042efa09c96efe18df6b07e059acc34e874db595fc581b"
+    },
+    {
+      "id": "component-B-back-14-left-26",
+      "path": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-B-back-14-left-26.json",
+      "sha256": "a6a4077647feffdc0e62c3d18b7f4765fc390b2cee8af41015bcb4b1a0f563f4",
+      "training": 83,
+      "heldout": 53,
+      "unresolvedAssignments": 0,
+      "normalDotProduct": 0.00407991374852032,
+      "fitCommand": [
+        "/usr/local/bin/python",
+        "scripts/research/fit-reference-camera.py",
+        "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-B-back-14-left-26.json",
+        "--upright",
+        "--output",
+        "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-B-back-14-left-26-fit.json"
+      ],
+      "terminalStatus": "passed",
+      "returnCode": 0,
+      "seconds": 0.46666920899951947,
+      "fit": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-B-back-14-left-26-fit.json",
+      "fitRmsPixels": 79.37324150930986,
+      "heldoutRmsPixels": 112.13633998861629,
+      "heldoutMaxPixels": 478.0556175485228,
+      "heldoutBehindCameraCount": 0,
+      "position": [
+        7.54906274379691,
+        -7.598987067748011,
+        40.477440469851
+      ],
+      "horizontalRecordingStretch": 2.5,
+      "fitSha256": "24ab2e9630869412c4a98403b74303341d09b620781c9e321bb96297d4cc8274"
+    },
+    {
+      "id": "component-B-back-26-left-10",
+      "path": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-B-back-26-left-10.json",
+      "sha256": "cf2b0562efc97157dd71e0bd5100dfbd3e3dc4c659bf7d213515bc6221846935",
+      "training": 83,
+      "heldout": 53,
+      "unresolvedAssignments": 0,
+      "normalDotProduct": 0.004680450050923032,
+      "fitCommand": [
+        "/usr/local/bin/python",
+        "scripts/research/fit-reference-camera.py",
+        "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-B-back-26-left-10.json",
+        "--upright",
+        "--output",
+        "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-B-back-26-left-10-fit.json"
+      ],
+      "terminalStatus": "passed",
+      "returnCode": 0,
+      "seconds": 0.42766308699901856,
+      "fit": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-B-back-26-left-10-fit.json",
+      "fitRmsPixels": 16.909429693939114,
+      "heldoutRmsPixels": 19.52100560467839,
+      "heldoutMaxPixels": 141.34366663632142,
+      "heldoutBehindCameraCount": 0,
+      "position": [
+        10.388919392911411,
+        -7.291243990768631,
+        43.1915053120258
+      ],
+      "horizontalRecordingStretch": 1.0072260800214254,
+      "fitSha256": "35506540e48588ca591e0a7dc3cadb145ecf63375429d64f8ed29979337bd414"
+    },
+    {
+      "id": "component-B-back-26-left-14",
+      "path": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-B-back-26-left-14.json",
+      "sha256": "5ffb86ab92c81e3ffbaf19f324b608e3dce274a0b7e9b6f332b48b5857918670",
+      "training": 83,
+      "heldout": 53,
+      "unresolvedAssignments": 0,
+      "normalDotProduct": 0.00407991374852032,
+      "fitCommand": [
+        "/usr/local/bin/python",
+        "scripts/research/fit-reference-camera.py",
+        "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-B-back-26-left-14.json",
+        "--upright",
+        "--output",
+        "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-B-back-26-left-14-fit.json"
+      ],
+      "terminalStatus": "passed",
+      "returnCode": 0,
+      "seconds": 0.43535968299875094,
+      "fit": "docs/research-evidence/2026-10-02/interior-coupled-wall-hypotheses/component-B-back-26-left-14-fit.json",
+      "fitRmsPixels": 61.922841112400775,
+      "heldoutRmsPixels": 103.14753687386352,
+      "heldoutMaxPixels": 561.8547961596282,
+      "heldoutBehindCameraCount": 0,
+      "position": [
+        4.416982319047577,
+        -7.351774357830573,
+        46.37718801883008
+      ],
+      "horizontalRecordingStretch": 2.5,
+      "fitSha256": "1c32c3a513422d87d8351aee86f8b7bb46faf64e57b4a7b38b596dc4572513bf"
+    }
+  ],
+  "fitterSha256": "badf1f4872c32b789efda8dc8ed81f0ec44c3823effb963a185caf9eeef5828f",
+  "threadEnvironment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "originalRuntimeExecuted": false,
+  "rendererExecuted": false
+}

@@ -1,0 +1,173 @@
+{
+  "format_version": 1,
+  "upstream": "igorlira/dirplayer-rs",
+  "upstream_commit": "68376fbb4494a6bbad4c70081ecdcb99814a74c9",
+  "mode": "static data parsing only; no Director, Lingo or player VM execution",
+  "files": [
+    {
+      "path": "GI-bones-original.bin",
+      "bytes": 1383,
+      "sha256": "b44a03d346338df71c539e0a93ea9a8653dabc10552ec7610380c7220789efba"
+    },
+    {
+      "path": "barrack-baddy/geometry.json",
+      "bytes": 151102,
+      "sha256": "226acedb1eb1ad544ab1d62fbe0fe87a57378eca051bcdb9c14a63a6dd25971f"
+    },
+    {
+      "path": "barrack-baddy/parse.log",
+      "bytes": 3712,
+      "sha256": "7b40000fa15f05fcff8cfcad8585b9baddd7e0f72d5ee1f6306c132043e2aea0"
+    },
+    {
+      "path": "barrack-baddy/rig-motion.json",
+      "bytes": 391730,
+      "sha256": "1d6451a2ad7926ea36c9872809616dd9bf2b9ff52244ae38c189ccb32913dd4b"
+    },
+    {
+      "path": "barrack-baddy/scene.glb",
+      "bytes": 83180,
+      "sha256": "e43a834a5f2b40ced2e9843b12ab6b1772fa04e47dc0782657cca6f63b29bfc8"
+    },
+    {
+      "path": "barrack-gunz/geometry.json",
+      "bytes": 693252,
+      "sha256": "01aee7b74dcae3d2c4e7cb3185882471cbbd0654560637ee0f9f948eb4bd1460"
+    },
+    {
+      "path": "barrack-gunz/parse.log",
+      "bytes": 10882,
+      "sha256": "d877b3dc1ec9922e5937e13e937325dd02b6cb19c0fb52d05dc04a641f21ea19"
+    },
+    {
+      "path": "barrack-gunz/rig-motion.json",
+      "bytes": 33,
+      "sha256": "bd931eeda6cffa3c068d14142bb0f23da1bea3a48eb1ea9e57490a0b66356eda"
+    },
+    {
+      "path": "barrack-gunz/scene.glb",
+      "bytes": 313072,
+      "sha256": "7e4a312e4d9fe9a216451f7256e2602a9adedeb1972e3484c458bbcefd54bf04"
+    },
+    {
+      "path": "barrack-level1/geometry.json",
+      "bytes": 6065497,
+      "sha256": "2933cd3667303f2fb1c220d324ac0a3755568e7331fb20edc0437634ce328a2e"
+    },
+    {
+      "path": "barrack-level1/parse.log",
+      "bytes": 68049,
+      "sha256": "a10e6092a210295f6ce2f4cfaeb4a52daf51ee00af937f475c1c8372236be987"
+    },
+    {
+      "path": "barrack-level1/rig-motion.json",
+      "bytes": 136328,
+      "sha256": "82b25d5e600107340f392ffbe3655d07e21e8b8052071139fc74d7c074ec9b61"
+    },
+    {
+      "path": "barrack-level1/scene.glb",
+      "bytes": 2621300,
+      "sha256": "4fedf6b98513b10ec275dc5faba190d49e09cf60f267bc2a57df761b9e0daed7"
+    },
+    {
+      "path": "bone-record-validation.json",
+      "bytes": 12621,
+      "sha256": "5fbea1fd9e1fda115cb72df54d62675fb9c7bce1e55812271a4de7c91d0a85c3"
+    },
+    {
+      "path": "rig-validation.json",
+      "bytes": 2894,
+      "sha256": "25eef7b27ed96e23931e82d9f1b451757750c72c18f32ae90b493d9192c5a31b"
+    },
+    {
+      "path": "tool-adapter/Cargo.lock",
+      "bytes": 3922,
+      "sha256": "1468c6e4a3be36e1c0dd291a856f1a02d21108236610b01b9e15c4c9c1527d10"
+    },
+    {
+      "path": "tool-adapter/Cargo.toml",
+      "bytes": 116,
+      "sha256": "a2bfdeabfdda2a617454a70d6a4e258ec695e3bf75ae2065efde61e6655c85fe"
+    },
+    {
+      "path": "tool-adapter/clod_decoder.rs.diff",
+      "bytes": 889,
+      "sha256": "94d8a4f362dea839ab1a9655967432ed355b7856eaf42d0cbd1dad8bb15d0ab8"
+    },
+    {
+      "path": "tool-adapter/main.rs",
+      "bytes": 4986,
+      "sha256": "510de324fa100ead1b2f16f10372139a41db4c98e1a6079ccaf85072c1e60101"
+    },
+    {
+      "path": "tool-adapter/parser.rs.diff",
+      "bytes": 846,
+      "sha256": "ca36235aa8ec1e16eeb9df50c10d99524a8cd16b717eec5b6d32c2c64ce295f4"
+    },
+    {
+      "path": "tool-adapter/validate-rig.py",
+      "bytes": 3236,
+      "sha256": "95e42c859e8e6b45b78c3590aa754467f519f3aba32c96ebf899414a05e99708"
+    },
+    {
+      "path": "woodland-baddy/geometry.json",
+      "bytes": 151102,
+      "sha256": "226acedb1eb1ad544ab1d62fbe0fe87a57378eca051bcdb9c14a63a6dd25971f"
+    },
+    {
+      "path": "woodland-baddy/parse.log",
+      "bytes": 3712,
+      "sha256": "7b40000fa15f05fcff8cfcad8585b9baddd7e0f72d5ee1f6306c132043e2aea0"
+    },
+    {
+      "path": "woodland-baddy/rig-motion.json",
+      "bytes": 391730,
+      "sha256": "1d6451a2ad7926ea36c9872809616dd9bf2b9ff52244ae38c189ccb32913dd4b"
+    },
+    {
+      "path": "woodland-baddy/scene.glb",
+      "bytes": 83180,
+      "sha256": "e43a834a5f2b40ced2e9843b12ab6b1772fa04e47dc0782657cca6f63b29bfc8"
+    },
+    {
+      "path": "woodland-gunz/geometry.json",
+      "bytes": 693252,
+      "sha256": "9553d1ed75e67e6fadd12e3bc8c9eff2224d5a3aba207c74c0128d8f340aa3f8"
+    },
+    {
+      "path": "woodland-gunz/parse.log",
+      "bytes": 10882,
+      "sha256": "d877b3dc1ec9922e5937e13e937325dd02b6cb19c0fb52d05dc04a641f21ea19"
+    },
+    {
+      "path": "woodland-gunz/rig-motion.json",
+      "bytes": 33,
+      "sha256": "bd931eeda6cffa3c068d14142bb0f23da1bea3a48eb1ea9e57490a0b66356eda"
+    },
+    {
+      "path": "woodland-gunz/scene.glb",
+      "bytes": 313072,
+      "sha256": "57c4f94c17a8e941270ff1b4eb90331ddfe3ab8c17a737928633bb3b2021b9f3"
+    },
+    {
+      "path": "woodland-level2/geometry.json",
+      "bytes": 5805561,
+      "sha256": "55979388d33934223b8f0657cecaf82097beeef8f4ebe3aa605fea935e3b316d"
+    },
+    {
+      "path": "woodland-level2/parse.log",
+      "bytes": 24978,
+      "sha256": "ac5337d74f9c23f42595aecd572dd30c242ee477999ee293650141d99da7c2b0"
+    },
+    {
+      "path": "woodland-level2/rig-motion.json",
+      "bytes": 33,
+      "sha256": "bd931eeda6cffa3c068d14142bb0f23da1bea3a48eb1ea9e57490a0b66356eda"
+    },
+    {
+      "path": "woodland-level2/scene.glb",
+      "bytes": 2296324,
+      "sha256": "46bfd46dc27e949f82b595e8d9ab1238ebf7915e6cd2d93a5df9e509672f3b82"
+    }
+  ]
+}

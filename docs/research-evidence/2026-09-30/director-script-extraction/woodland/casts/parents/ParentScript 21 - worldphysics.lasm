@@ -1,0 +1,386 @@
+property phavok, ptimestep, psubsteps, ppaused
+global gmem, goody
+
+on new me, npos
+  [  0] pushcons 0 .............................. <"havok">
+  [  2] pusharglist 1 ........................... <"havok">
+  [  4] extcall 59 .............................. <member("havok")>
+  [  6] setprop 500 ............................. phavok = member("havok")
+  [  9] getparam 0 .............................. <me>
+  [ 11] pusharglistnoret 1 ...................... <me>
+  [ 13] localcall 2 ............................. turnoff(me)
+  [ 15] pushint8 1 .............................. <1>
+  [ 17] setlocal 0 .............................. ptol = 1
+  [ 19] pushint8 1 .............................. <1>
+  [ 21] setlocal 1 .............................. pscale = 1
+  [ 23] getprop 500 ............................. <phavok>
+  [ 26] getglobal 68 ............................ <gmem>
+  [ 28] getlocal 0 .............................. <ptol>
+  [ 30] getlocal 1 .............................. <pscale>
+  [ 32] pusharglistnoret 4 ...................... <phavok, gmem, ptol, pscale>
+  [ 34] objcall 528 ............................. phavok.Initialize(gmem, ptol, pscale)
+  [ 37] getprop 500 ............................. <phavok>
+  [ 40] pushfloat32 0.0 ......................... <0.0>
+  [ 45] pushfloat32 0.0 ......................... <0.0>
+  [ 50] pushint16 400 ........................... <400>
+  [ 53] inv ..................................... <-400>
+  [ 54] pusharglist 3 ........................... <0.0, 0.0, -400>
+  [ 56] extcall 41 .............................. <vector(0.0, 0.0, -400)>
+  [ 58] setobjprop 529 .......................... phavok.gravity = vector(0.0, 0.0, -400)
+  [ 61] pushzero ................................ <0>
+  [ 62] pusharglistnoret 1 ...................... <0>
+  [ 64] localcall 4 ............................. setpause(0)
+  [ 66] getparam 0 .............................. <me>
+  [ 68] pusharglistnoret 1 ...................... <me>
+  [ 70] localcall 1 ............................. setupmodels(me)
+  [ 72] getmovieprop 53 ......................... <the actorList>
+  [ 74] getparam 0 .............................. <me>
+  [ 76] pusharglistnoret 2 ...................... <the actorList, me>
+  [ 78] objcall 55 .............................. (the actorList).add(me)
+  [ 80] getparam 0 .............................. <me>
+  [ 82] pusharglistnoret 1 ...................... <me>
+  [ 84] extcall 173 ............................. return me
+  [ 86] ret
+end
+
+on setupmodels me
+  [  0] pushint8 1 .............................. <1>
+  [  2] setlocal 0
+  [  4] getlocal 0
+  [  6] getglobal 68 ............................ <gmem>
+  [  8] pushsymb 188 ............................ <#model>
+  [ 10] pusharglist 2 ........................... <gmem, #model>
+  [ 12] objcall 129 ............................. <gmem.model.count>
+  [ 14] lteq
+  [ 15] jmpifz [103] ............................ repeat with i = 1 to gmem.model.count
+  [ 18] getglobal 68 ............................ <gmem>
+  [ 20] pushsymb 188 ............................ <#model>
+  [ 22] getlocal 0 .............................. <i>
+  [ 24] pusharglist 3 ........................... <gmem, #model, i>
+  [ 26] objcall 70 .............................. <gmem.model[i]>
+  [ 28] setlocal 1 .............................. modo = gmem.model[i]
+  [ 30] getlocal 1 .............................. <modo>
+  [ 32] getobjprop 16 ........................... <modo.name>
+  [ 34] pushcons 1 .............................. <"door">
+  [ 36] containsstr ............................. <modo.name contains "door">
+  [ 37] jmpifz [ 43] ............................ if modo.name contains "door" then
+  [ 40] jmp [ 94] ............................... next repeat
+  [ 43] getlocal 1 .............................. <modo>
+  [ 45] getobjprop 16 ........................... <modo.name>
+  [ 47] pushcons 2 .............................. <"baddy">
+  [ 49] containsstr ............................. <modo.name contains "baddy">
+  [ 50] jmpifz [ 56] ............................ if modo.name contains "baddy" then
+  [ 53] jmp [ 94] ............................... next repeat
+  [ 56] getlocal 1 .............................. <modo>
+  [ 58] getobjprop 16 ........................... <modo.name>
+  [ 60] pushcons 3 .............................. <"barrel">
+  [ 62] containsstr ............................. <modo.name contains "barrel">
+  [ 63] jmpifz [ 69] ............................ if modo.name contains "barrel" then
+  [ 66] jmp [ 94] ............................... next repeat
+  [ 69] getlocal 1 .............................. <modo>
+  [ 71] pushsymb 532 ............................ <#meshDeform>
+  [ 74] pusharglistnoret 2 ...................... <modo, #meshDeform>
+  [ 76] objcall 533 ............................. modo.addModifier(#meshDeform)
+  [ 79] getparam 0 .............................. <me>
+  [ 81] getlocal 1 .............................. <modo>
+  [ 83] pushzero ................................ <0>
+  [ 84] pushint8 1 .............................. <1>
+  [ 86] pushcons 4 .............................. <0.10000000000000001>
+  [ 88] pushint8 1 .............................. <1>
+  [ 90] pusharglistnoret 6 ...................... <me, modo, 0, 1, 0.10000000000000001, 1>
+  [ 92] localcall 9 ............................. makefixed(me, modo, 0, 1, 0.10000000000000001, 1)
+  [ 94] pushint8 1
+  [ 96] getlocal 0
+  [ 98] add
+  [ 99] setlocal 0
+  [101] endrepeat [  4]
+  [103] ret
+end
+
+on turnoff me
+  [  0] getprop 500 ............................. <phavok>
+  [  3] getobjprop 534 .......................... <phavok.initialized>
+  [  6] jmpifz [ 17] ............................ if phavok.initialized then
+  [  9] getprop 500 ............................. <phavok>
+  [ 12] pusharglistnoret 1 ...................... <phavok>
+  [ 14] objcall 535 ............................. phavok.shutDown()
+  [ 17] ret
+end
+
+on stepFrame me
+  [  0] getprop 536 ............................. <ppaused>
+  [  3] not ..................................... <not ppaused>
+  [  4] jmpifz [ 19] ............................ if not ppaused then
+  [  7] getprop 500 ............................. <phavok>
+  [ 10] pushcons 5 .............................. <0.05>
+  [ 12] pushint8 10 ............................. <10>
+  [ 14] pusharglistnoret 3 ...................... <phavok, 0.05, 10>
+  [ 16] objcall 537 ............................. phavok.step(0.05, 10)
+  [ 19] ret
+end
+
+on setpause flag
+  [  0] getparam 0 .............................. <flag>
+  [  2] setprop 536 ............................. ppaused = flag
+  [  5] ret
+end
+
+on makemoveable me, modo, convo, mass, rest, friction
+  [  0] getprop 500 ............................. <phavok>
+  [  3] getparam 1 .............................. <modo>
+  [  5] getobjprop 16 ........................... <modo.name>
+  [  7] pusharglist 2 ........................... <phavok, modo.name>
+  [  9] objcall 501 ............................. <phavok.RigidBody(modo.name)>
+  [ 12] pusharglist 1 ........................... <phavok.RigidBody(modo.name)>
+  [ 14] extcall 92 .............................. <voidp(phavok.RigidBody(modo.name))>
+  [ 16] jmpifz [128] ............................ if voidp(phavok.RigidBody(modo.name)) then / else
+  [ 19] getparam 1 .............................. <modo>
+  [ 21] getobjprop 540 .......................... <modo.modifier>
+  [ 24] pushsymb 532 ............................ <#meshDeform>
+  [ 27] pusharglist 2 ........................... <modo.modifier, #meshDeform>
+  [ 29] extcall 539 ............................. <getPos(modo.modifier, #meshDeform)>
+  [ 32] not ..................................... <not getPos(modo.modifier, #meshDeform)>
+  [ 33] jmpifz [ 46] ............................ if not getPos(modo.modifier, #meshDeform) then
+  [ 36] getparam 1 .............................. <modo>
+  [ 38] pushsymb 532 ............................ <#meshDeform>
+  [ 41] pusharglistnoret 2 ...................... <modo, #meshDeform>
+  [ 43] objcall 533 ............................. modo.addModifier(#meshDeform)
+  [ 46] getparam 5 .............................. <friction>
+  [ 48] pusharglist 1 ........................... <friction>
+  [ 50] extcall 92 .............................. <voidp(friction)>
+  [ 52] jmpifz [ 58] ............................ if voidp(friction) then
+  [ 55] pushzero ................................ <0>
+  [ 56] setparam 5 .............................. friction = 0
+  [ 58] getparam 3 .............................. <mass>
+  [ 60] pusharglist 1 ........................... <mass>
+  [ 62] extcall 92 .............................. <voidp(mass)>
+  [ 64] jmpifz [ 70] ............................ if voidp(mass) then
+  [ 67] pushzero ................................ <0>
+  [ 68] setparam 3 .............................. mass = 0
+  [ 70] getparam 4 .............................. <rest>
+  [ 72] pusharglist 1 ........................... <rest>
+  [ 74] extcall 92 .............................. <voidp(rest)>
+  [ 76] jmpifz [ 82] ............................ if voidp(rest) then
+  [ 79] pushzero ................................ <0>
+  [ 80] setparam 4 .............................. rest = 0
+  [ 82] getprop 500 ............................. <phavok>
+  [ 85] getparam 1 .............................. <modo>
+  [ 87] getobjprop 16 ........................... <modo.name>
+  [ 89] getparam 3 .............................. <mass>
+  [ 91] getparam 2 .............................. <convo>
+  [ 93] pusharglist 1 ........................... <convo>
+  [ 95] extcall 364 ............................. <value(convo)>
+  [ 98] pusharglist 4 ........................... <phavok, modo.name, mass, value(convo)>
+  [100] objcall 541 ............................. <phavok.makeMovableRigidBody(modo.name, mass, value(convo))>
+  [103] setlocal 0 .............................. rb = phavok.makeMovableRigidBody(modo.name, mass, value(convo))
+  [105] getlocal 0 .............................. <rb>
+  [107] pushzero ................................ <0>
+  [108] setobjprop 472 .......................... rb.pinned = 0
+  [111] getlocal 0 .............................. <rb>
+  [113] getparam 4 .............................. <rest>
+  [115] setobjprop 542 .......................... rb.restitution = rest
+  [118] getlocal 0 .............................. <rb>
+  [120] getparam 5 .............................. <friction>
+  [122] setobjprop 543 .......................... rb.friction = friction
+  [125] jmp [142]
+  [128] getprop 500 ............................. <phavok>
+  [131] getparam 1 .............................. <modo>
+  [133] getobjprop 16 ........................... <modo.name>
+  [135] pusharglist 2 ........................... <phavok, modo.name>
+  [137] objcall 501 ............................. <phavok.RigidBody(modo.name)>
+  [140] setlocal 0 .............................. rb = phavok.RigidBody(modo.name)
+  [142] getlocal 0 .............................. <rb>
+  [144] pusharglistnoret 1 ...................... <rb>
+  [146] extcall 173 ............................. return rb
+  [148] ret
+end
+
+on regint me, modo, who
+  [  0] getprop 500 ............................. <phavok>
+  [  3] getparam 1 .............................. <modo>
+  [  5] getobjprop 16 ........................... <modo.name>
+  [  7] pushsymb 547 ............................ <#all>
+  [ 10] pushzero ................................ <0>
+  [ 11] pushzero ................................ <0>
+  [ 12] pushsymb 9 .............................. <#hitobj>
+  [ 14] getparam 2 .............................. <who>
+  [ 16] pusharglistnoret 7 ...................... <phavok, modo.name, #all, 0, 0, #hitobj, who>
+  [ 18] objcall 548 ............................. phavok.registerInterest(modo.name, #all, 0, 0, #hitobj, who)
+  [ 21] ret
+end
+
+on makedummy me, radius, mass, rest, friction, who
+  [  0] getglobal 68 ............................ <gmem>
+  [  2] getparam 1 .............................. <radius>
+  [  4] pusharglist 1 ........................... <radius>
+  [  6] extcall 214 ............................. <string(radius)>
+  [  8] pusharglist 2 ........................... <gmem, string(radius)>
+  [ 10] objcall 243 ............................. <gmem.modelResource(string(radius))>
+  [ 12] pusharglist 1 ........................... <gmem.modelResource(string(radius))>
+  [ 14] extcall 92 .............................. <voidp(gmem.modelResource(string(radius)))>
+  [ 16] jmpifz [ 41] ............................ if voidp(gmem.modelResource(string(radius))) then / else
+  [ 19] getglobal 68 ............................ <gmem>
+  [ 21] getparam 1 .............................. <radius>
+  [ 23] pusharglist 1 ........................... <radius>
+  [ 25] extcall 214 ............................. <string(radius)>
+  [ 27] pushsymb 549 ............................ <#sphere>
+  [ 30] pushsymb 245 ............................ <#front>
+  [ 32] pusharglist 4 ........................... <gmem, string(radius), #sphere, #front>
+  [ 34] objcall 246 ............................. <gmem.newModelResource(string(radius), #sphere, #front)>
+  [ 36] setlocal 0 .............................. nmr = gmem.newModelResource(string(radius), #sphere, #front)
+  [ 38] jmp [ 55]
+  [ 41] getglobal 68 ............................ <gmem>
+  [ 43] getparam 1 .............................. <radius>
+  [ 45] pusharglist 1 ........................... <radius>
+  [ 47] extcall 214 ............................. <string(radius)>
+  [ 49] pusharglist 2 ........................... <gmem, string(radius)>
+  [ 51] objcall 243 ............................. <gmem.modelResource(string(radius))>
+  [ 53] setlocal 0 .............................. nmr = gmem.modelResource(string(radius))
+  [ 55] getparam 5 .............................. <who>
+  [ 57] getglobal 28 ............................ <goody>
+  [ 59] eq ...................................... <who = goody>
+  [ 60] jmpifz [ 78] ............................ if who = goody then / else
+  [ 63] getglobal 68 ............................ <gmem>
+  [ 65] pushcons 6 .............................. <"goody dummy">
+  [ 67] getlocal 0 .............................. <nmr>
+  [ 69] pusharglist 3 ........................... <gmem, "goody dummy", nmr>
+  [ 71] objcall 249 ............................. <gmem.newModel("goody dummy", nmr)>
+  [ 73] setlocal 1 .............................. modo = gmem.newModel("goody dummy", nmr)
+  [ 75] jmp [ 97]
+  [ 78] getglobal 68 ............................ <gmem>
+  [ 80] getparam 5 .............................. <who>
+  [ 82] getchainedprop 67 ....................... <who.pmod>
+  [ 84] getobjprop 16 ........................... <who.pmod.name>
+  [ 86] pushcons 7 .............................. <"dummy">
+  [ 88] joinstr ................................. <who.pmod.name & "dummy">
+  [ 89] getlocal 0 .............................. <nmr>
+  [ 91] pusharglist 3 ........................... <gmem, who.pmod.name & "dummy", nmr>
+  [ 93] objcall 249 ............................. <gmem.newModel(who.pmod.name & "dummy", nmr)>
+  [ 95] setlocal 1 .............................. modo = gmem.newModel(who.pmod.name & "dummy", nmr)
+  [ 97] getlocal 1 .............................. <modo>
+  [ 99] pushsymb 532 ............................ <#meshDeform>
+  [102] pusharglistnoret 2 ...................... <modo, #meshDeform>
+  [104] objcall 533 ............................. modo.addModifier(#meshDeform)
+  [107] getparam 4 .............................. <friction>
+  [109] pusharglist 1 ........................... <friction>
+  [111] extcall 92 .............................. <voidp(friction)>
+  [113] jmpifz [119] ............................ if voidp(friction) then
+  [116] pushzero ................................ <0>
+  [117] setparam 4 .............................. friction = 0
+  [119] getparam 2 .............................. <mass>
+  [121] pusharglist 1 ........................... <mass>
+  [123] extcall 92 .............................. <voidp(mass)>
+  [125] jmpifz [131] ............................ if voidp(mass) then
+  [128] pushzero ................................ <0>
+  [129] setparam 2 .............................. mass = 0
+  [131] getparam 3 .............................. <rest>
+  [133] pusharglist 1 ........................... <rest>
+  [135] extcall 92 .............................. <voidp(rest)>
+  [137] jmpifz [143] ............................ if voidp(rest) then
+  [140] pushzero ................................ <0>
+  [141] setparam 3 .............................. rest = 0
+  [143] getprop 500 ............................. <phavok>
+  [146] getlocal 1 .............................. <modo>
+  [148] getobjprop 16 ........................... <modo.name>
+  [150] getparam 2 .............................. <mass>
+  [152] pushint8 1 .............................. <1>
+  [154] pushsymb 549 ............................ <#sphere>
+  [157] pusharglist 5 ........................... <phavok, modo.name, mass, 1, #sphere>
+  [159] objcall 541 ............................. <phavok.makeMovableRigidBody(modo.name, mass, 1, #sphere)>
+  [162] setlocal 2 .............................. rb = phavok.makeMovableRigidBody(modo.name, mass, 1, #sphere)
+  [164] getlocal 2 .............................. <rb>
+  [166] pushzero ................................ <0>
+  [167] setobjprop 472 .......................... rb.pinned = 0
+  [170] getlocal 2 .............................. <rb>
+  [172] getparam 3 .............................. <rest>
+  [174] setobjprop 542 .......................... rb.restitution = rest
+  [177] getlocal 2 .............................. <rb>
+  [179] getparam 4 .............................. <friction>
+  [181] setobjprop 543 .......................... rb.friction = friction
+  [184] getparam 0 .............................. <me>
+  [186] getlocal 1 .............................. <modo>
+  [188] getparam 5 .............................. <who>
+  [190] pusharglistnoret 3 ...................... <me, modo, who>
+  [192] localcall 6 ............................. regint(me, modo, who)
+  [194] getlocal 1 .............................. <modo>
+  [196] pusharglistnoret 1 ...................... <modo>
+  [198] objcall 391 ............................. modo.removeFromWorld()
+  [201] getlocal 2 .............................. <rb>
+  [203] pusharglistnoret 1 ...................... <rb>
+  [205] extcall 173 ............................. return rb
+  [207] ret
+end
+
+on removethefella me, modo
+  [  0] getprop 500 ............................. <phavok>
+  [  3] getparam 1 .............................. <modo>
+  [  5] getobjprop 16 ........................... <modo.name>
+  [  7] pusharglistnoret 2 ...................... <phavok, modo.name>
+  [  9] objcall 551 ............................. phavok.removeInterest(modo.name)
+  [ 12] getprop 500 ............................. <phavok>
+  [ 15] getparam 1 .............................. <modo>
+  [ 17] getobjprop 16 ........................... <modo.name>
+  [ 19] pusharglistnoret 2 ...................... <phavok, modo.name>
+  [ 21] objcall 552 ............................. phavok.deleteRigidBody(modo.name)
+  [ 24] ret
+end
+
+on makefixed me, modo, convex, restitution, friction
+  [  0] getprop 500 ............................. <phavok>
+  [  3] getparam 1 .............................. <modo>
+  [  5] getobjprop 16 ........................... <modo.name>
+  [  7] pusharglist 2 ........................... <phavok, modo.name>
+  [  9] objcall 501 ............................. <phavok.RigidBody(modo.name)>
+  [ 12] pusharglist 1 ........................... <phavok.RigidBody(modo.name)>
+  [ 14] extcall 92 .............................. <voidp(phavok.RigidBody(modo.name))>
+  [ 16] jmpifz [108] ............................ if voidp(phavok.RigidBody(modo.name)) then / else
+  [ 19] getparam 1 .............................. <modo>
+  [ 21] getobjprop 540 .......................... <modo.modifier>
+  [ 24] pushsymb 532 ............................ <#meshDeform>
+  [ 27] pusharglist 2 ........................... <modo.modifier, #meshDeform>
+  [ 29] extcall 539 ............................. <getPos(modo.modifier, #meshDeform)>
+  [ 32] not ..................................... <not getPos(modo.modifier, #meshDeform)>
+  [ 33] jmpifz [ 46] ............................ if not getPos(modo.modifier, #meshDeform) then
+  [ 36] getparam 1 .............................. <modo>
+  [ 38] pushsymb 532 ............................ <#meshDeform>
+  [ 41] pusharglistnoret 2 ...................... <modo, #meshDeform>
+  [ 43] objcall 533 ............................. modo.addModifier(#meshDeform)
+  [ 46] getparam 4 .............................. <friction>
+  [ 48] pusharglist 1 ........................... <friction>
+  [ 50] extcall 92 .............................. <voidp(friction)>
+  [ 52] jmpifz [ 58] ............................ if voidp(friction) then
+  [ 55] pushzero ................................ <0>
+  [ 56] setparam 4 .............................. friction = 0
+  [ 58] getparam 3 .............................. <restitution>
+  [ 60] pusharglist 1 ........................... <restitution>
+  [ 62] extcall 92 .............................. <voidp(restitution)>
+  [ 64] jmpifz [ 70] ............................ if voidp(restitution) then
+  [ 67] pushzero ................................ <0>
+  [ 68] setparam 3 .............................. restitution = 0
+  [ 70] getprop 500 ............................. <phavok>
+  [ 73] getparam 1 .............................. <modo>
+  [ 75] getobjprop 16 ........................... <modo.name>
+  [ 77] getparam 2 .............................. <convex>
+  [ 79] pusharglist 1 ........................... <convex>
+  [ 81] extcall 364 ............................. <value(convex)>
+  [ 84] pusharglist 3 ........................... <phavok, modo.name, value(convex)>
+  [ 86] objcall 553 ............................. <phavok.makeFixedRigidBody(modo.name, value(convex))>
+  [ 89] setlocal 0 .............................. rb = phavok.makeFixedRigidBody(modo.name, value(convex))
+  [ 91] getlocal 0 .............................. <rb>
+  [ 93] getparam 3 .............................. <restitution>
+  [ 95] setobjprop 542 .......................... rb.restitution = restitution
+  [ 98] getlocal 0 .............................. <rb>
+  [100] getparam 4 .............................. <friction>
+  [102] setobjprop 543 .......................... rb.friction = friction
+  [105] jmp [122]
+  [108] getprop 500 ............................. <phavok>
+  [111] getparam 1 .............................. <modo>
+  [113] getobjprop 16 ........................... <modo.name>
+  [115] pusharglist 2 ........................... <phavok, modo.name>
+  [117] objcall 501 ............................. <phavok.RigidBody(modo.name)>
+  [120] setlocal 0 .............................. rb = phavok.RigidBody(modo.name)
+  [122] getlocal 0 .............................. <rb>
+  [124] pusharglistnoret 1 ...................... <rb>
+  [126] extcall 173 ............................. return rb
+  [128] ret
+end

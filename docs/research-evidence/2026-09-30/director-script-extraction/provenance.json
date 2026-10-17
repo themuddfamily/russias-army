@@ -1,0 +1,829 @@
+{
+  "tool_repository": "https://github.com/ProjectorRays/ProjectorRays",
+  "tool_commit": "6f9bcebf626b43719abe2affcbbcb041d154d666",
+  "tool_version": "0.2.1",
+  "command": "projectorrays decompile --dump-scripts --dump-json -o /tmp/ra-lingo-decompiled <preserved-payload.dcr>",
+  "execution": "Static parser/decompiler only; no Director runtime/game/Lingo execution",
+  "outputs": [
+    {
+      "file": "barrack/casts/parents/BehaviorScript 2 - flashlobby.ls",
+      "bytes": 1204,
+      "sha256": "2f7e0a83619ed5a0e60b351a8666992c986843e3c0973c1770e263a9252833f0"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 13 - pickups.ls",
+      "bytes": 1762,
+      "sha256": "428f34c9fcb37998ef4248d190ab270c0a6f2a3770843c847cb2079ebc9789f6"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 7 - sniper.lasm",
+      "bytes": 7800,
+      "sha256": "a8d35768cd856dd8da8e9f534380e22a353b3f9687e07f625cbe9383441baba0"
+    },
+    {
+      "file": "barrack/casts/parents/BehaviorScript 35 - submit.ls",
+      "bytes": 848,
+      "sha256": "57a8cac33ed7ae7525ef8cfce93ea0a19f5b3fc6211d217f30a52c7bda40f526"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 12 - hotspots.lasm",
+      "bytes": 20349,
+      "sha256": "143144239d4eed05461d8a5c4483263beb7930cde057c456a2e99e2981284cce"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 19 - blood.ls",
+      "bytes": 1144,
+      "sha256": "0416e7fad29dd87f47d94f2757102301f235b391e92369e9fc31994caef10dca"
+    },
+    {
+      "file": "barrack/casts/parents/MovieScript 24 - recycle and reuse.lasm",
+      "bytes": 9203,
+      "sha256": "a798cf86c588239c0664a58ce096674908b6049b298d34293d872c2ffee4d8df"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 5 - goody.ls",
+      "bytes": 8677,
+      "sha256": "e5e67dcd378dfce9c33f0d598a85857dfe026c16eaa8f509c3f153007dc7c9f8"
+    },
+    {
+      "file": "barrack/casts/parents/BehaviorScript 35 - submit.lasm",
+      "bytes": 5257,
+      "sha256": "c3226fefd6fb33f71bef1d6491c98ac6f2eace6746f2f850a1e34a6e3028158d"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 7 - sniper.ls",
+      "bytes": 1116,
+      "sha256": "19b8d36635595a5049f0935e87eb0c4e2627236217a7246cb3113cda91a20a8b"
+    },
+    {
+      "file": "barrack/casts/parents/MovieScript 1 - generics.lasm",
+      "bytes": 39128,
+      "sha256": "e11978e5fe038ac51c2cf54e62507069c65af43331d4ec643d966b2eb717f5cf"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 12 - hotspots.ls",
+      "bytes": 2579,
+      "sha256": "6531aade52d8750c0e938f8dac28e89d3fbe3023f5aa77beb2855a636b65e93d"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 14 - grenades.lasm",
+      "bytes": 13101,
+      "sha256": "de47d5fe567a77379d005ce86082012c77c226cf4729bad83f20ad5d2175cd7d"
+    },
+    {
+      "file": "barrack/casts/parents/BehaviorScript 33 - running game.lasm",
+      "bytes": 211,
+      "sha256": "67b0f4a34f24068a5522fdccdb26760db7815ef6ddca3fe1755dfed558aaf443"
+    },
+    {
+      "file": "barrack/casts/parents/BehaviorScript 33 - running game.ls",
+      "bytes": 33,
+      "sha256": "dca2604634f7834caf344da5aec731f9f36e60c514d355dc867a68f8cf25ad2d"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 20 - muzzle.lasm",
+      "bytes": 8894,
+      "sha256": "c00d939e663bfef3bf0ad0698ddbcc01c500369ccc28f3197c2599c581db51fb"
+    },
+    {
+      "file": "barrack/casts/parents/MovieScript 4 - M U S.ls",
+      "bytes": 8032,
+      "sha256": "59a99a5f2533ac4b03db54f89c87475f7eacca8f1f007a08ee051d88aeb6b70d"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 5 - goody.lasm",
+      "bytes": 84209,
+      "sha256": "5640cb4a0061ef2e33e463ccf56c8651a3d7335f953c036699a996dc8f8c508b"
+    },
+    {
+      "file": "barrack/casts/parents/BehaviorScript 32 - explore.lasm",
+      "bytes": 35742,
+      "sha256": "674b5404d8a4dde473048a9ac7404558d48bd8a38193a82e682a0a1ea01ef0f8"
+    },
+    {
+      "file": "barrack/casts/parents/BehaviorScript 3 - joinroom.ls",
+      "bytes": 1013,
+      "sha256": "c700518d734897d3c0150f669149a12f310ee2a4406e659dc2cac6a66b42a2b8"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 8 - baddies.lasm",
+      "bytes": 37491,
+      "sha256": "c60ff2fbff37dba0a55d82ae8b91ff42cb7e591ad4017d66fc78e5a879091b16"
+    },
+    {
+      "file": "barrack/casts/parents/MovieScript 1 - generics.ls",
+      "bytes": 3974,
+      "sha256": "5a8fb889e19dfcf7b415b31839ea90fd2f337864919e005e9f023d0e68b70ff3"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 10 - barrels.lasm",
+      "bytes": 4917,
+      "sha256": "cc06c34947a6936b295a0f35a088b4b43b5cd73650fe5386718b1566c1515a63"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 21 - worldphysics.lasm",
+      "bytes": 22916,
+      "sha256": "0d1aee853d6fd18f5b206a85ffebc0b31d7e297c29203e7bb6fd663e18f2510d"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 21 - worldphysics.ls",
+      "bytes": 2895,
+      "sha256": "d0cacb163e27b9ffea63eabc56713fbe9c373f55d77b092007b9f89b56d5a8d8"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 18 - miss.ls",
+      "bytes": 889,
+      "sha256": "3f34ca67b5789271343ca742f4320d0e80958d60155b57e4fc844a6463223ff1"
+    },
+    {
+      "file": "barrack/casts/parents/BehaviorScript 34 - endgame.ls",
+      "bytes": 1033,
+      "sha256": "72e2bb4a9e62f800fb064fb7e3925fe3e0e77494a72b5f8f352f38a3734ecd38"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 16 - puff.lasm",
+      "bytes": 9025,
+      "sha256": "40d9bbb2d8e3bd9ce97f109b02ece4e664b6c1b4a40e251e09c52815c679b547"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 15 - rockets.lasm",
+      "bytes": 16491,
+      "sha256": "abc3cd48286bfd2ebec49828fa51dcf102982e71bd2d1f7862b78a0a49116a11"
+    },
+    {
+      "file": "barrack/casts/parents/BehaviorScript 2 - flashlobby.lasm",
+      "bytes": 8421,
+      "sha256": "38b5c8688f82ea36324de7896a015bcaf1e389860e7d17f47d12555d6257c106"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 10 - barrels.ls",
+      "bytes": 583,
+      "sha256": "f132a4d9ae542f6f6c0cc72e550d3ffdb4f2ad7f0489cbb89471fba55c3e1b90"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 8 - baddies.ls",
+      "bytes": 4006,
+      "sha256": "7f6a5de789f340d1adf7904a9b15e702b96f4359c41b43805db9b6fc840c9a61"
+    },
+    {
+      "file": "barrack/casts/parents/BehaviorScript 34 - endgame.lasm",
+      "bytes": 10060,
+      "sha256": "9f7d12e27e049afb7c6718989831c85427fc5db214cf120adf078eb9c765197d"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 14 - grenades.ls",
+      "bytes": 1461,
+      "sha256": "6b66dde46caac8492cf81cecc7d4cc811c3fc39e2c041cbbb0c276d0f9ddc7ab"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 13 - pickups.lasm",
+      "bytes": 15004,
+      "sha256": "ffcc84e44fff9c17dcc69630c70d37d8f7b2e94ccc2112ed1016333dc58ad472"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 20 - muzzle.ls",
+      "bytes": 1096,
+      "sha256": "6ac1f93db2682e85b60178aebca2b85eb87405aa82b77dedde4c08f788325e3a"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 9 - fadeaway.lasm",
+      "bytes": 7180,
+      "sha256": "d02af3624ce1c5d7122ff83c2e94836882c2663086c414f00603804f65c41c6d"
+    },
+    {
+      "file": "barrack/casts/parents/MovieScript 24 - recycle and reuse.ls",
+      "bytes": 1050,
+      "sha256": "7cc976e678d791af943086c10cf0fc4523dc4c8fc56ea7a0c448a892ac67583e"
+    },
+    {
+      "file": "barrack/casts/parents/BehaviorScript 3 - joinroom.lasm",
+      "bytes": 8471,
+      "sha256": "5908a43b45267eb31ac6ff334cea5aa46980d881f0a61c076f64dacfcb4726dd"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 6 - weaponry.lasm",
+      "bytes": 95531,
+      "sha256": "4b2b730c8d00aea00101b93035f23ebeca9573b58f24742a9b5959098f11e8f3"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 17 - bangs.ls",
+      "bytes": 1620,
+      "sha256": "7a59298720976f98932e08ab3cd703d3f3ed57c4444f4fbccf5c27475a14f939"
+    },
+    {
+      "file": "barrack/casts/parents/MovieScript 4 - M U S.lasm",
+      "bytes": 67121,
+      "sha256": "2f1340ea5e61623eaccf8c476480dbd125b02e37553225a75c0ac8882556adb4"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 16 - puff.ls",
+      "bytes": 963,
+      "sha256": "a5411b6f4092ed61fb540e013e034fbda5a3d78dad5d2ac211045128426ab5d4"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 17 - bangs.lasm",
+      "bytes": 14164,
+      "sha256": "0369e7517b390b0c5f8c8dfe04fea44b3feb2da6e87b5778cea0c1829a1c8513"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 6 - weaponry.ls",
+      "bytes": 10864,
+      "sha256": "f585b9f0bf0fce613229f631af4697871218165b28098780e8f86064418373ef"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 15 - rockets.ls",
+      "bytes": 1859,
+      "sha256": "80b520d2b85f8336e78ce88d2e4f2812d4652d9fdb27f349cda80f8f7fbc60e6"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 9 - fadeaway.ls",
+      "bytes": 783,
+      "sha256": "f7fc81c7d3663ab47109a877672533ae2d071da5d1524f0e62cc60a4ed80c0dc"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 11 - doors.ls",
+      "bytes": 1330,
+      "sha256": "0dc17a47a3c3baf9177c223dbece9f8de75a690787978445206468d7524f73c6"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 18 - miss.lasm",
+      "bytes": 7309,
+      "sha256": "7ca1c1092bb068670aa4c96f056afa5cdcbd32cecdfa8ea3efe28c6542ba1123"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 11 - doors.lasm",
+      "bytes": 10454,
+      "sha256": "7e244ca163bc479e220c68cb5dc7282c95971c1ad7565affb805fb62e2780088"
+    },
+    {
+      "file": "barrack/casts/parents/ParentScript 19 - blood.lasm",
+      "bytes": 9999,
+      "sha256": "4f6d4317764df1d081b784ac3959060f7ac6022622e8fca1c97f8bef5e5be3cd"
+    },
+    {
+      "file": "barrack/casts/parents/BehaviorScript 32 - explore.ls",
+      "bytes": 3171,
+      "sha256": "3f351df99fc63409d6b6f43addd56e2c71d55ed33938ff437485dadad4d5ed63"
+    },
+    {
+      "file": "barrack/chunks/Lnam-4925.json",
+      "bytes": 120,
+      "sha256": "700f69ba7b6b3b8fd51ce288e6985767377459f5180d13c28362e4f021de54ac"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4948.json",
+      "bytes": 2276,
+      "sha256": "92d0331100dc396c942fc8cba81d2e34e96e5ccf310e9bd0b41be56d34d7e053"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4937.json",
+      "bytes": 2262,
+      "sha256": "bb0513113a1a8a343259194b32871f03e632a2c7fcce7af7756c58a1e83dd72a"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4929.json",
+      "bytes": 3020,
+      "sha256": "8c93f7bbfb85734ad2b7ddb33f35d5d1480bced6b250692b13b07c8dd2d56123"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4935.json",
+      "bytes": 1951,
+      "sha256": "5ede1c0cb103e60764596d2fdb360c72992b78395505b0b835507d8c0718ade8"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4936.json",
+      "bytes": 2060,
+      "sha256": "cba8ee41b3b0bc000850df9685af1a161cdf01a9887c1e14ad08178b688245e8"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4947.json",
+      "bytes": 5196,
+      "sha256": "a754488dbca76bca9c4d7c496958a1bef54fa4606550ea71c625c9a4abcc3070"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4926.json",
+      "bytes": 2823,
+      "sha256": "d04008296210cadb19e712b1a80bebe592b3de4e7eae1b8bdda67ae9786c6e0b"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4938.json",
+      "bytes": 3630,
+      "sha256": "b53e89f067b5ef130a354e36ccac3d679c19ab2a650265f7e82815e9dbe53953"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4931.json",
+      "bytes": 9856,
+      "sha256": "f5353a27c40170ef4b27ab5fce006382045352f290ebad0ef8fa5e311842123c"
+    },
+    {
+      "file": "barrack/chunks/Lnam-4843.json",
+      "bytes": 155,
+      "sha256": "43a0ab72616e5797fca4f29033e1907776bd3998aed4efce5a7a369f78da4b3e"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4949.json",
+      "bytes": 3957,
+      "sha256": "920fccb010ee2eb92fdc10e24089d6a2aaf1a652700e9dbae16c52dc522fb914"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4942.json",
+      "bytes": 2623,
+      "sha256": "bba75e0f0399fc04ccabe30da5c1ca89e31848aa0e922c67a1edd2b48fd3e1dd"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4945.json",
+      "bytes": 1925,
+      "sha256": "80d91c6d4f2e7c46a88d14099895acc4aa80baef0b8d51460c4957a3bfc534e9"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4943.json",
+      "bytes": 2245,
+      "sha256": "51f5c70b10afb4fb2b6aa5ce10bc072c225bcc0502137f94000503b6e473b83d"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4933.json",
+      "bytes": 2660,
+      "sha256": "d9b78bc9e64652f0bc7ce78333dbd93d9783463c0e7b2bd0abe2de55978d8f0d"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4836.json",
+      "bytes": 10274,
+      "sha256": "28fed1f236e9ab2f92f5cd930161c8423b56029ad2c81acbe8167e0ad056bc34"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4928.json",
+      "bytes": 2995,
+      "sha256": "b25e427a8a9e4c20883ad87eaeff5470ed80fe3981f449bb45a9b5ce16422505"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4934.json",
+      "bytes": 5502,
+      "sha256": "d4c851b43794bc28f17d3466c30b2fbb47734ef3b6f9e45c3c7efc32de713b52"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4941.json",
+      "bytes": 3627,
+      "sha256": "39d890c29e4e298d868caab9cb46d1cc2634f94301fa3bc2f59e29444c26d01f"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4940.json",
+      "bytes": 2665,
+      "sha256": "03a81163858ffcb9db092976d339fc53f4eee4b8832fe9c5ddd5309d4f5b9b28"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4932.json",
+      "bytes": 9297,
+      "sha256": "e81d77ae294d0c4c9a976ef1d12fa0eafebefc3a9343cd1c3af2f6e70e8c70a6"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4951.json",
+      "bytes": 2966,
+      "sha256": "a0ef15d5cade47a23ff17c4e2ab2320d96d93d2e4732d6160150491c74a31ee1"
+    },
+    {
+      "file": "barrack/chunks/DRCF-5134.json",
+      "bytes": 631,
+      "sha256": "a9965f4edb03945c8873d7bbbbb7a6391bee1d04b6b7d9d89fe4179c070e55e8"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4950.json",
+      "bytes": 1077,
+      "sha256": "44b24482cac3eb85b14216b69584453815fd7f1926cd3709729e200425fb5d8f"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4939.json",
+      "bytes": 3106,
+      "sha256": "675d56b5d2686594c11ce490e63cbee328316718de57597e712aae02ce7105db"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4944.json",
+      "bytes": 2074,
+      "sha256": "a1eb46afb8a740f3ed1922ec9d9560d7da2f6e5062a6d72ce9814a0e0fd7be47"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4946.json",
+      "bytes": 2190,
+      "sha256": "6219c0574baa75b35f88fb581b0e962c9dabddbaf25da021bba1bb63f19bd433"
+    },
+    {
+      "file": "barrack/chunks/Lscr-4927.json",
+      "bytes": 6277,
+      "sha256": "ad1d7086127b1cd1d80885b3806d6b530da8403701897aac213ee850265b8f26"
+    },
+    {
+      "file": "woodland/casts/parents/BehaviorScript 2 - flashlobby.ls",
+      "bytes": 1204,
+      "sha256": "2f7e0a83619ed5a0e60b351a8666992c986843e3c0973c1770e263a9252833f0"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 13 - pickups.ls",
+      "bytes": 1762,
+      "sha256": "428f34c9fcb37998ef4248d190ab270c0a6f2a3770843c847cb2079ebc9789f6"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 7 - sniper.lasm",
+      "bytes": 8881,
+      "sha256": "b3e88452f60685b3295fd9065a1a3870789b7d7cda8f57ebaed4187a783fa722"
+    },
+    {
+      "file": "woodland/casts/parents/BehaviorScript 35 - submit.ls",
+      "bytes": 831,
+      "sha256": "f8bde07a02d5916b3a30fd58796c2cd1dbca43bf661d4fdcc69623aa87852f49"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 12 - hotspots.lasm",
+      "bytes": 20349,
+      "sha256": "628fcfeba6b3fcbbf0e4ebbe9b3cc98ebd4fbe434a2e6c821ee40fc50e021d83"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 19 - blood.ls",
+      "bytes": 1144,
+      "sha256": "0416e7fad29dd87f47d94f2757102301f235b391e92369e9fc31994caef10dca"
+    },
+    {
+      "file": "woodland/casts/parents/MovieScript 24 - recycle and reuse.lasm",
+      "bytes": 9203,
+      "sha256": "3852e4c28f565026bbb5e24e27f52181fac618f04d99cc2e4c72ef6e5ba98c0d"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 5 - goody.ls",
+      "bytes": 9021,
+      "sha256": "6d1b8229158c635eaa6a418d762866a91f27abf78757e812b6e5c7f0670b1297"
+    },
+    {
+      "file": "woodland/casts/parents/BehaviorScript 35 - submit.lasm",
+      "bytes": 5054,
+      "sha256": "6f408699ac5e45fb377f37595cd891934b9ace11006f6a8618e5e6602381f9cf"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 7 - sniper.ls",
+      "bytes": 1157,
+      "sha256": "711256e34a960b958303efe44d1549134c308bf8d441d24c03b37e9e84fe3e7a"
+    },
+    {
+      "file": "woodland/casts/parents/MovieScript 1 - generics.lasm",
+      "bytes": 39110,
+      "sha256": "cb9dd8565a5e23deeefb017faa0fd79800b564375cfbc1457df63bcaf24e1755"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 12 - hotspots.ls",
+      "bytes": 2579,
+      "sha256": "6531aade52d8750c0e938f8dac28e89d3fbe3023f5aa77beb2855a636b65e93d"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 14 - grenades.lasm",
+      "bytes": 13101,
+      "sha256": "d8326fd394a9f36d3bc295854d5a1f7f121a2043cf953d5877981b8b8487d8b2"
+    },
+    {
+      "file": "woodland/casts/parents/BehaviorScript 33 - running game.lasm",
+      "bytes": 211,
+      "sha256": "43d11e875b69cdbdad8d4dfaf9a5b4f6a4fe1171a1638a811b6844f704961e56"
+    },
+    {
+      "file": "woodland/casts/parents/BehaviorScript 33 - running game.ls",
+      "bytes": 33,
+      "sha256": "dca2604634f7834caf344da5aec731f9f36e60c514d355dc867a68f8cf25ad2d"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 20 - muzzle.lasm",
+      "bytes": 8894,
+      "sha256": "fc2b1288baf998f06685b20f212307061178efe1c020935affb4907413ae777f"
+    },
+    {
+      "file": "woodland/casts/parents/MovieScript 4 - M U S.ls",
+      "bytes": 8007,
+      "sha256": "8b34c07fc4d94f6b40d25aff6d29e3cd4fb0e6f564c81dc5ba0575d20e00b18f"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 5 - goody.lasm",
+      "bytes": 88763,
+      "sha256": "1eadbf6bbb355edcff076f31aa2c1c9017b66ed1d21db2a55ae6e23c7e09d044"
+    },
+    {
+      "file": "woodland/casts/parents/BehaviorScript 32 - explore.lasm",
+      "bytes": 37044,
+      "sha256": "4608f6bd5089a8247ffe952356c529192a8a8ec3c817852251dfeadc27b1324f"
+    },
+    {
+      "file": "woodland/casts/parents/BehaviorScript 3 - joinroom.ls",
+      "bytes": 1013,
+      "sha256": "c700518d734897d3c0150f669149a12f310ee2a4406e659dc2cac6a66b42a2b8"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 8 - baddies.lasm",
+      "bytes": 37491,
+      "sha256": "4717875acf7b2eaf44ffe894d16befe38e196fae39bb9e4ab63393670b55ffed"
+    },
+    {
+      "file": "woodland/casts/parents/MovieScript 1 - generics.ls",
+      "bytes": 3956,
+      "sha256": "294d86b894b0471cedcff8a486706fa7551ba5cb921cb394236822eaf9bdbc44"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 10 - barrels.lasm",
+      "bytes": 4917,
+      "sha256": "14ee279507ebb1274a1c8c77bdbd745e7dd5e2a3b16b846d86827396fb06bac7"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 21 - worldphysics.lasm",
+      "bytes": 22916,
+      "sha256": "bf52be10c8e26770ee122a31eb5b84e94027b01b327e4913db98e9e66253fb99"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 21 - worldphysics.ls",
+      "bytes": 2895,
+      "sha256": "d0cacb163e27b9ffea63eabc56713fbe9c373f55d77b092007b9f89b56d5a8d8"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 18 - miss.ls",
+      "bytes": 889,
+      "sha256": "3f34ca67b5789271343ca742f4320d0e80958d60155b57e4fc844a6463223ff1"
+    },
+    {
+      "file": "woodland/casts/parents/BehaviorScript 34 - endgame.ls",
+      "bytes": 1033,
+      "sha256": "72e2bb4a9e62f800fb064fb7e3925fe3e0e77494a72b5f8f352f38a3734ecd38"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 16 - puff.lasm",
+      "bytes": 9025,
+      "sha256": "3cfd3b0748fa7a7552a089da5e7ea2cce6d763dbc73cc717304eecbcaa593581"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 15 - rockets.lasm",
+      "bytes": 16491,
+      "sha256": "dbe67047ffd0b3be955a95c3d70780b1af735bb1583cea5479f0d224b08a1ea1"
+    },
+    {
+      "file": "woodland/casts/parents/BehaviorScript 2 - flashlobby.lasm",
+      "bytes": 8421,
+      "sha256": "d4f431dde8e324b2af66c830a35b57b21547d069c7e38c0812e6afeac7397b25"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 10 - barrels.ls",
+      "bytes": 583,
+      "sha256": "f132a4d9ae542f6f6c0cc72e550d3ffdb4f2ad7f0489cbb89471fba55c3e1b90"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 8 - baddies.ls",
+      "bytes": 4006,
+      "sha256": "7f6a5de789f340d1adf7904a9b15e702b96f4359c41b43805db9b6fc840c9a61"
+    },
+    {
+      "file": "woodland/casts/parents/BehaviorScript 34 - endgame.lasm",
+      "bytes": 10060,
+      "sha256": "23997c835dcb95918e8680dc84ba51ab24f26718d0fb2d759f752ac8c862f895"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 14 - grenades.ls",
+      "bytes": 1461,
+      "sha256": "6b66dde46caac8492cf81cecc7d4cc811c3fc39e2c041cbbb0c276d0f9ddc7ab"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 13 - pickups.lasm",
+      "bytes": 15004,
+      "sha256": "bdc18aed8c192206fa7d36f2fc41e3133e7de92582e43d60189be84689c672f0"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 20 - muzzle.ls",
+      "bytes": 1096,
+      "sha256": "6ac1f93db2682e85b60178aebca2b85eb87405aa82b77dedde4c08f788325e3a"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 9 - fadeaway.lasm",
+      "bytes": 7180,
+      "sha256": "bf4a4eea005c699bde9269752e036d808ddcb6b0bc29603b36eb85d6413dea52"
+    },
+    {
+      "file": "woodland/casts/parents/MovieScript 24 - recycle and reuse.ls",
+      "bytes": 1050,
+      "sha256": "7cc976e678d791af943086c10cf0fc4523dc4c8fc56ea7a0c448a892ac67583e"
+    },
+    {
+      "file": "woodland/casts/parents/BehaviorScript 3 - joinroom.lasm",
+      "bytes": 8471,
+      "sha256": "1a89e3158f85131ccd323fe4f468c31227de7d6d01ec12e9788ef76048fa1520"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 6 - weaponry.lasm",
+      "bytes": 92615,
+      "sha256": "b73ca0603da327580f716f0b2f1c15613b76f651427de12e7f1c5f5ad55229ab"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 17 - bangs.ls",
+      "bytes": 1620,
+      "sha256": "7a59298720976f98932e08ab3cd703d3f3ed57c4444f4fbccf5c27475a14f939"
+    },
+    {
+      "file": "woodland/casts/parents/MovieScript 4 - M U S.lasm",
+      "bytes": 66741,
+      "sha256": "fc1d367f8b61746b58ed879f1804bb19fbddbe57f2f1906c921c0b498102e489"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 16 - puff.ls",
+      "bytes": 963,
+      "sha256": "a5411b6f4092ed61fb540e013e034fbda5a3d78dad5d2ac211045128426ab5d4"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 17 - bangs.lasm",
+      "bytes": 14164,
+      "sha256": "1eaa43ca45533631f729c04372b98591257443a84e91be950864d9b00df1714a"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 6 - weaponry.ls",
+      "bytes": 10541,
+      "sha256": "082d419d7e9a973651e5144a6c780437906a62e8dcc35ef3663fd5e206b9b216"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 15 - rockets.ls",
+      "bytes": 1859,
+      "sha256": "80b520d2b85f8336e78ce88d2e4f2812d4652d9fdb27f349cda80f8f7fbc60e6"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 9 - fadeaway.ls",
+      "bytes": 783,
+      "sha256": "f7fc81c7d3663ab47109a877672533ae2d071da5d1524f0e62cc60a4ed80c0dc"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 11 - doors.ls",
+      "bytes": 1330,
+      "sha256": "0dc17a47a3c3baf9177c223dbece9f8de75a690787978445206468d7524f73c6"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 18 - miss.lasm",
+      "bytes": 7309,
+      "sha256": "3eb78094b1549a28d0b92159aa22cee55d914cee51f389f2066e016f67ed037e"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 11 - doors.lasm",
+      "bytes": 10454,
+      "sha256": "962d7712e179d766a60d0bee0f895c2123a5dea9922460a361160625051cde52"
+    },
+    {
+      "file": "woodland/casts/parents/ParentScript 19 - blood.lasm",
+      "bytes": 9999,
+      "sha256": "20b3fb1cc0c559220f17b114e0e75ce482192ed0eca8dc7e8572b7441c61586a"
+    },
+    {
+      "file": "woodland/casts/parents/BehaviorScript 32 - explore.ls",
+      "bytes": 3277,
+      "sha256": "af3c03894bd87347219cf1c2d049b53d66e6e7c6ebc4c4f8b7859201a128bff0"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6315.json",
+      "bytes": 6277,
+      "sha256": "9896dceaa3c237f334f4d502a8bb2727b29c353dfbafc6c417e6e4d94eb3e4a7"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6317.json",
+      "bytes": 3032,
+      "sha256": "722f13a7e1344c36c010197f2eb7d2c047f98572e7d4c5963ea41261163cc071"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6328.json",
+      "bytes": 3612,
+      "sha256": "61ad5fbcdfc3148c985b91dd5e9f42c6404086d627cc124f9d9ff5544df60fb9"
+    },
+    {
+      "file": "woodland/chunks/Lnam-6372.json",
+      "bytes": 117,
+      "sha256": "31a0b88bfe53b78822d7890cd2658be5b46fca4f1e661e12560a2f30f45c2449"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6322.json",
+      "bytes": 1942,
+      "sha256": "69a97d85055626bab2d227ab7da0f90f41b67b4821ce88339808b207e6f1f510"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6325.json",
+      "bytes": 3625,
+      "sha256": "edc1329f32d1cb3e9708a587b82a38c1add7b2570e8038dbebb5d25941a09806"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6316.json",
+      "bytes": 2998,
+      "sha256": "cdb8d3f08684a0bc7b8fcf0ea11dd788838b941b8cd1d0e552e12a56406e43d8"
+    },
+    {
+      "file": "woodland/chunks/Lnam-6384.json",
+      "bytes": 126,
+      "sha256": "c3b4264404a7929ec141f2b717d621243f005e46f0c1c019c9e3f730ec1b1732"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6324.json",
+      "bytes": 2256,
+      "sha256": "c69650cfd89a9de56ad3bc93d845df6ff006643fe7d92fdb406572b220ed5ac4"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6329.json",
+      "bytes": 2615,
+      "sha256": "23edbdb36646393070f12b18eff60816992e24ee1359e15f5747bd806583e6b3"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6318.json",
+      "bytes": 10279,
+      "sha256": "f899fccedf6dd9ad9ea0672fbfeeb65531cd8f5af309aecc44aeac23cd0704e9"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6336.json",
+      "bytes": 4347,
+      "sha256": "8c1e1bb912ed818df690faffb4c7a343b0ec53c061e112506d5e3a57dc9e37ea"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6334.json",
+      "bytes": 5189,
+      "sha256": "a284770bccc03c991a3f5a99bd3f1243321c89ce8ad1b2fcaf82d892d093cf5b"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6321.json",
+      "bytes": 5490,
+      "sha256": "ef9587c67ca16e285171dfcca0f32a64a5f316c4958baeb792a68f7fbeb28411"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6338.json",
+      "bytes": 2972,
+      "sha256": "39fa475a83bb97d8fc958608401909e18a0eae6779fd2f2ad42240d0c5de46c0"
+    },
+    {
+      "file": "woodland/chunks/Lnam-6232.json",
+      "bytes": 158,
+      "sha256": "aaedd65ca3dceafa2e2645c938aec457ae5f257b3c63c61c23b2699a2dbf0acd"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6335.json",
+      "bytes": 2279,
+      "sha256": "5fad25f3c91f0e4284cb22a736fc23fc4f59e773e2667de0b74289737345564c"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6327.json",
+      "bytes": 2654,
+      "sha256": "e6e0ad2dee5aa5ee855857b6869495a5e793dad4eb92862e95219639b033b3ac"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6332.json",
+      "bytes": 1917,
+      "sha256": "c06b69c9ef84b047f6247cee196d4ca45f37fcbaa6977644851c628205f25b35"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6319.json",
+      "bytes": 9261,
+      "sha256": "c223faaf3f2d1865fa960ab13c8054e60f4fab9b9f1c4cd6e2afb18bf8839de8"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6326.json",
+      "bytes": 3099,
+      "sha256": "6d6a096044b09012dc9ee0151e8cdd98af810c81b2de037b04a6d51d6e2b4d07"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6337.json",
+      "bytes": 1079,
+      "sha256": "dbd452a7548b721785fdcc8cf9789bc04f5726246d5c262a9f2d1132a5d67e1d"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6331.json",
+      "bytes": 2066,
+      "sha256": "2b7f37677ae687108f0e0ebc494a0d53b2d628ac3a9719e843acf4734a7f4f4d"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6330.json",
+      "bytes": 2237,
+      "sha256": "721001e692753fb62b5472771d97967ff3ebb5036275747b5c05c2c523e0f1f7"
+    },
+    {
+      "file": "woodland/chunks/DRCF-6552.json",
+      "bytes": 633,
+      "sha256": "680210b32e50cfbe0d7adc199752c8ddd29ee967de56f0b10ed96ffeff8386a1"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6339.json",
+      "bytes": 2833,
+      "sha256": "455a96a37fa6bd9c9adcf4f8cf26b3a1a1e9a136080e88488b75f4205513a7f1"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6333.json",
+      "bytes": 2183,
+      "sha256": "204be75170faee5009567b77b9a65fa1bf2dfd94d648b4402b2fd531b228eac7"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6222.json",
+      "bytes": 10323,
+      "sha256": "cdac78820406b9fc0ebff517be4dd1d2ce8d3c1ffbf851c4d0c21cab3bb862df"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6323.json",
+      "bytes": 2051,
+      "sha256": "af3f355c7f108fc0f2f1e2e6f8fc72a5009b33cb100fbcc2fd04251fb9563474"
+    },
+    {
+      "file": "woodland/chunks/Lnam-6314.json",
+      "bytes": 120,
+      "sha256": "eaf3c741f68c2e95fbad5202453841f0c7d14017d7a54d9484a7ac5f9c33c0ad"
+    },
+    {
+      "file": "woodland/chunks/Lscr-6320.json",
+      "bytes": 2728,
+      "sha256": "2e95b4612fb83073cf3e8fb5abad3dbdcb59337a3ca4a95698b25b40717a23c7"
+    }
+  ]
+}

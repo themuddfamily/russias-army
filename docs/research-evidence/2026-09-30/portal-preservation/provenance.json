@@ -1,0 +1,26 @@
+[
+  {
+    "page": "https://www.3doyunlar.net/3d-online/online-askeri-ordu-2.html",
+    "asset": "https://www.3doyunlar.net/oyunlar_3doyunlar.net/resim/_online-askeri-ordu-2-d89fb-b-www.3doyunlar.net.gif",
+    "status": 200,
+    "bytes": 34759,
+    "sha256": "f4fa211d5b4d9d57c822630896dfc0a8688fdbe64d9ee042ba4becbde9cf32d5",
+    "dimensions": [
+      300,
+      250
+    ],
+    "frames": 1
+  },
+  {
+    "page": "https://www.3doyunlar.net/3d-online/online-askeri-ordu.html",
+    "asset": "https://www.3doyunlar.net/oyunlar_3doyunlar.net/resim/_online-askeri-ordu-51f7d-b-www.3doyunlar.net.gif",
+    "status": 200,
+    "bytes": 27639,
+    "sha256": "a924dcc40cbd0505863468bd3b8e0a6bffe6afc4feeb8705ecd29d51ab96fe9b",
+    "dimensions": [
+      300,
+      250
+    ],
+    "frames": 1
+  }
+]

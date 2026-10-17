@@ -1,0 +1,36 @@
+962 Chapter 14:  Properties
+The following frame script keeps the playhead looping in the current frame while it rotates a 
+QuickTime sprite in channel 5 a full 360° in 16° increments. When the sprite has been rotated 
+360°, the playhead continues to the next frame.
+-- Lingo syntax
+on rotateMovie(whichSprite)
+repeat with i = 1 to 36
+sprite(whichSprite).rotation = i * 10
+_movie.updateStage()
+end repeat
+end
+// JavaScript syntax
+function rotateMovie(whichSprite) {
+for (var i = 1; i <= 36; i++) {
+sprite(whichSprite).rotation = i * 10;
+_movie.updateStage();
+}
+}
+See also
+obeyScoreRotation, originMode, Sprite 
+rotation (backdrop and overlay)
+Usage
+sprite(whichSprite).camera.backdrop[backdropIndex].rotation
+member(whichCastmember).camera(whichCamera).backdrop
+[backdropIndex].rotation
+sprite(whichSprite).camera.overlay[overlayIndex].rotation
+member(whichCastmember).camera[cameraIndex].overlay
+[overlayIndex].rotation
+Description
+3D property; allows you to get or set the rotation of the backdrop or overlay toward the default 
+camera. The default value of this property is 0.0.
+Example
+This statement rotates a backdrop 60° around its registration point:
+sprite(4).camera.backdrop[1].rotation = 60.0
+See also
+bevelDepth, transform (property)

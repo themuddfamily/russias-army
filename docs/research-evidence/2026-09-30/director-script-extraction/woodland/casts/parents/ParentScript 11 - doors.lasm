@@ -1,0 +1,170 @@
+property pmod, phavmod, anspeed, running, wrd1, wrd2, saidit
+global ghvk, gmem, hspots, goody
+
+on new me, modo
+  [  0] getparam 1 .............................. <modo>
+  [  2] setprop 67 .............................. pmod = modo
+  [  4] getglobal 39 ............................ <ghvk>
+  [  6] getprop 67 .............................. <pmod>
+  [  8] pushzero ................................ <0>
+  [  9] pushint8 1 .............................. <1>
+  [ 11] pushint8 1 .............................. <1>
+  [ 13] pusharglist 5 ........................... <ghvk, pmod, 0, 1, 1>
+  [ 15] objcall 471 ............................. <ghvk.makemoveable(pmod, 0, 1, 1)>
+  [ 18] setprop 475 ............................. phavmod = ghvk.makemoveable(pmod, 0, 1, 1)
+  [ 21] getprop 475 ............................. <phavmod>
+  [ 24] pushint8 1 .............................. <1>
+  [ 26] setobjprop 472 .......................... phavmod.pinned = 1
+  [ 29] getprop 67 .............................. <pmod>
+  [ 31] getchainedprop 476 ...................... <pmod.keyframePlayer>
+  [ 34] pushzero ................................ <0>
+  [ 35] setobjprop 450 .......................... pmod.keyframePlayer.playRate = 0
+  [ 38] pushzero ................................ <0>
+  [ 39] pushzero ................................ <0>
+  [ 40] pushint8 2 .............................. <2>
+  [ 42] pushzero ................................ <0>
+  [ 43] pushzero ................................ <0>
+  [ 44] pushzero ................................ <0>
+  [ 45] pushzero ................................ <0>
+  [ 46] pushzero ................................ <0>
+  [ 47] getprop 67 .............................. <pmod>
+  [ 49] getobjprop 16 ........................... <pmod.name>
+  [ 51] getchunk ................................ <word 2 of the name of pmod>
+  [ 52] setprop 477 ............................. wrd2 = word 2 of the name of pmod
+  [ 55] pushint8 1 .............................. <1>
+  [ 57] setprop 478 ............................. anspeed = 1
+  [ 60] pushzero ................................ <0>
+  [ 61] setprop 479 ............................. running = 0
+  [ 64] getglobal 159 ........................... <hspots>
+  [ 66] getparam 0 .............................. <me>
+  [ 68] pusharglistnoret 2 ...................... <hspots, me>
+  [ 70] objcall 55 .............................. hspots.add(me)
+  [ 72] pushzero ................................ <0>
+  [ 73] setprop 480 ............................. saidit = 0
+  [ 76] getmovieprop 53 ......................... <the actorList>
+  [ 78] getparam 0 .............................. <me>
+  [ 80] pusharglistnoret 2 ...................... <the actorList, me>
+  [ 82] objcall 55 .............................. (the actorList).add(me)
+  [ 84] getparam 0 .............................. <me>
+  [ 86] pusharglistnoret 1 ...................... <me>
+  [ 88] extcall 173 ............................. return me
+  [ 90] ret
+end
+
+on stepFrame me
+  [  0] getglobal 28 ............................ <goody>
+  [  2] pusharglist 1 ........................... <goody>
+  [  4] extcall 92 .............................. <voidp(goody)>
+  [  6] not ..................................... <not voidp(goody)>
+  [  7] jmpifz [194] ............................ if not voidp(goody) then
+  [ 10] getprop 479 ............................. <running>
+  [ 13] pushzero ................................ <0>
+  [ 14] eq ...................................... <running = 0>
+  [ 15] jmpifz [150] ............................ if running = 0 then / else
+  [ 18] getprop 67 .............................. <pmod>
+  [ 20] getchainedprop 74 ....................... <pmod.transform>
+  [ 22] getobjprop 42 ........................... <pmod.transform.position>
+  [ 24] getglobal 28 ............................ <goody>
+  [ 26] getobjprop 27 ........................... <goody.bsp>
+  [ 28] pushint8 2 .............................. <2>
+  [ 30] mul ..................................... <goody.bsp * 2>
+  [ 31] pusharglist 2 ........................... <pmod.transform.position, goody.bsp * 2>
+  [ 33] extcall 170 ............................. <closetome(pmod.transform.position, goody.bsp * 2)>
+  [ 35] jmpifz [147] ............................ if closetome(pmod.transform.position, goody.bsp * 2) then
+  [ 38] getprop 477 ............................. <wrd2>
+  [ 41] pushcons 0 .............................. <"open">
+  [ 43] eq ...................................... <wrd2 = "open">
+  [ 44] jmpifz [ 75] ............................ if wrd2 = "open" then / else
+  [ 47] pushsymb 103 ............................ <#subject>
+  [ 49] pushcons 1 .............................. <"doorz">
+  [ 51] pushsymb 104 ............................ <#content>
+  [ 53] getprop 67 .............................. <pmod>
+  [ 55] pusharglist 1 ........................... <pmod>
+  [ 57] extcall 214 ............................. <string(pmod)>
+  [ 59] pusharglist 4 ........................... <[#subject: "doorz", #content: string(pmod)]>
+  [ 61] pushproplist ............................ <[#subject: "doorz", #content: string(pmod)]>
+  [ 62] pusharglistnoret 1 ...................... <[#subject: "doorz", #content: string(pmod)]>
+  [ 64] extcall 102 ............................. submitmus([#subject: "doorz", #content: string(pmod)])
+  [ 66] getparam 0 .............................. <me>
+  [ 68] pusharglistnoret 1 ...................... <me>
+  [ 70] localcall 2 ............................. anplay(me)
+  [ 72] jmp [147]
+  [ 75] getglobal 28 ............................ <goody>
+  [ 77] getchainedprop 46 ....................... <goody.keys>
+  [ 79] getprop 477 ............................. <wrd2>
+  [ 82] pusharglist 2 ........................... <goody.keys, wrd2>
+  [ 84] objcall 54 .............................. <goody.keys.getOne(wrd2)>
+  [ 86] pushzero ................................ <0>
+  [ 87] gt ...................................... <goody.keys.getOne(wrd2) > 0>
+  [ 88] jmpifz [119] ............................ if goody.keys.getOne(wrd2) > 0 then / else
+  [ 91] pushsymb 103 ............................ <#subject>
+  [ 93] pushcons 1 .............................. <"doorz">
+  [ 95] pushsymb 104 ............................ <#content>
+  [ 97] getprop 67 .............................. <pmod>
+  [ 99] pusharglist 1 ........................... <pmod>
+  [101] extcall 214 ............................. <string(pmod)>
+  [103] pusharglist 4 ........................... <[#subject: "doorz", #content: string(pmod)]>
+  [105] pushproplist ............................ <[#subject: "doorz", #content: string(pmod)]>
+  [106] pusharglistnoret 1 ...................... <[#subject: "doorz", #content: string(pmod)]>
+  [108] extcall 102 ............................. submitmus([#subject: "doorz", #content: string(pmod)])
+  [110] getparam 0 .............................. <me>
+  [112] pusharglistnoret 1 ...................... <me>
+  [114] localcall 2 ............................. anplay(me)
+  [116] jmp [147]
+  [119] getprop 480 ............................. <saidit>
+  [122] pushzero ................................ <0>
+  [123] eq ...................................... <saidit = 0>
+  [124] jmpifz [147] ............................ if saidit = 0 then
+  [127] pushint8 1 .............................. <1>
+  [129] setprop 480 ............................. saidit = 1
+  [132] getglobal 28 ............................ <goody>
+  [134] pushcons 2 .............................. <"You need the ">
+  [136] getprop 477 ............................. <wrd2>
+  [139] joinstr ................................. <"You need the " & wrd2>
+  [140] pushcons 3 .............................. <" key!">
+  [142] joinstr ................................. <"You need the " & wrd2 & " key!">
+  [143] pusharglistnoret 2 ...................... <goody, "You need the " & wrd2 & " key!">
+  [145] objcall 3 ............................... goody.feedback("You need the " & wrd2 & " key!")
+  [147] jmp [194]
+  [150] getprop 67 .............................. <pmod>
+  [152] getchainedprop 476 ...................... <pmod.keyframePlayer>
+  [155] getobjprop 462 .......................... <pmod.keyframePlayer.currentTime>
+  [158] pushint16 1600 .......................... <1600>
+  [161] gt ...................................... <pmod.keyframePlayer.currentTime > 1600>
+  [162] jmpifz [194] ............................ if pmod.keyframePlayer.currentTime > 1600 then
+  [165] getprop 67 .............................. <pmod>
+  [167] getchainedprop 476 ...................... <pmod.keyframePlayer>
+  [170] pushzero ................................ <0>
+  [171] setobjprop 450 .......................... pmod.keyframePlayer.playRate = 0
+  [174] getmovieprop 53 ......................... <the actorList>
+  [176] getparam 0 .............................. <me>
+  [178] pusharglistnoret 2 ...................... <the actorList, me>
+  [180] objcall 155 ............................. (the actorList).deleteOne(me)
+  [182] getglobal 159 ........................... <hspots>
+  [184] getparam 0 .............................. <me>
+  [186] pusharglistnoret 2 ...................... <hspots, me>
+  [188] objcall 155 ............................. hspots.deleteOne(me)
+  [190] pushzero ................................ <0>
+  [191] setprop 479 ............................. running = 0
+  [194] ret
+end
+
+on anplay me
+  [  0] getprop 67 .............................. <pmod>
+  [  2] getchainedprop 74 ....................... <pmod.transform>
+  [  4] getobjprop 42 ........................... <pmod.transform.position>
+  [  6] pushcons 4 .............................. <"door">
+  [  8] pusharglistnoret 2 ...................... <pmod.transform.position, "door">
+  [ 10] extcall 88 .............................. playsound(pmod.transform.position, "door")
+  [ 12] getglobal 39 ............................ <ghvk>
+  [ 14] getprop 67 .............................. <pmod>
+  [ 16] pusharglistnoret 2 ...................... <ghvk, pmod>
+  [ 18] objcall 473 ............................. ghvk.removethefella(pmod)
+  [ 21] getprop 67 .............................. <pmod>
+  [ 23] getchainedprop 476 ...................... <pmod.keyframePlayer>
+  [ 26] getprop 478 ............................. <anspeed>
+  [ 29] setobjprop 450 .......................... pmod.keyframePlayer.playRate = anspeed
+  [ 32] pushint8 1 .............................. <1>
+  [ 34] setprop 479 ............................. running = 1
+  [ 37] ret
+end

@@ -1,0 +1,24 @@
+{
+  "manual": "docs/research-evidence/2026-10-02/texture-default-conflict/scripting-reference.pdf",
+  "sha256": "cac296f854e9d60d73567e00f19291851a9c5db806e0613eccbd510a37d29eca",
+  "inspectedPdfPages": [
+    888,
+    942,
+    1033,
+    1035,
+    1036,
+    1037,
+    1038,
+    1039
+  ],
+  "briefQuote": "which maps to the upper left corner of the texture",
+  "quotePage": 1037,
+  "findings": {
+    "origin": "2D transform rotation origin maps to upper-left image corner; no centered transform inferred",
+    "nearFiltering": "Bilinear filtering for magnification; false disables it",
+    "qualityLow": "Disables mipmapping; text distinguishes mipmapping from filtering",
+    "minificationNearestEstablished": false
+  },
+  "parser": "pypdf installed in isolated /tmp/ra-pdf-reader only; failed pdftotext unavailable command retained",
+  "originalRuntimeExecuted": false
+}

@@ -1,0 +1,40 @@
+518 Chapter 12:  Methods
+Parameters
+xScale Required if specifying three scalings. Specifies the scale along the x-axis.
+yScale Required if specifying three scalings. Specifies the scale along the y-axis.
+zScale Required if specifying three scalings. Specifies the scale along the z-axis.
+uniformScale Required if specifying a single, uniform scaling. Specifies the uniform scaling.
+Example
+This example first displays the transform.scale property for the model named Moon, then it 
+scales the model using the scale command, and finally, it displays the resulting 
+transform.scale value.
+put member("Scene").model("Moon").transform.scale
+-- vector( 1.0000, 1.0000, 1.0000)
+member("Scene").model("Moon").scale(2.0,1.0,0.5)
+put member("Scene").model("Moon").transform.scale
+-- vector( 2.0000, 1.0000, 0.5000)
+This statement scales the model named Pluto uniformly along all three axes by 0.5, resulting in 
+the model displaying at half of its size.
+member("Scene").model("Pluto").scale(0.5)
+This statement scales the model named Oval in a nonuniform manner, scaling it along its z-axis 
+but not its x- or y-axes.
+member("Scene").model("Pluto").scale(0.0, 0.0, 0.5)
+See also
+transform (property), preScale(), scale (transform)
+script()
+Usage
+-- Lingo syntax
+script(memberNameOrNum {, castNameOrNum})
+// JavaScript syntax
+script(memberNameOrNum {, castNameOrNum});
+Description
+Top level function; creates a reference to a given cast member that contains a script, and 
+optionally specifies the cast library that contains the member.
+An error is returned if the given cast member does not contain a script, or if the given cast 
+member does not exist.
+Parameters
+memberNameOrNum Required. A string that specifies the name of the cast member that contains a 
+script, or an integer that specifies the index position of the cast member that contains a script.
+castNameOrNum Optional. A string that specifies the name of the cast library that contains the 
+member memberNameOrNum, or an integer that specifies the index position of the cast library that 
+contains the member memberNameOrNum. If omitted, script() searches the first cast library.

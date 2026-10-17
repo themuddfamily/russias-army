@@ -1,0 +1,21 @@
+import {test,expect} from '@playwright/test';
+import {mkdir,writeFile} from 'node:fs/promises';
+test.setTimeout(120_000);
+for(const map of ['barrack','woodlands'])test(`${map} source wait survives held numeric selection and chat through authority`,async({page})=>{
+ const errors:string[]=[],serverErrors:unknown[]=[];page.on('pageerror',e=>errors.push(e.message));page.on('websocket',s=>s.on('framereceived',({payload})=>{try{const m=JSON.parse(String(payload));if(m.type==='error')serverErrors.push(m);}catch{}}));
+ await page.addInitScript(()=>{let locked:Element|null=null;Object.defineProperty(Document.prototype,'pointerLockElement',{configurable:true,get:()=>locked});Object.defineProperty(HTMLCanvasElement.prototype,'requestPointerLock',{configurable:true,value:function(this:HTMLCanvasElement){locked=this;document.dispatchEvent(new Event('pointerlockchange'));return Promise.resolve();}});Object.defineProperty(Document.prototype,'exitPointerLock',{configurable:true,value(){locked=null;document.dispatchEvent(new Event('pointerlockchange'));}});});
+ await page.goto(`/?map=${map}&quality=low&e2e=1`);await expect(page.locator('#loading')).toHaveCount(0,{timeout:45_000});await page.locator('#mode-online').click();await page.locator('#deploy').click();await page.locator('#room-code').fill('COUNTER'+Date.now().toString(36));await page.locator('#join-room').click();await expect(page.locator('#network-status')).toHaveAttribute('data-state','connected');await page.locator('#game canvas').click();
+ const read=()=>page.evaluate(()=>(window as any).__RA_MULTIPLAYER_DEBUG__.snapshot());
+ await page.keyboard.down('3');await expect(page.locator('tr[data-weapon="rifle"]')).toHaveClass(/active/);await page.keyboard.up('3');
+ await page.keyboard.down('r');await expect.poll(async()=>(await read()).loadout.reloading).toBe(true);await page.keyboard.up('r');
+ const reloaded=await read();await page.keyboard.down('6');await expect(page.locator('tr[data-weapon="sniper"]')).toHaveClass(/active/);await page.keyboard.up('6');
+ const switched=await read();expect(switched.loadout.ammo.sniper).toBe(30);expect(switched.loadout.reserve.sniper).toBe(12);expect(switched.loadout.ammo.rifle).toBe(28);expect(switched.loadout.reloading).toBe(true);
+ await page.keyboard.press('Tab');await expect(page.locator('#chat-form')).toBeVisible();await expect.poll(async()=>(await read()).authoritativeLocal?.typing).toBe(true);
+ const typing=await read();await page.waitForTimeout(350);const typed=await read();
+ if(map==='barrack')expect(typed.loadout.sourceCounter.waitgun).toBe(typing.loadout.sourceCounter.waitgun);
+ else expect(typed.loadout.sourceCounter.waitgun).toBeLessThan(typing.loadout.sourceCounter.waitgun);
+ await page.keyboard.press('Tab');await expect(page.locator('#chat-form')).toHaveClass(/hidden/);await expect.poll(async()=>(await read()).authoritativeLocal?.typing).toBe(false);
+ await page.keyboard.down('6');await page.keyboard.down('1');await expect(page.locator('tr[data-weapon="pistol"]')).toHaveClass(/active/);await page.keyboard.up('1');await page.keyboard.up('6');
+ const selected=await read();expect(selected.loadout.ammo.pistol).toBe(8);expect(selected.loadout.reserve.pistol).toBe(54);
+ const out='artifacts/fidelity-review/2026-09-30/current';await mkdir(out,{recursive:true});await writeFile(`${out}/${map}-source-counter-selection-chat.json`,JSON.stringify({map,verified:errors.length===0&&serverErrors.length===0,reloaded:reloaded.loadout,switched:switched.loadout,typing:typing.loadout,typed:typed.loadout,selected:selected.loadout,errors,serverErrors},null,2));expect(errors).toEqual([]);expect(serverErrors).toEqual([]);
+});

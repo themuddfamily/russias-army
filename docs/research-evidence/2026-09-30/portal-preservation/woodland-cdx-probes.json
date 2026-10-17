@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=www.gamevial.com%2Frussiasarmywood.dcr&output=json&filter=statuscode:200",
+    "error": "HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=15)"
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=www.gamevial.com%2Fplaygames.php%3Fgame%3Drussiasarmywood&output=json&filter=statuscode:200&collapse=digest",
+    "error": "HTTPSConnectionPool(host='web.archive.org', port=443): Read timed out. (read timeout=15)"
+  }
+]

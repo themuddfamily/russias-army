@@ -1,0 +1,30 @@
+{
+  "retrieved": "2026-10-03",
+  "continuous_media_recovered": false,
+  "sources": [
+    {
+      "alias": "B1",
+      "id": "CC8VIJ2_HNc",
+      "url": "https://www.youtube.com/watch?v=CC8VIJ2_HNc"
+    },
+    {
+      "alias": "B2",
+      "id": "KPsjHQLUY2E",
+      "url": "https://www.youtube.com/watch?v=KPsjHQLUY2E"
+    }
+  ],
+  "requested_excerpt_seconds": [
+    0,
+    120
+  ],
+  "stream_failure": "HTTP 403 at input opening, no decoded frames",
+  "original_runtime_executed": false,
+  "sha256": {
+    "B1-download.log": "35ad2af8ab9fae81cb339bdf65900029890b7587ffbdbaaa398a4ccdfab6e510",
+    "B1-web-formats.log": "f42ba682137cec81cdc0a60acb5e0b44c25698939749e9e16c9df588d30c7f2f",
+    "B1.info.json": "6e66320ade7c51a6b9098e27fa8b34c6dfb356c6f4fdc4a0ae33ce56e0efe01e",
+    "B2-download.log": "cc87f7ad4b8a05ae606384ba7229126f6779ee13b3ff8eb58ab859103b72861e",
+    "B2.info.json": "3d04c21069e7b033f38281c01b21e3023392ecc54ea9735136121375d6e36827",
+    "REPORT.md": "fccf924243c133635ada75d3fe11f1af27881efd47d8b0493ea944876e045be1"
+  }
+}

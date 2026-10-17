@@ -1,0 +1,361 @@
+{
+  "parts": [
+    {
+      "resource": "spas12",
+      "part": 0,
+      "vertices": 765,
+      "faces": 358,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "rg6",
+      "part": 0,
+      "vertices": 614,
+      "faces": 347,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "pistol",
+      "part": 0,
+      "vertices": 231,
+      "faces": 154,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "mfspas12",
+      "part": 0,
+      "vertices": 12,
+      "faces": 6,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "ak47",
+      "part": 0,
+      "vertices": 814,
+      "faces": 359,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "mfpistol",
+      "part": 0,
+      "vertices": 12,
+      "faces": 6,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "dragunov",
+      "part": 0,
+      "vertices": 1025,
+      "faces": 894,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "rpg",
+      "part": 0,
+      "vertices": 886,
+      "faces": 482,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "mfdragunov",
+      "part": 0,
+      "vertices": 12,
+      "faces": 6,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "rg6grenade",
+      "part": 0,
+      "vertices": 129,
+      "faces": 144,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "mfak47",
+      "part": 0,
+      "vertices": 12,
+      "faces": 6,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    },
+    {
+      "resource": "rpgrocket",
+      "part": 0,
+      "vertices": 195,
+      "faces": 140,
+      "uv_layers": 1,
+      "checks": {
+        "finite_positions": true,
+        "finite_normals": true,
+        "finite_uvs": true,
+        "valid_faces": true,
+        "declared_counts_match": true,
+        "within_resource_sphere_1_percent": true
+      }
+    }
+  ],
+  "validation_failures": [],
+  "world_bounds": [
+    {
+      "model": "rpg",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -14.349990844726562,
+        -4.102395700810234,
+        -4.167209625244141
+      ],
+      "original_z_up_max": [
+        52.745609283447266,
+        4.102396321894844,
+        14.620047569274902
+      ]
+    },
+    {
+      "model": "ak47",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -38.27040481567383,
+        -1.4779901060288978,
+        -8.100811004638672
+      ],
+      "original_z_up_max": [
+        16.800491333007812,
+        1.4779894796186852,
+        8.863544464111328
+      ]
+    },
+    {
+      "model": "spas12",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -47.26106262207031,
+        -1.872633131677162,
+        -3.948474168777466
+      ],
+      "original_z_up_max": [
+        2.9871866703033447,
+        1.8726317561325914,
+        8.49753189086914
+      ]
+    },
+    {
+      "model": "rg6",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -31.247709331354024,
+        -5.067178022605157,
+        -7.005155760493557
+      ],
+      "original_z_up_max": [
+        5.473132860564102,
+        5.067181887624016,
+        7.22919872714291
+      ]
+    },
+    {
+      "model": "rpgrocket",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -42.994606018066406,
+        -2.517962694168091,
+        4.586082458496094
+      ],
+      "original_z_up_max": [
+        2.3411083221435547,
+        2.51796293258667,
+        9.62192153930664
+      ]
+    },
+    {
+      "model": "rg6grenade",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -2.1961679458618164,
+        -1.6377562284469604,
+        -1.6547282934188843
+      ],
+      "original_z_up_max": [
+        2.1961681842803955,
+        1.6377562284469604,
+        1.6547282934188843
+      ]
+    },
+    {
+      "model": "mfak47",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -63.14365768432617,
+        -7.00894454265224,
+        -1.5026553010950003
+      ],
+      "original_z_up_max": [
+        -36.89616775512695,
+        7.008942162758215,
+        12.52232551574707
+      ]
+    },
+    {
+      "model": "mfspas12",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -73.78409576416016,
+        -9.585778518274129,
+        -3.3599789213500033
+      ],
+      "original_z_up_max": [
+        -46.394371032714844,
+        9.585777491856566,
+        15.821269989013672
+      ]
+    },
+    {
+      "model": "mfpistol",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -30.294431686401367,
+        -4.879835186301502,
+        0.7503813913698058
+      ],
+      "original_z_up_max": [
+        -16.187400817871094,
+        5.607508051318769,
+        11.243062082960572
+      ]
+    },
+    {
+      "model": "pistol",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -17.120433807373047,
+        -1.3649056773197117,
+        -4.438131809234619
+      ],
+      "original_z_up_max": [
+        2.470959186553955,
+        1.384972848414236,
+        7.563226699829102
+      ]
+    },
+    {
+      "model": "dragunov",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -58.54803856694557,
+        -1.6288099237649158,
+        -3.888202667236328
+      ],
+      "original_z_up_max": [
+        16.781810906209394,
+        2.198380177947744,
+        10.796476364135742
+      ]
+    },
+    {
+      "model": "mfdragunov",
+      "original_parent": "World",
+      "original_z_up_min": [
+        -80.37908935546875,
+        -7.008944609182811,
+        -3.379993948937491
+      ],
+      "original_z_up_max": [
+        -54.13165283203125,
+        7.008943049902002,
+        10.644930839538574
+      ]
+    }
+  ],
+  "declared_original_vertices": 4707,
+  "declared_original_faces": 2902,
+  "parse_errors": [],
+  "skeletons_decoded": 0,
+  "motions_decoded": 0,
+  "synthetic_defaultmodel_excluded": true
+}

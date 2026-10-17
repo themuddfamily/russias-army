@@ -1,0 +1,22 @@
+{
+  "public/assets/original-scenes/barrack/scene.json": "7b252e098959f98a872850551fdf8f52e5b7e1b5ea79dfa6af21b841f0d31ad3",
+  "public/assets/original-scenes/barrack/doors.json": "31fd470230a100fa7f7b6d83c0ad89a78ad77b5555de7739af33ec9bbd7ccd8e",
+  "shared/originalMapProfile.ts": "0ba668f15dda6d1f5314f58310a2ea174a70d18c2df51267163d521303da0da3",
+  "shared/originalDoorWorld.ts": "547f14d06a68b4c3d5e71bac60c3f48794e8ea45cb112b1ba863dc87a17acc29",
+  "shared/originalSceneGeometry.ts": "56397c99ae1b8ebd935369ae3b1a519474802107943426292513dd1e86428e1d",
+  "shared/originalPlayerPhysics.ts": "27679579fc5cd250fe588b231ac6e88e6cd30b96ba673f583d3cae0f980fdcbf",
+  "shared/originalConvexSweep.ts": "a2a6adc85b38294a40f1c482524151de1fc45a2be54212c32aec0470b01abc7f",
+  "shared/originalExplosives.ts": "b2983fe87ee91fbe0b66270049078e1053ce394523956974b37615485dd51cb2",
+  "scripts/run-bounded.sh": "5763897ed0e05737e15674fcf6b9c78a739fb75207aa08958b717c95504d7620",
+  "docs/research-evidence/2026-10-03/barrack-diagonal-bypass/replay.ts": "7a2c99c2b3b2c33629c2fd1a169a806e2f192fbc535049087971c7d68d7ed25c",
+  "docs/research-evidence/2026-10-03/barrack-route-geometry/inventory.json": "ce7b12947da2c81caf018379ccdddb9f12f2e1ad6a9d15a821c69cbd149ba725",
+  "docs/research-evidence/2026-10-03/barrack-corridor-ascent/REPORT.md": "98ef6aeaca88262e4d68cd37a6dbf7242cdeb347d3c9d5e49ea5bfbfc8217286",
+  "docs/research-evidence/2026-10-03/barrack-corridor-ascent/settled-replay.log": "7453f5f41c8640d0b1986065028f1ca0d678248052feb3a00d95470b6414bc7d",
+  "docs/research-evidence/2026-10-03/barrack-corridor-ascent/replay.log": "bc8af4796f67d3fd75f9f7b6e37f72fed19d1fc487db03e67614e412d21dadca",
+  "docs/research-evidence/2026-10-03/barrack-corridor-ascent/source-witnesses.json": "f35f49b9adc80eb0da27c2afba67e9ffc9c6ad2f9ce81d08c9e6a1a4964f3c03",
+  "docs/research-evidence/2026-10-03/barrack-corridor-ascent/inspect.ts": "f351bb61ab238ba1cad7429aa11430f243922fbe9aa465554de106f7b1d3eae0",
+  "docs/research-evidence/2026-10-03/barrack-corridor-ascent/record.py": "102c4bbffe472bf8b88213db31f6d188ad225d4b68d02fa1f1f4e397c149e9a7",
+  "docs/research-evidence/2026-10-03/barrack-corridor-ascent/inspection.log": "2434c9cccda629cc8c594de2aabc7b0547b5251ceb0d37e6ce86d478ee02dc44",
+  "docs/research-evidence/2026-10-03/barrack-corridor-ascent/replay.ts": "40d9f052a316d7de38e89edefb81b79ba0dae089db9bba69a58c61de4ece0128",
+  "docs/research-evidence/2026-10-03/barrack-corridor-ascent/replay.json": "86c942586f334042ca2f710fdd58d04e259d6d67a8c2980fe4337e004f1ba1c9"
+}

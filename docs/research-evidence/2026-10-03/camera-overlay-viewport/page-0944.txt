@@ -1,0 +1,39 @@
+944 Chapter 14:  Properties
+The command creates a Shock Font in whichCastMember using the font named in the font 
+argument. The value returned from the command reports whether the operation was successful. 
+Zero indicates success.
+Example
+This statement creates a simple Shock Font using only the two arguments for the cast member 
+and the font to record:
+myNewFontMember = new(#font)
+recordFont(myNewFontMember, "Lunar Lander")
+This statement specifies the bitmap sizes to be generated and the characters for which the font 
+data should be created:
+myNewFontMember = new(#font)
+recordfont(mynewmember,"lunar lander",  [],  [14, 18, 45], "Lunar Lander Game 
+High \ Score First Last Name")
+Note: Since recordFont resynthesizes the font data rather than using it directly, there are no legal 
+restrictions on Shock Font distribution.
+See also
+new()
+rect (camera)
+Usage
+sprite(whichSprite).camera(whichCamera).rect
+Description
+3D camera property; allows you to get or set the rectangle that controls the size and position 
+of the camera. This rectangle is analogous to the rectangle you see through the eyepiece of a 
+real camera.
+The default value for the rect property for all cameras rect(0,0,1,1) which makes them invisible 
+until you change the setting. However, when sprite.camera(1) is rendered, its rect is reset to 
+rect(0, 0, sprite(whichSprite).width, sprite(whichSprite).height) so that the 
+camera fills the screen. All camera rect coordinates are given relative to the top left corner of 
+the sprite. 
+If whichCamera is greater than 1, the rect is not scaled when the sprite is scaled, so it will be 
+necessary to manage that with script if desired. 
+When whichCamera is greater than 1, the rect.top and rect.left properties must be greater 
+than or equal to the rect.top and rect.left settings for sprite.camera(1).
+Example
+This statement sets the rect of the default camera of sprite 5 to rect(0, 0, 200, 550):
+sprite(5).camera.rect = rect(0, 0, 200, 550)
+See also
+cameraPosition, cameraRotation

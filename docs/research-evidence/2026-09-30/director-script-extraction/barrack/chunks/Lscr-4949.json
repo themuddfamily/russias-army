@@ -1,0 +1,230 @@
+{
+  "totalLength": 2066,
+  "totalLength2": 2066,
+  "headerLength": 92,
+  "scriptNumber": 23,
+  "unk20": 3,
+  "parentNumber": -1,
+  "scriptFlags": 0,
+  "unk42": 0,
+  "castID": 196640,
+  "factoryNameID": -1,
+  "handlerVectorsCount": 0,
+  "handlerVectorsOffset": 2066,
+  "handlerVectorsSize": 0,
+  "propertiesCount": 1,
+  "propertiesOffset": 92,
+  "globalsCount": 10,
+  "globalsOffset": 94,
+  "handlersCount": 3,
+  "handlersOffset": 114,
+  "literalsCount": 27,
+  "literalsOffset": 1526,
+  "literalsDataCount": 324,
+  "literalsDataOffset": 1742,
+  "propertyNameIDs": [
+    605
+  ],
+  "globalNameIDs": [
+    311,
+    368,
+    94,
+    572,
+    119,
+    53,
+    125,
+    139,
+    45,
+    413
+  ],
+  "handlers": [
+    {
+      "nameID": 0,
+      "vectorPos": 65535,
+      "compiledLen": 7,
+      "compiledOffset": 252,
+      "argumentCount": 1,
+      "argumentOffset": 260,
+      "localsCount": 0,
+      "localsOffset": 262,
+      "globalsCount": 0,
+      "globalsOffset": 94,
+      "unknown1": 128,
+      "unknown2": 9,
+      "lineCount": 1,
+      "lineOffset": 262,
+      "stackHeight": 2
+    },
+    {
+      "nameID": 489,
+      "vectorPos": 65535,
+      "compiledLen": 925,
+      "compiledOffset": 264,
+      "argumentCount": 1,
+      "argumentOffset": 1190,
+      "localsCount": 16,
+      "localsOffset": 1192,
+      "globalsCount": 0,
+      "globalsOffset": 94,
+      "unknown1": 169,
+      "unknown2": 14,
+      "lineCount": 72,
+      "lineOffset": 1224,
+      "stackHeight": 9
+    },
+    {
+      "nameID": 571,
+      "vectorPos": 65535,
+      "compiledLen": 199,
+      "compiledOffset": 1296,
+      "argumentCount": 1,
+      "argumentOffset": 1496,
+      "localsCount": 4,
+      "localsOffset": 1498,
+      "globalsCount": 0,
+      "globalsOffset": 94,
+      "unknown1": 2459,
+      "unknown2": 89,
+      "lineCount": 19,
+      "lineOffset": 1506,
+      "stackHeight": 5
+    }
+  ],
+  "literals": [
+    {
+      "type": 1,
+      "offset": 0,
+      "value": "level"
+    },
+    {
+      "type": 1,
+      "offset": 10,
+      "value": "worldphysics"
+    },
+    {
+      "type": 1,
+      "offset": 28,
+      "value": "smokes"
+    },
+    {
+      "type": 1,
+      "offset": 40,
+      "value": "efault"
+    },
+    {
+      "type": 1,
+      "offset": 52,
+      "value": "grass"
+    },
+    {
+      "type": 1,
+      "offset": 62,
+      "value": "outerfencing"
+    },
+    {
+      "type": 1,
+      "offset": 80,
+      "value": "floortop"
+    },
+    {
+      "type": 1,
+      "offset": 94,
+      "value": "floor"
+    },
+    {
+      "type": 1,
+      "offset": 104,
+      "value": "noise"
+    },
+    {
+      "type": 9,
+      "offset": 114,
+      "value": 0.005
+    },
+    {
+      "type": 1,
+      "offset": 126,
+      "value": "goody"
+    },
+    {
+      "type": 1,
+      "offset": 136,
+      "value": "parents"
+    },
+    {
+      "type": 1,
+      "offset": 148,
+      "value": "lift"
+    },
+    {
+      "type": 1,
+      "offset": 158,
+      "value": "hotspots"
+    },
+    {
+      "type": 1,
+      "offset": 172,
+      "value": "anim"
+    },
+    {
+      "type": 1,
+      "offset": 182,
+      "value": "animswitch"
+    },
+    {
+      "type": 1,
+      "offset": 198,
+      "value": "liftswitch2"
+    },
+    {
+      "type": 1,
+      "offset": 214,
+      "value": "liftswitch"
+    },
+    {
+      "type": 1,
+      "offset": 230,
+      "value": "door"
+    },
+    {
+      "type": 1,
+      "offset": 240,
+      "value": "doors"
+    },
+    {
+      "type": 1,
+      "offset": 250,
+      "value": "barrel"
+    },
+    {
+      "type": 1,
+      "offset": 262,
+      "value": "barrels"
+    },
+    {
+      "type": 1,
+      "offset": 274,
+      "value": ""
+    },
+    {
+      "type": 9,
+      "offset": 280,
+      "value": 0.94999999999999996
+    },
+    {
+      "type": 1,
+      "offset": 292,
+      "value": "sky"
+    },
+    {
+      "type": 9,
+      "offset": 300,
+      "value": 0.10000000000000001
+    },
+    {
+      "type": 9,
+      "offset": 312,
+      "value": 1.01000000000000001
+    }
+  ]
+}

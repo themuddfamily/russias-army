@@ -1,0 +1,32 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {createHash} from 'node:crypto';
+import {createOriginalDoorWorld} from '../../../../shared/originalDoorWorld';
+import {originalNodeWorldMatrices,sourcePointToWorld} from '../../../../shared/originalSceneGeometry';
+import {ORIGINAL_MAP_SCALE as S} from '../../../../shared/originalMapProfile';
+import {createOriginalPlayerBody,stepOriginalPhysicsWorld,applyOriginalPlayerControls,originalPlayerEye,ORIGINAL_PLAYER_RADIUS as R,ORIGINAL_PLAYER_EYE_OFFSET as E} from '../../../../shared/originalPlayerPhysics';
+import {ORIGINAL_COLLISION_CONTACT_DISTANCE as T} from '../../../../shared/originalExplosives';
+const base='docs/research-evidence/2026-10-03/barrack-door-passages/',scenePath='public/assets/original-scenes/barrack/scene.json',tracksPath='public/assets/original-scenes/barrack/doors.json';
+const data=JSON.parse(readFileSync(scenePath,'utf8')),tracks=JSON.parse(readFileSync(tracksPath,'utf8')),world=createOriginalDoorWorld(data,S,tracks),matrices=originalNodeWorldMatrices(data),records=[];
+const sub=(a:any,b:any)=>({x:a.x-b.x,y:a.y-b.y,z:a.z-b.z}),dot=(a:any,b:any)=>a.x*b.x+a.y*b.y+a.z*b.z;
+for(const track of tracks.doors){
+ const node=data.nodes.find((n:any)=>n.name===track.name),matrix=matrices.get(node.name.toLowerCase())!,meshes=data.meshes.filter((m:any)=>m.resource===node.resource);let area=0,normal:any,face:any,points:any[]=[];
+ for(const mesh of meshes){const vertices=mesh.positions.map((p:number[])=>sourcePointToWorld([0,1,2].map(i=>matrix[12+i]+matrix[i]*p[0]+matrix[4+i]*p[1]+matrix[8+i]*p[2]),S));points.push(...vertices);
+ for(let f=0;f<mesh.faces.length;f++){const [a,b,c]=mesh.faces[f].map((i:number)=>vertices[i]),u=sub(b,a),v=sub(c,a),n={x:u.y*v.z-u.z*v.y,y:u.z*v.x-u.x*v.z,z:u.x*v.y-u.y*v.x},size=Math.hypot(n.x,n.y,n.z);if(size>area&&Math.abs(n.y)/size<.1){area=size;normal={x:n.x/size,y:0,z:n.z/size};const h=Math.hypot(normal.x,normal.z);normal.x/=h;normal.z/=h;face={part:mesh.part,index:f,indices:mesh.faces[f],vertices:[a,b,c]};}}
+ }
+ const bounds=Object.fromEntries(['x','y','z'].map(k=>[k,[Math.min(...points.map(p=>p[k])),Math.max(...points.map(p=>p[k]))]])) as any,center={x:(bounds.x[0]+bounds.x[1])/2,y:(bounds.y[0]+bounds.y[1])/2,z:(bounds.z[0]+bounds.z[1])/2},tangent={x:-normal.z,y:0,z:normal.x},proj=points.map(p=>dot(sub(p,center),normal)),widths=points.map(p=>dot(p,tangent)),halfThickness=Math.max(...proj.map(Math.abs)),offset=R+.3+halfThickness;
+ const originalMidpoint={...center},origin=sourcePointToWorld(track.baseMatrix.slice(12,15),S),availableShift=Math.max(0,(Math.max(...widths)-Math.min(...widths))/2-R-2*T),hingeDirection=Math.sign(dot(sub(origin,center),tangent)),hingeShift=availableShift*hingeDirection;center.x+=tangent.x*hingeShift;center.z+=tangent.z*hingeShift;
+ const record:any={originalMidpoint,hingeShift,availableShift,origin,name:track.name,resource:node.resource,matrix,baseMatrix:track.baseMatrix,bounds,center,normal,normalFace:face,width:Math.max(...widths)-Math.min(...widths),halfThickness,radius:R,contactDistance:T,approaches:[]};
+ for(const side of [-1,1]){const from={x:center.x+normal.x*offset*side,y:bounds.y[0],z:center.z+normal.z*offset*side},to={x:center.x-normal.x*offset*side,y:bounds.y[0],z:center.z-normal.z*offset*side},support=world.fixedGeometry.playerSupportHeightAt(from.x,from.z,bounds.y[0]+R,R,2*R),farSupport=world.fixedGeometry.playerSupportHeightAt(to.x,to.z,bounds.y[0]+R,R,2*R),a:any={side,from,to,support:support??null,farSupport:farSupport??null};record.approaches.push(a);
+ if(support===undefined||farSupport===undefined){a.status='missing_local_support';continue;}
+ from.y=support;to.y=farSupport;a.closedMove=world.movePlayer(from,to,R,2*R);a.initialIntersects=world.playerIntersects(from,R,2*R);
+ if(a.initialIntersects){a.status='initial_approach_intersects';continue;}
+ const opened=world.fork();a.triggered=opened.triggerNearby({...from,y:from.y+R+E},0);a.openedTarget=a.triggered.includes(track.name);a.openMove=opened.movePlayer(from,to,R,2*R);
+ const body=createOriginalPlayerBody('door',{...from,y:from.y+R+E});body.supported=true;const trace=[];let reached=false,intersections=0;
+ const direction={x:-normal.x*side,y:0,z:-normal.z*side},environment={contactDistance:T,memoizePureSweep:true,sweep:(f:any,t:any,r:number)=>opened.sweepSphere(f,t,r,T),contactsSphere:(p:any,r:number)=>opened.contactsSphere(p,r,T)};
+ for(let callback=0;callback<60;callback++){stepOriginalPhysicsWorld([body],[],environment);const newlyOpened=opened.triggerNearby(originalPlayerEye(body),(callback+1)/30);if(newlyOpened.length)a.triggerEvents=(a.triggerEvents??[]).concat([{callback,names:newlyOpened,eye:originalPlayerEye(body)}]);const feet={...body.position,y:body.position.y-R},intersects=opened.playerIntersects(feet,R,2*R);if(intersects)intersections++;const advance=dot(sub(body.position,center),direction);trace.push({callback,position:{...body.position},velocity:{...body.velocity},supported:body.supported,intersects,advance});if(advance>=offset){reached=true;break;}applyOriginalPlayerControls(body,{yaw:Math.atan2(-direction.x,-direction.z),pitch:0,forward:true});}
+ a.trace=trace;a.intersections=intersections;a.status=reached?'crossed_panel_plane_and_far_approach':'did_not_cross_far_approach';a.finalEye=originalPlayerEye(body);a.finalTargetState=opened.getStates().find(d=>d.name===track.name);
+ }
+ records.push(record);console.log(JSON.stringify({name:record.name,width:record.width,statuses:record.approaches.map((a:any)=>a.status),callbacks:record.approaches.map((a:any)=>a.trace?.length??0)}));
+}
+const bindings=[scenePath,tracksPath,'shared/originalDoorWorld.ts','shared/originalSceneGeometry.ts','shared/originalPlayerPhysics.ts','shared/originalMapProfile.ts','shared/originalExplosives.ts',base+'replay.ts'].map(path=>({path,sha256:createHash('sha256').update(readFileSync(path)).digest('hex')}));
+writeFileSync(base+'replay.json',JSON.stringify({scope:'Local traversal of every recovered closed panel; locally placed supported sphere player, no default-spawn connectivity or native-original/browser equivalence claim; fixed scene plus recovered door state, excludes dynamic barrels',scale:S,radius:R,contactDistance:T,bindings,records},null,2));

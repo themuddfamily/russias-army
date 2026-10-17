@@ -1,0 +1,17 @@
+{
+  "docs/research-evidence/2026-10-02/texture-default-conflict/scripting-reference.pdf": "cac296f854e9d60d73567e00f19291851a9c5db806e0613eccbd510a37d29eca",
+  "docs/research-evidence/2026-09-30/director-script-extraction/woodland/casts/parents/ParentScript 5 - goody.ls": "6d1b8229158c635eaa6a418d762866a91f27abf78757e812b6e5c7f0670b1297",
+  "docs/research-evidence/2026-10-01/ORIGINAL_NATIVE_GAMEPLAY_SPRITE.md": "ca8b8cfdae8a59988dde3d2856827ac4b5bd3156f398f1225a7da2dfa9831e26",
+  "docs/research-evidence/2026-10-01/native-gameplay-sprite-constraint.json": "01b15558055bb0b1befa6ed568b77ac5cf2d452d585f681c5d64de6f844ae9fe",
+  "docs/research-evidence/2026-10-03/woodland-interior-projection-constraints/result.json": "6b8f1b1429beb144b94a4b9601c62d294bcd989809d25b31bc0439294196dce4",
+  "docs/research-evidence/2026-10-03/woodland-interior-endpoints/frame-05.png": "ca8962ab6ddf8f3e49edc9a804f4849eb11c15514101f0f8a201c0eab2ccbea9",
+  "docs/research-evidence/2026-10-03/native-fov-axis/REPORT.md": "8a39f3842d3a6c782e9c79f6e8780f9862937ed2a8b54a57c058b5a7c7a93745",
+  "docs/research-evidence/2026-10-03/native-fov-axis/conditional-stretch/analysis.log": "d8194761413569fb45c37a1c08178175971dc9c214d6d4be98e5780ce7c565d8",
+  "docs/research-evidence/2026-10-03/native-fov-axis/conditional-stretch/analyze.py": "895df80cc1a77b82bb97e855c6b0c76a8e2ef53d3c26df318e0965babd8d3ab2",
+  "docs/research-evidence/2026-10-03/native-fov-axis/conditional-stretch/result.json": "f31a4df54f33186925a8b3f67e4c627e4ef87d34f6c8081ac3ff0c3827e76b6d",
+  "docs/research-evidence/2026-10-03/native-fov-axis/hash-inputs.py": "17f163552321c7bfbb5e10798e85d868b5eb930f99dfed79ff5b1012a08e6f76",
+  "docs/research-evidence/2026-10-03/native-fov-axis/index.log": "f8084459881162941be31ab26c3226650d80b4d125cdcf7bac8cf2ede96e868f",
+  "docs/research-evidence/2026-10-03/native-fov-axis/property.log": "9142cc9b29ee47c674764bdc841fc91fc4339b143b26ec9dda092fb5b2377dce",
+  "docs/research-evidence/2026-10-03/native-fov-axis/read-manual.py": "69aa1d44b392530d03650662fc75e5da7cd91cba0df33844253695a2dae2cbb9",
+  "docs/research-evidence/2026-10-03/native-fov-axis/read-property.py": "fdcc62f166baf5e058af0e7b5ac1789c267adbb3ac4112afdebaa6544652758d"
+}

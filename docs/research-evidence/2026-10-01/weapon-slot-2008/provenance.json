@@ -1,0 +1,63 @@
+{
+  "retrieved_at_utc": "2026-10-01T11:21:17.166051+00:00",
+  "url": "https://www.kotaro269.com/articles/9700.html",
+  "transport": "Python urllib HTTPS GET, passive HTML only",
+  "article": {
+    "path": "article.html",
+    "bytes": 615546,
+    "sha256": "5bcf81c7d5f4cc684c53525f89ee054cb0a097302d0c7a6132e28225f3eb4777",
+    "declared_charset": "EUC-JP",
+    "decode": "euc_jp with replacement for unrelated malformed legacy characters",
+    "replacement_characters_full_html": 28
+  },
+  "comments": [
+    {
+      "number": 76,
+      "date_displayed": "2008年01月28日 20:04",
+      "commenter_id": "GR55UwPJ0",
+      "html_id": "cm76",
+      "excerpt": "ピストル・ショットガン・アサルトライフル・地雷・ロケラン",
+      "url": "https://www.kotaro269.com/articles/9700.html#cm76",
+      "decoded_block_sha256": "fd1b8735ac28967bedd9dd13d7496e93660b52a8d152101066d097273737754b",
+      "replacement_characters_in_block": 0
+    },
+    {
+      "number": 277,
+      "date_displayed": "2008年07月29日 13:57",
+      "commenter_id": "5Fp9nsK10",
+      "html_id": "cm277",
+      "excerpt": "狙撃銃追加！",
+      "url": "https://www.kotaro269.com/articles/9700.html#cm277",
+      "decoded_block_sha256": "3ba9e1fe7e7f6f63e6a9665aee605cf6635fce308fa3269d4a46769d543e587f",
+      "replacement_characters_in_block": 0
+    },
+    {
+      "number": 278,
+      "date_displayed": "2008年07月29日 14:56",
+      "commenter_id": "rCF3.utE0",
+      "html_id": "cm278",
+      "excerpt": "おおほんとだ。ドラグノフ追加されとる。",
+      "url": "https://www.kotaro269.com/articles/9700.html#cm278",
+      "decoded_block_sha256": "c65fe3e01ef56eddff266289ac48321f1da6bfee14909b12169aa2a565f2c209",
+      "replacement_characters_in_block": 0
+    },
+    {
+      "number": 305,
+      "date_displayed": "2008年09月04日 20:50",
+      "commenter_id": "anhMtV.B0",
+      "html_id": "cm305",
+      "excerpt": "６番・ドラグノフ戦法",
+      "url": "https://www.kotaro269.com/articles/9700.html#cm305",
+      "decoded_block_sha256": "828291e25971ef91454f67a3fcbb7550f686cc0a5e5a0cf9a20dff67da5cb5a9",
+      "replacement_characters_in_block": 0
+    }
+  ],
+  "finding": "Dated firsthand comments support addition of Dragunov during 2008 and later identification as slot six, explaining the January five-slot instruction as a historical version boundary.",
+  "limits": [
+    "Current retrieval preserves displayed historical timestamps, not an independently archived 2008 snapshot.",
+    "Commenter IDs differ but author independence cannot be authenticated.",
+    "Exact release date, build number and original executable state are not established.",
+    "The early fourth weapon is described colloquially as a mine; do not infer a separate landmine implementation."
+  ],
+  "original_runtime_executed": false
+}

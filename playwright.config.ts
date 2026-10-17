@@ -1,0 +1,29 @@
+import { defineConfig } from '@playwright/test';
+
+export default defineConfig({
+  testDir: './e2e',
+  timeout: 30_000,
+  // Each multiplayer case already owns multiple WebGL canvases. Serializing
+  // specs avoids SwiftShader/GPU contention masking actual network behavior.
+  workers: 1,
+  use: {
+    baseURL: 'http://127.0.0.1:4173',
+    viewport: { width: 1440, height: 900 },
+    screenshot: 'only-on-failure',
+    trace: 'retain-on-failure',
+  },
+  webServer: [
+    {
+      command: 'npm run build && npm run preview -- --port 4173 --strictPort',
+      url: 'http://127.0.0.1:4173',
+      reuseExistingServer: true,
+      timeout: 30_000,
+    },
+    {
+      command: 'npm run server',
+      url: 'http://127.0.0.1:8081/health',
+      reuseExistingServer: true,
+      timeout: 30_000,
+    },
+  ],
+});

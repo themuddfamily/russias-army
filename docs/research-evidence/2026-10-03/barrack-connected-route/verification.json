@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "callbacks": 226,
+  "sweepAndContactQueries": 4147,
+  "intersectionQueries": 226,
+  "contactEvents": 1887,
+  "intersections": 0,
+  "instrumentedVsUninstrumentedTraceExact": true,
+  "contactNormals": [
+    [
+      0.0,
+      -0.0,
+      -1
+    ],
+    [
+      -0.0,
+      1,
+      0
+    ],
+    [
+      0.116891,
+      0.963236,
+      -0.241895
+    ],
+    [
+      0.379288,
+      0.925279,
+      0
+    ],
+    [
+      1.0,
+      0,
+      0.0
+    ]
+  ],
+  "minSphereCenterY": 6.735120178123691,
+  "triggerCallbacks": [
+    214
+  ]
+}

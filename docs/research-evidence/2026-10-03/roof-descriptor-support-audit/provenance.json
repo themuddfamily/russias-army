@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/generator.py",
+      "sha256": "605f7f7638174ad3d89f29b5583ea0ee83d63cc9fb07e001b8ef25c692900c2c"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/descriptor-support.json",
+      "sha256": "7f21a1e260f7c4999a1c27ff21c23509eab01242a58b45ede79f9eb3180b31b4"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/support_analysis.py",
+      "sha256": "02179c7419643667bcfd3aa0e9ffa56a00fd8ea10c74890cc3cc2cf4000fe1dd"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/sampling-support-diagnostic.json",
+      "sha256": "9377cede046f28909ae32b2826a55ba627426982e484b0f090592fb0106453c5"
+    },
+    {
+      "path": "docs/research-evidence/2026-10-03/roof-descriptor-support-audit/REPORT.md",
+      "sha256": "4e5e4ddb94a8273c01e9c80e348c133b49ad1f41a2747fe9ad780f1e950eaca3"
+    }
+  ],
+  "sourceSearchExitCode": 0,
+  "cameraFitsReadDuringSearch": false,
+  "originalMatchesExactlyReproduced": true,
+  "originalEvidenceChanged": false
+}

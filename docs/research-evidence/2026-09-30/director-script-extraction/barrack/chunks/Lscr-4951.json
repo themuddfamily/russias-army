@@ -1,0 +1,162 @@
+{
+  "totalLength": 1038,
+  "totalLength2": 1038,
+  "headerLength": 92,
+  "scriptNumber": 25,
+  "unk20": 3,
+  "parentNumber": -1,
+  "scriptFlags": 0,
+  "unk42": 0,
+  "castID": 196642,
+  "factoryNameID": -1,
+  "handlerVectorsCount": 16,
+  "handlerVectorsOffset": 1006,
+  "handlerVectorsSize": 32768,
+  "propertiesCount": 0,
+  "propertiesOffset": 92,
+  "globalsCount": 6,
+  "globalsOffset": 92,
+  "handlersCount": 2,
+  "handlersOffset": 104,
+  "literalsCount": 18,
+  "literalsOffset": 490,
+  "literalsDataCount": 372,
+  "literalsDataOffset": 634,
+  "propertyNameIDs": [],
+  "globalNameIDs": [
+    125,
+    20,
+    18,
+    4,
+    143,
+    362
+  ],
+  "handlers": [
+    {
+      "nameID": 0,
+      "vectorPos": 65535,
+      "compiledLen": 105,
+      "compiledOffset": 196,
+      "argumentCount": 1,
+      "argumentOffset": 302,
+      "localsCount": 0,
+      "localsOffset": 304,
+      "globalsCount": 0,
+      "globalsOffset": 92,
+      "unknown1": 80,
+      "unknown2": 5,
+      "lineCount": 7,
+      "lineOffset": 304,
+      "stackHeight": 5
+    },
+    {
+      "nameID": 3,
+      "vectorPos": 15,
+      "compiledLen": 151,
+      "compiledOffset": 312,
+      "argumentCount": 1,
+      "argumentOffset": 464,
+      "localsCount": 1,
+      "localsOffset": 466,
+      "globalsCount": 0,
+      "globalsOffset": 92,
+      "unknown1": 524,
+      "unknown2": 15,
+      "lineCount": 21,
+      "lineOffset": 468,
+      "stackHeight": 4
+    }
+  ],
+  "literals": [
+    {
+      "type": 1,
+      "offset": 0,
+      "value": "rooms"
+    },
+    {
+      "type": 1,
+      "offset": 10,
+      "value": "Our commiserations, Comrade "
+    },
+    {
+      "type": 1,
+      "offset": 44,
+      "value": ", you are now pieces of Russian history, thanks to "
+    },
+    {
+      "type": 1,
+      "offset": 100,
+      "value": "..."
+    },
+    {
+      "type": 1,
+      "offset": 108,
+      "value": "\r"
+    },
+    {
+      "type": 1,
+      "offset": 114,
+      "value": "Would you like to submit your score of "
+    },
+    {
+      "type": 1,
+      "offset": 158,
+      "value": " points?"
+    },
+    {
+      "type": 1,
+      "offset": 172,
+      "value": "Click go to see if you are worthy of Kremlin fame."
+    },
+    {
+      "type": 1,
+      "offset": 228,
+      "value": "_root.state"
+    },
+    {
+      "type": 1,
+      "offset": 244,
+      "value": "replay"
+    },
+    {
+      "type": 1,
+      "offset": 256,
+      "value": "lobby"
+    },
+    {
+      "type": 1,
+      "offset": 266,
+      "value": ""
+    },
+    {
+      "type": 1,
+      "offset": 272,
+      "value": "getcodename"
+    },
+    {
+      "type": 1,
+      "offset": 288,
+      "value": "_root.codename"
+    },
+    {
+      "type": 1,
+      "offset": 308,
+      "value": "leapto"
+    },
+    {
+      "type": 1,
+      "offset": 320,
+      "value": "http://www.gamevial.com"
+    },
+    {
+      "type": 1,
+      "offset": 348,
+      "value": "_parent"
+    },
+    {
+      "type": 1,
+      "offset": 360,
+      "value": "submit"
+    }
+  ]
+}

@@ -1,0 +1,2532 @@
+{
+  "edition": "woodland",
+  "cast_name": "level2",
+  "cast_id": 6225,
+  "resource_id": 6377,
+  "source_sha256": "884d37a314b1ae150be05c1f2a30fb7ef6e20b4c25e047022e5e51e0911f6e6e",
+  "wrapper_offset": 16,
+  "ifx_header_size": 8,
+  "ifx_version": 17,
+  "declared_length_matches": true,
+  "blocks": [
+    {
+      "offset": 16,
+      "type": "ffffff01",
+      "bytes": 4
+    },
+    {
+      "offset": 28,
+      "type": "ffffff02",
+      "bytes": 3
+    },
+    {
+      "offset": 40,
+      "type": "ffffff72",
+      "bytes": 128
+    },
+    {
+      "offset": 176,
+      "type": "ffffff72",
+      "bytes": 140
+    },
+    {
+      "offset": 324,
+      "type": "ffffff72",
+      "bytes": 125
+    },
+    {
+      "offset": 460,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 600,
+      "type": "ffffff72",
+      "bytes": 125
+    },
+    {
+      "offset": 736,
+      "type": "ffffff72",
+      "bytes": 125
+    },
+    {
+      "offset": 872,
+      "type": "ffffff72",
+      "bytes": 122
+    },
+    {
+      "offset": 1004,
+      "type": "ffffff72",
+      "bytes": 128
+    },
+    {
+      "offset": 1140,
+      "type": "ffffff72",
+      "bytes": 125
+    },
+    {
+      "offset": 1276,
+      "type": "ffffff72",
+      "bytes": 113
+    },
+    {
+      "offset": 1400,
+      "type": "ffffff72",
+      "bytes": 113
+    },
+    {
+      "offset": 1524,
+      "type": "ffffff72",
+      "bytes": 119
+    },
+    {
+      "offset": 1652,
+      "type": "ffffff72",
+      "bytes": 149
+    },
+    {
+      "offset": 1812,
+      "type": "ffffff72",
+      "bytes": 134
+    },
+    {
+      "offset": 1956,
+      "type": "ffffff72",
+      "bytes": 125
+    },
+    {
+      "offset": 2092,
+      "type": "ffffff72",
+      "bytes": 116
+    },
+    {
+      "offset": 2216,
+      "type": "ffffff72",
+      "bytes": 152
+    },
+    {
+      "offset": 2376,
+      "type": "ffffff72",
+      "bytes": 131
+    },
+    {
+      "offset": 2516,
+      "type": "ffffff72",
+      "bytes": 113
+    },
+    {
+      "offset": 2640,
+      "type": "ffffff72",
+      "bytes": 122
+    },
+    {
+      "offset": 2772,
+      "type": "ffffff72",
+      "bytes": 125
+    },
+    {
+      "offset": 2908,
+      "type": "ffffff72",
+      "bytes": 128
+    },
+    {
+      "offset": 3044,
+      "type": "ffffff74",
+      "bytes": 202
+    },
+    {
+      "offset": 3256,
+      "type": "ffffff71",
+      "bytes": 111
+    },
+    {
+      "offset": 3376,
+      "type": "ffffff50",
+      "bytes": 53
+    },
+    {
+      "offset": 3440,
+      "type": "ffffff10",
+      "bytes": 88
+    },
+    {
+      "offset": 3536,
+      "type": "ffffff10",
+      "bytes": 92
+    },
+    {
+      "offset": 3636,
+      "type": "ffffff10",
+      "bytes": 87
+    },
+    {
+      "offset": 3732,
+      "type": "ffffff10",
+      "bytes": 89
+    },
+    {
+      "offset": 3832,
+      "type": "ffffff10",
+      "bytes": 87
+    },
+    {
+      "offset": 3928,
+      "type": "ffffff10",
+      "bytes": 87
+    },
+    {
+      "offset": 4024,
+      "type": "ffffff10",
+      "bytes": 86
+    },
+    {
+      "offset": 4120,
+      "type": "ffffff10",
+      "bytes": 92
+    },
+    {
+      "offset": 4220,
+      "type": "ffffff10",
+      "bytes": 86
+    },
+    {
+      "offset": 4316,
+      "type": "ffffff10",
+      "bytes": 82
+    },
+    {
+      "offset": 4408,
+      "type": "ffffff10",
+      "bytes": 83
+    },
+    {
+      "offset": 4500,
+      "type": "ffffff10",
+      "bytes": 91
+    },
+    {
+      "offset": 4600,
+      "type": "ffffff10",
+      "bytes": 86
+    },
+    {
+      "offset": 4696,
+      "type": "ffffff10",
+      "bytes": 86
+    },
+    {
+      "offset": 4792,
+      "type": "ffffff10",
+      "bytes": 89
+    },
+    {
+      "offset": 4892,
+      "type": "ffffff10",
+      "bytes": 87
+    },
+    {
+      "offset": 4988,
+      "type": "ffffff10",
+      "bytes": 87
+    },
+    {
+      "offset": 5084,
+      "type": "ffffff10",
+      "bytes": 83
+    },
+    {
+      "offset": 5176,
+      "type": "ffffff10",
+      "bytes": 96
+    },
+    {
+      "offset": 5280,
+      "type": "ffffff10",
+      "bytes": 89
+    },
+    {
+      "offset": 5380,
+      "type": "ffffff10",
+      "bytes": 83
+    },
+    {
+      "offset": 5472,
+      "type": "ffffff10",
+      "bytes": 100
+    },
+    {
+      "offset": 5580,
+      "type": "ffffff36",
+      "bytes": 184
+    },
+    {
+      "offset": 5772,
+      "type": "ffffff36",
+      "bytes": 196
+    },
+    {
+      "offset": 5976,
+      "type": "ffffff36",
+      "bytes": 181
+    },
+    {
+      "offset": 6168,
+      "type": "ffffff36",
+      "bytes": 187
+    },
+    {
+      "offset": 6364,
+      "type": "ffffff36",
+      "bytes": 181
+    },
+    {
+      "offset": 6556,
+      "type": "ffffff36",
+      "bytes": 181
+    },
+    {
+      "offset": 6748,
+      "type": "ffffff36",
+      "bytes": 178
+    },
+    {
+      "offset": 6936,
+      "type": "ffffff36",
+      "bytes": 195
+    },
+    {
+      "offset": 7140,
+      "type": "ffffff36",
+      "bytes": 178
+    },
+    {
+      "offset": 7328,
+      "type": "ffffff36",
+      "bytes": 166
+    },
+    {
+      "offset": 7504,
+      "type": "ffffff36",
+      "bytes": 169
+    },
+    {
+      "offset": 7684,
+      "type": "ffffff36",
+      "bytes": 192
+    },
+    {
+      "offset": 7884,
+      "type": "ffffff36",
+      "bytes": 178
+    },
+    {
+      "offset": 8072,
+      "type": "ffffff36",
+      "bytes": 178
+    },
+    {
+      "offset": 8260,
+      "type": "ffffff36",
+      "bytes": 182
+    },
+    {
+      "offset": 8452,
+      "type": "ffffff36",
+      "bytes": 181
+    },
+    {
+      "offset": 8644,
+      "type": "ffffff36",
+      "bytes": 181
+    },
+    {
+      "offset": 8836,
+      "type": "ffffff36",
+      "bytes": 169
+    },
+    {
+      "offset": 9016,
+      "type": "ffffff36",
+      "bytes": 208
+    },
+    {
+      "offset": 9232,
+      "type": "ffffff36",
+      "bytes": 187
+    },
+    {
+      "offset": 9428,
+      "type": "ffffff36",
+      "bytes": 169
+    },
+    {
+      "offset": 9608,
+      "type": "ffffff45",
+      "bytes": 140
+    },
+    {
+      "offset": 9756,
+      "type": "ffffff45",
+      "bytes": 152
+    },
+    {
+      "offset": 9916,
+      "type": "ffffff45",
+      "bytes": 137
+    },
+    {
+      "offset": 10064,
+      "type": "ffffff45",
+      "bytes": 143
+    },
+    {
+      "offset": 10216,
+      "type": "ffffff45",
+      "bytes": 137
+    },
+    {
+      "offset": 10364,
+      "type": "ffffff45",
+      "bytes": 137
+    },
+    {
+      "offset": 10512,
+      "type": "ffffff45",
+      "bytes": 134
+    },
+    {
+      "offset": 10656,
+      "type": "ffffff45",
+      "bytes": 144
+    },
+    {
+      "offset": 10808,
+      "type": "ffffff45",
+      "bytes": 136
+    },
+    {
+      "offset": 10952,
+      "type": "ffffff45",
+      "bytes": 124
+    },
+    {
+      "offset": 11084,
+      "type": "ffffff45",
+      "bytes": 179
+    },
+    {
+      "offset": 11272,
+      "type": "ffffff45",
+      "bytes": 181
+    },
+    {
+      "offset": 11464,
+      "type": "ffffff45",
+      "bytes": 155
+    },
+    {
+      "offset": 11628,
+      "type": "ffffff45",
+      "bytes": 143
+    },
+    {
+      "offset": 11780,
+      "type": "ffffff45",
+      "bytes": 137
+    },
+    {
+      "offset": 11928,
+      "type": "ffffff45",
+      "bytes": 127
+    },
+    {
+      "offset": 12064,
+      "type": "ffffff45",
+      "bytes": 164
+    },
+    {
+      "offset": 12236,
+      "type": "ffffff45",
+      "bytes": 143
+    },
+    {
+      "offset": 12388,
+      "type": "ffffff45",
+      "bytes": 125
+    },
+    {
+      "offset": 12524,
+      "type": "ffffff45",
+      "bytes": 134
+    },
+    {
+      "offset": 12668,
+      "type": "ffffff45",
+      "bytes": 136
+    },
+    {
+      "offset": 12812,
+      "type": "ffffff45",
+      "bytes": 296
+    },
+    {
+      "offset": 13116,
+      "type": "ffffff47",
+      "bytes": 35
+    },
+    {
+      "offset": 13160,
+      "type": "ffffff47",
+      "bytes": 49
+    },
+    {
+      "offset": 13220,
+      "type": "ffffff47",
+      "bytes": 30
+    },
+    {
+      "offset": 13260,
+      "type": "ffffff47",
+      "bytes": 41
+    },
+    {
+      "offset": 13312,
+      "type": "ffffff47",
+      "bytes": 447
+    },
+    {
+      "offset": 13768,
+      "type": "ffffff47",
+      "bytes": 58
+    },
+    {
+      "offset": 13836,
+      "type": "ffffff47",
+      "bytes": 36
+    },
+    {
+      "offset": 13880,
+      "type": "ffffff47",
+      "bytes": 50
+    },
+    {
+      "offset": 13940,
+      "type": "ffffff47",
+      "bytes": 32
+    },
+    {
+      "offset": 13980,
+      "type": "ffffff47",
+      "bytes": 21
+    },
+    {
+      "offset": 14012,
+      "type": "ffffff47",
+      "bytes": 132
+    },
+    {
+      "offset": 14152,
+      "type": "ffffff47",
+      "bytes": 57
+    },
+    {
+      "offset": 14220,
+      "type": "ffffff47",
+      "bytes": 45
+    },
+    {
+      "offset": 14276,
+      "type": "ffffff47",
+      "bytes": 42
+    },
+    {
+      "offset": 14328,
+      "type": "ffffff47",
+      "bytes": 38
+    },
+    {
+      "offset": 14376,
+      "type": "ffffff47",
+      "bytes": 428
+    },
+    {
+      "offset": 14812,
+      "type": "ffffff47",
+      "bytes": 239
+    },
+    {
+      "offset": 15060,
+      "type": "ffffff47",
+      "bytes": 297
+    },
+    {
+      "offset": 15368,
+      "type": "ffffff47",
+      "bytes": 141
+    },
+    {
+      "offset": 15520,
+      "type": "ffffff47",
+      "bytes": 31
+    },
+    {
+      "offset": 15560,
+      "type": "ffffff47",
+      "bytes": 32
+    },
+    {
+      "offset": 15600,
+      "type": "ffffff47",
+      "bytes": 231
+    },
+    {
+      "offset": 15840,
+      "type": "ffffff48",
+      "bytes": 127
+    },
+    {
+      "offset": 15976,
+      "type": "ffffff48",
+      "bytes": 185
+    },
+    {
+      "offset": 16172,
+      "type": "ffffff48",
+      "bytes": 116
+    },
+    {
+      "offset": 16296,
+      "type": "ffffff48",
+      "bytes": 141
+    },
+    {
+      "offset": 16448,
+      "type": "ffffff48",
+      "bytes": 26
+    },
+    {
+      "offset": 16484,
+      "type": "ffffff48",
+      "bytes": 479
+    },
+    {
+      "offset": 16972,
+      "type": "ffffff48",
+      "bytes": 52
+    },
+    {
+      "offset": 17032,
+      "type": "ffffff48",
+      "bytes": 293
+    },
+    {
+      "offset": 17336,
+      "type": "ffffff48",
+      "bytes": 116
+    },
+    {
+      "offset": 17460,
+      "type": "ffffff48",
+      "bytes": 97
+    },
+    {
+      "offset": 17568,
+      "type": "ffffff48",
+      "bytes": 21
+    },
+    {
+      "offset": 17600,
+      "type": "ffffff48",
+      "bytes": 51
+    },
+    {
+      "offset": 17660,
+      "type": "ffffff48",
+      "bytes": 99
+    },
+    {
+      "offset": 17768,
+      "type": "ffffff48",
+      "bytes": 27
+    },
+    {
+      "offset": 17804,
+      "type": "ffffff48",
+      "bytes": 585
+    },
+    {
+      "offset": 18400,
+      "type": "ffffff48",
+      "bytes": 10216
+    },
+    {
+      "offset": 28624,
+      "type": "ffffff48",
+      "bytes": 35
+    },
+    {
+      "offset": 28668,
+      "type": "ffffff48",
+      "bytes": 28
+    },
+    {
+      "offset": 28704,
+      "type": "ffffff48",
+      "bytes": 148
+    },
+    {
+      "offset": 28860,
+      "type": "ffffff48",
+      "bytes": 124
+    },
+    {
+      "offset": 28992,
+      "type": "ffffff48",
+      "bytes": 125
+    },
+    {
+      "offset": 29128,
+      "type": "ffffff48",
+      "bytes": 26
+    },
+    {
+      "offset": 29164,
+      "type": "ffffff01",
+      "bytes": 4
+    },
+    {
+      "offset": 29176,
+      "type": "ffffff49",
+      "bytes": 6638
+    },
+    {
+      "offset": 35824,
+      "type": "ffffff49",
+      "bytes": 6567
+    },
+    {
+      "offset": 42400,
+      "type": "ffffff49",
+      "bytes": 4594
+    },
+    {
+      "offset": 47004,
+      "type": "ffffff49",
+      "bytes": 10893
+    },
+    {
+      "offset": 57908,
+      "type": "ffffff49",
+      "bytes": 3202
+    },
+    {
+      "offset": 61120,
+      "type": "ffffff49",
+      "bytes": 9790
+    },
+    {
+      "offset": 70920,
+      "type": "ffffff49",
+      "bytes": 4668
+    },
+    {
+      "offset": 75596,
+      "type": "ffffff49",
+      "bytes": 9035
+    },
+    {
+      "offset": 84640,
+      "type": "ffffff49",
+      "bytes": 2561
+    },
+    {
+      "offset": 87212,
+      "type": "ffffff49",
+      "bytes": 2283
+    },
+    {
+      "offset": 89504,
+      "type": "ffffff49",
+      "bytes": 10463
+    },
+    {
+      "offset": 99976,
+      "type": "ffffff49",
+      "bytes": 2550
+    },
+    {
+      "offset": 102536,
+      "type": "ffffff49",
+      "bytes": 7931
+    },
+    {
+      "offset": 110476,
+      "type": "ffffff49",
+      "bytes": 2979
+    },
+    {
+      "offset": 113464,
+      "type": "ffffff49",
+      "bytes": 15484
+    },
+    {
+      "offset": 128956,
+      "type": "ffffff49",
+      "bytes": 7772
+    },
+    {
+      "offset": 136736,
+      "type": "ffffff49",
+      "bytes": 4276
+    },
+    {
+      "offset": 141020,
+      "type": "ffffff49",
+      "bytes": 3593
+    },
+    {
+      "offset": 144624,
+      "type": "ffffff49",
+      "bytes": 7533
+    },
+    {
+      "offset": 152168,
+      "type": "ffffff49",
+      "bytes": 2567
+    },
+    {
+      "offset": 154744,
+      "type": "ffffff49",
+      "bytes": 2568
+    },
+    {
+      "offset": 157320,
+      "type": "ffffff49",
+      "bytes": 4047
+    },
+    {
+      "offset": 161376,
+      "type": "ffffff01",
+      "bytes": 4
+    },
+    {
+      "offset": 161388,
+      "type": "ffffff49",
+      "bytes": 1223
+    },
+    {
+      "offset": 162620,
+      "type": "ffffff49",
+      "bytes": 3091
+    },
+    {
+      "offset": 165720,
+      "type": "ffffff49",
+      "bytes": 10345
+    },
+    {
+      "offset": 176076,
+      "type": "ffffff49",
+      "bytes": 8041
+    },
+    {
+      "offset": 184128,
+      "type": "ffffff49",
+      "bytes": 8197
+    },
+    {
+      "offset": 192336,
+      "type": "ffffff49",
+      "bytes": 9668
+    },
+    {
+      "offset": 202012,
+      "type": "ffffff49",
+      "bytes": 7160
+    },
+    {
+      "offset": 209180,
+      "type": "ffffff49",
+      "bytes": 4221
+    },
+    {
+      "offset": 213412,
+      "type": "ffffff49",
+      "bytes": 3578
+    },
+    {
+      "offset": 217000,
+      "type": "ffffff49",
+      "bytes": 6844
+    },
+    {
+      "offset": 223852,
+      "type": "ffffff49",
+      "bytes": 3356
+    },
+    {
+      "offset": 227216,
+      "type": "ffffff01",
+      "bytes": 4
+    },
+    {
+      "offset": 227228,
+      "type": "ffffff49",
+      "bytes": 6031
+    },
+    {
+      "offset": 233268,
+      "type": "ffffff49",
+      "bytes": 8950
+    },
+    {
+      "offset": 242228,
+      "type": "ffffff49",
+      "bytes": 315
+    },
+    {
+      "offset": 242552,
+      "type": "ffffff49",
+      "bytes": 14537
+    },
+    {
+      "offset": 257100,
+      "type": "ffffff49",
+      "bytes": 7946
+    },
+    {
+      "offset": 265056,
+      "type": "ffffff49",
+      "bytes": 6344
+    },
+    {
+      "offset": 271408,
+      "type": "ffffff49",
+      "bytes": 12577
+    },
+    {
+      "offset": 283996,
+      "type": "ffffff49",
+      "bytes": 7719
+    },
+    {
+      "offset": 291724,
+      "type": "ffffff01",
+      "bytes": 4
+    },
+    {
+      "offset": 291736,
+      "type": "ffffff49",
+      "bytes": 10594
+    },
+    {
+      "offset": 302340,
+      "type": "ffffff49",
+      "bytes": 28507
+    },
+    {
+      "offset": 330856,
+      "type": "ffffff49",
+      "bytes": 14576
+    },
+    {
+      "offset": 345440,
+      "type": "ffffff49",
+      "bytes": 11807
+    },
+    {
+      "offset": 357256,
+      "type": "ffffff49",
+      "bytes": 8428
+    },
+    {
+      "offset": 365692,
+      "type": "ffffff01",
+      "bytes": 4
+    },
+    {
+      "offset": 365704,
+      "type": "ffffff49",
+      "bytes": 31858
+    },
+    {
+      "offset": 397572,
+      "type": "ffffff49",
+      "bytes": 48575
+    },
+    {
+      "offset": 446156,
+      "type": "ffffff49",
+      "bytes": 15631
+    },
+    {
+      "offset": 461796,
+      "type": "ffffff49",
+      "bytes": 21306
+    },
+    {
+      "offset": 483112,
+      "type": "ffffff01",
+      "bytes": 4
+    },
+    {
+      "offset": 483124,
+      "type": "ffffff49",
+      "bytes": 26517
+    },
+    {
+      "offset": 509652,
+      "type": "ffffff49",
+      "bytes": 45211
+    },
+    {
+      "offset": 554872,
+      "type": "ffffff49",
+      "bytes": 2116
+    }
+  ],
+  "block_counts": {
+    "ffffff01": 7,
+    "ffffff02": 1,
+    "ffffff72": 22,
+    "ffffff74": 1,
+    "ffffff71": 1,
+    "ffffff50": 1,
+    "ffffff10": 22,
+    "ffffff36": 21,
+    "ffffff45": 22,
+    "ffffff47": 22,
+    "ffffff48": 22,
+    "ffffff49": 53
+  },
+  "nodes": [
+    {
+      "name": "woodenshed",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        518.5166625976562,
+        -2296.515625,
+        -451.47509765625,
+        1.0
+      ],
+      "model_resource": "woodenshed",
+      "style": "woodenshed",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        518.5166625976562,
+        -2296.515625,
+        -451.47509765625
+      ]
+    },
+    {
+      "name": "haddingtoncafe",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        11.959790229797363,
+        -1.0143985748291016,
+        0.0,
+        0.0,
+        1.0143985748291016,
+        11.959790229797363,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        12.306394577026367,
+        0.0,
+        2344.22119140625,
+        -2193.13427734375,
+        -299.4007873535156,
+        1.0
+      ],
+      "model_resource": "haddingtoncafe",
+      "style": "haddingtoncafe",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2344.22119140625,
+        -2193.13427734375,
+        -299.4007873535156
+      ]
+    },
+    {
+      "name": "stonebarn",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1405.802734375,
+        -457.44158935546875,
+        -451.9236145019531,
+        1.0
+      ],
+      "model_resource": "stonebarn",
+      "style": "stonebarn",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        1405.802734375,
+        -457.44158935546875,
+        -451.9236145019531
+      ]
+    },
+    {
+      "name": "woodenlodge",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        -0.4214223325252533,
+        0.031470365822315216,
+        0.0,
+        0.0,
+        -0.031470369547605515,
+        -0.4214223325252533,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.422595739364624,
+        0.0,
+        -5887.5498046875,
+        3835.0029296875,
+        566.2322387695312,
+        1.0
+      ],
+      "model_resource": "woodenlodge",
+      "style": "woodenlodge",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -5887.5498046875,
+        3835.0029296875,
+        566.2322387695312
+      ]
+    },
+    {
+      "name": "syccamore",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "model_resource": "syccamore",
+      "style": "syccamore",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "lorryback",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        3077.115966796875,
+        -3350.275634765625,
+        -445.92706298828125,
+        1.0
+      ],
+      "model_resource": "lorryback",
+      "style": "lorryback",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        3077.115966796875,
+        -3350.275634765625,
+        -445.92706298828125
+      ]
+    },
+    {
+      "name": "brownloo",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        -0.40929001569747925,
+        0.24494796991348267,
+        0.0,
+        0.0,
+        -0.24494796991348267,
+        -0.40929001569747925,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4769883155822754,
+        0.0,
+        -3435.9072265625,
+        -3852.20068359375,
+        -326.57293701171875,
+        1.0
+      ],
+      "model_resource": "brownloo",
+      "style": "brownloo",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -3435.9072265625,
+        -3852.20068359375,
+        -326.57293701171875
+      ]
+    },
+    {
+      "name": "solidfence",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0391745567321777,
+        -0.12997324764728546,
+        0.0,
+        0.0,
+        0.12997324764728546,
+        1.0391745567321777,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0472711324691772,
+        0.0,
+        219.1748046875,
+        -1796.29052734375,
+        -457.7915344238281,
+        1.0
+      ],
+      "model_resource": "solidfence",
+      "style": "solidfence",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        219.1748046875,
+        -1796.29052734375,
+        -457.7915344238281
+      ]
+    },
+    {
+      "name": "irishyew2",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1607.589111328125,
+        -2620.316162109375,
+        -457.84454345703125,
+        1.0
+      ],
+      "model_resource": "irishyew2",
+      "style": "irishyew2",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        1607.589111328125,
+        -2620.316162109375,
+        -457.84454345703125
+      ]
+    },
+    {
+      "name": "sheds",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        6.636075795540819e-07,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        6.636075795540819e-07,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        6148.0205078125,
+        6341.86767578125,
+        509.5122985839844,
+        1.0
+      ],
+      "model_resource": "sheds",
+      "style": "sheds",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        6148.0205078125,
+        6341.86767578125,
+        509.5122985839844
+      ]
+    },
+    {
+      "name": "floor",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "model_resource": "floor",
+      "style": "floor",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "plinths",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        -1.7484555314695172e-07,
+        0.0,
+        0.0,
+        1.7484555314695172e-07,
+        1.0,
+        0.0,
+        7633.88720703125,
+        4510.1904296875,
+        -95.90872192382812,
+        1.0
+      ],
+      "model_resource": "plinths",
+      "style": "plinths",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        7633.88720703125,
+        4510.1904296875,
+        -95.90872192382812
+      ]
+    },
+    {
+      "name": "bigredfellaopen01",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        3.3776623808989825e-07,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        -3.3776623808989825e-07,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -3120.12109375,
+        -8714.859375,
+        829.978759765625,
+        1.0
+      ],
+      "model_resource": "bigredfellaopen01",
+      "style": "bigredfellaopen01",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        -3120.12109375,
+        -8714.859375,
+        829.978759765625
+      ]
+    },
+    {
+      "name": "outerfencing",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -8000.0,
+        1.0
+      ],
+      "model_resource": "outerfencing",
+      "style": "outerfencing",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        0.0,
+        0.0,
+        -8000.0
+      ]
+    },
+    {
+      "name": "cliffview",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        6938.39306640625,
+        4827.22607421875,
+        512.8671875,
+        1.0
+      ],
+      "model_resource": "cliffview",
+      "style": "cliffview",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        6938.39306640625,
+        4827.22607421875,
+        512.8671875
+      ]
+    },
+    {
+      "name": "trunks",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        2865.338134765625,
+        -766.226318359375,
+        -447.8311767578125,
+        1.0
+      ],
+      "model_resource": "trunks",
+      "style": "trunks",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2865.338134765625,
+        -766.226318359375,
+        -447.8311767578125
+      ]
+    },
+    {
+      "name": "spindlybirchleaves",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "model_resource": "spindlybirchleaves",
+      "style": "spindlybirchleaves",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "rowanbranch",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "model_resource": "rowanbranch",
+      "style": "rowanbranch",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "birch",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        2865.338134765625,
+        -766.226318359375,
+        -447.8311767578125,
+        1.0
+      ],
+      "model_resource": "birch",
+      "style": "birch",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        2865.338134765625,
+        -766.226318359375,
+        -447.8311767578125
+      ]
+    },
+    {
+      "name": "irishyew",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1613.6365966796875,
+        -2620.316162109375,
+        -355.42816162109375,
+        1.0
+      ],
+      "model_resource": "irishyew",
+      "style": "irishyew",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        1613.6365966796875,
+        -2620.316162109375,
+        -355.42816162109375
+      ]
+    },
+    {
+      "name": "irishyew3",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        818.1371459960938,
+        -2525.2646484375,
+        -355.42816162109375,
+        1.0
+      ],
+      "model_resource": "irishyew3",
+      "style": "irishyew3",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        818.1371459960938,
+        -2525.2646484375,
+        -355.42816162109375
+      ]
+    },
+    {
+      "name": "othertrees",
+      "parent": "World",
+      "resource": "",
+      "type": "model",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -16000.0,
+        1.0
+      ],
+      "model_resource": "othertrees",
+      "style": "othertrees",
+      "visibility": 1,
+      "shader": "DefaultShader",
+      "translation": [
+        0.0,
+        0.0,
+        -16000.0
+      ]
+    }
+  ],
+  "model_resources": [
+    {
+      "name": "woodenshed",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 415,
+          "faces": 196,
+          "update_data_count": 336,
+          "updates": 106,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "woodenshed",
+          "mesh_bindings": [
+            "woodenshed"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -603.958984375,
+        4412.63134765625,
+        557.025146484375,
+        4669.64599609375
+      ]
+    },
+    {
+      "name": "haddingtoncafe",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 332,
+          "faces": 302,
+          "update_data_count": 328,
+          "updates": 182,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "haddingtoncafe",
+          "mesh_bindings": [
+            "haddingtoncafe"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        1.71661376953125e-05,
+        1.9073486328125e-06,
+        -4.76837158203125e-07,
+        56.93611145019531
+      ]
+    },
+    {
+      "name": "stonebarn",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 230,
+          "faces": 113,
+          "update_data_count": 187,
+          "updates": 66,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "stonebarn",
+          "mesh_bindings": [
+            "stonebarn"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -254.22268676757812,
+        10.211471557617188,
+        120.36559295654297,
+        793.343994140625
+      ]
+    },
+    {
+      "name": "woodenlodge",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 720,
+          "faces": 402,
+          "update_data_count": 738,
+          "updates": 248,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "woodenlodge",
+          "mesh_bindings": [
+            "woodenlodge"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -0.0078125,
+        7.62939453125e-05,
+        234.33303833007812,
+        855.6038818359375
+      ]
+    },
+    {
+      "name": "syccamore",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 6132,
+          "faces": 4088,
+          "update_data_count": 3066,
+          "updates": 4088,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "syccamore",
+          "mesh_bindings": [
+            "syccamore"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -622.586669921875,
+        304.09423828125,
+        435.8409118652344,
+        9326.78125
+      ]
+    },
+    {
+      "name": "lorryback",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 1506,
+          "faces": 1372,
+          "update_data_count": 1856,
+          "updates": 714,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "lorryback",
+          "mesh_bindings": [
+            "lorryback"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -185.6943359375,
+        928.1129760742188,
+        62.00680160522461,
+        1039.201416015625
+      ]
+    },
+    {
+      "name": "brownloo",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 298,
+          "faces": 160,
+          "update_data_count": 179,
+          "updates": 101,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "brownloo",
+          "mesh_bindings": [
+            "brownloo"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        1.3111190795898438,
+        0.0,
+        222.0941162109375,
+        552.7686157226562
+      ]
+    },
+    {
+      "name": "solidfence",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 1269,
+          "faces": 680,
+          "update_data_count": 1005,
+          "updates": 368,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "solidfence",
+          "mesh_bindings": [
+            "solidoldfences"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        1006.0394287109375,
+        213.62960815429688,
+        41.06559371948242,
+        1417.63525390625
+      ]
+    },
+    {
+      "name": "irishyew2",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 86,
+          "faces": 96,
+          "update_data_count": 133,
+          "updates": 64,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "irishyew2",
+          "mesh_bindings": [
+            "irishyew"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -385.60565185546875,
+        76.163330078125,
+        118.84564208984375,
+        127.45661163330078
+      ]
+    },
+    {
+      "name": "sheds",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 136,
+          "faces": 52,
+          "update_data_count": 65,
+          "updates": 26,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "sheds",
+          "mesh_bindings": [
+            "barn"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        0.00048828125,
+        43.15045166015625,
+        -1.52587890625e-05,
+        275.4883117675781
+      ]
+    },
+    {
+      "name": "floor",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 552,
+          "faces": 827,
+          "update_data_count": 1355,
+          "updates": 513,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        },
+        {
+          "vertices": 182,
+          "faces": 146,
+          "update_data_count": 170,
+          "updates": 279,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader",
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "floor",
+          "mesh_bindings": [
+            "floor",
+            "barerocksand2"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        98.7080078125,
+        -348.4921875,
+        563.418701171875,
+        11715.5478515625
+      ]
+    },
+    {
+      "name": "plinths",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 29,
+          "faces": 10,
+          "update_data_count": 17,
+          "updates": 21,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        },
+        {
+          "vertices": 121,
+          "faces": 56,
+          "update_data_count": 49,
+          "updates": 39,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader",
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "plinths",
+          "mesh_bindings": [
+            "concrete",
+            "stepwall"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -7293.2470703125,
+        -5765.408203125,
+        546.8831176757812,
+        11198.814453125
+      ]
+    },
+    {
+      "name": "bigredfellaopen01",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 545,
+          "faces": 314,
+          "update_data_count": 390,
+          "updates": 175,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "bigredfellaopen01",
+          "mesh_bindings": [
+            "bigredfella"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        540.728271484375,
+        -1349.918212890625,
+        172.18365478515625,
+        1784.5035400390625
+      ]
+    },
+    {
+      "name": "outerfencing",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 176,
+          "faces": 88,
+          "update_data_count": 127,
+          "updates": 84,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "outerfencing",
+          "mesh_bindings": [
+            "wirefence"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        1232.60888671875,
+        -241.276611328125,
+        3255.874267578125,
+        11158.115234375
+      ]
+    },
+    {
+      "name": "cliffview",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 1669,
+          "faces": 825,
+          "update_data_count": 1350,
+          "updates": 412,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "cliffview",
+          "mesh_bindings": [
+            "cliffview"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        16.470123291015625,
+        646.9794311523438,
+        0.0,
+        1007.2384033203125
+      ]
+    },
+    {
+      "name": "trunks",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 10765,
+          "faces": 7540,
+          "update_data_count": 9225,
+          "updates": 4748,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "trunks",
+          "mesh_bindings": [
+            "barks"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -2568.05322265625,
+        359.970458984375,
+        794.7448120117188,
+        10555.2421875
+      ]
+    },
+    {
+      "name": "spindlybirchleaves",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 3152,
+          "faces": 1576,
+          "update_data_count": 400,
+          "updates": 1576,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "spindlybirchleaves",
+          "mesh_bindings": [
+            "spindlybirchleaves"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -285.666015625,
+        -14.801025390625,
+        610.3069458007812,
+        9786.6201171875
+      ]
+    },
+    {
+      "name": "rowanbranch",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 4304,
+          "faces": 3228,
+          "update_data_count": 2690,
+          "updates": 3228,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "rowanbranch",
+          "mesh_bindings": [
+            "rowanbranch"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -543.6845703125,
+        -290.85302734375,
+        435.948974609375,
+        9438.140625
+      ]
+    },
+    {
+      "name": "birch",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 1492,
+          "faces": 1352,
+          "update_data_count": 339,
+          "updates": 596,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "birch",
+          "mesh_bindings": [
+            "birch"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -3040.61669921875,
+        411.375,
+        1046.2081298828125,
+        8981.595703125
+      ]
+    },
+    {
+      "name": "irishyew",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 86,
+          "faces": 96,
+          "update_data_count": 136,
+          "updates": 64,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "irishyew",
+          "mesh_bindings": [
+            "irishyew"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        -1.9073486328125e-05,
+        0.0,
+        -7.62939453125e-06,
+        110.7696762084961
+      ]
+    },
+    {
+      "name": "irishyew3",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 86,
+          "faces": 96,
+          "update_data_count": 136,
+          "updates": 64,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "irishyew3",
+          "mesh_bindings": [
+            "irishyew"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        0.0,
+        0.0,
+        -7.62939453125e-06,
+        110.76968383789062
+      ]
+    },
+    {
+      "name": "othertrees",
+      "attributes": 6,
+      "meshes": [
+        {
+          "vertices": 284,
+          "faces": 142,
+          "update_data_count": 32,
+          "updates": 142,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        },
+        {
+          "vertices": 324,
+          "faces": 216,
+          "update_data_count": 166,
+          "updates": 216,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        },
+        {
+          "vertices": 304,
+          "faces": 228,
+          "update_data_count": 190,
+          "updates": 228,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        },
+        {
+          "vertices": 62,
+          "faces": 56,
+          "update_data_count": 15,
+          "updates": 23,
+          "inverse_sync_bias": 0.0,
+          "vertex_attributes": 19
+        }
+      ],
+      "shader_bindings": [
+        {
+          "name": "default",
+          "mesh_bindings": [
+            "DefaultShader",
+            "DefaultShader",
+            "DefaultShader",
+            "DefaultShader"
+          ]
+        },
+        {
+          "name": "othertrees",
+          "mesh_bindings": [
+            "spindlybirchleaves",
+            "syccamore",
+            "rowanbranch",
+            "birch"
+          ]
+        }
+      ],
+      "bounding_sphere": [
+        1149.0322265625,
+        -382.921630859375,
+        7789.658203125,
+        13805.4072265625
+      ]
+    }
+  ],
+  "errors": [],
+  "parser_reference": "https://github.com/igorlira/dirplayer-rs/tree/68376fbb4494a6bbad4c70081ecdcb99814a74c9/vm-rust/src/director/chunks/w3d"
+}
